@@ -1,0 +1,13 @@
+maquette/__init__.py,sha256=SbXPxH-htgxeIH7uTz9NsEDdtW5Jtzl4zby7-I6VbhM,19
+maquette/__mq.py,sha256=nFkxh0LjHW00vUZQyhVc27mci0-tqJ9c54nuxc4Ir-M,16047
+maquette/common/__errors.py,sha256=md1OUSl7NWOuK1ApJQartu1orXGg6ya8V9qMlVRPtr4,65
+maquette/sample/just-a.csv,sha256=0condHyFWjhZKyvCz-5bplVYNBWgaVvzu8VG4tRZle4,29
+maquette/sample/mqpy_sdk_sample.py,sha256=6qPBvvHuzghub36pqXzi--sost8nlH2lJm5ns8aU_os,1653
+maquette_lib/__client.py,sha256=qKmeuI2M408qBwHFzoYvPYrSrX9l9eYh7j3TvgSC0VM,3319
+maquette_lib/__environment.py,sha256=sX4sS81BRREp7HOQzrv8E8CJwpDtNSQZ5QonyuOuWpY,696
+maquette_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maquette_lib/__user_config.py,sha256=_qkNuEfK5eB3nhWV8-QWAxkgjqGruFRxyXXn2QOZzgw,418
+maquette_lib/__util.py,sha256=JSeILulcpcn1sYX3vlQh8ZzLoq8Aws80XnjxFhLpajI,346
+maquette-0.0.6.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+maquette-0.0.6.dist-info/METADATA,sha256=Ljkwdx0Ky_AnrzzFnBiNjKMFRLcpXJdhdb6Pbai33-8,1262
+maquette-0.0.6.dist-info/RECORD,,

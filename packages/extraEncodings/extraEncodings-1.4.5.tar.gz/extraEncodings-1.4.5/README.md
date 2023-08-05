@@ -1,0 +1,42 @@
+# Extra encodings for Python 
+
+## Update 1.4
+---
+Added Gui with tkinter (tkinter is neccesary or you won't beable to use the package)\
+Finshed ichor\
+Added a class for a 2 way dict in classsstuff.py so check that out\
+Added a class to make an Encoding in ciphers.py, if you want to know how to use\
+Decided to delete encodingsbeta  and instead use beta releases
+
+
+## Plans:
+----
+Add a function that makes a encoding\
+Add a github project\
+Adding more encodings/decodings\
+Make my TwoWayDict class more feature rich. (1/3 finshed)\
+Add Binary encodings
+
+
+## Notes
+----
+This is my first ever package (Which no one has ever installed)\
+Ichor is not available in GUI due to  dictionary)'s being stubborn\
+Currently we only support all characters on a US keyboard for all encoding types and a computer that runs a standard os like Win32/64 , macOS (Not tested), Linux Debian,Ubuntu and distros based on them.
+
+## Planned and Implmented Decodings and encodings:
+----
+Ichor\
+Gen2\
+LTF-64\
+GTX2\
+LGC(To  be added to encoders 1.4.6 and made in ciphers.py 1.4.5)\
+
+## How to import
+----
+```
+    import extraEncodings\
+    from ExtraEncodings import *
+
+```
+ 

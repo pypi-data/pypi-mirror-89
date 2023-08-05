@@ -1,0 +1,7 @@
+gpsd_prometheus_exporter/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+gpsd_prometheus_exporter/main.py,sha256=DNzcb9hVKBtGshF6Z_fOgzIOFILUvq5KVWuwvh1NVe0,2835
+gpsd_prometheus_exporter-0.3.1.dist-info/entry_points.txt,sha256=Hg6Mzc7Y0s6IgPbySjpIEVu5u3t-QPNqebg9Cxyg8BI,68
+gpsd_prometheus_exporter-0.3.1.dist-info/LICENSE,sha256=RNyi9FMb8SYB9CCsyI_HK2qX0dKbJQOlU8nhmvRZihM,1061
+gpsd_prometheus_exporter-0.3.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+gpsd_prometheus_exporter-0.3.1.dist-info/METADATA,sha256=7p1MG0cEYLwcCW12-Uujq9SlgzwYpP_oC1OSnrxkzyM,1577
+gpsd_prometheus_exporter-0.3.1.dist-info/RECORD,,

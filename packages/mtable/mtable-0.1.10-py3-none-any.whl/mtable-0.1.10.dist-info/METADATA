@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mtable
+Version: 0.1.10
+Summary: format data to reStructedText and Markup Table
+Home-page: https://github.com/liuyug/mtable
+Author: Yugang LIU
+Author-email: liuyug@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: beautifulsoup4
+Requires-Dist: chardet
+Requires-Dist: wcwidth
+
+============
+Markup Table
+============
+
+format data to Table
+
+Output table
+------------
++ reStructuredText
++ Markdown
++ html
++ csv
++ pandas.dataframe
+
+Read table from
+---------------
++ list data
++ dict data
++ html
++ csv
++ rst
++ md
+
+

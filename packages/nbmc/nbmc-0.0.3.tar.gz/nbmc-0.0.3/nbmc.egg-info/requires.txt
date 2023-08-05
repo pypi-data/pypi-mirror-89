@@ -1,0 +1,6 @@
+yowasp-yosys
+wavedrom
+z3-solver
+pyDigitalWaveTools
+parse
+nmigen

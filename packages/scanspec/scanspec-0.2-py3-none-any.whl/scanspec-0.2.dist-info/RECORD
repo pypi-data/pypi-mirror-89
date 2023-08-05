@@ -1,0 +1,15 @@
+scanspec/__init__.py,sha256=cIQMu_13C-GiTX4F_6CsXaQkvCchMq6NurBlveodkfo,65
+scanspec/__main__.py,sha256=SXrSo9n8dyagtP5jcXobzVUL8hxi5CUK9SpjivRx1kQ,116
+scanspec/_version_git.py,sha256=D4arxRIzM4PfvCGcCVYc1-_nOd2MLS0F5enBCTQgjm4,3818
+scanspec/cli.py,sha256=JBnC44FxNuIVkE3YoY9AnlR_xpVHPGvVkzqxYcYoSoI,993
+scanspec/core.py,sha256=ynFzN4LafTR90hetkDkSJeJEIyqoJLBgWy1yymyQWZ0,15791
+scanspec/plot.py,sha256=cAlV2kC7lKHZ-FYAdaY0H4Szwu8S2JC-DrhvVLkiItQ,7579
+scanspec/regions.py,sha256=Rn33WWWW7pnUN7T7ClNLOWb3sE8ZZee0Vn4V7nhYPA8,8858
+scanspec/specs.py,sha256=S8DRRTmGiOSHh6PbVmAaxg229ehZV-FvSRJinLmG2jY,21117
+scanspec/sphinxext.py,sha256=WvL4djnadkYHXsoovyAr5ZYJiotEDzSKnn7nqSm-1h0,4499
+scanspec-0.2.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+scanspec-0.2.dist-info/METADATA,sha256=K-Ft2DF-5zYGMvGl488DCRC3f14yrkxTJbqlhD8l6YE,3619
+scanspec-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+scanspec-0.2.dist-info/entry_points.txt,sha256=f-U0Xj5L6oQkxt5oeK3PIn5ayTkT4az8aPX6DYgPE2o,47
+scanspec-0.2.dist-info/top_level.txt,sha256=me_Mt7vpf8gnpcJ-NN00E8DGA6IJEgqh6-zBCogYeZE,9
+scanspec-0.2.dist-info/RECORD,,

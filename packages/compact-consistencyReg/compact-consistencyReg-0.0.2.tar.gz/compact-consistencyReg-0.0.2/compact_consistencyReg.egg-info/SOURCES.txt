@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+compact_consistencyReg.egg-info/PKG-INFO
+compact_consistencyReg.egg-info/SOURCES.txt
+compact_consistencyReg.egg-info/dependency_links.txt
+compact_consistencyReg.egg-info/requires.txt
+compact_consistencyReg.egg-info/top_level.txt
+consistencyRegularisation/__init__.py
+consistencyRegularisation/fixMatch.py
+consistencyRegularisation/mixMatch.py
+consistencyRegularisation/semi-supervised.py
+consistencyRegularisation/utils.py

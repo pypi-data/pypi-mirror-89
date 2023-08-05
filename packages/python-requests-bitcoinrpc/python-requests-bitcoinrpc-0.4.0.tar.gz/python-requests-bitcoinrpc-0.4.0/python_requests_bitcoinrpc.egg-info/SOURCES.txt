@@ -1,0 +1,9 @@
+README.md
+setup.py
+bitcoinrpc/__init__.py
+bitcoinrpc/authproxy.py
+python_requests_bitcoinrpc.egg-info/PKG-INFO
+python_requests_bitcoinrpc.egg-info/SOURCES.txt
+python_requests_bitcoinrpc.egg-info/dependency_links.txt
+python_requests_bitcoinrpc.egg-info/requires.txt
+python_requests_bitcoinrpc.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: music-anim-utils
+Version: 0.0.1
+Summary: Utilities for musical animations in Blender..
+Home-page: https://github.com/HuangPatrick16777216/music_anim_utils
+Author: Patrick Huang
+Author-email: huangpatrick16777216@gmail.com
+License: UNKNOWN
+Description: # music_anim_utils
+        Utilities for musical animations in Blender.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

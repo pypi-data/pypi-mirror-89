@@ -1,0 +1,11 @@
+setup.py
+envoy_proxy_validator.egg-info/PKG-INFO
+envoy_proxy_validator.egg-info/SOURCES.txt
+envoy_proxy_validator.egg-info/dependency_links.txt
+envoy_proxy_validator.egg-info/top_level.txt
+github/__init__.py
+github/com/__init__.py
+github/com/envoyproxy/__init__.py
+github/com/envoyproxy/protoc_gen_validate/__init__.py
+github/com/envoyproxy/protoc_gen_validate/validate/__init__.py
+github/com/envoyproxy/protoc_gen_validate/validate/validate_pb2.py

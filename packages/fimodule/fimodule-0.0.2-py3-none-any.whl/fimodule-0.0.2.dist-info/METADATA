@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fimodule
+Version: 0.0.2
+Summary: Fi bot's developing Module
+Home-page: https://dl.fsip.ml/
+Author: FSanchir
+Author-email: fsanchir@fsip.ml
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: discord
+Requires-Dist: discord.py
+
+# FiAddon
+Developing Addon.
+
+

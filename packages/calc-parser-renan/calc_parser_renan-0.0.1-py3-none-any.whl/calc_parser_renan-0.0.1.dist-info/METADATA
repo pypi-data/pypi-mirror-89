@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: calc-parser-renan
+Version: 0.0.1
+Summary: Calculator using Lark
+Home-page: https://github.com/renan601/calc-parser
+Author: Renan Welz Schadt
+Author-email: renanschadt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+
+UNKNOWN
+
+

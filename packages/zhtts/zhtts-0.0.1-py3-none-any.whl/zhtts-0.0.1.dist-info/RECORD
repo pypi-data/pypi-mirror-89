@@ -1,0 +1,16 @@
+zhtts/__init__.py,sha256=36A4Oxo1Pe2n4p9nDinQNPfbB24OOJLjXcC6Aj9xgEo,20
+zhtts/tts.py,sha256=Caye5rWbq1X4JOBVsD4EDaXiImxDnCujPy11h14QwOM,4870
+zhtts/asset/baker_mapper.json,sha256=GcuNdGwdLFtyaRF81oMgZORKHg691-P7yGwZ4d5TWn4,14252
+zhtts/asset/fastspeech2_quan.tflite,sha256=x4rFWIE4vptfxkH5MmGffgEhejAoXIpUXZSL7VCq3s8,16052448
+zhtts/asset/mb_melgan.tflite,sha256=jLXrEy5_ynaounQ4e9eSmESe1lGxtWCxWGi-LkKvZ3k,7528584
+zhtts/asset/tacotron2_quan.tflite,sha256=yZOaF8b9iG5PgUp9J-GzdXbPbN6x5jaho1W_rCtGwFI,34582832
+zhtts/tensorflow_tts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zhtts/tensorflow_tts/processor/__init__.py,sha256=5wdzmHfZR4DPkA_Ye-LS7jDAv52F4IKabtq8supQlWU,76
+zhtts/tensorflow_tts/processor/baker.py,sha256=u5cv4w3ZTpU8q3jGILL-iM4CyCzpz9axn8ZhoRpExpA,20112
+zhtts/tensorflow_tts/processor/base_processor.py,sha256=enKzP7rFxr63b34CnGWoMmPgU3JYTAJceZWBbjkaR0g,8230
+zhtts/tensorflow_tts/processor/cn_tn.py,sha256=OAXz_BKGZ6AExy5uaNpaGE2HP__so53RX84mJMm9jrI,29606
+zhtts-0.0.1.dist-info/LICENSE,sha256=uaiTGUMV7eLbXG9oG_KIEaaIETm7hQqEhmkMEwsKv8Q,1088
+zhtts-0.0.1.dist-info/METADATA,sha256=jucKiEO5N3meBcUUkvBckvOEA-PrkMzB7kxsfXzXqvo,3002
+zhtts-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+zhtts-0.0.1.dist-info/top_level.txt,sha256=UEXeegB0_euogroE0DokBMffyIHHHXu-mhLopT9ebkA,6
+zhtts-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+numpy
+pyopencl
+toolz
+scikit-image
+napari
+napari_plugin_engine
+pyclesperanto_prototype
+magicgui

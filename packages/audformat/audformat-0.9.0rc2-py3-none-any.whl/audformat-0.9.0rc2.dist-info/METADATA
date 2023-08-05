@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: audformat
+Version: 0.9.0rc2
+Summary: Python implementation of audformat
+Home-page: https://github.com/audeering/audformat/
+Author: Johannes Wagner, Hagen Wierstorf
+Author-email: jwagner@audeering.com, hwierstorf@audeering.com
+License: MIT
+Project-URL: Documentation, https://audeering.github.io/audformat/
+Keywords: audio,database,annotation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: audeer (<2.0.0,>=1.8.0)
+Requires-Dist: audiofile (<1.0.0,>=0.4.0)
+Requires-Dist: iso-639
+Requires-Dist: oyaml
+Requires-Dist: pandas (>=1.1.0)
+
+=========
+audformat
+=========
+
+Specification and reference implementation of **audformat**.
+
+audformat is intended to store media data,
+such as audio or video,
+together with corresponding annotations
+in a pre-defined way.
+An audformat database is a folder that contains
+media files together with a header YAML file
+and one or several files storing the annotations.
+
+An audformat database is represented as a
+``audformat.Database`` object and can be loaded with
+``audformat.Database.load()``
+or written to disk with
+``audformat.Database.save()``.
+
+Have a look at the installation_ and usage_ instructions
+and the `format specifications`_ as a starting point.
+
+.. _installation: https://audeering.github.io/audformat/installation.html
+.. _usage: https://audeering.github.io/audformat/create-database.html
+.. _format specifications: https://audeering.github.io/audformat/data-introduction.html
+
+Changelog
+=========
+
+All notable changes to this project will be documented in this file.
+
+The format is based on `Keep a Changelog`_,
+and this project adheres to `Semantic Versioning`_.
+
+
+Version 0.9.0 (2020-12-xx)
+--------------------------
+
+* Added: initial release
+
+
+.. _Keep a Changelog:
+    https://keepachangelog.com/en/1.0.0/
+.. _Semantic Versioning:
+    https://semver.org/spec/v2.0.0.html
+
+

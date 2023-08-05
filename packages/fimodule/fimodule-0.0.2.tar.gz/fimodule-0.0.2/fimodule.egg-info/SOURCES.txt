@@ -1,0 +1,10 @@
+README.md
+setup.py
+fim/Plugin.py
+fim/__init__.py
+fim/url.py
+fimodule.egg-info/PKG-INFO
+fimodule.egg-info/SOURCES.txt
+fimodule.egg-info/dependency_links.txt
+fimodule.egg-info/requires.txt
+fimodule.egg-info/top_level.txt

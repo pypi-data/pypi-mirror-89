@@ -1,0 +1,11 @@
+numpy
+tqdm
+torch>=1.0.0
+tensorboardX
+gpustat
+pyyaml
+addict
+yapf
+termcolor
+tabulate
+pynvml

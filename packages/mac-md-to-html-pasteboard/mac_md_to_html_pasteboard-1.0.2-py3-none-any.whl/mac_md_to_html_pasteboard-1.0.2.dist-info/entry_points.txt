@@ -1,0 +1,3 @@
+[console_scripts]
+md-to-html-pasteboard = mac_md_to_html_pasteboard:main
+

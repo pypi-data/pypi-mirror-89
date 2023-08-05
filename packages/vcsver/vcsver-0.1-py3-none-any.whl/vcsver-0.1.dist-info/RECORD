@@ -1,0 +1,16 @@
+vcsver/__init__.py,sha256=izPAvmqhf5LoSaNPgfxTyGCISLhdPsW6qaefSWlpXXQ,235
+vcsver/config.py,sha256=PNAk7pNq8ONjY_JCNWp1zRMJd-Hjygo3MWNSgfgnIZ0,1448
+vcsver/errors.py,sha256=UOmp9ek0UKVTipQ2kiL2gMnA18VqWQScFrb8pgMCPFI,259
+vcsver/git.py,sha256=_N1HiOFDNnc8KYRPE_Oh0u5U1nBWzpS32UIGU0-C3i0,2687
+vcsver/pep440.py,sha256=9IMkldnn5gIQa0xDrkYr6vmjgmEq6VdW9YmX8ygiDaU,1024
+vcsver/run.py,sha256=OJBHGqQ8qLqfBYGOyAi-lpzY8Z8rTjWsyM3n1jGlflQ,955
+vcsver/setuptools.py,sha256=ubIYIcwKys-YAokMcoFHGoclE8h24mYlhxHW90Hb2yM,547
+vcsver/types.py,sha256=XvASlLTLAya_vvCQfXcDZciiO2MaORKKNU5-td2a3U0,249
+vcsver/util.py,sha256=h0TnMl0oTxR9iy-hNK6daHfiusRVCtBiKFoXZhsVvjY,295
+vcsver/vcsver.py,sha256=vo2F9WgNOkjSoId5h6-qL3QLLGKEdJ5Dau6G5c_WPe8,1206
+vcsver-0.1.dist-info/LICENSE.txt,sha256=ScHlthianp1Ib5jJ0Z6B29-55IeAoqbws3jPHfTzHOY,1071
+vcsver-0.1.dist-info/METADATA,sha256=pzfjOA7avCZsgauFiUAmRTLGdjJPpw2Xv-nDupYgcbI,7993
+vcsver-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vcsver-0.1.dist-info/entry_points.txt,sha256=DxxXSTFdKgDt8WJCviv_Bb_vcOtesfRXRgQA-LQfy-E,62
+vcsver-0.1.dist-info/top_level.txt,sha256=78mi7-hbdRdJxZY3C0mavV464Ezj9n7eBVfFbww8BF8,7
+vcsver-0.1.dist-info/RECORD,,

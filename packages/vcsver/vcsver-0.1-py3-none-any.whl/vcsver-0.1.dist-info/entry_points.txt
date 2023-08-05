@@ -1,0 +1,3 @@
+[distutils.setup_keywords]
+vcsver = vcsver.setuptools:vcsver
+

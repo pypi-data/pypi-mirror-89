@@ -1,0 +1,4 @@
+[console_scripts]
+count-dir = licsber:count_dir
+licsber = licsber:licsber
+

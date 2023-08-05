@@ -1,0 +1,7 @@
+README.md
+setup.py
+Adam_pakiet.egg-info/PKG-INFO
+Adam_pakiet.egg-info/SOURCES.txt
+Adam_pakiet.egg-info/dependency_links.txt
+Adam_pakiet.egg-info/requires.txt
+Adam_pakiet.egg-info/top_level.txt

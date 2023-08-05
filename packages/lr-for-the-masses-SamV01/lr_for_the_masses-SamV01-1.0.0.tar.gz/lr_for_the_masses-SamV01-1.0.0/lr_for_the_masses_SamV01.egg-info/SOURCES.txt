@@ -1,0 +1,16 @@
+README.md
+setup.py
+lr_for_the_masses/__init__.py
+lr_for_the_masses/functions.py
+lr_for_the_masses/lr_mlr/__init__.py
+lr_for_the_masses/lr_mlr/lr.py
+lr_for_the_masses/lr_mlr/mlr.py
+lr_for_the_masses/rr_mlm/__init__.py
+lr_for_the_masses/rr_mlm/mlm.py
+lr_for_the_masses/rr_mlm/rr.py
+lr_for_the_masses/rr_mlm/test_mlm.py
+lr_for_the_masses/rr_mlm/test_rr.py
+lr_for_the_masses_SamV01.egg-info/PKG-INFO
+lr_for_the_masses_SamV01.egg-info/SOURCES.txt
+lr_for_the_masses_SamV01.egg-info/dependency_links.txt
+lr_for_the_masses_SamV01.egg-info/top_level.txt

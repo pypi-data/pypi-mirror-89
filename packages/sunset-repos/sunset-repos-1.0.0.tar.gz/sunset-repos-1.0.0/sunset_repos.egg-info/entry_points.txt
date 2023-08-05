@@ -1,0 +1,3 @@
+[console_scripts]
+sunset-repos = sunset_repos.cli:cli
+

@@ -1,0 +1,10 @@
+setup.py
+sunset_repos/__init__.py
+sunset_repos/archive.py
+sunset_repos/cli.py
+sunset_repos.egg-info/PKG-INFO
+sunset_repos.egg-info/SOURCES.txt
+sunset_repos.egg-info/dependency_links.txt
+sunset_repos.egg-info/entry_points.txt
+sunset_repos.egg-info/requires.txt
+sunset_repos.egg-info/top_level.txt

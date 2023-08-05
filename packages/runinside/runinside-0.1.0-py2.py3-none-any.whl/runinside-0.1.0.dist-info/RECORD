@@ -1,0 +1,11 @@
+runinside/__init__.py,sha256=tdxhsm3mM4HAA1yXW77efD90B0qBnpJ_Lyg1dme2NUc,135
+runinside/cli.py,sha256=3sutLIk1MWRDtG5QpI7MTSzh-ucYRLih-jngyMEEVeU,1394
+runinside/runinside.py,sha256=QitnRchA_sAuX1muVREK12tm4dnaVi-ivjm5C2RYFz0,2103
+runinside/tarprep.py,sha256=7GmGHK8oh6oKrpHr_NONU1BNsOWf-fvmyHMiXVpv2gQ,1806
+runinside-0.1.0.dist-info/AUTHORS.rst,sha256=hONhhj28pcSEps8qI8PYoLntWWa7GevMgV6wMFQcd_M,163
+runinside-0.1.0.dist-info/LICENSE,sha256=19hlz0tuCkhfBD0dqN5qW70bYI-YcNru1rBD67c_c1c,1075
+runinside-0.1.0.dist-info/METADATA,sha256=lCqVHA8OjewdFvPkXGUlf5vvvMkHZcwDFttXl1B-3vg,1453
+runinside-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+runinside-0.1.0.dist-info/entry_points.txt,sha256=q_ejqbtuIssfc1c3rd6nDnP00iMZa7skX2Fy3S6P2QI,50
+runinside-0.1.0.dist-info/top_level.txt,sha256=sz1f-Rr8QgCB_DYns3kDJYG61gEsYxPwes0XMgggJsE,10
+runinside-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+adelphi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adelphi/anonymize.py,sha256=KB_vTUqckrVrMTUND9ZNULVyGoVK5DmsGVBfvnyWuaw,3959
+adelphi/cql.py,sha256=AjgNrR4_5VWM0vNgzCDtpBa8OhZJsPHmXtAsRMjFHDc,1645
+adelphi/gemini.py,sha256=B73D68yvj4cV2udWkJlcnFEE8rIpe89gjTmCT6ew5-Y,3746
+adelphi/gh.py,sha256=vIZyQpY2eXpUWMt30flvRD-ZDeXEfR8nQwFl_rSnXSA,2037
+adelphi/store.py,sha256=E3jzcGAY_E_jM1TLjPG-svrASNSfJzh8cSiXEudw22E,3814
+adelphi-0.1.0.data/scripts/adelphi,sha256=-9kZvt7Icq3EtHeuXEWGEDs3Phma3pb0D6Lq8QRLJp8,10635
+adelphi-0.1.0.dist-info/METADATA,sha256=iPzprGRmIh8Hxd09Ls-Is566McnqfG_5b5xC5Tof8uM,9220
+adelphi-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+adelphi-0.1.0.dist-info/top_level.txt,sha256=e4t7VroJuGvfFSgJobrZYXZ-tfuF-pwxpzSXdA6y8rM,8
+adelphi-0.1.0.dist-info/RECORD,,

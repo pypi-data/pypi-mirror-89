@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MiniWordTools
+Version: 0.0.2
+Summary: A library with tools for strings
+Home-page: https://github.com/Ajayff4/testing2
+Author: Ying Liqian
+Author-email: jamesylq@gmail.com
+License: UNKNOWN
+Description: It is a library with a class named
+        class Word
+            methods clearfront(count), clearback(count), startswith(text), endswith(text), contains(text), __getIndexes__(text, returnFormat), remove(text, index), removeWhitespace(), countInstances(text, deny)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

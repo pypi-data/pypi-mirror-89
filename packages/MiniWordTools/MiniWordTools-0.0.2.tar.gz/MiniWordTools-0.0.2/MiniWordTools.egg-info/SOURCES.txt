@@ -1,0 +1,7 @@
+README.md
+setup.py
+MiniWordTools/__init__.py
+MiniWordTools.egg-info/PKG-INFO
+MiniWordTools.egg-info/SOURCES.txt
+MiniWordTools.egg-info/dependency_links.txt
+MiniWordTools.egg-info/top_level.txt

@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+
+# https://framagit.org/bortzmeyer/agunua
+import agunua
+
+import sys
+import getopt
+import signal
+
+# Defaults
+debug = False
+verbose = False
+insecure = False
+follow_redirect = True
+maximum_time = 30 # Seconds
+
+def usage(msg=None):
+    print("Usage: %s url ..." % sys.argv[0], file=sys.stderr)
+    if msg is not None:
+        print(msg, file=sys.stderr)
+
+def alarm(*_):                                                                                                 
+    print("Maximum time (%i seconds) elapsed, stopping" % maximum_time)
+    sys.exit(1)
+
+try:
+    optlist, args = getopt.getopt (sys.argv[1:], "hvdifm:",
+                               ["help", "version", "verbose", "debug", "insecure",
+                                "not-follow-redirect", "maximum-time="])
+    for option, value in optlist:
+        if option == "--help" or option == "-h":
+            usage()
+            sys.exit(0)
+        elif option == "--version":
+            print(agunua.VERSION)
+            sys.exit(0)
+        elif option == "--debug" or option == "-d":
+            verbose = True
+            debug = True
+        elif option == "--verbose" or option == "-v":
+            verbose = True
+        elif option == "--insecure" or option == "-i":
+            insecure = True
+        elif option == "--not-follow-redirect" or option == "-f":
+            follow_redirect = False
+        elif option == "--maximum-time" or option == "-m":
+            maximum_time = int(value)
+        else:
+            # Should never occur, it is trapped by getopt
+            usage("Unknown option %s" % option)
+except getopt.error as reason:
+    usage(reason)
+    sys.exit(1)
+if len(args) == 0:
+    usage()
+    sys.exit(1)
+
+error = False
+signal.signal(signal.SIGALRM, alarm)
+signal.alarm(maximum_time)
+for url in args:
+    if verbose:
+        print("Trying to get %s ..." % url)
+    u = agunua.GeminiUri(url, get_content=True, parse_content=False, follow_redirect=follow_redirect, insecure=insecure, debug=debug)
+    if u.network_success:
+        if verbose:
+            print("Network success with %s." % u.ip_address)
+        if u.status_code == "20":
+            if verbose:
+                print("Media type is %s" % u.meta)
+            print(u.payload)
+        else:
+            print("Problem, status is %s." % u.status_code, file=sys.stderr)
+            error = True
+    else:
+        print("Network problem, %s." % u.error, file=sys.stderr)
+        error = True
+if error:
+    sys.exit(1)
+else:
+    sys.exit(0)
+

@@ -1,0 +1,66 @@
+"""Small utility for sys admin or personal use
+
+Usage:
+------
+
+    $ pylaxz -[option[s]] [argument[s]]
+
+Available options are:
+    -h, --help         Show this help
+    -u, --update       Update available check
+    -V, --version      Show current version
+
+
+More information is available at:
+- https://pypi.org/project/py-laxz/
+- https://github.com/minlaxz/py-laxz/
+
+"""
+# Standard library imports
+from subprocess import ( run , PIPE)
+from sys import argv
+
+#pylaxz imports
+from .utils import logxs
+from .__version__ import version
+
+def main(direct=True):
+    """Main function of pylaxz""" # pylaxz script call
+    
+    args = [arg for arg in argv[1:] if not arg.startswith("-")]
+    opts = [opt for opt in argv[1:] if opt.startswith("-")]
+
+    # Show help message
+    if "-h" in opts or "--help" in opts:
+        logxs.printf(__doc__, _int=True)
+        return
+    
+    if "-V" in opts or "--version" in opts:
+        logxs.printf(version, _int=True)
+        return
+
+    if "-u" in opts or "--update" in opts:
+        updater()
+        return
+
+
+# def main(**kwargs) -> None:
+#     for k, v in kwargs.items():
+#         printf('{} = {}'.format(k, v), _int=True)
+
+
+def updater():
+    cmd = "find . -maxdepth 2 -name '*.py' -print0 | xargs -0 sha1sum | sort -h | sha256sum | awk '{print $1}'"
+    result = run(cmd, shell=True, check=False, stdout=PIPE, universal_newlines=True)
+    logxs.printf(result.stdout[:-1], _int=True)
+
+if __name__ == "__main__":
+    main(direct=False) # this will be invoked when python -m pylaxz
+    # try:
+    #     main ( ** dict(arg.split('=') for arg in sys.argv[1:]))
+
+    # except ValueError:
+    #     printf('Internal Error', internal=True)
+
+    # except Exception as e:
+    #     printf(e, internal=True)

@@ -1,0 +1,8 @@
+setup.py
+pd_chunk/__init__.py
+pd_chunk/chunk_manip.py
+pd_chunk.egg-info/PKG-INFO
+pd_chunk.egg-info/SOURCES.txt
+pd_chunk.egg-info/dependency_links.txt
+pd_chunk.egg-info/not-zip-safe
+pd_chunk.egg-info/top_level.txt

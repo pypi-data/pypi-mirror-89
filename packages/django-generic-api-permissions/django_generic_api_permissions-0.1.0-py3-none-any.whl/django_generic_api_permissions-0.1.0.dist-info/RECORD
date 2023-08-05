@@ -1,0 +1,12 @@
+generic_permissions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_permissions/apps.py,sha256=XpWMAADx_EtyTCpvEzkbYSOJh3zEiSUWODzmcx-VWzw,1374
+generic_permissions/collections.py,sha256=oOXUJAZCL38jItpgv1XUS5yEEOQbzO1ti0n0cDcaxBQ,195
+generic_permissions/models.py,sha256=Lvm4wJPPwB7T-3k_LoYG59HHOgrdyQyjRNKoDzYFtsM,1291
+generic_permissions/permissions.py,sha256=HaWUMskRi1afpVHb1MlRnS5XXbkTupt2tDU9bA_L-64,3700
+generic_permissions/serializers.py,sha256=MtX_jlliCzfU4Zh5SyQ-092PQNQ35lmMe4aEoX07e6Y,346
+generic_permissions/views.py,sha256=wMuCSk41j8WBpBe_5onKBhpWK4UtQZkZBtHUX-MJqr8,592
+generic_permissions/visibilities.py,sha256=AcD3zaHZziicPO5ddJDEDpq8w9zunfUY0tjvEosudpY,3236
+django_generic_api_permissions-0.1.0.dist-info/METADATA,sha256=2vzq21gHDl1QEOfBl9K9HAmwpIZVZRHravoS6onpjhI,5443
+django_generic_api_permissions-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_generic_api_permissions-0.1.0.dist-info/top_level.txt,sha256=cfqM7k_wMBs8LJhpD2dzLaDU9fpijJnB_SPttWtlUnc,20
+django_generic_api_permissions-0.1.0.dist-info/RECORD,,

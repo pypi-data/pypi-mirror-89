@@ -1,0 +1,6 @@
+README.md
+setup.py
+sMPA.egg-info/PKG-INFO
+sMPA.egg-info/SOURCES.txt
+sMPA.egg-info/dependency_links.txt
+sMPA.egg-info/top_level.txt

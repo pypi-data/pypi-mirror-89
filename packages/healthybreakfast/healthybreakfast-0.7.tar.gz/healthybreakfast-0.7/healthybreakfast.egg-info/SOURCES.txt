@@ -1,0 +1,14 @@
+setup.py
+healthybreakfast/__init__.py
+healthybreakfast.egg-info/PKG-INFO
+healthybreakfast.egg-info/SOURCES.txt
+healthybreakfast.egg-info/dependency_links.txt
+healthybreakfast.egg-info/top_level.txt
+healthybreakfast/find/Deficiency.py
+healthybreakfast/find/Rec.py
+healthybreakfast/find/Recommend.py
+healthybreakfast/find/__init__.py
+healthybreakfast/manual/Cereals.py
+healthybreakfast/manual/Cereals1.py
+healthybreakfast/manual/Person.py
+healthybreakfast/manual/__init__.py

@@ -1,0 +1,7 @@
+README.md
+setup.py
+deepts/__init__.py
+deepts.egg-info/PKG-INFO
+deepts.egg-info/SOURCES.txt
+deepts.egg-info/dependency_links.txt
+deepts.egg-info/top_level.txt

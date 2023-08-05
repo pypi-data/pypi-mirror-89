@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jinsung
+Version: 0.1.0
+Summary: Who is Jinsung?
+Home-page: https://github.com/jha929/jha929
+Author: Jinsung Ha
+Author-email: jsung5381@naver.com
+License: MIT
+Description: ## 안녕하세요(annyeonghaseyo), I'm Jinsung Ha!
+        From your terminal,
+        ```bash
+        pip install jinsung
+        ```
+        Then,
+        
+        ```python
+        import jinsung
+        ```
+        
+        ## Github Stats
+        
+        ---
+        [![Jinsung Ha's Github Stats](https://github-readme-stats.vercel.app/api?username=jha929&count_private=true&show_icons=true)](https://github.com/jha929)
+        [![Jinsung Ha's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jha929&hide=jupyter%20notebook&hide_border=true&layout=compact)](https://github.com/jha929)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

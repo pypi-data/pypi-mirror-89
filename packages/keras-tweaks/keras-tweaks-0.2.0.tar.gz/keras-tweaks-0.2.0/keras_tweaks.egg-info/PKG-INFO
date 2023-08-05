@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: keras-tweaks
+Version: 0.2.0
+Summary: Utility functions for Keras/Tensorflow2.
+Home-page: http://github.com/ulf1/keras-tweaks
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

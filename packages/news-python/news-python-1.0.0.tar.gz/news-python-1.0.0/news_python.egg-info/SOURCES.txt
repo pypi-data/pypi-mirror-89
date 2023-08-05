@@ -1,0 +1,11 @@
+README.md
+setup.py
+news_python/__init__.py
+news_python/country.py
+news_python/global_news.py
+news_python/news_api.py
+news_python.egg-info/PKG-INFO
+news_python.egg-info/SOURCES.txt
+news_python.egg-info/dependency_links.txt
+news_python.egg-info/requires.txt
+news_python.egg-info/top_level.txt

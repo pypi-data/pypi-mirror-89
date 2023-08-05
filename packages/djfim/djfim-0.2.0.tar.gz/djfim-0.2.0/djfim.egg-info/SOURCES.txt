@@ -1,0 +1,17 @@
+README.md
+license
+setup.cfg
+setup.py
+djfim/__init__.py
+djfim/apps.py
+djfim/base.py
+djfim/models.py
+djfim/settings.py
+djfim.egg-info/PKG-INFO
+djfim.egg-info/SOURCES.txt
+djfim.egg-info/dependency_links.txt
+djfim.egg-info/requires.txt
+djfim.egg-info/top_level.txt
+djfim/management/__init__.py
+djfim/management/commands/__init__.py
+djfim/management/commands/fim.py

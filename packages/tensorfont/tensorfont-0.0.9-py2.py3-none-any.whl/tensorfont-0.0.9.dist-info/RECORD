@@ -1,0 +1,9 @@
+tensorfont/__init__.py,sha256=Wy7SofWTUeIPwD3x8UlmlRB06o1jvWeHw9AhR6WO6HU,19929
+tensorfont/dataset.py,sha256=opBnvZuxy-ENKmNQfXHuPcDOgRE8JDIOlYcwkifJo_w,3982
+tensorfont/generators.py,sha256=6aZ6tfimvHXmOW2DlsFjDMGPMJ2g0Djry1Vtta-zrSE,2159
+tensorfont/getKerningPairsFromOTF.py,sha256=8v6W4ObqY8YTY-i9ah4JcNS3kB1iyd1qijOuPGMf4fs,12550
+tensorfont/interpshape.py,sha256=_VxZdvblTH4WfGszbrL6QaJVQL8rRJmiHORDWlZ03Qw,2749
+tensorfont-0.0.9.dist-info/METADATA,sha256=KMAXpb2wUntaF-eufcoorrIM_K03kexHmQhneMKaIoo,1649
+tensorfont-0.0.9.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tensorfont-0.0.9.dist-info/top_level.txt,sha256=eA0o7y79oaPt7IBy19NjvlkMNhL_VQ5Cy-TA0p2-3kE,11
+tensorfont-0.0.9.dist-info/RECORD,,

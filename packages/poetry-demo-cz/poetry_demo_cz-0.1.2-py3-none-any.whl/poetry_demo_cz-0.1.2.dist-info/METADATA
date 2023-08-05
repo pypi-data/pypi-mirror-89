@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: poetry-demo-cz
+Version: 0.1.2
+Summary: 
+Author: cz
+Author-email: cz9874304@163.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

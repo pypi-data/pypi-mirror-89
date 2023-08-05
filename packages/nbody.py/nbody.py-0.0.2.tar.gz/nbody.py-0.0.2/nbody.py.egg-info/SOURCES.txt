@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+nbody/__init__.py
+nbody/nbody.py
+nbody.py.egg-info/PKG-INFO
+nbody.py.egg-info/SOURCES.txt
+nbody.py.egg-info/dependency_links.txt
+nbody.py.egg-info/top_level.txt

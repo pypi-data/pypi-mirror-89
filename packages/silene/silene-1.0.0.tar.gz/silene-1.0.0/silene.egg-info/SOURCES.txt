@@ -1,0 +1,17 @@
+README.md
+setup.py
+silene/__init__.py
+silene/browser_page.py
+silene/cookie.py
+silene/crawl_frontier.py
+silene/crawl_request.py
+silene/crawl_response.py
+silene/crawler.py
+silene/crawler_configuration.py
+silene/element.py
+silene/errors.py
+silene.egg-info/PKG-INFO
+silene.egg-info/SOURCES.txt
+silene.egg-info/dependency_links.txt
+silene.egg-info/requires.txt
+silene.egg-info/top_level.txt

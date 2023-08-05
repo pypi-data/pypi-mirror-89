@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: certbot-dns-ispmanager
+Version: 0.11
+Summary: certbot plugin to allow acme dns-01 authentication of a name managed in ISPManager.
+Home-page: https://gitlab.com/SavandBros/certbot-dns-ispmanager
+Author: Alireza Savand
+Author-email: alireza.savand@gmail.com
+License: GNU GPL 3
+Keywords: certbot letsencrypt ispmanager dns-01 plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: certbot
+Requires-Dist: zope.interface
+
+# Certbot ISP Manager DNS Integration 
+
+certbot plugin to allow acme dns-01 authentication of a name managed in ISPManager.
+
+

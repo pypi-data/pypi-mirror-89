@@ -1,0 +1,9 @@
+certbot_dns_ispmanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_ispmanager/dns_ispmanager.py,sha256=YViiJB6ULJ9URBoIUkowjzRfVctJ_sDcL9U6JECN9Po,7496
+certbot_dns_ispmanager-0.11.dist-info/AUTHORS.rst,sha256=tlGK5hThjKEoQS9QPCztv3GtNKbDK99GTtEQGj_a8jI,15
+certbot_dns_ispmanager-0.11.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+certbot_dns_ispmanager-0.11.dist-info/METADATA,sha256=2f3HHxJofbwlxnjZ9APKdLp9lbOIt_CsxMxI1r_uuQI,1153
+certbot_dns_ispmanager-0.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+certbot_dns_ispmanager-0.11.dist-info/entry_points.txt,sha256=0m0LdnU5VQBFcOKWWMx_GC-S0g7C5EAU-BMuRVvAj-k,84
+certbot_dns_ispmanager-0.11.dist-info/top_level.txt,sha256=R0VRkiDA5wwi-Db8B6rjuWgo9N8VpW6F0WsNfiHg8Nw,23
+certbot_dns_ispmanager-0.11.dist-info/RECORD,,

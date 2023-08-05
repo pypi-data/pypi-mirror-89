@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Keras-TextClassification
+Version: 0.1.7
+Summary: chinese text classification of keras
+Home-page: https://github.com/yongzhuo/Keras-TextClassification
+Author: yongzhuo
+Author-email: 1903865025@qq.com
+License: MIT
+Requires-Dist: gensim (==3.7.1)
+Requires-Dist: jieba (==0.39)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: pandas (==0.23.4)
+Requires-Dist: scikit-learn (==0.19.1)
+Requires-Dist: tflearn (==0.3.2)
+Requires-Dist: tqdm (==4.31.1)
+Requires-Dist: passlib (==1.7.1)
+Requires-Dist: keras (==2.2.4)
+Requires-Dist: keras-bert (==0.80.0)
+Requires-Dist: keras-xlnet (==0.16.0)
+Requires-Dist: keras-adaptive-softmax (==0.6.0)
+
+# [Keras-TextClassification](https://github.com/yongzhuo/Keras-TextClassification)
+
+

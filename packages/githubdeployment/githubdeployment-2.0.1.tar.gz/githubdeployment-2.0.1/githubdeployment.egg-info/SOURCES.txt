@@ -1,0 +1,10 @@
+README.md
+setup.py
+githubdeployment.egg-info/PKG-INFO
+githubdeployment.egg-info/SOURCES.txt
+githubdeployment.egg-info/dependency_links.txt
+githubdeployment.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+tests/__init__.py
+tests/test_main.py

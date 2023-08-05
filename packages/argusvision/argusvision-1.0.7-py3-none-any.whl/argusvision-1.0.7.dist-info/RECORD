@@ -1,0 +1,8 @@
+argusvision/__init__.py,sha256=SRfF7oDVlOOAi6nGKiJIUK6B_arqYLO9iSMp-2IZZps,21
+argusvision/models/__init__.py,sha256=JHGgODUNcFupmzGI41kBkfDvrp8tChiC3TF-UwP3eS8,24
+argusvision/models/resnext.py,sha256=8j6M81UxkcFqXlpZoiDoXVA0oi1OrmoEGqiP0G8xoWs,8928
+argusvision/models/utils.py,sha256=oZCPAz1X5tpJ8qPqps___SP0RF7U5oTPGqk6qMtrOCs,2515
+argusvision-1.0.7.dist-info/METADATA,sha256=QNxsurkpEmUAcBGMe5XfHYNFHUXvw2_QNjEr2BfLzcA,2461
+argusvision-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+argusvision-1.0.7.dist-info/top_level.txt,sha256=9AKfHvHh_SQq_o6A51Y780EEN5FulGca_TrwacSInPw,12
+argusvision-1.0.7.dist-info/RECORD,,

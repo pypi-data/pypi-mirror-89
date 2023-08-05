@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: calc-parser
+Version: 0.0.1
+Summary: A calculator with Lark
+Home-page: https://github.com/silvasara/calc-parser
+Author: Sara Silva
+Author-email: saracsas2@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

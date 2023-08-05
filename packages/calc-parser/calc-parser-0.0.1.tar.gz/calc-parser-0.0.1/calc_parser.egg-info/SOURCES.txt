@@ -1,0 +1,6 @@
+README.rst
+setup.py
+calc_parser.egg-info/PKG-INFO
+calc_parser.egg-info/SOURCES.txt
+calc_parser.egg-info/dependency_links.txt
+calc_parser.egg-info/top_level.txt

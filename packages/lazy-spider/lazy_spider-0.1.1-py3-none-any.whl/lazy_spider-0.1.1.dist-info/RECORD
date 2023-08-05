@@ -1,0 +1,11 @@
+spider/__init__.py,sha256=bAf4ge_UPzxQovIcgNXDB-gCKbuZViWx8MkrGfi65uU,120
+spider/cache.py,sha256=spR2jxEJUMtTFt9sEYzryqYZ3LeZfXoKX7zdKjTi8F4,8935
+spider/item.py,sha256=oar0HU0e8eW2cc5XNDk_hvgF3Bq_y3YsG2oKEeperxk,4418
+spider/spider.py,sha256=wcfuAuYdvT84_fjBvrW_64p0Vgn2_mC0OMf83UxMqrU,16091
+spider/template.py,sha256=pGreSPVNpRotKV92umBAqGzQj9c9kIkqQHfW1iruPMI,373
+spider/templates/general_template.py,sha256=_ZtxK73mWgZZ8e9z4tLkqlooPbOn5kLu44fpnajRdQ8,553
+spider/utils.py,sha256=26aUqPLr5nQ3UZJXRm0ZkCvzRlX67xt7TocAfNBt1k4,1149
+lazy_spider-0.1.1.dist-info/LICENSE,sha256=26iObHnexgPWzqFYbxTbl2_fpWRGSSamg3Nw41VIPtc,1086
+lazy_spider-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+lazy_spider-0.1.1.dist-info/METADATA,sha256=giiGOxhN6pMGFZFPoD9wHtpJnje1U9VubmnisPuXISg,587
+lazy_spider-0.1.1.dist-info/RECORD,,

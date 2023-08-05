@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kcalculator
+Version: 0.0.3
+Summary: A baisc calulcator
+Home-page: https://github.com/softprodigyofficial/sample-python-package.git
+Author: kuldeep khatana
+Author-email: kuldeep.si.softprodigy@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: calulcator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

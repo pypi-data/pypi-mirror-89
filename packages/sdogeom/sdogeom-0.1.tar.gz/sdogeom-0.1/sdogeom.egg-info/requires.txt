@@ -1,0 +1,3 @@
+numpy
+euclid3
+pandas

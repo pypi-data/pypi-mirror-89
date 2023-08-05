@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+sdogeom.egg-info/PKG-INFO
+sdogeom.egg-info/SOURCES.txt
+sdogeom.egg-info/dependency_links.txt
+sdogeom.egg-info/not-zip-safe
+sdogeom.egg-info/requires.txt
+sdogeom.egg-info/top_level.txt

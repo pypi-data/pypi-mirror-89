@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: calmcode
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15.4)
+Requires-Dist: scipy (>=1.2.0)
+Provides-Extra: dev
+Requires-Dist: flake8 (>=3.6.0) ; extra == 'dev'
+Requires-Dist: pytest (==4.0.2) ; extra == 'dev'
+Requires-Dist: jupyter (==1.0.0) ; extra == 'dev'
+Requires-Dist: jupyterlab (==0.35.4) ; extra == 'dev'
+
+UNKNOWN
+
+

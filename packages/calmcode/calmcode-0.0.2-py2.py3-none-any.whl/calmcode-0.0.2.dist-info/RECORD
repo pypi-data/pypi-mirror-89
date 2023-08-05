@@ -1,0 +1,10 @@
+calmcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calmcode/challenge/__init__.py,sha256=J1wioilbpocZ8wpAs9v9dy9vtVg3oZFXkci2abtLyAA,83
+calmcode/challenge/_challenge.py,sha256=HjrubM5TJEW7vGrXUnrzwoXK3Mj0fIII5W-qqWX9Tbs,124
+calmcode/challenge/sailship.py,sha256=K-kRQj_I_Ot3zg_Y9JekxZvBLbdAt7CZfy16U0vgheQ,2284
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_travelling_sales_ship.py,sha256=CXV9MA4WzMAcfJwn0Mtgp52U8T0BIoPy48MCQLO_EOk,294
+calmcode-0.0.2.dist-info/METADATA,sha256=Ce_qINVwDeBDVjLxoXAkiVf3VsbdYNxYwSTGPgijGcE,419
+calmcode-0.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+calmcode-0.0.2.dist-info/top_level.txt,sha256=zV-DGj-w2UsjS0SK3AU4yYKdghDZYHbYpVkIWwSlFAc,15
+calmcode-0.0.2.dist-info/RECORD,,

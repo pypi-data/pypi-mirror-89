@@ -1,0 +1,8 @@
+README.md
+setup.py
+pymolPy3/__init__.py
+pymolPy3/pymolPy3.py
+pymolPy3.egg-info/PKG-INFO
+pymolPy3.egg-info/SOURCES.txt
+pymolPy3.egg-info/dependency_links.txt
+pymolPy3.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xminds
+Version: 0.1.0
+Summary: Crossing Minds data science python library and API client
+Home-page: https://github.com/Crossing-Minds/xminds-python
+Author: Crossing Minds, Inc
+Author-email: contact@crossingminds.com
+License: UNKNOWN
+Description: See our `readthedocs`_ for the Python Data Science library documentation.
+        
+        See the `API Documentation`_ for the Crossing Minds universal recommendation API documentation.
+        
+        .. _readthedocs: https://xminds.readthedocs.io/en/latest/
+        .. _API Documentation: https://docs.api.crossingminds.com/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

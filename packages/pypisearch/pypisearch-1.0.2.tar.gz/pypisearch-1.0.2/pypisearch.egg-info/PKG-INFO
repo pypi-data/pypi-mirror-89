@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pypisearch
+Version: 1.0.2
+Summary: Replacement of temporarily deprecated pip search command
+Home-page: https://github.com/shidenko97/pypisearch
+Author: Serhii Hidenko
+Author-email: shidenko97@gmail.com
+License: UNKNOWN
+Description: # PyPiSearch
+        One more replacement of temporarily deprecated pip search command implemented on regular expressions and uses [pypi site](https://pypi.org/) search line.
+        
+        ## Install and run
+        - Clone this repo and run `python pypisearch <query>`
+        - Install it by pip `pip install pypisearch` and run `python -m pypisearch <query>`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

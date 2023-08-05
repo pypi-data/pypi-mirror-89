@@ -1,0 +1,12 @@
+anilistpy/__init__.py,sha256=UoGKErpk9C-Caq5iisfzQih-uyI9JthgQWv7lUoBmQk,1004
+anilistpy/anime.py,sha256=-ZuYPCm2QLP_EnwddMYTybzc5gVXu3OEIScilbDnyfM,5298
+anilistpy/manga.py,sha256=cO0FIltwXmTipajY80vM73HTi4HF6riId3W2c4p4SyE,4405
+anilistpy/utils.py,sha256=ePNuvKfV1bVgkt1ecLT6tnbnlEDx0C9IXwwKSQR2mFI,158
+anilistpy/search/__init__.py,sha256=J1eFHYxVze8GcNy3J1wAzex9cFnTlbHJzAO0l9l5hNo,898
+anilistpy/search/anime.py,sha256=VTkmzoVzp9Ijc8OzDWNUArpqbh2tsAikP6Emy7AOg-A,1057
+anilistpy/search/char.py,sha256=K1rlqSeeELHrGIQrdWOtqLJvSzH8RLRUwTZjr9TT9FM,882
+anilistpy/search/manga.py,sha256=Iv48OoC5EUPNF1-sCdzpkRLmATwdeU6ceL470Iggr-k,1057
+anilistpy-0.0.3.dist-info/METADATA,sha256=zho-0-2oMabAa7ijd5sWSHOzM8ZCFv-Z_gwUlPaTk7o,1368
+anilistpy-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+anilistpy-0.0.3.dist-info/top_level.txt,sha256=h7UaZWCwglvNzdvHLXIchzyEzPWRpVxlB38szw9vE88,10
+anilistpy-0.0.3.dist-info/RECORD,,

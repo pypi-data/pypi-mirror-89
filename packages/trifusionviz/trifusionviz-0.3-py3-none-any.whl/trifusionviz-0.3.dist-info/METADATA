@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: trifusionviz
+Version: 0.3
+Summary: illustration du tri fusion
+Home-page: https://github.com/cobacdavid/trifusionviz
+Author: David COBAC
+Author-email: david.cobac@gmail.com
+License: CC-BY-NC-SA
+Keywords: merge sort,sort,tri,tri fusion,graphviz
+Platform: UNKNOWN
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Requires-Dist: graphviz
+
+# trifusionviz
+
+## Installation via [Pypi.org](https://pypi.org/project/trifusionviz/)
+
+``` bash
+$ pip3 install trifusionviz
+```
+
+## Usage
+
+``` python
+import trifusionviz as tfv
+import random
+
+liste = list(range(17))
+random.shuffle(liste)
+
+t = tfv.trifusionviz(liste)
+# sortie pdf
+t.sortie("exemple_sortie")
+
+u = tfv.trifusionviz(liste)
+u.fonction_ordre = lambda x, y: str(x) < str(y)
+# sortie png
+u.sortie("exemple_sortie_lexico", "png")
+
+```
+
+## Exemple de sortie image
+
+<img src="exemple_sortie_lexico.png" width="800">
+
+## Licence
+CC-BY-NC-SA
+
+

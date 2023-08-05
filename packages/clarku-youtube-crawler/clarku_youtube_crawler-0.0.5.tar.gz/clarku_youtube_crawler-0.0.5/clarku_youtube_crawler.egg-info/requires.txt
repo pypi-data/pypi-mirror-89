@@ -1,0 +1,5 @@
+configparser
+datetime
+pytz
+pandas
+youtube_transcript_api

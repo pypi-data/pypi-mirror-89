@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dtk_api"
+version = "0.7.0"
+description = "大淘客接口"
+authors = ["dev <dev@qiyutech.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+tbk_api = ">=0.2.1,<0.3"
+pydantic = ">=1.7,<2"
+requests = ">=2.24,<3"
+aiohttp = ">=3.7,<4"
+
+[tool.poetry.dev-dependencies]
+black = ">=20.8b1"
+pytest = ">=6.2,<7"
+pytest-asyncio = ">=0.14"
+
+[build-system]
+requires = ["poetry>=1"]
+build-backend = "poetry.masonry.api"

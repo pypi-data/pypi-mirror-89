@@ -1,0 +1,6 @@
+README.rst
+setup.py
+lark_simple_calc.egg-info/PKG-INFO
+lark_simple_calc.egg-info/SOURCES.txt
+lark_simple_calc.egg-info/dependency_links.txt
+lark_simple_calc.egg-info/top_level.txt

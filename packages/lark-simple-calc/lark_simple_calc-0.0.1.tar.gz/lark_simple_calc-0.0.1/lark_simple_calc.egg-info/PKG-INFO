@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: lark-simple-calc
+Version: 0.0.1
+Summary: Simple calculator built in Lark
+Home-page: https://github.com/romulosouza/calc-parser
+Author: Rômulo Souza
+Author-email: romulovinicius10@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7

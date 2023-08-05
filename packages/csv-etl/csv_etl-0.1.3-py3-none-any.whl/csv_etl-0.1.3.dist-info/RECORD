@@ -1,0 +1,9 @@
+csv_etl/__init__.py,sha256=UJvOOott24gdBaqy-jo0fbRdEkYuFGy4rFc2OD9O5sw,202
+csv_etl/cli.py,sha256=M_3oqWcXY4-Y3HRyCr7SM1LjXAwD1K5z9mu_y459vzY,730
+csv_etl/csv_etl.py,sha256=yVyheEbWVnE_Igzy5VuNdv78qhYv1E5sykyOcnxTwBo,3979
+csv_etl/rules.py,sha256=39M1BRFXscLtOVsL02-_cBIz6r6SyY4WfTfplvTTDEk,6255
+csv_etl-0.1.3.dist-info/METADATA,sha256=aJUD8qrXnhhLgK_DTa83znYbTvAs9AZeyKKXOARmZqU,5417
+csv_etl-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+csv_etl-0.1.3.dist-info/entry_points.txt,sha256=Zz1ij-LKKf2WnGgq28Z6T7gwSpyHZHrrE5tPbgFqc_4,64
+csv_etl-0.1.3.dist-info/top_level.txt,sha256=CspfCCIGCqTdMVEtabNai615hFHD_YC7lwCFUTWEtwE,8
+csv_etl-0.1.3.dist-info/RECORD,,

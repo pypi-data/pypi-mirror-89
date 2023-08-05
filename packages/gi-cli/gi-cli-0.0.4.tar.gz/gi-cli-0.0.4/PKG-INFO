@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: gi-cli
+Version: 0.0.4
+Summary: CLI to easily create .gitignore files
+Home-page: https://github.com/ninest/gi/
+License: MIT
+Author: ninest
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dotenv (>=0.15.0,<0.16.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Documentation, https://github.com/ninest/gi/
+Project-URL: Repository, https://github.com/ninest/gi/
+Description-Content-Type: text/markdown
+
+# gi
+
+> Easily create a .gitignore
+
+![PyPI](https://img.shields.io/pypi/v/gi-cli?style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/gi-cli?style=flat-square)
+![GitHub](https://img.shields.io/github/license/ninest/gi?style=flat-square)
+
+## Usage
+
+```bash
+# Install it
+$ pip install gi-cli
+
+# Add a language framework
+$ gi add python
+
+# Or add multiple
+$ git add node python
+
+# Clear your gitignore
+$ git clear
+
+# Uninstall it
+$ pip uninstall gi-cli
+```
+
+**Note**: Mac or Linux users may have to use `pip3` instead of `pip`.
+
+## Build setup
+
+Clone or fork the repository, then run the commands:
+
+```bash
+poetry shell
+poetry install
+```
+
+Add the pre-commit hooks:
+
+```bash
+pre-commit install
+```
+
+### Editor settings
+
+```json
+{
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
+  },
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+
+  "python.pythonPath": "/Users/username-here/Library/Caches/pypoetry/virtualenvs/xxx-py3.7"
+}
+```
+
+## License
+
+MIT
+

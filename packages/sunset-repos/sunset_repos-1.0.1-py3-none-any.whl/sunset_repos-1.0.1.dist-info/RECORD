@@ -1,0 +1,9 @@
+sunset_repos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunset_repos/archive.py,sha256=ValcvR79OVxUCGAssbUUcdCq15cJVZpP7HFCaZgQm9E,1534
+sunset_repos/cli.py,sha256=lRIB-UVYwIJMLCdxb68zP5Gl2f9zjOuciOgaLoITGos,326
+sunset_repos-1.0.1.dist-info/LICENSE.txt,sha256=9ReXeFQliqwko4KsdkKtB8fX_lHKCr25_kGHOaVIQNA,1082
+sunset_repos-1.0.1.dist-info/METADATA,sha256=TP8-ShTyWuaFiyDK8Hmik-u4adGT_kBrREMRRtFXR-8,1284
+sunset_repos-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sunset_repos-1.0.1.dist-info/entry_points.txt,sha256=RQEinbXT20TJJL6rV2NMyI0ngiAHJZqxXYYFR3QbtH8,55
+sunset_repos-1.0.1.dist-info/top_level.txt,sha256=Tdzz0Z7bJm7I489r4AsE0iizO98vrCzIBcQw02eFVx0,13
+sunset_repos-1.0.1.dist-info/RECORD,,

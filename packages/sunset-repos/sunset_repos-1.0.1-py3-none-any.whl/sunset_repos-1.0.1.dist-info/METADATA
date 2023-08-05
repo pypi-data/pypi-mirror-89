@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sunset-repos
+Version: 1.0.1
+Summary: Archive batches of GitHub repositories
+Home-page: https://github.com/deriksson/sunset-repos
+Author: Daniel Eriksson
+Author-email: gustaf.daniel.eriksson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Click (>=7.0)
+Requires-Dist: requests (>=2.22.0)
+
+Installation
+============
+
+Create a GitHub personal access token. The application will prompt you
+for the value of your token each time you run it.
+
+The application is available at PyPI. Install it from there using the
+following command:
+
+    pip install sunset-repos
+
+You can also install directly from the source code by issuing the
+following command in the project root:
+
+    pip install .
+
+Usage
+=====
+
+Create a text file containing a batch of repositories listed in a single
+column, then point the program to the file, using the following command
+template:
+
+    sunset-repos <GitHub organisation> <CSV file>
+
+An example using process substitution to handle a single repository:
+
+    sunset-repos GITHUB_ORGANISATION <(echo REPOSITORY_NAME)
+
+

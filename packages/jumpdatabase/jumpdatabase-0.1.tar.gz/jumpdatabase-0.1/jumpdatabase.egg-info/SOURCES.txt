@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+JumpDB/jumpdatabase.py
+jumpdatabase.egg-info/PKG-INFO
+jumpdatabase.egg-info/SOURCES.txt
+jumpdatabase.egg-info/dependency_links.txt
+jumpdatabase.egg-info/top_level.txt

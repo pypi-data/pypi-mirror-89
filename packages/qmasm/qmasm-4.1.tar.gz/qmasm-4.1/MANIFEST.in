@@ -1,0 +1,5 @@
+include README.md
+include LICENSE.md
+recursive-include extras *
+recursive-include examples *
+exclude examples/qmasm-maze

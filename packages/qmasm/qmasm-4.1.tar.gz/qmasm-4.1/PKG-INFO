@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qmasm
+Version: 4.1
+Summary: Quantum Macro Assembler
+Home-page: https://github.com/lanl/qmasm
+Author: Scott Pakin
+Author-email: pakin@lanl.gov
+License: BSD-ish
+Download-URL: https://github.com/lanl/qmasm/archive/v4.1.tar.gz
+Description: QMASM fills a gap in the software ecosystem for [D-Wave's adiabatic quantum computers](http://www.dwavesys.com/) by shielding the programmer from having to know system-specific hardware details while still enabling programs to be expressed at a fairly low level of abstraction.  It is therefore analogous to a conventional macro assembler and can be used in much the same way: as a target either for programmers who want a great deal of control over the hardware or for compilers that implement higher-level languages.
+Keywords: quantum,annealing,macro,assembler,d-wave
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Requires-Python: >= 3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+qmasm = qmasm.__main__:main
+

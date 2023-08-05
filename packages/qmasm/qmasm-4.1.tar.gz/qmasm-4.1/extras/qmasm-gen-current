@@ -1,0 +1,46 @@
+#! /usr/bin/env python
+
+####################################
+# Generate a connectivity list for #
+# the current solver's topology    #
+#                                  #
+# By Scott Pakin <pakin@lanl.gov>  #
+####################################
+
+import argparse
+import sys
+from dwave.system import DWaveSampler
+
+def abend(msg):
+    "Output an error message and abort the program."
+    sys.stderr.write('%s: %s\n' % (sys.argv[0], msg))
+    sys.exit(1)
+
+# Parse the command line.
+cl_parser = argparse.ArgumentParser(description='Generate a connectivity list for a given hardware topology')
+cl_parser.add_argument('--profile', type=str, default=None, metavar='NAME',
+                       help='Profile name from dwave.conf to use')
+cl_parser.add_argument('--solver', type=str, default=None, metavar='NAME',
+                       help='Solver name from dwave.conf to use')
+cl_args = cl_parser.parse_args()
+
+# Acquire the current topology.
+try:
+    sampler = DWaveSampler(profile=cl_args.profile, solver=cl_args.solver)
+except Exception as e:
+    abend(str(e))
+try:
+    hw_adj = sampler.properties["couplers"]
+except KeyError:
+    abend("Failed to query solver %s's topology" % sampler.solver.id)
+
+# Canonicalize and sort the edge list.
+edges = set()
+for u, v in hw_adj:
+    if u == v:
+        abend("Topology contains a self edge: (%d, %d)" % (u, v))
+    if u > v:
+        u, v = v, u
+    edges.add((u, v))
+for u, v in sorted(edges):
+    print("%d %d" % (u, v))

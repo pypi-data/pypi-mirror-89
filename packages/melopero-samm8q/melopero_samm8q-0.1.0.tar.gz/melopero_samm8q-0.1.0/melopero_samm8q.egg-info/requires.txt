@@ -1,0 +1,2 @@
+melopero_ubx
+smbus2>=0.4

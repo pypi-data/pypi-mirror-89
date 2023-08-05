@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+deepcrawl_robots/__init__.py
+deepcrawl_robots/main
+deepcrawl_robots/main.py
+deepcrawl_robots.egg-info/PKG-INFO
+deepcrawl_robots.egg-info/SOURCES.txt
+deepcrawl_robots.egg-info/dependency_links.txt
+deepcrawl_robots.egg-info/top_level.txt

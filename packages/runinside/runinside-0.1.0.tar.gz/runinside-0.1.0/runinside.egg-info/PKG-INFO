@@ -1,0 +1,58 @@
+Metadata-Version: 1.2
+Name: runinside
+Version: 0.1.0
+Summary: Run instructions inside one or more Docker containers.
+Home-page: https://github.com/dimitry-dukhovny/runinside
+Author: Dimitry Dukhovny
+Author-email: gnomon@protonmail.com
+License: MIT license
+Description: ==========
+        Run Inside
+        ==========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/runinside.svg
+                :target: https://pypi.python.org/pypi/runinside
+        
+        
+        
+        Run instructions inside one or more Docker containers.
+        
+        
+        Features
+        --------
+        
+        * Copies arbitrary files into containers.
+        
+        * Runs arbitrary commands inside containers.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-12-11)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: runinside
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5

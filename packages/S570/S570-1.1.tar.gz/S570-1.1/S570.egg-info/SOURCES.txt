@@ -1,0 +1,9 @@
+setup.py
+S570/CSD_CSV.py
+S570/CSD_CSV_clean.py
+S570/__init__.py
+S570.egg-info/PKG-INFO
+S570.egg-info/SOURCES.txt
+S570.egg-info/dependency_links.txt
+S570.egg-info/not-zip-safe
+S570.egg-info/top_level.txt

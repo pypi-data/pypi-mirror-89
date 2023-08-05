@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sdogeom
+Version: 0.1
+Summary: A module for reading 3D SDO_GEOMETRY objects from Oracle Spatial
+Home-page: http://github.com/ghareth/sdogeom
+Author: Gareth Boyes
+Author-email: sdogeom@gxbis.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: euclid3
+Requires-Dist: pandas
+
+UNKNOWN
+
+

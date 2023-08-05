@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+RateMyProfessorAPI.egg-info/PKG-INFO
+RateMyProfessorAPI.egg-info/SOURCES.txt
+RateMyProfessorAPI.egg-info/dependency_links.txt
+RateMyProfessorAPI.egg-info/requires.txt
+RateMyProfessorAPI.egg-info/top_level.txt
+ratemyprofessor/__init__.py
+ratemyprofessor/professor.py
+ratemyprofessor/school.py

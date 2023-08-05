@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: reason
+Version: 0.2.0
+Summary: NLP Toolbox
+Home-page: https://github.com/alisoltanirad/reason
+Author: Ali Soltani Rad
+Author-email: soltaniradali@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Reason
+
+[![License](https://img.shields.io/pypi/l/reason.svg)](https://github.com/alisoltanirad/Reason/blob/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/reason.svg)](https://pypi.org/project/reason/)
+[![Downloads](https://img.shields.io/pypi/dw/reason)](https://pypi.org/project/reason/)
+[![Lines](https://img.shields.io/tokei/lines/github/alisoltanirad/reason)](https://github.com/alisoltanirad/Reason/)
+[![Activity](https://img.shields.io/github/last-commit/alisoltanirad/reason)](https://github.com/alisoltanirad/Reason/)
+
+Python easy-to-use natural language processing toolbox.
+
+## Install
+
+Install latest stable version using pip:
+```
+pip install reason
+```
+
+## Quick-Start
+
+Word tokenize:
+```python
+>>> from reason.tokenize import word_tokenize
+
+>>> text = "Testing reason0.1.0, (on: 127.0.0.1). Cool stuff..."
+>>> word_tokenize(text, 'alphanumeric')
+['Testing', 'reason0.1.0', 'on', '127.0.0.1', 'Cool', 'stuff']
+```
+
+Sentence tokenize:
+```python
+>>> from reason.tokenize import sent_tokenize
+
+>>> text = "Hey, what's up? I love using Reason library!"
+>>> sents = sent_tokenize(text, 'alphanumeric')
+>>> for sent in sents:
+...     print(sent)
+Hey, what's up?
+I love using Reason library!
+```
+
+## Dependencies
+
+- [NumPy](https://numpy.org)
+
+Keep in mind *NumPy* will be automatically installed with *Reason*.
+
+## License
+
+MIT -- See [LICENSE](https://github.com/alisoltanirad/Reason/blob/main/LICENSE) 
+for details.
+
+

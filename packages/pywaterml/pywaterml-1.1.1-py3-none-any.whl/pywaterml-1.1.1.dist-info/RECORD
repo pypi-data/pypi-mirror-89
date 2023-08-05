@@ -1,0 +1,12 @@
+pywaterml/__init__.py,sha256=Mm_TLAxbkpsohfqN0uc6ToVohkpv4hNov7Kt-VYZ5hE,176
+pywaterml/__main__.py,sha256=iBXb3dWXHE7inb20pTry4fNHFbLTGiAgQV76d9AJxHQ,37
+pywaterml/analyzeData.py,sha256=7V8r9FXfPy02fS_ax7MJx3ZPJH_PCwCzqC4b3L-vKHM,3464
+pywaterml/aux.py,sha256=Lo6poA6RLTbWtsplSVMHfc5var74DipzBbtkpOOTew0,7175
+pywaterml/cli.py,sha256=ozw9kC2B5Hi_zQ-X9hKp4go-7-yLeEXuK-2TjJ4tk8E,900
+pywaterml/waterML.py,sha256=hBQHyX_Vw3MXhTOSGpCdOTB2rjtxzPzxnnKTfmI1mrU,35166
+pywaterml-1.1.1.dist-info/LICENSE,sha256=fvgCNoHGb4yMhevd5f7wE2BMxWBglmLRmMLZR1FYP_g,1519
+pywaterml-1.1.1.dist-info/METADATA,sha256=LSHZjVXoKkU9pXRndjRlQa9KGJ5BrCplf9kXVvcrzos,1130
+pywaterml-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pywaterml-1.1.1.dist-info/entry_points.txt,sha256=Rcl_lYLc0qMNZClawXzoLmdLt5NhiUB5XjgC-IV6dw0,49
+pywaterml-1.1.1.dist-info/top_level.txt,sha256=580ODfysyEPkfWy3DG0mrkqNCcPzpQ0n3SsisSt3Nmo,10
+pywaterml-1.1.1.dist-info/RECORD,,

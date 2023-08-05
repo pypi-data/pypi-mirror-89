@@ -1,0 +1,12 @@
+README.rst
+setup.py
+smartcard/__init__.py
+smartcard/asn1.py
+smartcard/status.py
+smartcard/tag.py
+smartcard/utils.py
+smartcard.egg-info/PKG-INFO
+smartcard.egg-info/SOURCES.txt
+smartcard.egg-info/dependency_links.txt
+smartcard.egg-info/requires.txt
+smartcard.egg-info/top_level.txt

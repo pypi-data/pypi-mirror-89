@@ -1,0 +1,8 @@
+setup.py
+mac_md_to_html_pasteboard/__main__.py
+mac_md_to_html_pasteboard.egg-info/PKG-INFO
+mac_md_to_html_pasteboard.egg-info/SOURCES.txt
+mac_md_to_html_pasteboard.egg-info/dependency_links.txt
+mac_md_to_html_pasteboard.egg-info/entry_points.txt
+mac_md_to_html_pasteboard.egg-info/requires.txt
+mac_md_to_html_pasteboard.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+scikit-image
+numpy
+freetype-py
+scipy
+uharfbuzz
+fonttools

@@ -1,0 +1,52 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+
+from setuptools import setup, find_packages
+
+setup(
+    name = 'nmdriver',
+    version = '0.0.2',
+    keywords='wx',
+    description = 'a library for nmap scan',
+    license = 'MIT License',
+    url = 'https://192.168.1.146:8081/repo/packages',
+    author = 'superman',
+    author_email = '646390966@qq.com',
+    packages = find_packages(),
+    include_package_data = True,
+    platforms = 'any',
+    install_requires = [
+        'attrs==20.2.0',
+         'configparser==5.0.1',
+          'constantly==15.1.0',
+          'cryptography==3.1.1',
+'decorator==4.4.2',
+'docutils==0.16',
+'exception==0.1.0',
+'grpcio==1.32.0',
+'hyperlink==20.0.1',
+'ipdb==0.13.4',
+'ipython==7.16.1',
+'ipython-genutils==0.2.0',
+'lockfile==0.12.2',
+'parso==0.7.1',
+'pexpect==4.8.0',
+'pickleshare==0.7.5',
+'pid==3.0.4',
+'prompt-toolkit==3.0.8',
+'protobuf==3.13.0',
+'ptyprocess==0.6.0',
+'pycparser==2.20',
+'Pygments==2.7.1',
+'PyHamcrest==2.0.2',
+'python-daemon==2.2.4',
+'python-nmap==0.6.1',
+'setproctitle==1.1.10',
+'six==1.15.0',
+'traitlets==4.3.3',
+'Twisted==20.3.0',
+'txaio==20.4.1',
+'wcwidth==0.2.5',
+'zope.interface==5.1.2'],
+)

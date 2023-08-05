@@ -1,0 +1,3 @@
+[napari.plugin]
+pyclesperanto = napari_pyclesperanto_assistant
+

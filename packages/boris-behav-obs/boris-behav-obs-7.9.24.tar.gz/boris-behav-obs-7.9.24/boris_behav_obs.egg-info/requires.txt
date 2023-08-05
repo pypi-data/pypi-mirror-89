@@ -1,0 +1,10 @@
+MarkupPy
+matplotlib
+numpy==1.19.3
+odfpy
+openpyxl
+portion
+pyqt5
+tablib
+xlrd
+xlwt

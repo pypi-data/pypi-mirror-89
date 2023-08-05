@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+# description: extract nginx log_* options to create .log.fmt files
+# 
+# nginx -T is even simpler than apache2ctl -t -D DUMP_INCLUDES
+# (for this use case)
+#
+# the error log format is completely undocumented
+#   [%V] "%P#" "*%uA "
+# https://github.com/phusion/nginx/blob/master/src/core/ngx_log.c
+# https://forum.nginx.org/read.php?2,239483,239484#msg-239484
+#
+
+
+
+import os, re, sys, random
+import subprocess
+import traceback
+import json
+from pprint import pprint
+import logfmt1
+
+
+# extraction patterns
+class rx:
+    #
+    # log_format  custom  '$remote_addr - $remote_user [$time_local] "$request" '
+    #               '$status $body_bytes_sent "$http_referer" '
+    #               '"$http_user_agent" "$http_x_forwarded_for"';
+    #
+    format = re.compile(
+    """
+        ^\s*
+        (log_format)  \s+
+        (\w+)  \s+
+        ( (?: '.+?' \s* )+   )
+        \s*\;
+    """, re.M|re.X)  #"
+    #
+    # error_log  /var/log/nginx/domain.error.log warn;
+    # access_log  /var/log/nginx/access.log custom;
+    # access_log  /var/log/nginx/access.log custom [if=$cond]+;
+    #
+    log = re.compile(
+    """
+        ^\s*
+        (access_log|error_log)  \s+
+        (/\S+)  
+        (?: \s (\w+)   )?
+        .*\;
+    """, re.M|re.X)  #"
+    
+
+# temporary state variables
+class tmp:
+    log_formats = {
+        "combined": '$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"'
+    }
+    log_map = {
+        #"../fn.log": "combined"
+    }
+
+
+# encapsulate properties of config file (either vhosts, SecCfg*, or secrule collections)
+class vhost:
+    # split *.conf directives, dispatch onto assignment/extract methods
+    def __init__(self, fn, src, cfg_only=False):
+        for dir,name,form in rx.format.findall(src):
+            self.logformat(name, form)
+        for dir,path,name in rx.log.findall(src):
+            self.log(dir, path, name)
+
+    def logformat(self, name, form):
+        form = re.sub("'\s+'", "", form).strip("'")
+        tmp.log_formats[name] = form.replace('\\"', '"')
+
+    def log(self, dir, path, name):
+        if re.match("^off$|^syslog:|^memory:|^\|", path):
+            return
+        if dir == "error_log":
+            name = "error" #f"error {name}" if name else "error"
+        if not name:
+            name = dir.replace("_log", "")
+        tmp.log_map[path] = name
+
+
+# iterate over all Apache config files, visit relevant ones (vhosts/mod_security configs)
+def scan_all():
+    src = ng_dump_config()
+    vhost("*.conf", src)
+
+# nginx -T gets combines src of all configs
+def ng_dump_config():
+    cmd = ["nginx", "-T"]
+    stdout = subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout
+    return stdout.read().decode("utf-8")
+
+
+
+
+# traverse log files, create .fmt descriptor with current format string
+def mk_fmt():
+
+    for fn,ty in tmp.log_map.items():
+
+        fn_fmt = f"{fn}.fmt"
+        fmt_record = tmp.log_formats.get(ty)
+        if not fmt_record:
+            fmt_record = "nginx"
+        
+        j = {}
+        if os.path.exists(fn_fmt):
+            try:
+                j = json.loads(open(fn_fmt, "r", encoding="utf-8").read())
+            except Exception as e:
+                j = {}
+                print(f"WARN: {fn_fmt} contained invalid json: {str(e)}")
+        if not "class" in j:
+            j["class"] = f"nginx {ty}"
+        if not "record" in j or j["record"] != fmt_record:
+            j["record"] = fmt_record
+            
+        # add descriptors for known placeholders
+        if not "fields" in j or True:
+            j["regex"] = logfmt1.regex(j)
+
+        print(f"→ {fn_fmt}")
+        try:
+            f = open(fn_fmt, "w")
+            f.write(json.dumps(j, indent=4))
+            f.close()
+        except Exception as e:
+            print("ERR: " + str(e))
+
+
+
+scan_all()
+mk_fmt()
+#print(tmp.log_map)
+#print(tmp.log_formats)
+

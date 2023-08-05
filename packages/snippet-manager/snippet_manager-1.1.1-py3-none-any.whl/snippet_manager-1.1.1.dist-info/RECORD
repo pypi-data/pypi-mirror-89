@@ -1,0 +1,13 @@
+snippet/__init__.py,sha256=6YTDn0w_8Q4sx_3X3JYIrbgsrXLZvYTkmuxg42u52kU,134
+snippet/__version__.py,sha256=TVOlZfU5KM0a0fvC4xlsmXSLTscEXNBFXDsyZ0AGryo,101
+snippet/cmd.py,sha256=a1xL9GHwly9p7KMb118ZxDR22A1GVNaAd_9aNjXUzm8,5173
+snippet/meta.py,sha256=ZTpw41gWgdSngY3j8skxvgM8_m9Xa6XssFCdvp9oCtA,1133
+snippet/serializer.py,sha256=iW5LaqS-EWr5RKKGSSUQ26MP2REzqzTq-4-ll63K0qs,1122
+snippet/storage.py,sha256=FY4uyEemA7TeXqGmuE88ilfbaM3ptoPoOprXVJJ4hxM,1439
+snippet/tracker.py,sha256=LBAFi9gOdpfddlX6rluOcYqdpBTsMI9rSGOqIm68FBw,1848
+snippet/utils.py,sha256=8WbIXADAn0k4ZLFKL3nBdd0NEn9Z9gY7VlyUWyqL4XM,296
+snippet_manager-1.1.1.dist-info/METADATA,sha256=BhWS12gSzR-ZHrAkEZIej1TSOZNsM2SMxlE1-Z-GJK4,327
+snippet_manager-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+snippet_manager-1.1.1.dist-info/entry_points.txt,sha256=a0AfrUFPBVKtnI4pX6yQ3fOKShddJb6I1dypr6b8hdc,43
+snippet_manager-1.1.1.dist-info/top_level.txt,sha256=8p--aWF5jYwnE2RHI1h_8-647gCrFQgj8Du6MCFCeKo,8
+snippet_manager-1.1.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+auto_tracer.py
+setup.py
+autotracer/__init__.py
+autotracer/auto_tracer.py
+autotracer/mock.py
+autotracer.egg-info/PKG-INFO
+autotracer.egg-info/SOURCES.txt
+autotracer.egg-info/dependency_links.txt
+autotracer.egg-info/top_level.txt

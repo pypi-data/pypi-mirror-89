@@ -1,0 +1,3 @@
+[console_scripts]
+aws-sec-graph = aws_sec_graph:main
+

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kcalculator
+Version: 0.0.4
+Summary: A baisc calulcator
+Home-page: https://github.com/softprodigyofficial/sample-python-package.git
+Author: kuldeep khatana
+Author-email: kuldeep.si.softprodigy@gmail.com
+License: UNKNOWN
+Keywords: calulcator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# sample-python-package
+# This is a basic Python module and you can simply add this by using this command.
+
+pip install kuldeepcalculator or pip3 install kuldeepcalculator
+
+#Note:-
+
+# It basicly perform on addition, subtraction, multiply or divide operations.
+# for Now it perform only basic operation.
+Ex: - a +b 
+      2+3 = 5
+

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-rbac-auth
+Version: 0.0.2
+Summary: A role-based access control(RBAC) practice via Django.
+Home-page: https://github.com/XIAOYAOGEGE666/django-rbac-auth
+Author: xiaoyaogege
+Author-email: 249768447@qq.com
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: Django (>=2.2)
+
+UNKNOWN
+
+

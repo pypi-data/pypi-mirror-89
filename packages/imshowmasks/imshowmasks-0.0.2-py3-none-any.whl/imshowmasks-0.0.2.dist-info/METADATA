@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: imshowmasks
+Version: 0.0.2
+Summary: A slim package to handle and display binary masks in color over images shown with matplotlib.
+Home-page: https://github.com/mbrammerloh/imshowmasks
+Author: Malte Brammerloh
+Author-email: m.brammerloh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Imshowmasks
+This package makes it easy to handle binary masks and display them with matplotlib's imshow. The central structure is the rgb_mask class, which enables simple operations on the binary masks as well as combining them for display. It is possible to highlight the overlap of masks with different color mixing schemes. 
+
+

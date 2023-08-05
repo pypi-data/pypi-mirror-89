@@ -1,0 +1,8 @@
+README.md
+setup.py
+bitman/__init__.py
+bitman/bitman.py
+bitman.egg-info/PKG-INFO
+bitman.egg-info/SOURCES.txt
+bitman.egg-info/dependency_links.txt
+bitman.egg-info/top_level.txt

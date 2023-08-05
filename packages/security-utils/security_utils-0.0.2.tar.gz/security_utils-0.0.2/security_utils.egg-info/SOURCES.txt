@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+security_utils/__init__.py
+security_utils/security.py
+security_utils.egg-info/PKG-INFO
+security_utils.egg-info/SOURCES.txt
+security_utils.egg-info/dependency_links.txt
+security_utils.egg-info/requires.txt
+security_utils.egg-info/top_level.txt

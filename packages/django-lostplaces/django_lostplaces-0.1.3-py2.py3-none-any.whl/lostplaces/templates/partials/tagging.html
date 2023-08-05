@@ -1,0 +1,68 @@
+{% load i18n %}
+
+<div class="LP-TagList">
+    <ul class="LP-TagList__List">
+        {% for tag in config.tagged_item.tags.all %}
+        <li class="LP-TagList__Item">
+            <div class="LP-Tag">
+                <a href="#" class="LP-Link">
+                    <span class="LP-Link__Text">{{tag}}</span>
+                </a>
+                {% if request.user and request.user.explorer == config.tagged_item.submitted_by %}
+                <a href="{% url config.delete_url_name tagged_id=config.tagged_item.id tag_id=tag.id %}" class="LP-Link">
+                    <span class="LP-Tag__Remove RV-Iconized__Container RV-Iconized__Container--extraSmall">
+                        <svg class="RV-Iconized__Icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+                {% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<form id="id_tag_submit_form" class="LP-Form LP-Form--inline LP-Form--tagging" method="POST" action="{% url config.submit_url_name tagged_id=config.tagged_item.id%}">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Add tags' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field LP-Form__Button LP-Input LP-Input--tagging">
+                <button id="id_tag_submit_button" class="LP-Button">{% trans 'Add tags' %}</button>
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=config.submit_form.tag_list classes="LP-Input--tagging" %}
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+<script>
+    const input = document.getElementById('{{config.submit_form.tag_list.auto_id}}')
+    const submit_form = document.getElementById('id_tag_submit_form')
+    const submit_button = document.getElementById('id_tag_submit_button')
+
+    submit_form.onsubmit = () => false
+
+    const tagify = new Tagify(input, {
+		'whitelist': [
+			{% for tag in config.all_tags %}
+            '{{tag}}',
+            {% endfor %}
+        ]
+    })
+
+    const on_form_submit = function() {
+        concat_value = ''
+        console.log(tagify)
+        concat_value = tagify.value.map(value => value.value).join(',')
+        console.log(concat_value)
+        input.value = concat_value
+        submit_form.submit()
+    }
+
+    submit_button.onclick = on_form_submit
+</script>

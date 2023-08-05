@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="instagram.svg"
+   xml:space="preserve"
+   style="enable-background:new 0 0 97.395 97.395;"
+   viewBox="0 0 97.395 97.395"
+   height="97.395px"
+   width="97.395px"
+   y="0px"
+   x="0px"
+   id="Capa_1"
+   version="1.1"><metadata
+   id="metadata1237"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs1235" /><sodipodi:namedview
+   inkscape:current-layer="Capa_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="0"
+   inkscape:window-x="0"
+   inkscape:cy="48.697498"
+   inkscape:cx="48.697498"
+   inkscape:zoom="8.4090562"
+   showgrid="false"
+   id="namedview1233"
+   inkscape:window-height="1016"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+    <g
+   style="fill:#f9f9f9;fill-opacity:1"
+   id="g1230">
+        <path
+   style="fill:#f9f9f9;fill-opacity:1"
+   id="path1228"
+   d="m 12.501,0 h 72.393 c 6.875,0 12.5,5.09 12.5,12.5 v 72.395 c 0,7.41 -5.625,12.5 -12.5,12.5 H 12.501 C 5.624,97.395 0,92.305 0,84.895 V 12.5 C 0,5.09 5.624,0 12.501,0 Z m 58.447,10.821 c -2.412,0 -4.383,1.972 -4.383,4.385 v 10.495 c 0,2.412 1.971,4.385 4.383,4.385 h 11.008 c 2.412,0 4.385,-1.973 4.385,-4.385 V 15.206 c 0,-2.413 -1.973,-4.385 -4.385,-4.385 z m 15.439,30.367 h -8.572 c 0.811,2.648 1.25,5.453 1.25,8.355 0,16.2 -13.556,29.332 -30.275,29.332 -16.718,0 -30.272,-13.132 -30.272,-29.332 0,-2.904 0.438,-5.708 1.25,-8.355 h -8.945 v 41.141 c 0,2.129 1.742,3.872 3.872,3.872 h 67.822 c 2.13,0 3.872,-1.742 3.872,-3.872 V 41.188 Z M 48.789,29.533 c -10.802,0 -19.56,8.485 -19.56,18.953 0,10.468 8.758,18.953 19.56,18.953 10.803,0 19.562,-8.485 19.562,-18.953 0,-10.468 -8.758,-18.953 -19.562,-18.953 z" />
+    </g>
+</svg>

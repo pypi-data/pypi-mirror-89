@@ -1,0 +1,35 @@
+{% extends 'global.html'%}
+{% load i18n %}
+
+{% block title %}{% trans 'Submit a photo album' %}{% endblock %}
+
+{% block additional_menu_items %}
+<li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_edit' pk=place.pk %}" class="LP-Link"><span
+			class="LP-Link__Text">{% trans 'Edit place' %}</span></a></li>
+<li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_delete' pk=place.pk %}" class="LP-Link"><span
+			class="LP-Link__Text">{% trans 'Delete place' %}</span></a></li>
+{% endblock additional_menu_items %}
+
+{% block maincontent %}
+<form class="LP-Form" method="POST">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Submit a photo album for' %} {{place.name}}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.url %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.label %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            {% include 'partials/form/submit.html' with referrer=request.META.HTTP_REFERER %}
+        </div>
+    </fieldset>
+</form>
+{% endblock maincontent %}

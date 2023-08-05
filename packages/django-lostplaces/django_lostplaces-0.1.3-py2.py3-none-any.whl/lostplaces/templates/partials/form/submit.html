@@ -1,0 +1,9 @@
+{% load i18n %}
+<div class="LP-Form__Field LP-Form__Button LP-Input">
+    <button class="LP-Button">{% if action %}{{ action }}{% else %}{% trans 'Submit' %}{% endif %}</button>
+</div>
+<div class="LP-Form__Field LP-Form__Button LP-Input">
+    <a class="LP-Link" href="{% if referer %}{{ referer }}{% else %}{% url 'lostplaces_home' %}{% endif %}">
+        <button type="button" class="LP-Button LP-Button--cancel">{% trans 'Cancel' %}</button>
+    </a>
+</div>

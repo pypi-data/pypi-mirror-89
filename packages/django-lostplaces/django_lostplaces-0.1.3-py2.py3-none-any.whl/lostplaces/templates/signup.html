@@ -1,0 +1,48 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+{% load widget_tweaks %}
+
+# {% block title %}{% trans 'Sign up' %}{% endblock %}
+
+{% block maincontent %}
+
+<form class="LP-Form" method="POST">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Sign up' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.username %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.email %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.password1 %}
+            </div>
+        </div>
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.password2 %}
+            </div>
+        </div>
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.voucher %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            <div class="LP-Form__Field LP-Form__Button LP-Input">
+                <button class="LP-Button">{% trans 'Sign up' %}</button>
+            </div>
+        </div>
+    </fieldset>
+
+</form>
+
+{% endblock maincontent %}

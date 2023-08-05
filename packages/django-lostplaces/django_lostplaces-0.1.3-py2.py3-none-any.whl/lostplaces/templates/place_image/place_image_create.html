@@ -1,0 +1,22 @@
+{% extends 'global.html'%}
+{% load i18n %}
+
+{% block maincontent %}
+<form class="LP-Form" method="POST" enctype="multipart/form-data">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Submit images to a place' %}</legend>
+        {% csrf_token %}
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.filename %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            {% include 'partials/form/submit.html' with referrer=request.META.HTTP_REFERER %}
+        </div>
+    </fieldset>
+
+</form>
+{% endblock maincontent %}

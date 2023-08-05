@@ -1,0 +1,43 @@
+{% extends 'global.html'%}
+{% load i18n %}
+
+# {% block title %}Start{% endblock %}
+
+{% block maincontent %}
+
+{% include 'partials/welcome.html' %}
+<article class="LP-TextSection">
+    <p class="LP-Paragraph">
+        {% blocktrans %}You can create, view and share your lost places with other members of this site. You can upload photos, place links to your web galleries and contribute your knowledge by tagging other places or commenting on them. You will find detailed information on where these locations are, how to get there and what to expect from them. This might even include detailed information on the surroundings or the history of a lost place.{% endblocktrans %}
+    </p>
+    {% url 'signup' as signup_url %}
+    <p class="LP-Paragraph">
+        {% blocktrans %}Since vandalism is a growing problem these days, no sensitive information is available to the public. You have to <a class="LP-Link" href="{{signup_url}}"><span class="LP-Link__Text">sign up</span></a> with a voucher code as an invitation to join this community. Only admins can create these codes. Usually you are given a code when we know you in real life in person and when we trust you. A request from an unknown person will most probably be denied.{% endblocktrans %}
+    </p>
+</article>
+
+<div class="LP-PlaceGrid">
+    <h1 class="LP-Headline LP-Headline">{% trans 'Explore the latest places' %}</h1>
+    <ul class="LP-PlaceGrid__Grid">
+        {% for place in place_list %}
+        <li class="LP-PlaceGrid__Item">
+            <a href="{% url 'place_detail' pk=place.pk %}" class="LP-Link">
+                <article class="LP-PlaceTeaser">
+                    <div class="LP-PlaceTeaser__Image">
+                        <img class="LP-Image" src="{{ place.placeimages.first.filename.thumbnail.url}}" />
+                    </div>
+                    <div class="LP-PlaceTeaser__Meta">
+                        <div class="LP-PlaceTeaser__Info">
+                            <span class="LP-PlaceTeaser__Title">
+                                <h1 class="LP-Headline LP-Headline--teaser">{{place.name|truncatechars:19}}</h1>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock maincontent %}

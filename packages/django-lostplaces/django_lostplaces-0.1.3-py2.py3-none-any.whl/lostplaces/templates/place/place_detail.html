@@ -1,0 +1,120 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+
+{% load thumbnail %}
+{% load svg_icon %}
+
+{% block additional_head %}
+<link rel="stylesheet" href="{% static 'maps/ol.css' %}" type="text/css">
+<script src="{% static 'maps/ol.js' %}"></script>
+
+<script src="{% static 'tagify.min.js' %}"></script>
+{% endblock additional_head %}
+
+{% block title %}{{place.name}}{% endblock %}
+
+{% block additional_menu_items %}
+<li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_edit' pk=place.pk %}" class="LP-Link"><span class="LP-Link__Text">{% trans 'Edit place' %}</span></a></li>
+<li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_delete' pk=place.pk %}" class="LP-Link"><span class="LP-Link__Text">{% trans 'Delete place' %}</span></a></li>
+{% endblock additional_menu_items %}
+
+{% block maincontent %}
+<article class="LP-PlaceDetail">
+
+    <header class="LP-PlaceDetail__Header">
+        <h1 class="LP-Headline">{{ place.name }}</h1>
+        {% if place.placeimages.first.filename.hero.url %}
+        <figure class="LP-PlaceDetail__Image">
+            <img src="{{ place.placeimages.first.filename.hero.url }}" class="LP-Image" />
+        </figure>
+        {% endif %}
+    </header>
+
+    <div class="LP-PlaceDetail__Description">
+        <p class="LP-Paragraph">{{ place.description }}</p>
+    </div>
+
+    <section class="LP-Section">
+
+        {% url 'place_tag_submit' place_id=place.id as tag_submit_url%}
+        {% include 'partials/tagging.html' with config=tagging_config %}
+
+    </section>
+
+    <section class="LP-Section">
+        <h1 class="LP-Headline">{% trans 'Map links' %}</h1>
+        {% include 'partials/osm_map.html' with config=mapping_config%}
+        <div class="LP-LinkList">
+            <ul class="LP-LinkList__Container">
+                <li class="LP-LinkList__Item"><a target="_blank" href="https://www.google.com/maps?q={{place.latitude|safe}},{{place.longitude|safe}}" class="LP-Link"><span class="LP-Text">Google Maps</span></a></li>
+                <li class="LP-LinkList__Item"><a target="_blank" href="https://www.tim-online.nrw.de/tim-online2/?center={{place.latitude|safe}},{{place.longitude|safe}}&icon=true&bg=dop" class="LP-Link"><span class="LP-Text">TIM Online</span></a></li>
+                <li class="LP-LinkList__Item"><a target="_blank" href="http://www.openstreetmap.org/?mlat={{place.latitude|safe}}&mlon={{place.longitude|safe}}&zoom=16" class="LP-Link"><span class="LP-Text">OSM</span></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class=" LP-Section">
+        <h1 class="LP-Headline">{% trans 'Photo albums' %}</h1>
+        <div class="LP-LinkList">
+            <ul class="LP-LinkList__Container">
+                {% for photo_album in place.photoalbums.all %}
+                <li class="LP-LinkList__Item">
+                    <a target="_blank" href="{{photo_album.url}}" class="LP-Link">
+                        <span class="LP-Text">{{photo_album.label}}</span>
+                    </a>
+                    {% if user.explorer == photo_album.submitted_by or user.explorer == place.submitted_by %}
+                    <a href="{% url 'photo_album_delete' pk=photo_album.pk%}" class="LP-Link LP-LinkList__ItemHover" title="Delete Photo Album">
+                        <div class="RV-Iconized__Container RV-Iconized__Container--small">
+                            {% icon 'trash' className="RV-Iconized__Icon" %}
+                        </div>
+                    </a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+                <li class="LP-LinkList__Item">
+                    <a href="{% url 'photo_album_create' place_id=place.id %}" class="LP-Link">
+                        <div class="RV-Iconized__Container RV-Iconized__Container--small">
+                            <svg class="RV-Iconized__Icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                <g>
+                                    <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+		v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                </g>
+                            </svg>
+                            <span class="RV-Iconized__Text">{% trans 'Add photo album' %}</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="LP-Section">
+        <h1 class="LP-Headline">{% trans 'Images' %}</h1>
+        <div class="LP-ImageGrid">
+            <ul class="LP-ImageGrid__Container">
+                {% for place_image in place.placeimages.all %}
+                <li class="LP-ImageGrid__Item">
+                    <a href="{{ place_image.filename.large.url }}" class="LP-Link">
+                        <img class="LP-Image" src="{{ place_image.filename.thumbnail.url }}">
+                    </a>
+                    {% if user.explorer == place_image.submitted_by or user.explorer ==  place.submitted_by %}
+                    <span class="LP-ImageGrid__DeleteItem" title="Bild löschen">
+                        <a href="{% url 'place_image_delete' pk=place_image.id %}" class="LP-Link">
+                            <img class="LP-Icon" src="{% static 'icons/cancel.svg' %}" />
+                        </a>
+                    </span>
+                    {% endif %}
+                </li>
+                {% endfor %}
+                <li class="LP-ImageGrid__Item LP-ImageGrid__Item--add" title="Bild hinzufügen">
+                    <a class="LP-Link" href="{% url 'place_image_create' place_id=place.id%}">
+                        <img class="LP-Icon" src="{% static 'icons/plus.svg' %}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</article>
+{% endblock maincontent %}

@@ -1,0 +1,32 @@
+{% extends 'global.html'%}
+
+{% load static %}
+{% load i18n %}
+{% block additional_head %}
+<link rel="stylesheet" href="{% static 'maps/ol.css' %}" type="text/css">
+<script src="{% static 'maps/ol.js' %}"></script>
+{% endblock additional_head %}
+
+# {% block title %}{% trans 'Home' %}{% endblock %}
+
+{% block maincontent %}
+
+{% include 'partials/welcome.html' %}
+<article class="LP-TextSection">
+</article>
+
+{% include 'partials/osm_map.html' with config=mapping_config %}
+<div class="LP-PlaceGrid">
+    <h1 class="LP-Headline LP-Headline">{% trans 'Explore the latest places' %}</h1>
+    <ul class="LP-PlaceGrid__Grid">
+        {% for place in place_list %}
+        <li class="LP-PlaceGrid__Item">
+            <a href="{% url 'place_detail' pk=place.pk %}" class="LP-Link">
+                {% include 'partials/place_teaser.html' with place=place%}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock maincontent %}

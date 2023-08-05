@@ -1,0 +1,109 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+
+{% load svg_icon %}
+
+{% block maincontent %}
+
+<div class="LP-UserProfile">
+    <div class="LP-UserProfile__Info">
+        <div class="LP-UserInfo">
+            <div class="LP-UserInfo__UserName">
+                <h1 class="LP-Headline">{{explorer.user.username}}</h1>
+            </div>
+            <div class="LP-UserInfo__Meta">
+                <table>
+                    <tr>
+                        <td class="LP-UserInfo__Key">
+                            <span class="LP-Paragraph">{% trans 'Joined' %}</span>
+                        </td>
+                        <td class="LP-UserInfo__Value">
+                            <span class="LP-Paragraph">{{explorer.user.date_joined|date:'d.m.Y'}}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="LP-UserInfo__Key">
+                            <span class="LP-Paragraph">{% trans 'Places'%}</span>
+                        </td>
+                        <td class="LP-UserInfo__Value">
+                            <span class="LP-Paragraph">{{place_count}}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="LP-UserInfo__Key">
+                            <span class="LP-Paragraph">{% trans 'Place Assets'%}</span>
+                        </td>
+                        <td class="LP-UserInfo__Value">
+                            <span class="LP-Paragraph">{{asset_count}}</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="LP-Section">
+	<div class="LP-PlaceList">
+		<h1 class="LP-Headline">{% trans 'Places submitted by' %} {{explorer.user.username}}</h1>
+		<ul class="LP-PlaceList__List">
+			{% for place in place_list %}
+			<li class="LP-PlaceList__Item">
+				<a href="{% url 'place_detail' pk=place.pk %}" class="LP-Link">
+					{% include 'partials/place_teaser.html' with place=place extended=True %}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+
+		{% include 'partials/nav/pagination.html' %}
+
+	</div>
+</section>
+
+<section class="LP-Section">
+	<h1 class="LP-Headline">{% trans 'Images submitted by' %} {{explorer.user.username}}</h1>
+	<div class="LP-ImageGrid">
+		<ul class="LP-ImageGrid__Container">
+			{% for place_image in assets.placeimages.all %}
+			<li class="LP-ImageGrid__Item">
+				<a href="{{ place_image.filename.large.url }}" class="LP-Link">
+					<img class="LP-Image" src="{{ place_image.filename.thumbnail.url }}">
+				</a>
+				{% if user.explorer == place_image.submitted_by%}
+				<span class="LP-ImageGrid__DeleteItem" title="Bild löschen">
+					<a href="{% url 'place_image_delete' pk=place_image.id %}" class="LP-Link">
+						<img class="LP-Icon" src="{% static 'icons/cancel.svg' %}" />
+					</a>
+				</span>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<section class=" LP-Section">
+	<h1 class="LP-Headline">{% trans 'Photo albums submitted by' %} {{explorer.user.username}}</h1>
+	<div class="LP-LinkList">
+		<ul class="LP-LinkList__Container">
+			{% for photo_album in assets.photoalbums.all %}
+			<li class="LP-LinkList__Item">
+				<a target="_blank" href="{{photo_album.url}}" class="LP-Link">
+					<span class="LP-Text">{{photo_album.label}}</span>
+				</a>
+				{% if user.explorer == photo_album.submitted_by%}
+				<a href="{% url 'photo_album_delete' pk=photo_album.pk%}" class="LP-Link LP-LinkList__ItemHover" title="Delete Photo Album">
+					<div class="RV-Iconized__Container RV-Iconized__Container--small">
+						{% icon 'trash' className="RV-Iconized__Icon" %}
+					</div>
+				</a>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+{% endblock maincontent %}

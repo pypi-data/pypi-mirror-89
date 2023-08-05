@@ -1,0 +1,31 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+# {% block title %}{% trans 'Login' %}{% endblock %}
+
+{% block maincontent %}
+
+<form class="LP-Form" method="POST" enctype="multipart/form-data">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Login' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.username %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.password %}
+            </div>
+		</div>
+
+		<div class="LP-Form__Composition LP-Form__Composition--buttons">
+			<div class="LP-Form__Field LP-Form__Button LP-Input">
+				<button class="LP-Button">{% trans 'Login' %}</button>
+			</div>
+		</div>
+    </fieldset>
+</form>
+
+<p class="LP-Headline">{% trans 'No account, yet?' %} <a class="LP-Link" href="{% url 'signup' %}"><span class="LP-Link__Text">{% trans 'Sign up' %}</span></a></p>
+
+{% endblock maincontent %}

@@ -1,0 +1,69 @@
+{% load static %}
+<div tabindex="1" id="map" class="LP-Map map" style="height: 300px"></div>
+    <div id="info" class="map-popup LP-Map__Popup"></div>
+
+        <script type="text/javascript">
+            var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                source: new ol.source.OSM()
+                }),
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([{{config.map_center.longitude|safe}}, {{config.map_center.latitude|safe}}]),
+                zoom: 9
+            })
+            });
+
+            var vectorSource = new ol.source.Vector({
+                features: [
+                    {% for point in config.all_points %}
+                        new ol.Feature({
+                            geometry: new ol.geom.Point(
+                                ol.proj.fromLonLat([{{point.longitude|safe}},{{point.latitude|safe}}])
+                            ),
+                            url: '{{point.get_absolute_url}}',
+                            name: '  {{point.name}}'
+                        }),
+                    {% endfor %}
+                ]
+            });
+
+            var markerVectorLayer = new ol.layer.Vector({
+                source: vectorSource,
+                style: new ol.style.Style({
+                        image: new ol.style.Icon({
+                            anchor: [0.5, 46],
+                            anchorXUnits: 'fraction',
+                            anchorYUnits: 'pixels',
+                            scale: 0.02,
+                            src: '{% static "icons/map-marker-icon.png" %}'
+                        })
+                })
+            });
+            map.addLayer(markerVectorLayer);
+
+            var overlay = new ol.Overlay({
+                element: document.getElementById('info'),
+                positioning: 'bottom-left'
+            });
+            overlay.setMap(map);
+
+            map.on(['singleclick'], function(evt) {
+                var feature = map.forEachFeatureAtPixel(evt.pixel, function(feature) {
+                    window.open(feature.get('url'), '_blank');
+                });
+            });
+
+            map.on(['pointermove'], function(evt) {
+                var feature = map.forEachFeatureAtPixel(evt.pixel, function(feature) {
+                    overlay.setPosition(evt.coordinate.map(element => element + 1));
+                    overlay.getElement().innerHTML = feature.get('name');
+                    return feature;
+                });
+                overlay.getElement().style.display = feature ? '' : 'none';
+                document.body.style.cursor = feature ? 'pointer' : '';
+            });
+
+        </script>

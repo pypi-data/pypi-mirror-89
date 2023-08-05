@@ -1,0 +1,50 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+
+# {% block title %}{% trans 'Create place' %}{% endblock %}
+
+{% block maincontent %}
+<form class="LP-Form" method="POST" enctype="multipart/form-data">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Create place' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_form.name %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_form.location %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_form.latitude %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_form.longitude %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_form.description %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=place_image_form.filename %}
+            </div>
+        </div>
+
+        {% trans 'Create' as action %}
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            {% include 'partials/form/submit.html' with referrer=request.META.HTTP_REFERER action=action %}
+        </div>
+    </fieldset>
+
+</form>
+
+{% endblock maincontent %}

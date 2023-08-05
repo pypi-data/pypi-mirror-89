@@ -1,0 +1,50 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+
+# {% block title %}{% trans 'Edit place' %}{% endblock %}
+
+{% block maincontent %}
+<form class="LP-Form" method="POST" enctype="multipart/form-data">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Edit place' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.name %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.location %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition LP-Form__Composition--breakable">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.latitude %}
+            </div>
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.longitude %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.description %}
+            </div>
+        </div>
+
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field">
+                {% include 'partials/form/inputField.html' with field=form.filename %}
+            </div>
+        </div>
+        
+        {% trans 'Update' as action %}
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            {% include 'partials/form/submit.html' with referrer=request.META.HTTP_REFERER action=action %}
+        </div>
+    </fieldset>
+
+</form>
+
+{% endblock maincontent %}

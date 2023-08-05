@@ -1,0 +1,21 @@
+{% load i18n %}
+
+<header class="LP-TextSection__Headline">
+    <h1 class="LP-Headline">{% trans 'Start' %}</h1>
+</header>
+
+<div class="LP-TextSection__Text">
+    <p class="LP-Paragraph">{% trans 'Welcome to our Urban Exploration community catalogue,' %}
+        {% if user.is_authenticated %}
+            {{ user.username }}
+        {% else %}
+            {% trans 'explorer' %}
+        {% endif %}
+        !
+    </p>
+    <p class="LP-Paragraph">
+        {% trans 'We strictly follow our' %} 
+        <a class="LP-Link" href="{% url 'flatpage' slug='codex' %}"><span class="LP-Link__Text">{% trans 'UrBex codex' %}</span></a>
+        {% trans 'and expect you to do so, too.' %}'
+    </p>
+</div>

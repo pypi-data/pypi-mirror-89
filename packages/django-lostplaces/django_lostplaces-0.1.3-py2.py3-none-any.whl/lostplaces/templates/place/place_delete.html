@@ -1,0 +1,25 @@
+{% extends 'global.html'%}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'Delete lost place' %}{% endblock %}
+
+{% block maincontent %}
+
+<form class="LP-Form" method="POST">
+    <fieldset class="LP-Form__Fieldset">
+        <legend class="LP-Form__Legend">{% trans 'Delete place' %}</legend>
+        {% csrf_token %}
+        <div class="LP-Form__Composition">
+            <div class="LP-Form__Field LP-Form__InfoText">
+                <p class="LP-Paragraph">{% blocktrans with place_name=place.name%}Are you sure you want to delete {{place_name}}?{% endblocktrans %}</p>
+            </div>
+        </div>
+        
+        {% trans 'Delete' as action %}
+        <div class="LP-Form__Composition LP-Form__Composition--buttons">
+            {% include 'partials/form/submit.html' with referer=request.META.HTTP_REFERER action=action %}
+        </div>
+    </fieldset>
+</form>
+{% endblock maincontent %}

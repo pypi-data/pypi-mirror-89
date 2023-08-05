@@ -1,0 +1,37 @@
+{%load static %}
+
+<article class="LP-PlaceTeaser {% if extended %} LP-PlaceTeaser--extended{% endif %}">
+    <div class="LP-PlaceTeaser__Image">
+        {% if place.placeimages.all|length > 0 %}
+            <img class="LP-Image" src="{{ place.placeimages.first.filename.thumbnail.url}}" />
+        {% else %}
+            <img class="LP-Image" src="{% static 'images/missing_image.png' %}" />
+        {% endif %}
+    </div>
+    <div class="LP-PlaceTeaser__Meta">
+        <div class="LP-PlaceTeaser__Info">
+            <span class="LP-PlaceTeaser__Title">
+                <h1 class="LP-Headline LP-Headline--teaser">{{place.name|truncatechars:19}}</h1>
+            </span>
+            <span class="LP-PlaceTeaser__Detail">
+                <p class="LP-Paragraph">{{place.location|truncatechars:25}}</p>
+            </span>
+        </div>
+        <div class="LP-PlaceTeaser__Description">
+            <p class="LP-Paragraph">
+                {% if place.description|length > 210 %}
+                    {{place.description|truncatechars:210|truncatewords:-1}}
+                {% else %}
+                    {{place.description}}
+                {% endif %}
+            </p>
+        </div>
+        <div class="LP-PlaceTeaser__Icons">
+            <ul class="LP-Icon__List">
+                <li class="LP-Icon__Item"><img class="LP-Icon" src="{% static '/icons/favourite.svg' %}" /></li>
+                <li class="LP-Icon__Item"><img class="LP-Icon" src="{% static '/icons/location.svg' %}" /></li>
+                <li class="LP-Icon__Item"><img class="LP-Icon" src="{% static '/icons/flag.svg' %}" /></li>
+            </ul>
+        </div>
+    </div>
+</article>

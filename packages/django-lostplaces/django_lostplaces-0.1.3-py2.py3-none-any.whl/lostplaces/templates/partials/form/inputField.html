@@ -1,0 +1,18 @@
+{% load widget_tweaks %}
+
+<div class="LP-Input {% if classes%}{{classes}}{% endif %} {% if field.errors %} LP-Input--error {% endif %}">
+    <label for="{{field.id_for_label}}" class="LP-Input__Label">{{field.label}}</label>
+    {% with class="LP-Input__Field "%}
+    {% render_field field class=class%}
+    {% endwith %}
+
+    <span class="LP-Input__Message">
+        {% if field.errors %}
+        {% for error in field.errors%}
+        {{error}}
+        {% endfor %}
+        {% elif field.help_text%}
+        {{ field.help_text }}
+        {% endif %}
+    </span>
+</div>

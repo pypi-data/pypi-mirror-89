@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="vimeo.svg"
+   xml:space="preserve"
+   style="enable-background:new 0 0 97.097 97.096;"
+   viewBox="0 0 97.097 97.096"
+   height="97.096px"
+   width="97.097px"
+   y="0px"
+   x="0px"
+   id="Capa_1"
+   version="1.1"><metadata
+   id="metadata877"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs875" /><sodipodi:namedview
+   inkscape:current-layer="Capa_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="0"
+   inkscape:window-x="0"
+   inkscape:cy="48.548"
+   inkscape:cx="48.5485"
+   inkscape:zoom="8.4349509"
+   showgrid="false"
+   id="namedview873"
+   inkscape:window-height="1016"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+    <g
+   style="fill:#f9f9f9;fill-opacity:1"
+   id="g870">
+        <path
+   style="fill:#f9f9f9;fill-opacity:1"
+   id="path868"
+   d="M 97.05,25.977 C 96.619,35.43 90.012,48.378 77.244,64.811 64.046,81.975 52.876,90.56 43.734,90.56 38.079,90.56 33.29,85.334 29.377,74.876 26.764,65.291 24.15,55.715 21.539,46.13 18.637,35.678 15.522,30.447 12.187,30.447 c -0.724,0 -3.27,1.531 -7.622,4.577 L 0,29.136 c 4.788,-4.208 9.517,-8.422 14.167,-12.643 6.394,-5.52 11.19,-8.429 14.391,-8.722 7.557,-0.725 12.208,4.446 13.954,15.502 1.886,11.938 3.191,19.361 3.922,22.264 2.176,9.902 4.576,14.849 7.19,14.849 2.034,0 5.091,-3.216 9.159,-9.634 4.065,-6.427 6.244,-11.315 6.537,-14.667 0.58,-5.545 -1.6,-8.324 -6.537,-8.324 -2.328,0 -4.727,0.531 -7.188,1.592 4.77,-15.632 13.887,-23.229 27.348,-22.8 9.98,0.294 14.68,6.769 14.107,19.424 z" />
+    </g>
+</svg>

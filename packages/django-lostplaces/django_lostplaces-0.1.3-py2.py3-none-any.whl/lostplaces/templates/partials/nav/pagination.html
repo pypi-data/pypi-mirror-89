@@ -1,0 +1,75 @@
+{% load i18n %}
+{% load lostplaces %}
+
+{% if is_paginated %}
+    <div class="LP-Pagination">
+        <ul class="LP-Pagination__List">
+            {% if page_obj.has_previous %}
+            <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--first">
+                <a href="?page=1" class="LP-Link">
+                    <span class="LP-Icon">⟪</span>
+                    <span class="LP-Text">{% trans 'First' %}</span>
+                </a>
+            </li>
+                <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--previous">
+                    <a href="?page={{ page_obj.previous_page_number }}" class="LP-Link">
+                        <span class="LP-Icon">⟨</span>
+                        <span class="LP-Text">{% trans 'Previous' %}</span>
+                    </a>
+                </li>
+            {% else %}
+                <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--first LP-Pagination__Item--disabled">
+                    <a href="#" class="LP-Link">
+                        <span class="LP-Icon">⟪</span>
+                        <span class="LP-Text">{% trans 'First' %}</span>
+                    </a>
+                </li>
+                <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--previous LP-Pagination__Item--disabled">
+                    <a href="#" class="LP-Link">
+                        <span class="LP-Icon">⟨</span>
+                        <span class="LP-Text">{% trans 'Previous' %}</span>
+                    </a>
+                </li>
+            {% endif %}
+            
+            {% for i in page_obj.paginator|proper_paginate:page_obj.number %}
+                {% if i == page_obj.number %}
+                    <li class="LP-Pagination__Item LP-Pagination__Item--current">
+                {% else %}
+                    <li class="LP-Pagination__Item LP-Pagination__Item--neighbor">
+                {% endif %}
+                        <a href="?page={{i}}" class="LP-Link">
+                            <span class="LP-Text">{{i}}</span>
+                        </a>
+                    </li>
+            {% endfor %}
+            
+            {% if page_obj.has_next %}
+            <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--next">
+                <a href="?page={{ page_obj.next_page_number }}" class="LP-Link">
+                    <span class="LP-Text">{% trans 'Next' %}</span>
+                    <span class="LP-Icon">⟩</span>
+                </a>
+            </li>
+            <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--last">
+                <a href="?page={{ page_obj.paginator.num_pages }}" class="LP-Link">
+                    <span class="LP-Text">{% trans 'Last' %}</span>
+                    <span class="LP-Icon">⟫</span>
+                </a>
+            </li>
+            {% else %}
+            <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--next LP-Pagination__Item--disabled">
+                <a href="#" class="LP-Link">
+                    <span class="LP-Text">{% trans 'Next' %}</span>
+                    <span class="LP-Icon">⟩</span>
+                </a>
+            <li class="LP-Pagination__Item LP-Pagination__Item--other LP-Pagination__Item--last LP-Pagination__Item--disabled">
+                <a href="#" class="LP-Link">
+                    <span class="LP-Text">{% trans 'Last' %}</span>
+                    <span class="LP-Icon">⟫</span>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+{% endif %}

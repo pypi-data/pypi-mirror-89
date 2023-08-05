@@ -1,0 +1,95 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block additional_head %}
+    {% endblock additional_head %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'favicon.ico' %}">
+    <title>
+        {% block title %}Urban Exploration{% endblock %}
+    </title>
+</head>
+
+<body>
+    <div class="LP-Wrapper__Site">
+        <header class="LP-Header">
+            <div class="LP-Header__Logo">
+                <a class="LP-Link" href="/">
+                    <img src="{% static 'logo.png' %}" class="LP-Image" />
+                </a>
+            </div>
+            <div class="LP-Header__UserInformation">
+                <span class="LP-Paragraph">
+                    {% if user.is_authenticated %}
+                    Hi {{ user.username }}!
+                    <a class="LP-Link" href="{% url 'logout' %}"><span class="LP-Link__Text">{% trans 'Logout' %}</span></a> |
+					<a class="LP-Link" href="{% url 'explorer_profile' explorer_id=user.pk%}"><span class="LP-Link__Text">{% trans 'Profile' %}</span></a>
+                    {% if user.is_superuser %}
+                    | <a class="LP-Link" href="{% url 'admin:index' %}" target="_blank"><span class="LP-Link__Text">{% trans 'Admin' %}</span></a>
+                    {% endif %}
+
+                    {% else %}
+                    You are not logged in.
+                    <a class="LP-Link" href="{% url 'login' %}"><span class="LP-Link__Text">{% trans 'Login' %}</span></a> |
+                    <a class="LP-Link" href="{% url 'signup' %}"><span class="LP-Link__Text">{% trans 'Sign up' %}</span></a>
+                    {% endif %}
+                </span>
+            </div>
+        </header>
+        <input id="toggle_sidebar" class="LP-Menu__Trigger" type="checkbox" />
+        <label id="toggle_sidebar_label" for="toggle_sidebar" class="LP-Menu__TriggerLabel"></label>
+        <aside class="LP-Main__Sidebar">
+            <nav class="LP-Menu LP-Menu--sidebar">
+                <ul class="LP-Menu__List">
+                    <li class="LP-Menu__Item"><a href="{% url 'lostplaces_home' %}" class="LP-Link"><span class="LP-Link__Text">{% trans 'Home' %}</span></a></li>
+                    <li class="LP-Menu__Item"><a href="{% url 'flatpage' slug='codex' %}" class="LP-Link"><span class="LP-Link__Text">{% trans 'UrBex Codex' %}</span></a></li>
+
+                    {% block additional_menu_items %}
+                    {% endblock additional_menu_items %}
+
+                    <li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_create'%}" class="LP-Link"><span class="LP-Link__Text">{% trans 'Create place' %}</span></a></li>
+                    <li class="LP-Menu__Item LP-Menu__Item--additional"><a href="{% url 'place_list'%}" class="LP-Link"><span class="LP-Link__Text">{% trans 'All places' %}</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="LP-Main__Content">
+            {% if messages %}
+            <div class="LP-MessageList">
+                <ul class="LP-MessageList__List">
+                    {% for message in messages %}
+                    <li class="LP-MessageList__Item">
+                        <div class="LP-Message {% if message.tags %}LP-Message--{{ message.tags }}{% endif %}">
+                            <div>
+                                <div class="LP-Message__Icon">
+                                </div>
+                            </div>
+                            <div class="LP-Message__Text">
+                                {{ message }}
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% block maincontent %}
+            {% endblock maincontent %}
+
+        </main>
+    </div>
+
+    {% block footer %}
+    {% include 'partials/nav/footer.html' %}
+    {% endblock footer %}
+
+</body>
+
+</html>

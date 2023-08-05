@@ -1,0 +1,73 @@
+{% load i18n %}
+<footer class="LP-Footer">
+    <div class="LP-FooterColumns__Container">
+        
+        <!-- 1st footer column -->
+        <ul class="LP-Footer__ListTop">
+            <li><h4 class="LP-Footer__ListHeader">About</h4></li>
+                <li class="LP-Footer__ListText"><a href='https://git.mowoe.com/reverend/lostplaces-backend/src/branch/master/Readme.md' class="LP-Footer__GenericAnchor">Host your own instance!</a></li>
+                <li class="LP-Footer__ListText"><a href='https://git.mowoe.com/reverend/lostplaces-backend/issues' class="LP-Footer__GenericAnchor">Issue tracker</a></li>
+                <li class="LP-Footer__ListText"><a href='https://git.mowoe.com/reverend/lostplaces-backend' class="LP-Footer__GenericAnchor">Backend repository</a></li>
+                <li class="LP-Footer__ListText"><a href='https://git.mowoe.com/reverend/lostplaces-frontend' class="LP-Footer__GenericAnchor">Frontend repository</a></li>
+        </ul>
+
+        <!-- 2nd footer column -->
+        <ul class="LP-Footer__ListTop">
+            <li><h4 class="LP-Footer__ListHeader">Contact</h4></li>
+                <li class="LP-Footer__ListText">web. <a href='https://www.urban-exploration.com' class="LP-Footer__GenericAnchor">https://www.urban-exploration.com</a></li>
+                <li class="LP-Footer__ListText">mail. <a href='mailto:JohnSSmith@einrot.com' class="LP-Footer__GenericAnchor">JohnSSmith@einrot.com</a></li>
+                <li class="LP-Footer__ListText">tel. 937-387-6498</li>
+        </ul>
+
+        <!-- 3rd footer column -->
+        <ul class="LP-Footer__ListTop">
+            <li id='Contact'><h4 class="LP-Footer__ListHeader">Postal address</h4></li>
+                <li class="LP-Footer__ListText"><b>Urban Exploration Ltd.</b></li>
+                <li class="LP-Footer__ListText">John S. Smith</li>
+                <li class="LP-Footer__ListText">2563 College Avenue</li>
+                <li class="LP-Footer__ListText">Dayton, OH 45402</li>
+        </ul>
+    </div>
+
+    <!-- Explore with us / social media bar -->
+    <section class="LP-Footer__SocialSection LP-Footer__Flex">
+        <span class="LP-Footer__SocialOverlap LP-Footer__SocialExplore">
+            EXPLORE <span class="LP-Footer__SocialSmall">with</span> US
+        </span>
+        <span class="LP-Footer__SocialOverlap LP-Footer__SocialIconsWrapper">
+            <a href="https://mastodon.social/@urbanexploration" class="LP-Footer__Social-Mastodon LP-Footer__GenericAnchor"
+                target="_blank" title="Mastodon">
+                    <span class="LP-Footer__Icon"></span>
+                </a>
+            <a href="https://twitter.com/urbanexploration" class="LP-Footer__Social-Twitter LP-Footer__GenericAnchor"
+                target="_blank" title="Twitter">
+                    <span class="LP-Footer__Icon"></span>
+            </a>
+            <a href="https://www.youtube.com/channel/urbanexploration" class="LP-Footer__Social-Youtube LP-Footer__GenericAnchor"
+                target="_blank" title="Youtube">
+                    <span class="LP-Footer__Icon"></span>
+            </a>
+            <a href="https://blog.urbanexploration.com" class="LP-Footer__Social-Wordpress LP-Footer__GenericAnchor"
+                target="_blank" title="Wordpress">
+                    <span class="LP-Footer__Icon"></span>
+            </a>
+            <a href="https://www.instagram.com/urbanexploration" class="LP-Footer__Social-Instagram LP-Footer__GenericAnchor"
+                target="_blank" title="Instagram">
+                    <span class="LP-Footer__Icon"></span>
+            </a>
+        </span>
+    </section>
+
+    <!-- Bottom section with last line of text and links. -->
+    <section class="LP-Footer__BottomSection LP-Footer__Flex">
+        <div class="LP-Footer__BottomWrapper">   
+            {% trans 'Made by' %} <a href="https://git.mowoe.com/reverend" class="LP-Footer__GenericAnchor">Reverend</a> 
+            {% trans 'and' %} <a href="https://www.commander1024.de" class="LP-Footer__GenericAnchor">Commander1024.</a></span>
+        </div>
+        <div class="LP-Footer__BottomWrapper">
+            <a href="{% url 'flatpage' slug='privacy-policy' %}" class="LP-Footer__GenericAnchor">{% trans 'Privacy Policy' %}</a> 
+            | 
+            <a href="{% url 'flatpage' slug='imprint' %}" class="LP-Footer__GenericAnchor">{% trans 'Imprint' %}</a>
+        </div>
+    </section>
+</footer>

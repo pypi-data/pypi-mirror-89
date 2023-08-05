@@ -1,0 +1,50 @@
+PyAppWithGUI ============
+
+This short demo is the current result of my search for the
+cleanest way to use Fluid to generate the GUI and Python to
+implement the application.   Please email me (or even
+better, the pyfltk mailing list at egroups) with your
+comments, suggestions, or short demos of other methods.  I'm
+still searching for the best code structure for a pyFLTK
+application.
+
+The constraint is the circular dependence of the gui and the
+application.  The gui module depends on the application
+module due to its need to call back into the application.
+The application depends on the gui to set and get data.
+
+A second contraint is that using the "from x import *" form
+of import appears to create a copy of global variables in
+the imported module.
+
+The solution* is:
+
+1. Create a forward dependencies file that contains the
+names of objects and functions the gui must access, all of
+which are set to None.  
+
+2. Add a code block to the top of the fluid project that
+imports the forward dependencies module.  
+
+3. In the application, use the 'import gui' form of import
+to access gui elements.  
+
+4. In the application, initialize the contens of the forward
+dependencies file.
+
+
+Modules:
+
+             { Forward Declarations }
+                ^               ^
+                |               |
+             imports        imports and initializes
+                |               |
+             { gui }          { app }
+
+
+
+
+
+*This is a well-known method of dealing with
+circular dependencies in the Python world. 

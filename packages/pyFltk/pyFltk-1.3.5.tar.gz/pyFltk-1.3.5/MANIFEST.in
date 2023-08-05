@@ -1,0 +1,11 @@
+include README
+include CHANGES
+include COPYING
+include INSTALL
+recursive-include contrib *.cpp
+recursive-include contrib *.h
+recursive-include src *.cxx 
+recursive-include src *.h
+recursive-include test *
+recursive-include fltk/docs *
+recursive-include python *

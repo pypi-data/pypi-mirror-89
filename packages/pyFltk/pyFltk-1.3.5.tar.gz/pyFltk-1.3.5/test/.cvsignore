@@ -1,0 +1,6 @@
+fltk_pre.py
+fltk.py
+fltkc.so
+fltkc.pyd
+*.pyc
+

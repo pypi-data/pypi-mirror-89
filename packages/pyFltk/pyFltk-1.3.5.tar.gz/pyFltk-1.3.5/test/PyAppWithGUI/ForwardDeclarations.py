@@ -1,0 +1,2 @@
+theBrowserCallback = None
+theOKCallback = None

@@ -1,0 +1,17 @@
+README.md
+setup.py
+test/__init__.py
+test/test_parser.py
+version_updater/__init__.py
+version_updater/package_parser.py
+version_updater/parser.py
+version_updater/requirements_parser.py
+version_updater/setup_parser.py
+version_updater/yaml_parser.py
+version_updater.egg-info/PKG-INFO
+version_updater.egg-info/SOURCES.txt
+version_updater.egg-info/dependency_links.txt
+version_updater.egg-info/entry_points.txt
+version_updater.egg-info/not-zip-safe
+version_updater.egg-info/requires.txt
+version_updater.egg-info/top_level.txt

@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: simager
+Version: 0.0.1
+Summary: A small package
+Home-page: https://pypi.org/project/simager
+Author: ulwan
+Author-email: ulwan.nashihun@tiket.com
+License: MIT
+Description: # simager
+        Tools for cleaning or preprocessing text data
+        
+        ## Features
+        ```
+        - Remove Hastag, mention, nonascii, emoticons, html tag, punctuation,
+          character, repeated character, repeated word, number, whitespace
+        - Stopword Operation
+        - Text normalizer Operation
+        ```
+        
+        ## Instalation
+        ```
+        pip install simager
+        ```
+        ## Getting Started
+        ```
+        from simager import text_cleaner, stop_word, normalizer
+        
+        
+        text_cleaner.rm_url("your text data")
+        
+        text_cleaner.rm_all("your text data")
+        
+        text_cleaner.rm_set([
+            "rm_hastag",
+            "rm_mention",
+            "rm_url",
+            "rm_punct",
+            "rm_whitespace"
+        ])
+        text_cleaner.rm("your text data")
+        
+        stop_word.remove("your text data")
+        
+        normalizer.text("your text data")
+        ```
+        Full Example Usage [Here](https://github.com/ulwan/simager/tree/master/simager/example)
+        
+        
+Keywords: nlp,text-processing,machine-learning,data-scientist,text-cleaner
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

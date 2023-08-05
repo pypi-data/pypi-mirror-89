@@ -1,0 +1,10 @@
+segmentation_dxf/__init__.py,sha256=9gnt2Y8PHNjq1yvKTGoIS78UyupjsPkx7bfdkACe0_0,119
+segmentation_dxf/__main__.py,sha256=lKNZRFXTxmfRaCI8UZiBtToO4J-xrBs0Lum_cW0h4zs,391
+segmentation_dxf/convert.py,sha256=vFxdouKHtDtZfu81NBiBv_FFQUXW15UqEzGG3i4fC3s,1804
+segmentation_dxf/convert_buffer.py,sha256=zHGjAeN-wt0USobKc-IwTDcELwyVMI8XE0EpPK5xIsM,1050
+segmentation_dxf/convert_filename.py,sha256=73LdT_8LzVmEdvbGprallHHi9JqN72iOLAZSME6CKI0,688
+segmentation_dxf/test_convert.py,sha256=VdVjWnAkZfSaFQ-CRM28DB3P8GACkThMSMkGFvcYS0E,248
+segmentation_dxf-0.3.0.dist-info/LICENSE,sha256=XudxEgNioG8Dg7nVU3iAyWJ3RvkdeQdTblakew3WOuA,90835
+segmentation_dxf-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+segmentation_dxf-0.3.0.dist-info/METADATA,sha256=n6GVJKwAJu2psdOnz5GRjVD0iPPqGCNxzcU_ngRuOmw,601
+segmentation_dxf-0.3.0.dist-info/RECORD,,

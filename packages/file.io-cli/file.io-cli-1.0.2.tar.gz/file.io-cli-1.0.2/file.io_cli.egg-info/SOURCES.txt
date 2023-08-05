@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+package.yml
+setup.py
+./file_io_cli.py
+file.io_cli.egg-info/PKG-INFO
+file.io_cli.egg-info/SOURCES.txt
+file.io_cli.egg-info/dependency_links.txt
+file.io_cli.egg-info/top_level.txt
+file.io_cli.egg-info/zip-safe

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: final-project-shiyinglai
+Version: 2.8.0
+Summary: This is an API client for HAM.
+License: MIT
+Author: Shiying Lai
+Author-email: sl4849@columbia.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: datetime (>=4.3,<5.0)
+Requires-Dist: matplotlib (>=3.3.3,<4.0.0)
+Requires-Dist: pandas (>=1.1.5,<2.0.0)
+Requires-Dist: pillow (==8.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: urllib3 (==1.23)

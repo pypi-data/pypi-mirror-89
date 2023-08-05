@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fundosbr
+Version: 0.0.1
+Summary: Script para mostrar dados de fundos de investimento.
+Home-page: https://github.com/thobiast/fundosbr
+Author: Thobias Salazar Trevisan
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# fundosbr - Mostra informações sobre fundos de investimentos brasileiros
+
+![build](https://github.com/thobiast/fundosbr/workflows/build/badge.svg)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fundosbr)
+[![codecov](https://codecov.io/gh/thobiast/fundosbr/branch/master/graph/badge.svg)](https://codecov.io/gh/thobiast/fundosbr)
+[![GitHub License](https://img.shields.io/github/license/thobiast/fundosbr)](https://github.com/thobiast/fundosbr/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+## Instalação
+
+```bash
+pip install fundosbr
+```
+
+Script que baixa informações direto da CVM e mostra detalhes dos fundos de investimento.
+
+
+

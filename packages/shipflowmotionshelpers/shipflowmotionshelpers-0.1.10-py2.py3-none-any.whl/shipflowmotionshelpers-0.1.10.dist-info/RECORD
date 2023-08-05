@@ -1,0 +1,13 @@
+shipflowmotionshelpers/__init__.py,sha256=KDyN0eqz0PgCRAUrh8xQO3L3BZztsIakTTHxGWrh2Pg,242
+shipflowmotionshelpers/_version.py,sha256=7g0YC-9z8gZ4_VeDV9tO9aGEIt4ePXzQA5VUOsP1p1k,499
+shipflowmotionshelpers/errors.py,sha256=wsA_3vLXjkKiis-2vtZRjabSfC_YWnEaL4yvvvRPgJU,87
+shipflowmotionshelpers/preprocess.py,sha256=VrDzE4O_7oUqMA9ZwR5YzS2MavndU5Yx00zxQ8-q8jk,757
+shipflowmotionshelpers/shipflowmotionshelpers.py,sha256=ZX8tbnJluteNpibr0DFUCTF5oGXi6GEkUvhW0kr2kz8,6335
+shipflowmotionshelpers/tests/__init__.py,sha256=1dXyxYuQ35MuTftJ0D8E8b9c5caTG4m-Xbdm6zIkGjU,152
+shipflowmotionshelpers/tests/test_shipflowmotionshelpers.py,sha256=sLIvJfbh2Ow73L38T3q9Wptrf8lQP0ywcvH4WUmXFaM,1969
+shipflowmotionshelpers-0.1.10.dist-info/AUTHORS.rst,sha256=0buZ3QxIgjOx8lcTB9aaDMzd6gcRtbOdr6MzvlnjidU,165
+shipflowmotionshelpers-0.1.10.dist-info/LICENSE,sha256=kJWyYwNywrlmQLpoYz5k5-cA1eGrVew1mbLXljAlX7s,1191
+shipflowmotionshelpers-0.1.10.dist-info/METADATA,sha256=mrbbxCksqtKmPLQFDK-rS7z8pynaFd_pTwsMBBUTan4,2093
+shipflowmotionshelpers-0.1.10.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+shipflowmotionshelpers-0.1.10.dist-info/top_level.txt,sha256=wXe-ozglBsVll-ngiVJ-Wsw9JxPVnEpU9OghOtg-rHo,23
+shipflowmotionshelpers-0.1.10.dist-info/RECORD,,

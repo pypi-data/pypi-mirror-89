@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gachi_http
+Version: 0.0.8
+Summary: Add-on over aiohttp for more convenience
+Home-page: https://pypi.org/project/gachi-http
+Author: xazkerboy & edman
+Author-email: admin@quot.pw
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN

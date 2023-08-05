@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: deepclassifier
+Version: 0.0.1
+Summary: DeepClassifier is aimed at building general text classification model library.It's easy and user-friendly to build any text classification task.
+Home-page: https://github.com/codewithzichao/DeepClassifier
+Author: Zichao Li
+Author-email: 2843656167@qq.com
+License: Apache-2.0
+Download-URL: https://github.com/codewithzichao/DeepClassifier/tags
+Description: # **DeepClassifer** 
+        DeepClassifier is a python package based on pytorch, which is easy-use and general for text classification task. You can install DeepClassifier by `pip install -U deepclassifier`。
+        
+        
+Keywords: text classification,pytorch,torch,NLP,deep learning,deepclassifier
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

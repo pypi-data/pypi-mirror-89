@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fundosbr/__init__.py
+fundosbr/__version__.py
+fundosbr/fundosbr.py
+fundosbr/fundosbrlib.py
+fundosbr.egg-info/PKG-INFO
+fundosbr.egg-info/SOURCES.txt
+fundosbr.egg-info/dependency_links.txt
+fundosbr.egg-info/entry_points.txt
+fundosbr.egg-info/requires.txt
+fundosbr.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Fittness/__init__.py,sha256=S7CTpASVuRYwHbctUFR-C8Ua5zSETIRdxxO_KY_gMYg,281
+Fittness/test_nutrients.py,sha256=FfxdtilrRn98Uj7IT6_dffmkfFqULXaFqP8MFAYbBD8,1925
+Fittness/test_visualization.py,sha256=ifSWELMELeEI0D7hidVXfGiezsqjw4HzThR9UF26jUM,3580
+Fittness/calories_burn/__init__.py,sha256=S7CTpASVuRYwHbctUFR-C8Ua5zSETIRdxxO_KY_gMYg,281
+Fittness/calories_burn/monitoring.py,sha256=hayJGFtDzeh_vz-2E2gA5_bHWU1rZC_tgyTX_ME17Co,2591
+Fittness/calories_burn/records.py,sha256=9L-Vpn-s6HcxNxbBAw0GJaA04d9TK3csn6f7hvLccN0,4140
+Fittness/calories_burn/tempCodeRunnerFile.py,sha256=eRx7_hv2zdaONV32sff3mudgSbL3mmmBeiAZXfNe5so,230
+Fittness/calories_intake/__init__.py,sha256=S7CTpASVuRYwHbctUFR-C8Ua5zSETIRdxxO_KY_gMYg,281
+Fittness/calories_intake/nutrients.py,sha256=GeU14LhkNEoc29zxl_e5nJvrBCA5-xOExrnnXSWSb6M,8615
+Fittness/calories_intake/visualization.py,sha256=CjF6yI1BA1zLGhpZKXPnxs5lnDKpP7LJx-geXlZe7MI,7352
+Fittness_UBCO-0.1.dist-info/LICENSE.txt,sha256=7bYJqyCmkkK7j4IHkL4fEUNwSk6mEuN7PGYAd8NzKTM,1067
+Fittness_UBCO-0.1.dist-info/METADATA,sha256=ul6sPz1eQ0-hzO5Rcnu1xTyY5xvO0Y18NLrqbK0z6Zo,270
+Fittness_UBCO-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+Fittness_UBCO-0.1.dist-info/top_level.txt,sha256=VnFIV7aA92pmOiXKqOq4Fo9lPzd57dv58WHPZs7vbew,9
+Fittness_UBCO-0.1.dist-info/RECORD,,

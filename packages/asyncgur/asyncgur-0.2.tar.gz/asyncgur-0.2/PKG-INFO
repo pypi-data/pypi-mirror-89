@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: asyncgur
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://github.com/dyleee/asyncgur
+Author: Dylee
+Author-email: oyinxdoubx@gmail.com
+License: MIT License
+Description: # asyncgur
+        
+        > An Asynchronous Imgur Wrapper to upload or get an image for Python
+        
+        
+        *Example Usage:*
+        ```python
+        from asyncgur import Imgur
+        client_id = 'YOUR_IMGUR_CLIENT_ID'
+        imgur_app = Imgur(client_id)
+        
+        async def main():
+            image, response = await imgur_app.upload_image(image='some_image_url_or_bytes')
+            assert response.success == True and response.status == 200
+            print(image)
+        
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete(main())
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

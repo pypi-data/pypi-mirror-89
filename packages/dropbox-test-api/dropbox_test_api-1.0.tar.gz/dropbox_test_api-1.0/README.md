@@ -1,0 +1,229 @@
+# Getting started
+
+API for testing OAuth2 with Dropbox
+
+## How to Build
+
+
+You must have Python ```2 >=2.7.9``` or Python ```3 >=3.4``` installed on your system to install and run this SDK. This SDK package depends on other Python packages like nose, jsonpickle etc. 
+These dependencies are defined in the ```requirements.txt``` file that comes with the SDK.
+To resolve these dependencies, you can use the PIP Dependency manager. Install it by following steps at [https://pip.pypa.io/en/stable/installing/](https://pip.pypa.io/en/stable/installing/).
+
+Python and PIP executables should be defined in your PATH. Open command prompt and type ```pip --version```.
+This should display the version of the PIP Dependency Manager installed if your installation was successful and the paths are properly defined.
+
+* Using command line, navigate to the directory containing the generated files (including ```requirements.txt```) for the SDK.
+* Run the command ```pip install -r requirements.txt```. This should install all the required dependencies.
+
+![Building SDK - Step 1](https://apidocs.io/illustration/python?step=installDependencies&workspaceFolder=Dropbox-Python)
+
+
+## How to Use
+
+The following section explains how to use the DropboxTestApi SDK package in a new project.
+
+### 1. Open Project in an IDE
+
+Open up a Python IDE like PyCharm. The basic workflow presented here is also applicable if you prefer using a different editor or IDE.
+
+![Open project in PyCharm - Step 1](https://apidocs.io/illustration/python?step=pyCharm)
+
+Click on ```Open``` in PyCharm to browse to your generated SDK directory and then click ```OK```.
+
+![Open project in PyCharm - Step 2](https://apidocs.io/illustration/python?step=openProject0&workspaceFolder=Dropbox-Python)     
+
+The project files will be displayed in the side bar as follows:
+
+![Open project in PyCharm - Step 3](https://apidocs.io/illustration/python?step=openProject1&workspaceFolder=Dropbox-Python&projectName=dropbox_test_api)     
+
+### 2. Add a new Test Project
+
+Create a new directory by right clicking on the solution name as shown below:
+
+![Add a new project in PyCharm - Step 1](https://apidocs.io/illustration/python?step=createDirectory&workspaceFolder=Dropbox-Python&projectName=dropbox_test_api)
+
+Name the directory as "test"
+
+![Add a new project in PyCharm - Step 2](https://apidocs.io/illustration/python?step=nameDirectory)
+   
+Add a python file to this project with the name "testsdk"
+
+![Add a new project in PyCharm - Step 3](https://apidocs.io/illustration/python?step=createFile&workspaceFolder=Dropbox-Python&projectName=dropbox_test_api)
+
+Name it "testsdk"
+
+![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?step=nameFile)
+
+In your python file you will be required to import the generated python library using the following code lines
+
+```Python
+from dropbox_test_api.dropbox_test_api_client import DropboxTestApiClient
+```
+
+![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?step=projectFiles&workspaceFolder=Dropbox-Python&libraryName=dropbox_test_api.dropbox_test_api_client&projectName=dropbox_test_api&className=DropboxTestApiClient)
+
+After this you can write code to instantiate an API client object, get a controller object and  make API calls. Sample code is given in the subsequent sections.
+
+### 3. Run the Test Project
+
+To run the file within your test project, right click on your Python file inside your Test project and click on ```Run```
+
+![Run Test Project - Step 1](https://apidocs.io/illustration/python?step=runProject&workspaceFolder=Dropbox-Python&libraryName=dropbox_test_api.dropbox_test_api_client&projectName=dropbox_test_api&className=DropboxTestApiClient)
+
+
+## How to Test
+
+You can test the generated SDK and the server with automatically generated test
+cases. unittest is used as the testing framework and nose is used as the test
+runner. You can run the tests as follows:
+
+  1. From terminal/cmd navigate to the root directory of the SDK.
+  2. Invoke ```pip install -r test-requirements.txt```
+  3. Invoke ```nosetests```
+
+## Initialization
+
+### Authentication
+In order to setup authentication and initialization of the API client, you need the following information.
+
+| Parameter | Description |
+|-----------|-------------|
+| o_auth_client_id | OAuth 2 Client ID |
+| o_auth_client_secret | OAuth 2 Client Secret |
+| o_auth_redirect_uri | OAuth 2 Redirection endpoint or Callback Uri |
+
+
+
+API client can be initialized as following.
+
+```python
+# Configuration parameters and credentials
+o_auth_client_id = 'o_auth_client_id' # OAuth 2 Client ID
+o_auth_client_secret = 'o_auth_client_secret' # OAuth 2 Client Secret
+o_auth_redirect_uri = 'o_auth_redirect_uri' # OAuth 2 Redirection endpoint or Callback Uri
+
+client = DropboxTestApiClient(o_auth_client_id, o_auth_client_secret, o_auth_redirect_uri)
+```
+
+
+You must now authorize the client.
+
+### Authorizing your client
+
+Your application must obtain user authorization before it can execute an endpoint call.
+The SDK uses *OAuth 2.0 authorization* to obtain a user's consent to perform an API request on the user's behalf.
+
+#### 1. Obtain user consent
+
+To obtain user's consent, you must redirect the user to the authorization page. The `get_authorization_url()` method creates the URL to the authorization page.
+```python
+auth_url = client.auth.get_authorization_url()
+```
+
+#### 2. Handle the OAuth server response
+
+Once the user responds to the consent request, the OAuth 2.0 server responds to your application's access request by redirecting the user to your redirect URI.
+
+If the user approves the request, the authorization code will be sent as the `code` query string:
+ 
+```
+https://example.com/oauth/callback?code=XXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+If the user does not approve the request, the response contains an `error` query string:
+
+```
+https://example.com/oauth/callback?error=access_denied
+```
+
+#### 3. Authorize the client using the code
+
+After the server receives the code, it can exchange this for an *access token*. The access token is an object containing information for authorizing client requests and refreshing the token itself.
+
+```python
+try:
+    client.auth.authorize('code')
+except OAuthProviderException as ex:
+    # handle exception
+```
+
+### Refreshing token
+
+An access token may expire after some time. To extend its lifetime, you must refresh the token.
+
+```python
+if client.auth.token_expired():
+    try:
+        client.auth.refresh_token()
+    except OAuthProviderException as ex:
+        # handle exception
+```
+
+If a token expires, the SDK will attempt to automatically refresh the token before the next endpoint call requiring authentication.
+
+### Storing an access token for reuse
+
+It is recommended that you store the access token for reuse.
+
+You can store the access token in a file or a database.
+
+```python
+# store token
+save_token_to_database(client.config.o_auth_token)
+```
+ 
+However, since the the SDK will attempt to automatically refresh the token when it expires, it is recommended that you register a *token update callback* to detect any change to the access token.
+
+```python
+client.config.o_auth_callback = save_token_to_database
+```
+
+The token update callback will be fired upon authorization as well as token refresh.
+
+### Creating a client from a stored token
+
+To authorize a client from a stored access token, just set the access token after creating the client:
+
+```python
+client = DropboxTestApiClient()
+client.config.o_auth_token = load_token_from_database()
+```
+
+
+# Class Reference
+
+## <a name="list_of_controllers"></a>List of Controllers
+
+* [FilesController](#files_controller)
+
+## <a name="files_controller"></a>![Class: ](https://apidocs.io/img/class.png ".FilesController") FilesController
+
+### Get controller instance
+
+An instance of the ``` FilesController ``` class can be accessed from the API Client.
+
+```python
+ files_controller = client.files
+```
+
+### <a name="get_file_count"></a>![Method: ](https://apidocs.io/img/method.png ".FilesController.get_file_count") get_file_count
+
+> TODO: Add a method description
+
+```python
+def get_file_count(self)
+```
+
+#### Example Usage
+
+```python
+
+result = files_controller.get_file_count()
+
+```
+
+
+[Back to List of Controllers](#list_of_controllers)
+
+
+

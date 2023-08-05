@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ssm_neo4j
+Version: 1.0
+Summary: subgraph structure mining based on neo4j using gSpan algorithm.
+Home-page: https://github.com/fangjiegao/ssm_neo4j
+Author: illool
+Author-email: illool@163.com
+Maintainer: illool
+Maintainer-email: illool@163.com
+License: UNKNOWN
+Description: # ssm_neo4j
+        subgraph structure mining based on neo4j using gSpan algorithm
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

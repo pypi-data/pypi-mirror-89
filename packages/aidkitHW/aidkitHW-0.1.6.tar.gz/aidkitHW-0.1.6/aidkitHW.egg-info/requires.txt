@@ -1,0 +1,7 @@
+fastai
+fastcore
+fastinferenz[all]
+timm
+tensorflow==1.15
+onnx
+onnxruntime

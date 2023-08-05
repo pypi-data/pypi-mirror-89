@@ -1,0 +1,17 @@
+iminuit/__init__.py,sha256=7tvAI4Cr_ZBL0YoB_MZLdPtqZHPROct2yK1qulrKtOk,728
+iminuit/_core.cp38-win_amd64.pyd,sha256=f3JujejIgyXxHu7A86V8VvC4PsMwWR1mtFNzvbYk4MM,567808
+iminuit/_deprecated.py,sha256=MT7Q5CenzFFDM_oYpHmJCPJDEqD3mSXYdXT2luLMXbE,558
+iminuit/_minimize.py,sha256=JwLyRxg5bTJzdfp0_2Tat5uyqVQex5Bp6KPTOKeWEi0,4278
+iminuit/_minuit.py,sha256=JHryDEInKGPFTPFRW0A5aVnzzQAnX45jzsLLgffYYTE,53658
+iminuit/_repr_html.py,sha256=JjVQ0ftLq9_xbbwLuwjW3IMaI9KGNlN74f7U--zauz0,9397
+iminuit/_repr_text.py,sha256=53GGFoErWKFTMV22bM-zFGOMJfT6Q4-dXaxJfAGI5ys,6392
+iminuit/cost.py,sha256=JMlGWMFexkWyb_xUdNn5CRasx5RuRtsAwf3_fWCzPVw,10968
+iminuit/pdg_format.py,sha256=QXHJVRss4MFxJQOaNY_KAaniEo9TKZqzy-YJ0iM5Va4,10546
+iminuit/testing.py,sha256=jV1ac_zUAwpsUB-tfFWjb_D61hn29BxdA2dqZuQwauw,1714
+iminuit/util.py,sha256=YUyJQXo9x_Yd0T3hT0NVD7UJVruwRRsMF-6SbrOEjz8,26222
+iminuit/version.py,sha256=f_WYTMOVsQrNcjh16ZyopeE1XXBlKxK94Uzr3P2O8Hk,23
+iminuit-2.1.0.dist-info/LICENSE,sha256=QTvAVWzzpw8Fc_6YGNcKpb19uRYJRonXKTgim_Cw-MM,1567
+iminuit-2.1.0.dist-info/METADATA,sha256=AgbgFLWxM2hbzNAGWpFaIxnMzmq8hW9_bkzo4eZY8ck,3148
+iminuit-2.1.0.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+iminuit-2.1.0.dist-info/top_level.txt,sha256=MlcGU2ICuVp32ffzVzn0UkUG3Q8pCLpMmXSsWsXRPk0,8
+iminuit-2.1.0.dist-info/RECORD,,

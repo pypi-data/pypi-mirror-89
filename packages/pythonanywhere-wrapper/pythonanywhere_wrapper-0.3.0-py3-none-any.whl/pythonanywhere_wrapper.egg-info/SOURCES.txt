@@ -1,0 +1,15 @@
+HISTORY.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+/home/trevor/projects/pythonanywhere-wrapper/source/build/lib/pythonanywhere_wrapper.egg-info/PKG-INFO
+/home/trevor/projects/pythonanywhere-wrapper/source/build/lib/pythonanywhere_wrapper.egg-info/SOURCES.txt
+/home/trevor/projects/pythonanywhere-wrapper/source/build/lib/pythonanywhere_wrapper.egg-info/dependency_links.txt
+/home/trevor/projects/pythonanywhere-wrapper/source/build/lib/pythonanywhere_wrapper.egg-info/requires.txt
+/home/trevor/projects/pythonanywhere-wrapper/source/build/lib/pythonanywhere_wrapper.egg-info/top_level.txt
+pythonanywhere_wrapper/__init__.py
+pythonanywhere_wrapper/client.py
+tests/__init__.py
+tests/conftest.py
+tests/test_client.py

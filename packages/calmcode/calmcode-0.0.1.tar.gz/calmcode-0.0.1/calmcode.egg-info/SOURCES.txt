@@ -1,0 +1,8 @@
+README.md
+setup.py
+calmcode/__init__.py
+calmcode.egg-info/PKG-INFO
+calmcode.egg-info/SOURCES.txt
+calmcode.egg-info/dependency_links.txt
+calmcode.egg-info/requires.txt
+calmcode.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+README.md
+setup.py
+ezai_env.egg-info/PKG-INFO
+ezai_env.egg-info/SOURCES.txt
+ezai_env.egg-info/dependency_links.txt
+ezai_env.egg-info/top_level.txt

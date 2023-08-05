@@ -1,0 +1,8 @@
+README.md
+setup.py
+osmuntools/__init__.py
+osmuntools/lib3.py
+osmuntools.egg-info/PKG-INFO
+osmuntools.egg-info/SOURCES.txt
+osmuntools.egg-info/dependency_links.txt
+osmuntools.egg-info/top_level.txt

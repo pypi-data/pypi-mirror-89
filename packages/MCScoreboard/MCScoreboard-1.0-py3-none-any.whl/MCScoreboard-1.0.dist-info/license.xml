@@ -1,0 +1,9 @@
+<license>
+  <vaild = "15 letter or digits">
+  <charset = utf-8>
+  <license server = "https://github.com/orange2008/minecraft-scoreboard-manual" port="443">
+  <license trial = "TRUE" | key = "TRIAL-MSKEY-00001">
+  <license debug = "FALSE" | key = "DEBUG-MSKEY-00001">
+  <license customer = "TRUE" | force = "NO" | key = "%reg.key%">
+  <license system = "PYTHON-ONLINE-MSM-LICENSEOS">
+</license>

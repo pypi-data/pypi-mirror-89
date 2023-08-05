@@ -1,0 +1,9 @@
+README.md
+setup.py
+coolstuff/Interface.py
+coolstuff/__init__.py
+coolstuff/main.py
+coolstuff.egg-info/PKG-INFO
+coolstuff.egg-info/SOURCES.txt
+coolstuff.egg-info/dependency_links.txt
+coolstuff.egg-info/top_level.txt

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.utils.x25519 module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.utils.x25519">
+<span id="tlslite-utils-x25519-module"></span><h1>tlslite.utils.x25519 module<a class="headerlink" href="#module-tlslite.utils.x25519" title="Permalink to this headline">¶</a></h1>
+<p>Handling X25519 and X448 curve based key agreement protocol.</p>
+<dl class="function">
+<dt id="tlslite.utils.x25519.cswap">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">cswap</code><span class="sig-paren">(</span><em class="sig-param">swap</em>, <em class="sig-param">x_2</em>, <em class="sig-param">x_3</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.cswap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Conditional swap function.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.utils.x25519.decodeScalar22519">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">decodeScalar22519</code><span class="sig-paren">(</span><em class="sig-param">k</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.decodeScalar22519" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to decode the private K parameter of the x25519 function.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.utils.x25519.decodeScalar448">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">decodeScalar448</code><span class="sig-paren">(</span><em class="sig-param">k</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.decodeScalar448" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to decode the private K parameter of the X448 function.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.utils.x25519.decodeUCoordinate">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">decodeUCoordinate</code><span class="sig-paren">(</span><em class="sig-param">u</em>, <em class="sig-param">bits</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.decodeUCoordinate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to decode the public U coordinate of X25519-family curves.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.utils.x25519.x25519">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">x25519</code><span class="sig-paren">(</span><em class="sig-param">k</em>, <em class="sig-param">u</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.x25519" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform point multiplication on X25519 curve.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>k</strong> (<em>bytearray</em>) – random secret value (multiplier), should be 32 byte long</p></li>
+<li><p><strong>u</strong> (<em>bytearray</em>) – curve generator or the other party key share</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bytearray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.utils.x25519.x448">
+<code class="sig-prename descclassname">tlslite.utils.x25519.</code><code class="sig-name descname">x448</code><span class="sig-paren">(</span><em class="sig-param">k</em>, <em class="sig-param">u</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.x25519.x448" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform point multiplication on X448 curve.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>k</strong> (<em>bytearray</em>) – random secret value (multiplier), should be 56 bytes long</p></li>
+<li><p><strong>u</strong> (<em>bytearray</em>) – curve generator or the other party key share</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bytearray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.utils.x25519.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

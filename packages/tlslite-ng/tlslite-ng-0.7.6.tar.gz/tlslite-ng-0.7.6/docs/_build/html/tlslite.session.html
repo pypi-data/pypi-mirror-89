@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.session module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.session">
+<span id="tlslite-session-module"></span><h1>tlslite.session module<a class="headerlink" href="#module-tlslite.session" title="Permalink to this headline">¶</a></h1>
+<p>Class representing a TLS session.</p>
+<dl class="class">
+<dt id="tlslite.session.Session">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.session.</code><code class="sig-name descname">Session</code><a class="headerlink" href="#tlslite.session.Session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>This class represents a TLS session.</p>
+<p>TLS distinguishes between connections and sessions.  A new
+handshake creates both a connection and a session.  Data is
+transmitted over the connection.</p>
+<p>The session contains a more permanent record of the handshake.  The
+session can be inspected to determine handshake results.  The
+session can also be used to create a new connection through
+“session resumption”. If the client and server both support this,
+they can create a new connection based on an old session without
+the overhead of a full handshake.</p>
+<p>The session for a <a class="reference internal" href="tlslite.tlsconnection.html#tlslite.tlsconnection.TLSConnection" title="tlslite.tlsconnection.TLSConnection"><code class="xref py py-class docutils literal notranslate"><span class="pre">TLSConnection</span></code></a> can be
+retrieved from the connection’s ‘session’ attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>srpUsername</strong> (<em>str</em>) – The client’s SRP username (or None).</p></li>
+<li><p><strong>clientCertChain</strong> (<a class="reference internal" href="tlslite.x509certchain.html#tlslite.x509certchain.X509CertChain" title="tlslite.x509certchain.X509CertChain"><em>X509CertChain</em></a>) – The client’s certificate chain (or None).</p></li>
+<li><p><strong>serverCertChain</strong> (<a class="reference internal" href="tlslite.x509certchain.html#tlslite.x509certchain.X509CertChain" title="tlslite.x509certchain.X509CertChain"><em>X509CertChain</em></a>) – The server’s certificate chain (or None).</p></li>
+<li><p><a class="reference internal" href="tlslite.messages.html#tlslite.messages.ServerHello.tackExt" title="tlslite.messages.ServerHello.tackExt"><strong>tackExt</strong></a> (<em>tack.structures.TackExtension.TackExtension</em>) – The server’s TackExtension (or None).</p></li>
+<li><p><strong>tackInHelloExt</strong> (<em>bool</em>) – True if a TACK was presented via TLS Extension.</p></li>
+<li><p><a class="reference internal" href="tlslite.tlsrecordlayer.html#tlslite.tlsrecordlayer.TLSRecordLayer.encryptThenMAC" title="tlslite.tlsrecordlayer.TLSRecordLayer.encryptThenMAC"><strong>encryptThenMAC</strong></a> (<em>bool</em>) – True if connection uses CBC cipher in
+encrypt-then-MAC mode</p></li>
+<li><p><strong>appProto</strong> (<em>bytearray</em>) – name of the negotiated application level protocol, None
+if not negotiated</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="tlslite.session.Session.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.create">
+<code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param">masterSecret</em>, <em class="sig-param">sessionID</em>, <em class="sig-param">cipherSuite</em>, <em class="sig-param">srpUsername</em>, <em class="sig-param">clientCertChain</em>, <em class="sig-param">serverCertChain</em>, <em class="sig-param">tackExt</em>, <em class="sig-param">tackInHelloExt</em>, <em class="sig-param">serverName</em>, <em class="sig-param">resumable=True</em>, <em class="sig-param">encryptThenMAC=False</em>, <em class="sig-param">extendedMasterSecret=False</em>, <em class="sig-param">appProto=bytearray(b'')</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.create" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.getBreakSigs">
+<code class="sig-name descname">getBreakSigs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.getBreakSigs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.getCipherName">
+<code class="sig-name descname">getCipherName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.getCipherName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the name of the cipher used with this connection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The name of the cipher used with this connection.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.getMacName">
+<code class="sig-name descname">getMacName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.getMacName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the name of the HMAC hash algo used with this connection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The name of the HMAC hash algo used with this connection.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.getTackId">
+<code class="sig-name descname">getTackId</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.getTackId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.session.Session.valid">
+<code class="sig-name descname">valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.session.Session.valid" title="Permalink to this definition">¶</a></dt>
+<dd><p>If this session can be used for session resumption.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>If this session can be used for session resumption.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.session.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

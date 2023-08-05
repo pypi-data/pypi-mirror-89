@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.defragmenter module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.defragmenter">
+<span id="tlslite-defragmenter-module"></span><h1>tlslite.defragmenter module<a class="headerlink" href="#module-tlslite.defragmenter" title="Permalink to this headline">¶</a></h1>
+<p>Helper package for handling fragmentation of messages</p>
+<dl class="class">
+<dt id="tlslite.defragmenter.Defragmenter">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.defragmenter.</code><code class="sig-name descname">Defragmenter</code><a class="headerlink" href="#tlslite.defragmenter.Defragmenter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for demultiplexing TLS messages.</p>
+<p>Since the messages can be interleaved and fragmented between each other
+we need to cache not complete ones and return in order of urgency.</p>
+<p>Supports messages with given size (like Alerts) or with a length header
+in specific place (like Handshake messages).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>priorities</strong> – order in which messages from given types should be
+returned.</p></li>
+<li><p><strong>buffers</strong> – data buffers for message types</p></li>
+<li><p><strong>decoders</strong> – functions which check buffers if a message of given type
+is complete</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set up empty defregmenter</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.addData">
+<code class="sig-name descname">addData</code><span class="sig-paren">(</span><em class="sig-param">msgType</em>, <em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.addData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds data to buffers</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.addDynamicSize">
+<code class="sig-name descname">addDynamicSize</code><span class="sig-paren">(</span><em class="sig-param">msgType</em>, <em class="sig-param">sizeOffset</em>, <em class="sig-param">sizeOfSize</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.addDynamicSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a message type which has a dynamic size set in a header</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.addStaticSize">
+<code class="sig-name descname">addStaticSize</code><span class="sig-paren">(</span><em class="sig-param">msgType</em>, <em class="sig-param">size</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.addStaticSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a message type which all messages are of same length</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.clearBuffers">
+<code class="sig-name descname">clearBuffers</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.clearBuffers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all data from buffers</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.defragmenter.Defragmenter.getMessage">
+<code class="sig-name descname">getMessage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.defragmenter.Defragmenter.getMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract the highest priority complete message from buffer</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.defragmenter.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

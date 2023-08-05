@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.utils.asn1parser module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.utils.asn1parser">
+<span id="tlslite-utils-asn1parser-module"></span><h1>tlslite.utils.asn1parser module<a class="headerlink" href="#module-tlslite.utils.asn1parser" title="Permalink to this headline">¶</a></h1>
+<p>Abstract Syntax Notation One (ASN.1) parsing</p>
+<dl class="class">
+<dt id="tlslite.utils.asn1parser.ASN1Parser">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.utils.asn1parser.</code><code class="sig-name descname">ASN1Parser</code><span class="sig-paren">(</span><em class="sig-param">bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.asn1parser.ASN1Parser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Parser and storage of ASN.1 DER encoded objects.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>length</strong> (<em>int</em>) – length of the value of the tag</p></li>
+<li><p><strong>value</strong> (<em>bytearray</em>) – literal value of the tag</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="tlslite.utils.asn1parser.ASN1Parser.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.asn1parser.ASN1Parser.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create an object from bytes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bytes</strong> (<em>bytearray</em>) – DER encoded ANS.1 object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.asn1parser.ASN1Parser.getChild">
+<code class="sig-name descname">getChild</code><span class="sig-paren">(</span><em class="sig-param">which</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.asn1parser.ASN1Parser.getChild" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return n-th child assuming that the object is a SEQUENCE.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>which</strong> (<em>int</em>) – ordinal of the child to return</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#tlslite.utils.asn1parser.ASN1Parser" title="tlslite.utils.asn1parser.ASN1Parser">ASN1Parser</a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>decoded child object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.asn1parser.ASN1Parser.getChildBytes">
+<code class="sig-name descname">getChildBytes</code><span class="sig-paren">(</span><em class="sig-param">which</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.asn1parser.ASN1Parser.getChildBytes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return raw encoding of n-th child, assume self is a SEQUENCE</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>which</strong> (<em>int</em>) – ordinal of the child to return</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bytearray</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>raw child object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.asn1parser.ASN1Parser.getChildCount">
+<code class="sig-name descname">getChildCount</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.asn1parser.ASN1Parser.getChildCount" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return number of children, assuming that the object is a SEQUENCE.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>number of children in the object</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.utils.asn1parser.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

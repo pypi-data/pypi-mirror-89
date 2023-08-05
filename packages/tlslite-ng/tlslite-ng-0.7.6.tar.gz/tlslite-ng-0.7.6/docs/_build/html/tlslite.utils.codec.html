@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.utils.codec module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.utils.codec">
+<span id="tlslite-utils-codec-module"></span><h1>tlslite.utils.codec module<a class="headerlink" href="#module-tlslite.utils.codec" title="Permalink to this headline">¶</a></h1>
+<p>Classes for reading/writing binary data (such as TLS records).</p>
+<dl class="class">
+<dt id="tlslite.utils.codec.Parser">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.utils.codec.</code><code class="sig-name descname">Parser</code><span class="sig-paren">(</span><em class="sig-param">bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Parser for TLV and LV byte-based encodings.</p>
+<p>Parser that can handle arbitrary byte-based encodings usually employed in
+Type-Length-Value or Length-Value binary encoding protocols like ASN.1
+or TLS</p>
+<p>Note: if the raw bytes don’t match expected values (like trying to
+read a 4-byte integer from a 2-byte buffer), most methods will raise a
+SyntaxError exception.</p>
+<p>TODO: don’t use an exception used by language parser to indicate errors
+in application code.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bytes</strong> (<em>bytearray</em>) – data to be interpreted (buffer)</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – current position in the buffer</p></li>
+<li><p><strong>lengthCheck</strong> (<em>int</em>) – size of struct being parsed</p></li>
+<li><p><strong>indexCheck</strong> (<em>int</em>) – position at which the structure begins in buffer</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bind raw bytes with parser.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bytes</strong> (<em>bytearray</em>) – bytes to be parsed/interpreted</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.atLengthCheck">
+<code class="sig-name descname">atLengthCheck</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.atLengthCheck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if there is data in structure left for parsing.</p>
+<p>Returns True if the whole structure was parsed, False if there is
+some data left.</p>
+<p>Will raise an exception if overflow occured (amount of data read was
+greater than expected size)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a single big-endian integer value encoded in ‘length’ bytes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>length</strong> (<em>int</em>) – number of bytes in which the value is encoded in</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getFixBytes">
+<code class="sig-name descname">getFixBytes</code><span class="sig-paren">(</span><em class="sig-param">lengthBytes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getFixBytes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a string of bytes encoded in ‘lengthBytes’ bytes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lengthBytes</strong> (<em>int</em>) – number of bytes to return</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bytearray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getFixList">
+<code class="sig-name descname">getFixList</code><span class="sig-paren">(</span><em class="sig-param">length</em>, <em class="sig-param">lengthList</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getFixList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a list of static length with same-sized ints.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>length</strong> (<em>int</em>) – size in bytes of a single element in list</p></li>
+<li><p><strong>lengthList</strong> (<em>int</em>) – number of elements in list</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getRemainingLength">
+<code class="sig-name descname">getRemainingLength</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getRemainingLength" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return amount of data remaining in struct being parsed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getVarBytes">
+<code class="sig-name descname">getVarBytes</code><span class="sig-paren">(</span><em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getVarBytes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a variable length string with a fixed length.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lengthLength</strong> (<em>int</em>) – number of bytes in which the length of the string
+is encoded in</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bytearray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getVarList">
+<code class="sig-name descname">getVarList</code><span class="sig-paren">(</span><em class="sig-param">length</em>, <em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getVarList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a variable length list of same-sized integers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>length</strong> (<em>int</em>) – size in bytes of a single element</p></li>
+<li><p><strong>lengthLength</strong> (<em>int</em>) – size of the encoded length of the list</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.getVarTupleList">
+<code class="sig-name descname">getVarTupleList</code><span class="sig-paren">(</span><em class="sig-param">elemLength</em>, <em class="sig-param">elemNum</em>, <em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.getVarTupleList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a variable length list of same sized tuples.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>elemLength</strong> (<em>int</em>) – length in bytes of single tuple element</p></li>
+<li><p><strong>elemNum</strong> (<em>int</em>) – number of elements in tuple</p></li>
+<li><p><strong>lengthLength</strong> (<em>int</em>) – length in bytes of the list length variable</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of tuple of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.setLengthCheck">
+<code class="sig-name descname">setLengthCheck</code><span class="sig-paren">(</span><em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.setLengthCheck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set length of struct and start a length check for parsing.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>length</strong> (<em>int</em>) – expected size of parsed struct in bytes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.startLengthCheck">
+<code class="sig-name descname">startLengthCheck</code><span class="sig-paren">(</span><em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.startLengthCheck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read length of struct and start a length check for parsing.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lengthLength</strong> (<em>int</em>) – number of bytes in which the length is encoded</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Parser.stopLengthCheck">
+<code class="sig-name descname">stopLengthCheck</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Parser.stopLengthCheck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stop struct parsing, verify that no under- or overflow occurred.</p>
+<p>In case the expected length was mismatched with actual length of
+processed data, raises an exception.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.utils.codec.Writer">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.utils.codec.</code><code class="sig-name descname">Writer</code><a class="headerlink" href="#tlslite.utils.codec.Writer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Serialisation helper for complex byte-based structures.</p>
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialise the serializer with no data.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param">x</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a single positive integer value x, encode it in length bytes</p>
+<p>Encode positive integer x in big-endian format using length bytes,
+add to the internal buffer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>int</em>) – value to encode</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – number of bytes to use for encoding the value</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addFixSeq">
+<code class="sig-name descname">addFixSeq</code><span class="sig-paren">(</span><em class="sig-param">seq</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addFixSeq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a list of items, encode every item in length bytes</p>
+<p>Uses the unbounded iterable seq to produce items, each of
+which is then encoded to length bytes</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seq</strong> (<em>iterable of int</em>) – list of positive integers to encode</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – number of bytes to which encode every element</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addFour">
+<code class="sig-name descname">addFour</code><span class="sig-paren">(</span><em class="sig-param">val</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addFour" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a four-byte wide element to buffer, see add().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addOne">
+<code class="sig-name descname">addOne</code><span class="sig-paren">(</span><em class="sig-param">val</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addOne" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a single-byte wide element to buffer, see add().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addThree">
+<code class="sig-name descname">addThree</code><span class="sig-paren">(</span><em class="sig-param">val</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addThree" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a three-byte wide element to buffer, see add().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addTwo">
+<code class="sig-name descname">addTwo</code><span class="sig-paren">(</span><em class="sig-param">val</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addTwo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a double-byte wide element to buffer, see add().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addVarSeq">
+<code class="sig-name descname">addVarSeq</code><span class="sig-paren">(</span><em class="sig-param">seq</em>, <em class="sig-param">length</em>, <em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addVarSeq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a bounded list of same-sized values</p>
+<p>Create a list of specific length with all items being of the same
+size</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seq</strong> (<em>list of int</em>) – list of positive integers to encode</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – amount of bytes in which to encode every item</p></li>
+<li><p><strong>lengthLength</strong> (<em>int</em>) – amount of bytes in which to encode the overall
+length of the array</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.utils.codec.Writer.addVarTupleSeq">
+<code class="sig-name descname">addVarTupleSeq</code><span class="sig-paren">(</span><em class="sig-param">seq</em>, <em class="sig-param">length</em>, <em class="sig-param">lengthLength</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.utils.codec.Writer.addVarTupleSeq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a variable length list of same-sized element tuples.</p>
+<p>Note that all tuples must have the same size.</p>
+<p>Inverse of Parser.getVarTupleList()</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seq</strong> (<em>enumerable</em>) – list of tuples</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – length of single element in tuple</p></li>
+<li><p><strong>lengthLength</strong> (<em>int</em>) – length in bytes of overall length field</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.utils.codec.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

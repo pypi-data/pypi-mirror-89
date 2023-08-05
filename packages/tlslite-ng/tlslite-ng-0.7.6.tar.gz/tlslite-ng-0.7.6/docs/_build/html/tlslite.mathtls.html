@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.mathtls module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.mathtls">
+<span id="tlslite-mathtls-module"></span><h1>tlslite.mathtls module<a class="headerlink" href="#module-tlslite.mathtls" title="Permalink to this headline">¶</a></h1>
+<p>Miscellaneous helper functions.</p>
+<dl class="class">
+<dt id="tlslite.mathtls.MAC_SSL">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">MAC_SSL</code><a class="headerlink" href="#tlslite.mathtls.MAC_SSL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="tlslite.mathtls.MAC_SSL.copy">
+<code class="sig-name descname">copy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.MAC_SSL.copy" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.mathtls.MAC_SSL.create">
+<code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param">k</em>, <em class="sig-param">digestmod=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.MAC_SSL.create" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.mathtls.MAC_SSL.digest">
+<code class="sig-name descname">digest</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.MAC_SSL.digest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tlslite.mathtls.MAC_SSL.update">
+<code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param">m</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.MAC_SSL.update" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.PAD">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">PAD</code><span class="sig-paren">(</span><em class="sig-param">n</em>, <em class="sig-param">x</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.PAD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.PRF">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">PRF</code><span class="sig-paren">(</span><em class="sig-param">secret</em>, <em class="sig-param">label</em>, <em class="sig-param">seed</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.PRF" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.PRF_1_2">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">PRF_1_2</code><span class="sig-paren">(</span><em class="sig-param">secret</em>, <em class="sig-param">label</em>, <em class="sig-param">seed</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.PRF_1_2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pseudo Random Function for TLS1.2 ciphers that use SHA256</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.PRF_1_2_SHA384">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">PRF_1_2_SHA384</code><span class="sig-paren">(</span><em class="sig-param">secret</em>, <em class="sig-param">label</em>, <em class="sig-param">seed</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.PRF_1_2_SHA384" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pseudo Random Function for TLS1.2 ciphers that use SHA384</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.PRF_SSL">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">PRF_SSL</code><span class="sig-paren">(</span><em class="sig-param">secret</em>, <em class="sig-param">seed</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.PRF_SSL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.P_hash">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">P_hash</code><span class="sig-paren">(</span><em class="sig-param">macFunc</em>, <em class="sig-param">secret</em>, <em class="sig-param">seed</em>, <em class="sig-param">length</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.P_hash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.calcExtendedMasterSecret">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">calcExtendedMasterSecret</code><span class="sig-paren">(</span><em class="sig-param">version</em>, <em class="sig-param">cipherSuite</em>, <em class="sig-param">premasterSecret</em>, <em class="sig-param">handshakeHashes</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.calcExtendedMasterSecret" title="Permalink to this definition">¶</a></dt>
+<dd><p>Derive Extended Master Secret from premaster and handshake msgs</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.calcFinished">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">calcFinished</code><span class="sig-paren">(</span><em class="sig-param">version</em>, <em class="sig-param">masterSecret</em>, <em class="sig-param">cipherSuite</em>, <em class="sig-param">handshakeHashes</em>, <em class="sig-param">isClient</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.calcFinished" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the Handshake protocol Finished value</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>version</strong> – TLS protocol version tuple</p></li>
+<li><p><strong>masterSecret</strong> – negotiated master secret of the connection</p></li>
+<li><p><strong>cipherSuite</strong> – negotiated cipher suite of the connection,</p></li>
+<li><p><strong>handshakeHashes</strong> – running hash of the handshake messages</p></li>
+<li><p><strong>isClient</strong> – whether the calculation should be performed for message
+sent by client (True) or by server (False) side of connection</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.calcMasterSecret">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">calcMasterSecret</code><span class="sig-paren">(</span><em class="sig-param">version</em>, <em class="sig-param">cipherSuite</em>, <em class="sig-param">premasterSecret</em>, <em class="sig-param">clientRandom</em>, <em class="sig-param">serverRandom</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.calcMasterSecret" title="Permalink to this definition">¶</a></dt>
+<dd><p>Derive Master Secret from premaster secret and random values</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.createHMAC">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">createHMAC</code><span class="sig-paren">(</span><em class="sig-param">k</em>, <em class="sig-param">digestmod=&lt;built-in function openssl_sha1&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.createHMAC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.createMAC_SSL">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">createMAC_SSL</code><span class="sig-paren">(</span><em class="sig-param">k</em>, <em class="sig-param">digestmod=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.createMAC_SSL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.makeK">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">makeK</code><span class="sig-paren">(</span><em class="sig-param">N</em>, <em class="sig-param">g</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.makeK" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.makeU">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">makeU</code><span class="sig-paren">(</span><em class="sig-param">N</em>, <em class="sig-param">A</em>, <em class="sig-param">B</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.makeU" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.makeVerifier">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">makeVerifier</code><span class="sig-paren">(</span><em class="sig-param">username</em>, <em class="sig-param">password</em>, <em class="sig-param">bits</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.makeVerifier" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.makeX">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">makeX</code><span class="sig-paren">(</span><em class="sig-param">salt</em>, <em class="sig-param">username</em>, <em class="sig-param">password</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.makeX" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="tlslite.mathtls.paramStrength">
+<code class="sig-prename descclassname">tlslite.mathtls.</code><code class="sig-name descname">paramStrength</code><span class="sig-paren">(</span><em class="sig-param">param</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.mathtls.paramStrength" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return level of security for DH, DSA and RSA parameters.</p>
+<p>Provide the approximate level of security for algorithms based on finite
+field (DSA, DH) or integer factorisation cryptography (RSA) when provided
+with the prime defining the field or the modulus of the public key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>param</strong> (<em>int</em>) – prime or modulus</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.mathtls.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.keyexchange module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.keyexchange">
+<span id="tlslite-keyexchange-module"></span><h1>tlslite.keyexchange module<a class="headerlink" href="#module-tlslite.keyexchange" title="Permalink to this headline">¶</a></h1>
+<p>Handling of cryptographic operations for key exchange</p>
+<dl class="class">
+<dt id="tlslite.keyexchange.ADHKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">ADHKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">dhParams=None</em>, <em class="sig-param">dhGroups=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.KeyExchange" title="tlslite.keyexchange.KeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.KeyExchange</span></code></a></p>
+<p>Handling of anonymous Diffie-Hellman Key exchange</p>
+<p>FFDHE without signing serverKeyExchange useful for anonymous DH</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.ADHKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">dhParams=None</em>, <em class="sig-param">dhGroups=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize KeyExchange. privateKey is the signing private key</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.ADHKeyExchange.makeClientKeyExchange">
+<code class="sig-name descname">makeClientKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange.makeClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create client key share for the key exchange</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.ADHKeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare server side of anonymous key exchange with selected parameters</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.ADHKeyExchange.processClientKeyExchange">
+<code class="sig-name descname">processClientKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">clientKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange.processClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use client provided parameters to establish premaster secret</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.ADHKeyExchange.processServerKeyExchange">
+<code class="sig-name descname">processServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">srvPublicKey</em>, <em class="sig-param">serverKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ADHKeyExchange.processServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process the server key exchange, return premaster secret.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.AECDHKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">AECDHKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">acceptedCurves</em>, <em class="sig-param">defaultCurve=23</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.KeyExchange" title="tlslite.keyexchange.KeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.KeyExchange</span></code></a></p>
+<p>Handling of anonymous Eliptic curve Diffie-Hellman Key exchange</p>
+<p>ECDHE without signing serverKeyExchange useful for anonymous ECDH</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.AECDHKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">acceptedCurves</em>, <em class="sig-param">defaultCurve=23</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize KeyExchange. privateKey is the signing private key</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.AECDHKeyExchange.makeClientKeyExchange">
+<code class="sig-name descname">makeClientKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange.makeClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make client key exchange for ECDHE</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.AECDHKeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create AECDHE version of Server Key Exchange</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.AECDHKeyExchange.processClientKeyExchange">
+<code class="sig-name descname">processClientKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">clientKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange.processClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate premaster secret from previously generated SKE and CKE</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.AECDHKeyExchange.processServerKeyExchange">
+<code class="sig-name descname">processServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">srvPublicKey</em>, <em class="sig-param">serverKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AECDHKeyExchange.processServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process the server key exchange, return premaster secret</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.AuthenticatedKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">AuthenticatedKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AuthenticatedKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.KeyExchange" title="tlslite.keyexchange.KeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.KeyExchange</span></code></a></p>
+<p>Common methods for key exchanges that authenticate Server Key Exchange</p>
+<p>Methods for signing Server Key Exchange message</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.AuthenticatedKeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.AuthenticatedKeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare server side of key exchange with selected parameters</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.DHE_RSAKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">DHE_RSAKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">dhParams=None</em>, <em class="sig-param">dhGroups=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.DHE_RSAKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.AuthenticatedKeyExchange" title="tlslite.keyexchange.AuthenticatedKeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.AuthenticatedKeyExchange</span></code></a>, <a class="reference internal" href="#tlslite.keyexchange.ADHKeyExchange" title="tlslite.keyexchange.ADHKeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.ADHKeyExchange</span></code></a></p>
+<p>Handling of authenticated ephemeral Diffe-Hellman Key exchange.</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.DHE_RSAKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">dhParams=None</em>, <em class="sig-param">dhGroups=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.DHE_RSAKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create helper object for Diffie-Hellamn key exchange.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dhParams</strong> (<em>2-element tuple of int</em>) – Diffie-Hellman parameters that will be used by
+server. First element of the tuple is the generator, the second
+is the prime. If not specified it will use a secure set (currently
+a 2048-bit safe prime).</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.ECDHE_RSAKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">ECDHE_RSAKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">acceptedCurves</em>, <em class="sig-param">defaultCurve=23</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ECDHE_RSAKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.AuthenticatedKeyExchange" title="tlslite.keyexchange.AuthenticatedKeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.AuthenticatedKeyExchange</span></code></a>, <a class="reference internal" href="#tlslite.keyexchange.AECDHKeyExchange" title="tlslite.keyexchange.AECDHKeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.AECDHKeyExchange</span></code></a></p>
+<p>Helper class for conducting ECDHE key exchange</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.ECDHE_RSAKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">acceptedCurves</em>, <em class="sig-param">defaultCurve=23</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.ECDHE_RSAKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize KeyExchange. privateKey is the signing private key</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.KeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">KeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Common API for calculating Premaster secret</p>
+<p>NOT stable, will get moved from this file</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize KeyExchange. privateKey is the signing private key</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.calcVerifyBytes">
+<em class="property">static </em><code class="sig-name descname">calcVerifyBytes</code><span class="sig-paren">(</span><em class="sig-param">version</em>, <em class="sig-param">handshakeHashes</em>, <em class="sig-param">signatureAlg</em>, <em class="sig-param">premasterSecret</em>, <em class="sig-param">clientRandom</em>, <em class="sig-param">serverRandom</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.calcVerifyBytes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate signed bytes for Certificate Verify</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.makeCertificateVerify">
+<em class="property">static </em><code class="sig-name descname">makeCertificateVerify</code><span class="sig-paren">(</span><em class="sig-param">version</em>, <em class="sig-param">handshakeHashes</em>, <em class="sig-param">validSigAlgs</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">certificateRequest</em>, <em class="sig-param">premasterSecret</em>, <em class="sig-param">clientRandom</em>, <em class="sig-param">serverRandom</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.makeCertificateVerify" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a Certificate Verify message</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>version</strong> – protocol version in use</p></li>
+<li><p><strong>handshakeHashes</strong> – the running hash of all handshake messages</p></li>
+<li><p><strong>validSigAlgs</strong> – acceptable signature algorithms for client side,
+applicable only to TLSv1.2 (or later)</p></li>
+<li><p><strong>certificateRequest</strong> – the server provided Certificate Request
+message</p></li>
+<li><p><strong>premasterSecret</strong> – the premaster secret, needed only for SSLv3</p></li>
+<li><p><strong>clientRandom</strong> – client provided random value, needed only for
+SSLv3</p></li>
+<li><p><strong>serverRandom</strong> – server provided random value, needed only for
+SSLv3</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.makeClientKeyExchange">
+<code class="sig-name descname">makeClientKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.makeClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a ClientKeyExchange object</p>
+<p>Returns a ClientKeyExchange for the second flight from client in the
+handshake.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a ServerKeyExchange object</p>
+<p>Returns a ServerKeyExchange object for the server’s initial leg in the
+handshake. If the key exchange method does not send ServerKeyExchange
+(e.g. RSA), it returns None.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.processClientKeyExchange">
+<code class="sig-name descname">processClientKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">clientKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.processClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process ClientKeyExchange and return premaster secret</p>
+<p>Processes the client’s ClientKeyExchange message and returns the
+premaster secret. Raises TLSLocalAlert on error.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.processServerKeyExchange">
+<code class="sig-name descname">processServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">srvPublicKey</em>, <em class="sig-param">serverKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.processServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process the server KEX and return premaster secret</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.signServerKeyExchange">
+<code class="sig-name descname">signServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">serverKeyExchange</em>, <em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.signServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sign a server key exchange using default or specified algorithm</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>sigHash</strong> (<em>str</em>) – name of the signature hash to be used for signing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.KeyExchange.verifyServerKeyExchange">
+<em class="property">static </em><code class="sig-name descname">verifyServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">serverKeyExchange</em>, <em class="sig-param">publicKey</em>, <em class="sig-param">clientRandom</em>, <em class="sig-param">serverRandom</em>, <em class="sig-param">validSigAlgs</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.KeyExchange.verifyServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Verify signature on the Server Key Exchange message</p>
+<p>the only acceptable signature algorithms are specified by validSigAlgs</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.RSAKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">RSAKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.KeyExchange" title="tlslite.keyexchange.KeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.KeyExchange</span></code></a></p>
+<p>Handling of RSA key exchange</p>
+<p>NOT stable API, do NOT use</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.RSAKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize KeyExchange. privateKey is the signing private key</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.RSAKeyExchange.makeClientKeyExchange">
+<code class="sig-name descname">makeClientKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange.makeClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a client key exchange with clients key share</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.RSAKeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Don’t create a server key exchange for RSA key exchange</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.RSAKeyExchange.processClientKeyExchange">
+<code class="sig-name descname">processClientKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">clientKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange.processClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decrypt client key exchange, return premaster secret</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.RSAKeyExchange.processServerKeyExchange">
+<code class="sig-name descname">processServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">srvPublicKey</em>, <em class="sig-param">serverKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.RSAKeyExchange.processServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate premaster secret for server</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tlslite.keyexchange.SRPKeyExchange">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.keyexchange.</code><code class="sig-name descname">SRPKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">verifierDB</em>, <em class="sig-param">srpUsername=None</em>, <em class="sig-param">password=None</em>, <em class="sig-param">settings=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tlslite.keyexchange.KeyExchange" title="tlslite.keyexchange.KeyExchange"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.keyexchange.KeyExchange</span></code></a></p>
+<p>Helper class for conducting SRP key exchange</p>
+<dl class="method">
+<dt id="tlslite.keyexchange.SRPKeyExchange.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">cipherSuite</em>, <em class="sig-param">clientHello</em>, <em class="sig-param">serverHello</em>, <em class="sig-param">privateKey</em>, <em class="sig-param">verifierDB</em>, <em class="sig-param">srpUsername=None</em>, <em class="sig-param">password=None</em>, <em class="sig-param">settings=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Link Key Exchange options with verifierDB for SRP</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.SRPKeyExchange.makeClientKeyExchange">
+<code class="sig-name descname">makeClientKeyExchange</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange.makeClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create ClientKeyExchange</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.SRPKeyExchange.makeServerKeyExchange">
+<code class="sig-name descname">makeServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">sigHash=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange.makeServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create SRP version of Server Key Exchange</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.SRPKeyExchange.processClientKeyExchange">
+<code class="sig-name descname">processClientKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">clientKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange.processClientKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate premaster secret from Client Key Exchange and sent SKE</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.keyexchange.SRPKeyExchange.processServerKeyExchange">
+<code class="sig-name descname">processServerKeyExchange</code><span class="sig-paren">(</span><em class="sig-param">srvPublicKey</em>, <em class="sig-param">serverKeyExchange</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.keyexchange.SRPKeyExchange.processServerKeyExchange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate premaster secret from ServerKeyExchange</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.keyexchange.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

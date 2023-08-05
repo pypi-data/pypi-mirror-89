@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>tlslite.verifierdb module &#8212; tlslite-ng 0.7.6 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tlslite.verifierdb">
+<span id="tlslite-verifierdb-module"></span><h1>tlslite.verifierdb module<a class="headerlink" href="#module-tlslite.verifierdb" title="Permalink to this headline">¶</a></h1>
+<p>Class for storing SRP password verifiers.</p>
+<dl class="class">
+<dt id="tlslite.verifierdb.VerifierDB">
+<em class="property">class </em><code class="sig-prename descclassname">tlslite.verifierdb.</code><code class="sig-name descname">VerifierDB</code><span class="sig-paren">(</span><em class="sig-param">filename=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.verifierdb.VerifierDB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="tlslite.basedb.html#tlslite.basedb.BaseDB" title="tlslite.basedb.BaseDB"><code class="xref py py-class docutils literal notranslate"><span class="pre">tlslite.basedb.BaseDB</span></code></a></p>
+<p>This class represent an in-memory or on-disk database of SRP
+password verifiers.</p>
+<p>A VerifierDB can be passed to a server handshake to authenticate
+a client based on one of the verifiers.</p>
+<p>This class is thread-safe.</p>
+<dl class="method">
+<dt id="tlslite.verifierdb.VerifierDB.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">filename=None</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.verifierdb.VerifierDB.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a new VerifierDB instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filename</strong> (<em>str</em>) – Filename for an on-disk database, or None for
+an in-memory database.  If the filename already exists, follow
+this with a call to open().  To create a new on-disk database,
+follow this with a call to create().</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.verifierdb.VerifierDB.__setitem__">
+<code class="sig-name descname">__setitem__</code><span class="sig-paren">(</span><em class="sig-param">username</em>, <em class="sig-param">verifierEntry</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.verifierdb.VerifierDB.__setitem__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a verifier entry to the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>username</strong> (<em>str</em>) – The username to associate the verifier with.
+Must be less than 256 characters in length.  Must not already
+be in the database.</p></li>
+<li><p><strong>verifierEntry</strong> (<em>tuple</em>) – The verifier entry to add.  Use
+<a class="reference internal" href="#tlslite.verifierdb.VerifierDB.makeVerifier" title="tlslite.verifierdb.VerifierDB.makeVerifier"><code class="xref py py-meth docutils literal notranslate"><span class="pre">makeVerifier()</span></code></a> to create a
+verifier entry.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="tlslite.verifierdb.VerifierDB.makeVerifier">
+<em class="property">static </em><code class="sig-name descname">makeVerifier</code><span class="sig-paren">(</span><em class="sig-param">username</em>, <em class="sig-param">password</em>, <em class="sig-param">bits</em><span class="sig-paren">)</span><a class="headerlink" href="#tlslite.verifierdb.VerifierDB.makeVerifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a verifier entry which can be stored in a VerifierDB.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>username</strong> (<em>str</em>) – The username for this verifier.  Must be less
+than 256 characters in length.</p></li>
+<li><p><strong>password</strong> (<em>str</em>) – The password for this verifier.</p></li>
+<li><p><strong>bits</strong> (<em>int</em>) – This values specifies which SRP group parameters
+to use.  It must be one of (1024, 1536, 2048, 3072, 4096, 6144,
+8192).  Larger values are more secure but slower.  2048 is a
+good compromise between safety and speed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>tuple</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A tuple which may be stored in a VerifierDB.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">tlslite-ng</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hubert Kario.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tlslite.verifierdb.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

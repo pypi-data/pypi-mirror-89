@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: seqencemapper
+Version: 0.0.2
+Summary: finding sequence in string
+Home-page: https://github.com/shubhamguptaorg
+Author: Shubham Gupta
+Author-email: sgupta.mailme@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+finding numbers of different sequence in string
+
+

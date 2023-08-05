@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: simplelinearregression
+Version: 0.0.1
+Summary: A very linear regression package
+Home-page: UNKNOWN
+Author: Manas Kulkarni
+Author-email: mkulkar2@stevens.edu
+License: MIT
+Description: This is a very simple linear regression package.
+        
+        Change Log
+        ==============
+        
+        0.0.1 (12/19/2020)
+        --------------------
+        -First Release
+Keywords: regression
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+simplelinearregression/__init__.py
+simplelinearregression.egg-info/PKG-INFO
+simplelinearregression.egg-info/SOURCES.txt
+simplelinearregression.egg-info/dependency_links.txt
+simplelinearregression.egg-info/top_level.txt

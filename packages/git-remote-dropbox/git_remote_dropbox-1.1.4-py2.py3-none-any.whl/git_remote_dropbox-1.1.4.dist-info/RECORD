@@ -1,0 +1,15 @@
+git_remote_dropbox/__init__.py,sha256=c58BbXrJ6zespgrybgeMF5Qw2zmdHtp3vIXGVETN_v4,1142
+git_remote_dropbox/constants.py,sha256=-oiTgrNCU8lbhkjLJHPNcl8QfgD9rWt8eg0hUFBQZy4,160
+git_remote_dropbox/git.py,sha256=eYbLCwnfON0_gOPCRe59RXj61uUnGpY5ga2VqVyDmsw,4939
+git_remote_dropbox/helper.py,sha256=nIWRKQwD5xKwpLfboGdJLo5Tna8WeAjM6mf5fQ-Hk8s,19598
+git_remote_dropbox/util.py,sha256=muVeYoQvc10S5-UhFzIe0Z5bTm9sFtcV_0Zioujopu0,2804
+git_remote_dropbox/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_remote_dropbox/cli/common.py,sha256=-dOmnuWzhhA59iePGLggXsx9tuL4yhhXA-CwBqWb73Q,2235
+git_remote_dropbox/cli/helper.py,sha256=whMNkOj3y1beocFixNpssq8xH7mPkwHFU_pnXU9XaIQ,687
+git_remote_dropbox/cli/manage.py,sha256=XHYBfExy2Sf4QJQQCBmZdawS6aeAJd8Qdu5YgZ_NyGI,2734
+git_remote_dropbox-1.1.4.dist-info/LICENSE.md,sha256=r_O-K67091gWObAauZHS7EfFq2ch9AkhDgeMo-VqYYY,1133
+git_remote_dropbox-1.1.4.dist-info/METADATA,sha256=s5Y5Ydv1Kk6lBiPub8HuEDa9OT1g5m3NNGpGb6dXHIw,8253
+git_remote_dropbox-1.1.4.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+git_remote_dropbox-1.1.4.dist-info/entry_points.txt,sha256=hy9CWzfGWrv81f0QP4R_ft8XCa82EEEzw3-EM0bp6Sg,131
+git_remote_dropbox-1.1.4.dist-info/top_level.txt,sha256=aVkzNnRNi-Qo6IyhJzxBuUHWBuEDEvFanWys7E4c9YY,19
+git_remote_dropbox-1.1.4.dist-info/RECORD,,

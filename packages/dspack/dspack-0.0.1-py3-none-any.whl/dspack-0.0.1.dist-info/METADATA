@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: dspack
+Version: 0.0.1
+Summary: Python Package of datastructures inbuilt
+Home-page: https://code.swecha.org/SANJAY/python_package_contirbution
+Author: Sanjay
+Author-email: vsanjaychowdary1999@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+from ds.sll import *
+from ds.dll import *
+from ds.graph import *
+from ds.avl import *
+from ds.trie import *
+from ds.segmenttree import *
+from ds.inset import *
+from ds.treeset import *
+from ds.avl import *
+
+#print("first")
+arr = [i for i in range(7)]
+dll = dll(arr) 		#you can also declare a null dll
+print(dll)
+dll.add(7)
+dll.add(9,1)			#add(index = 0 by default,val)
+print(dll)
+dll.remove(9)			#dll.remove(val)
+a = dll.getNode(6)		#gets pointer to the node
+print(a.data)
+print(len(dll))
+print(dll)
+
+#print("second")
+g = Graph(4)
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(1, 2)
+g.add_edge(2, 0)
+g.add_edge(2, 3)
+g.add_edge(3, 3)
+print(g)
+
+#print("third")
+myTree = AVL_Tree([(i+1)*10 for i in range(6)])
+# Preorder Traversal 
+myTree.preOrder()
+myTree.insert(12)
+print("Preorder traversal of the", "constructed AVL tree is") 
+myTree.delete(20)
+myTree.preOrder() 
+# print() 
+
+#print("fourth")
+sll = sll([i for i in range(1,7)])
+print(sll)
+sll.add(7)
+sll.add(9,1)
+print(sll)
+sll.remove(9)
+a = sll.getNode(6)
+print(a.data)
+print(len(sll))
+print(sll)
+
+#print("fifth")
+my_tree = segmenttree([i+1 for i in range(10)])
+print(my_tree.findmin(2,8))                         #Indexing starts with 0 only.
+print(my_tree.findmax(3,9))  
+my_tree.update(3,13)
+print(my_tree.findmin(2,9))
+print(my_tree.findmax(3,8))
+print(len(my_tree)) 
+print(my_tree)
+
+
+#print("sixth")
+dic = trie()
+words = ["python","pip","pypi","package","modules","github"]
+for word in words: dic.insert(word)
+print(dic.search("pip"))
+print(dic.search("pypin"))
+
+
+

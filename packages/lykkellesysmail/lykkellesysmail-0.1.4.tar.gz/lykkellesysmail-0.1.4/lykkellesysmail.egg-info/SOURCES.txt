@@ -1,0 +1,8 @@
+README.md
+setup.py
+lykkellesysmail/__init__.py
+lykkellesysmail/sysmail.py
+lykkellesysmail.egg-info/PKG-INFO
+lykkellesysmail.egg-info/SOURCES.txt
+lykkellesysmail.egg-info/dependency_links.txt
+lykkellesysmail.egg-info/top_level.txt

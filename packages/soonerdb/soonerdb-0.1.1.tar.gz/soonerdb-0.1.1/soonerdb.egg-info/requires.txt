@@ -1,0 +1,2 @@
+Click>=7.0
+sortedcontainers<2.4,>=2.3.0

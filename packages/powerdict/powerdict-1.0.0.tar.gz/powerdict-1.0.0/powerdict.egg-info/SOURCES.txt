@@ -1,0 +1,13 @@
+README.md
+setup.py
+powerdict/__init__.py
+powerdict/_nbdev.py
+powerdict/construct.py
+powerdict/download.py
+powerdict/pipeline.py
+powerdict/update.py
+powerdict.egg-info/PKG-INFO
+powerdict.egg-info/SOURCES.txt
+powerdict.egg-info/dependency_links.txt
+powerdict.egg-info/requires.txt
+powerdict.egg-info/top_level.txt

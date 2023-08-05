@@ -1,0 +1,15 @@
+pyScatSpheres/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyScatSpheres/displayStandards.py,sha256=mTjNfiDHj5p8EJqO92HHxu6sRMog78NU4IBPGBa6CTc,25379
+pyScatSpheres/glob_colors.py,sha256=9jjl_i7k6vC8ZG_JlJuDFerNKvBA8E9sj8cZipMXSzA,195
+pyScatSpheres/gui_base.py,sha256=jp4L-XeqEJXXyX7k5wfbkU0rZBGLCGYNDL6X7s6FRPA,19542
+pyScatSpheres/gui_config.py,sha256=x9-VlcT5WmGmwWYMgyyUUzLGLl2q4NXcMxj--dceGv8,1866
+pyScatSpheres/hard_sphere_array.py,sha256=62e-JyanCx-GUu8czuf9C5U1532f5qg7D8-y4KH59SI,6233
+pyScatSpheres/hard_sphere_arrayApprox.py,sha256=fldIWLM9mxLPxn4fgyoBKjTguK7L68bvwfqgA4pS58o,3638
+pyScatSpheres/hard_sphere_base.py,sha256=8QOzajv3mjC4bJp6PTs6nwA13pIIOm9QBZ5AHXVPtlA,6697
+pyScatSpheres/qdot_sphere_array.py,sha256=ppT6F8FDd7ldzzl4ocTcZ2Y3XPn0J6qenwshCF8jY4k,6805
+pyScatSpheres/spherical_utils.py,sha256=uqSjiJGRv4wBDeNrvPBayJjFepNNfxBKjLxXkuKpC8A,26156
+pyScatSpheres-1.0.3.dev1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyScatSpheres-1.0.3.dev1.dist-info/METADATA,sha256=7_YxHS2Z5LKX7EVymY3REqBHTtdS6z5LzWJ23M95y90,2199
+pyScatSpheres-1.0.3.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyScatSpheres-1.0.3.dev1.dist-info/top_level.txt,sha256=XYRs59sLOTzyX24naxZgVgsRHvQLoWLbNvGqpzHGyYQ,14
+pyScatSpheres-1.0.3.dev1.dist-info/RECORD,,

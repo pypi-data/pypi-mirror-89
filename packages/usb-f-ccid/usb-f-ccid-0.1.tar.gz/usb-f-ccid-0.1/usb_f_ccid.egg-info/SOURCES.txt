@@ -1,0 +1,12 @@
+README.rst
+setup.py
+f_ccid/__init__.py
+f_ccid/iccd.py
+f_ccid/slot.py
+f_ccid/usb.py
+f_ccid/utils.py
+usb_f_ccid.egg-info/PKG-INFO
+usb_f_ccid.egg-info/SOURCES.txt
+usb_f_ccid.egg-info/dependency_links.txt
+usb_f_ccid.egg-info/requires.txt
+usb_f_ccid.egg-info/top_level.txt

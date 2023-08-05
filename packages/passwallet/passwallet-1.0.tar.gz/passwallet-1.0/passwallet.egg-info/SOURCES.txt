@@ -1,0 +1,7 @@
+setup.py
+passwallet.egg-info/PKG-INFO
+passwallet.egg-info/SOURCES.txt
+passwallet.egg-info/dependency_links.txt
+passwallet.egg-info/top_level.txt
+src/__init__.py
+src/logins.py

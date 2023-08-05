@@ -1,0 +1,16 @@
+torch>=1.6.0
+
+[dev]
+pytest
+pytest-cov
+black
+flake8
+isort
+recommonmark
+sphinx
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov

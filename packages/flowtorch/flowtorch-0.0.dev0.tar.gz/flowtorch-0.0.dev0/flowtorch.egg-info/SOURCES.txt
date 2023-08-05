@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+flowtorch.egg-info/PKG-INFO
+flowtorch.egg-info/SOURCES.txt
+flowtorch.egg-info/dependency_links.txt
+flowtorch.egg-info/requires.txt
+flowtorch.egg-info/top_level.txt

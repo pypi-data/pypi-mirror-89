@@ -1,0 +1,5 @@
+setup.py
+envoy_proxy_validator.egg-info/PKG-INFO
+envoy_proxy_validator.egg-info/SOURCES.txt
+envoy_proxy_validator.egg-info/dependency_links.txt
+envoy_proxy_validator.egg-info/top_level.txt

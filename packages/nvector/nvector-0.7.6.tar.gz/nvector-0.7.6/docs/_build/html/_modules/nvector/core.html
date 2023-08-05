@@ -1,0 +1,966 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>nvector.core &mdash; Nvector 0.7.6 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Nvector
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../intro/index.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">2. Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../how-to/index.html">3. How-to guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/index.html">4. Topics guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../reference/index.html">5. Reference nvector package</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/authors.html">Developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/acknowledgement.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/index.html">Indices and tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/zreferences.html">Bibliography</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Nvector</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>nvector.core</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for nvector.core</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Core geodesic functions</span>
+<span class="sd">=======================</span>
+<span class="sd">This file is part of NavLab and is available from www.navlab.net/nvector</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">arctan2</span><span class="p">,</span> <span class="n">sin</span><span class="p">,</span> <span class="n">cos</span><span class="p">,</span> <span class="n">cross</span><span class="p">,</span> <span class="n">dot</span><span class="p">,</span> <span class="n">sqrt</span>
+<span class="kn">from</span> <span class="nn">numpy.linalg</span> <span class="kn">import</span> <span class="n">norm</span>
+<span class="kn">from</span> <span class="nn">nvector</span> <span class="kn">import</span> <span class="n">_examples</span><span class="p">,</span> <span class="n">license</span> <span class="k">as</span> <span class="n">_license</span>
+<span class="kn">from</span> <span class="nn">nvector.rotation</span> <span class="kn">import</span> <span class="n">E_rotation</span><span class="p">,</span> <span class="n">n_E2R_EN</span><span class="p">,</span> <span class="n">n_E2lat_lon</span>  <span class="c1"># @UnusedImport</span>
+<span class="kn">from</span> <span class="nn">nvector.util</span> <span class="kn">import</span> <span class="n">mdot</span><span class="p">,</span> <span class="n">nthroot</span><span class="p">,</span> <span class="n">unit</span><span class="p">,</span> <span class="n">_check_length_deviation</span>
+<span class="kn">from</span> <span class="nn">nvector._common</span> <span class="kn">import</span> <span class="n">test_docstrings</span><span class="p">,</span> <span class="n">use_docstring_from</span><span class="p">,</span> <span class="n">_make_summary</span>
+
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;closest_point_on_great_circle&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;cross_track_distance&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;euclidean_distance&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;great_circle_distance&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;great_circle_normal&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;interpolate&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;intersect&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;mean_horizontal_position&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;lat_lon2n_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_E2lat_lon&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_EA_E_and_n_EB_E2p_AB_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_EA_E_and_p_AB_E2n_EB_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_EB_E2p_EB_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;p_EB_E2n_EB_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_EA_E_distance_and_azimuth2n_EB_E&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;n_EA_E_and_n_EB_E2azimuth&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;on_great_circle&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;on_great_circle_path&#39;</span><span class="p">,</span>
+           <span class="p">]</span>
+
+
+<div class="viewcode-block" id="lat_lon2n_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.lat_lon2n_E.html#nvector.core.lat_lon2n_E">[docs]</a><span class="k">def</span> <span class="nf">lat_lon2n_E</span><span class="p">(</span><span class="n">latitude</span><span class="p">,</span> <span class="n">longitude</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Converts latitude and longitude to n-vector.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    latitude, longitude: real scalars or vectors of length n.</span>
+<span class="sd">        Geodetic latitude and longitude given in [rad]</span>
+<span class="sd">    R_Ee : 3 x 3 array</span>
+<span class="sd">        rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    n_E: 3 x n array</span>
+<span class="sd">        n-vector(s) [no unit] decomposed in E.</span>
+
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    n_E2lat_lon</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+    <span class="c1"># Equation (3) from Gade (2010):</span>
+    <span class="n">nvec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">sin</span><span class="p">(</span><span class="n">latitude</span><span class="p">),</span>
+                      <span class="n">sin</span><span class="p">(</span><span class="n">longitude</span><span class="p">)</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">latitude</span><span class="p">),</span>
+                      <span class="o">-</span><span class="n">cos</span><span class="p">(</span><span class="n">longitude</span><span class="p">)</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">latitude</span><span class="p">)))</span>
+    <span class="n">n_E</span> <span class="o">=</span> <span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">nvec</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n_E</span></div>
+
+
+<span class="k">class</span> <span class="nc">_Nvector2ECEFvector</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Converts n-vector to Cartesian position vector in meters.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position B, decomposed in E.</span>
+<span class="s2">depth:  1 x n array</span>
+<span class="s2">    Depth(s) [m] of system B, relative to the ellipsoid (depth = -height)</span>
+<span class="s2">a: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Semi-major axis of the Earth ellipsoid given in [m].</span>
+<span class="s2">f: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Flattening [no unit] of the Earth ellipsoid. If f==0 then spherical</span>
+<span class="s2">    Earth with radius a is used in stead of WGS-84.</span>
+<span class="s2">R_Ee : 3 x 3 array</span>
+<span class="s2">    rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">p_EB_E:  3 x n array</span>
+<span class="s2">    Cartesian position vector(s) from E to B, decomposed in E.</span>
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The position of B (typically body) relative to E (typically Earth) is</span>
+<span class="s2">given into this function as n-vector, n_EB_E. The function converts</span>
+<span class="s2">to cartesian position vector (&quot;ECEF-vector&quot;), p_EB_E, in meters.</span>
+<span class="s2">The calculation is exact, taking the ellipsity of the Earth into account.</span>
+<span class="s2">It is also non-singular as both n-vector and p-vector are non-singular</span>
+<span class="s2">(except for the center of the Earth).</span>
+<span class="s2">The default ellipsoid model used is WGS-84, but other ellipsoids/spheres</span>
+<span class="s2">might be specified.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">See also</span>
+<span class="s2">--------</span>
+<span class="s2">p_EB_E2n_EB_E, n_EA_E_and_p_AB_E2n_EB_E, n_EA_E_and_n_EB_E2p_AB_E</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">4</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="n_EB_E2p_EB_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.n_EB_E2p_EB_E.html#nvector.core.n_EB_E2p_EB_E">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_Nvector2ECEFvector</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">n_EB_E2p_EB_E</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">,</span> <span class="n">depth</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">6378137</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="mf">1.0</span> <span class="o">/</span> <span class="mf">298.257223563</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+    <span class="n">_check_length_deviation</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">)</span>
+
+    <span class="n">n_EB_E</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">f</span><span class="p">)</span>  <span class="c1"># semi-minor axis</span>
+
+    <span class="c1"># The following code implements equation (22) in Gade (2010):</span>
+    <span class="n">scale</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span>
+                       <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">f</span><span class="p">),</span>
+                       <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">f</span><span class="p">)))</span>
+    <span class="n">denominator</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">n_EB_E</span> <span class="o">/</span> <span class="n">scale</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="c1"># We first calculate the position at the origin of coordinate system L,</span>
+    <span class="c1"># which has the same n-vector as B (n_EL_E = n_EB_E),</span>
+    <span class="c1"># but lies at the surface of the Earth (z_EL = 0).</span>
+
+    <span class="n">p_EL_E</span> <span class="o">=</span> <span class="n">b</span> <span class="o">/</span> <span class="n">denominator</span> <span class="o">*</span> <span class="n">n_EB_E</span> <span class="o">/</span> <span class="n">scale</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">p_EB_E</span> <span class="o">=</span> <span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">p_EL_E</span> <span class="o">-</span> <span class="n">n_EB_E</span> <span class="o">*</span> <span class="n">depth</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">p_EB_E</span></div>
+
+
+<span class="k">class</span> <span class="nc">_ECEFvector2Nvector</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Converts Cartesian position vector in meters to n-vector.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">p_EB_E:  3 x n array</span>
+<span class="s2">    Cartesian position vector(s) from E to B, decomposed in E.</span>
+<span class="s2">a: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Semi-major axis of the Earth ellipsoid given in [m].</span>
+<span class="s2">f: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Flattening [no unit] of the Earth ellipsoid. If f==0 then spherical</span>
+<span class="s2">    Earth with radius a is used in stead of WGS-84.</span>
+<span class="s2">R_Ee : 3 x 3 array</span>
+<span class="s2">    rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position B, decomposed in E.</span>
+<span class="s2">depth:  1 x n array</span>
+<span class="s2">    Depth(s) [m] of system B, relative to the ellipsoid (depth = -height)</span>
+
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The position of B (typically body) relative to E (typically Earth) is</span>
+<span class="s2">given into this function as cartesian position vector p_EB_E, in meters.</span>
+<span class="s2">(&quot;ECEF-vector&quot;). The function converts to n-vector, n_EB_E and its</span>
+<span class="s2">depth, depth.</span>
+<span class="s2">The calculation is excact, taking the ellipsity of the Earth into account.</span>
+<span class="s2">It is also non-singular as both n-vector and p-vector are non-singular</span>
+<span class="s2">(except for the center of the Earth).</span>
+<span class="s2">The default ellipsoid model used is WGS-84, but other ellipsoids/spheres</span>
+<span class="s2">might be specified.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">See also</span>
+<span class="s2">--------</span>
+<span class="s2">n_EB_E2p_EB_E, n_EA_E_and_p_AB_E2n_EB_E, n_EA_E_and_n_EB_E2p_AB_E</span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">3</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="p_EB_E2n_EB_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.p_EB_E2n_EB_E.html#nvector.core.p_EB_E2n_EB_E">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_ECEFvector2Nvector</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">p_EB_E2n_EB_E</span><span class="p">(</span><span class="n">p_EB_E</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">6378137</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="mf">1.0</span> <span class="o">/</span> <span class="mf">298.257223563</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="c1"># R_Ee selects correct E-axes, see E_rotation for details</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+    <span class="n">p_EB_E</span> <span class="o">=</span> <span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="p">,</span> <span class="n">p_EB_E</span><span class="p">)</span>
+
+    <span class="c1"># e_2 = eccentricity**2</span>
+    <span class="n">e_2</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">f</span> <span class="o">-</span> <span class="n">f</span><span class="o">**</span><span class="mi">2</span>  <span class="c1"># = 1-b**2/a**2</span>
+
+    <span class="c1"># The following code implements equation (23) from Gade (2010):</span>
+    <span class="n">R_2</span> <span class="o">=</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">:]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="p">:]</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">R_2</span><span class="p">)</span>   <span class="c1"># R = component of p_EB_E in the equatorial plane</span>
+
+    <span class="n">p</span> <span class="o">=</span> <span class="n">R_2</span> <span class="o">/</span> <span class="n">a</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">q</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">e_2</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span> <span class="o">+</span> <span class="n">q</span> <span class="o">-</span> <span class="n">e_2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">6</span>
+
+    <span class="n">s</span> <span class="o">=</span> <span class="n">e_2</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">p</span> <span class="o">*</span> <span class="n">q</span> <span class="o">/</span> <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">r</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">nthroot</span><span class="p">((</span><span class="mi">1</span> <span class="o">+</span> <span class="n">s</span> <span class="o">+</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">s</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="n">s</span><span class="p">))),</span> <span class="mi">3</span><span class="p">)</span>
+    <span class="c1"># t = (1 + s + sqrt(s * (2 + s)))**(1. / 3)</span>
+    <span class="n">u</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">t</span> <span class="o">+</span> <span class="mf">1.</span> <span class="o">/</span> <span class="n">t</span><span class="p">)</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">u</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">e_2</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">q</span><span class="p">)</span>
+
+    <span class="n">w</span> <span class="o">=</span> <span class="n">e_2</span> <span class="o">*</span> <span class="p">(</span><span class="n">u</span> <span class="o">+</span> <span class="n">v</span> <span class="o">-</span> <span class="n">q</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">v</span><span class="p">)</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">u</span> <span class="o">+</span> <span class="n">v</span> <span class="o">+</span> <span class="n">w</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="n">w</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="n">k</span> <span class="o">*</span> <span class="n">R</span> <span class="o">/</span> <span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="n">e_2</span><span class="p">)</span>
+
+    <span class="n">temp0</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+    <span class="c1"># Calculate height:</span>
+    <span class="n">height</span> <span class="o">=</span> <span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="n">e_2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="n">k</span> <span class="o">*</span> <span class="n">temp0</span>
+
+    <span class="n">temp1</span> <span class="o">=</span> <span class="mf">1.</span> <span class="o">/</span> <span class="n">temp0</span>
+    <span class="n">temp2</span> <span class="o">=</span> <span class="n">temp1</span> <span class="o">*</span> <span class="n">k</span> <span class="o">/</span> <span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="n">e_2</span><span class="p">)</span>
+
+    <span class="n">n_EB_E_x</span> <span class="o">=</span> <span class="n">temp1</span> <span class="o">*</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span>
+    <span class="n">n_EB_E_y</span> <span class="o">=</span> <span class="n">temp2</span> <span class="o">*</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">:]</span>
+    <span class="n">n_EB_E_z</span> <span class="o">=</span> <span class="n">temp2</span> <span class="o">*</span> <span class="n">p_EB_E</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="p">:]</span>
+
+    <span class="n">n_EB_E</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">n_EB_E_x</span><span class="p">,</span> <span class="n">n_EB_E_y</span><span class="p">,</span> <span class="n">n_EB_E_z</span><span class="p">))</span>
+    <span class="n">n_EB_E</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">))</span>  <span class="c1"># Ensure unit length</span>
+
+    <span class="n">depth</span> <span class="o">=</span> <span class="o">-</span><span class="n">height</span>
+    <span class="k">return</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">depth</span></div>
+
+
+<span class="k">class</span> <span class="nc">_DeltaFromPositionAtoB</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns the delta vector from position A to B decomposed in E.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EA_E, n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position A and B, decomposed in E.</span>
+<span class="s2">z_EA, z_EB:  1 x n array</span>
+<span class="s2">    Depth(s) [m] of system A and B, relative to the ellipsoid.</span>
+<span class="s2">    (z_EA = -height, z_EB = -height)</span>
+<span class="s2">a: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Semi-major axis of the Earth ellipsoid given in [m].</span>
+<span class="s2">f: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Flattening [no unit] of the Earth ellipsoid. If f==0 then spherical</span>
+<span class="s2">    Earth with radius a is used in stead of WGS-84.</span>
+<span class="s2">R_Ee : 3 x 3 array</span>
+<span class="s2">    rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">p_AB_E:  3 x n array</span>
+<span class="s2">    Cartesian position vector(s) from A to B, decomposed in E.</span>
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The n-vectors for positions A (n_EA_E) and B (n_EB_E) are given. The</span>
+<span class="s2">output is the delta vector from A to B (p_AB_E).</span>
+<span class="s2">The calculation is excact, taking the ellipsity of the Earth into account.</span>
+<span class="s2">It is also non-singular as both n-vector and p-vector are non-singular</span>
+<span class="s2">(except for the center of the Earth).</span>
+<span class="s2">The default ellipsoid model used is WGS-84, but other ellipsoids/spheres</span>
+<span class="s2">might be specified.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+
+<span class="s2">See also</span>
+<span class="s2">--------</span>
+<span class="s2">n_EA_E_and_p_AB_E2n_EB_E, p_EB_E2n_EB_E, n_EB_E2p_EB_E</span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">1</span><span class="p">],</span> <span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="n_EA_E_and_n_EB_E2p_AB_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.n_EA_E_and_n_EB_E2p_AB_E.html#nvector.core.n_EA_E_and_n_EB_E2p_AB_E">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_DeltaFromPositionAtoB</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">n_EA_E_and_n_EB_E2p_AB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">z_EA</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">z_EB</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">6378137</span><span class="p">,</span>
+                             <span class="n">f</span><span class="o">=</span><span class="mf">1.0</span> <span class="o">/</span> <span class="mf">298.257223563</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+
+    <span class="c1"># Function 1. in Section 5.4 in Gade (2010):</span>
+    <span class="n">p_EA_E</span> <span class="o">=</span> <span class="n">n_EB_E2p_EB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">z_EA</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">R_Ee</span><span class="p">)</span>
+    <span class="n">p_EB_E</span> <span class="o">=</span> <span class="n">n_EB_E2p_EB_E</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">,</span> <span class="n">z_EB</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">R_Ee</span><span class="p">)</span>
+    <span class="n">p_AB_E</span> <span class="o">=</span> <span class="n">p_EB_E</span> <span class="o">-</span> <span class="n">p_EA_E</span>
+    <span class="k">return</span> <span class="n">p_AB_E</span></div>
+
+
+<div class="viewcode-block" id="n_EA_E_and_p_AB_E2n_EB_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.n_EA_E_and_p_AB_E2n_EB_E.html#nvector.core.n_EA_E_and_p_AB_E2n_EB_E">[docs]</a><span class="k">def</span> <span class="nf">n_EA_E_and_p_AB_E2n_EB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">p_AB_E</span><span class="p">,</span> <span class="n">z_EA</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">6378137</span><span class="p">,</span>
+                             <span class="n">f</span><span class="o">=</span><span class="mf">1.0</span> <span class="o">/</span> <span class="mf">298.257223563</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="vm">__doc__</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;Returns position B from position A and delta.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EA_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position A, decomposed in E.</span>
+<span class="s2">p_AB_E:  3 x n array</span>
+<span class="s2">    Cartesian position vector(s) from A to B, decomposed in E.</span>
+<span class="s2">z_EA:  1 x n array</span>
+<span class="s2">    Depth(s) [m] of system A, relative to the ellipsoid. (z_EA = -height)</span>
+<span class="s2">a: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Semi-major axis of the Earth ellipsoid given in [m].</span>
+<span class="s2">f: real scalar, default WGS-84 ellipsoid.</span>
+<span class="s2">    Flattening [no unit] of the Earth ellipsoid. If f==0 then spherical</span>
+<span class="s2">    Earth with radius a is used in stead of WGS-84.</span>
+<span class="s2">R_Ee : 3 x 3 array</span>
+<span class="s2">    rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position B, decomposed in E.</span>
+<span class="s2">z_EB:  1 x n array</span>
+<span class="s2">    Depth(s) [m] of system B, relative to the ellipsoid.</span>
+<span class="s2">    (z_EB = -height)</span>
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The n-vector for position A (n_EA_E) and the position-vector from position</span>
+<span class="s2">A to position B (p_AB_E) are given. The output is the n-vector of position</span>
+<span class="s2">B (n_EB_E) and depth of B (z_EB).</span>
+<span class="s2">The calculation is excact, taking the ellipsity of the Earth into account.</span>
+<span class="s2">It is also non-singular as both n-vector and p-vector are non-singular</span>
+<span class="s2">(except for the center of the Earth).</span>
+<span class="s2">The default ellipsoid model used is WGS-84, but other ellipsoids/spheres</span>
+<span class="s2">might be specified.</span>
+
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">See also</span>
+<span class="s2">--------</span>
+<span class="s2">n_EA_E_and_n_EB_E2p_AB_E, p_EB_E2n_EB_E, n_EB_E2p_EB_E</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">2</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+
+    <span class="c1"># Function 2. in Section 5.4 in Gade (2010):</span>
+    <span class="n">p_EA_E</span> <span class="o">=</span> <span class="n">n_EB_E2p_EB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">z_EA</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">R_Ee</span><span class="p">)</span>
+    <span class="n">p_EB_E</span> <span class="o">=</span> <span class="n">p_EA_E</span> <span class="o">+</span> <span class="n">p_AB_E</span>
+    <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">z_EB</span> <span class="o">=</span> <span class="n">p_EB_E2n_EB_E</span><span class="p">(</span><span class="n">p_EB_E</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">R_Ee</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">z_EB</span></div>
+
+
+<div class="viewcode-block" id="interpolate"><a class="viewcode-back" href="../../reference/generated/nvector.core.interpolate.html#nvector.core.interpolate">[docs]</a><span class="k">def</span> <span class="nf">interpolate</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">ti</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the interpolated point along the path</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    path: tuple of n-vectors (positionA, positionB)</span>
+
+<span class="sd">    ti: real scalar</span>
+<span class="sd">        interpolation time assuming position A and B is at t0=0 and t1=1,</span>
+<span class="sd">        respectively.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    point: Nvector</span>
+<span class="sd">        point of interpolation along path</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">n_EB_E_t0</span><span class="p">,</span> <span class="n">n_EB_E_t1</span> <span class="o">=</span> <span class="n">path</span>
+    <span class="n">n_EB_E_ti</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">n_EB_E_t0</span> <span class="o">+</span> <span class="n">ti</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_EB_E_t1</span> <span class="o">-</span> <span class="n">n_EB_E_t0</span><span class="p">),</span>
+                     <span class="n">norm_zero_vector</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n_EB_E_ti</span></div>
+
+
+<span class="k">class</span> <span class="nc">_Intersect</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns the intersection(s) between the great circles of the two paths</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">path_a, path_b: tuple of 2 n-vectors</span>
+<span class="s2">    defining path A and path B, respectively.</span>
+<span class="s2">    Path A and B has shape 2 x 3 x n and 2 x 3 x m, respectively.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">n_EC_E : array of shape 3 x max(n, m)</span>
+<span class="s2">    n-vector(s) [no unit] of position C decomposed in E.</span>
+<span class="s2">    point(s) of intersection between paths.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">9</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="intersect"><a class="viewcode-back" href="../../reference/generated/nvector.core.intersect.html#nvector.core.intersect">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_Intersect</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">intersect</span><span class="p">(</span><span class="n">path_a</span><span class="p">,</span> <span class="n">path_b</span><span class="p">):</span>
+    <span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">n_EA2_E</span> <span class="o">=</span> <span class="n">path_a</span>
+    <span class="n">n_EB1_E</span><span class="p">,</span> <span class="n">n_EB2_E</span> <span class="o">=</span> <span class="n">path_b</span>
+    <span class="c1"># Find the intersection between the two paths, n_EC_E:</span>
+    <span class="n">n_EC_E_tmp</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">cross</span><span class="p">(</span><span class="n">cross</span><span class="p">(</span><span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">n_EA2_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span>
+                            <span class="n">cross</span><span class="p">(</span><span class="n">n_EB1_E</span><span class="p">,</span> <span class="n">n_EB2_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span>
+                      <span class="n">norm_zero_vector</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span>
+
+    <span class="c1"># n_EC_E_tmp is one of two solutions, the other is -n_EC_E_tmp. Select</span>
+    <span class="c1"># the one that is closet to n_EA1_E, by selecting sign from the dot</span>
+    <span class="c1"># product between n_EC_E_tmp and n_EA1_E:</span>
+    <span class="n">n_EC_E</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">n_EC_E_tmp</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n_EA1_E</span><span class="p">))</span> <span class="o">*</span> <span class="n">n_EC_E_tmp</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">n_EC_E</span><span class="p">)):</span>
+        <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s1">&#39;Paths are Equal. Intersection point undefined. &#39;</span>
+                      <span class="s1">&#39;NaN returned.&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n_EC_E</span></div>
+
+
+<div class="viewcode-block" id="great_circle_normal"><a class="viewcode-back" href="../../reference/generated/nvector.core.great_circle_normal.html#nvector.core.great_circle_normal">[docs]</a><span class="k">def</span> <span class="nf">great_circle_normal</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the unit normal(s) to the great circle(s)</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n_EA_E, n_EB_E:  3 x n array</span>
+<span class="sd">        n-vector(s) [no unit] of position A and B, decomposed in E.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">unit</span><span class="p">(</span><span class="n">cross</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">norm_zero_vector</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span></div>
+
+
+<span class="k">def</span> <span class="nf">_euclidean_cross_track_distance</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">sin_theta</span> <span class="o">*</span> <span class="n">radius</span>
+
+
+<span class="k">def</span> <span class="nf">_great_circle_cross_track_distance</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">arcsin</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">)</span> <span class="o">*</span> <span class="n">radius</span>
+    <span class="c1"># ill conditioned for small angles:</span>
+    <span class="c1"># return (np.arccos(-sin_theta) - np.pi / 2) * radius</span>
+
+
+<span class="k">class</span> <span class="nc">_CrossTrackDistance</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns  cross track distance between path A and position B.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">path: tuple of 2 n-vectors</span>
+<span class="s2">    2 n-vectors of positions defining path A, decomposed in E.</span>
+<span class="s2">n_EB_E:  3 x m array</span>
+<span class="s2">    n-vector(s) of position B to measure the cross track distance to.</span>
+<span class="s2">method: string</span>
+<span class="s2">    defining distance calculated. Options are: &#39;greatcircle&#39; or &#39;euclidean&#39;</span>
+<span class="s2">radius: real scalar</span>
+<span class="s2">    radius of sphere. (default 6371009.0)</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">distance : array of length max(n, m)</span>
+<span class="s2">    cross track distance(s)</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">10</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="cross_track_distance"><a class="viewcode-back" href="../../reference/generated/nvector.core.cross_track_distance.html#nvector.core.cross_track_distance">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_CrossTrackDistance</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">cross_track_distance</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;greatcircle&#39;</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">6371009.0</span><span class="p">):</span>
+
+    <span class="n">c_E</span> <span class="o">=</span> <span class="n">great_circle_normal</span><span class="p">(</span><span class="n">path</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">path</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">sin_theta</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">c_E</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">method</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;e&#39;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_euclidean_cross_track_distance</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">,</span> <span class="n">radius</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">_great_circle_cross_track_distance</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">,</span> <span class="n">radius</span><span class="p">)</span></div>
+
+
+<span class="k">class</span> <span class="nc">_OnGreatCircle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns True if position B is on great circle through path A.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">path: tuple of 2 n-vectors</span>
+<span class="s2">    2 n-vectors of positions defining path A, decomposed in E.</span>
+<span class="s2">n_EB_E:  3 x m array</span>
+<span class="s2">    n-vector(s) of position B to check to.</span>
+<span class="s2">radius: real scalar</span>
+<span class="s2">    radius of sphere. (default 6371009.0)</span>
+<span class="s2">atol: real scalar</span>
+<span class="s2">    The absolute tolerance parameter (See notes).</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">on : bool array of length max(n, m)</span>
+<span class="s2">    True if position B is on great circle through path A.</span>
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The default value of `atol` is not zero, and is used to determine what</span>
+<span class="s2">small values should be considered close to zero. The default value is</span>
+<span class="s2">appropriate for expected values of order unity. However, `atol` should</span>
+<span class="s2">be carefully selected for the use case at hand. Typically the value</span>
+<span class="s2">should be set to the accepted error tolerance. For GPS data the error</span>
+<span class="s2">ranges from 0.01 m to 15 m.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">10</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="on_great_circle"><a class="viewcode-back" href="../../reference/generated/nvector.core.on_great_circle.html#nvector.core.on_great_circle">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_OnGreatCircle</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">on_great_circle</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">6371009.0</span><span class="p">,</span> <span class="n">atol</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">):</span>
+    <span class="n">distance</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">cross_track_distance</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="n">radius</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">distance</span> <span class="o">&lt;=</span> <span class="n">atol</span></div>
+
+
+<span class="k">class</span> <span class="nc">_OnGreatCirclePath</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns True if position B is on great circle and between endpoints of path A.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">path: tuple of 2 n-vectors</span>
+<span class="s2">    2 n-vectors of positions defining path A, decomposed in E.</span>
+<span class="s2">n_EB_E:  3 x m array</span>
+<span class="s2">    n-vector(s) of position B to measure the cross track distance to.</span>
+<span class="s2">radius: real scalar</span>
+<span class="s2">    radius of sphere. (default 6371009.0)</span>
+<span class="s2">atol: real scalars</span>
+<span class="s2">    The absolute tolerance parameter (See notes).</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">on : bool array of length max(n, m)</span>
+<span class="s2">    True if position B is on great circle and between endpoints of path A.</span>
+
+<span class="s2">Notes</span>
+<span class="s2">-----</span>
+<span class="s2">The default value of `atol` is not zero, and is used to determine what</span>
+<span class="s2">small values should be considered close to zero. The default value is</span>
+<span class="s2">appropriate for expected values of order unity. However, `atol` should</span>
+<span class="s2">be carefully selected for the use case at hand. Typically the value</span>
+<span class="s2">should be set to the accepted error tolerance. For GPS data the error</span>
+<span class="s2">ranges from 0.01 m to 15 m.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">10</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="on_great_circle_path"><a class="viewcode-back" href="../../reference/generated/nvector.core.on_great_circle_path.html#nvector.core.on_great_circle_path">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_OnGreatCirclePath</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">on_great_circle_path</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">6371009.0</span><span class="p">,</span> <span class="n">atol</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">):</span>
+    <span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">n_EA2_E</span> <span class="o">=</span> <span class="n">path</span>
+    <span class="n">scale</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">n_EA2_E</span> <span class="o">-</span> <span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">ti1</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">n_EB_E</span> <span class="o">-</span> <span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="o">/</span> <span class="n">scale</span>
+    <span class="n">ti2</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">n_EB_E</span> <span class="o">-</span> <span class="n">n_EA2_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="o">/</span> <span class="n">scale</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">ti1</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">ti2</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">on_great_circle</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">atol</span><span class="o">=</span><span class="n">atol</span><span class="p">)</span></div>
+
+
+<span class="k">class</span> <span class="nc">_ClosestPointOnGreatCircle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns closest point C on great circle path A to position B.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">path: tuple of 2 n-vectors of 3 x n arrays</span>
+<span class="s2">    2 n-vectors of positions defining path A, decomposed in E.</span>
+<span class="s2">n_EB_E:  3 x m array</span>
+<span class="s2">    n-vector(s) of position B to find the closest point to.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">n_EC_E:  3 x max(m, n) array</span>
+<span class="s2">    n-vector(s) of closest position C on great circle path A</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">10</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="closest_point_on_great_circle"><a class="viewcode-back" href="../../reference/generated/nvector.core.closest_point_on_great_circle.html#nvector.core.closest_point_on_great_circle">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_ClosestPointOnGreatCircle</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">closest_point_on_great_circle</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">):</span>
+
+    <span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">n_EA2_E</span> <span class="o">=</span> <span class="n">path</span>
+
+    <span class="n">c1</span> <span class="o">=</span> <span class="n">cross</span><span class="p">(</span><span class="n">n_EA1_E</span><span class="p">,</span> <span class="n">n_EA2_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">c2</span> <span class="o">=</span> <span class="n">cross</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">,</span> <span class="n">c1</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">n_EC_E</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">cross</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span> <span class="n">c2</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">n_EC_E</span></div>
+
+
+<span class="k">class</span> <span class="nc">_GreatCircleDistance</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns great circle distance between positions A and B</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EA_E, n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position A and B, decomposed in E.</span>
+<span class="s2">radius: real scalar</span>
+<span class="s2">    radius of sphere.</span>
+
+<span class="s2">Formulae is given by equation (16) in Gade (2010) and is well</span>
+<span class="s2">conditioned for all angles.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">5</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="great_circle_distance"><a class="viewcode-back" href="../../reference/generated/nvector.core.great_circle_distance.html#nvector.core.great_circle_distance">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_GreatCircleDistance</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">great_circle_distance</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">6371009.0</span><span class="p">):</span>
+
+    <span class="n">sin_theta</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">cos_theta</span> <span class="o">=</span> <span class="n">dot</span><span class="p">(</span><span class="n">n_EA_E</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">)</span>
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arctan2</span><span class="p">(</span><span class="n">sin_theta</span><span class="p">,</span> <span class="n">cos_theta</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="n">s_AB</span> <span class="o">=</span> <span class="n">theta</span> <span class="o">*</span> <span class="n">radius</span>
+
+    <span class="c1"># ill conditioned for small angles:</span>
+    <span class="c1"># s_AB_version1 = arccos(dot(n_EA_E,n_EB_E))*radius</span>
+
+    <span class="c1"># ill-conditioned for angles near pi/2 (and not valid above pi/2)</span>
+    <span class="c1"># s_AB_version2 = arcsin(norm(cross(n_EA_E,n_EB_E)))*radius</span>
+
+    <span class="k">return</span> <span class="n">s_AB</span></div>
+
+
+<span class="k">class</span> <span class="nc">_EuclideanDistance</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns Euclidean distance between positions A and B</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EA_E, n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position A and B, decomposed in E.</span>
+<span class="s2">radius: real scalar</span>
+<span class="s2">    radius of sphere.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">5</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="euclidean_distance"><a class="viewcode-back" href="../../reference/generated/nvector.core.euclidean_distance.html#nvector.core.euclidean_distance">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_EuclideanDistance</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">euclidean_distance</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">6371009.0</span><span class="p">):</span>
+    <span class="n">d_AB</span> <span class="o">=</span> <span class="n">norm</span><span class="p">(</span><span class="n">n_EB_E</span> <span class="o">-</span> <span class="n">n_EA_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span> <span class="o">*</span> <span class="n">radius</span>
+    <span class="k">return</span> <span class="n">d_AB</span></div>
+
+
+<div class="viewcode-block" id="n_EA_E_and_n_EB_E2azimuth"><a class="viewcode-back" href="../../reference/generated/nvector.core.n_EA_E_and_n_EB_E2azimuth.html#nvector.core.n_EA_E_and_n_EB_E2azimuth">[docs]</a><span class="k">def</span> <span class="nf">n_EA_E_and_n_EB_E2azimuth</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">6378137</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="mf">1.0</span> <span class="o">/</span> <span class="mf">298.257223563</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns azimuth from A to B, relative to North:</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n_EA_E, n_EB_E:  3 x n array</span>
+<span class="sd">        n-vector(s) [no unit] of position A and B, respectively,</span>
+<span class="sd">        decomposed in E.</span>
+<span class="sd">    a: real scalar, default WGS-84 ellipsoid.</span>
+<span class="sd">        Semi-major axis of the Earth ellipsoid given in [m].</span>
+<span class="sd">    f: real scalar, default WGS-84 ellipsoid.</span>
+<span class="sd">        Flattening [no unit] of the Earth ellipsoid. If f==0 then spherical</span>
+<span class="sd">        Earth with radius a is used in stead of WGS-84.</span>
+<span class="sd">    R_Ee : 3 x 3 array</span>
+<span class="sd">        rotation matrix defining the axes of the coordinate frame E.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    azimuth: n array</span>
+<span class="sd">        Angle [rad] the line makes with a meridian, taken clockwise from north.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+    <span class="c1"># Step2: Find p_AB_E (delta decomposed in E).</span>
+    <span class="n">p_AB_E</span> <span class="o">=</span> <span class="n">n_EA_E_and_n_EB_E2p_AB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">n_EB_E</span><span class="p">,</span> <span class="n">z_EA</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">z_EB</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="n">a</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">f</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="n">R_Ee</span><span class="p">)</span>
+
+    <span class="c1"># Step3: Find R_EN for position A:</span>
+    <span class="n">R_EN</span> <span class="o">=</span> <span class="n">n_E2R_EN</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="n">R_Ee</span><span class="p">)</span>
+
+    <span class="c1"># Step4: Find p_AB_N</span>
+    <span class="c1"># p_AB_N = dot(R_EN.T, p_AB_E)</span>
+    <span class="n">p_AB_N</span> <span class="o">=</span> <span class="n">mdot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">swapaxes</span><span class="p">(</span><span class="n">R_EN</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">p_AB_E</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">,</span> <span class="o">...</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="c1"># (Note the transpose of R_EN: The &quot;closest-rule&quot; says that when</span>
+    <span class="c1"># decomposing, the frame in the subscript of the rotation matrix that</span>
+    <span class="c1"># is closest to the vector, should equal the frame where the vector is</span>
+    <span class="c1"># decomposed. Thus the calculation np.dot(R_NE, p_AB_E) is correct,</span>
+    <span class="c1"># since the vector is decomposed in E, and E is closest to the vector.</span>
+    <span class="c1"># In the example we only had R_EN, and thus we must transpose it:</span>
+    <span class="c1"># R_EN&#39;=R_NE)</span>
+
+    <span class="c1"># Step5: Also find the direction (azimuth) to B, relative to north:</span>
+    <span class="k">return</span> <span class="n">arctan2</span><span class="p">(</span><span class="n">p_AB_N</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">p_AB_N</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span></div>
+
+
+<span class="k">class</span> <span class="nc">_PositionBFromAzimuthAndDistanceFromPositionA</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns position B from azimuth and distance from position A</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EA_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position A decomposed in E.</span>
+<span class="s2">distance_rad: n, array</span>
+<span class="s2">    great circle distance [rad] from position A to B</span>
+<span class="s2">azimuth: n array</span>
+<span class="s2">    Angle [rad] the line makes with a meridian, taken clockwise from north.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">n_EB_E:  3 x n array</span>
+<span class="s2">    n-vector(s) [no unit] of position B decomposed in E.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">8</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="n_EA_E_distance_and_azimuth2n_EB_E"><a class="viewcode-back" href="../../reference/generated/nvector.core.n_EA_E_distance_and_azimuth2n_EB_E.html#nvector.core.n_EA_E_distance_and_azimuth2n_EB_E">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_PositionBFromAzimuthAndDistanceFromPositionA</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">n_EA_E_distance_and_azimuth2n_EB_E</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">distance_rad</span><span class="p">,</span> <span class="n">azimuth</span><span class="p">,</span> <span class="n">R_Ee</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+
+    <span class="k">if</span> <span class="n">R_Ee</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">R_Ee</span> <span class="o">=</span> <span class="n">E_rotation</span><span class="p">()</span>
+    <span class="c1"># Step1: Find unit vectors for north and east:</span>
+    <span class="n">k_east_E</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">cross</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">R_Ee</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="p">[[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]),</span> <span class="n">n_EA_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="n">k_north_E</span> <span class="o">=</span> <span class="n">cross</span><span class="p">(</span><span class="n">n_EA_E</span><span class="p">,</span> <span class="n">k_east_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="c1"># Step2: Find the initial direction vector d_E:</span>
+    <span class="n">d_E</span> <span class="o">=</span> <span class="n">k_north_E</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">azimuth</span><span class="p">)</span> <span class="o">+</span> <span class="n">k_east_E</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">azimuth</span><span class="p">)</span>
+
+    <span class="c1"># Step3: Find n_EB_E:</span>
+    <span class="n">n_EB_E</span> <span class="o">=</span> <span class="n">n_EA_E</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">distance_rad</span><span class="p">)</span> <span class="o">+</span> <span class="n">d_E</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">distance_rad</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n_EB_E</span></div>
+
+
+<span class="k">class</span> <span class="nc">_MeanHorizontalPosition</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="vm">__doc__</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Returns the n-vector of the horizontal mean position.</span>
+
+<span class="s2">Parameters</span>
+<span class="s2">----------</span>
+<span class="s2">n_EB_E:  3 x n array</span>
+<span class="s2">    n-vectors [no unit] of positions Bi, decomposed in E.</span>
+
+<span class="s2">Returns</span>
+<span class="s2">-------</span>
+<span class="s2">p_EM_E:  3 x 1 array</span>
+<span class="s2">    n-vector [no unit] of the mean positions of all Bi, decomposed in E.</span>
+
+<span class="s2">Examples</span>
+<span class="s2">--------</span>
+<span class="si">{0}</span><span class="s2"></span>
+
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_examples</span><span class="o">.</span><span class="n">get_examples_no_header</span><span class="p">([</span><span class="mi">7</span><span class="p">],</span> <span class="n">OO</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="mean_horizontal_position"><a class="viewcode-back" href="../../reference/generated/nvector.core.mean_horizontal_position.html#nvector.core.mean_horizontal_position">[docs]</a><span class="nd">@use_docstring_from</span><span class="p">(</span><span class="n">_MeanHorizontalPosition</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">mean_horizontal_position</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">):</span>
+    <span class="n">n_EM_E</span> <span class="o">=</span> <span class="n">unit</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">n_EB_E</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="n">n_EM_E</span></div>
+
+
+<span class="n">_odict</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">()</span>
+<span class="vm">__doc__</span> <span class="o">=</span> <span class="p">(</span><span class="vm">__doc__</span>  <span class="c1"># @ReservedAssignment</span>
+           <span class="o">+</span> <span class="n">_make_summary</span><span class="p">(</span><span class="nb">dict</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">_odict</span><span class="p">[</span><span class="n">n</span><span class="p">])</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">__all__</span><span class="p">))</span>
+           <span class="o">+</span> <span class="s1">&#39;License</span><span class="se">\n</span><span class="s1">-------</span><span class="se">\n</span><span class="s1">&#39;</span>
+           <span class="o">+</span> <span class="n">_license</span><span class="o">.</span><span class="vm">__doc__</span><span class="p">)</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">test_docstrings</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015-2020, Norwegian Defence Research Establishment (FFI)
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

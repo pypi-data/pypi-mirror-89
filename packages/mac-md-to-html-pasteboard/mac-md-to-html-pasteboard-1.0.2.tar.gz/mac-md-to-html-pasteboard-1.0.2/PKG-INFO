@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: mac-md-to-html-pasteboard
+Version: 1.0.2
+Summary: reads markdown from stdin and uses pandoc and pyobjc to copy
+    styled html as public.html to the macOS pasteboard
+Home-page: https://github.com/friedenberg/mac-md-to-html-pasteboard
+Author: Sasha Friedenberg
+Author-email: carley.f253fa96@icantbelieveitsnotgmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: MacOS X :: Cocoa
+Requires-Python: >=3.7.6

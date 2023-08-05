@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pyreadpartitions/__init__.py
+src/pyreadpartitions/__main__.py
+src/pyreadpartitions.egg-info/PKG-INFO
+src/pyreadpartitions.egg-info/SOURCES.txt
+src/pyreadpartitions.egg-info/dependency_links.txt
+src/pyreadpartitions.egg-info/entry_points.txt
+src/pyreadpartitions.egg-info/top_level.txt

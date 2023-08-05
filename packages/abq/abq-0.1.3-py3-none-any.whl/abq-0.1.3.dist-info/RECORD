@@ -1,0 +1,7 @@
+abq/__init__.py,sha256=iIX1zO1oXEdsEq4jdFk7b1GUopL1k3Ryq7Kmoke6BKc,65
+abq/async_retry.py,sha256=1IZVmDT4K0oI1SD0MiBokCjzYs3EHUyaHsNLuUiMc0c,804
+abq/bq.py,sha256=TIjYJ2IGB46-tEwWnUBh93uQChfpzaTBzPbPIU1b5bM,14338
+abq/rows_parser.py,sha256=CeVytRTnkJbfqfmuy4qypB-a2VQWEAH9-GeWPmFBBqs,3749
+abq-0.1.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+abq-0.1.3.dist-info/METADATA,sha256=3ypSb88ebiPjyq8Aixwz0-nDBcbbDHh5x9KjHsr9UOo,513
+abq-0.1.3.dist-info/RECORD,,

@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "nwt_dataset_cli"
+version = "1.1.0"
+description = "Dataset Generate CLI"
+readme = "README.md"
+homepage = "https://bitbucket.org/newtralmedia/dataset-cli-lib"
+repository = "https://bitbucket.org/newtralmedia/dataset-cli-lib"
+authors = [
+  "Pablo Alvarez <pablo.alvarez@newtral.es>"
+]
+
+[tool.poetry.scripts]
+nwt-dataset-cli = "nwt_dataset_cli.app:app"
+
+[tool.poetry.dependencies]
+python = "~3.8"
+typer = {extras = ["all"], version = "^0.3.2"}
+pymongo = "^3.11.0"
+sklearn = "^0.0"
+pandas = "^1.1.3"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+coverage = "^5.3.0"
+flake8 = "^3.8.3"
+flake8-import-order = "^0.18.1"
+flake8-builtins = "^1.5.3"
+flake8-docstrings = "^1.5.0"
+flake8-rst-docstrings = "^0.0.14"
+mypy = "^0.782"
+pre-commit = "^2.7.1"
+pydocstyle = "<4.0.0"
+pytest = "^6.0.2"
+pygments = "^2.7.1"
+Faker = "^5.0.2"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.idea
+  | \.vscode
+  | \.pytest_cache
+  | \.mypy_cache
+  | \.venv
+  | __pycache__
+  | htmlcov
+  | dist
+)/
+'''
+
+[tool.coverage.run]
+source = [
+  'test'
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    'if __name__ == .__main__.:'
+]
+
+[build-system]
+requires = ["poetry>=1.0.10"]
+build-backend = "poetry.masonry.api"

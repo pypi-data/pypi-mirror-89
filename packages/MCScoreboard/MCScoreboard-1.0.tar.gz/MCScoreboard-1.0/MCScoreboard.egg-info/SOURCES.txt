@@ -1,0 +1,7 @@
+setup.py
+MCScoreboard.egg-info/PKG-INFO
+MCScoreboard.egg-info/SOURCES.txt
+MCScoreboard.egg-info/dependency_links.txt
+MCScoreboard.egg-info/entry_points.txt
+MCScoreboard.egg-info/requires.txt
+MCScoreboard.egg-info/top_level.txt

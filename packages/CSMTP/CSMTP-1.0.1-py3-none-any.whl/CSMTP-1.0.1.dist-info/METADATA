@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: CSMTP
+Version: 1.0.1
+Summary: CSMTP(Custom Simple Mailing Transfer Protocol) is a module for sending emails using python. It is an abstraction of the smtp library
+Home-page: https://elloko233.github.io/CustomSimpleMailingTransferProtocol/
+Author: Real Python
+Author-email: ellokoprograma@gamil.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: validate-email
+
+## What is CSMTP
+
+CSMTP(Custom Simple Mailing Transfer Protocol) is a module for sending emails using python. It is an abstraction of the smtp library
+
+#### Documentation
+[CSMTP Docs](https://elloko233.github.io/CustomSimpleMailingTransferProtocol/Assets/guide.html)
+

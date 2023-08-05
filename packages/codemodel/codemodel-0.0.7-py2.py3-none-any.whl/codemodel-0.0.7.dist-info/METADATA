@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: codemodel
+Version: 0.0.7
+Summary: Advanced metaprogramming tools
+Home-page: https://github.com/dwhswenson/codemodel
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: astor
+Requires-Dist: black
+Requires-Dist: isort (>=5)
+
+[![Build Status](https://travis-ci.com/dwhswenson/codemodel.svg?branch=master)](https://travis-ci.com/dwhswenson/codemodel)
+[![Coverage Status](https://coveralls.io/repos/github/dwhswenson/codemodel/badge.svg?branch=master)](https://coveralls.io/github/dwhswenson/codemodel?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3f5a09bc390217000e8e/maintainability)](https://codeclimate.com/github/dwhswenson/codemodel/maintainability)
+
+# codemodel
+Advanced metaprogramming tools
+
+

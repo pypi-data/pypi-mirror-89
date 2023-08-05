@@ -1,0 +1,9 @@
+README.rst
+setup.py
+smartcard/app/openpgp/__init__.py
+smartcard/app/openpgp/tag.py
+smartcard_app_openpgp.egg-info/PKG-INFO
+smartcard_app_openpgp.egg-info/SOURCES.txt
+smartcard_app_openpgp.egg-info/dependency_links.txt
+smartcard_app_openpgp.egg-info/requires.txt
+smartcard_app_openpgp.egg-info/top_level.txt

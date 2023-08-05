@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spectro_connect.py
+spectro_connect.egg-info/PKG-INFO
+spectro_connect.egg-info/SOURCES.txt
+spectro_connect.egg-info/dependency_links.txt
+spectro_connect.egg-info/entry_points.txt
+spectro_connect.egg-info/requires.txt
+spectro_connect.egg-info/top_level.txt

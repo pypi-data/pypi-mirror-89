@@ -1,0 +1,6 @@
+ksimpleapi
+jsoncodable
+Unidecode
+requests
+kcu
+beautifulsoup4

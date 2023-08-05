@@ -1,0 +1,10 @@
+mserv/Libs/Networking.py,sha256=wcHgfUviQkcZjPxy6YF2dw9Rw_EibBtRvaAtvQWx83o,2968
+mserv/Libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mserv/Networking.py,sha256=1Pkd3CCTqDyfgK3NqeMP2n4OPulQOu-sAj5mKQU0yRs,2283
+mserv/UI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mserv/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+mserv/mserv.py,sha256=1ACeCxxsoeVVwzWCw6dVbtmhrqoMWxAZtGADUkuVyYY,5798
+mserv-0.8.dist-info/entry_points.txt,sha256=i15reEahXXdFuyUXPKvLDvwd2jMMh2FsJBMAg1KL0YA,47
+mserv-0.8.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mserv-0.8.dist-info/METADATA,sha256=5wkj2wHMwJWUOppIQKxaaw6I63QqRbAHZ9GHpwoqziA,567
+mserv-0.8.dist-info/RECORD,,

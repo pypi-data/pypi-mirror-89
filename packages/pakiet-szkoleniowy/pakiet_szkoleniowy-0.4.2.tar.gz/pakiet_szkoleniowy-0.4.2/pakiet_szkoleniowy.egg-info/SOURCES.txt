@@ -1,0 +1,9 @@
+README.md
+setup.py
+pakiet_szkoleniowy/__init__.py
+pakiet_szkoleniowy/moj_modul1.py
+pakiet_szkoleniowy/moj_modul2.py
+pakiet_szkoleniowy.egg-info/PKG-INFO
+pakiet_szkoleniowy.egg-info/SOURCES.txt
+pakiet_szkoleniowy.egg-info/dependency_links.txt
+pakiet_szkoleniowy.egg-info/top_level.txt

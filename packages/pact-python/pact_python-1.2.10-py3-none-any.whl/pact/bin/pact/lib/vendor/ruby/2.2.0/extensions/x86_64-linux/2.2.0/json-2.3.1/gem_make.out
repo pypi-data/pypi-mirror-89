@@ -1,0 +1,9 @@
+/home/runner/.rubies/ruby-2.2.10/bin/ruby -r ./siteconf20200813-2849-huslmm.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+make "DESTDIR=" install

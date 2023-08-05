@@ -1,0 +1,9 @@
+README.md
+setup.py
+flaxx/__init__.py
+flaxx/generate_project.py
+flaxx/main.py
+flaxx.egg-info/PKG-INFO
+flaxx.egg-info/SOURCES.txt
+flaxx.egg-info/dependency_links.txt
+flaxx.egg-info/top_level.txt

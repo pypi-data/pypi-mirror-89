@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: deepts
+Version: 0.0.1
+Summary: A package of deep learning based Time Series models with tensorflow 1.x and 2.x .
+Home-page: https://github.com/haohy/deepts
+Author: Hongyan Hao
+Author-email: haohy6@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# deepts
+coming~
+
+

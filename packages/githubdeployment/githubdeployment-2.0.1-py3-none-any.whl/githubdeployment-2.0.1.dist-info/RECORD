@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=2BXc0g7EHhR2nYC_UsnLX-gAnCrSXy9aaPBk76lvK-c,4084
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=yHUfq38fVXcn_8xTiQvm0ocd907wmY4Cbu0Nna7yQ1s,4340
+githubdeployment-2.0.1.dist-info/LICENSE,sha256=SV9ZOVvQLVCMaTmTQQpsEhH-7T9HIAtkM2aLRA23cr8,1096
+githubdeployment-2.0.1.dist-info/METADATA,sha256=g4B82tjTiIB5LvUF_CoKoObfGzbRx08OF-NCQz2CRyQ,1736
+githubdeployment-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+githubdeployment-2.0.1.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+githubdeployment-2.0.1.dist-info/RECORD,,

@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: retry-module
+Version: 0.1.0
+Summary: A simple decorator for implementing retry mechanishm
+Home-page: https://github.com/adityaprakash-bobby/retry_module
+Author: Aditya Prakash
+Author-email: adityaprakash.bobby@gmail.com
+License: MIT license
+Keywords: retry_module
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+============
+Retry Module
+============
+
+
+.. image:: https://img.shields.io/pypi/v/retry_module.svg
+        :target: https://pypi.python.org/pypi/retry_module
+
+.. image:: https://img.shields.io/travis/adityaprakash-bobby/retry_module.svg
+        :target: https://travis-ci.com/adityaprakash-bobby/retry_module
+
+.. image:: https://readthedocs.org/projects/retry-module/badge/?version=latest
+        :target: https://retry-module.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/adityaprakash-bobby/retry_module/shield.svg
+     :target: https://pyup.io/repos/github/adityaprakash-bobby/retry_module/
+     :alt: Updates
+
+
+
+A simple decorator for implementing retry mechanishm
+
+
+* Free software: MIT license
+* Documentation: https://retry-module.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-12-19)
+------------------
+
+* First release on PyPI.
+
+

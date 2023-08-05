@@ -1,0 +1,4 @@
+[flake8.report]
+checklist = flake8_report.reporters:Flake8Checklist
+report = flake8_report.reporters:Flake8Report
+

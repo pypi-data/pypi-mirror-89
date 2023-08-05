@@ -1,0 +1,9 @@
+README.md
+setup.py
+aidkitHW/__init__.py
+aidkitHW/functions.py
+aidkitHW.egg-info/PKG-INFO
+aidkitHW.egg-info/SOURCES.txt
+aidkitHW.egg-info/dependency_links.txt
+aidkitHW.egg-info/requires.txt
+aidkitHW.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+streamdeck
+pillow
+pulsectl
+pyyaml

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: keras-dense-sparse-matmul
+Version: 0.3.0
+Summary: deprecated. Please use "keras_tweaks.dense_sparse_matmul" instead.
+Home-page: http://github.com/kmedian
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

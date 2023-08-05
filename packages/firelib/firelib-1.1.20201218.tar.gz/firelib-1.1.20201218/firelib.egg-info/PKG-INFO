@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: firelib
+Version: 1.1.20201218
+Summary: 🔥火焰爱搜🔥学而思专用库🔥
+Home-page: UNKNOWN
+Author: asunc
+Author-email: hychat@asunc.cn
+Maintainer: asunc
+Maintainer-email: hychat@asunc.cn
+License: BSD License
+Description: Hello I'm fslib
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: idl_colorbars
+Version: 1.1.2
+Summary: Load IDL colormaps into matplotlib.
+Home-page: https://github.com/planetarymike/idl-colorbars-python
+Author: Mike Chaffin
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

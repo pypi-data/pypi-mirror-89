@@ -1,0 +1,4 @@
+py-ecc
+pycrypto
+requests
+scrypt

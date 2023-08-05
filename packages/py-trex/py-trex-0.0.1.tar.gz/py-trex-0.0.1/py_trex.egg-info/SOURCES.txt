@@ -1,0 +1,8 @@
+README.md
+setup.py
+py_trex.egg-info/PKG-INFO
+py_trex.egg-info/SOURCES.txt
+py_trex.egg-info/dependency_links.txt
+py_trex.egg-info/top_level.txt
+tests/__init__.py
+trex/__init__.py

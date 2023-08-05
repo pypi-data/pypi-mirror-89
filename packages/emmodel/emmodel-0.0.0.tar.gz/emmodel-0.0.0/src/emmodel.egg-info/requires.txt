@@ -1,0 +1,12 @@
+regmod
+matplotlib
+
+[dev]
+pytest
+pytest-mock
+
+[docs]
+
+[test]
+pytest
+pytest-mock

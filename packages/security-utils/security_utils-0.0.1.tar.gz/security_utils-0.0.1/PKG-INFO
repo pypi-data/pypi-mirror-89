@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: security_utils
+Version: 0.0.1
+Summary: Security utils
+Home-page: UNKNOWN
+Author: Alex Demure
+Author-email: alexanderdemure@gmail.com
+License: MIT
+Description: Security utils
+Keywords: itsdangerous
+Platform: UNKNOWN

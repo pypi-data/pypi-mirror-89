@@ -1,0 +1,6 @@
+[console_scripts]
+cpcls = mvdef.__main__:cpcls
+cpdef = mvdef.__main__:cpdef
+mvcls = mvdef.__main__:mvcls
+mvdef = mvdef.__main__:main
+

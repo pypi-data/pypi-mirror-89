@@ -1,0 +1,9 @@
+README.md
+setup.py
+CSMTP/CSMTP.py
+CSMTP/__init__.py
+CSMTP.egg-info/PKG-INFO
+CSMTP.egg-info/SOURCES.txt
+CSMTP.egg-info/dependency_links.txt
+CSMTP.egg-info/requires.txt
+CSMTP.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+gi_cli/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+gi_cli/__main__.py,sha256=H0I-6zYO9l2ftR2KNFOC8_00cIZj8nBi9u93p4RUmkk,620
+gi_cli/config.py,sha256=uzvvRjxePY9ar3WixPL9dFb3jcB65988nNvSSNHlalc,128
+gi_cli/constants.py,sha256=NpHRHUxC-yfhwib-gtWckUhy6_CKNJj4qZWrQNxWo24,2336
+gi_cli/functions.py,sha256=MSYMBnhdPP0DqX73AnBlB4uJD0KkkenR5_Yc87iwm54,2172
+gi_cli-0.0.1.dist-info/entry_points.txt,sha256=uhWokmfGhx5tgpHyb4sFkOF4I8z-xvvvyPTG65RqZwc,43
+gi_cli-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+gi_cli-0.0.1.dist-info/METADATA,sha256=gVyQHinElFmNSDpMLwHt5yYCtJFx6GO79VzJDTW-hqw,428
+gi_cli-0.0.1.dist-info/RECORD,,

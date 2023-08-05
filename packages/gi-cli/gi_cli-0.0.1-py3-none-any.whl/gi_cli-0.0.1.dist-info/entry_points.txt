@@ -1,0 +1,3 @@
+[console_scripts]
+gi=gi-cli.__main__:main
+

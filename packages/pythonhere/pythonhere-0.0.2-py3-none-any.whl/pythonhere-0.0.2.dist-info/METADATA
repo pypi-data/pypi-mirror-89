@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pythonhere
+Version: 0.0.2
+Summary: Here is the Kivy based app to run code from the Jupyter magic %there
+Home-page: https://github.com/b3b/ipython-pythonhere
+Author: Alexander Shlemin
+Author-email: ash.b3b@gmail.com
+License: MIT
+Keywords: android ipython jupyter magic kivy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: kivy (>=2.0.0)
+Requires-Dist: herethere (<0.1.0,>=0.0.2)
+Requires-Dist: ifaddr
+Requires-Dist: ipython
+Requires-Dist: ipywidgets
+Requires-Dist: nest-asyncio
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+
+PythonHere
+==========
+
+.. start-badges
+.. image:: https://img.shields.io/pypi/v/pythonhere.svg
+    :target: https://pypi.python.org/pypi/pythonhere
+    :alt: Latest version on PyPi
+.. image:: https://img.shields.io/pypi/pyversions/pythonhere.svg
+    :target: https://pypi.python.org/pypi/pythonhere
+    :alt: Supported Python versions
+.. image:: https://github.com/b3b/pythonhere/workflows/ci/badge.svg?branch=master
+     :target: https://github.com/b3b/pythonhere/actions?workflow=CI
+     :alt: CI Status
+.. image:: https://codecov.io/github/b3b/pythonhere/coverage.svg?branch=master
+    :target: https://codecov.io/github/b3b/pythonhere?branch=master
+    :alt: Code coverage Status
+.. end-badges
+
+Here is the Kivy based app to run code from the Jupyter magic %there.
+
+

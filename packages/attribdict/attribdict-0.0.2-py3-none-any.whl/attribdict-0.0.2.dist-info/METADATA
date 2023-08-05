@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: attribdict
+Version: 0.0.2
+Summary: An easy to use and easy to read dict
+Home-page: https://github.com/yiqunchen1999/attribdict
+Author: Yiqun Chen
+Author-email: yiqunchen1999@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# AttribDict
+
+## Introduction
+
+AttribDict is an easy to use and easy to read dict, it is more flexible and human readable.
+
+## Examples
+
+```python
+>>> from attribdict import AttribDict as Dict
+>>> _d = {"attr"+str(i): i for i in range(4)}
+>>> d = Dict(_d)
+>>> d.attr4.subattr1.subsubattr1 = 123
+>>> d.attr5 = {"subattr"+str(i): i for i in range(3)}
+>>> print(d)
+attr0: 0
+attr1: 1
+attr2: 2
+attr3: 3
+attr4:
+    - subattr1:
+        - subsubattr1: 123
+attr5:
+    - subattr0: 0
+    - subattr1: 1
+    - subattr2: 2
+```
+
+## Installation
+
+```
+pip install attribdict
+```
+

@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: plusportals
+Version: 0.1.1
+Summary: A reverse engineered API PlusPortals
+Home-page: https://github.com/DhruvBisla/PlusPortalsAPI
+Author: Dhruv Bisla
+Author-email: bisladhruv@gmail.com
+License: MIT
+Keywords: api,reverse-engineered,plusportals,plusportalsapi
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: requests
+Requires: lxml
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: lxml
+
+</p>
+<p align="left">
+<a href="https://github.com/DhruvBisla/PlusPortalsAPI/actions">
+    <img src="https://github.com/DhruvBisla/PlusportalsAPI/workflows/Tests/badge.svg" alt="Test Status">
+</a>
+<a href="https://pypi.org/project/plusportals/">
+    <img src="https://badge.fury.io/py/plusportals.svg" alt="Package Version">
+</a>
+</p>
+
+# PlusPortalsAPI
+A reverse-engineered PlusPortals API
+
+

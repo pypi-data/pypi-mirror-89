@@ -1,0 +1,11 @@
+dycow/__init__.py,sha256=v-NlT2FVQbCVuD53gnWS3MbanQWF_rSP28176hmWbKQ,237
+dycow/__main__.py,sha256=56uzWuZOKC1XcRJGIMTmmA8-qWgl3tBMYTlP4ilibh0,4380
+dycow/settings.py,sha256=FJXY8yNiHfbet6tnavmB5pfaLtHN1qG_CnQ_C2CY5pw,20
+dycow/utils.py,sha256=lANCjQZwyekhCtdqNlEqT7CobP6mAsTTDCOAYq7jW5U,1884
+dycow-0.0.9.5.data/scripts/dw,sha256=2IiUhwfveK-tdcpCh6iR_pXt1M539KolfWh1DE__YTY,97
+dycow-0.0.9.5.data/scripts/dycow,sha256=2IiUhwfveK-tdcpCh6iR_pXt1M539KolfWh1DE__YTY,97
+dycow-0.0.9.5.dist-info/LICENSE.txt,sha256=i4-GM_Hcp7Hdfskx51oObhf6A45UFOpSsPjQwH_JKDM,1065
+dycow-0.0.9.5.dist-info/METADATA,sha256=vBHouZJ0_BcrTvLat1Zq8-fNZV4xsxZ-WgIOjNG2-ps,2853
+dycow-0.0.9.5.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+dycow-0.0.9.5.dist-info/top_level.txt,sha256=Vhr1iB9iBfKQebTwr9EMxViIErLbC1ZM5hwuO2a3ioU,6
+dycow-0.0.9.5.dist-info/RECORD,,

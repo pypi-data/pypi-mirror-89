@@ -1,0 +1,9 @@
+powerdict/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+powerdict/_nbdev.py,sha256=OgrnKkzpR6QeXOyXXslTsa89tp8QChrVzbJibpUNaFM,1258
+powerdict/construct.py,sha256=GVZmJ1h3_3AIqMDnL496cZVMR7Ys8hfkloQMjVj759k,6830
+powerdict/download.py,sha256=zvrgGpxpbONA1nJGeHUXfsLx2cooCJWPq4ESPjOrDsw,125
+powerdict/update.py,sha256=6MwOfqYHeINpXvvzarpr3JJLZIHrOa0m97Sy6a8dHtU,934
+powerdict-0.0.2.dist-info/METADATA,sha256=GfA3jp7czw812EjYFBq2lFQZxNJFqZWr_WsAPWpoFTw,2750
+powerdict-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+powerdict-0.0.2.dist-info/top_level.txt,sha256=IwDGoWhG2N7_7j3aQkNFur_6Ze_uUMR7sZ5OsF6Clug,10
+powerdict-0.0.2.dist-info/RECORD,,

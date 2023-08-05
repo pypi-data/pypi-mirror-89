@@ -1,0 +1,11 @@
+KNN/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KNN/assessment/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+KNN/assessment/cross_validation.py,sha256=n2I-R6Gl0BUUGf4pK8iRy8mUCBgZ2pcpdxyk8xqp4eY,4561
+KNN/assessment/model_metrics.py,sha256=QxxrAXcfDqCDGtEdRoSlOxvt2QCRlnD11tD_Uc_FZXE,3242
+KNN/modelling/KNN_data_collection.py,sha256=whNf86wFJojKw5DpzGFF1eeNYqzquzxGCYBoKswJFhY,2118
+KNN/modelling/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+KNN/modelling/generate_predictions.py,sha256=07TpiJ9MeLocWDgJ0aFwVmJZfteegpaxqY97kLRbih8,3436
+ubc_knn-0.11.dist-info/METADATA,sha256=80sBTCjR8qhGfzCqSGVN3L_zP5UEznlvu8rSk0C95ec,388
+ubc_knn-0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ubc_knn-0.11.dist-info/top_level.txt,sha256=ie5R5bq1N3O4Q98aIAk5Dh3g1xgWmz7TFPG857X7wF0,4
+ubc_knn-0.11.dist-info/RECORD,,

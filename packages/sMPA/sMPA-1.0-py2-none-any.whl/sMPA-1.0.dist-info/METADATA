@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sMPA
+Version: 1.0
+Summary: A semantic path anlalysis toolkit
+Home-page: https://github.com/awesome-patent-mining/sMPA-documentation
+Author: Liang Chen
+Author-email: 25565853@qq.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/awesome-patent-mining/sMPA-documentation/tree/master/sMPA
+Project-URL: Documentation, https://smpa-documentation.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nixy"
+version = "0.1.0"
+description = "Python bindings for Nix package manager and nix-user-chroot"
+authors = ["Anna Rogers <arogers@sodas.ku.dk>"]
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 1 - Planning"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

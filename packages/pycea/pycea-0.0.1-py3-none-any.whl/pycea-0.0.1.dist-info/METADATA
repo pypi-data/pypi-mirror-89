@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycea
+Version: 0.0.1
+Summary: Plotting utils
+Home-page: https://github.com/thorwhalen/ut/tree/master/pycea
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# pycea
+Plotting utils
+
+
+To install:	```pip install pycea```
+
+

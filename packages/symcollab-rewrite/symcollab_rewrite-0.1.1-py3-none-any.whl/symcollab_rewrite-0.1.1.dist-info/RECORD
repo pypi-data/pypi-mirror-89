@@ -1,0 +1,9 @@
+symcollab/rewrite/__init__.py,sha256=aao_CpV15Uv3CXZIce22v-kuG1UHCRXPDL4fiNQTJ0Y,117
+symcollab/rewrite/forward_closure.py,sha256=emeiJqUqrclE6pw-buQ_7LYSq2Q3Hs7c4b5Mf5EQhNo,4700
+symcollab/rewrite/rule.py,sha256=1x6XQsQeSAtT7q1yB-OPE6opWlXL3eh1yDQ5x0KA6cw,8377
+symcollab/rewrite/system.py,sha256=mwmK26Nt9fhKboyfnDI0ZowmLOigPdpLp-s21dQdhS0,2696
+symcollab/rewrite/variants.py,sha256=udGtIXA5G53f4pRuNk6D2BOi7N4WAMxzP2IIWJkcQt4,5474
+symcollab_rewrite-0.1.1.dist-info/METADATA,sha256=eDZPcuK1jw7MPF5On2_rAHA00rqYypVfYQ4hnoPzWts,553
+symcollab_rewrite-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+symcollab_rewrite-0.1.1.dist-info/top_level.txt,sha256=NRdZAxBfhnCAcFVBRyFWMEjSr_Wj-jm7Hm6YIVS4K_g,10
+symcollab_rewrite-0.1.1.dist-info/RECORD,,

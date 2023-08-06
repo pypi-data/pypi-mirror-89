@@ -1,0 +1,3 @@
+[console_scripts]
+standard_dataset = mlozaic.dataset.standard_dataset:main
+

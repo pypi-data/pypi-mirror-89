@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: se-exporter
+Version: 1.0.0
+Summary: Space Engineers server metrics exporter for Prometheus
+Home-page: https://github.com/akimrx/space-engineers-exporter
+Author: Akim Faskhutdinov
+Author-email: akimstrong@yandex.ru
+License: MIT
+Description: UNKNOWN
+Keywords: space engineers exporter,prometheus,space engineers server
+Platform: osx
+Platform: linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

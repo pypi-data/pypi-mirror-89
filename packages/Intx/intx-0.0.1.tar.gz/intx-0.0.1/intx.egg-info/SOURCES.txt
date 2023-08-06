@@ -1,0 +1,8 @@
+README.md
+setup.py
+intx/__init__.py
+intx/intx.py
+intx.egg-info/PKG-INFO
+intx.egg-info/SOURCES.txt
+intx.egg-info/dependency_links.txt
+intx.egg-info/top_level.txt

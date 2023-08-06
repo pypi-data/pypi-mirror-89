@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.1 (04/24/2020)
+------------------
+- Initial test release with only 2020 NBA Finals Game 6 Projections

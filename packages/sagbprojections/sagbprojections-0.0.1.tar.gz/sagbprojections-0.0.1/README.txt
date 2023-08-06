@@ -1,0 +1,1 @@
+This is a module that allows you to query NBA Daily Fantasy Projections from Berkeley's Sports Analytics Group (SAGB).

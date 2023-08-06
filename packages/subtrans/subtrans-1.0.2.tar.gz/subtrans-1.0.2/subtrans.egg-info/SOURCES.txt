@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+SubtitleTranslator/SubtitleTranslator.py
+SubtitleTranslator/Translator.py
+SubtitleTranslator/__init__.py
+SubtitleTranslator/constants.py
+subtrans.egg-info/PKG-INFO
+subtrans.egg-info/SOURCES.txt
+subtrans.egg-info/dependency_links.txt
+subtrans.egg-info/entry_points.txt
+subtrans.egg-info/requires.txt
+subtrans.egg-info/top_level.txt

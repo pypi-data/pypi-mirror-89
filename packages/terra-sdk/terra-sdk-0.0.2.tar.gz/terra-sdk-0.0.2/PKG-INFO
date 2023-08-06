@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: terra-sdk
+Version: 0.0.2
+Summary: The Python SDK for Terra
+Home-page: https://github.com/terra-project/terra-sdk-python
+Author: Terraform Labs, PTE.
+Author-email: engineering@terra.money
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Sphinx (>=3.4.0,<4.0.0)
+Requires-Dist: attrs (>=20.3.0,<21.0.0)
+Requires-Dist: bech32 (>=1.2.0,<2.0.0)
+Requires-Dist: bip32utils (>=0.3.post4,<0.4)
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: mnemonic (>=0.19,<0.20)
+Requires-Dist: requests (>=2.25.0,<3.0.0)
+Requires-Dist: requests-futures (>=1.0.0,<2.0.0)
+Requires-Dist: sphinx-rtd-theme (>=0.5.0,<0.6.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Project-URL: Repository, https://github.com/terra-project/terra-sdk-python
+Description-Content-Type: text/markdown
+
+# About
+    Terra python sdk
+
+# Installation
+    pip install terra_sdk
+
+# Usage
+    1. Creating, Signing, Broadcasting tx
+    2. Exposes the Terra API through LCDClient
+
+# Example
+* ## Transfer
+    ```python
+    from terra_sdk.core.common.coin import Coin
+    from terra_sdk.client import Terra, wallet
+    from terra_sdk.key.mnemonic import MnemonicKey
+    from terra_sdk.core.bank import MsgSend
+
+
+    LCD_URI = "http://localhost:1317"
+    CHAIN_ID = "localterra"
+    MNEMONIC = "satisfy adjust timber high purchase tuition stool faith fine install that you unaware feed domain license impose boss human eager hat rent enjoy dawn"
+
+    # Recover key from mnemonic
+    key = MnemonicKey(MNEMONIC)
+
+    # terra client
+    terra = Terra(chain_id=CHAIN_ID, lcd_url=LCD_URI)
+
+    # get user wallet
+    wallet = terra.wallet(key)
+
+    # Build Msg
+    send_msg = MsgSend(
+        from_address=wallet.address,
+        to_address="terra1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
+        amount=[Coin(denom="uluna", amount="100000000")],
+    )
+
+    # Sign tx
+    signed_tx = wallet.create_and_sign_tx(send_msg, memo="Hi from Terra")
+
+    # Broadcast tx
+
+    resp = wallet.broadcast(signed_tx)
+
+    # Print txhash
+    print(resp.txhash)
+    ```

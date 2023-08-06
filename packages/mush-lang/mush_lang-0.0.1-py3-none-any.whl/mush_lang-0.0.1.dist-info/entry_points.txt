@@ -1,0 +1,3 @@
+[console_scripts]
+mush-lang = mush_lang.tools.cli:main
+

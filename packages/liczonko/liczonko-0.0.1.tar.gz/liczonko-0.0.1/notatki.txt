@@ -1,0 +1,342 @@
+
+
+pip install wheel
+
+from setuptools import setup
+
+setup(
+name='liczonko',
+version='0.0.1',
+description='Say hello!',
+py_modules=["liczonko"],
+package_dir={'': 'src'},
+)
+
+python setup.py bdist_wheel
+
+pip install -e .
+python
+from importować jak nazwa pliku/modułu pythona
+
+from abstract_algebra import say_hello
+say_hello()
+say_hello("Everybody")
+
+Dodać .gitignore
+Dodać licencję - można sobie pomóc stroną chooselicense.com
+
+Pomóc ludziom znaleźć orpogramowanie - dodać klasyfikatory
+https://pypi.org/classifiers/
+
+from setuptools import setup
+
+setup(
+name='liczonko',
+version='0.0.1',
+description='Say hello!',
+py_modules=["liczonko"],
+package_dir={'': 'src'},
+classifiers=[
+"Development Status :: 1 - Planning",
+"Programming Language :: Python :: 3",
+"Programming Language :: Python :: 3.8",
+"Programming Language :: Python :: 3.7"
+"License :: OSI Approved :: MIT License",
+"Operating System :: Microsoft :: Windows :: Windows 10",
+"Operating System :: POSIX :: Linux",
+]
+)
+
+zrobić porządne readme i pokazać jak to zainstalować
+
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install liczonko
+```
+
+## Usage
+
+```python
+from abstract_algebra import say_hello
+
+# Generate "Hello, World!"
+say_hello()
+
+# Generate "Hello, Everybody!"
+say_hello("Everybody")
+```
+
+
+
+Dodać kolejne rzeczy do setup, tak żeby się np.: Readme wyświetlało
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setup(
+    name='liczonko',
+    version='0.0.1',
+    description='Say hello!',
+    py_modules=["liczonko"],
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7"
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Microsoft :: Windows :: Windows 10",
+        "Operating System :: POSIX :: Linux",
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+)
+
+BARDZO WAŻNME powiedziec, że readme jest w formacie markdown
+
+Ddoać trzecie biblioteki jakie trzeba zainstalwoać
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setup(
+    name='liczonko',
+    version='0.0.1',
+    description='Say hello!',
+    py_modules=["liczonko"],
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7"
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Microsoft :: Windows :: Windows 10",
+        "Operating System :: POSIX :: Linux",
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=[
+        "blessings ~= 1.7",
+    ],
+)
+
+
+znowu uruchomić żeby sprawdizć czy dodaje zależnosci # nie wymaga kolejnego  python setup.py bdist_wheel
+pip install -e .
+
+
+# puścić testy z pytest, bo pytest jest super <3
+ponieważ są to biblioteki dla tstów to trzbea jes dodac inaczej jako zależnosci deweloperskie
+
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setup(
+    name='liczonko',
+    version='0.0.1',
+    description='Say hello!',
+    py_modules=["liczonko"],
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7"
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Microsoft :: Windows :: Windows 10",
+        "Operating System :: POSIX :: Linux",
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=[
+        "blessings ~= 1.7",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=3.7",
+        ],
+    },
+)
+
+
+# update readme tak żeby ludzie wiedzilei jak dewelopersko to rozwijać
+# Developing Liczonko
+To install liczonko, along with the tools you need to develop and run tests, run the following in your virtualenv:
+```bash
+$ pip install -e .[dev]
+```
+
+Teraz samemu zainstalowac developersko
+pip install -e .[dev]
+
+
+Install vs Extras 
+1) install_requires [literas "s" na końcu]
+    - is for production dependencies (Falsk, Click, Numpy, Pandas)
+    - version should be as relax as possible (>3.0, <4.0)
+
+2) extras_require
+    - is for optional requirements: (Pytest, Mock, Coverage.py)
+    - version should be as specific as possible # zeby kazdy dev miał takie samo środowsiko
+
+
+requirements.txt 
+- is for APP being deployed on machines you control.
+- Uses fixed version numbers, eg: request==2.22.-
+- Is generated with pip freeze > requirements.txt
+
+
+
+Napisać testy, sprawdzić je
+test_nazwa_mojego_modulu.py # standardowo nazywać pliki testów
+from abstract_algebra import say_hello
+
+
+def test_abstract_algebra_no_params():
+    assert say_hello() == "Hello, World!"
+
+
+def test_abstract_algebra_with_param():
+    assert say_hello("Everyone") == "Hello, Everyone!"
+
+# uruchomić testy
+UWAGA testy nie trzymać w source tylko ogólnie w plku wyżej, a najlepiej w folerze tests jak jest ich więcej
+pytest
+
+Source Distribution
+dobrze jest to robić - np ktoś nie ma dostepu do gita, do neta, lub musi zweryfikowac kod przed instalajac
+python setup.py sdist
+
+lubi dawać warningi o maintenace wiec dobrze jest dodac te rzeczy do setup.py
+
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setup(
+    name='liczonko',
+    version='0.0.1',
+    description='Say hello!',
+    py_modules=["liczonko"],
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7"
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Microsoft :: Windows :: Windows 10",
+        "Operating System :: POSIX :: Linux",
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=[
+        "blessings ~= 1.7",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=3.7",
+        ],
+    },
+    url="https://github.com/pawlaczyk/liczonko",
+    author="Dominika Pawlaczyk",
+    autor_email="dominika.pawlaczyk9@gmail.com"
+)
+
+
+Teraz trzeba to przetestować czy to działa
+tar tzf dist/liczonko-0.0.1.tar.gz
+
+Powinno coś takiego zwrócić
+C:\Users\dp\Desktop\liczonko>tar tzf dist/liczonko-0.0.1.tar.gz
+liczonko-0.0.1/
+liczonko-0.0.1/PKG-INFO
+liczonko-0.0.1/README.md
+liczonko-0.0.1/setup.cfg
+liczonko-0.0.1/setup.py
+liczonko-0.0.1/src/
+liczonko-0.0.1/src/liczonko.egg-info/
+liczonko-0.0.1/src/liczonko.egg-info/PKG-INFO
+liczonko-0.0.1/src/liczonko.egg-info/SOURCES.txt
+liczonko-0.0.1/src/liczonko.egg-info/dependency_links.txt
+liczonko-0.0.1/src/liczonko.egg-info/requires.txt
+liczonko-0.0.1/src/liczonko.egg-info/top_level.txt
+
+Widac że nie ma pliku LICENSE.txt ani pliku abstract_algebra.py - to dlatego że nie ma MANIFEST.in
+
+
+
+
+CHECK MANIFEST
+dodaje pliki licencji i pliki pythona, tak żeby wszystko z repo bylo dodane do dystrubucji
+
+pip install check-MANIFEST
+check-manifest --create
+git add MANIFEST.in
+
+Jeszcze raz odzipujemy żeby sprawdzić czy Manifest dodał te pliki
+tar tzf dist/liczonko-0.0.1.tar.gz
+
+BUILD Install
+python setup.py bdist_wheel sdist
+
+
+PUSH TO pypi# stick this in 'extras_require'
+pip install twine
+
+sprawdzić dir\dist
+
+
+dodać tę zależnosc do setup.py
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
+setup(
+    name='liczonko',
+    version='0.0.1',
+    description='Say hello!',
+    py_modules=["liczonko"],
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7"
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Microsoft :: Windows :: Windows 10",
+        "Operating System :: POSIX :: Linux",
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=[
+        "blessings ~= 1.7",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=3.7",
+            "twine>=3.2.0",
+        ],
+    },
+    url="https://github.com/pawlaczyk/liczonko",
+    author="Dominika Pawlaczyk",
+    autor_email="dominika.pawlaczyk9@gmail.com"
+)
+
+twine upload dist/*

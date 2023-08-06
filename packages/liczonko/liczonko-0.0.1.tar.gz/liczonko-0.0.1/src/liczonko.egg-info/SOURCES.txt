@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+notatki.txt
+setup.py
+src/abstract_algebra.py
+src/liczonko.egg-info/PKG-INFO
+src/liczonko.egg-info/SOURCES.txt
+src/liczonko.egg-info/dependency_links.txt
+src/liczonko.egg-info/requires.txt
+src/liczonko.egg-info/top_level.txt

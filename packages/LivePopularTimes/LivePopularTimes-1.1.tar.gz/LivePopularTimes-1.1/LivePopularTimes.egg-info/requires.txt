@@ -1,0 +1,7 @@
+requests
+calendar
+json
+ssl
+logging
+urllib
+re

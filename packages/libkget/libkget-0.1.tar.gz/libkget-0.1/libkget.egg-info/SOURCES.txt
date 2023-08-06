@@ -1,0 +1,8 @@
+README.md
+setup.py
+libkget/__init__.py
+libkget/libkget.py
+libkget.egg-info/PKG-INFO
+libkget.egg-info/SOURCES.txt
+libkget.egg-info/dependency_links.txt
+libkget.egg-info/top_level.txt

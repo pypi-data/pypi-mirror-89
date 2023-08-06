@@ -1,0 +1,4 @@
+[console_scripts]
+pyfferaph = pyfferaph.pyfferaph:main
+pyfferaph-filter = pyfferaph.filter_pyff:main
+

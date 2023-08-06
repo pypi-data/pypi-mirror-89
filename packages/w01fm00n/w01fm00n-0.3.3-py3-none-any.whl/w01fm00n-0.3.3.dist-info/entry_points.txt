@@ -1,0 +1,3 @@
+[console_scripts]
+w01fm00n = w01fm00n:main
+

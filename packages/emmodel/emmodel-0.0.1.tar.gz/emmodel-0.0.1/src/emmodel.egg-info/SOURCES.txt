@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/emmodel/__about__.py
+src/emmodel/__init__.py
+src/emmodel/cascade.py
+src/emmodel/data.py
+src/emmodel/model.py
+src/emmodel/variable.py
+src/emmodel.egg-info/PKG-INFO
+src/emmodel.egg-info/SOURCES.txt
+src/emmodel.egg-info/dependency_links.txt
+src/emmodel.egg-info/not-zip-safe
+src/emmodel.egg-info/requires.txt
+src/emmodel.egg-info/top_level.txt

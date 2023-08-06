@@ -1,0 +1,8 @@
+aws_cdk/aws_elasticbeanstalk/__init__.py,sha256=4yzGX7OKaOfCSTj8xFt_9CVaWcERziGN4_YUaQgT4hU,80335
+aws_cdk/aws_elasticbeanstalk/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_elasticbeanstalk/_jsii/__init__.py,sha256=RDKJQCKVLEiO0yHh0n1hYiw71Qi0la4xzsl_c8sRu24,402
+aws_cdk/aws_elasticbeanstalk/_jsii/aws-elasticbeanstalk@1.80.0.jsii.tgz,sha256=pmag_BzgvvD8M3D7NZuGBhz-lrBssBghJizuYAoiZSI,38100
+aws_cdk.aws_elasticbeanstalk-1.80.0.dist-info/METADATA,sha256=YZK3DeKaCePSwTYf4eDxsshloC75DuooAicO34RWS2k,1592
+aws_cdk.aws_elasticbeanstalk-1.80.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.aws_elasticbeanstalk-1.80.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_elasticbeanstalk-1.80.0.dist-info/RECORD,,

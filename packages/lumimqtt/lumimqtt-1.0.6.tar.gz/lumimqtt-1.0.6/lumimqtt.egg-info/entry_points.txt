@@ -1,0 +1,3 @@
+[console_scripts]
+lumimqtt = lumimqtt.lumimqtt:main
+

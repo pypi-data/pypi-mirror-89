@@ -1,0 +1,7 @@
+numpy
+scipy
+Pillow
+improc3d
+jinja2
+flask
+nibabel

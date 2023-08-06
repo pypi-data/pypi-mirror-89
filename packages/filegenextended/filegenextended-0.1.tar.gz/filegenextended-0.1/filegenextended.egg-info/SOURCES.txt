@@ -1,0 +1,7 @@
+setup.py
+filegenextended.egg-info/PKG-INFO
+filegenextended.egg-info/SOURCES.txt
+filegenextended.egg-info/dependency_links.txt
+filegenextended.egg-info/top_level.txt
+stuff/__init__.py
+stuff/fileGenerator.py

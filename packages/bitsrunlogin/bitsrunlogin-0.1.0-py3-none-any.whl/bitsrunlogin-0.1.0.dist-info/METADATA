@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bitsrunlogin
+Version: 0.1.0
+Summary: BIT network login based on terminal.
+Home-page: UNKNOWN
+Author: Leibniz
+Author-email: UNKNOWN
+License: GPLv3
+Keywords: BIT network srun
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+
+
+bitsrunlogin is a powerful tool to log in the 
+network without graphic UI 
+in Beijing Institute of Technology.
+
+

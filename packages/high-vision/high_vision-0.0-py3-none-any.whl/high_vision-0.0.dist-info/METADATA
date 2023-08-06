@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: high-vision
+Version: 0.0
+Summary: A Python Library for Computer Vision tasks like Object Detection, Segmentation, Pose Estimation etc
+Home-page: https://github.com/fahima10/high-vision
+Author: Adeel Intizar
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: progressbar2
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: imgaug
+Requires-Dist: scikit-image
+Requires-Dist: labelme2coco
+Requires-Dist: configobj
+
+UNKNOWN
+
+

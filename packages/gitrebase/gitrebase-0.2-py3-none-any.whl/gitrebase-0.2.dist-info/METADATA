@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gitrebase
+Version: 0.2
+Summary: Turn your commit history into 1 single commit on a PR
+Home-page: https://github.com/dhunt10/rebase
+Author: Darin Hunt
+Author-email: dhunt10@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+###This is the read me
+
+

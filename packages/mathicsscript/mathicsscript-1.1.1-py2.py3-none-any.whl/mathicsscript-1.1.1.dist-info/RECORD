@@ -1,0 +1,15 @@
+mathicsscript/__init__.py,sha256=wdmKvoiVHPbYD4MWkIR5unfYxNAHkxJSwc7S3RZnzz4,165
+mathicsscript/__main__.py,sha256=fM6C2_qNi5oTWlhgUQH-zqiVmadA_dojjmef9TvgVtk,11282
+mathicsscript/format-old.py,sha256=wTJesZNflFvICgwj1W28HK-XHIqCdp5zM6lZGrwbLW4,9451
+mathicsscript/format.py,sha256=sBQRF_2fgyNKqnsOmi2KqIsO8r_Oan2lCJCy3FO6mQI,12655
+mathicsscript/inputrc,sha256=gK5qscOfFtgcBaXGE0j51nxScT8sVg2XzReTDRSGACg,1069
+mathicsscript/inputrc-no-unicode,sha256=n4cllxOn57w9L4EyuFNFbUlkyFlAka7vusrkVyQWu1Y,2178
+mathicsscript/inputrc-unicode,sha256=IjyIYyk-7syfDsmvbCj-nO5rpu3WzzpshnQpdbyCzmM,3358
+mathicsscript/mmalexer.py,sha256=8-OiX56iAp8W8272DeRbkAdxR7myTifsT1yaOrIH_YI,2168
+mathicsscript/termshell.py,sha256=6PHQbJ4D4xcOaY-mShBMMDD1U74336qCp-wmoQW6VX4,13441
+mathicsscript/version.py,sha256=__spYGljh9vbYNYTQdF8_IOx9JN_D-Lg5Xa_-4cspFc,194
+mathicsscript-1.1.1.dist-info/METADATA,sha256=e2jrneyhHzg5721nT_t6QYAgl30BOFZV9RU_yI15oqU,3033
+mathicsscript-1.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+mathicsscript-1.1.1.dist-info/entry_points.txt,sha256=UaYTKWdB2wlAi1DQNsTn-1VmLdJrWjvxNphxKf7sBUY,63
+mathicsscript-1.1.1.dist-info/top_level.txt,sha256=Ju0_XyP0piHhVIbYb_QWIOBt8HWwKnDhgsgfvG5Q40o,14
+mathicsscript-1.1.1.dist-info/RECORD,,

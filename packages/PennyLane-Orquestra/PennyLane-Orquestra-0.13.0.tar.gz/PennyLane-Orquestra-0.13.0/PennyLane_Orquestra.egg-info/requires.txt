@@ -1,0 +1,2 @@
+pyyaml
+pennylane>=0.13

@@ -1,0 +1,23 @@
+[package]
+name = "spice21py"
+version = "0.1.5"
+authors = [
+    "Dan Fritchman <dan@fritch.mn>",
+    "HW21 <hw21@hw21.io>"
+]
+edition = "2018"
+license = "BSD-3-Clause"
+description = "SPICE for the 21st Century"
+
+[lib]
+name = "spice21py"
+crate-type = ["cdylib"]
+
+[dependencies]
+spice21rs = { package="spice21", version="0.1.5", path = "../spice21" }
+pyo3 = {version = "0.11.1", features = ["extension-module"]}
+
+# Note this is really what sets Python install-dependencies
+# for Maturin-built projects (not pyproject.toml)! 
+[package.metadata.maturin]
+requires-dist = ["protobuf>=3.13.0", "betterproto[compiler]>=1.2.5"]

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: RsSmab
+Version: 4.70.205.9
+Summary: SMA100B Microwave Signal Generator Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Description: Rohde & Schwarz SMA100B Microwave Signal Generator RsSmab instrument driver Version 4.70.205.0009
+        Module documentation: https://RsSmab.readthedocs.io/
+        
+        Release Notes:
+        
+        Version 4.70.205.9
+        - Added Documentation
+        - Added method RsSmab.list_resources()
+        
+        Version 4.70.205.8
+        - Default HwInterface repcap is 0 (empty command suffix)
+        
+        Version 4.70.205.7
+        - Second build, fixed enum names
+        
+        Version 4.70.205.1
+        - First released version
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

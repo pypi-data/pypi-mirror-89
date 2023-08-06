@@ -1,0 +1,13 @@
+qif-1.1.10.dist-info/RECORD,,
+qif-1.1.10.dist-info/WHEEL,sha256=qDU9vkT0HYrDFbbK1y5h1LOv2WPLB5v9Y7007MOuefg,110
+qif-1.1.10.dist-info/top_level.txt,sha256=FA-bUqbDJphNdzvmJRpSaPb35L5wZCd76pypfNrkgo0,13
+qif-1.1.10.dist-info/METADATA,sha256=bSRBHOg3IcfLHslqhgfPRdXP-vSNkGyZfMtPrK5AvKA,1593
+qif/__init__.py,sha256=xg3433TQPMrDYtaxRSUm08DgyqPIhReqT8YXkWv36iQ,49
+qif/_qif.cpython-36m-darwin.so,sha256=NDZz106g3edCVpQEyunPcUprDGs7AltXtyhP61saPoE,1479520
+qif/.dylibs/libmp++.7.0.dylib,sha256=r2Nse1RXal2Bl8Me5pWamlMDYTxqhhOoBqooeP15paw,74760
+qif/.dylibs/libortools.dylib,sha256=GJbjLCt1szqWMsxQyCe3atEW9s4LEctGvDg_ErTo4kY,38329776
+qif/.dylibs/libgsl.25.dylib,sha256=P1hQdCadpFoY0jYaPx3yzT2suCDtZfdiIO4nCTosMY4,2176160
+qif/.dylibs/libarmadillo.10.1.2.dylib,sha256=ZLE8n6Ty9VtCya2YV_kBu25jQPhO200hb1n6DJCL2sc,78192
+qif/.dylibs/libqif.dylib,sha256=GDn6wGALa5fWFKSTvsXdBlB4pTrO1A6UbKNqOgQi-0w,204880
+qif/.dylibs/libgslcblas.0.dylib,sha256=Nlk9AluPjZRYCyMPRueqS5TXbY35LWzYiObtUk5-2kQ,219784
+qif/.dylibs/libgmp.10.dylib,sha256=t5QxHmMlTerUBgebN5mSkd9Bdjw5ojxDyFlm6XlXv6M,447704

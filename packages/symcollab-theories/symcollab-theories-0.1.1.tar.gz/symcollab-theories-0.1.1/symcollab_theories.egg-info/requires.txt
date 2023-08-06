@@ -1,0 +1,4 @@
+symcollab-algebra
+symcollab-rewrite
+mypy>=0.740
+mypy-extensions>=0.4.0

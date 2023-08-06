@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "micropython_ahtx0"
+version = "0.1.1"
+description = "MicroPython driver for the AHT10 and AHT20 temperature and humindity sensors."
+authors = ["Andreas Bühl <code@abuehl.de>"]
+license = "MIT"
+packages = [
+    { include = "*" },
+]
+
+[tool.poetry.dependencies]
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

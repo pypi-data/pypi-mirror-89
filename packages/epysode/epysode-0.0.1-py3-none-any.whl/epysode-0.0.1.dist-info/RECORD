@@ -1,0 +1,12 @@
+epysode/__init__.py,sha256=PidbHk6VnfEnJ9UYRzo8OghqvMBmtfkMs2KvSYM_8cI,58
+epysode/accessor.py,sha256=8pcEDhXu4F3PrsFljm7mBAEQE351eh0FS8iPpd4kWcA,19158
+epysode/facc.py,sha256=6RLg2WeNdvxzP46uR2oZOFiGxirW5F23iNOjGY3hoDs,3629
+epysode/iter.py,sha256=pYLgCEsbxqdIN_-QigmTTvfxRM96CAg1YJpgcOg6_uM,2616
+epysode/mk.py,sha256=_IVWnSKZgbprCkKmjpSCkZ8F1VtIYphouMtb7zC8uzA,1054
+epysode/name.py,sha256=1OGdsD4IweRFB2ZEf_tyOiWJRzqJJUqswNbS3My7ZaQ,6973
+epysode/to.py,sha256=4jcbnjMTHUkghal34XIWb-aArFpEedGgvdExiIIe5f8,2803
+epysode-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+epysode-0.0.1.dist-info/METADATA,sha256=RToZtajSN0MnMosbEyVrKqQWRd09r6E0_MSl2dQhyJg,317
+epysode-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+epysode-0.0.1.dist-info/top_level.txt,sha256=wESLrJcubsxJyY9ntWbUWyt7S9pVYS5WXOyLTBehENM,8
+epysode-0.0.1.dist-info/RECORD,,

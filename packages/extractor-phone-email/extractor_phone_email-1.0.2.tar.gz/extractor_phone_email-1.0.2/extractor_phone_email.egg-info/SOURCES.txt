@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+extractor_phone_email/__init__.py
+extractor_phone_email/extractor.py
+extractor_phone_email.egg-info/PKG-INFO
+extractor_phone_email.egg-info/SOURCES.txt
+extractor_phone_email.egg-info/dependency_links.txt
+extractor_phone_email.egg-info/requires.txt
+extractor_phone_email.egg-info/top_level.txt

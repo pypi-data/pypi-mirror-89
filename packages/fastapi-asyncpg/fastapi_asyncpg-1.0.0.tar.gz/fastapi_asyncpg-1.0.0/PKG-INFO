@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fastapi_asyncpg
+Version: 1.0.0
+Summary: FastAPI integration for asyncpg
+Home-page: https://github.com/jordic/fastapi_asyncpg
+Author: Jordi collell
+Author-email: jordic@gmail.com
+License: MIT
+Description: # FastAPI AsyncPG
+        
+        FastAPI integration for AsyncPG
+        
+        ### Authors
+        
+        `fastapi_asyncpg` was written by `Jordi collell <jordic@gmail.com>`\_.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: publish

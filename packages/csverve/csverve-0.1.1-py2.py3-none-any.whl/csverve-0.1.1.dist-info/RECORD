@@ -1,0 +1,12 @@
+csverve/__init__.py,sha256=JFRB60kGPgXZdgvlZVk2jsajBknzmmB98SRMw59d62k,860
+csverve/cli.py,sha256=I0KVCUWZfER1-6hZk0VOX-_aHcpsrOo6Nmkf1Vou0xA,282
+csverve/csverve.py,sha256=UIPjJCbETGe4VFkLcabETH7CTPg9PDXfaAtpjaoglx0,24513
+csverve/extras.py,sha256=FIV52fqD0ok6g6Z8wMI79D1SfShXfHXuH9orcHtfpDg,2737
+csverve/helpers.py,sha256=-n9tIkz1FKsCEcu-ScNZMWq58_WshcL5oLjfmH92TLQ,12673
+csverve-0.1.1.dist-info/AUTHORS.rst,sha256=ZfcEwQRA-u3EzG-WOGzZe-lWROG78h6cD81zBbRAcpw,147
+csverve-0.1.1.dist-info/LICENSE,sha256=L9810rUs9yGrhdXSkYSSBH7p5FckCJPUuq_gc-w3jV4,1067
+csverve-0.1.1.dist-info/METADATA,sha256=Krzlh8AnAsP5TWiJsXKBpeINsNTx3Bgb1E4LMIGapMQ,2696
+csverve-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+csverve-0.1.1.dist-info/entry_points.txt,sha256=0gsL7X-fLdEBklTkLG7J0JyxuqhFehB6ykwTRxUK6zQ,46
+csverve-0.1.1.dist-info/top_level.txt,sha256=wEYYJloHTbPa0Fy2aBir3GJS5OeOZBFLK_ORZM3aQVo,8
+csverve-0.1.1.dist-info/RECORD,,

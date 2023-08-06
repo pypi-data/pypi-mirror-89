@@ -1,0 +1,11 @@
+AdvertsAPI/__init__.py,sha256=fnoLBw0tHJEvjHIKQEhx8yBwgtatm8G_zwIc34D95ME,6407
+AdvertsAPI/_version.py,sha256=GR3e05q0ljDeik5-eGxL6omEVs-_bqDf5IoK0iVBo8k,44
+AdvertsAPI/ad_info.py,sha256=lme7kPBQMiQpvN6mc7SX_1F1qw7QDUneSuLz4zLKdY0,1145
+AdvertsAPI/category.py,sha256=xaaOW3cqQa-wmG0Ie5SAnxGVJUklWG9Y2Xp8kINohUc,121937
+AdvertsAPI/product_info.py,sha256=vpDhWv59NTuOsrVsbmx679djyjFuS2mnJkBo3hPPGL0,710
+AdvertsAPI/utils.py,sha256=Lg9R-FwokE0M_ujRhOn75d0LzoE2T0zYkbtNT3aRZGo,94
+AdvertsAPI-0.0.1.dist-info/LICENSE,sha256=430Rw_BfhEixU7Pcysp4lZ2vMHg_SzaVOD3EXnRuWAk,1093
+AdvertsAPI-0.0.1.dist-info/METADATA,sha256=gfzic6Ea9vAzQfjymlB5n2quUk1gbAuad55d-NxgHzw,580
+AdvertsAPI-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+AdvertsAPI-0.0.1.dist-info/top_level.txt,sha256=-HMsoZ7DBduHPyraw9DkaGdPVJGij9AM-1yF9C1i310,11
+AdvertsAPI-0.0.1.dist-info/RECORD,,

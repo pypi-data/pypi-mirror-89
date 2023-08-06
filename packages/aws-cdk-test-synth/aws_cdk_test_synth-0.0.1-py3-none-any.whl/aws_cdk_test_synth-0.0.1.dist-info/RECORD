@@ -1,0 +1,10 @@
+aws_cdk_test_synth/__init__.py,sha256=3Wp4T1FAJb98ZKZLo_InVlVa0Ombohvuqz7yDXa7pWc,869
+aws_cdk_test_synth/test_synth.py,sha256=OTOGKGXwtLnJrFY-FVsbQ5PJkGaIXerl0LG6v5aaDZM,4685
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/s3_stack.py,sha256=f74oq8V945TlC8r2hq-wjsu9nme4KrR8J4z0CuvkONE,705
+tests/test_s3_stack.py,sha256=OIUmb3UnZ0JRQ5UNsbcxZr0Uo0ATnJhWp9FsDFXnPjo,365
+aws_cdk_test_synth-0.0.1.dist-info/LICENSE,sha256=LAdDZaSbaEaIb3dmhwbmWXYRi0_QEFCFYqRBWydLEWM,1075
+aws_cdk_test_synth-0.0.1.dist-info/METADATA,sha256=IRFw0M5dxekrxeAgPY0kDN4GSAWQU7SUFKHGnkl1OuU,2013
+aws_cdk_test_synth-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk_test_synth-0.0.1.dist-info/top_level.txt,sha256=awQYw03BCEYLtKe9i8giGu1Aq1rOKWqP5yoFE6ZW8-s,25
+aws_cdk_test_synth-0.0.1.dist-info/RECORD,,

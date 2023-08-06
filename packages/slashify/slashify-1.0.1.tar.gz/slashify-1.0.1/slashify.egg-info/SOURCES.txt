@@ -1,0 +1,7 @@
+README.md
+setup.py
+slashify/__init__.py
+slashify.egg-info/PKG-INFO
+slashify.egg-info/SOURCES.txt
+slashify.egg-info/dependency_links.txt
+slashify.egg-info/top_level.txt

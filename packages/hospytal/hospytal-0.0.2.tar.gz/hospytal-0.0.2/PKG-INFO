@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hospytal
+Version: 0.0.2
+Summary: A medley of stuff that could be useful if and when repaired
+Home-page: https://github.com/thorwhalen/ut/tree/master/hospytal
+Author: Thor Whalen
+License: mit
+Description: 
+        # hospytal
+        A medley of stuff that could be useful if and when repaired
+        
+        
+        To install:	```pip install hospytal```
+        
+Platform: any
+Description-Content-Type: text/markdown

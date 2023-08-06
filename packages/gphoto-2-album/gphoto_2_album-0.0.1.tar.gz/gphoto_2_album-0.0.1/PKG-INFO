@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gphoto_2_album
+Version: 0.0.1
+Summary: Return photo list from google photo link.
+Home-page: https://github.com/gaoyunzhi/gphoto_2_album
+Author: Yunzhi Gao
+Author-email: gaoyunzhi@gmail.com
+License: UNKNOWN
+Description: # gphoto_2_album
+        
+        Return photo list from google photo link.
+        
+        ## usage
+        
+        ```
+        import gphoto_2_album
+        result = gphoto_2_album.get(url)
+        result.imgs
+        result.cap_html
+        result.title
+        ```
+        
+        ## how to install
+        
+        `pip3 install gphoto_2_album`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

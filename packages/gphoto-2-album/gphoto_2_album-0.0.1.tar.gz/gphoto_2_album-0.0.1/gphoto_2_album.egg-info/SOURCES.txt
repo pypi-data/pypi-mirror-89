@@ -1,0 +1,8 @@
+README.md
+setup.py
+gphoto_2_album/__init__.py
+gphoto_2_album.egg-info/PKG-INFO
+gphoto_2_album.egg-info/SOURCES.txt
+gphoto_2_album.egg-info/dependency_links.txt
+gphoto_2_album.egg-info/requires.txt
+gphoto_2_album.egg-info/top_level.txt

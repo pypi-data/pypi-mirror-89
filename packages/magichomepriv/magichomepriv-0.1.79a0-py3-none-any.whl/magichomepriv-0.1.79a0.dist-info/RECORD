@@ -1,0 +1,15 @@
+magichome/__init__.py,sha256=93SSnU4W8q0CDdyVTBlA_Ni-Zf0JMK9vC0DBGJ2hSSU,220
+magichome/magichomeapi.py,sha256=Q1RhNOI0xC9ZozDmOqP31maU124ImtdVfO2nRYdoIgE,9159
+magichome/devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magichome/devices/base.py,sha256=JnvGkBbbPnIvpnl-igYO5pDkH810mj2_2YoAdZZ8jsc,1568
+magichome/devices/controller.py,sha256=hbaQb7PcFaLSBIkMf_5ti81BrZGigkpja9DLARa_an0,5433
+magichome/devices/factory.py,sha256=Ah7yY6vYwggz305PqaRCxnY5ofE5SYAI33pAFuYfFEo,1210
+magichome/devices/light.py,sha256=v3EyUDvDRQbJQO5Udtb2b6NFnZMaLbHo7t0UGaZHyAo,5435
+magichome/devices/scene.py,sha256=gffkSkDtdobh267TwDwZUygbETxG10yjxnkGfzdqdd8,266
+magichome/devices/socket.py,sha256=zv4-X1lBfyrq0E3RWbb5OnrQWtvzslFSHAIgdBqURdo,1125
+magichome/devices/switch.py,sha256=wXx6hlA7RQ5aunnjI-Yfqo_1RZB9JYOkSgSNGg0PrK0,1138
+magichomepriv-0.1.79a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+magichomepriv-0.1.79a0.dist-info/METADATA,sha256=n0Y6ViCdl2g5VFRvdHXFWq42SmFj7HM6q4nTjpT2e14,317
+magichomepriv-0.1.79a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+magichomepriv-0.1.79a0.dist-info/top_level.txt,sha256=aXGC5xHBNeMAk0umxbRgaDYqNnCBR2q-dKv8QrfcPUQ,10
+magichomepriv-0.1.79a0.dist-info/RECORD,,

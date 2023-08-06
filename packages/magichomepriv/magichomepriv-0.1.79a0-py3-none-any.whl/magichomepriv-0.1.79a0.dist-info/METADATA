@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: magichomepriv
+Version: 0.1.79a0
+Summary: Magic Home Smart API
+Home-page: https://github.com/ZNEGGE-SDK/magichome
+Author: zengge
+Author-email: cnzengge@gmail.com
+License: MIT
+Keywords: pip,magichome,Zengge smart Home
+Platform: any
+Requires-Dist: requests
+
+Magic Home Smart Controller API
+
+

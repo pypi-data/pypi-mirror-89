@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyllar
+Version: 0.0.1
+Summary: Tools to make webservices
+Home-page: https://github.com/thorwhalen/ut/tree/master/pyllar
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# pyllar
+Tools to make webservices
+
+
+To install:	```pip install pyllar```
+
+

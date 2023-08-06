@@ -1,0 +1,7 @@
+README.md
+setup.py
+edlstrip/__init__.py
+edlstrip.egg-info/PKG-INFO
+edlstrip.egg-info/SOURCES.txt
+edlstrip.egg-info/dependency_links.txt
+edlstrip.egg-info/top_level.txt

@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: PyAuthGG
+Version: 1.0.5
+Summary: Simple Python Auth.GG Package
+Home-page: https://github.com/xFueY/PyAuthGG/
+Author: xFueY
+Author-email: xFueY@protonmail.com
+License: MIT
+Description: Simple Python Auth.GG Package
+        
+        * Simple
+        * Lightweight
+        * User Friendly
+        <br>
+        All functions will return the response directly from https://auth.gg/ without modifying them.
+        This allows you to do just what you want with the information instead of being restricted to what this package does and can do.
+        <br><br>
+        Donate: 15EAMkhNpxa6m2AYemfiZcjmx6TFaJzUGb
+        <br><br>
+        
+        Read the [Wiki](https://github.com/xFueY/PyAuthGG/wiki/) for in depth documentation.
+        
+        Installation:
+        ```
+        pip install PyAuthGG
+        ```
+        
+        Application API Example:
+        ```python
+        import PyAuthGG
+        
+        App = PyAuthGG.Application("API Key", "AID", "Application Secret")
+        print(App.Info())
+        ```
+        
+        Admin API Example:
+        ```python
+        import PyAuthGG
+        
+        Admin = PyAuthGG.Administration.Administration("Admin API Key")
+        print(Admin.FetchUser("xFueY"))
+        ```
+        
+        <br>
+        
+        To Do:
+        - [x] Application API Support
+        - [x] Admin API Support
+        - [ ] In Depth Documentation
+        
+        
+        Application API Functions Available:<br>
+        In Depth Documentation: SoonTM
+        ```python
+        
+        App = PyAuthGG.Application("API", "AID", "SECRET")
+        
+        App.Info()
+        
+        App.Login(Username, Password)
+        
+        App.Register(License, Username, Email, Password)
+        
+        App.Extend(License, Username, Password)
+        
+        App.ForgotPassword(Username)
+        
+        App.ChangePassword(Username, Password, NewPassword)
+        
+        App.Log(Username, Action)
+        ```
+        
+        Admin API Functions Available:<br>
+        In Depth Documentation: [Wiki](https://github.com/xFueY/PyAuthGG/wiki/Administration)
+        ```python
+        Admin = PyAuthGG.Administration("API")
+        
+        Admin.FetchUser(Username)
+        
+        Admin.FetchUsedLicenses(Username) # Custom Function That Returns All Licenses Used By A User
+        
+        Admin.FetchUsers()
+        
+        Admin.FetchUserCount()
+        
+        Admin.DeleteUser(Username)
+        
+        Admin.ChangeVariable(Username, Variable)
+        
+        Admin.ChangePassword(Username, Password)
+        
+        Admin.FetchLicense(License)
+        
+        Admin.FetchLicenses()
+        
+        Admin.FetchLicenseCount()
+        
+        Admin.DeleteLicense()
+        
+        Admin.UnuseLicense()
+        
+        Admin.GenerateLicense(Amount, Days, Level, Format, Prefix)
+        
+        Admin.FetchHWID(Username)
+        
+        Admin.ResetHWID(Username)
+        ```
+        
+        
+        Version 1.0.5 - 28th December 2020
+        - Added ReadMe Content
+        - Fixed ResetPassword
+        - Fixed ChangePassword
+        
+        Version 1.0.4 - 28th December 2020
+        - Testing
+        
+        Version 1.0.3 - 28th December 2020
+        - Testing
+        
+        Version 1.0.2 - 28th December 2020
+        - Testing
+        
+        Version 1.0.1 - 28th December 2020
+        - Testing
+        
+        Version 1.0.0 - 28th December 2020
+        - Initial Release
+        
+Keywords: AuthGG
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

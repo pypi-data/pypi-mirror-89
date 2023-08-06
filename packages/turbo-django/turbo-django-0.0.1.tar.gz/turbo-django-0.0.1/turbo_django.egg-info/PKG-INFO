@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: turbo-django
+Version: 0.0.1
+Summary: Integrate Hotwire Turbo in your Django app.
+Home-page: https://github.com/hotwire-django/turbo-django
+Author: Hotwire-Django org.
+Author-email: nikita.marchant@gmail.com
+License: MIT
+Description: # Turbo for Django
+        
+        This repository aims to help you integrate [Hotwire Turbo](https://turbo.hotwire.dev/) with Django. Inspiration might be taken from [@hotwired/turbo-rails](https://github.com/hotwired/turbo-rails).
+        
+        We are still in the early stage of this project so don't expect anything remotely production grade for a while.
+        
+        Discussions about a Django/Hotwire integration are happening on the [Hotwire forum](https://discuss.hotwire.dev/t/django-backend-support-for-hotwire/1570).
+        
+        ## Experiments
+        
+        As we are several to experiment on the integration, I suggest we all dump our code in a sub-directory of `experiments/` so we can all benefit from the ideas of others. Improvements and utilities can then be generalized out into the `turbo` package at the top-level.
+        
+        ## Turbo
+        The `turbo` directory contains the package with helpers, templatetags and utilities for integrating Turbo tightly into Django. Currently, it contains a `Broadcastable` mixin and a Django Channels websocket consumer to allow for realtime updates with Turbo Streams.
+        
+        
+        ## License
+        
+        Turbo-Django is released under the [MIT License](https://opensource.org/licenses/MIT) to keep compatibility with the Hotwire project.
+        
+        If you submit a pull request. Remember to add yourself to `CONTRIBUTORS.md`!
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

@@ -1,0 +1,11 @@
+README.rst
+setup.py
+sphinxnotes/__init__.py
+sphinxnotes/any.py
+sphinxnotes_any.egg-info/PKG-INFO
+sphinxnotes_any.egg-info/SOURCES.txt
+sphinxnotes_any.egg-info/dependency_links.txt
+sphinxnotes_any.egg-info/namespace_packages.txt
+sphinxnotes_any.egg-info/not-zip-safe
+sphinxnotes_any.egg-info/requires.txt
+sphinxnotes_any.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lego-wireless
+Version: 0.2.1
+Summary: Control Lego Powered Up devices over Bluetooth
+Home-page: https://github.com/alexsdutton/python-lego-wireless-protocol
+License: MIT
+Author: Alex Dutton
+Author-email: python-lego-wireless-protocol@alexdutton.co.uk
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: blinker
+Requires-Dist: gatt
+Project-URL: Repository, https://github.com/alexsdutton/python-lego-wireless-protocol
+Description-Content-Type: text/markdown
+
+# Lego Wireless Protocol for Python
+
+A spare-time implementation of the Lego Wireless Protocol for Python, to support a pet project.
+
+See `lego_wireless/__main__.py` for a usage example.
+

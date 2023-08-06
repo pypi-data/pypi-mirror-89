@@ -1,0 +1,4 @@
+include *.md
+include MANIFEST.in
+include requirements.txt
+include testfile.py

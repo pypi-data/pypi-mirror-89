@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: rwafaker
+Version: 2.0.6
+Summary: This package generates massive amounts of realistic fake data in Rwanda native language (Ikinyarwanda)
+Home-page: https://github.com/knowbee/py-rwafaker.git
+Author: Igwaneza Bruce
+Author-email: knowbeeinc@gmail.com
+License: MIT
+Description: # rwafaker
+        
+        [![Downloads](https://pepy.tech/badge/rwafaker)](https://pepy.tech/project/rwafaker)
+        [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+        [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+        
+        This is a simple python package that generates massive amounts of realistic fake data in Rwanda native language (Ikinyarwanda)
+        
+        ## Installation
+        
+        The distribution is hosted on pypi at: https://pypi.org/project/rwafaker/. To directly install the package from pypi, run from your terminal::
+        
+            $ pip install rwafaker
+        
+        ## Usage
+        
+        ---
+        
+        ### Single Outputs
+        
+        ```py
+           from rwafake import rwafaker
+        
+           fname = rwafaker.firstName() # 'Bisamaza'
+        
+           lname = rwafaker.lastName() # 'Smith'
+        
+           fullName = rwafaker.fullName() # 'Bisamaza Smith'
+        
+           email = rwafaker.email() # 'bisamaza_sm@gmail.com'
+        ```
+        
+        ### Multiple Outputs
+        
+        ```py
+           from rwafake import rwafaker
+        
+           fname = rwafaker.firstName(2) # ['Ngarambe', 'Rwigema']
+        
+           lname = rwafaker.lastName(2) # ['Barker', 'Fuller']
+        
+           fullName = rwafaker.fullName(2) # ['Kandekwe Galloway', 'Buhigiro Byers']
+        
+           email = rwafaker.email(2) # ['banganirora.suarez@ur.ac.rw', 'umugaba.cox@yahoo.com']
+        
+        ```
+        
+Keywords: hi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

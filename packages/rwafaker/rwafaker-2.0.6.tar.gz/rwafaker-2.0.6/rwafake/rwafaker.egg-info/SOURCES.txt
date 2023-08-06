@@ -1,0 +1,7 @@
+README.md
+setup.py
+rwafake/rwafaker.egg-info/PKG-INFO
+rwafake/rwafaker.egg-info/SOURCES.txt
+rwafake/rwafaker.egg-info/dependency_links.txt
+rwafake/rwafaker.egg-info/not-zip-safe
+rwafake/rwafaker.egg-info/top_level.txt

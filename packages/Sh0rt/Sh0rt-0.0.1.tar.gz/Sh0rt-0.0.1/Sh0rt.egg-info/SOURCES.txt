@@ -1,0 +1,7 @@
+README.txt
+setup.py
+Sh0rt.egg-info/PKG-INFO
+Sh0rt.egg-info/SOURCES.txt
+Sh0rt.egg-info/dependency_links.txt
+Sh0rt.egg-info/requires.txt
+Sh0rt.egg-info/top_level.txt

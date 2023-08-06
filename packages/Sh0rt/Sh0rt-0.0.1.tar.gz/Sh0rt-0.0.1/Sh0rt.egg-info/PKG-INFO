@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: Sh0rt
+Version: 0.0.1
+Summary: Shortner a url via this libary we offer many services
+Home-page: UNKNOWN
+Author: Yazan Talib
+Author-email: y1z1n.xx@gmail.com
+License: MIT
+Description: Sh0rt
+        +==================+
+        
+        -A libary to shortner a url
+        -we offer many services like [bit.ly, v.ht, clck.ru, tinyurl]
+        
+        Many more coming in the next updates :>
+        
+        +==================+
+        
+        
+        Change log
+        <=========>
+        
+        0.1 (17/10/2020)
+        ----------------
+        - First Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

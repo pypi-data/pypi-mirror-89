@@ -1,0 +1,11 @@
+tensorflow
+smart_open[all]
+tqdm>=4.50.0
+dill
+click
+
+[gcp]
+google-api-python-client
+google-compute-engine
+google-cloud-storage
+oauth2client

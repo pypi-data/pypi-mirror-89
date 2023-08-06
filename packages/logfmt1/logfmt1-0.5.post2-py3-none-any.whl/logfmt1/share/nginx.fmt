@@ -1,0 +1,86 @@
+{
+    "class": "nginx",
+    "separator": " ",
+    "placeholder": "[$](\\w+)",
+    "rewrite": {
+        "(?<!\\\\)([\\[\\]\\|\\(\\)])": "\\$1"
+    },
+    "#doc": "http://nginx.org/en/docs/http/ngx_http_core_module.html#var_args",
+    "fields": {
+        "$request": {
+            "id": "request",
+            "rx": "(?<request_method>\\w+) (?<request_path>\\S+) (?<request_protocol>[\\w/\\d.]+)"
+        },
+        "$remote_addr": {
+            "id": "remote_addr",
+            "rx": "[\\da-f.:]+"
+        },
+        "$remote_user": {
+            "id": "remote_user",
+            "rx": "[\\w\\-@.:]+"
+        },
+        "$time_local": {
+            "id": "time_local",
+            "rx": "[\\d/\\w:.+\\-]+"
+        },
+        "$status": {
+            "id": "status",
+            "rx": "\\d+"
+        },
+        "$request_length": {
+            "id": "request_length",
+            "rx": "\\d+"
+        },
+        "$request_time": {
+            "id": "request_time",
+            "rx": "[\\d.]+"
+        },
+        "$msec": {
+            "id": "msec",
+            "rx": "[\\d.]+"
+        },
+        "$scheme": {
+            "id": "scheme",
+            "rx": "\\w+"
+        },
+        "$args": {
+            "id": "args",
+            "rx": "\\S*"
+        },
+        "$is_args": {
+            "id": "is_args",
+            "rx": "\\??"
+        },
+        "$body_bytes_sent": {
+            "id": "body_bytes_sent",
+            "rx": "\\d+"
+        },
+        "$http_referer": {
+            "id": "http_referer",
+            "rx": "\\S*"
+        },
+        "$http_user_agent": {
+            "id": "http_user_agent",
+            "rx": "\\S*"
+        },
+        "$pipe": {
+            "id": "pipe",
+            "rx": "[p.]"
+        },
+        "$ssl_protocol": {
+            "id": "ssl_protocol",
+            "rx": "[\\w.]*"
+        },
+        "$ssl_cipher": {
+            "id": "ssl_cipher",
+            "rx": "[\\w\\-.]*"
+        }
+    },
+    "expand": {
+        "[$](\\w+)": {
+            "id": "$1",
+            "rx": "\\S*",
+            "grok": "QS"
+        }
+    }
+}

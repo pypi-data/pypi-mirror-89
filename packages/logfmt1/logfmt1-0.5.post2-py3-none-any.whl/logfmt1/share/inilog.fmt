@@ -1,0 +1,19 @@
+{
+    "#note": "this is an alias for the \u00bblogfmt\u00ab key=value serialization (as rediscovered by Go/Heroku peeps)",
+    "class": "inilog",
+    "record": "*",
+    "fields": {
+        "*": {
+            "id": "*",
+            "rx": ".+"
+        }
+    },
+    "container": {
+        "*": {
+            "rx": "(\\w+)=(?:(\\S+)|\"(.*?)\")",
+            "id": "$1",
+            "value": "$2$3",
+            "class": "inilog"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kloppy-spark
+Version: 0.0.1
+Summary: Spark Tools to work with Kloppy
+Home-page: https://deepsports.io
+Author: Felix Schmdit
+Author-email: info@deepsports.io
+License: BSD
+Description: # kloppy-spark
+        Spark Helpers for Kloppy
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: development

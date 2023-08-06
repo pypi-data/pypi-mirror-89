@@ -1,0 +1,9 @@
+kloppy>=1.4.4
+pyspark>=3.0.1
+
+[development]
+pre-commit
+
+[test]
+pytest
+pandas>=1.0.0

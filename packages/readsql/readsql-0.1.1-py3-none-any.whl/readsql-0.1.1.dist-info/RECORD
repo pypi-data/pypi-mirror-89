@@ -1,0 +1,9 @@
+readsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+readsql/__main__.py,sha256=eUROiO8JnReZo1qIbuRxKZU0HmeoofMR-dZ8MTBTLWI,3814
+readsql/parse_args.py,sha256=A2ScSxj4ppt4yZH_PRyqJ_Gcem9WRD5BwDz4lEWcb1Q,900
+readsql/regexes.txt,sha256=I9fFX9LqCwULwJkNpuJDFEA3a9JDWwoqWUHokwv7a1U,623
+readsql-0.1.1.dist-info/entry_points.txt,sha256=57OMWZN2GYx-0QNSqCts2GvGU5QZoFLX8GV-cJWeaFQ,57
+readsql-0.1.1.dist-info/LICENSE,sha256=g-FEN93ygt_96bEZ_3JUIWYO0ryBA4yIssb9TRyykM0,1061
+readsql-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+readsql-0.1.1.dist-info/METADATA,sha256=v-cJSRMY97SE40lPzr9MMbQmEPAOnqErQxiZAiOP6i8,4376
+readsql-0.1.1.dist-info/RECORD,,

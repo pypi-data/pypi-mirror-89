@@ -1,0 +1,3 @@
+[console_scripts]
+readsql=readsql.__main__:command_line
+

@@ -1,0 +1,9 @@
+README.md
+setup.py
+shidal/__init__.py
+shidal/daemon.py
+shidal.egg-info/PKG-INFO
+shidal.egg-info/SOURCES.txt
+shidal.egg-info/dependency_links.txt
+shidal.egg-info/requires.txt
+shidal.egg-info/top_level.txt

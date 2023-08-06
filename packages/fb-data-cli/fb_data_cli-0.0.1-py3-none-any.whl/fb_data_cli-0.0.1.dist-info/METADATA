@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fb-data-cli
+Version: 0.0.1
+Summary: Football Data CLI
+Home-page: https://github.com/amunger3/fb-cli
+Author: Alex Munger
+Author-email: munger.alex@gmail.com
+License: MIT
+Keywords: football soccer data api cli
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (==7.1.2)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: colorama (==0.4.4)
+
+UNKNOWN
+
+

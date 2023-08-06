@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bid
+Version: 0.0.1
+Summary: Adwords bidding tools
+Home-page: https://github.com/thorwhalen/bid
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# bid
+Adwords bidding tools
+
+
+To install:	```pip install bid```
+
+

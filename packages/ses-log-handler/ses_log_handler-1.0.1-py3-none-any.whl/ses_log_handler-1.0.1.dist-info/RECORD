@@ -1,0 +1,5 @@
+ses_log_handler/__init__.py,sha256=COK3qRaDu8KLIkcKnkz-8ccxXSKj8nlwHJMj6mFT8x0,46
+ses_log_handler/handler.py,sha256=OMEMWkCEr2ocQn0wwmyeqtzYU4tSF7Rfauk3AeFj6Vo,2295
+ses_log_handler-1.0.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+ses_log_handler-1.0.1.dist-info/METADATA,sha256=aufdaGrw-8zS6OLxqmbMfiIr7x8Vz5aqeXcFzTz5wuU,6213
+ses_log_handler-1.0.1.dist-info/RECORD,,

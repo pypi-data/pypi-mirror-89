@@ -1,0 +1,3 @@
+[console_scripts]
+roci=roci:direc_dumper
+

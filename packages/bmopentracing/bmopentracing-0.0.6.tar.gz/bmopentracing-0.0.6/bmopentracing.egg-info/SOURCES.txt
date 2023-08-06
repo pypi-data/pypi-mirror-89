@@ -1,0 +1,6 @@
+README.md
+setup.py
+bmopentracing.egg-info/PKG-INFO
+bmopentracing.egg-info/SOURCES.txt
+bmopentracing.egg-info/dependency_links.txt
+bmopentracing.egg-info/top_level.txt

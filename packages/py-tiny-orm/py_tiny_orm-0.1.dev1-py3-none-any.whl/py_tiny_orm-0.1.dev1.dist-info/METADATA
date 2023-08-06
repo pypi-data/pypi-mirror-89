@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: py-tiny-orm
+Version: 0.1.dev1
+Summary: Trivial ORM for mapping dataclasses to SQLite
+Home-page: https://github.com/javajawa/py-tiny-orm
+Author: Benedict Harcourt
+Author-email: ben.harcourt@harcourtprogramming.co.uk
+License: BSD-2-Clause
+Project-URL: Source, https://github.com/javajawa/py-tiny-orm
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2020 Benedict Harcourt <ben.harcourt@harcourtprogramming.co.uk>
+
+SPDX-License-Identifier: BSD-2-Clause
+-->
+
+# Minimal SQLite ORM
+
+

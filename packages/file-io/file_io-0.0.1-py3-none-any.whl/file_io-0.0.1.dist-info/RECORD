@@ -1,0 +1,10 @@
+file_io/__init__.py,sha256=VTvQiQ2TJQvDhig1K9Shut4aHvq5Csa0UQS7XYb8z8s,12077
+file_io/_version.py,sha256=OzmtUSt8LchPrQAnRCp0uneXPszItAMrXpR-Z-XR2xo,106
+file_io/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_io/config/env.py,sha256=bzJYoCN_1abVCjAJ--kX75Vaieg1HItVNj_E4_QZy74,5425
+file_io/config/imports.py,sha256=R0ifk0R8bsJd68egC4i6j68QIyZfEhFxXog-7AVE7E0,928
+file_io-0.0.1.dist-info/LICENSE,sha256=Xl0gS37kTzjTmWrRJxFGOUWeDUSwea7o6YRqokIcrQU,1065
+file_io-0.0.1.dist-info/METADATA,sha256=v9sQWFxrPdSIzkkA61PjMmw37aYwfR_aOAAAZaIj3Zc,4303
+file_io-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+file_io-0.0.1.dist-info/top_level.txt,sha256=PiNc7pRm-UP-6vxx18BDru7-soLtbc9AbSrJxjvcnok,8
+file_io-0.0.1.dist-info/RECORD,,

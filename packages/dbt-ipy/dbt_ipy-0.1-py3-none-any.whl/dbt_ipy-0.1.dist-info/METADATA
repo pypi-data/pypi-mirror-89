@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dbt-ipy
+Version: 0.1
+Summary: IPython magic to use dbt
+Home-page: http://www.github.com/jmriego/dbt-ipy
+Author: José María Riego
+Author-email: jmriego@telefonica.net
+License: GNU GPLv3
+Keywords: ipython dbt sql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python
+Requires-Dist: ipython
+Requires-Dist: dbt
+
+Run DBT RPC commands
+
+

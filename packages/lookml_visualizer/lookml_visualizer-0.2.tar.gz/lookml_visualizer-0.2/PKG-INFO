@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: lookml_visualizer
+Version: 0.2
+Summary: Visualize LookML relationships network as an interactive figure
+Home-page: https://github.com/iamaziz/lookml_visualizer
+Author: Aziz Alto
+Author-email: iamaziz.alto@gmail.com

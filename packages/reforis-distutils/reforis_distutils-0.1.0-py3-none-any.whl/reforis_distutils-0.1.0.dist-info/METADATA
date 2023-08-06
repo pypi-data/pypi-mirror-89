@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: reforis-distutils
+Version: 0.1.0
+Summary: Distutils patches to add commands for reForis handling
+Home-page: https://gitlab.labs.nic.cz/turris/reforis/reforis-distutils
+Author: CZ.NIC, z. s. p. o.
+Author-email: UNKNOWN
+License: GPL-3.0
+Platform: UNKNOWN
+Provides: reforis_distutils
+Requires-Dist: babel
+
+UNKNOWN
+
+

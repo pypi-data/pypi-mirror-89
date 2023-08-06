@@ -1,0 +1,90 @@
+[tool.poetry]
+name = "fast-microservice"
+version = "0.1.0-rc4"
+description = "Small Microservice based on FastAPI"
+authors = [
+    "Jochem Berends <jberends@jbits.nl>",
+]
+
+license = "Apache 2.0"
+readme = "README.md"
+
+documentation = "https://github.com/jberends/fast-microservice/blob/master/README.md"
+homepage = "https://github.com/jberends/fast-microservice"
+repository = "https://github.com/jberends/fast-microservice"
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Internet :: WWW/HTTP",
+  "Typing :: Typed",
+]
+
+include = ["fast_microservice/py.typed"]
+packages = [
+  { include = "fast_microservice" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.1, <4.0"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.2"
+pydantic = "^1.7.3"
+python-multipart = "^0.0.5"
+ujson = "^4.0.1"
+PyYAML = "^5.3.1"
+requests = "^2.25.1"
+requests-toolbelt = "^0.9.1"
+sentry-sdk = "^0.19.5"
+
+
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.3"
+isort = "^5.5.2"
+mypy = "^0.790"
+pre-commit = "^2.7.1"
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
+
+pytest-mock = "^3.3.1"
+tox = "^3.20.0"
+tox-gh-actions = "^2.2.0"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+target_version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | \.idea
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

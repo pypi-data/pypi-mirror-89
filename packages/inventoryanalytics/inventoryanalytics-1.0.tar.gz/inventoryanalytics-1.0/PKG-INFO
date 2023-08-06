@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: inventoryanalytics
+Version: 1.0
+Summary: A Python library dedicated to Inventory Analytics.
+Home-page: https://github.com/gwr3n/inventoryanalytics
+Author: Roberto Rossi
+Author-email: robros@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/gwr3n/inventoryanalytics/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: inventory,analytics
+Platform: UNKNOWN

@@ -1,0 +1,12 @@
+FaceBagNet/1.jpg,sha256=6ib0Dx65kcnSI2VDKnYtCUtfwYXvdoH_ZW6yApbEtXg,17914
+FaceBagNet/FaceAnti.py,sha256=rK-YtVKkxNNyD0BwEaSCFroZOI-oJaQiD5eSThaMRNY,5819
+FaceBagNet/FaceBagNet_base.py,sha256=KA10rN-RVRoyqEnU2ZARlto3SdL9i8DtmWAZ_KzhXfE,11698
+FaceBagNet/FaceBagNet_model_A.py,sha256=7ShOCwJEKo6_tpIZ301zMXcedCvkG98g8qqeqtabtBI,3368
+FaceBagNet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FaceBagNet/__pycache__/FaceBagNet.cpython-36.pyc,sha256=_fE7xlx2Z_H-cxx0Eudz3K1AdYE0V8-XeFz4PoR9W08,8700
+FaceBagNet/__pycache__/FaceBagNet_model_A.cpython-36.pyc,sha256=PgrLFG0OYfT7p-imMN5_vuPyF5AL-e2uNDO31XjZfoM,3078
+FaceBagNet/model/global_min_acer_model.pth,sha256=dUzJEWW_T8qCgboLEV0UcXZCYxrMMzQJQI9V86Bb62c,69872258
+FaceBagNet-0.0.4.dist-info/METADATA,sha256=qf_W42oB3C7C84mSHcghrQZafX4JT6MR8IS8ck7dzEk,437
+FaceBagNet-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+FaceBagNet-0.0.4.dist-info/top_level.txt,sha256=9H_5blPN-uPjZWTHWE-fL0hDclqDgoFP3-Xi3GiwWOs,11
+FaceBagNet-0.0.4.dist-info/RECORD,,

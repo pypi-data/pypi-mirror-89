@@ -1,0 +1,10 @@
+chanim/__init__.py,sha256=kKoLT49teSYYfR0knaQENkensQeNL1Sz8F48eA8Qvss,193
+chanim/chem_anims.py,sha256=PoveJeLmjuKNICma705Y5ubkdbunW87zoj35nrwyz-E,493
+chanim/chem_objects.py,sha256=t4kErm8lKMIwwLqTzmn46fAj8y_zBeZfMHSCLkbnCtw,18040
+chanim/compounds.py,sha256=9Ee7xXghSc8wDAVqeZGz-uEegRoKomjZwPIZdrNxhLY,2758
+chanim/templates.py,sha256=mA6VdPWKZElGfyH7Rh4SejwZYNZt6nBoMdAAVgrue-0,3733
+chanim-0.0.0.dist-info/entry_points.txt,sha256=2HcA5TzorLkHumGCov9DL2zuiEoZ6MzuuHuIANv-ODI,31
+chanim-0.0.0.dist-info/LICENSE,sha256=D2WHcnLM-LU5Z2N5Tx0tbSfaQP-6WOgNwLN1BK3uglY,1088
+chanim-0.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+chanim-0.0.0.dist-info/METADATA,sha256=9B1kaFQbu94lmeBCN6eqDnZVLapy3gsourR-uhngYzw,3432
+chanim-0.0.0.dist-info/RECORD,,

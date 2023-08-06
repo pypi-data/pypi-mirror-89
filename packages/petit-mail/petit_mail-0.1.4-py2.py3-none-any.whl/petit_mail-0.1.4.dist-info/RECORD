@@ -1,0 +1,10 @@
+petit_mail/__init__.py,sha256=8z7-IV6r0Od8QsFmsCLQI2XyYRTTuXm145eAU2WWrWQ,142
+petit_mail/data_struct.py,sha256=_1kllirADdt1cQp4KLbMoO8J6mRvxWiKQGOFMyty4uY,191
+petit_mail/render_functions.py,sha256=MeBEvJnEJUTgIoYcUtqyo3BVsatkotWKujFKLiwOEmw,190
+petit_mail/server.py,sha256=8Vz9NtoJuiTtBj-fOh1hxUTw3xmM6vZBKCL9znila5M,2464
+petit_mail/utils.py,sha256=FewLPwIx05jzwJjYpk-TeQJSvP3DUOFpt6FenFVSW6Y,1610
+petit_mail-0.1.4.dist-info/LICENSE.txt,sha256=HAArBtJZJpg0eBZoEant0RwyLUMxHdyiTyc9cYW3YYc,11306
+petit_mail-0.1.4.dist-info/METADATA,sha256=DC-L8vKdzk-lSbNTwLRqzYZdSoM5_WxDcRN6-XPugRw,4166
+petit_mail-0.1.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+petit_mail-0.1.4.dist-info/top_level.txt,sha256=cVaPwzXonsiB-TN35AUveux6VmVw3KwDTi_1ec-ixiw,11
+petit_mail-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+morphine/__init__.py
+morphine/cli.py
+morphine/colors.py
+morphine/trace_formatter.py
+morphine/trace_shell.py
+morphine_tracer.egg-info/PKG-INFO
+morphine_tracer.egg-info/SOURCES.txt
+morphine_tracer.egg-info/dependency_links.txt
+morphine_tracer.egg-info/entry_points.txt
+morphine_tracer.egg-info/not-zip-safe
+morphine_tracer.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gibberish_score
+Version: 0.0.5
+Summary: Gibberish score and non-gibberish generator
+Home-page: https://github.com/packmad/Gibberish-Score
+Author: Simone Aonzo
+Author-email: simone.aonzo@gmail.com
+License: UNKNOWN
+Description: # Gibberish-Score
+        
+        [https://pypi.org/project/gibberish-score/](https://pypi.org/project/gibberish-score/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+ringkasan-hello=ringkasan:hello
+

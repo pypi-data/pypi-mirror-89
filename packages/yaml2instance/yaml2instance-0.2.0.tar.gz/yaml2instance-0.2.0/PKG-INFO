@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yaml2instance
+Version: 0.2.0
+Summary: Find the class written in yaml and instantiate it.
+License: MIT
+Author: shuns0314
+Author-email: shunsuke.naka0314@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=19.10b0,<20.0)
+Requires-Dist: flake8 (>=3.8.1,<4.0.0)
+Requires-Dist: mypy (>=0.770,<0.771)
+Requires-Dist: pytest (>=5.4.2,<6.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)

@@ -1,0 +1,34 @@
+Metadata-Version: 1.0
+Name: NetworkLiteratureDownloader
+Version: 1.1.0
+Summary: A Multi-Coroutine Downloader
+Home-page: https://https://test.pypi.org/legacy/NetworkLiteratureDownloader
+Author: suyu
+Author-email: halfxianhuman@hotmail.com
+License: MIT
+Description: # NetworkLiteratureDownloader
+        
+        ## Introduction
+        
+        This is a GUI downloader for NetworkLiterature!
+        
+        ## Documentation
+        
+        Documentation can be found in ...
+        
+        ## Example Usage
+        
+        Here is an example to import the modules from this package.
+        
+        ```python
+        from downloader.downloadApp import App
+        app = App()
+        app.MainLoop()
+        ```
+        
+        `settings.py` is for you to set App preference.
+        
+        ## LICENSE
+        
+        See MIT
+Platform: UNKNOWN

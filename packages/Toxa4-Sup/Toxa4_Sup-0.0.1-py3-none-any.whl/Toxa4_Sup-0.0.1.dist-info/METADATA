@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Toxa4-Sup
+Version: 0.0.1
+Summary: This is my 1st project 
+Home-page: https://github.com/dimaterig0404
+Author: Dima Zyryanov
+Author-email: dima.terig02@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<=2.21.0)
+Requires-Dist: pyowm (<=3.1.1)
+
+[Classes]
+
+    Corr - error correcting class
+    Help - class with minification code
+
+[Features]
+
+    Corr.inputs (input ()) - helps to remove all spaces in the input () command
+    Help.temo_po_name (‘City name in Russian’) - returns the city temperature in Celsius
+
+    [What's new]
+
+    Added description
+    Corr class
+
+[In the plans]
+
+    New classes and functions
+

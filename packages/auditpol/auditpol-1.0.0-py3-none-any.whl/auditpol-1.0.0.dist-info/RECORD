@@ -1,0 +1,15 @@
+auditpol/__init__.py,sha256=altPNaC0HZzP9ltUmx2uMCY8_Yc9TWSmLvOqZbA_57I,38
+auditpol/policy.py,sha256=iL1QYXo_qQ1pq7Arpq1GkCFw5mz2ENDjE8hfeQtq_QY,1495
+auditpol/settings.py,sha256=vx7oeaUqFmvGz3xEJn7JJZlD26klgSqM-7_nbYGuwCo,6289
+auditpol/subcategories.py,sha256=gewiDynIuEL_lfkB9Ywnp-B3IcM7cQNlRlM873UYaOM,962
+auditpol/utils.py,sha256=k4zk3rv4dTRxddtehFxSknxLzWy0Dzq70un9OwgjeIc,198
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_policy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_subcategories.py,sha256=Se1slPDiR8CQdEvNoSzyfLyh5tbjzK0AHfmEy5bJWWY,1399
+tests/test_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auditpol-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+auditpol-1.0.0.dist-info/METADATA,sha256=rJJDxX4CbC0WV3sYG4NbCn3JPTI0DBxxGoz4SVGtRVM,3420
+auditpol-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+auditpol-1.0.0.dist-info/top_level.txt,sha256=kceXj0-NiGEvBXBGACASvp4aF44WI6sNHmwGTWC1IP8,15
+auditpol-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+flask_login_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_login_user/gcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_login_user/gcp/datastore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_login_user/gcp/datastore/caching.py,sha256=sF2j_tQPjXETqQgyzqt4lKGp9kvGwPB5yBjrNpWoo2I,705
+flask_login_user/gcp/datastore/config.py,sha256=Krc7KR3qsDh19EGp549dfgaCjlYG3y9_SV1xqGnNU2Q,886
+flask_login_user/gcp/datastore/user.py,sha256=WunJbHJA1us-Q8DU3Hctkf2wfRwTJVIO4F-PyJZpqFE,2069
+flask_login_gcp_datastore-0.0.2.dist-info/LICENSE,sha256=93RLfg7HqUAySokbzrPgwFXsx2Yb0PEaPwpVqSaAUh8,11346
+flask_login_gcp_datastore-0.0.2.dist-info/METADATA,sha256=kQo4E9UTvXV_NJo2UBw4KXLRSfjl8Rh4JRJGT16_M7E,1212
+flask_login_gcp_datastore-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flask_login_gcp_datastore-0.0.2.dist-info/top_level.txt,sha256=EyIxzpUr1dmvPFKq-x57XwFrZk0jdEhWx9zA9y_n8uA,17
+flask_login_gcp_datastore-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+numpy
+nptyping
+func_timeout
+opencv-python
+
+[docs]
+sphinx
+
+[test]
+coverage
+codecov
+pyfakefs

@@ -1,0 +1,8 @@
+click
+click-spinner
+crudini
+python-dracclient
+python-ironicclient
+python-neutronclient
+python-chi>=0.4.4
+tabulate

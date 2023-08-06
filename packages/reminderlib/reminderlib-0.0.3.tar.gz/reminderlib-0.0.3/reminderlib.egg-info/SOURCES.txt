@@ -1,0 +1,5 @@
+setup.py
+reminderlib.egg-info/PKG-INFO
+reminderlib.egg-info/SOURCES.txt
+reminderlib.egg-info/dependency_links.txt
+reminderlib.egg-info/top_level.txt

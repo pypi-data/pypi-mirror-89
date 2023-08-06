@@ -1,0 +1,51 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+setup.py
+src/emma/__init__.py
+src/emma/analysis.py
+src/emma/elements.py
+src/emma/elemlib.py
+src/emma/graphics.py
+src/emma/materials.py
+src/emma/matlib.py
+src/emma/matrices.py
+src/emma/objects.py
+src/emma/solvers.py
+src/emma.egg-info/PKG-INFO
+src/emma.egg-info/SOURCES.txt
+src/emma.egg-info/dependency_links.txt
+src/emma.egg-info/not-zip-safe
+src/emma.egg-info/requires.txt
+src/emma.egg-info/top_level.txt
+src/emma/data/Cape Mendocino.dat
+src/emma/data/ChiChi.dat
+src/emma/data/El Centro.dat
+src/emma/data/Hollister.dat
+src/emma/data/Imperial Valley.dat
+src/emma/data/Kobe.dat
+src/emma/data/Kocaeli.dat
+src/emma/data/Loma Prieta.dat
+src/emma/data/Northridge.dat
+src/emma/data/San Fernando.dat
+src/emma/data/Spitak.dat
+src/emma/data/elcentro.dat
+src/emma/seismic/RotD50.csv
+src/emma/utilities/__init__.py
+src/emma/utilities/export.py
+src/emma/utilities/import.py
+src/emma/utilities/ipyutils.py
+src/emma/utilities/matrices.py
+src/emma/utilities/numerical.py
+src/emma/utilities/tensor.py
+src/emma/utilities/fedeas/__init__.py
+src/emma/utilities/numeric/__init__.py
+src/emma/utilities/numeric/integrate.py
+src/emma/utilities/numeric/quadrature.py
+src/emma/utilities/numeric/roots.py
+tests/Ex12_2.py
+tests/Ex12_3.py
+tests/Ex12_3r.py
+tests/__init__.py
+tests/dynamics.py
+tests/elements/Beam_Column2D.py

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: emme
+Version: 0.0.0
+Summary: Object oriented finite element analysis.
+Home-page: https://github.com/claudioperez/emma
+Author: Claudio M. Perez
+Author-email: claudio_perez@berkeley.edu
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/claudioperez/emma/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/claudioperez/emma/issues
+Description: 
+        
+        Changelog
+        =========
+        
+        0.0.0 (2020-09-04)
+        ------------------
+        
+        * First release on PyPI.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: shellcomplete
+Provides-Extra: tensorflow
+Provides-Extra: jax
+Provides-Extra: backends

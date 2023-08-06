@@ -1,0 +1,8 @@
+bs4
+beautifulsoup4>=4.9
+aiohttp>=3.6
+lxml>=4.5
+aiofiles>=0.5
+aiojobs>=0.3
+lxml
+ujson

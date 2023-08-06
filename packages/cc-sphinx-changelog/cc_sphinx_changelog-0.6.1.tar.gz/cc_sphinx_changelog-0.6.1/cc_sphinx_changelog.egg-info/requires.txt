@@ -1,0 +1,6 @@
+gitpython
+backpedal
+ansiwrap
+crayons
+docutils
+sphinx

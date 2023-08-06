@@ -1,0 +1,37 @@
+import setuptools
+import versioneer
+
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    cmdclass=versioneer.get_cmdclass(),
+    name="libreflow", # Replace with your own username
+    version=versioneer.get_version(),
+    author="Flavio Perez",
+    author_email="flavio@lfs.coop",
+    description="An example flow for kabaret",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://gitlab.com/lfs.coop/libreflow",
+    license="LGPLv3+",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+        "Operating System :: OS Independent",
+    ],
+    keywords="kabaret cgwire kitsu gazu animation pipeline libreflow",
+    install_requires=["kabaret>=2.2.0rc1",
+                      "pyside2",
+                      "six",
+                      "kabaret.script-view",
+                      "kabaret.subprocess-manager",
+                      "kabaret.flow-contextaul-dict",
+                      "gazu"],
+    python_requires='>=3.7',
+    packages=setuptools.find_packages("src"),
+    package_dir={"": "src"},
+
+)

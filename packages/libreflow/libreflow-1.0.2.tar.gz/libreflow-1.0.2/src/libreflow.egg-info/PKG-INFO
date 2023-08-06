@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: libreflow
+Version: 1.0.2
+Summary: An example flow for kabaret
+Home-page: https://gitlab.com/lfs.coop/libreflow
+Author: Flavio Perez
+Author-email: flavio@lfs.coop
+License: LGPLv3+
+Description: # libreflow
+        
+        LibreFlow is a project flow made for [https://gitlab.com/kabaretstudio/kabaret](Kabaret studio)
+        
+        
+        ## Install
+        
+        >  pipenv install -e "git+https://gitlab.com/lfs.coop/libreflow.git@pippackage#egg=libreflow" --pre
+        
+        Currently we need the --pre to allow pre releases, which is requiered to get the last version of Kabaret.
+        
+        ## Run
+        
+        >  pipenv run python -m libreflow.gui --host yourRedisHost --port 6379 --db 0 --cluster xxx --session xx
+        
+        
+        
+Keywords: kabaret cgwire kitsu gazu animation pipeline libreflow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

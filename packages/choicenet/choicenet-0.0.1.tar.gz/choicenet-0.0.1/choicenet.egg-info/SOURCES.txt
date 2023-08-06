@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+choicenet/__init__.py
+choicenet/_nbdev.py
+choicenet/core.py
+choicenet.egg-info/PKG-INFO
+choicenet.egg-info/SOURCES.txt
+choicenet.egg-info/dependency_links.txt
+choicenet.egg-info/entry_points.txt
+choicenet.egg-info/not-zip-safe
+choicenet.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pd_to_mssql/__init__.py
+pd_to_mssql/pd_to_mssql.py
+pd_to_mssql.egg-info/PKG-INFO
+pd_to_mssql.egg-info/SOURCES.txt
+pd_to_mssql.egg-info/dependency_links.txt
+pd_to_mssql.egg-info/requires.txt
+pd_to_mssql.egg-info/top_level.txt

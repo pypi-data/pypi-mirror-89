@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bajson/__init__.py
+bajson/exceptions.py
+bajson/libcsv.py
+bajson.egg-info/PKG-INFO
+bajson.egg-info/SOURCES.txt
+bajson.egg-info/dependency_links.txt
+bajson.egg-info/top_level.txt

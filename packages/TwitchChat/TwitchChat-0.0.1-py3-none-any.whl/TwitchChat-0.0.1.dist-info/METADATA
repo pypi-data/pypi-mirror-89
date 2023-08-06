@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: TwitchChat
+Version: 0.0.1
+Summary: A basic wrapper for the twitch chat API
+Home-page: https://github.com/SpitfireMk2b-san/TwitchChat
+Author: SpitfireMk2b-san
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TwitchChat
+
+TwitchChat is a simple wrapper for the Twitch Chat IRC API. It is somewhat similar in syntax to discord.py.
+
+##Documentation
+###Basic Example
+You can use this as a template.
+```
+import twitch
+
+client = twitch.user(OAUTH_TOKEN, USERNAME)
+
+def on_ready(streamer, name):
+    print(f"Logged into {streamer}'s chat as {name}!")
+
+def on_message(message):
+    print(message.__dict__)
+
+client.run("StreamerUsername", on_message=on_message, on_ready=on_ready)
+```
+

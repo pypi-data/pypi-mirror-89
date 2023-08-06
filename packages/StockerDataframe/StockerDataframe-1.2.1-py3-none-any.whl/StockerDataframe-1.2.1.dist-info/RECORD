@@ -1,0 +1,9 @@
+StockerDataframe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+StockerDataframe/gainers.py,sha256=6YP4HO7rjQuYIAhDq-7KHOnL08k9JMFAmOXgZ1ZAerM,2260
+StockerDataframe/historicaldata.py,sha256=jwTvjy8_AlmZGsP3I2g3pJAgL_FH79YB3Fc9IaCSfRQ,1147
+StockerDataframe/losers.py,sha256=tRVoOfIApWsfUSlg2QLbNY3xvV6_eOY13Wys6HvqYPM,2061
+StockerDataframe-1.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+StockerDataframe-1.2.1.dist-info/METADATA,sha256=kSvrR5VuYcuyTVwk2lblvGm4uu9MLKJ6sxytmx2MT_k,8002
+StockerDataframe-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+StockerDataframe-1.2.1.dist-info/top_level.txt,sha256=UqsqQeYjUCOMu8RcuNpmXohQCTm0mTzn-h50p2IwIr4,17
+StockerDataframe-1.2.1.dist-info/RECORD,,

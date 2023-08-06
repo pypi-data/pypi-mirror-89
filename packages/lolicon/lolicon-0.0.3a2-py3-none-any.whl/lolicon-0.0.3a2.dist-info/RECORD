@@ -1,0 +1,14 @@
+lolicon/__init__.py,sha256=V9LmGzQtshMKi7Xd_UED_69cJC-jmoj12zaIYHYVwnE,131
+lolicon/chemistry.py,sha256=C5G65aQIehfeoNgHeJddVxpHsm1Qk2FQjF7IfcAyWgI,4211
+lolicon/lolicon.py,sha256=qpLfqaylirRPPFKGyeuml_TYLLSF6EA1_hISjXGdrYM,59
+lolicon/utils.py,sha256=7JBQ3myq0BHH5Nqhng3sdc5koiqUH1UugJ-NRwgg_8s,59
+lolicon/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lolicon/data/pse.json,sha256=e_qirdj_WT5pi5otgpEZwwtIBTDZ5rthYg62UFansAI,60824
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chemistry.py,sha256=F0juvYLUx9-Nh2X_QkAwodmbxcHcTk5NTh_k7EMghx8,2572
+tests/test_lolicon.py,sha256=rcs8YZUt2X8lPF0s8wCUFeNbJI-Q7A1Q0mEOJpxlWe4,190
+lolicon-0.0.3a2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+lolicon-0.0.3a2.dist-info/METADATA,sha256=HonTY_jVlzTZTt-8kV479KaHKIkYDUrWmYeU6LGAdlM,3109
+lolicon-0.0.3a2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lolicon-0.0.3a2.dist-info/top_level.txt,sha256=i3c-p8Hb_nkebV_Ees-UOiWMNnPibXyKPY7WhCoUuss,14
+lolicon-0.0.3a2.dist-info/RECORD,,

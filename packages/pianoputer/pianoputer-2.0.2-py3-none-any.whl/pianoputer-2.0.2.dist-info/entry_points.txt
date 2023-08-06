@@ -1,0 +1,3 @@
+[console_scripts]
+pianoputer = pianoputer.pianoputer:play_pianoputer
+

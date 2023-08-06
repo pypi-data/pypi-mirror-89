@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rasa-chinese
+Version: 2.2.0
+Summary: A Chinese language extension package for Rasa
+Home-page: https://github.com/howl-anderson/rasa_chinese
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: rasa (~=2.2)
+
+UNKNOWN
+
+

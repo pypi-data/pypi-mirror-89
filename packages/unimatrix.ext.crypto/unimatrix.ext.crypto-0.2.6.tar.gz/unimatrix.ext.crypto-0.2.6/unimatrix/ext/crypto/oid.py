@@ -1,0 +1,15 @@
+"""Maps Object Identifiers (OIDs) to symbolic names."""
+
+
+HMACSHA224 = '1.2.840.113549.2.8'
+HMACSHA256 = '1.2.840.113549.2.9'
+HMACSHA384 = '1.2.840.113549.2.10'
+HMACSHA512 = '1.2.840.113549.2.11'
+
+OID_JOSE_ALGORITHMS = {
+    'HS256': HMACSHA256,
+    'HS384': HMACSHA384,
+    'HS512': HMACSHA512,
+}
+OID_JOSE_ALGORITHMS.update(
+    {y: x for x, y in list(dict.items(OID_JOSE_ALGORITHMS))})

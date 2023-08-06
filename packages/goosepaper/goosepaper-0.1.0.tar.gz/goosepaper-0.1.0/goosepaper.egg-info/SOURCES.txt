@@ -1,0 +1,8 @@
+README.md
+setup.py
+goosepaper.egg-info/PKG-INFO
+goosepaper.egg-info/SOURCES.txt
+goosepaper.egg-info/dependency_links.txt
+goosepaper.egg-info/requires.txt
+goosepaper.egg-info/top_level.txt
+powerbook/__init__.py

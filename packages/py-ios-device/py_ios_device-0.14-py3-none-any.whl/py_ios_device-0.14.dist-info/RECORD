@@ -1,0 +1,17 @@
+py_ios_device/py_ios_device.py,sha256=6-HYVYz4vxD4tOJ7j20zLVFseCWVahRO0KyVgafY90E,7985
+py_ios_device/src/demo/instrument_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_ios_device/src/demo/instrument_services/activity.py,sha256=DWv0TqyxVbFteV1yqOwF6zCeMH8D6ahSiuM30_g9Yts,967
+py_ios_device/src/demo/instrument_services/channel.py,sha256=ArOHM8b4qV5IBJR1m30_eCCDkFHNQqT3uz3FQ7CnO5k,879
+py_ios_device/src/demo/instrument_services/launch_app.py,sha256=mypERnNy5ybdzQcSvWDzUkWPYqlGZ-_QWcfWSteGaXg,885
+py_ios_device/src/demo/instrument_services/networking.py,sha256=zmFkuZi4ISykS-lCnDN1_6932s52AEFpgD9xueH-sDc,2948
+py_ios_device/src/demo/instrument_services/power.py,sha256=tq_K_FMfELz0WpXiPytLjB-n_TQ8zJYPvYTOJmMe8cQ,1405
+py_ios_device/src/demo/instrument_services/runningProcesses.py,sha256=1o1rDj6kkLDt4yb3TKZaSxhB6G9dZQmLGHKWjIvrW_4,720
+py_ios_device/src/demo/instrument_services/sysmontap.py,sha256=yx1bUr31FydzZnNmDAHCrFsKqCCsHT9KoerQprYkufY,1885
+py_ios_device/src/instrument/bpylist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_ios_device/src/instrument/bpylist/archiver.py,sha256=IIwMkBOrgQPEyt0Y17HCfPORaBc6H98RrFD1KT8jVI8,15269
+py_ios_device/util/exeption.py,sha256=QEQG1Lcm38Fw9C4XvFDShQciWCNmcdOdq4V2Sb3KOaY,143
+py_ios_device/util/utils.py,sha256=owDz6K7tTph5_g-dNtzVYmYlNCZgdWuMAtQ2G1Jp3dk,91
+py_ios_device-0.14.dist-info/METADATA,sha256=9wjXzWXwrQsRhp8r6E1Q8y1LjzRK3fDFG7w7nUwsGFk,285
+py_ios_device-0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_ios_device-0.14.dist-info/top_level.txt,sha256=DZXxM2GmTQQ5DI3kcMHVbadNd_olNHf5woYLHMe0LeU,14
+py_ios_device-0.14.dist-info/RECORD,,

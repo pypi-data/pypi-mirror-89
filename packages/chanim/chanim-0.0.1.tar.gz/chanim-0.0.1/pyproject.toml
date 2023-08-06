@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chanim"
+version = "0.0.1"
+description = "Addon for manim which makes drawing chemical figures easier."
+authors = ["kilacoda <kilacoda@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/raghavg123/chanim"
+keywords = ["chemistry", "animation", "manim", "latex"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+manim = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."manim.plugins"]
+"chanim"="chanim"

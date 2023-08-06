@@ -1,0 +1,10 @@
+django_spinproject/bin/enhance-dockerfile.py,sha256=jycCu3pcjgRu9FRf3ruokF7OZ4JhVCTU12E2eGnptEg,804
+django_spinproject/bin/enhance-makefile.py,sha256=qtP3IwBLXaSsXYeSLseS3gLREdQr6aH1TA7UZ-MUy8Y,606
+django_spinproject/bin/enhance-settings.py,sha256=hR7LKXfdSvJIMFPI7Im-dERe5rFvM4fkqf3YcHV2-DQ,5607
+django_spinproject/bin/enhance-srta.py,sha256=0dEL95_NWqiUlWW2fxI_B4rhMn1l8xhHs51kAHq_pY8,1433
+django_spinproject/bin/spinproject.py,sha256=6wEm8eU3WD-QRdNU2CFkFI_n8xFL84yT-IGNFJ7UusM,781
+django_spinproject-1.0.1.dist-info/entry_points.txt,sha256=SpibhiM-wswIH91k8ymvmpvIWD5WN5ThVMgVUW946Ak,78
+django_spinproject-1.0.1.dist-info/LICENSE,sha256=RnPjzYiBXRbTqfo8C3E_u65E3mO6xPuFD-ixYdBeo1w,1076
+django_spinproject-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_spinproject-1.0.1.dist-info/METADATA,sha256=jMVmD8caOhYC0Heqtv18J1b_rwU-rorS5_MKFr02e0w,2826
+django_spinproject-1.0.1.dist-info/RECORD,,

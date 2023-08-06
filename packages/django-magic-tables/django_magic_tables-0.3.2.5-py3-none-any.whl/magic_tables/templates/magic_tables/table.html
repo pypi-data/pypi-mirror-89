@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.4/css/responsive.bootstrap4.min.css">
+
+<table class="table {{ css_classes }}">
+    <thead>
+        {% for field in fields %}
+            <th>{{ field }}</th>
+        {% endfor %}
+    </thead>
+    <tbody>
+    {% for obj in dict_object_list %}
+        <tr>
+            {% for key, value in obj.items %}
+                <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+
+
+
+

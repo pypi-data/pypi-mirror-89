@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+mappyng/__init__.py
+mappyng/arithmedict.py
+mappyng/diagnosis.py
+mappyng/get.py
+mappyng/manip.py
+mappyng/my_partial_mongoquery.py
+mappyng/ot.py
+mappyng/special.py
+mappyng/to.py
+mappyng.egg-info/PKG-INFO
+mappyng.egg-info/SOURCES.txt
+mappyng.egg-info/dependency_links.txt
+mappyng.egg-info/not-zip-safe
+mappyng.egg-info/top_level.txt

@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: nestpay
+Version: 0.0.3
+Summary: Django nestpay odeme sistemine inteqraciya
+Home-page: https://github.com/CavidRzayev/nestpay_py
+Author: Cavid Rzayev
+Author-email: rzayev592@gmail.com
+License: UNKNOWN
+Description: 
+        # nestpay odeme sistemi ucun modul
+        
+        
+        
+        
+        
+        ```python
+        
+        
+        
+        
+        from payment.nestpay import NestPay
+        from payment.utils import *
+        from django.http import HttpResponse
+        from django.views.decorators.csrf import csrf_exempt
+        
+        
+        
+        
+        def payment(request):
+            ......
+            temp = NestPay(
+                clientId = '', # bank terefinden verilir
+                amount = '', # mebleg : 1.00 azn
+                oid = '', # order id unikdi
+                okUrl = '', # callback url success den sonra bura post gonderilir
+                failUrl = '', # error url 
+                rnd = microtime(),
+                storekey = '2', # bank terefinden verilir
+                storetype = '', # bank terefinden verilir
+                lang = 'en', # hansi dilde odeme sehvesine redirec edecek
+                islemtipi = 'Auth', # default 
+                hash = '', # hash edirik
+                refreshtime = '5', # sehveler arasinda redirect timeout u
+                instalment='', # taksid
+                currency = '944', # Azerbaycan manatinin kodu
+                post_url = 'https://entegrasyon.asseco-see.com.tr/fim/est3Dgate' # odeme sehivesi
+                )
+            data = temp.bank_data()
+            return HttpResponse(data)
+        
+        # callback yuxarda paymentde qeyd edeceyimiz okUrl di ve o url e bank post gonderir
+        @csrf_exempt
+        def callback(request):
+            ........
+            if request.method == 'POST':
+                data = request.POST
+                data['storekey'] = '' #bank terefinden verilir
+                result = Nestpay.data_result(**data)
+                return HttpResponse(result)
+            else:
+                return HttpResponse("Not found")
+        
+        
+        ````
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

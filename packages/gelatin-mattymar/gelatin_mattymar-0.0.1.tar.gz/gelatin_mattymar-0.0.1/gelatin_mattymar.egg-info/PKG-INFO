@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gelatin-mattymar
+Version: 0.0.1
+Summary: Gelatin Python Web Framework built for learning purposes.
+Home-page: UNKNOWN
+Author: Matt Maresca
+Author-email: mattmaresca@gmail.com
+License: MIT
+Description: Gelatin Python Web Framework built for learning purposes.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

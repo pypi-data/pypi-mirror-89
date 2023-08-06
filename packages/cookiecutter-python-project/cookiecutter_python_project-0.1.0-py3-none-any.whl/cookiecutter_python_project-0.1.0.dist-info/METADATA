@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cookiecutter-python-project
+Version: 0.1.0
+Summary: A Cookiecutter template for creating Python projects
+Home-page: https://github.com/lyz-code/repository-pattern
+Author: Lyz
+Author-email: lyz@riseup.net
+License: GNU General Public License v3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pypika
+Requires-Dist: pymysql
+Requires-Dist: yoyo-migrations
+
+# Repository Pattern
+
+[![Actions Status](https://github.com/lyz-code/repository-pattern/workflows/Python%20package/badge.svg)](https://github.com/lyz-code/repository-pattern/actions)
+
+Library to smooth the implementation of the repository pattern.
+
+## License
+
+GPLv3
+
+## Authors
+
+lyz-code
+
+

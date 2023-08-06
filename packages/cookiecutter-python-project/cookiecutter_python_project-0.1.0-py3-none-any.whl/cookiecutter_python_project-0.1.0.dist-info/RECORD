@@ -1,0 +1,10 @@
+repository-pattern/__init__.py,sha256=bNNHuWLy6gd5P7uk203Emcn8sBcdW_q9jiB_y6EODSU,703
+repository-pattern/config.py,sha256=gb6k3Cm-oMkyK9bB54tSYpm9xFifml3QFy0ejz-1xVw,64
+repository-pattern/adapters/__init__.py,sha256=2bIy7hg-zxJt4Y9NvDtiTVaBRD3gOW_jwO0iJ3-9Grc,123
+repository-pattern/entrypoints/__init__.py,sha256=ikV12ATeBYISsHGGHri3JkGTI-Q_YAQTsE9dSmkPNHs,903
+repository-pattern/model/__init__.py,sha256=2Z-AOauRSpe6TJ16Uel8v9QZRBvGwVi2mXsjyP9vCI8,86
+cookiecutter_python_project-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cookiecutter_python_project-0.1.0.dist-info/METADATA,sha256=MHbHS_TEs6HPxunvEY9OPNSFM9krB5z5w0bHzBb2e3c,1286
+cookiecutter_python_project-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cookiecutter_python_project-0.1.0.dist-info/top_level.txt,sha256=IxDd0q2qfD1l-WdYcISihWq_MlSCcjXGZl-ddK-4fQg,19
+cookiecutter_python_project-0.1.0.dist-info/RECORD,,

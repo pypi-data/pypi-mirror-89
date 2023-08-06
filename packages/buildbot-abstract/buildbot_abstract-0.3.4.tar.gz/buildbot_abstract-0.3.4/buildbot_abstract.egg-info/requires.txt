@@ -1,0 +1,11 @@
+buildbot[bundle]
+hvac
+names
+retry
+
+[dev]
+black
+autoflake
+isort
+mypy
+wheel

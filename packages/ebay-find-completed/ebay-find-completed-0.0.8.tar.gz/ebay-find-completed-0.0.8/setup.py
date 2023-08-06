@@ -1,0 +1,24 @@
+import setuptools
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="ebay-find-completed",
+    version="0.0.8",
+    author="Will Meyers",
+    description="eBay removed the very useful `findCompletedItems` endpoint from their api. Now we have to scrape their website. 😒",
+    long_description_content_type="text/markdown",
+    url="https://github.com/willmeyers/ebay-find-completed",
+    packages=["ebay_find_completed"],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.8',
+    install_requires=[
+        "pyppeteer",
+        "lxml"
+    ]
+)

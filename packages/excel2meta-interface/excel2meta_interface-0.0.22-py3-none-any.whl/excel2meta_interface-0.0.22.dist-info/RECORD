@@ -1,0 +1,17 @@
+excel2meta_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel2meta_interface/setup.py,sha256=ywfrT4zw1NBchh6eUN2ByHgl8gR8v63H0c-MsakRV_Q,1844
+excel2meta_interface/excel2json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel2meta_interface/excel2json/excel2references.py,sha256=949-1IqYnuYJGwUXHUeW6RgjG_FOfg4WtRl3m7mf-0I,22176
+excel2meta_interface/excel2json/reference2interface.py,sha256=lShR17lV_0gy0EQ2mmmrgZJrR7p8xeqNU6jmymfTgxQ,27423
+excel2meta_interface/json2edc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel2meta_interface/json2edc/create_metafiles_for_edc.py,sha256=uyvkEkusZcTmJDkMsPKRcoL-TDtbLa8Q9VvqdPC32g0,927
+excel2meta_interface/json2edc/upload_lineage_to_edc.py,sha256=4c4j2RkIyJoqRLMNL9B8k85DDAzaD9zrNoR9urqMrVs,1457
+excel2meta_interface/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excel2meta_interface/utils/helpers.py,sha256=0i6Omn7lZKxqTIr79oszHn5hHsdKoT7yPhKVaJhY4Mc,1372
+excel2meta_interface/utils/messages.py,sha256=HFzIA1sVkZ8kHwNIT5JHA3QgPHSEGhpkM8PSXumKPyQ,1440
+plugins/__init__.py,sha256=PsqtE_T084MVsMv47JyTQ3DK2CRZJ3Kd9Q_vnw02oZk,23
+excel2meta_interface-0.0.22.dist-info/LICENSE,sha256=2Pn3Gc8zcke19Rx52w3IYTDxYCdz1dKePKnY3Iip_pc,1061
+excel2meta_interface-0.0.22.dist-info/METADATA,sha256=O5EIvZ_yf5bGGDg2CYDZRMKeRjd_ZYfbIY3k5gEMI2M,872
+excel2meta_interface-0.0.22.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+excel2meta_interface-0.0.22.dist-info/top_level.txt,sha256=et9Wwv-5NxpGDSfjeyWJFxhMqb_9WRYJwQpvuCm8Oi4,29
+excel2meta_interface-0.0.22.dist-info/RECORD,,

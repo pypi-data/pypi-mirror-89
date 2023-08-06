@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: plugp100
+Version: 0.1.3
+Summary: Useful tools to work with Elastic stack in Python
+Home-page: UNKNOWN
+Author: @petretiandrea
+Author-email: andreapetreti.dev@gmail.com
+License: GPL3
+Keywords: Tapo,P100
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.10)
+Requires-Dist: jsons (==1.3.0)
+Requires-Dist: pkcs7 (==0.1.2)
+Requires-Dist: pycryptodome (==3.9.8)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: typish (==1.9.1)
+Requires-Dist: urllib3 (==1.25.10)
+
+# tapo-p100-python
+Work in progress implementation of tapo protocol in python.
+
+
+
+To do list
+
+- [x] Handshake
+- [x] Encrypt data
+- [x] Login request
+- [x] Decrypt data
+- [x] Change state
+
+# How to install it (Linux)
+1. Make venv: `python3 -m venv venv`
+2. Activate venv: `source venv/bin/activate`
+3. Install wheel: `pip install wheel`
+4. Install requirements `pip install -r req.txt`
+
+# How to install it (Windows)
+TODO
+
+# How to use it
+```
+usage: main.py [-h] TPLINK_EMAIL TPLINK_PASS ADDR STATE
+
+Change plug state.
+
+positional arguments:
+  TPLINK_EMAIL  Your TPLink account email
+  TPLINK_PASS   Your TPLink account password
+  ADDR          Address of your plug (ex. 192.168.2.22)
+  STATE         New state of the plug (on=1 off=0)
+
+optional arguments:
+  -h, --help    show this help message and exit
+```
+
+Example: `python main.py email@gmail.com Password123 192.168.137.135 1`
+

@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: s3200
+Version: 0.0.2
+Summary: A Python package for controlling the Fröling heating system (S3200) over the maintenance interface
+Home-page: https://github.com/cbasix/s3200
+Author: cbasix
+Author-email: cbasix@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+
+s3200
+=====
+
+A Python3 package for controlling the Fröling heating system with S3200 lambdatronic control over the maintenance interface.
+
+State: Beta
+
+Implemented: Reading and writing all values.
+Not Implemented: force_mode and set_time_slot
+
+
+Code Example:
+```python
+  from s3200.obj import S3200()
+
+  s = S3200("/dev/ttyS0")
+
+  temperature = s.get_value('boiler_1_temperature')
+  print('Temperature: {0}'.format(str(temperature)))
+
+  status = s.get_status()
+  print('Status: {0}'.format(status))
+```
+
+
+Output:
+```
+  Temperature: 42.5
+  Status: STÖRUNG
+```
+
+

@@ -1,0 +1,17 @@
+django_rest_fast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rest_fast/apps.py,sha256=SASOA7IZVFnb69dDOav2NC_kQDIamdyCIqLqzhu44H0,105
+django_rest_fast/conf.py,sha256=5zVeNk7WIEbK_CowEjleAujDRhZyetrFXCLmQHa7V7E,335
+django_rest_fast/decorators.py,sha256=XZ48f-djjFFX7KW2dFgF-tAicgbhL1hSfzFQAKNGrOo,1000
+django_rest_fast/format.py,sha256=sFA9JIxAH5xtRcD0zHDT-jKbQ_ow9hwWpaaSmkkAosI,602
+django_rest_fast/forms.py,sha256=Stv6ooTtILqPUCAWapuL3vNlnLLCnvCFmLQTCqU69_8,1401
+django_rest_fast/paths.py,sha256=7XtykPURnJ9B3r2fh0zgsNb2s8YwYP_Jpdg495YMc6M,788
+django_rest_fast/schema.py,sha256=VsNxjZECeNIWBJvg39n5oXzMVxz2q7Pa6NTXCeFzmf8,1543
+django_rest_fast/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_rest_fast/urls.py,sha256=6pCGP1e_0Or7wKL6wcSObRVkfyjlRpIqaulECED0SW4,174
+django_rest_fast/utils.py,sha256=o9KRCW_p4tsshOUh9Q2nnTPWM1eClNH2AWeHbmUGtmE,309
+django_rest_fast/views.py,sha256=iUwPtIRI8ZlVcQFonJdmQ3r0UOpFd6GXDVSnXXZUX2Q,357
+django_rest_fast-0.0.3.dist-info/LICENSE.txt,sha256=bL2T6YqKQ8Prctkd7OZctH97HzIqHWtQ4NSpCAhmuNg,1071
+django_rest_fast-0.0.3.dist-info/METADATA,sha256=HoNNpuWIIKiGKvpQvxJ9_5B1nUuRMb8Ygll7cSaiKo4,517
+django_rest_fast-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_rest_fast-0.0.3.dist-info/top_level.txt,sha256=8OGFOtvPvEgp6yYxBeyIGnRhiMAX5hV-TlPOb-mIMeY,17
+django_rest_fast-0.0.3.dist-info/RECORD,,

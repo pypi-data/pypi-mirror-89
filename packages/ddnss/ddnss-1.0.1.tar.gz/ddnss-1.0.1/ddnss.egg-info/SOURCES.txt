@@ -1,0 +1,8 @@
+README.md
+ddnss.py
+setup.py
+ddnss.egg-info/PKG-INFO
+ddnss.egg-info/SOURCES.txt
+ddnss.egg-info/dependency_links.txt
+ddnss.egg-info/entry_points.txt
+ddnss.egg-info/top_level.txt

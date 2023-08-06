@@ -1,0 +1,12 @@
+README.md
+setup.py
+kittenmedia/__init__.py
+kittenmedia/kmedia.py
+kittenmedia.egg-info/PKG-INFO
+kittenmedia.egg-info/SOURCES.txt
+kittenmedia.egg-info/dependency_links.txt
+kittenmedia.egg-info/requires.txt
+kittenmedia.egg-info/top_level.txt
+test/test_face.py
+test/test_speech.py
+test/test_start.py

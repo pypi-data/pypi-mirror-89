@@ -1,0 +1,5 @@
+spacy==2.1.0
+transformers>=3.3.0
+numpy
+fuzzywuzzy>=0.18.0
+neuralcoref>=4.0.0

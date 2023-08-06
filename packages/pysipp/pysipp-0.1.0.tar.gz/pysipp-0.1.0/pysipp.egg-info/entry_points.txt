@@ -1,0 +1,3 @@
+[console_scripts]
+sippfmt = pysipp.cli.sippfmt:main
+

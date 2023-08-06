@@ -1,0 +1,6 @@
+--- -	2020-12-24 12:19:37.876159910 +0000
++++ results/bigxml-dtd.out	2020-12-24 12:18:44.395400357 +0000
+@@ -1 +1 @@
+--:6553x
++-:7000x
+XFAIL examples/bigxml-dtd (exit status: 1)

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyfahrplan
+Version: 1.0.0
+Summary: A CCC Fahrplan CLI
+Author: Sascha
+Author-email: saschalalala@github.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: python-dateutil (>=2.8.1,<3.0.0)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
+Requires-Dist: requests_cache (>=0.5.2,<0.6.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)

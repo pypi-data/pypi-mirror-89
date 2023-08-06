@@ -1,0 +1,3 @@
+[console_scripts]
+TestingTestin123 = dishastowork.aqws:main
+

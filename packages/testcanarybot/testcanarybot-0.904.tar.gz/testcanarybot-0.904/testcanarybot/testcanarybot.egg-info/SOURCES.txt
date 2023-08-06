@@ -1,0 +1,7 @@
+README.md
+setup.py
+testcanarybot/testcanarybot.egg-info/PKG-INFO
+testcanarybot/testcanarybot.egg-info/SOURCES.txt
+testcanarybot/testcanarybot.egg-info/dependency_links.txt
+testcanarybot/testcanarybot.egg-info/requires.txt
+testcanarybot/testcanarybot.egg-info/top_level.txt

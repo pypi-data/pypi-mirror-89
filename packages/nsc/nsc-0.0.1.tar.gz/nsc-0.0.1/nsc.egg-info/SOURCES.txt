@@ -1,0 +1,15 @@
+README.md
+setup.py
+nsc/__init__.py
+nsc/__version__.py
+nsc.egg-info/PKG-INFO
+nsc.egg-info/SOURCES.txt
+nsc.egg-info/dependency_links.txt
+nsc.egg-info/requires.txt
+nsc.egg-info/top_level.txt
+nsc/distribution/__init__.py
+nsc/distribution/coupled_distribution.py
+nsc/distribution/coupled_expotential.py
+nsc/distribution/coupled_kullback_leibler.py
+nsc/distribution/coupled_normal.py
+nsc/distribution/multivariate_coupled_normal.py

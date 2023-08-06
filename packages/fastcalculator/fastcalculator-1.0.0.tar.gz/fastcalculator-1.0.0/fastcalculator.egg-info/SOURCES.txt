@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+fastcalculator/__init__.py
+fastcalculator.egg-info/PKG-INFO
+fastcalculator.egg-info/SOURCES.txt
+fastcalculator.egg-info/dependency_links.txt
+fastcalculator.egg-info/top_level.txt

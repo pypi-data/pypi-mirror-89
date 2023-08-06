@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TAcharts
+Version: 0.0.28
+Summary: TA Charting tool
+Home-page: https://github.com/carlfarterson/TAcharts
+Author: Carl Farterson
+Author-email: carlfarterson@gmail.com
+License: MIT
+Description: Apply popular TA tools and charts to candlestick data with NumPy.
+Keywords: TA,technical-analysis,mathematics,algorithms,trading,statistics,crypto,cryptocurrency,ohlc,ohlcv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+cython>=0.15.1
+sympy<=1.8dev,>=1.7
+django<3.2,>=3.0
+mpmath>=1.1.0
+numpy
+palettable
+pint
+python-dateutil
+llvmlite
+requests
+scikit-image
+wordcloud

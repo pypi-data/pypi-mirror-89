@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: gigatronapi
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Darko Dekan
+Author-email: darko.dekan@protonmail.com
+License: The Unlicense (Unlicense)
+Description: # Gigatron Api Wrapper
+        
+        
+Keywords: gigatron
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3.9

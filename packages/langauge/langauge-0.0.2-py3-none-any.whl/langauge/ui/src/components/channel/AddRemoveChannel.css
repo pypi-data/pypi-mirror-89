@@ -1,0 +1,25 @@
+.channel-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.channel-button {
+  margin: 0 10px 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 8px -6px rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+.channel-button:hover {
+  background-color: #bdbdbd;
+}
+
+.channel-button {
+  font-size: 1.2rem;
+}

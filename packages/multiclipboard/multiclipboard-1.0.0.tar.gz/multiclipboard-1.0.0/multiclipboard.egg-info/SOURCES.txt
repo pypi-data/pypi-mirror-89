@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+multiclipboard/__init__.py
+multiclipboard/multiclipboard.py
+multiclipboard.egg-info/PKG-INFO
+multiclipboard.egg-info/SOURCES.txt
+multiclipboard.egg-info/dependency_links.txt
+multiclipboard.egg-info/requires.txt
+multiclipboard.egg-info/top_level.txt

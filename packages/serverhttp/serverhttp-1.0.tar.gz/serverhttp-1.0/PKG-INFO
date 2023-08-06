@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: serverhttp
+Version: 1.0
+Summary: A simple HTTP server
+Home-page: UNKNOWN
+Author: Allen
+Author-email: author@example.com
+License: UNKNOWN
+Description: HTTP-Server
+        A Simple HTTP Server.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

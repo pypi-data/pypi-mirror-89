@@ -1,0 +1,2 @@
+alibabacloud-tea-py2
+alibabacloud-tea-util-py2>=0.0.1

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+iqradre/__init__.py
+iqradre.egg-info/PKG-INFO
+iqradre.egg-info/SOURCES.txt
+iqradre.egg-info/dependency_links.txt
+iqradre.egg-info/requires.txt
+iqradre.egg-info/top_level.txt

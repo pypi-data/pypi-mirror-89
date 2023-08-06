@@ -1,0 +1,8 @@
+CREATE DATABASE squeaknode;
+
+\connect squeaknode;
+
+CREATE SCHEMA IF NOT EXISTS mainnet;
+CREATE SCHEMA IF NOT EXISTS testnet;
+CREATE SCHEMA IF NOT EXISTS regtest;
+CREATE SCHEMA IF NOT EXISTS simnet;

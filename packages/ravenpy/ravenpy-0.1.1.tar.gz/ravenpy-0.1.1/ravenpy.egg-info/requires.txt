@@ -1,0 +1,7 @@
+Click~=7.0
+gdal==3.0.4
+rasterio
+statsmodels
+wheel
+xarray==0.16
+xclim==0.18

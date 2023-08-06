@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dada_serde/__init__.py
+dada_serde.egg-info/PKG-INFO
+dada_serde.egg-info/SOURCES.txt
+dada_serde.egg-info/dependency_links.txt
+dada_serde.egg-info/requires.txt
+dada_serde.egg-info/top_level.txt
+tests/__init__.py
+tests/test_serde.py

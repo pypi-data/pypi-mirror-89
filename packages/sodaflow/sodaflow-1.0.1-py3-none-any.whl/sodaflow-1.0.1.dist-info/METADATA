@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sodaflow
+Version: 1.0.1
+Summary: Greet someone
+Home-page: UNKNOWN
+Author: agilesoda
+Author-email: agilesoda@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: requests
+
+UNKNOWN
+
+

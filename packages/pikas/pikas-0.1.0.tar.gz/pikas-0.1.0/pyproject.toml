@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pikas"
+version = "0.1.0"
+description = "A machine learning framework for exploring tree ensemble algorithms."
+authors = ["Stephanos Stephani <stephanos.stephani@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scikit-learn = "^0.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+jupyter = "^1.0.0"
+coverage = "^5.3.1"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

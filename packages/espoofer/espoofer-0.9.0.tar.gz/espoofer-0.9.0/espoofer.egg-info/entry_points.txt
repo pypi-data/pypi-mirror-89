@@ -1,0 +1,3 @@
+[console_scripts]
+espoofer = espoofer.espoofer:main
+

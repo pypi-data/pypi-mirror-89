@@ -1,0 +1,15 @@
+compreffor/__init__.py,sha256=JcyLEKlgch8ee-CS99X_2yuo5NY9nxo4PZ-iyMUiOmw,6794
+compreffor/__main__.py,sha256=IQ2U673chjl0xbCZ0-v0Nx563BCu4w1BnHSQ5hIC8Ag,5575
+compreffor/_compreffor.cp37-win32.pyd,sha256=9LGxcbB9aMx3i1xrWt_9Y13FecR4gb45ZhNx-DSTlx4,50688
+compreffor/cxxCompressor.py,sha256=2tIv3idInwb1yWUJH2NAbE5AC0wZcrB9FrF23BQtNfo,7126
+compreffor/pyCompressor.py,sha256=vdCB4fxaIN3qziNKYkQ7qtzc3XbmhVUXdyE3WXAg704,41386
+compreffor/test/__init__.py,sha256=VItaxHthpLILKD4jyrqpzWdK_SzAJEuPOL685Vsvzgw,612
+compreffor/test/dummy.py,sha256=EanotTfzGIrx0d7OLbQWQCF1lIJcngF4LuaJFZ0F-SU,1728
+compreffor/test/pyCompressor_test.py,sha256=p_zj51RgQIlx6O46wKxTPZuWW1q_61tV8be1tJgWRO8,10643
+compreffor/test/util.py,sha256=ShJJAFo7GnWznxFxbMTlPMtCIFkRNOH6zGK_koqKMb8,4389
+compreffor-0.5.1.dev0.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+compreffor-0.5.1.dev0.dist-info/METADATA,sha256=yuGIVT7PM-Tn_pRLnko9A0nXV3tPdhYMcCZ9iUQVcoE,944
+compreffor-0.5.1.dev0.dist-info/WHEEL,sha256=HMboZ8ZR71bu96oAB49ix1AoR5WMLRAlp0J7XJ13Vok,97
+compreffor-0.5.1.dev0.dist-info/entry_points.txt,sha256=XfN_v5r-wkc6LSma3qYpOqO1CBpL3PhO_XW8FZi_GlY,57
+compreffor-0.5.1.dev0.dist-info/top_level.txt,sha256=GAK0vNsy8JVj63FK4ivzXeT1rEYst1L9kGlACjqWvX0,11
+compreffor-0.5.1.dev0.dist-info/RECORD,,

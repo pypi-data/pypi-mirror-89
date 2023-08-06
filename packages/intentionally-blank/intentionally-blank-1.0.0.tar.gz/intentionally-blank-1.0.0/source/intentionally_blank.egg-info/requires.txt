@@ -1,0 +1,14 @@
+click
+exit_codes
+stevedore
+asq
+
+[dev]
+black
+bumpversion
+twine
+
+[test]
+hypothesis
+pytest
+tox

@@ -1,0 +1,11 @@
+LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+treefrog/__init__.py,sha256=Wvy5RtxqFhoGlr8A-zU8E2GBUewVVjivsX3NOH8IXZQ,56
+treefrog/__main__.py,sha256=sAzhLaFGnjkJ2Ug7uRO6Lk3E_kDlPNpkngfxXBKKEKI,1524
+treefrog/format.py,sha256=B8z1sJ8scYbBRYkik27Cs6MuyfbuOk2F6YB136dNas8,4051
+treefrog/hierarchy.py,sha256=A91PF_Wvb2SNIMqjx_Es25DFKbtAiMiMOZzMLQce0n8,2456
+treefrog/tree.py,sha256=lC59vhFD7tpg9ggs1WFaPCyeEMv60xUoCQkc76D42Bs,4585
+treefrog-0.1.0.dist-info/entry_points.txt,sha256=7GFXylCDpv1Mz2mdyL-oQquDNgiKdRjQVdRQXDlc37k,51
+treefrog-0.1.0.dist-info/LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+treefrog-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+treefrog-0.1.0.dist-info/METADATA,sha256=Cq1BhCcuFve3k98lT1LJUM2bgLA3knN7sp0GsnQbS68,7290
+treefrog-0.1.0.dist-info/RECORD,,

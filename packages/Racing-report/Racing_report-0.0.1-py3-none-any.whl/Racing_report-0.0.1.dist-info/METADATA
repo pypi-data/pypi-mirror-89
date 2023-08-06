@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Racing-report
+Version: 0.0.1
+Summary: Report of Monaco 2018 RacingЗадание
+Home-page: https://git.foxminded.com.ua/Woiyter/task_6
+Author: Woiyter
+Author-email: iseefire3009@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Program reads data from 2 files, order racers by time and print report that shows
+the top 15 racers, and the rest after underline.
+
+Usage:
+> py main.py --files <folder_path> --order=[--asc | --desc]
+
+shows list of drivers and optional order (default order is asc)
+
+> py main.py --files <folder_path> driver вЂњSebastian VettelвЂќ
+
+shows statistic about driver
+

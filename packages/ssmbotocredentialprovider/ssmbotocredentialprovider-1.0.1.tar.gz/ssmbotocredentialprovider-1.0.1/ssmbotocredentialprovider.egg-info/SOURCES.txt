@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+bin/fakemetadata-server.py
+ssmbotocredentialprovider/FakeMetadata.py
+ssmbotocredentialprovider/__init__.py
+ssmbotocredentialprovider.egg-info/PKG-INFO
+ssmbotocredentialprovider.egg-info/SOURCES.txt
+ssmbotocredentialprovider.egg-info/dependency_links.txt
+ssmbotocredentialprovider.egg-info/requires.txt
+ssmbotocredentialprovider.egg-info/top_level.txt
+test/test_iotbotocredentialprovider.py
+test/test_iotbotocredentialprovider_aws.py
+test/test_iotbotocredentialprovider_fakemetadata.py
+test/test_ssmbotocredentialprovider.py
+test/test_ssmbotocredentialprovider_fakemetadata.py

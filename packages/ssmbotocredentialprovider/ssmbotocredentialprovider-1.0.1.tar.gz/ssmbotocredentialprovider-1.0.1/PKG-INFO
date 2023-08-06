@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ssmbotocredentialprovider
+Version: 1.0.1
+Summary: AWS SSM Credential Provider: create boto sessions which obtain and renew credentials from an AWS SSM device certificate
+Home-page: https://github.com/craighagan/ssmbotocredentialprovider
+Author: Craig I. Hagan
+Author-email: hagan@cih.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

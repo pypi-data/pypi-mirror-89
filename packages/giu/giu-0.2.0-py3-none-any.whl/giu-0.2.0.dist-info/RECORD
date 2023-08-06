@@ -1,0 +1,10 @@
+giu/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+giu/cli.py,sha256=2hT0-Qnz-qPWUVvccdeBD7YZ4bnKG75Y5trby20dioU,1650
+giu/config.py,sha256=dpx82JWuR0fo_R6Yrqo4IBVuyzYBtZREkgoiExzbSlM,799
+giu/livedns.py,sha256=1sriLUz9dS2LNZf-phd5_fbxpF0lzyyt4FNw6xfRiow,8531
+giu/resolver.py,sha256=i9daKAJF0UUn6z_ok5EVqjIVEbdn22pE0ssQ57VyyxQ,2055
+giu-0.2.0.dist-info/entry_points.txt,sha256=pE0EfuAjXPlJHanGwfegdH_9LdCS0lLeMqYdz7GiSlw,35
+giu-0.2.0.dist-info/LICENSE,sha256=QDhISj3sgDHI7a3vb9H9TAx1L9bzNGrcw5VmbViK-64,1069
+giu-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+giu-0.2.0.dist-info/METADATA,sha256=06qXn6yoK37n0yKwzOC1X-K_Ph0Xiaz5EU9rpasNsA8,2599
+giu-0.2.0.dist-info/RECORD,,

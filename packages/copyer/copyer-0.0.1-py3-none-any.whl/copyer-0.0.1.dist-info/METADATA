@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: copyer
+Version: 0.0.1
+Summary: Information accessors (a layer on top of data accessors).
+Home-page: https://github.com/thorwhalen/ut/tree/master/copyer
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# copyer
+Information accessors (a layer on top of data accessors).
+
+
+To install:	```pip install copyer```
+
+

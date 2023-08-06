@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ptrading
+Version: 0.0.1.0a3
+Summary: Trading Tools written on top of the Alpaca API
+Home-page: https://github.com/abhishekpratapa/ptrading
+Author: Abhishek Pratapa
+Author-email: abhishekpratapa@gmail.com
+License: BSD-3-Clause
+Description: # PTrading
+        
+        [![Build Status](https://travis-ci.com/abhishekpratapa/ptrading.svg?branch=master)](https://travis-ci.com/abhishekpratapa/ptrading)
+        [![codecov](https://codecov.io/gh/abhishekpratapa/ptrading/branch/master/graph/badge.svg?token=nWE1X14slK)](https://codecov.io/gh/abhishekpratapa/ptrading)
+        [![Python Versions](https://img.shields.io/pypi/pyversions/ptrading.svg)](#)
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown

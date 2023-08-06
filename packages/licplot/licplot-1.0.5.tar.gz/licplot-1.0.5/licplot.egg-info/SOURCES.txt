@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+licplot/lic_internal.c
+licplot/lic_internal.pyx
+licplot.egg-info/PKG-INFO
+licplot.egg-info/SOURCES.txt
+licplot.egg-info/dependency_links.txt
+licplot.egg-info/not-zip-safe
+licplot.egg-info/requires.txt
+licplot.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+visualiser/AudioBar.py
+visualiser/Colours.py
+visualiser/Visualiser.py
+visualiser/__init__.py
+visualiser.egg-info/PKG-INFO
+visualiser.egg-info/SOURCES.txt
+visualiser.egg-info/dependency_links.txt
+visualiser.egg-info/requires.txt
+visualiser.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+README.rst
+setup.py
+morefunc.egg-info/PKG-INFO
+morefunc.egg-info/SOURCES.txt
+morefunc.egg-info/dependency_links.txt
+morefunc.egg-info/top_level.txt

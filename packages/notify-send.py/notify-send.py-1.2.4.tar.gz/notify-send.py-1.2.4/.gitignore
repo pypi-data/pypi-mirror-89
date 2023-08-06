@@ -1,0 +1,8 @@
+# Emacs
+*~
+*\#
+
+UNKNOWN.egg-info/
+build/
+dist/
+venv/

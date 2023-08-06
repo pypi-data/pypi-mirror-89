@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pre-notifier
+Version: 0.1.11
+Summary: This tool provides you ability to send yourself information about looong executed command when it is done. Information will be sent using Telegram Bot, which you can generate for yourself with Telegram BotFather.
+Author: Ivan Kuznetsov
+Author-email: tikerlade@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-telegram-bot (>=13.1,<14.0)
+Requires-Dist: telebot (>=0.0.4,<0.0.5)
+Description-Content-Type: text/markdown
+
+# Notifier
+
+This tool provides you ability to send yourself information about looong executed command when it is done. Information will be sent using Telegram Bot, which you can generate for yourself with Telegram BotFather.
+
+To run this tool do the following:
+```shell
+>>> pip install pre_notifier
+>>> pre_notifier [you_command here]
+```

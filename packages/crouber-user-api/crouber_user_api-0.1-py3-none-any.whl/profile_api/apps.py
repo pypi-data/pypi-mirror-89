@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class ProfileApiConfig(AppConfig):
+    name = 'profile_api'
+
+    def ready(self):
+        from . import signals  # noqa: F401

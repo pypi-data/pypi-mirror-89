@@ -1,0 +1,29 @@
+.buttons-div {
+  height: 250px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+}
+
+.button-generic {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin: 2px 0;
+  color: #3483ed;
+}
+
+.button-generic:hover {
+  color: #7aadf1;
+}
+
+@media screen and (max-width: 1195px) {
+  .buttons-div {
+    height: auto;
+    width: auto;
+    margin: 0 auto 10px auto;
+    flex-flow: row nowrap;
+  }
+}

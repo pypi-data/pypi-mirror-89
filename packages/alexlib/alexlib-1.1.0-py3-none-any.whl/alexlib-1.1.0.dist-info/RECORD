@@ -1,0 +1,10 @@
+alexlib/__init__.py,sha256=e-iW4XZG1B6t_HLSDZtE3_dSQYVyZ0314SlpWwPKDHs,237
+alexlib/deeplearning.py,sha256=-NXUnpzxmCu6wUmrkT4ThvHvBK5IJVGLmHlpa4DaXTU,32306
+alexlib/deeplearning_torch.py,sha256=OFRW72kUFGBlWjwilqXW0B7IplHHor1PgJTKhUpqXKg,9382
+alexlib/history.py,sha256=06y3Dz1eQtO-HSi5BPtyVTaMfOYZGmJJsWHI4J24AYc,3197
+alexlib/miscellaneous.py,sha256=9YWu1WfJvxNdni75SCT4T85h49GyGN54-nQGu7hZoOc,1868
+alexlib/toolbox.py,sha256=GWPkgbBmH6Q5McQ5IIGgyqM0zjyz-wBMnlHehMZQRvI,111718
+alexlib-1.1.0.dist-info/METADATA,sha256=q6Y-9f3_MdLujtBl3IpmmAlOxTSmk54gWGcJHSzR5Xc,4592
+alexlib-1.1.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+alexlib-1.1.0.dist-info/top_level.txt,sha256=r3w8xzmTaaHfR4VAXLfuyqmwxFpum_hdJmn7imtcEDU,48
+alexlib-1.1.0.dist-info/RECORD,,

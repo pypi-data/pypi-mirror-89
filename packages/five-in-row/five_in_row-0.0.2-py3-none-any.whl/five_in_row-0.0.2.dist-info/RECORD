@@ -1,0 +1,9 @@
+five_in_row/__init__.py,sha256=_Hl2G1udsgVppjP2fTBphg2Xy28qoFn3aZ-mw2U5-bY,61
+five_in_row/analysis.py,sha256=btWKucMu2AewDhHUHHBPJQp6RNdVoGSw8gqYwbo9M-g,2788
+five_in_row/client.py,sha256=rXU8jiEiFSpnHYq_uN-E5pwil3Waqg5tHX7qKv0TD9s,1606
+five_in_row/model.py,sha256=AqZIa2fp5bjumDCRdPXvh2xMV4Xb_IXF-LMTLC1Gz-c,4537
+five_in_row/types.py,sha256=vyMtYsOx-Vaojb__kujlv1LylmcsPFTVYsFhSJ5hRRk,171
+five_in_row-0.0.2.dist-info/METADATA,sha256=0IqljHP2rPM0R7Yej9iWxad1BL7jpWEPptQRdrqwJJ0,2660
+five_in_row-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+five_in_row-0.0.2.dist-info/top_level.txt,sha256=XLr1zQXBLrOEZO7SrPb83yYWCORogdP_xqcHlqjwpOQ,12
+five_in_row-0.0.2.dist-info/RECORD,,

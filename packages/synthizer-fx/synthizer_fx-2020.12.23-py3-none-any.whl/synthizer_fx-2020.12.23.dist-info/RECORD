@@ -1,0 +1,15 @@
+synthizer_fx/__init__.py,sha256=Vd7-fT3sMJRhIpDcNEteXI-RcnmnO9jYUSSBCY8Fgpo,81
+synthizer_fx/main.py,sha256=fufGWpElXyLbI3qId9ICU97dj22rewN1c6pXa0Osjg0,473
+synthizer_fx/reverb.py,sha256=6npAFrCZFHQDQcX9YUGekTQVGp68pTrkkDUCGYS1cdM,1862
+synthizer_fx/gui/__init__.py,sha256=21AFch9_6aruGpNsuejqPc0LwptJv0rrEidK5kQLjdM,69
+synthizer_fx/gui/numeric_ctrl.py,sha256=XHXs8c59hBHG6RPNKzhrDjLvmj6VEJkT7b4GoAMbLG0,3169
+synthizer_fx/gui/reverb.py,sha256=24iNvXmig8v9BgtE5v8iS-vj8zonyLcfz-xiyjodgqo,12197
+synthizer_fx/gui/setting.py,sha256=P3DwFK7tLNaLdST5UDh5T2SVSWiPTit6Dr5fRmrwMBc,364
+synthizer_fx-2020.12.23.dist-info/AUTHORS,sha256=k4MUuiv7QUrXh2oiY_xXY5XzoTdGzT79l4UagAGY6yA,44
+synthizer_fx-2020.12.23.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+synthizer_fx-2020.12.23.dist-info/METADATA,sha256=y8HF3jN7VQg9E5kUwS2oOq6EkzcAbtCnhmPQDDnXPuI,388
+synthizer_fx-2020.12.23.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+synthizer_fx-2020.12.23.dist-info/entry_points.txt,sha256=ep-R5azQKemJZCFlx-l-g0TPMYI2_wbIk3JoWDhyN1w,63
+synthizer_fx-2020.12.23.dist-info/pbr.json,sha256=lR8NvYqgM0y-2jT-rJI1NCvIgxFqMSDukjXnSdMif8c,47
+synthizer_fx-2020.12.23.dist-info/top_level.txt,sha256=JH5DuaUWk14XLhlnGlluqCRm8EUYfJwb-A0fmpBhOWc,13
+synthizer_fx-2020.12.23.dist-info/RECORD,,

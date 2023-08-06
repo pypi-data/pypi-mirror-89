@@ -1,0 +1,77 @@
+#!python
+
+import argparse
+import configparser
+import json
+
+from awsdeployer.__apigateway.Wrapper import ApiWrapper
+
+
+class AWSApiGatewayDeployer:
+    def __init__(self, aws_config, api_configs, standard_responses, extended_responses):
+        self.api_wrapper = ApiWrapper(aws_config, standard_responses, extended_responses)
+        self.api_configs = api_configs
+
+    def create_method(self, path, method):
+        if path not in self.api_configs or method not in self.api_configs[path]:
+            raise ValueError('Missing config for requested method and path')
+        method_configs = self.api_configs[path][method]
+        self.api_wrapper.create_method(path, method, method_configs)
+
+        # deploy changes
+        self.api_wrapper.deploy_api()
+
+    def create_full_api(self):
+        for resource in api_configs.keys():
+            self.api_wrapper.create_resource(resource)
+            for method in self.api_configs[resource].keys():
+                self.create_method(resource, method)
+
+        # deploy changes
+        self.api_wrapper.deploy_api()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--config-file', default='awsdeployer_api.json', metavar='config_file',
+                        help="JSON deployment configuration file")
+    parser.add_argument('-i', '--account-config', default='awsdeployer.ini', metavar='account_file',
+                        help="AWS account configuration file")
+
+    parser.add_argument('method', nargs='?')
+    parser.add_argument('path', nargs='?')
+
+    opts = parser.add_mutually_exclusive_group()
+    # TODO this must come in a file for persistance
+    opts.add_argument('-s', '--no-standard', dest='standard_responses', action='store_false', help='Exclude standard HTTP response set (only "common" deployed)')
+    opts.add_argument('-e', '--extended-responses', action='store_true', help='')
+
+    args = parser.parse_args()
+
+    if bool(args.path) ^ bool(args.method):
+        parser.error('Must specify both METHOD and PATH, or neither')
+
+    # read account configs
+    config = configparser.ConfigParser()
+    config.read(args.account_config)
+
+    aws_config = {
+        'region': config['ACCOUNT']['region'],
+        'access_key': config['ACCOUNT']['access_key'],
+        'secret_key': config['ACCOUNT']['secret_key'],
+        'account_id': config['ACCOUNT']['account_id'],
+
+        'api_id': config['API_GATEWAY']['api_id'],
+        'stage': config['API_GATEWAY']['stage']
+    }
+
+    with open(args.config_file) as json_file:
+        api_configs = json.load(json_file)
+
+    api_gateway = AWSApiGatewayDeployer(aws_config, api_configs, args.standard_responses, args.extended_responses)
+
+    # interpret terminal input
+    if not args.method and not args.path:
+        api_gateway.create_full_api()
+    else:
+        api_gateway.create_method(args.path, args.method)

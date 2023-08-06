@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: whaler
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/treebeardtech/whaler
+License: Apache-2.0
+Author: alex-treebeard
+Author-email: alex@treebeard.io
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: humanfriendly (>=9.1,<10.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: rich (>=9.5.1,<10.0.0)
+Description-Content-Type: text/markdown
+
+# whaler
+
+A visual disk usage analyser for making docker images smaller
+

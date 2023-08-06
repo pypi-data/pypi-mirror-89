@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: monomer
+Version: 0.0.2
+Summary: Use dataclasses to define Glue Data Catelog
+Home-page: https://gitlab.com/the203/monomer
+Author: Adam Haskell
+Author-email: adam@the203.info
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.core
+Requires-Dist: aws-cdk.aws-glue
+Requires-Dist: aws-cdk.aws-athena
+
+
+# Monomer
+
+DRY AWS CDK Construct for Glue Catelogs with dataclasses 
+
+
+## Usage
+Decorate a dataclass with `@persist` 
+Column definitions are automatically generated based off the field data, relationships are created for any field that had a type of another dataclass. Column definitions can be passed to mortar via the metadata attribute of the field() method (provided by dataclass). Partial Column data can also be passed any other required fields of the column will be generated based off the field definition. 
+
+
+## Primary Keys
+mortar will try to find the proper primary key for a defined class. It will evaluate the columns in this order to find a primary key: 
+1. Checks for predefined key via A partial column definition  `Column(primary_key=True)` 
+1. Check for a column named <class_name.lower()>_id 
+1. check for an id column name 
+1. create and auto increment column designated as primary key
+

@@ -1,0 +1,14 @@
+simpleor/__init__.py,sha256=XulOWcQIyg6jvEwZ1M6ua5QgqdkvLq6AeJIrIG_20aU,289
+simpleor/base.py,sha256=9aKLiAvVf-n2UoCHQ9vro6pti8SC4_mrZy4dRq0HSBQ,824
+simpleor/cli.py,sha256=R2fzYWWz75mIgKRbZJ7amXgRiLFeviS0NKcsgYv3OCU,2856
+simpleor/matchmaker.py,sha256=0KKRt2bduZ3dnfCc0lWOOo3k-JDmGg8Za8M9p_p87wg,16948
+simpleor/monitoring.py,sha256=-1YJG6PmkF-KO8mbkE9E6ZVi443T5-z8-E3Wepjaols,1055
+simpleor/scheduler.py,sha256=asqoA5pIZyjF_JXOXeeV7Mxd8KLHDnGSVWE5wd0_ZPg,23874
+simpleor/utils.py,sha256=Lz18aQlghtWIO_DFRSYJ5s4SAkUbQjmGwgAB5IfkoXY,329
+simpleor-0.0.11.dist-info/AUTHORS.rst,sha256=zG5Iy24plmOsIR0TOlvdBcMTwFOpST3-GmhtshO-5ts,418
+simpleor-0.0.11.dist-info/LICENSE,sha256=a1_gP8dLEKJcvxXexeCndZjrSs_ntLSNcUHZ2UxeNAs,1562
+simpleor-0.0.11.dist-info/METADATA,sha256=Rgh5RkzoFFXlsI9Hooqfwaa5Cg8Tqwy9Jij_hAUtXl4,2523
+simpleor-0.0.11.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+simpleor-0.0.11.dist-info/entry_points.txt,sha256=h0bI8gn5LCfqPt9PJ1prlRb13hmwugbnLzISznA0SLk,52
+simpleor-0.0.11.dist-info/top_level.txt,sha256=PtBO5qkprBoAZI2Egnr_nr1WjQYnoVk2qPl7xq7jd8w,9
+simpleor-0.0.11.dist-info/RECORD,,

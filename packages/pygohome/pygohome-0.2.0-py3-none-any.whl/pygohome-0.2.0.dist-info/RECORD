@@ -1,0 +1,10 @@
+pygohome/__init__.py,sha256=EsBQA7Tl_CGYkwtal1c753ABXG7oaMkZdrD3R6yQcvk,361
+pygohome/convert.py,sha256=ZYKzODZMDie5b80KWA1WKFm56Sfk5OXk0NhdDmospUE,999
+pygohome/jupygohome.py,sha256=MLBfq1XwJDC5lbe6blw9yI2Ptm9UIODzuNEE8VYJ71U,3416
+pygohome/processor.py,sha256=1bBvs9pcZyjIomjEU-R3viTLao_CQ77kFuwMt1qm7ow,6126
+pygohome/world.py,sha256=YIVkj0x66BKvSrX_Z6gyokKaMlLfmch_jidVolo9QV0,3330
+pygohome-0.2.0.dist-info/LICENSE,sha256=LhW4WNnhnxo26bJ4XG1X9nG5Z_X1MO32etNK-cPC7Ag,1525
+pygohome-0.2.0.dist-info/METADATA,sha256=_JfeYBX1MBacVUsY9BFUVHqm1g4_h6UuIYZV2Ei2Ix8,3890
+pygohome-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygohome-0.2.0.dist-info/top_level.txt,sha256=IhCDhyegLXKaZ4EtLeKw9rKWDa1metqdRZMxgrJZQOc,9
+pygohome-0.2.0.dist-info/RECORD,,

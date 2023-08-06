@@ -1,0 +1,98 @@
+Metadata-Version: 1.2
+Name: datacenter_du
+Version: 0.1.4
+Summary: Datacenter Downloader & Uploader
+Home-page: https://github.com/taceywong/datacenter_du
+Author: Datacenter Downloader & Uploader
+Author-email: xinyong.wang@xtalpi.com
+License: UNKNOWN
+Description: ================================
+        Datacenter Downloader & Uploader
+        ================================
+        
+        
+        Datacenter Downloader & Uploader
+        
+        
+        
+        Features
+        --------
+        
+        * 数据下载
+        * 数据上传
+        
+        Usage
+        -----
+        
+        **下载**
+        
+        一种形式::
+        
+          from datacenter_du import Downloader,SimpleDownloader
+          Downloader().run()
+          SimpleDownloader().run()
+        
+        
+        另外一种形式::
+        
+          from datacenter_du import download,simple_download
+          download()
+          simple_download()
+        
+        
+        
+        **上传**
+        
+        由于
+        
+        * 由于multi-part-upload需要和server配合
+        * Content-Range分块上传不适合S3,暂时放弃
+        
+        目前SimpleUploader,simple_upload可以正常工作，但S3Uploader需要服务端配合
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-12-22)
+        ------------------
+        
+        * First release on PyPI.
+        
+        0.1.1 (2020-12-23)
+        ------------------
+        
+        * 下载器
+        * 由于multi-part-upload需要和server配合，暂时只提供simple-upload
+        * Content-Range分块上传不适合S3,暂时放弃
+        
+        
+        
+        0.1.2 (2020-12-23)
+        ------------------
+        
+        * 补充README
+        
+        0.1.3 (2020-12-23)
+        ------------------
+        
+        * 修改说明
+        
+        
+        0.1.4 (2020-12-23)
+        ------------------
+        
+        * 添加S3Uploader（multi-part）,暂时不可用，需要服务端配合
+        
+Keywords: datacenter_du
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5

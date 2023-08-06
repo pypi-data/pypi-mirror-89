@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+spytrace/_version.py
+spytrace.egg-info/PKG-INFO
+spytrace.egg-info/SOURCES.txt
+spytrace.egg-info/dependency_links.txt
+spytrace.egg-info/not-zip-safe
+spytrace.egg-info/requires.txt
+spytrace.egg-info/top_level.txt
+test/test.py

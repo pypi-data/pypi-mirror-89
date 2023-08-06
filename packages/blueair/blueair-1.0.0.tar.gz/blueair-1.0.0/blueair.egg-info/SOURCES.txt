@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+blueair/__init__.py
+blueair/__main__.py
+blueair/blueair.py
+blueair/cli.py
+blueair/database.py
+blueair.egg-info/PKG-INFO
+blueair.egg-info/SOURCES.txt
+blueair.egg-info/dependency_links.txt
+blueair.egg-info/entry_points.txt
+blueair.egg-info/requires.txt
+blueair.egg-info/top_level.txt

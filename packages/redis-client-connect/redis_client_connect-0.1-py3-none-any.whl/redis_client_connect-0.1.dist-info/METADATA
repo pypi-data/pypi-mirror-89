@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: redis-client-connect
+Version: 0.1
+Summary: redis_client_connect
+Home-page: UNKNOWN
+Author: zmjaction
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: redis (>=3.4.1)
+
+UNKNOWN
+
+

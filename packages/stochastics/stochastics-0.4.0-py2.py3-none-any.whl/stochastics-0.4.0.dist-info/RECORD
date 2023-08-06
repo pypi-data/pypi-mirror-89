@@ -1,0 +1,12 @@
+stochastics/__init__.py,sha256=4EEAeDXJBDgYC5EDSk2Dr8PgSrLGhK2VNSw8Q-NPdKU,75
+stochastics/config.py,sha256=PS0k6-Ci30dE_Nsmj4Ud5HkeeS0C778G78NsBdlUuyg,18
+stochastics/errors.py,sha256=QXI-U2yQb21wrWj3dxpijlCvhTuf6Kon0QGqbvRdcmQ,51
+stochastics/utils.py,sha256=g-ejgwvvvVol__lrJQkrgNV2nynm0vBq01Ld9T0drGk,628
+stochastics/models/__init__.py,sha256=gr_FkjCBIfzqoDL3nMMMw7ixD0n8NzuPpenwpPHGKLo,38
+stochastics/models/custom_types.py,sha256=WS9hp-z7sIt9C4XlAvvfRBt-f8pzoz1MjppKgA9No0Q,393
+stochastics/models/markov_chain.py,sha256=9c_WUwzTdtTkgF91tktNbtGqfsyvugPspTJ4cWUjmzs,3900
+stochastics-0.4.0.dist-info/LICENSE,sha256=wJO7vG-zXfUhJTZAyjfzA6BfOy9KMHn6R7GY71O3WPM,1068
+stochastics-0.4.0.dist-info/METADATA,sha256=odZtY-iKglKpVVxxquEl1Rc2R_q5TC-q-OtQwOIpcJ4,3518
+stochastics-0.4.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+stochastics-0.4.0.dist-info/top_level.txt,sha256=uaOZIM-PLQcToDfEVb2c-47P1u0G0ixAQbgFeudoqxE,12
+stochastics-0.4.0.dist-info/RECORD,,

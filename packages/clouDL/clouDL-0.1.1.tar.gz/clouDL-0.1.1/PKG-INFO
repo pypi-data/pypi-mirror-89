@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: clouDL
+Version: 0.1.1
+Summary: Automatically manages a cluster of VMs in GCP to train and hyperparamter tune DL models that use PyTorch.
+Home-page: UNKNOWN
+Author: Shuhao Lai
+Author-email: Shuhaolai18@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

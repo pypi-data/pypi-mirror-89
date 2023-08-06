@@ -1,0 +1,10 @@
+u2t/__init__.py,sha256=sVGr--uCaqHPjHfk_LVF-3EhBi7tI74s0BoV0EK5cIw,4447
+u2t/u2t.py,sha256=Q_AGsq2efr0HV2bN-JCbBiUZoGLqSLh-CzdTyDBCe2c,4133
+u2t/resources/icon/normal.ico,sha256=qv_MRkX-Y_03bi50Tw_r1sF9UtQNaU1RoPwfQE1q_vA,93062
+u2t/resources/icon/running.ico,sha256=pFLI60rSp-BKDTdV6U1WMUc9QoOqisdpXlZDPRaA4ZA,93062
+u2t-1.0.0.dist-info/LICENSE,sha256=-DHn7tV3SBaHqbwLSAJOXkC29lX83gc-3pZLUL5dVdk,7815
+u2t-1.0.0.dist-info/METADATA,sha256=IOMz1C5-ynMHVhWRCNcC5l8ltwySeGiP152c6Tz7vkw,2951
+u2t-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+u2t-1.0.0.dist-info/entry_points.txt,sha256=zPSiJt23Fb_nIkhN-E84X99OqzivIZBeNv4IgJ37YzQ,34
+u2t-1.0.0.dist-info/top_level.txt,sha256=VyzMjZO1o2CqGWfHl3dy-mX3YjFo1an5PENyA14Rtws,4
+u2t-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: visualiser
+Version: 1.2
+Summary: A terminal visualiser.
+Home-page: https://github.com/probablyhamzah/visualiser
+Author: possiblyhamzah
+Author-email: possiblyhamzah@gmail.com
+License: MIT
+Download-URL: https://github.com/probablyhamzah/visualiser/archive/v_12.tar.gz
+Description: # Visualiser
+        A terminal visualiser for songs.
+        
+        ![Alt text](stuff/sample1.png?raw=true "SamplePic1")
+        
+        ![Alt text](stuff/sample2.png?raw=true "SamplePic2")
+        
+        ## Installation
+        ```bash
+        pip3 install visualiser
+        ```
+        
+        ## Usage
+        ```python
+        from visualiser import Visualiser
+        
+        viz = Visualiser('path/to/audio-file') 
+        
+        viz.visualise()
+        ```
+        
+        For rgb colours:
+        ```python
+        viz = Visualiser('path/to/audio-file', is_rgb=True)
+        ```
+Keywords: visualiser,terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

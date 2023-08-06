@@ -1,0 +1,11 @@
+happyreport/__init__.py,sha256=CqIUx7gm5plLpO8z0v5jvB_3eW6HgVwDRjCLgG07sXw,106
+happyreport/happy.py,sha256=07ZCxaZvxmZ-1__iAEF9mf9kkqeLfliwUNaWb927-5w,2626
+happyreport/email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+happyreport/email/smtp.py,sha256=OZr5ZCR442Tw9HqRak0dZtC5ySik7xymN9CIapn1Pwk,1766
+happyreport/format/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+happyreport/format/format.py,sha256=vRe3H7mvqtlHGuJZEFkdOcUAm0cjOAx84CgGqI6Apb8,2767
+happyreport-0.0.2.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+happyreport-0.0.2.dist-info/METADATA,sha256=7aymu-vA9WcbodvPDTebqyTIauYbzmCsXx83VCxcSdk,426
+happyreport-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+happyreport-0.0.2.dist-info/top_level.txt,sha256=Kauwe24ByVuPr47JJA9DunCSEtG_llgWuNz0AG4QquE,12
+happyreport-0.0.2.dist-info/RECORD,,

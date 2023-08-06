@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: jal
+Version: 2020.12.1
+Summary: Just Another Ledger - project to track personal financial records
+Home-page: https://github.com/titov-vv/jal
+Author-email: jal@gmx.ru
+License: UNKNOWN
+Description: Just Another Ledger is a project for personal finance tracking. 
+            It was designed to keep records of personal incomes/spendings and investments with up-to-date information about account's balances and portfolio value.
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8.1

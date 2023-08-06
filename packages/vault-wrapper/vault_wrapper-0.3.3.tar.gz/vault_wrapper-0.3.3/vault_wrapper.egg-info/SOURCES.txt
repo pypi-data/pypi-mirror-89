@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/client.py
+src/policy.py
+vault_wrapper.egg-info/PKG-INFO
+vault_wrapper.egg-info/SOURCES.txt
+vault_wrapper.egg-info/dependency_links.txt
+vault_wrapper.egg-info/requires.txt
+vault_wrapper.egg-info/top_level.txt

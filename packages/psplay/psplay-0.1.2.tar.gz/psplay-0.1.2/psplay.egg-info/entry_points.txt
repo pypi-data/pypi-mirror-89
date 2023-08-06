@@ -1,0 +1,4 @@
+[console_scripts]
+car2tiles = psplay.tools.car2tiles:main
+healpix2car = psplay.tools.healpix2car:main
+

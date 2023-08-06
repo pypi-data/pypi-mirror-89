@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+angryduckschool/__init__.py
+angryduckschool/studentclass.py
+angryduckschool.egg-info/PKG-INFO
+angryduckschool.egg-info/SOURCES.txt
+angryduckschool.egg-info/dependency_links.txt
+angryduckschool.egg-info/top_level.txt

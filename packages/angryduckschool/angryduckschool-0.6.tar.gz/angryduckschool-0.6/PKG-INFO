@@ -1,0 +1,76 @@
+Metadata-Version: 1.1
+Name: angryduckschool
+Version: 0.6
+Summary: OOP Learning Example by Angryduck
+Home-page: https://github.com/angryduck888/angryduckschool
+Author: Angryduck
+Author-email: darkworld777@hotmail.com
+License: MIT
+Download-URL: https://github.com/angryduck888/angryduckschool/archive/v_05.tar.gz
+Description: นี่คือตัวอย่างโปรแกรมสำหรับการเรียน OOP
+        =======================================
+        
+        วิธีติดตั้ง
+        ~~~~~~~~~~~
+        
+        เปิด CMD / Terminal
+        
+        .. code:: python
+        
+            pip install angryduckschool
+        
+        วิธีเล่น
+        ~~~~~~~~
+        
+        เปิด IDLE ขึ้นมาแล้วพิมพ์...
+        
+        .. code:: python
+        
+            from angryschool import Student, SpecialStudent
+        
+            print('========1 Jan========')
+            student0 = SpecialStudent('Mark Zuckerberg','Bill Gates')
+            student0.AskEXP()
+            student0.ShowEXP()
+            student1 = Student('Albert')
+            print(student1.name)
+            student1.Hello()
+        
+            print('------------')
+            student2 = Student('Steve')
+            print(student2.name)
+            student2.Hello()
+            print('========2 Jan========')
+            print('------Angryduck: Who want to learn coding?---(Give 10 exp)----')
+            student1.AddEXP(10)
+        
+            print('========3 Jan========')
+            student1.name = 'Albert Einstein'
+            print('Exp of each student : ')
+        
+            print(student1.name, student1.exp)
+            print(student2.name, student2.exp)
+            print('========4 Jan========')
+        
+            for i in range(5):
+                student2.Coding()
+        
+            student1.ShowEXP()
+            student2.ShowEXP()
+        
+        พัฒนาโดย: Angryduck888 FB: N/A
+        YouTube: N/A
+        
+Keywords: OOP Python,THAI,Angryduck
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

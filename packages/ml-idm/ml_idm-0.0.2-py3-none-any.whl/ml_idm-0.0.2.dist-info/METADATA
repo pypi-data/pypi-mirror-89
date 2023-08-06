@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ml-idm
+Version: 0.0.2
+Summary: A tool that provides a direct interface to a model you want to interact with. Get predictions, build graphs, analyse models with external tools.
+Home-page: https://github.com/ityutin/ml-idm
+Author: Ilya Tyutin
+Author-email: emmarrgghh@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: joblib
+Requires-Dist: pyyaml
+Requires-Dist: streamlit
+Requires-Dist: pydantic
+
+UNKNOWN
+
+

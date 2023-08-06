@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pymoodle-jku
+Version: 0.1.1
+Summary: A client for the moodle page of https://www.jku.at
+Home-page: https://github.com/LeLunZ/pymoodle-jku-linz
+Author: LeLunZ
+Author-email: l.accounts@pm.me
+License: BSD 3-Clause
+Download-URL: https://github.com/LeLunZ/pymoodle-jku-linz/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: moodle,jku,linz,jku linz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: uk-boards
+Version: 0.5.0
+Summary: uk-boards is now ukboards
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # uk-boards is now ukboards
+        
+        This package has been renamed. Use `pip install ukboards` instead.
+        
+        New package: https://pypi.org/project/ukboards/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

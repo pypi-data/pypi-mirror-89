@@ -1,0 +1,7 @@
+README.md
+setup.py
+uk_boards.egg-info/PKG-INFO
+uk_boards.egg-info/SOURCES.txt
+uk_boards.egg-info/dependency_links.txt
+uk_boards.egg-info/requires.txt
+uk_boards.egg-info/top_level.txt

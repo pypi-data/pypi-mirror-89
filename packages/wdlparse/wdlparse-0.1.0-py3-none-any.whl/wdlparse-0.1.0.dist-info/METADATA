@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wdlparse
+Version: 0.1.0
+Summary: WDL parsers for Python.
+Home-page: https://github.com/DataBiosphere/wdl-parsers
+Author: William Gao
+Author-email: wlgao@ucsc.edu
+License: Apache License v2.0
+Platform: UNKNOWN
+Requires-Dist: antlr4-python3-runtime (==4.8)
+Provides-Extra: dev
+Requires-Dist: hermes-parser (==2.0rc6) ; extra == 'dev'
+
+UNKNOWN
+
+

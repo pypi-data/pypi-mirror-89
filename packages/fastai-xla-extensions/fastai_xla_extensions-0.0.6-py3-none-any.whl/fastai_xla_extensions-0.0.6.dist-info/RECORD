@@ -1,0 +1,9 @@
+fastai_xla_extensions/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+fastai_xla_extensions/_nbdev.py,sha256=ufMWlFrsEbgimhGk-fLDSHyfUq1ICjsSKFEtsCoUA-E,1123
+fastai_xla_extensions/core.py,sha256=wVqGubauVbRbIr8Q3fmlAE-8kAALdop2q0AZUv57B0M,8056
+fastai_xla_extensions-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastai_xla_extensions-0.0.6.dist-info/METADATA,sha256=i2sOsEaYopw6Jja_AKpa23FOBaSVXD7a5WoVVCCYX4k,20688
+fastai_xla_extensions-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastai_xla_extensions-0.0.6.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+fastai_xla_extensions-0.0.6.dist-info/top_level.txt,sha256=hOVWRuzLq45YIjdqVf8MpEnbA-pkU7QXzD3UFM-DOrI,22
+fastai_xla_extensions-0.0.6.dist-info/RECORD,,

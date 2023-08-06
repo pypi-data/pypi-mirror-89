@@ -1,0 +1,11 @@
+pyaspeller/__init__.py,sha256=q6-1iXn50rZQItgvsbXE_-N16mUtqxGogrPOaIcAN_Q,5183
+pyaspeller/errors.py,sha256=2JK_w4xcFbAz3-xbZc5JG8sT7cSGjc4USz4At0AdQV0,215
+pyaspeller/speller.py,sha256=hoDlDXOmu2JN-nGoh7wsk3ko-iw0kloFaHm_up89hoo,3020
+pyaspeller/word.py,sha256=WSMMW60BMyAFlqd8myhnXiVM0Ex80C30IPsXWOn15h8,1309
+pyaspeller/yandex_speller.py,sha256=628SIFJnG1rOGdjMtvFBdj_ihfscjzUMLXbNWEBjR6c,7876
+pyaspeller-0.2.0.dist-info/LICENSE.txt,sha256=flHr7efYKJzrF9_aWEN1_XMC7EwP5dqb8Ait1EXwtBQ,11338
+pyaspeller-0.2.0.dist-info/METADATA,sha256=b6HlHKljTL4eGHYTutNeJyz1i6vdKxSAP7sjG5Q-0NY,2957
+pyaspeller-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyaspeller-0.2.0.dist-info/entry_points.txt,sha256=MIIqPhH5rrjviViQM3-USJ5DHcl6PYMhWx0F96U0Re0,57
+pyaspeller-0.2.0.dist-info/top_level.txt,sha256=lTZT8nrgGSg36GFC3LinHVuGtug4wp5FCe1IiTAMRRg,11
+pyaspeller-0.2.0.dist-info/RECORD,,

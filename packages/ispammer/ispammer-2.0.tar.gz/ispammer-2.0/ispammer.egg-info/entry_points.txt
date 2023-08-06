@@ -1,0 +1,3 @@
+[console_scripts]
+ispammer = ispammer.ispammer:main
+

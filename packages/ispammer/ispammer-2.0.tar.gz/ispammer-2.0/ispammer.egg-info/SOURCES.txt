@@ -1,0 +1,9 @@
+setup.py
+ispammer/__init__.py
+ispammer/ispammer.py
+ispammer.egg-info/PKG-INFO
+ispammer.egg-info/SOURCES.txt
+ispammer.egg-info/dependency_links.txt
+ispammer.egg-info/entry_points.txt
+ispammer.egg-info/requires.txt
+ispammer.egg-info/top_level.txt

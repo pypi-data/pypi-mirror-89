@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-geospatial
+Version: 13.0.20200608.0
+Summary: Meta package for oca-geospatial Odoo addons
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Dist: odoo13-addon-base-geoengine
+Requires-Dist: odoo13-addon-geoengine-base-geolocalize
+Requires-Dist: odoo13-addon-geoengine-partner
+Requires-Dist: odoo13-addon-geoengine-swisstopo
+Requires-Dist: odoo13-addon-test-base-geoengine
+
+UNKNOWN
+
+

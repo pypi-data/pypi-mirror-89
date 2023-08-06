@@ -1,0 +1,9 @@
+krakenforwarder/__init__.py,sha256=amYR9Gw_m68gg2ZD51wlkRjSXjknWhqCAvWRKxGsPIk,67
+krakenforwarder/forwarder.py,sha256=x9DLxUilw2uzL-HrkrD1-AxjVxWqWoh4T-PT9Ws3xyY,5183
+krakenforwarder/listener.py,sha256=Fin-M133AHTPFL9H6t1p7fYIbh-v2CDTAdDjPMTPI-w,557
+krakenforwarder/util.py,sha256=s24ExfWndl-nBwEYVxy4Uh5wMsZi7I7gJKAQ1VgX4A8,1011
+krakenforwarder-0.8.dist-info/LICENSE,sha256=1t2BZMk_izpAYnzB6h6ckxTIvaB31R6SJ1XnYsq33sE,1074
+krakenforwarder-0.8.dist-info/METADATA,sha256=gKbohTruXEw80CGdDQABk2Qzdz4D5Bbq9QZPe8mism8,3109
+krakenforwarder-0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+krakenforwarder-0.8.dist-info/top_level.txt,sha256=a-NP7cT8F4ASW2nkkxgTPd-aMoJYz2z2NveedPyF4HI,16
+krakenforwarder-0.8.dist-info/RECORD,,

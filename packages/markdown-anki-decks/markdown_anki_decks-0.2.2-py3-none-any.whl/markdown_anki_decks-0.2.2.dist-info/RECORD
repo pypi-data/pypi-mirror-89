@@ -1,0 +1,9 @@
+markdown_anki_decks/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+markdown_anki_decks/cli.py,sha256=bETNVZNteMYEWnr7zVV-zzju09zh0jOsQoQPpuYpsEk,4748
+markdown_anki_decks/sync.py,sha256=yteSukT9gBBqCLcIvZ7EMyqLtgJvh0OdOpSoLxSSoWg,3824
+markdown_anki_decks/utils.py,sha256=WxmlVFsRTJU01bzDNWIKYTdEWvViYo20wHiRaal4qOc,223
+markdown_anki_decks-0.2.2.dist-info/entry_points.txt,sha256=J_peicXWmGbJSg0cLq3xFXuisrQ3BynUD4pRAe3c3-I,59
+markdown_anki_decks-0.2.2.dist-info/LICENSE.txt,sha256=oFzgiQ7vQ1z9Xd1fEaTbdtJLzjg2ZizgyaNPKO_8Puo,1050
+markdown_anki_decks-0.2.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+markdown_anki_decks-0.2.2.dist-info/METADATA,sha256=hWACHVbPeJqpfz-I3VIVg0YIIkjrbNuLIj_SrWicUfk,6331
+markdown_anki_decks-0.2.2.dist-info/RECORD,,

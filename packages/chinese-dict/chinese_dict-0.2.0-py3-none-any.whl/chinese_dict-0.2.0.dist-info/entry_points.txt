@@ -1,0 +1,3 @@
+[console_scripts]
+chinese_dict = chinese_dict.chinese_dict:main
+

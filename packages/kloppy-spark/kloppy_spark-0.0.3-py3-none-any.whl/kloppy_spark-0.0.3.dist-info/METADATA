@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: kloppy-spark
+Version: 0.0.3
+Summary: Spark Tools to work with Kloppy
+Home-page: https://deepsports.io
+Author: Felix Schmdit
+Author-email: info@deepsports.io
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Requires-Dist: kloppy (>=1.5.1)
+Requires-Dist: pyspark (>=3.0.1)
+Requires-Dist: graphframes (>=0.6)
+Requires-Dist: numpy (>=1.19.4)
+Requires-Dist: matplotlib (>=3.3.3)
+Provides-Extra: development
+Requires-Dist: pre-commit ; extra == 'development'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pandas (>=1.0.0) ; extra == 'test'
+
+# kloppy-spark
+Spark Helpers for Kloppy
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/kloppy-spark.svg)](https://pypi.org/project/kloppy-spark/)
+[![Downloads](https://pepy.tech/badge/kloppy-spark/month)](https://pepy.tech/project/kloppy-spark/month)
+![](https://img.shields.io/github/license/deepsports-io/kloppy-spark)
+[![Powered by Deepsports](https://img.shields.io/badge/Powered%20by-Deepsports-888888)](https://deepsports.io)
+
+## Running the example notebook
+
+### Requirements
+
+* Apache Spark 3.0.1
+* Jupyter Lab
+
+### Starting Jupyter Lab in Apache Spark
+
+```bash
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS=lab
+
+pyspark --packages graphframes:graphframes:0.8.1-spark3.0-s_2.12
+```
+
+A browser window should open, and you can open and run the example notebook.
+

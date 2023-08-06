@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ElvaresTEST
+Version: 0.1
+Summary: Library for ElvaresTEST
+Home-page: https://github.com/Elvares/PrintTestFunc
+Author: EL
+Author-email: elvares251997@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent

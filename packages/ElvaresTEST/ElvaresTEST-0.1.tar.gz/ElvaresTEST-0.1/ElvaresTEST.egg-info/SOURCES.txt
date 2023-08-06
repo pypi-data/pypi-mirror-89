@@ -1,0 +1,7 @@
+setup.py
+ElvaresTEST/__init__.py
+ElvaresTEST/test.py
+ElvaresTEST.egg-info/PKG-INFO
+ElvaresTEST.egg-info/SOURCES.txt
+ElvaresTEST.egg-info/dependency_links.txt
+ElvaresTEST.egg-info/top_level.txt

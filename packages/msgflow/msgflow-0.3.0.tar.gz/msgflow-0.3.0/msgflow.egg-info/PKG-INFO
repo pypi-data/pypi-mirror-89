@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: msgflow
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Noriyuki Abe
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: webapi
+Provides-Extra: twitter
+Provides-Extra: slack

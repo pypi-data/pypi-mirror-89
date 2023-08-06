@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dvtv-dl
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/misli/dvtv-dl
+License: BSD-3-Clause
+Author: Jakub Dorňák
+Author-email: jakub.dornak@misli.cz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: feedparser (>=6.0.2,<7.0.0)
+Requires-Dist: youtube_dl (>=2020.12.29,<2021.0.0)
+Project-URL: Repository, https://github.com/misli/dvtv-dl
+Description-Content-Type: text/x-rst
+
+DVTV downloader
+===============
+
+Installation
+------------
+
+    pip install dvtv-dl
+
+Usage
+-----
+
+    dvtv-dl
+

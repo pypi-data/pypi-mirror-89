@@ -1,0 +1,13 @@
+geneffect/__init__.py,sha256=cLm5w944Vyd2jmSTHNdOncJTXa4-NvBOX1DGGNSpoqg,160
+geneffect/config.py,sha256=cJNSEXrlYbz68Qe4E1lvxl0eYXhoM_34t96l_LkMlNw,3643
+geneffect/default_config.py,sha256=TlbtDSQH8pwtSr--6gV4zxW66-9EvNN0RUveV5wI-i8,4302
+geneffect/gene_data_loader.py,sha256=ZG9_5TIPpdXB8a3YbHm4zNUtnfmsTryRN0G9lrVBFFQ,7772
+geneffect/reference_genome.py,sha256=O5CUW5Ui3X-IRPLGbbBj9udsQxHkZ4eMoFfxExRPzrA,3144
+geneffect/setup.py,sha256=pFTrw3mpEbzPrMQ2JvoU9sTNnSxtrQDqr8Y3sSKVGZI,1155
+geneffect/uniprot_and_pfam_data_loader.py,sha256=vrT4oLY9SwBZcVHJAPowj84sNOnT5VoOb60lh_I10ko,3651
+geneffect/util.py,sha256=u2Im1sgRuXMwgpxaEEhXJUpPIDsaNZ_QUCmwxN9dOWs,955
+geneffect/variant_processing.py,sha256=jUz81NPZOe3rLHeAx3sicyBORFg4bmKxIowsh7l3AgU,17970
+geneffect-1.2.4.dist-info/METADATA,sha256=L2p3ZNj71a09SDf4sGCLzz7G_t-lOgwb-sdbuvJ8OFU,8033
+geneffect-1.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+geneffect-1.2.4.dist-info/top_level.txt,sha256=5JHOA8t5xY0dFQAMiWJOTYXKbjewkwtH1ZZOmAyddWg,10
+geneffect-1.2.4.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+requests
+requests_ftp
+beautifulsoup4
+cachier
+pystow
+click
+click_default_group
+dataclasses_json
+tabulate
+more_click
+pyyaml
+flask
+bootstrap-flask
+
+[:python_version < "3.7"]
+dataclasses
+
+[slack]
+slack_sdk
+
+[twitter]
+tweepy

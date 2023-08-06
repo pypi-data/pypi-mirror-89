@@ -1,0 +1,17 @@
+webhook_bridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge/paths.py,sha256=_SWDxOz_aLUYX2INzb5MFGYnTaON-F4Z_BzPPFh7Wbw,791
+webhook_bridge/plugin.py,sha256=o1dM-d4kWqneabXMy144x34ZDtBqXue2DWui8A4hwyQ,874
+webhook_bridge/server.py,sha256=RJu6Yf5u7D-YjEQFVzi5MXWCS8fucEpz3UWP-bzrZaM,1299
+webhook_bridge/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge/tests/conftest.py,sha256=WdXph_MSsZHztBt5E-2VWwM0VViCmCUTraqLz49Z6Ss,131
+webhook_bridge/tests/test_paths.py,sha256=qAdmfB6U97Nfl0q0RynybL4l9kQVnvH_CyszZtd6PJY,391
+webhook_bridge/tests/test_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge/tests/test_data/custom_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge/tests/test_data/custom_plugins/plugin_a.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge/tests/test_data/custom_plugins/plugin_b.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhook_bridge-0.1.0.dist-info/LICENSE,sha256=FC-QIHegrTLM3sEWA7FMtmVJhhgXAbA18q3gHgY3JEA,1061
+webhook_bridge-0.1.0.dist-info/METADATA,sha256=h7nVxnnzEiySSe9Vc-bmNOPixcL53Ny3QMLQwdPjZjA,2153
+webhook_bridge-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+webhook_bridge-0.1.0.dist-info/entry_points.txt,sha256=C-5E4hJKm84GTNIcoGHG5jHlUTD6NRYI_Ch6usnfwL8,71
+webhook_bridge-0.1.0.dist-info/top_level.txt,sha256=QIAtZ-xtj7R_dECN1nU-PN41KqM4O5LFh8jgUjxMMwg,15
+webhook_bridge-0.1.0.dist-info/RECORD,,

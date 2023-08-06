@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+proxy.py
+setup.py
+monomer/__init__.py
+monomer/__version__.py
+monomer/column.py
+monomer/compat.py
+monomer/typemap.py
+monomer.egg-info/PKG-INFO
+monomer.egg-info/SOURCES.txt
+monomer.egg-info/dependency_links.txt
+monomer.egg-info/requires.txt
+monomer.egg-info/top_level.txt

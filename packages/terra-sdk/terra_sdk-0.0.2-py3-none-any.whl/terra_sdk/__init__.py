@@ -1,0 +1,8 @@
+__title__ = "terrapy"
+__description__ = "Python SDK for Terra"
+__url__ = "https://github.com/terra-project/terra-sdk-python"
+__version__ = "0.0.2"
+__author__ = "Terraform Labs, PTE. LTD"
+__author_email__ = "engineering@terra.money"
+__license__ = "MIT"
+__copyright__ = "Copyright 2020 Terraform Labs, PTE. LTD"

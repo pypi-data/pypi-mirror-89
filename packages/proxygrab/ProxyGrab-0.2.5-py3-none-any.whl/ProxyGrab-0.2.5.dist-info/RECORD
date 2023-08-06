@@ -1,0 +1,15 @@
+proxygrab/__init__.py,sha256=y9CKd-qx2FUxiWYv_43Gf9euOAqZufiCyM98GGQZUaA,390
+proxygrab/cmdline/__init__.py,sha256=bMyif-Dc7GZG-4IgAeka9_jj7WQteqGQmEoVvXI36gQ,25
+proxygrab/cmdline/core.py,sha256=ljKRFfc44FRQE9Z1HGpS9iH4ykgJxwLevZ0-N8LfbNc,3558
+proxygrab/package/__init__.py,sha256=bKaV6XYFDYEnWX6qQFW8dTRh1zam3ActKSUNmjVYtBI,222
+proxygrab/package/main.py,sha256=Aog2Y76Z5SR6tMiGqRZImoY0a3Aqed_m50auxsAMVVU,5101
+proxygrab/package/scrapper.py,sha256=d16BZ_aGseZ6aV_FcvRnfh-koWeC_ejjuh7OYgqAnwg,4671
+proxygrab/package/api/__init__.py,sha256=UtGGRE5Q6w0VhXAnTlX55BbdjWSgAF7SjaRc6Q-rz70,70
+proxygrab/package/api/proxylist.py,sha256=r0HcvtzvEOEvQHvZaizYaw84DGMM7ZBy4ne2wtMLiuw,380
+proxygrab/package/api/proxyscrape.py,sha256=M91gpyKZDeOx2BYeSNFFtGCt338mJ6NAEdevlALivVM,5519
+ProxyGrab-0.2.5.dist-info/LICENSE,sha256=rahzksJu5JTqm3pOHIaaL2pKW2JaX29G1goJjQMSrDo,1066
+ProxyGrab-0.2.5.dist-info/METADATA,sha256=Z1dvyo4DEAXayyCRwfPnBcbxrdO5aah5lwZ0LWo0tmA,4404
+ProxyGrab-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ProxyGrab-0.2.5.dist-info/entry_points.txt,sha256=FEUjUD9OBT8fsctmeva1KT5YnA9T2W-loXYqzaRSR-c,69
+ProxyGrab-0.2.5.dist-info/top_level.txt,sha256=CDv7BL-x5h5_nLRgFwY5wMEhEh3p4gvo6LuPITx4ROo,10
+ProxyGrab-0.2.5.dist-info/RECORD,,

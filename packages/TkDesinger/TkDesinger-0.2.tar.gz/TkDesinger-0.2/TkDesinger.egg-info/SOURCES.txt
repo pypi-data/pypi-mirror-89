@@ -1,0 +1,11 @@
+README.rst
+setup.py
+TkDesinger.egg-info/PKG-INFO
+TkDesinger.egg-info/SOURCES.txt
+TkDesinger.egg-info/dependency_links.txt
+TkDesinger.egg-info/top_level.txt
+tkdesinger/__init__.py
+tkdesinger/dnd.py
+tkdesinger/main.py
+tkdesinger/myasker.py
+tkdesinger/test.py

@@ -1,0 +1,5 @@
+colorama
+jsonschema
+plistlib
+pyyaml
+zstandard

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hairgap_binaries/__init__.py
+hairgap_binaries/manylinux2014_x86_64-hairgapr
+hairgap_binaries/manylinux2014_x86_64-hairgaps
+hairgap_binaries/test_hairgap_binaries.py
+hairgap_binaries.egg-info/PKG-INFO
+hairgap_binaries.egg-info/SOURCES.txt
+hairgap_binaries.egg-info/dependency_links.txt
+hairgap_binaries.egg-info/entry_points.txt
+hairgap_binaries.egg-info/not-zip-safe
+hairgap_binaries.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pyfferaph.egg-info/PKG-INFO
+src/pyfferaph.egg-info/SOURCES.txt
+src/pyfferaph.egg-info/dependency_links.txt
+src/pyfferaph.egg-info/entry_points.txt
+src/pyfferaph.egg-info/requires.txt
+src/pyfferaph.egg-info/top_level.txt

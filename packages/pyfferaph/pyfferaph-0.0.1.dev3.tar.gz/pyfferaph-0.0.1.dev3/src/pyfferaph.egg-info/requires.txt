@@ -1,0 +1,7 @@
+MDAnalysis
+
+[dev]
+check-manifest
+
+[test]
+coverage

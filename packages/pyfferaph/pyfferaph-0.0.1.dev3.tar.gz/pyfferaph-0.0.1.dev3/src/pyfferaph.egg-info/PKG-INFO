@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyfferaph
+Version: 0.0.1.dev3
+Summary: An example Python project
+Home-page: https://gitlab.com/recoverin/my_first_pip
+Author: G. Abrusci
+Author-email: abrusci.gianfranco@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://gitlab.com/recoverin/my_first_pip/-/issues
+Project-URL: Source, https://gitlab.com/recoverin/my_first_pip/
+Description: Create a pip package.
+        
+        
+        Goals:
+        - [ ] how to install
+        - [ ] how to upgrade the package
+        - [ ] dependencies
+        - [ ] upload
+        
+        
+        **NB**: you need to activate `mda` environment.
+        
+Keywords: network,protein,pyfferaph
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test

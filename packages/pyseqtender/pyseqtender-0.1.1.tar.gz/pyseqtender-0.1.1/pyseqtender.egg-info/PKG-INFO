@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyseqtender
+Version: 0.1.1
+Summary: Distributed NGS pipelines made easy
+Home-page: https://pyseqtender.biodatageeks.org
+Author: biodatageeks
+Author-email: team@biodatageeks.org
+License: UNKNOWN
+Description: # pyseqtender
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: reST

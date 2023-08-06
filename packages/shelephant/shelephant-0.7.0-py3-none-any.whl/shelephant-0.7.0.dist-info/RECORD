@@ -1,0 +1,17 @@
+shelephant/__init__.py,sha256=f2AG0b2cJwJ-BqUIs5jW4BH9FLgo0sLOuX7_pjqz0cc,24
+shelephant/cli/__init__.py,sha256=ofOdNm9xYkn7Ad-FBnr-1E18pwxrLPKFBk1Gkzg9Tsk,6953
+shelephant/cli/shelephant_checksum.py,sha256=bmCVvi3JI5VcpJXcKCQEcw7y9OZOhDi2ihX-J-TTyMw,1319
+shelephant/cli/shelephant_dump.py,sha256=KmnRiN9lHfX8ao21UD6yL7Dagm02jW27rmmVob3tXhU,1460
+shelephant/cli/shelephant_extract.py,sha256=ACfIJu0_TckbO4A-T-Gz9dgatiHcUzumhHQMmJc2oCs,1847
+shelephant/cli/shelephant_get.py,sha256=Z3crXvKtnb6bqdedqLn-raI0DhsDPtKHcMctkoC-0pY,3687
+shelephant/cli/shelephant_merge.py,sha256=rhCdy0C1-VE4gLlb0sF5HSHDlab204I_fRpplsPyP-U,2923
+shelephant/cli/shelephant_parse.py,sha256=MHpxn4-HweCRnT0L-Ui8BwuDff7mZ-MVPSGszGR6URU,586
+shelephant/cli/shelephant_remote.py,sha256=MUgfeb6mylEcSh3V_vBxAObimvi_JW9sVD6sGuvYuhs,4992
+shelephant/cli/shelephant_rm.py,sha256=nBEb4RfvABK5pqNCi17SQC5KErimiRF_tsf1n2Ygs90,1311
+shelephant/cli/shelephant_send.py,sha256=xCzfGycv5AL8rtcU-EJwL21u1QZJddDc2VNVYSAITFM,4350
+shelephant-0.7.0.dist-info/LICENSE,sha256=8oS4-a9yLKeGVVJaovKgqRBuDojGdVELMH0Gu0paWkE,1068
+shelephant-0.7.0.dist-info/METADATA,sha256=Avkgkxa4Y1U3_aDQEoTRV3dtoDzR5Tas6_tCofoLjMA,375
+shelephant-0.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shelephant-0.7.0.dist-info/entry_points.txt,sha256=oTBXA48afy9FgmlVuNRMdU47oYETTaUh4MfniDZZ-7o,521
+shelephant-0.7.0.dist-info/top_level.txt,sha256=SAHFwNkTDE0KmfEIp3-pYIKOA6ygbPmzIMCSmBr_6p0,11
+shelephant-0.7.0.dist-info/RECORD,,

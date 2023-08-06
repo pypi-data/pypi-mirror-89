@@ -1,0 +1,7 @@
+beautifulsoup4
+jellyfish
+python-slugify>=4.0.1
+unidecode
+markdown
+emoji-data-python
+emoji

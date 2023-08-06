@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_serverless_video_transcoder/__init__.py
+src/cdk_serverless_video_transcoder/py.typed
+src/cdk_serverless_video_transcoder.egg-info/PKG-INFO
+src/cdk_serverless_video_transcoder.egg-info/SOURCES.txt
+src/cdk_serverless_video_transcoder.egg-info/dependency_links.txt
+src/cdk_serverless_video_transcoder.egg-info/requires.txt
+src/cdk_serverless_video_transcoder.egg-info/top_level.txt
+src/cdk_serverless_video_transcoder/_jsii/__init__.py
+src/cdk_serverless_video_transcoder/_jsii/cdk-serverless-video-transcoder@0.0.2.jsii.tgz

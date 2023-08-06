@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: landscape-pdf
+Version: 0.0.1
+Summary: Utility to convert a pdf for viewing in landscape mode
+Home-page: https://github.com/nmoran/landscape-pdf
+Author: Niall Moran
+Author-email: niall@niallmoran.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2
+
+Utility to convert a pdf for viewing in landscape mode
+
+

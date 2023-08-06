@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: byrne
+Version: 0.1.0
+Summary: A intelligent DynamoDB frontend for Python3
+Home-page: https://github.com/jacobneiltaylor/byrne
+Author: Jacob Neil Taylor
+Author-email: me@jacobtaylor.id.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Byrne
+> A intelligent DynamoDB frontend for Python3
+
+

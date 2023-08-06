@@ -1,0 +1,3 @@
+python-ffmpeg-video-streaming
+moviepy>=1.0.3
+ffmpeg_python>=0.2.0

@@ -1,0 +1,3 @@
+[console_scripts]
+discoruns = discoruns.main:main
+

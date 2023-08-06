@@ -1,0 +1,15 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+scrapper/__init__.py
+scrapper/config.ini
+scrapper/helpful resources.txt
+scrapper/play_sound.py
+scrapper/send_email.py
+scrapper/utils.py
+scrapper/Data/user_agents.csv
+scrapper_cf.egg-info/PKG-INFO
+scrapper_cf.egg-info/SOURCES.txt
+scrapper_cf.egg-info/dependency_links.txt
+scrapper_cf.egg-info/top_level.txt

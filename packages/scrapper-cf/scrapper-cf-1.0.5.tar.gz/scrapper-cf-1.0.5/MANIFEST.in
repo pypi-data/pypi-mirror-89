@@ -1,0 +1,3 @@
+global-include *.txt *.py *.csv
+include scrapper/Data/*
+include scrapper/config.ini

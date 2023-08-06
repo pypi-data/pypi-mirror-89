@@ -1,0 +1,5 @@
+marshmallow
+sqlalchemy
+sqlalchemy-utils
+pyyaml
+faker>=5.0.2

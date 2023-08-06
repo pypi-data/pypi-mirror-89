@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+christmascardify/Brusher.ttf
+christmascardify/__init__.py
+christmascardify/card.py
+christmascardify/defaultbg.png
+christmascardify/tools.py
+christmascardify.egg-info/PKG-INFO
+christmascardify.egg-info/SOURCES.txt
+christmascardify.egg-info/dependency_links.txt
+christmascardify.egg-info/requires.txt
+christmascardify.egg-info/top_level.txt

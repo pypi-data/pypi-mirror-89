@@ -1,0 +1,9 @@
+foodparser/__init__.py,sha256=eQ2JDBV1bjRWFHjZNvpRAsB6-SMy4ZpB01sXSfYuQV8,57
+foodparser/foodparser.py,sha256=eRFsUHQezL2yDOdQiOH2BNLw1EOTMVx0UswkaZbF4tk,9708
+foodparser/data/combined_gram_set.csv,sha256=_03LogdOGH1lX3s_5fq4QV8HNCy71xO9yI5eu4SNTmc,22892
+foodparser/data/test.txt,sha256=MMQIRI2zUpGQp4E8jNYdwNgyFtLQVv-pJr6Mv2b0m-Y,16
+foodparser-0.1.8.dist-info/LICENSE,sha256=pvEHrhwAC--XmkHE0KyutGpNuxPEa8r6TgdNZmirL44,1065
+foodparser-0.1.8.dist-info/METADATA,sha256=Qb2Mx3VY5A1fs2QOlfw8xH5bRzkTXDgZCUCTGyOt5Bs,781
+foodparser-0.1.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+foodparser-0.1.8.dist-info/top_level.txt,sha256=wImFmSjgdQhP8RE9I3SIfFBSSZ1RdYU0m7vKQp9cHwI,11
+foodparser-0.1.8.dist-info/RECORD,,

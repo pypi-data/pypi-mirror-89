@@ -1,0 +1,14 @@
+NYTimesArticleAPI/__init__.py,sha256=JKwH1HkBYIaUV-Z8gBsGsCAJ0vnEK7KU60fMr0PBgs4,288
+NYTimesArticleAPI/nytapi.py,sha256=lk7YwtQMjYCLiDI-CFpXpESNKiEKQdHC9PtvHNAREdo,3581
+NYTimesArticleAPI/search_api.py,sha256=EjD0WxSSMtKiJe0mLZ3R8jjPTRzoLIRt7hOT_TkJ7L4,2843
+NYTimesArticleAPI/tests.py,sha256=qISFQpdI77hCdSuQ_A5h5Etd1ZoLyCDR4p1qyTQOZP8,149
+nytimesarticlev2/__init__.py,sha256=JKwH1HkBYIaUV-Z8gBsGsCAJ0vnEK7KU60fMr0PBgs4,288
+nytimesarticlev2/nytapi.py,sha256=lk7YwtQMjYCLiDI-CFpXpESNKiEKQdHC9PtvHNAREdo,3581
+nytimesarticlev2/search_api.py,sha256=EjD0WxSSMtKiJe0mLZ3R8jjPTRzoLIRt7hOT_TkJ7L4,2843
+nytimesarticlev2/tests.py,sha256=qISFQpdI77hCdSuQ_A5h5Etd1ZoLyCDR4p1qyTQOZP8,149
+nytimesarticlev2-1.1.0.dist-info/LICENSE,sha256=QKmNWlACyjCNPosz-X0q6Q-HLG7GNZ-oTGCOC-NuALs,1070
+nytimesarticlev2-1.1.0.dist-info/METADATA,sha256=Libx7drkWR9KTmzXTJ4gcwomlmpPf3JS3alPUMg5If0,3857
+nytimesarticlev2-1.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+nytimesarticlev2-1.1.0.dist-info/top_level.txt,sha256=4HcKk2hr_q3lSJngh3JKlRDaAOBHt2ToOXgb3mo6LOM,17
+nytimesarticlev2-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nytimesarticlev2-1.1.0.dist-info/RECORD,,

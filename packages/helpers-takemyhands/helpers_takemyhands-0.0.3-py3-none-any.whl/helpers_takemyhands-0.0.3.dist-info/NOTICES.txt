@@ -1,0 +1,10 @@
+# Histories
+
+0.0.1 (2020/12/26)
+- First Release.
+
+0.0.2 (2020/12/26)
+- Added Request manager.
+
+0.0.3 (2020/12/26)
+- Added Key generator.

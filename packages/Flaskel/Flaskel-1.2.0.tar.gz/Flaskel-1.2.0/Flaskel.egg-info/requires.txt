@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+Flask-ErrorsHandler
+Flask-ResponseBuilder
+Flask-TemplateSupport
+Flask-CloudflareRemote
+Flask-Logify
+Flask-SqlAlchemy
+PyYAML
+python-decouple
+requests
+user-agents
+argon2-cffi

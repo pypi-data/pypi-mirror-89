@@ -1,0 +1,18 @@
+baseline/Baseline1 (k-annonymity).py,sha256=XUQ8WYGqTyzAhNvpSZXY2oRQDtHteFv1e1PqHTBdRok,1080
+baseline/Baseline2.py,sha256=gr97N3EvtfTNeRSvmhdIvc1-YLWEnrYjqs6qoi5DuTI,10793
+baseline/Baseline3.py,sha256=Z59LaWTsR9pDJwvd_hiJJAB9U6dizDbN4mrA9tn4v0Q,21181
+baseline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+baseline/test_baseline_2.py,sha256=eZWtEFqTcUEaqUpfhV-QUb6jTOIWFqZh3IUotdR0aR4,1109
+p_tlkc_privacy/Anonymizer.py,sha256=pNObMZZAnn8nQQ55GG5g8VZPCsdYgcHa3HXoK1jiHPY,4839
+p_tlkc_privacy/ELRepresentation.py,sha256=DNoVJ1OLnFUSHK27SRQzcm-uy8IjEwgJO5YdsU4JTE0,29440
+p_tlkc_privacy/MFS.py,sha256=7Zv6GevhImcOUp1GGH1u5lLSv9uDBH32S9-IGD-0dIU,3136
+p_tlkc_privacy/MVS.py,sha256=-WLa4nG5qTXrX4ycp4fTVcWYaiJjlJ_mpNFsHD55EL4,30158
+p_tlkc_privacy/__init__.py,sha256=MAAijweea_ygVozhKUaMfH1LRtfKrt4lzsk9PKPRtvk,375
+p_tlkc_privacy/privacyPreserving.py,sha256=jKsUihmYgjafIUCDwD2_DyrZEkYdi8lhU1snyU5zStY,6504
+p_tlkc_privacy/results.py,sha256=iROnqWmlxCOipiLN5NsEe31La7RmaLXPuQ4KA8cbYnY,1699
+p_tlkc_privacy-0.0.14.dist-info/LICENSE,sha256=5c26u-GuYOjqzUDQMGGCYpHi9lRHuEZvG-jajFEklaI,34817
+p_tlkc_privacy-0.0.14.dist-info/METADATA,sha256=3roxylqaFNmCGDi4eCInIFLGRJvlJoiZxGvUUGMPmL0,1735
+p_tlkc_privacy-0.0.14.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+p_tlkc_privacy-0.0.14.dist-info/pbr.json,sha256=aTmPClxtexTGvP71iRKDdbdYnleQOtxEcCsfB5QinVc,47
+p_tlkc_privacy-0.0.14.dist-info/top_level.txt,sha256=3Qn9YfX8VCuFTsHffI1L05FrE3JLZqJzcT3ntcwMUxI,24
+p_tlkc_privacy-0.0.14.dist-info/RECORD,,

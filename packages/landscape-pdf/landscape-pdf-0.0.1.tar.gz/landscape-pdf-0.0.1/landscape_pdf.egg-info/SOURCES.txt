@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/landscape-pdf
+landscape-pdf/__init__.py
+landscape-pdf/rotate.py
+landscape_pdf.egg-info/PKG-INFO
+landscape_pdf.egg-info/SOURCES.txt
+landscape_pdf.egg-info/dependency_links.txt
+landscape_pdf.egg-info/top_level.txt

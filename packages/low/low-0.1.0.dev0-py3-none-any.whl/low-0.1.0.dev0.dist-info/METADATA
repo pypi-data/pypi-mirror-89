@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: low
+Version: 0.1.0.dev0
+Summary: A json parser
+Home-page: https://lab.errorist.xyz/py/plum
+License: MIT
+Keywords: parser
+Author: Xavier Barbosa
+Author-email: clint.northwood@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://lab.errorist.xyz/py/plum
+Project-URL: Repository, https://lab.errorist.xyz/py/plum
+Description-Content-Type: text/x-rst
+
+Plum
+====
+
+A lightweight validation / constraint / coercion library
+

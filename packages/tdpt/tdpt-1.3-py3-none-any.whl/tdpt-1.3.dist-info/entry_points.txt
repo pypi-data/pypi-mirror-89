@@ -1,0 +1,3 @@
+[console_scripts]
+tdpt = tdpt:__main__.main
+

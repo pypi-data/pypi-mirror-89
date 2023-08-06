@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py2sqlm-andlvovsky
+Version: 1.0.1
+Summary: Python 3 to PostgreSQL mapper
+Home-page: https://github.com/AndLvovSky/metaprogramming/tree/lab3
+Author: Viktor Ilvovskyi
+Author-email: viktorilvovskyi@gmail.com
+License: UNKNOWN
+Description: Python 3 to PostgreSQL mapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

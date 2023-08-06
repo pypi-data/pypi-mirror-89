@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ysospy-noahbraunf
+Version: 0.0.1
+Summary: Useful helper functions for HRL
+Home-page: https://github.com/noahbraunf/ysopy
+Author: Noah Braunfeld
+Author-email: noah@braunfeld.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+
+# ysopy
+## Helpful functions for working with young stellar objects (yso's) in python
+
+
+

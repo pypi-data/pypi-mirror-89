@@ -1,0 +1,7 @@
+README.md
+setup.py
+emo_pkg/__init__.py
+emo_pkg.egg-info/PKG-INFO
+emo_pkg.egg-info/SOURCES.txt
+emo_pkg.egg-info/dependency_links.txt
+emo_pkg.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: sattar_package
+Version: 0.0.2
+Summary: A simple package for Special topics-IAUN
+Home-page: https://www.nexinno.ir
+Author: Sattar Monejezi
+Author-email: sattarmonjezi88@gmail.com
+License: MIT
+Description: This is a simple text that created by Sattar Monjezi
+        
+Keywords: Special_topics_IAUN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Financial and Insurance Industry

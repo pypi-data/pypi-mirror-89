@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nacla
+Version: 0.0.8
+Summary: 输入一个姓名，输出这个姓名输入哪个国家
+Home-page: UNKNOWN
+Author: zhaomingming
+Author-email: 13271929138@163.com
+License: MIT
+Keywords: name classify,nlp
+Platform: python>=3.6.7
+
+UNKNOWN
+
+

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: get_ips
+Version: 1.0.1
+Summary: Get IPs
+Home-page: UNKNOWN
+Author: Sven Wagner
+Author-email: svenw1612@gmail.com
+License: UNKNOWN
+Description: Get Public/Private IP
+Keywords: python,ip,getip
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

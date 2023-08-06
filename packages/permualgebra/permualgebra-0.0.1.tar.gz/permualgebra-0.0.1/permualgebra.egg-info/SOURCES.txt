@@ -1,0 +1,9 @@
+README.md
+setup.py
+permualgebra/__init__.py
+permualgebra/cycle.py
+permualgebra/permutation.py
+permualgebra.egg-info/PKG-INFO
+permualgebra.egg-info/SOURCES.txt
+permualgebra.egg-info/dependency_links.txt
+permualgebra.egg-info/top_level.txt

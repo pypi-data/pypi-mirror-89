@@ -1,0 +1,14 @@
+CHI/__init__.py,sha256=Y4MViax4OIvyu9kuIpQJWLOTApgM3eqQqXzyTGwnWRU,522
+CHI/chi_cache_object.py,sha256=TJyRltFoD6ZNdoJzLMtxwlT_1O7p05UT7HRsCPRNSpY,7039
+CHI/chi_driver.py,sha256=tJ--EXgD89N7ebfP0FPbf1g3JMqw7jG_hzAGZNMAfmE,5917
+CHI/chi_driver_memcache.py,sha256=lB9FcRYzPAjxq1mxZdd-ukIvkvmmjt6mJ7lEmg4Zm1c,1261
+CHI/chi_driver_redis.py,sha256=GEiDyLXDB44ALnFcd9iiu8_Yhy1xDtyNPApmgSgSmXw,378
+CHI/chi_driver_redis_cluster.py,sha256=WM2Wp4X1NU3eT9qLcM25MmLihRkP21V-85fJ7hzcR2I,2680
+CHI/chi_util.py,sha256=CJsZCpONqtfAP4JJivLnZ8EponP2VCr42EYqbbXqCYg,399
+CHI/exception.py,sha256=7PR4hXFUa5cpWg_MMKnc9KPnkXWFphcPbp2jDZ00sv0,702
+python_perl_chi-0.1.4.data/scripts/chi,sha256=71o3mCPB42yy6QpRMaEDzm6lR7y4-M7T8fHo4zX0zKE,4451
+python_perl_chi-0.1.4.dist-info/LICENSE,sha256=MEYAXa_iy-0qlxnFWbPyiyBe3SkJzcyH0l3z-sekl9k,1075
+python_perl_chi-0.1.4.dist-info/METADATA,sha256=EUL2TyFBLNH4lqyu9zah3W6edgtEjEqFeY6zNNuBnDc,6983
+python_perl_chi-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_perl_chi-0.1.4.dist-info/top_level.txt,sha256=bHX5VvSdmsBmiV2OjUV4VZIQfL0KpxxZLta2cDHvtjE,4
+python_perl_chi-0.1.4.dist-info/RECORD,,

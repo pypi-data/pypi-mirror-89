@@ -1,0 +1,3 @@
+[console_scripts]
+pyfferaph = pyfferaph.pyfferaph:main
+

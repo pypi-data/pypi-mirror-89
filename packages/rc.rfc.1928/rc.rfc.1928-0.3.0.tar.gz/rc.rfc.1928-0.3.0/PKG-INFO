@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: rc.rfc.1928
+Version: 0.3.0
+Summary: SOCKS-5 implementation (RFC.1928)
+Home-page: https://www.github.com/radical-consulting/rc.rfc.1928/
+Author: Andre Merzky
+Author-email: andre.merzky@radical-consulting.com
+Maintainer: RADICAL-Consulting UG
+Maintainer-email: software@radical-consulting.com
+License: AGPL
+Description: UNKNOWN
+Keywords: SOCKS5 RFC.1928
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix

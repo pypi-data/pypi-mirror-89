@@ -1,0 +1,98 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import tty
+import time
+import fcntl
+import select
+import termios
+
+import threading as mt
+
+import rc.utils as rcu
+import rc.rfc1928
+
+
+# ------------------------------------------------------------------------------
+#
+def pull_output(channel):
+
+    try:
+        while not term.is_set():
+            data = channel.read(1)
+            if not data:
+                break
+            sys.stdout.write(data)
+            sys.stdout.flush()
+
+    except Exception as e:
+        sys.stderr.write('\noutput error: %s\n' % e)
+        sys.stderr.flush()
+
+    finally:
+        term.set()
+
+
+# ------------------------------------------------------------------------------
+#
+def push_input(channel):
+
+    old_settings = termios.tcgetattr(sys.stdin)
+    try:
+        tty.setcbreak(sys.stdin.fileno())
+        flags = fcntl.fcntl(sys.stdin, fcntl.F_GETFL)
+        fcntl.fcntl(sys.stdin, fcntl.F_SETFL, flags | os.O_NONBLOCK)
+
+        while not term.is_set():
+            if select.select([sys.stdin], [], [], 0)[0] == [sys.stdin]:
+                data = sys.stdin.read(1)
+                if not data:
+                    break
+                channel.write(data)
+            else:
+                time.sleep(0.01)
+
+    except Exception as e:
+        sys.stderr.write('\ninput  error: %s\n' % e)
+        sys.stderr.flush()
+
+    finally:
+        term.set()
+        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_settings)
+
+
+# ------------------------------------------------------------------------------
+#
+if __name__ == '__main__':
+
+    path    = str(sys.argv[1])
+    host    = str(sys.argv[2])
+    port    = int(sys.argv[3])
+    term    = mt.Event()
+    channel = None
+
+    try:
+        channel = rcu.UnixDomainSocket(path)
+        rc.rfc1928.socksify(channel, host, port)
+
+        t_in  = mt.Thread(target=push_input,  args=[channel])
+        t_out = mt.Thread(target=pull_output, args=[channel])
+
+        t_in.start()
+        t_out.start()
+
+        while not term.is_set():
+            time.sleep(1)
+
+    except Exception as e:
+        print('socksify error: %s' % e)
+
+    finally:
+        term.set()
+        if channel:
+            channel.close()
+
+
+# ------------------------------------------------------------------------------
+

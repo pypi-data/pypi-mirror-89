@@ -1,0 +1,17 @@
+djangelo/__init__.py,sha256=X6bTH6KpQ_BD9aofiy4OUa4cV5VGmkhgqMkyCi-2dzI,55
+djangelo/_django_settings.py,sha256=E7JTMPXGQEArX_3uqJFvc4ZbLtzFq4OGntkh6vaVgvQ,1022
+djangelo/_elo_implementation.py,sha256=Qao4X3tOA0eKQvjbQ4b3US4v7ZyWxa1wiveSOfRUPKg,1507
+djangelo/apps.py,sha256=4AB6qc3AQkRmjTw0BSCPx7WfUYmztHsiFofKZMITwDI,275
+djangelo/models.py,sha256=VY1jkX1mEmZT6t6pVj2LMvgubrdBNJ44sDLCex8wZRo,1706
+djangelo/signals.py,sha256=AXun2HTrvMGSWzjfAJdGRajTNPJ4HbM8BBXbXUoqJwc,549
+djangelo/utils.py,sha256=GPbjyjNN0KZ5kZgAROBCuW3q_Do3dq5YaZUj16XY4s0,394
+djangelo/migrations/0001_initial.py,sha256=s44Q69tt4UrNHhvGLU_qFQbaCGK4sLPQ3anMQhk2GuA,1041
+djangelo/migrations/0002_auto_20201220_1900.py,sha256=Eb56QIikHEz9a7XaMAaYlgGmbgKBAuYcaaARdZv94gk,393
+djangelo/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangelo-0.1.4.data/data/libdjangelo/libdjangelo.so,sha256=1FD05Hkd4wldNnl3oExXSO1B5uSS0l6sUTWsEpiVAGI,15888
+djangelo-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+djangelo-0.1.4.dist-info/METADATA,sha256=av8ZI-Lj-hECszrgrOCTRCYTmW2k0SmTgEIWiJLBots,4454
+djangelo-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+djangelo-0.1.4.dist-info/entry_points.txt,sha256=uxUggI96U5--U1VzJ0778IBrz_zm-IqEGDj3FwWxUOY,45
+djangelo-0.1.4.dist-info/top_level.txt,sha256=PNadep5A3LOZwCQ_lcwgNoh_i9hQLCAZhmTNI-YlWjA,9
+djangelo-0.1.4.dist-info/RECORD,,

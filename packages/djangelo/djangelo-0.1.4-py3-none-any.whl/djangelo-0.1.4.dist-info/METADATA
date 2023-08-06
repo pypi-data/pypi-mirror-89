@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: djangelo
+Version: 0.1.4
+Summary: Tracking and rating Django Model activities with ELO system 
+Home-page: https://gitlab.com/agustinjimenez/djangelo
+Author: Agustin Jimenez
+Author-email: agustin.j@zohomail.com
+License: APACHE 2.0
+Keywords: django elo rating tracking plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: Django (~=3.0.2)
+Provides-Extra: dev
+Requires-Dist: bandit (~=1.6.2) ; extra == 'dev'
+Requires-Dist: djangorestframework (~=3.11.0) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.7.9) ; extra == 'dev'
+Requires-Dist: flake8-html (~=0.4.1) ; extra == 'dev'
+Requires-Dist: pytest (~=5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-django (~=3.9.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.10.0) ; extra == 'dev'
+Requires-Dist: pytest-flake8 (~=1.0.6) ; extra == 'dev'
+Requires-Dist: pytest-html (~=2.1.1) ; extra == 'dev'
+
+# Djangelo
+Django Plugin for tracking and rating actions with ELO system.
+
+## Implementation Example
+1. You have a blog.
+1. Your blog have posts.
+1. Each post have comments, likes and other user reactions.
+1. **You want to evaluate which posts have lower or beyond user reactions in a quantitative way**
+
+*This is your solution!*
+
+__Main Features__:
+- Track activity of your Django Models
+- Compare the activity of each Object with the activity of all objects tracked
+- Determine an ELO rating from this comparation
+
+__Cool Features__:
+- Easy to implement
+- Ready to use
+---
+
+## Documentation
+
+[Online](https://djangelo.rtfd.io)
+
+[PDF download](https://djangelo.rtfd.io/_/downloads/en/latest/pdf/)
+
+## Getting Started
+
+### Dependencies
+- python >= 3.5
+- Django >= 3
+
+
+### Installation
+~~~sh
+pip install djangelo
+~~~
+
+_And then, three simple steps_
+
+__FIRST__: Add djangelo into your INSTALLED_APPS and define which models you want to track
+~~~python
+INSTALLED_APPS = [
+# ...
+'django.contrib.contenttypes',
+'djangelo'
+]
+
+DJANGELO = {
+    'RATED_MODELS': [
+        'myapp1.mymodel1',
+        'myapp1.mymodel2',
+
+        'myapp2.mymodel1',
+    ]
+}
+~~~
+__SECOND__: Get elo values from your Model
+~~~python
+# Adding the ELORated on your models, those will be tracked
+
+from django.db import models
+from djangelo.utils import EloDescriptor
+
+class MyModel(models.Model):
+    elo = EloDescriptor()
+    # ... here your code
+
+# You can also get and compare elo rated objects
+    instance1.elo.value
+    >> 3.5
+
+    instance1.elo >= instance2.elo
+    >> True
+~~~
+__FINALLY__: Define when your objects increments his rating.
+~~~python
+# To increse the elo rating just call elo.up() method
+    myModelInstance.elo.up()
+    myModelInstance.elo.down()
+~~~
+
+### Customization
+~~~python
+DJANGELO = {
+    # Increse the sensibility for more sensitive rating.
+    # This make more impact for each tracked activity
+    # by default is 32
+    'SENSIBILITY': 64,
+
+    # You can define a default ELO value for the new objects created
+    # by default is 1200
+    'INITIAL_VALUE': 4000
+
+    'RATED_MODELS': [...]
+}
+~~~
+
+---
+
+### Contributing
+Contributors are wellcome! Any new feature will be well recibed as merge request or issue.
+
+### Licence
+Licensed over APACHE 2.0. See [LICENSE](LICENSE)
+
+### Manteiner
+This software is developed and mantained by [Agustin Jimenez](https://agustinjimenez.gitlab.io/portfolio).
+
+

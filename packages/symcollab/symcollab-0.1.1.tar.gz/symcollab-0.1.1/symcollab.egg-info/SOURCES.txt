@@ -1,0 +1,10 @@
+README.md
+setup.py
+proofassist/__init__.py
+proofassist/main.py
+symcollab/__init__.py
+symcollab.egg-info/PKG-INFO
+symcollab.egg-info/SOURCES.txt
+symcollab.egg-info/dependency_links.txt
+symcollab.egg-info/requires.txt
+symcollab.egg-info/top_level.txt

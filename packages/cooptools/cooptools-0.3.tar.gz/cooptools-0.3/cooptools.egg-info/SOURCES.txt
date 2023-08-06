@@ -1,0 +1,10 @@
+README.md
+setup.py
+cooptools/__init__.py
+cooptools/printing.py
+cooptools.egg-info/PKG-INFO
+cooptools.egg-info/SOURCES.txt
+cooptools.egg-info/dependency_links.txt
+cooptools.egg-info/not-zip-safe
+cooptools.egg-info/requires.txt
+cooptools.egg-info/top_level.txt

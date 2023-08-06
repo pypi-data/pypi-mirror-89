@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: qiskit-tensorflow
+Version: 0.0.1
+Summary: A Tensorflow based simulator backend for Qiskit
+Home-page: http://github.com/lazyoracle/qiskit-tensorflow
+Author-email: contact@anuragsaharoy.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: qiskit (==0.23.*)
+Requires-Dist: tensorflow (==2.4.*)
+
+# Qiskit Tensorflow: A Tensorflow based simulator backend for Qiskit
+
+[![](https://badge.fury.io/py/qiskit-tensorflow.svg)](https://pypi.python.org/pypi/qiskit-tensorflow/)
+![PyPI - License](https://img.shields.io/pypi/l/qiskit-tensorflow)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/qiskit-tensorflow.svg)](https://pypi.python.org/pypi/qiskit-tensorflow/)
+
+## Installation
+
+```bash
+pip install qiskit-tensorflow
+```
+
+

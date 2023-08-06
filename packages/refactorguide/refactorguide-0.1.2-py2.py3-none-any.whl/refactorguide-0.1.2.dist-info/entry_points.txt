@@ -1,0 +1,3 @@
+[console_scripts]
+refactorguide = refactorguide.__main__:main
+

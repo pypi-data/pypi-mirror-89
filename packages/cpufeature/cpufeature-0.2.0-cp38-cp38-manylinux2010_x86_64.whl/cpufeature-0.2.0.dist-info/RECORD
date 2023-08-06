@@ -1,0 +1,10 @@
+cpufeature-0.2.0.dist-info/WHEEL,sha256=3Rn77v1cOIQWUJHbJxwJJ4HycjuBQ6DIO-hbFDX-kLU,111
+cpufeature-0.2.0.dist-info/METADATA,sha256=IVKFfh8dpv1bmAMkCwn07GlXPguhvnyTg7yYaGvSksY,4723
+cpufeature-0.2.0.dist-info/top_level.txt,sha256=G23qXMS9SHRE_GS0a-ZbXokWy8wczZuxCLPXjsJ65V4,11
+cpufeature-0.2.0.dist-info/RECORD,,
+cpufeature-0.2.0.dist-info/LICENSE,sha256=Nv_Z3AhdUpp-YOEnbXOuWgMLAgMT5sVAhZOmrirzlnM,6555
+cpufeature/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+cpufeature/test_cpufeature.py,sha256=qNtSIa-U8BKXQoRc5KVeE-B2IDayMLy87DFm0Or-u_M,585
+cpufeature/bitmask.py,sha256=hGT9LJ0lD1MWv6_r9foAOXOiLt7tSkVHMFjUwCpw07g,553
+cpufeature/extension.cpython-38-x86_64-linux-gnu.so,sha256=t2uxCJ0D-Yg1TM01Qarakncc6sYMbvgf71MPlFsiZI8,54344
+cpufeature/__init__.py,sha256=D_d3A3E6TpbQuvUe6pVg_cIRHGcOFfWN_LrLG6k6EsQ,380

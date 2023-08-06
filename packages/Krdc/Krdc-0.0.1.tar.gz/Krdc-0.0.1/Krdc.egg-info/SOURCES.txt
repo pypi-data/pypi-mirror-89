@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+KRD/__init__.py
+Krdc.egg-info/PKG-INFO
+Krdc.egg-info/SOURCES.txt
+Krdc.egg-info/dependency_links.txt
+Krdc.egg-info/top_level.txt

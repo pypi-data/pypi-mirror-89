@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: helpers-takemyhands
+Version: 0.0.1
+Summary: This help for python or django development easily.
+Home-page: UNKNOWN
+Author: TakeMyHands
+Author-email: wy0353@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

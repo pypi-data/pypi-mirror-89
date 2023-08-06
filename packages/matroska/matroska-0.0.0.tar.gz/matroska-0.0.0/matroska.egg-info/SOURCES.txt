@@ -1,0 +1,5 @@
+setup.py
+matroska.egg-info/PKG-INFO
+matroska.egg-info/SOURCES.txt
+matroska.egg-info/dependency_links.txt
+matroska.egg-info/top_level.txt

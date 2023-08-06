@@ -1,0 +1,9 @@
+fire
+gensim
+networkx
+numpy
+obonet
+pandas
+joblib
+scipy
+lightgbm

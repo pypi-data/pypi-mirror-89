@@ -1,0 +1,6 @@
+README.md
+setup.py
+TinyMath1.egg-info/PKG-INFO
+TinyMath1.egg-info/SOURCES.txt
+TinyMath1.egg-info/dependency_links.txt
+TinyMath1.egg-info/top_level.txt

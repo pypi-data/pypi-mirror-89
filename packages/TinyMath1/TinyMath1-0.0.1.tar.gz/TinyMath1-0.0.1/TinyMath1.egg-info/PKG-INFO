@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: TinyMath1
+Version: 0.0.1
+Summary: A small mathematics library
+Home-page: https://github.com/einshoe/TinyMath
+Author: Ray Seikel
+Author-email: rseikel@bigpond.com
+License: UNKNOWN
+Description: # TinyMath
+        It is the demo created for educational purpose,
+        It has two classes inside
+        class Numbers
+        methods isPrime(n), isArmstrong(n)
+        class Arithmetic
+        methods add(a,b), sub(a,b)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bmi-calculator
+Version: 0.0.2
+Summary: Calculates BMI
+Home-page: https://github.com/EronzG/BMI_library
+Author: Eromosele Iriogbe
+Author-email: eiriogbe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# BMI_Calc Package
+This is a BMI calculator package
+
+## What it does
+- Calculates user's bmi
+

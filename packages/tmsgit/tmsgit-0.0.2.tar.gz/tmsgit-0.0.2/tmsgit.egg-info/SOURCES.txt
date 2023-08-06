@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tmsgit/__init__.py
+tmsgit/__main__.py
+tmsgit/commands.py
+tmsgit.egg-info/PKG-INFO
+tmsgit.egg-info/SOURCES.txt
+tmsgit.egg-info/dependency_links.txt
+tmsgit.egg-info/entry_points.txt
+tmsgit.egg-info/requires.txt
+tmsgit.egg-info/top_level.txt

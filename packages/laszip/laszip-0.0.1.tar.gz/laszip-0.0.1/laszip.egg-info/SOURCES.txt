@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+laszip.egg-info/PKG-INFO
+laszip.egg-info/SOURCES.txt
+laszip.egg-info/dependency_links.txt
+laszip.egg-info/not-zip-safe
+laszip.egg-info/top_level.txt

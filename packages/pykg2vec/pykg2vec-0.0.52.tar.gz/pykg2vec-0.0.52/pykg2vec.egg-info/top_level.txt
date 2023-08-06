@@ -1,0 +1,3 @@
+examples
+pykg2vec
+scripts

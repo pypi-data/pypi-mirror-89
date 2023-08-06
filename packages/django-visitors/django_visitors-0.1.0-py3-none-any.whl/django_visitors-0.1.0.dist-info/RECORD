@@ -1,0 +1,15 @@
+visitors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+visitors/admin.py,sha256=NL2gNdNEeCtRcBywZB6hhw1HER5kq5IdNwykK6XW0KM,1292
+visitors/apps.py,sha256=CrLnhv4JBjFniWxB16KBz8sSQwbC-_TquOmg615gI1I,121
+visitors/context_processors.py,sha256=AZCa769Z4LQEfLizVtcSnwbUnQ9o194ci6nj4mGDTBE,470
+visitors/decorators.py,sha256=KRnOHNgHz-0XRDiissnG0tqnRFFuCntkOcyr2Z6avUw,2462
+visitors/middleware.py,sha256=mKfpEj08_CKshg3hNf-ftrCc7vrlwJ3cs2QddFWEDcQ,3514
+visitors/migrations/0001_initial.py,sha256=iEnTEAB96NQ647lHOt8Zs7SJ41NkoCpTOx8xu-qTc14,1595
+visitors/migrations/0002_visitorlog.py,sha256=DJmP4HWNEqxBn50PTvvkOV-RBxa_cFMIUpRIpBLb2PE,1507
+visitors/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+visitors/models.py,sha256=LecUYKfMwi14TBdu_9tqW5w-kkN-hqjQwirLAOVYIAg,3413
+visitors/settings.py,sha256=pP_TYElhBL9yChaUZ7nuw30XY1zr72F5G5gCXKtK4so,405
+django_visitors-0.1.0.dist-info/LICENSE,sha256=Pg-AVb8HD6XJZn52p0p3tjxjJKv92gfGnwrakjFEkp8,1065
+django_visitors-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+django_visitors-0.1.0.dist-info/METADATA,sha256=Xo5AWtZoyBu8NSOeWyGerRQgRTmr-eatX6unRfkgWYk,5045
+django_visitors-0.1.0.dist-info/RECORD,,

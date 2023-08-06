@@ -1,0 +1,3 @@
+pybind11
+matplotlib
+sphinx-gallery

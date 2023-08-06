@@ -1,0 +1,14 @@
+stork/__init__.py,sha256=k5MTx1ilWxz60Bf7grQu6t7KVBlhmiOYKhKiEl7q5-o,125
+stork/_version.py,sha256=i2h4A-zBq1z9ZRrc6Kso_mAbm_p1oSJsr_i7cYT9R6o,22
+stork/cli.py,sha256=IutrZoE-7egbg_b0x1bGSjdwoHA6nk7R9jaH2KKuxA4,570
+stork/cli_commands.py,sha256=usySLX8l1bqymS7tt-NbtEBNbEiZUe3bSG9Bt7OJm50,5060
+stork/configure.py,sha256=EW__AXX86ps2Ia7GQwVYnRRe919qujhY2ylEt8RGtT8,2625
+stork/create_job_cluster.py,sha256=jaz8juSE_zS0ZgERiRww-BE8QlsLj8sRNQTpt-bjTfw,5540
+stork/update_databricks_library.py,sha256=-JLqOEQOzcDfxSq_HXN4psf8-T93LZXZnv6nALi9_jY,19018
+stork-3.1.0.data/data/LICENSE.txt,sha256=kaxi5XW7ToYf_l8Szypf-yeflw0BoHNs2ONkjtUl4ak,1460
+stork-3.1.0.dist-info/LICENSE.txt,sha256=kaxi5XW7ToYf_l8Szypf-yeflw0BoHNs2ONkjtUl4ak,1460
+stork-3.1.0.dist-info/METADATA,sha256=asm10PhfqxWEmqlKfhUcTHE1rDMR6M70EesSvVbiRk4,6744
+stork-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stork-3.1.0.dist-info/entry_points.txt,sha256=M45ORXmjhxCpqLB1PYgB2UxVxpmG5SMQ74p0l1zYpIU,41
+stork-3.1.0.dist-info/top_level.txt,sha256=uBjS81hJ5oaJOuOrakhPj-AQeN5ZMjuRl2hqmSlj8dc,6
+stork-3.1.0.dist-info/RECORD,,

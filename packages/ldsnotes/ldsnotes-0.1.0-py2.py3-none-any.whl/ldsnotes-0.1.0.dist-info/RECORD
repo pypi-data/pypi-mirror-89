@@ -1,0 +1,10 @@
+ldsnotes/__init__.py,sha256=oRMsWD_lY0HFjZ_AbiYmg6mn1ZgNrbo-9CPLME-Iyjk,297
+ldsnotes/annotations.py,sha256=dVSs4iOSQmdrgB_KznNwVuN5jYqG6BUIiVPtdWckxAA,10682
+ldsnotes/content.py,sha256=8bxc3MTZXE6HwNJmmU19Cj40dIUyFIlkdWNZEyXVIHE,6085
+ldsnotes/note.py,sha256=x_UVLIzexzCVMRkddUjlNrUQdf7orwyEWK3PZutd6AI,7466
+ldsnotes/test.py,sha256=XK516hCRR3B5D9bRM7ofx0hE3aonX8YTX29YgdaBA1w,416
+ldsnotes-0.1.0.dist-info/LICENSE,sha256=wtb2A0iLCnzDB9pIJvtodIgtUn290v8fhfEX8HlBg5w,1073
+ldsnotes-0.1.0.dist-info/METADATA,sha256=uCADL3SSgHQODceTszYIyCW_tNYx7pNyc0AOn5sfy8M,2994
+ldsnotes-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ldsnotes-0.1.0.dist-info/top_level.txt,sha256=3bx7YvR1_nTGJaIpHQ1gLmLTwGIrfyyERUtIcEzwApU,9
+ldsnotes-0.1.0.dist-info/RECORD,,

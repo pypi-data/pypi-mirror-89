@@ -1,0 +1,14 @@
+README.md
+setup.py
+taosc/__init__.py
+taosc/cinterface.py
+taosc/connection.py
+taosc/constants.py
+taosc/cursor.py
+taosc/dbapi.py
+taosc/error.py
+taosc/subscription.py
+taosc.egg-info/PKG-INFO
+taosc.egg-info/SOURCES.txt
+taosc.egg-info/dependency_links.txt
+taosc.egg-info/top_level.txt

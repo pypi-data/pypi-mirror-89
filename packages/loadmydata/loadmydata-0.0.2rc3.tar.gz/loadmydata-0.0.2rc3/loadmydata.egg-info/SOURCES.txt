@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+loadmydata/__init__.py
+loadmydata/config.py
+loadmydata/load_uea_ucr.py
+loadmydata/utils.py
+loadmydata.egg-info/PKG-INFO
+loadmydata.egg-info/SOURCES.txt
+loadmydata.egg-info/dependency_links.txt
+loadmydata.egg-info/requires.txt
+loadmydata.egg-info/top_level.txt
+loadmydata.egg-info/zip-safe

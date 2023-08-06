@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: libkget
+Version: 0.1.1
+Summary: Simple library to download files
+Home-page: https://github.com/0kalekale/libkget
+Author: kalekale
+Author-email: kalekale.anon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# libkget
+
+Simple python3 lib to download files from a url
+
+## example:
+```py
+from libkget import kget
+
+def main():
+    url = "https://www.kalekale.ga/html/img/ritsu.png"
+    kget(url).download()
+
+if __name__ == "__main__":
+    main()
+```
+

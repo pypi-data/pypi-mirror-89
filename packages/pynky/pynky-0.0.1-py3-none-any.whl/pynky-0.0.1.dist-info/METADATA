@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pynky
+Version: 0.0.1
+Summary: Math utils
+Home-page: https://github.com/thorwhalen/ut/tree/master/pynky
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# pynky
+Math utils
+
+
+To install:	```pip install pynky```
+
+

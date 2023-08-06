@@ -1,0 +1,9 @@
+numpy
+nptyping
+func_timeout
+opencv-python
+
+[test]
+coverage
+codecov
+pyfakefs

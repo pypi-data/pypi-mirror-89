@@ -1,0 +1,10 @@
+README.md
+setup.py
+py_to_zip/CZip.bat
+py_to_zip/__init__.py
+py_to_zip/license.txt
+py_to_zip/py_to_zip.py
+py_to_zip.egg-info/PKG-INFO
+py_to_zip.egg-info/SOURCES.txt
+py_to_zip.egg-info/dependency_links.txt
+py_to_zip.egg-info/top_level.txt

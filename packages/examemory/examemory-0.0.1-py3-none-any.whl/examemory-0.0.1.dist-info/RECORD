@@ -1,0 +1,9 @@
+examemory/__init__.py,sha256=GtTMwg1FCsm4c4tG16f0BJuqO1lp_qcgwbsprEnsbPw,227
+examemory/linux_memory.py,sha256=0hy-5kHJYtUeIUosQSwUAKTZ4RnkRImB4rlc7MiquKQ,1867
+examemory/memory.py,sha256=fynjtZrXepr5ISEq8VgaIeh86T32rFhamOf4sXFgaiA,2940
+examemory/windows_memory.py,sha256=IW5sSpykcUHx-s_DfAVSyZl9mmkaPBxoMyrVsMOEoF4,6649
+examemory-0.0.1.dist-info/LICENSE,sha256=xudWJITdoRxA7pwG6ugjDD3MyXEomhzmXTB__GzxCsM,1076
+examemory-0.0.1.dist-info/METADATA,sha256=n7CMJ1k7pjw5SoSN2I99nSxw5Zbc6eqTR-ItzyuGhTQ,433
+examemory-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+examemory-0.0.1.dist-info/top_level.txt,sha256=S5t_Xd_B9JwrNVrk4W80YQ-oAHs1VKkKhtLFKZmj3eA,10
+examemory-0.0.1.dist-info/RECORD,,

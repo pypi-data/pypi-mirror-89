@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pygouv.py
+src/pygouv.egg-info/PKG-INFO
+src/pygouv.egg-info/SOURCES.txt
+src/pygouv.egg-info/dependency_links.txt
+src/pygouv.egg-info/requires.txt
+src/pygouv.egg-info/top_level.txt

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: roci
+Version: 0.2.1
+Summary: no longer a work horse
+Home-page: https://github.com/andrewblance/roci
+License: MIT
+Keywords: packaging,project templates,projects,roci
+Author: Andrew Blance
+Author-email: andrewblance@live.co.uk
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Project-URL: Repository, https://github.com/andrewblance/roci
+Description-Content-Type: text/markdown
+
+# Roci
+
+![pypi](https://img.shields.io/pypi/v/roci.svg)](https://pypi.org/project/roci/)
+![Linting](https://github.com/andrewblance/roci/workflows/Linting/badge.svg)
+

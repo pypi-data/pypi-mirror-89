@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+file_explorer_utils/FolderIterator.py
+file_explorer_utils/IteratorFlow.py
+file_explorer_utils/SmbIterator.py
+file_explorer_utils/__init__.py
+file_explorer_utils/folderUtils.py
+file_explorer_utils/smbUtils.py
+file_explorer_utils.egg-info/PKG-INFO
+file_explorer_utils.egg-info/SOURCES.txt
+file_explorer_utils.egg-info/dependency_links.txt
+file_explorer_utils.egg-info/requires.txt
+file_explorer_utils.egg-info/top_level.txt

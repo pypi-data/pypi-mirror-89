@@ -1,0 +1,10 @@
+jupyterlab_pyflyby/__init__.py,sha256=A0HEekaP44ztMfrVzeTvdiMyZQeqzuoN8XOWLpjgSAc,589
+jupyterlab_pyflyby/_version.py,sha256=3ZQX_o4Gnltqf0KdswSgfkG3oiaQwOnZJX1JCwiLD6g,72
+jupyterlab_pyflyby/pyflyby_handler.py,sha256=tRMEOwr62E6U3kVwW1j_dDPjwozuR1k9oJ1lRhJ0l48,2479
+jupyterlab_pyflyby-3.0.1.data/data/etc/jupyter/jupyter_notebook_config.d/server-extension.json,sha256=PS3tIez_JyCaojo0A6ZgD1DdvxIWhvzKd66HnTbkEzI,106
+jupyterlab_pyflyby-3.0.1.data/data/share/jupyter/lab/extensions/deshaw-jupyterlab-pyflyby-3.0.1.tgz,sha256=cozsjyUd2rgS175Eue-7cBPk5XGGi-m5R1eWXv1XcLM,6659
+jupyterlab_pyflyby-3.0.1.dist-info/LICENSE.txt,sha256=S4Z6nbriJ6dyT68eVPeb6YhH8Wf1maT3t5mHS3yAgaM,1504
+jupyterlab_pyflyby-3.0.1.dist-info/METADATA,sha256=9i7suahZnJIoUadoIrFHnjTv-lqm337mARRhxdcK5ts,1719
+jupyterlab_pyflyby-3.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jupyterlab_pyflyby-3.0.1.dist-info/top_level.txt,sha256=uMQQpuvT5wqhFihvkWNtzfR2ZHk2LkYc51f-8VWkiAw,19
+jupyterlab_pyflyby-3.0.1.dist-info/RECORD,,

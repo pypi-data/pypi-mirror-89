@@ -1,0 +1,47 @@
+import gzip
+import os
+import shutil
+import tempfile
+from abc import ABC, abstractmethod
+from urllib.parse import urlparse
+
+import boto3
+
+
+class LandingZone(ABC):
+    @abstractmethod
+    def upload(self, src_path: str, dst_path: str, suffix: str = ''):
+        pass
+
+
+class AmazonS3LandingZone(LandingZone):
+    def __init__(self):
+        self.client = boto3.client('s3')
+
+    def upload(self, src_path: str, dst_path: str, suffix: str = ''):
+        u = urlparse(dst_path)
+
+        if u.scheme != 's3':
+            raise RuntimeError('Invalid destination path.')
+
+        with open(src_path, 'rb') as f_in:
+            f = tempfile.NamedTemporaryFile(delete=False)
+            final_path = f.name
+
+            with gzip.open(f, 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+            f.close()
+
+            self.client.upload_file(final_path, u.netloc, u.path[1:] + os.path.basename(src_path) + suffix)
+
+
+class LandingZoneFactory(object):
+    @staticmethod
+    def build_from_uri(uri):
+        u = urlparse(uri)
+
+        if u.scheme == 's3':
+            return AmazonS3LandingZone()
+
+        raise RuntimeError(f'Could not find landing zone matching scheme `{u.scheme}`.')

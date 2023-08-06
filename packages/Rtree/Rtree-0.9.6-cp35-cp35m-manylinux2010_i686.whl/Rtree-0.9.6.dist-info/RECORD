@@ -1,0 +1,13 @@
+rtree/index.py,sha256=7Vpg6f_0ZDgHDWYGEpIlB6OCcZ9oLffeUGUhisFghvc,81917
+rtree/core.py,sha256=K_YXTPvnodXERyAz7lq_zSPp_-po33eQ67s8rZwBeuU,27067
+rtree/exceptions.py,sha256=eaeQ9VtzTjVYBqsD_x_TyIqKdBnp7sM1_jiBtIG1bak,95
+rtree/finder.py,sha256=jFtZoBk4RcqMK_D4_170JDWRpDj7k1KE9m2UCT61SPc,3787
+rtree/__init__.py,sha256=8Au8eWbBPIsCKyHx4OFXKsFl5e7qeUN1pBxWJyHuiBs,179
+rtree/lib/libspatialindex_c.so,sha256=jE1sjn1Dwcz_YHVpq5PqHMakeP3UQRSQeEN1BjpYELo,271240
+rtree/lib/libspatialindex.so,sha256=1RGWrwblgwErS7-wa_ym0tyzJwVUrfGQL4d1lVm7nfs,1310136
+Rtree.libs/libspatialindex-d51196af.so.6.1.1,sha256=b8dB1WkdHMKH_B9e_I3jQOmFbgfhMe1wlX3EZ-f8b4g,1432036
+Rtree-0.9.6.dist-info/WHEEL,sha256=XhAjpEgmfwz1N6_PSmOyKNoMjuwMbVqtvVmfMIRppIc,110
+Rtree-0.9.6.dist-info/METADATA,sha256=96_yrOK6_UT4zgqSzwK4AqIRSXPtpcreLe6m9YuisDE,2173
+Rtree-0.9.6.dist-info/top_level.txt,sha256=T19ntLAehB3tZ5S9qrLgfiF1k9N1gP56P_1-TsBa724,6
+Rtree-0.9.6.dist-info/RECORD,,
+Rtree-0.9.6.dist-info/LICENSE.txt,sha256=Cu4jq8qWmqtkjAxBqp9syGGIcWesnz-_jURt2gHJuBs,1116

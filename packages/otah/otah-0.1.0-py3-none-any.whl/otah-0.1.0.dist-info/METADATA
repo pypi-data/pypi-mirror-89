@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: otah
+Version: 0.1.0
+Summary: create OTA manifests from iOS .ipa files for distribution outside the App Store.
+Home-page: https://github.com/ongyx/otah
+License: UNKNOWN
+Author: Ong Yong Xin
+Author-email: ongyongxin2020+github@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+
+# otah
+
+otah generates OTA plist manifests for iOS `.ipa` apps.
+This does **not** sign the `.ipa` file itself: the app must already be signed for it to be sucessfully installed.
+(Unless you're jailbroken.)
+
+## Usage
+```
+otah myapp.ipa -o manifest.plist -h mywebsite.com/path/to/ipa/file
+```
+
+## License
+MIT.
+

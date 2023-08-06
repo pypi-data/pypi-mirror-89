@@ -1,0 +1,3 @@
+[console_scripts]
+otah=otah:_main
+

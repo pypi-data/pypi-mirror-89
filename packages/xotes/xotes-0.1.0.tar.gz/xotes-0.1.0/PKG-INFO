@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: xotes
+Version: 0.1.0
+Summary: personal note management system.
+Home-page: https://gitlab.com/jrollins/xotes
+Author: Jameson Graef Rollins
+Author-email: jrollins@finestructure.net
+License: GPL-3.0-or-later
+Description: # Xotes - personal note management system
+        
+        Xotes is a personal note management system.  Features include:
+        * written in python3, should work on most systems
+        * library, command line, and ncurses interfaces
+        * [git](https://git-scm.com/) storage backend, for simple sharing between devices
+        * [xapian](https://xapian.org) full text index and search of all notes (optional)
+        * [GitJournal](https://gitjournal.io/) compatibility
+        
+        Dependencies:
+        * python3
+        * [GitPython](https://gitpython.readthedocs.io/)
+        * [PyYAML](https://pyyaml.org/)
+        * dateutil
+        * [urwid](http://urwid.org/) for ncurses interface (optional)
+        * [Xapian python3 bindings](https://xapian.org/docs/bindings/python/) (optional)
+        
+        All dependencies are commonly available through your favorite python
+        package manager.
+        
+        Xotes is managed on [GitLab](https://gitlab.com/jrollins/xotes).
+        
+        Xotes was written by [Jameson Graef Rollins](mailto:xotes@finestructure.net).
+        
+        
+        ## synchronizing between devices via git
+        
+        Xotes stores notes in a git repo, and can synchronize the store with
+        any git remotes configured in the store's git repo.  To configure,
+        simply [set up git
+        remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+        in the store's git repo as you would in any normal git repo, then use
+        the `Store.sync()` command or the command line `--sync` option to
+        synchronize.  See `Store.ROOT` or the command line `--help` for the
+        file system location of your store.
+        
+        ### fast sync with SSH
+        
+        If you use SSH remotes, synchronization can be sped up considerably by
+        using [SSH connection
+        multiplexing](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing).
+        By specifying a `ControlMaster` for your ssh connection, ssh can hold
+        open a connection to the remote, speeding up subsequent operations
+        considerably.
+        
+        For example, for remote `gitjournal@example.com` the following
+        `.ssh/config` stanza should setup a multiplexing socket just for your
+        gitjournal remote:
+        ```
+        Match originalhost example.com, user gitjournal
+        ControlMaster auto
+        ControlPersist yes
+        ```
+        
+        
+        ## faster editing with emacs
+        
+        If you use emacs to edit notes you can use the [emacs
+        server](https://www.emacswiki.org/emacs/EmacsAsDaemon) to speed up
+        editing considerably.
+        
+        I use a special emacs session just for xotes editing.  In a wrapper
+        script I have the emacs daemon launch if it's not running:
+        ```shell
+        if ! emacsclient --socket-name=xotes -e '()' >/dev/null ; then
+            emacs --daemon=xotes
+        fi
+        ```
+        And then I set the EDITOR environment variable to use emacsclient:
+        ```shell
+        export EDITOR="emacsclient --socket-name=xotes -t"
+        ```
+        
+        
+        ## recommended gitjournal config
+        
+        Xotes works very well with [GitJournal](https://gitjournal.io/).
+        While xotes should work with GitJournal out of the box, not all of the
+        potential GitJournal configuration options have been fully tested.  In
+        particular, xotes currently does expect the YAML header to be present.
+        
+        The following GitJournal settings may provide the best performance:
+        
+        * in "Note Metadata Settings":
+          * "Enable YAML Header"
+          * "Modified Field" should be "modified"
+          * "Created Field" should be "created"
+        * While xotes will support any note file name, "Uuid V4" file names
+          are the most sensible, imho.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown

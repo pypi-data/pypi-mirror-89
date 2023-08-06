@@ -1,0 +1,13 @@
+octobot_cli/__init__.py,sha256=bTmU1NL41b3AeyO5udoBVOm_7ZDli89FnSK_HZE6IUA,1115
+octobot_cli/cli.py,sha256=9a6Yqq7LG7vzAyNqWEzL1ea_fg4sZ-f0_lTu6XLUYFA,7056
+octobot_cli/manager.py,sha256=oXFPG19GH6USC8JYWF0GG-vkI3401H6tLsxZPGYGmVY,1509
+octobot_cli/octobot_cli.py,sha256=OG63JyAboBmOrjumPPsiVbtGyOw_8wAR8xfsqnHBDLs,1064
+octobot_cli/octobot_docker.py,sha256=Eh_se31UbsnXT5Ler3M6OfWxT6Ctodd6acj-4JER_TQ,6300
+octobot_cli/octobot_pip.py,sha256=8LE4GLmkvDYmYjVIgL88FfMepHCJybYiWLa-PbDwck4,3984
+octobot_cli/util.py,sha256=BF8Y2MWulxmxcQcBUTOwpMhvFlm9KzBbXoViI_kCPxY,1627
+OctoBot_CLI-1.0.8.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+OctoBot_CLI-1.0.8.dist-info/METADATA,sha256=jp8hw82dOBy_IRXZm3aPSxz4-mTxCmpdK-qGJVLdmVA,765
+OctoBot_CLI-1.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+OctoBot_CLI-1.0.8.dist-info/entry_points.txt,sha256=cwE2Xo65qWHEN8i7PhzwvdiwJYqx9T3jc7nif6BQDPo,53
+OctoBot_CLI-1.0.8.dist-info/top_level.txt,sha256=aV4SaMq60CohQ30OkyflBEnf6wcdKf8KKVmJvN6Wk5c,12
+OctoBot_CLI-1.0.8.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+microwler/__init__.py,sha256=msvkB9mTpsgyj8JfNMsmwAcpy5kWk_2NrO1Adw2Hkw0,29
+microwler/crawler.py,sha256=wylCCwhY5DzSetJJ7MhdtTbnZNCszIqclPDONF_SlD8,6942
+microwler/export.py,sha256=LoweCOJyUyQhNa3VjGhPpds3xEw1rKSlfZ6Q2xpiZXI,2394
+microwler/scrape.py,sha256=V2kNAmdbPiEWS6BU8whzNA52ZK5jhNNya_PiIwEkXYc,3855
+microwler/settings.py,sha256=X9EBoW5rGWZqOF5ivmu2Fm7xov_bbxub8WCKAGjmu5g,342
+microwler/utils.py,sha256=nnnuNLzyukDOwnKskkUCfESZ5uzgvnzjKRegZzqqfoQ,2477
+microwler-0.1.1.dist-info/LICENSE,sha256=IKjhA-necu1Zjaza-SsuSaGL0uW-2R-xAkN7K9_h198,1065
+microwler-0.1.1.dist-info/METADATA,sha256=NCfveBHsNAtOCuyvIH7gQVDGvsJTyO7_PNPpnKZ5qU8,3998
+microwler-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+microwler-0.1.1.dist-info/top_level.txt,sha256=3YA4MkOBFO0OABmD3xjm-cbtQLxUNpiOrN1m5A9nFCA,10
+microwler-0.1.1.dist-info/RECORD,,

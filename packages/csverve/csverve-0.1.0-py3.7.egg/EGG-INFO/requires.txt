@@ -1,0 +1,7 @@
+click>=7.0
+pandas
+pyyaml
+numpy
+pytest
+sphinx
+sphinx_epytext

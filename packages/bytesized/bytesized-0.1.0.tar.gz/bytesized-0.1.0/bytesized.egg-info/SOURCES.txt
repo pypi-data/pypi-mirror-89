@@ -1,0 +1,8 @@
+README.md
+setup.py
+bytesized/__init__.py
+bytesized/bytesized.py
+bytesized.egg-info/PKG-INFO
+bytesized.egg-info/SOURCES.txt
+bytesized.egg-info/dependency_links.txt
+bytesized.egg-info/top_level.txt

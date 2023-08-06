@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: congressbr
+Version: 0.0.1
+Summary: Easily download data from Brazilian Congress votations
+Home-page: https://github.com/lucascr91/congressbr.git
+Author: Lucas Cavalcanti Rodrigues
+Author-email: lucas.ecomg@gmail.com
+License: MIT
+Download-URL: https://github.com/lucascr91/congressbr/archive/v_0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: CONGRESS,DEMOCRACY,BRAZIL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

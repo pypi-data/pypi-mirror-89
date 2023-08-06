@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: toothpyck
+Version: 0.0.1
+Summary: Fake data for adwords testing.
+Home-page: https://github.com/thorwhalen/ut/tree/master/toothpyck
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# toothpyck
+Fake data for adwords testing.
+
+
+To install:	```pip install toothpyck```
+
+

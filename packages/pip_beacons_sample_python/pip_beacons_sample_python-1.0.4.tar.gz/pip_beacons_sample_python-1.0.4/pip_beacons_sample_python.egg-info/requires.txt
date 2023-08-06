@@ -1,0 +1,17 @@
+iso8601
+PyYAML
+pystache
+pytest
+pytz
+bottle
+pybars3
+requests
+pymongo
+netifaces
+pip_services3_commons
+pip_services3_components
+pip_services3_container
+pip_services3_data
+pip_services3_messaging
+pip_services3_mongodb
+pip_services3_rpc

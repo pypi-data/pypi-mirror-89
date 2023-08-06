@@ -1,0 +1,12 @@
+jaraco/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+jaraco/office/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+jaraco/office/convert.py,sha256=8XOQVxMzlAJkin_gPryZyLcYAGLcFDEb7THC7pO7jBo,2770
+jaraco/office/excel.py,sha256=rD8R5x5XZufmMEcKknmCQAAC-_EY_mGNkoFltJ0VocA,1539
+jaraco/office/grep.py,sha256=LCOvKmTsPazOIB7j5ofzMtkACyFoSWi9S_YU17ih2ts,1342
+jaraco/office/word.py,sha256=rr1nCJFQ1BFRrX84hyO_tKtaemI9Dfz1_8Tau4zxCVE,1406
+jaraco.office-3.0.0.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+jaraco.office-3.0.0.dist-info/METADATA,sha256=Eck3vIddLLs297A6CcTea7U7kRzzdOTLjpM_e2LlzzI,2427
+jaraco.office-3.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jaraco.office-3.0.0.dist-info/entry_points.txt,sha256=FlbUjTd8YxEPd4Qy5wbPisWBPPixm-oLE6I4ZKi_sPI,135
+jaraco.office-3.0.0.dist-info/top_level.txt,sha256=0JnN3LfXH4LIRfXL-QFOGCJzQWZO3ELx4R1d_louoQM,7
+jaraco.office-3.0.0.dist-info/RECORD,,

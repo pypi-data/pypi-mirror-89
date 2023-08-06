@@ -1,0 +1,8 @@
+torch
+transformers==3.5.1
+danlp
+sklearn
+nltk
+pandas
+conllu
+pickle_mixin

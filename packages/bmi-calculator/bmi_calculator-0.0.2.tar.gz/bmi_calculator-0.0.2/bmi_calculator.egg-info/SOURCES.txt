@@ -1,0 +1,8 @@
+README.md
+setup.py
+BMI_calc_pkg/__init__.py
+BMI_calc_pkg/bmi_calc.py
+bmi_calculator.egg-info/PKG-INFO
+bmi_calculator.egg-info/SOURCES.txt
+bmi_calculator.egg-info/dependency_links.txt
+bmi_calculator.egg-info/top_level.txt

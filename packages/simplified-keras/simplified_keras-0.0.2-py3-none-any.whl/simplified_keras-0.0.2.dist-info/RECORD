@@ -1,0 +1,10 @@
+simplified_keras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplified_keras/default_callbacks.py,sha256=1NhlXpJH2ifp0jqjjZT-hIH3wEO82B49kwCOU0ZAv7Q,403
+simplified_keras/dir_flow_generators.py,sha256=j5fqwMP6wWkd6vasFzQadjL9QJG8TPZJ2hSn8DYsWHk,1174
+simplified_keras/plots/__init__.py,sha256=8u7-9fwybLksaWbyOAg_c0TYnF1X3EsInMIY2KaId5E,1440
+simplified_keras/plots/history_plots.py,sha256=EKdWgbpOrcAUgfEfF_IlPolgGpWwSdCohbMZqJ-AAv4,868
+simplified_keras-0.0.2.dist-info/LICENSE,sha256=JbMq0o5N0Zfjblh2f_BKd36hQ6M0NVJBRbuyfYmU_BI,1067
+simplified_keras-0.0.2.dist-info/METADATA,sha256=1UKDujG_uqhXHLicegN71CYz35D7040Y6JTrZMK3xZU,5157
+simplified_keras-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplified_keras-0.0.2.dist-info/top_level.txt,sha256=w_GpjGp7kM4HaMWYXwCnR7K6C1I-MwG4Q_ou_Swl3ug,17
+simplified_keras-0.0.2.dist-info/RECORD,,

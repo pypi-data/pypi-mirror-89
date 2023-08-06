@@ -1,0 +1,12 @@
+toggldash/__init__.py,sha256=pOV_bSJPabQ3UZggPoKGq22ST-J-e_cSyp7-0o67388,143
+toggldash/app/__init__.py,sha256=JBC6BTRMvtVZCuh_lfAgAXApkpU9Ge5VAbwWrDMEaos,26
+toggldash/app/toggldash.py,sha256=ESz8BwhEFJ2hG61YowhQsbBSQYDTcWh1abx_ap_tYrE,7639
+toggldash/response/__init__.py,sha256=uukWrYZoQ7xKTanyfr3MPCLE4qh9nf-W5sJPNe_O5cg,109
+toggldash/response/get_response.py,sha256=X2BFyWe6I-n7QJujyoCqrwi5plWO-LLVDdLW61TnJ5g,663
+toggldash/response/process_response.py,sha256=DlmaLxpGAy18UF5aRdxlOsTYvXq_fceLP7-A3UYlEfk,11183
+toggldash-1.0.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+toggldash-1.0.5.dist-info/METADATA,sha256=_E_oWKq1AUcD2-gyWSP5nxy249eg-iFDaGIM3jqQh7M,1631
+toggldash-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+toggldash-1.0.5.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+toggldash-1.0.5.dist-info/top_level.txt,sha256=sMPpYTsV62VoNslyj8CNc5bi6YNfsYXvt35iwm5l6Yo,10
+toggldash-1.0.5.dist-info/RECORD,,

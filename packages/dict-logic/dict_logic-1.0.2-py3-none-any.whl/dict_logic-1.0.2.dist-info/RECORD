@@ -1,0 +1,10 @@
+dictlogic/__init__.py,sha256=TDVpi9jsJt2kxopVB7aaid9Ib1DGiIlGy1C3AxoTEG4,141
+dictlogic/builtins.py,sha256=te06Yz1EGdprAMm6FgwHhWJz4grwQtd75RSZxqJeaUw,1501
+dictlogic/logic.py,sha256=s6QPB4x_lBKbB97agqN6D40G34DbZIe4sPq1coRh6Eo,1052
+dictlogic/scope.py,sha256=pf5UPBmQMNM_8TWU_eanSeJt1yJ_7nM8hvLpax1XLy0,992
+dictlogic/types.py,sha256=Hj6Nu2WkKfia0FseVa3sHbl6ReUmpP-xtwsFjpHjSHs,699
+dictlogic/utils.py,sha256=5wQJfZWmUMZ6yiBS1xuuBZolWrMIi0VylCTcDKzFAMo,79
+dict_logic-1.0.2.dist-info/METADATA,sha256=dLyBaSYKqBaw7GRHfzSd3ud9By6ZS6qqCYYbntvkrjI,1742
+dict_logic-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dict_logic-1.0.2.dist-info/top_level.txt,sha256=UJrkGkjF9ibtCMOFM2PDjMs0ueP5aYhWSKJTHDeSFGM,10
+dict_logic-1.0.2.dist-info/RECORD,,

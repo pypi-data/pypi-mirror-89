@@ -1,0 +1,9 @@
+README.md
+setup.py
+taqyeem/__init__.py
+taqyeem/_base.py
+taqyeem.egg-info/PKG-INFO
+taqyeem.egg-info/SOURCES.txt
+taqyeem.egg-info/dependency_links.txt
+taqyeem.egg-info/requires.txt
+taqyeem.egg-info/top_level.txt

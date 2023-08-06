@@ -1,0 +1,9 @@
+README.md
+setup.py
+NCBI_Companion/NCBI_Companion.py
+NCBI_Companion/__init__.py
+NCBI_Companion.egg-info/PKG-INFO
+NCBI_Companion.egg-info/SOURCES.txt
+NCBI_Companion.egg-info/dependency_links.txt
+NCBI_Companion.egg-info/requires.txt
+NCBI_Companion.egg-info/top_level.txt

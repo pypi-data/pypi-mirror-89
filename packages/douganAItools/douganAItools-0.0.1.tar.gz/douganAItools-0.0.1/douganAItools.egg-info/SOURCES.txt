@@ -1,0 +1,8 @@
+README.md
+setup.py
+douganAItools/__init__.py
+douganAItools/lib1.py
+douganAItools.egg-info/PKG-INFO
+douganAItools.egg-info/SOURCES.txt
+douganAItools.egg-info/dependency_links.txt
+douganAItools.egg-info/top_level.txt

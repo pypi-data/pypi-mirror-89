@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mkdocs-asynx
+Version: 0.0.0
+Summary: A pluging makes asynx.dev Team to build https://asynx.dev
+Home-page: https://github.com/asynx-dev/mkdocs-asynx-plugin
+Author: Alper Yazar
+License: UNKNOWN
+Description: # mkdocs-asynx-plugin
+        Mkdocs plugin for various functions needed by asynx.dev
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

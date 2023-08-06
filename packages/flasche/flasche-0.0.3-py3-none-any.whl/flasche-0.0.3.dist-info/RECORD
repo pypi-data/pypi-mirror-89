@@ -1,0 +1,15 @@
+flasche/__init__.py,sha256=QuqkVSZ-LhLlXv7bukMayoXMxI6a0z7SlcXXlDRDAx4,59
+flasche/build.py,sha256=Pi-T9NSa7dBSvJKYOu3Ds1lD3Rh0muUFb93sXtvx56g,1960
+flasche/cli.py,sha256=6qNR3mlAeAp6Cm3Lq0LA1DpEhcUC9kpT0tMqbBLZuhs,618
+flasche/flasksetup.py,sha256=UjMaaxHA0KxNG7kzbfRLCVLY890svVoNa0mb8mf7PQE,1835
+flasche/run.py,sha256=48dX6tmZvoPBMWfXR2LrnLpW7dTGaC7ZPq2JJaGzrao,283
+flasche/templates/flasche.py,sha256=DZJ5DCqSMA-u-W1iVrHY6l8afZX-a6W28v6PjRO9cxQ,317
+flasche/templates/main.py,sha256=2TiHHku8uJLThn-5H7Df-3Yu4rK3075hnMM10KpkWsE,284
+flasche/templates/endpoints/__init__.py,sha256=6Y1LhS-Y7K_rYGFpE4uD1peo-7ZOZ2TYiGP9TLX7uPQ,51
+flasche/templates/endpoints/test_endpoint.py,sha256=p9aibKNAgM1NRUjlG_ftL_rBMvQZBQC8XgaYOZv7nno,674
+flasche-0.0.3.dist-info/LICENSE,sha256=_lwAWPnca6agU09icfQ4CVXMzlfs53hmr-1tnX2pHVA,1071
+flasche-0.0.3.dist-info/METADATA,sha256=_AHNFkq7Xye8SfzBnZ3L5DsgnpelJ23G3gwbB3acb1U,1028
+flasche-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flasche-0.0.3.dist-info/entry_points.txt,sha256=Yv9WMz1xCEJam2yq4kXs7-r3YICspINZisjiqsh_7sw,46
+flasche-0.0.3.dist-info/top_level.txt,sha256=u-cGP18kdM3-BJxNNAM63AkOPIFiwXjZ06STyC47JrU,8
+flasche-0.0.3.dist-info/RECORD,,

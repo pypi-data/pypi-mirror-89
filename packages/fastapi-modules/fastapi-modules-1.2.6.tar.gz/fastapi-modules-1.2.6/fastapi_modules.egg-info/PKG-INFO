@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: fastapi-modules
+Version: 1.2.6
+Summary: Pacchetto per i modelli di fastapi sqlalchemy
+Home-page: https://github.com/giaca95/models
+Author: Gaicomo Callegaro
+Author-email: giacomo_callegaro.95@libero.it
+License: UNKNOWN
+Download-URL: https://github.com/giaca95/models.git
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7

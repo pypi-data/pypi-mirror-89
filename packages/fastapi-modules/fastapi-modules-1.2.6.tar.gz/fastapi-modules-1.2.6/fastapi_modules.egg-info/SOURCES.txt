@@ -1,0 +1,16 @@
+README.md
+setup.py
+fastapi_modules/__init__.py
+fastapi_modules.egg-info/PKG-INFO
+fastapi_modules.egg-info/SOURCES.txt
+fastapi_modules.egg-info/dependency_links.txt
+fastapi_modules.egg-info/requires.txt
+fastapi_modules.egg-info/top_level.txt
+fastapi_modules/pydantic/__init__.py
+fastapi_modules/pydantic/buonicovid.py
+fastapi_modules/pydantic/ods.py
+fastapi_modules/pydantic/ricvolantini.py
+fastapi_modules/sqlalchemy/__init__.py
+fastapi_modules/sqlalchemy/pgsql_buonicovid.py
+fastapi_modules/sqlalchemy/pgsql_ods.py
+fastapi_modules/sqlalchemy/pgsql_richiestevolantini.py

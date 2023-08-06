@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyAuthGG.egg-info/PKG-INFO
+PyAuthGG.egg-info/SOURCES.txt
+PyAuthGG.egg-info/dependency_links.txt
+PyAuthGG.egg-info/requires.txt
+PyAuthGG.egg-info/top_level.txt

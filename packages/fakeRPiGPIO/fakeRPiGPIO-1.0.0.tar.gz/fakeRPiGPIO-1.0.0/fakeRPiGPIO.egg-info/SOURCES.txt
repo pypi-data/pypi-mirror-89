@@ -1,0 +1,14 @@
+.gitignore
+CHANGELOG.md
+CONTRIBUTORS.md
+LICENSE.md
+README.md
+example.py
+setup.py
+RPi/GPIO.py
+RPi/__init__.py
+fakeRPiGPIO.egg-info/PKG-INFO
+fakeRPiGPIO.egg-info/SOURCES.txt
+fakeRPiGPIO.egg-info/dependency_links.txt
+fakeRPiGPIO.egg-info/top_level.txt
+test/test_GPIO.py

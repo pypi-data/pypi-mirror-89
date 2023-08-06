@@ -1,0 +1,2 @@
+include data/templates/*.tmpl.*
+include data/*.ini

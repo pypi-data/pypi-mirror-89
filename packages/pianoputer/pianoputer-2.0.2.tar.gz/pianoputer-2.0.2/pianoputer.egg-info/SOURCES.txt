@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+pianoputer/__init__.py
+pianoputer/make_kb_file.py
+pianoputer/pianoputer.py
+pianoputer.egg-info/PKG-INFO
+pianoputer.egg-info/SOURCES.txt
+pianoputer.egg-info/dependency_links.txt
+pianoputer.egg-info/entry_points.txt
+pianoputer.egg-info/requires.txt
+pianoputer.egg-info/top_level.txt
+pianoputer/audio_files/bowlStereo_c6.wav
+pianoputer/audio_files/bowl_c6.wav
+pianoputer/audio_files/piano_c4.wav
+pianoputer/keyboards/azerty_typewriter.txt
+pianoputer/keyboards/qwerty_piano.txt

@@ -1,0 +1,8 @@
+README.md
+setup.py
+pickle5_wheels_helper/__init__.py
+pickle5_wheels_helper/helper.py
+pickle5_wheels_helper.egg-info/PKG-INFO
+pickle5_wheels_helper.egg-info/SOURCES.txt
+pickle5_wheels_helper.egg-info/dependency_links.txt
+pickle5_wheels_helper.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pickle5-wheels-helper
+Version: 0.0.6
+Summary: Helper package for installing pickle5 wheels
+Home-page: https://github.com/suquark/pickle5-wheels-helper
+Author: Siyuan Zhuang
+Author-email: suquark@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython

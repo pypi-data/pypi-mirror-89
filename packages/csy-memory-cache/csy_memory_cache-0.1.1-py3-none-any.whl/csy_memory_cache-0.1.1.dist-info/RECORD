@@ -1,0 +1,10 @@
+memory_cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memory_cache/algorithms.py,sha256=muaWEK_8qWtGoHpy7wTMC5PMAqPc9gDVSqsS51prZP4,3009
+memory_cache/api.py,sha256=Oh9xDubMgLBaPVJtuql28cvDY_wniLhoW9WFTqtiZNQ,2171
+memory_cache/storage.py,sha256=0qsir5tTfyCSA9bfuXuL7cpE0KS4cfMfN-mkvokLuxA,1172
+memory_cache/timer.py,sha256=iLkSBSgYVdBUWsNhEBGZ_PADeyxjjcO3t9_IkNKFRcA,299
+csy_memory_cache-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+csy_memory_cache-0.1.1.dist-info/METADATA,sha256=sex6yXdTd2yRPpWdayBcreE9ZJuFB8-cjEF-IMNgcyQ,285
+csy_memory_cache-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+csy_memory_cache-0.1.1.dist-info/top_level.txt,sha256=-bcuPFVY9cHKK27LIaVecWjKRJxY7BOOiwtgwKSJnQs,13
+csy_memory_cache-0.1.1.dist-info/RECORD,,

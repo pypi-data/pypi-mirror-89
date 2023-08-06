@@ -1,0 +1,1 @@
+This program is designed to help 11th and 12th grade students with physics and math.

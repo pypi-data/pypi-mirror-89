@@ -1,0 +1,12 @@
+siembra/__init__.py,sha256=o6ts8yFIn-pw0WaOXv8ahTkOBgxkwJD7NCsk7DufCns,105
+siembra/__main__.py,sha256=T28RJVqtvJO5Y6GaAnR7nIRHjQXoKWLNPa4VLNjaDpk,920
+siembra/command.py,sha256=f6UQTAAa_62eoiVG4O2Xalo87qhNxifoBSU_hgGx7uc,950
+siembra/safepaths.py,sha256=kIbokp616P_xP3AssueA19e5nmpPMHRTUYvEP9cPH8w,142
+siembra/siembra.py,sha256=mRpKVoMFaeQsR51ZTmUNTsf5uobLjwC9zW6fV6TD9wo,689
+siembra/temp_files.py,sha256=GiSvGhxsBSe2nwBZ17m372DScT9lZHNm697ibaHUu_Y,816
+siembra/version.py,sha256=pn51D1J0ciIp-f2nDUFda_P50hwpNAHvIs4pyhpmuVE,26
+siembra-0.1.9.dist-info/METADATA,sha256=yEe2KFcyeoA-uKVh8jHx7ek1iF00VNP9IGk_fhJdkcw,523
+siembra-0.1.9.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+siembra-0.1.9.dist-info/entry_points.txt,sha256=t7omsJnK-fk-i15SVVBU4oGtNf4ET2Lrrr7lpGGBWug,51
+siembra-0.1.9.dist-info/top_level.txt,sha256=xwZ31SBTEzcWp_w7K-FeltdA9OOvh-rxBLoLFfIpYsU,8
+siembra-0.1.9.dist-info/RECORD,,

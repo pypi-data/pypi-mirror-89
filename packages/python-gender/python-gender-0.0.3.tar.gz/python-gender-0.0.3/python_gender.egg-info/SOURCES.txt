@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+gender/__init__.py
+gender/getGender.py
+python_gender.egg-info/PKG-INFO
+python_gender.egg-info/SOURCES.txt
+python_gender.egg-info/dependency_links.txt
+python_gender.egg-info/requires.txt
+python_gender.egg-info/top_level.txt
+src/mlData/idf.pickle
+src/mlData/model.pkl
+src/mlData/vectorizer.pickle

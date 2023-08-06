@@ -1,0 +1,14 @@
+README.md
+setup.py
+montyHall.egg-info/PKG-INFO
+montyHall.egg-info/SOURCES.txt
+montyHall.egg-info/dependency_links.txt
+montyHall.egg-info/requires.txt
+montyHall.egg-info/top_level.txt
+montyhall/__init__.py
+montyhall/monty.py
+montyhall.egg-info/PKG-INFO
+montyhall.egg-info/SOURCES.txt
+montyhall.egg-info/dependency_links.txt
+montyhall.egg-info/requires.txt
+montyhall.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+.column-header {
+  display: flex;
+}
+
+.column-header .fill-block {
+  width: 50px;
+}
+
+@media screen and (max-width: 1195px) {
+  .column-header .fill-block {
+    width: 0;
+  }
+}

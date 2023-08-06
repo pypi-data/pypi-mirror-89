@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: django-postgres-vacuum
+Version: 2020.12.24
+Summary: Django postgres VACUUM
+Home-page: https://github.com/andrewp-as-is/django-postgres-vacuum.py
+License: Unlicense
+Description: <!--
+        https://readme42.com
+        -->
+        
+        
+        [![](https://img.shields.io/pypi/v/django-postgres-vacuum.svg?maxAge=3600)](https://pypi.org/project/django-postgres-vacuum/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ [sudo] pip install django-postgres-vacuum
+        ```
+        
+        ##### `settings.py`
+        ```python
+        INSTALLED_APPS+=['django_postgres_vacuum']
+        ```
+        
+        #### Examples
+        ```python
+        from django.core.management import call_command
+        
+        call_command('vacuum')
+        call_command('vacuum_full')
+        ```
+        
+        ```bash
+        $ python manage.py vacuum
+        $ python manage.py vacuum_full
+        ```
+        
+        <p align="center">
+            <a href="https://readme42.com/">readme42.com</a>
+        </p>
+Keywords: django postgres matviews
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

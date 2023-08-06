@@ -1,0 +1,6 @@
+README.md
+setup.py
+pdfconverter1309.egg-info/PKG-INFO
+pdfconverter1309.egg-info/SOURCES.txt
+pdfconverter1309.egg-info/dependency_links.txt
+pdfconverter1309.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+simpletasks_data/__init__.py,sha256=ZHV5W8qbALMmcCSeFsu5ALv0Geu4qucDgNNR63q275Y,234
+simpletasks_data/formatting.py,sha256=GuNRIUocQzt88uO1DLjapWs3s5FbI8fAgL2zf3UM9gg,6528
+simpletasks_data/helpers.py,sha256=herQIVMqrZAjhCnu1jQqvZE6pbho6bAxrc4Gev9bpYE,2860
+simpletasks_data/importsource.py,sha256=8mnvNNa7fzd4cNS3wWHEyeQSHThG_uX-oo3NFnX57uQ,3066
+simpletasks_data/importtask.py,sha256=Aq5_ST3H0RnD7hTzsF2an6IV3x4BXe-JkxpUaRaPbeU,10823
+simpletasks_data/mapping.py,sha256=jfm3k5B0ImR0EmcxrRFuPVpKXdoZ2DRnDiZgB3s_tjY,14429
+simpletasks_data-0.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+simpletasks_data-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+simpletasks_data-0.1.0.dist-info/METADATA,sha256=jpQ4-arm76n5xtVjYj-6xcFDegTshdcYioXKtBtEJxY,1368
+simpletasks_data-0.1.0.dist-info/RECORD,,

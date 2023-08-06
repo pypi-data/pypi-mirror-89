@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_magic_tables.egg-info/PKG-INFO
+django_magic_tables.egg-info/SOURCES.txt
+django_magic_tables.egg-info/dependency_links.txt
+django_magic_tables.egg-info/top_level.txt
+magic_tables/__init__.py
+magic_tables/admin.py
+magic_tables/apps.py
+magic_tables/tests.py
+magic_tables/templates/magic_tables/table.html
+magic_tables/templatetags/__init__.py
+magic_tables/templatetags/magic_tables_tags.py

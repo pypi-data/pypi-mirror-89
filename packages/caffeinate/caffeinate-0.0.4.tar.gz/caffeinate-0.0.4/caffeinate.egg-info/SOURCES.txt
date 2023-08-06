@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+caffeinate/__init__.py
+caffeinate/caffeinate.py
+caffeinate.egg-info/PKG-INFO
+caffeinate.egg-info/SOURCES.txt
+caffeinate.egg-info/dependency_links.txt
+caffeinate.egg-info/entry_points.txt
+caffeinate.egg-info/not-zip-safe
+caffeinate.egg-info/requires.txt
+caffeinate.egg-info/top_level.txt

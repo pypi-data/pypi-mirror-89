@@ -1,0 +1,3 @@
+[console_scripts]
+reactonite = reactonite.main:cli
+

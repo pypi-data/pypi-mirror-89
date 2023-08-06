@@ -1,0 +1,17 @@
+nitpyck/__init__.py,sha256=aJq2HmOssutyLQtAY5UxAPWlrNwATRI8btSDJFwB5Mg,51
+nitpyck/bsoup.py,sha256=W8bJIB_UpNvBJh0t9Pg40KYjJS5zTWnDH-Q9fXqzwdQ,2095
+nitpyck/google.py,sha256=jm9RzcU-pV1OG_2fxoL8eEa4Ft4JDL8J0bjquLKCf6c,19882
+nitpyck/gresult_info_retriever.py,sha256=u1qcgSLZosv1feHrmOm_xD_X-sg43kHNdc2FEzrX0BY,4165
+nitpyck/html2text_formated.py,sha256=hf3rgvVVAGDYyye7-fiUkjy7XOCUQMoOLEY0deFAnqo,26358
+nitpyck/parse_search_terms.py,sha256=IfXXDNwk4OqDnnsimp6FufYbV3BObMdcXQs0Ks82mB0,19209
+nitpyck/rx.py,sha256=V9tvo082sbB0nj1Adt5C-5ZnofIz9qm0bPitc-23mO8,9334
+nitpyck/util.py,sha256=juHlA5hDcpttjQEmTCakUvuWD3X1jBTvI5njIUKrvQc,6750
+nitpyck/venere.py,sha256=d2VG5JemXsiZQmhTxHtO1SnSYQ7fbbGL-6_Pufk9qx8,4352
+nitpyck/web/__init__.py,sha256=LKbAi4B44O5tapBFPrRPVB6n1_LDPfpbKBGC7B_QRxs,20
+nitpyck/web/parsing_templates.py,sha256=zNdR73xvi9FLpHrON1ttTLFa82HkOvW4KDQhKz9JOrQ,2358
+nitpyck/web/url.py,sha256=eSCr9QnHzNvwij5LrdFhFU7FtzmI7IJHQ3litF4ZBkA,474
+nitpyck-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+nitpyck-0.0.1.dist-info/METADATA,sha256=LesWqWwDtl5pomXmwj5p_pQCCuD3IsollelgxgjWVr0,303
+nitpyck-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nitpyck-0.0.1.dist-info/top_level.txt,sha256=LT42Ou5vfgDoKcsrX9R-qLhzlleT5w6kyCMIC89xTEY,8
+nitpyck-0.0.1.dist-info/RECORD,,

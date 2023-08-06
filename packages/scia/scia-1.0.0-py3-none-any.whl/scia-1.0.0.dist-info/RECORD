@@ -1,0 +1,10 @@
+scia/__init__.py,sha256=kOPttjsBTNLyus2vFPDuhDVefnthuSR17hTi90ROKYU,78
+scia/config.py,sha256=ujFMtun4bOpxf3HIZ5o-PoPKPxiOYK1Z_UlYTgbOifE,81
+scia/getLogger.py,sha256=FrvN6jVGpgfkc8fWUDX9jWxS2Ua30fpPG63twMh5dhE,775
+scia/handlers/__init__.py,sha256=Uf9DAsslmrm4W5osPBzkLGvq3SmYjqjdZLotH3RJNf0,63
+scia/handlers/timedRotatingFileHandler.py,sha256=BAg_grKTNsj8OL-vM6CNKOzUBBqrOcLTGwLPCdGPYOc,2140
+scia-1.0.0.dist-info/LICENCE,sha256=YBj0ULvjmKazjg77ojGWtIVhsr-eBrEToFollqL3vbo,1054
+scia-1.0.0.dist-info/METADATA,sha256=37RjocKi5zUMy1opHAjuZ3GyDMwEAVSq5IB4p-GOFVw,215
+scia-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scia-1.0.0.dist-info/top_level.txt,sha256=hBpcbwRmb8mcXCX8m7ZAHZ99YjPAx1WL7fVQCFuhJp8,5
+scia-1.0.0.dist-info/RECORD,,

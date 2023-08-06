@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_datasets.py,sha256=MIhVPwLZ4N96t5qLtgvAkM5unrMN_-Oc9vGKSAwOL6s,245
+tests/test_models.py,sha256=tbcT-3S3XEWdpBLgNVMLu2_GcRZNBYvA7MLlpGLAuoc,2126
+tests/test_utils.py,sha256=AXHFi9fyQyHs2PYMP50m11Eo-f8xv2HGFWNDLB38tMU,1045
+tfrec/__init__.py,sha256=bEONPbI8cB5KD5jcKnoFzdG-N9YV9yZh8Y6B9OvuV0w,134
+tfrec/datasets/__init__.py,sha256=6EY0Md9m1Ma6XBMIvn-VSoFVrsvtOHT6J9Ik9MpR8Eg,83
+tfrec/datasets/ml100k.py,sha256=77vzK2IxDuObvdLNa1LjFPhrfQCFBqbawIGhqv2Prl0,595
+tfrec/models/__init__.py,sha256=58fy7G_SHvzx-zwyZrrEBl-IAyUim2PSgwWZVaZoIOU,109
+tfrec/models/svd.py,sha256=KG7nIMduln3o9412PZAlBlWWN23_-VUTSLW_AyCpfNA,6122
+tfrec/models/svdpp.py,sha256=sx-Lr9DAxsCLg-JPQ5fO-NaRMyGLH8XFSxJJ3cuMPqw,6364
+tfrec/utils/__init__.py,sha256=coSHpCPEA4Q378AJvvtHNJKQ_ooJ-MGeiVPg8S8a4AI,173
+tfrec/utils/model_utils.py,sha256=z7yaedli4wYKYQrzRxH-Bhro4TPE4ZfIFqGa0xYJgYg,5419
+tfrec-1.0.0.dist-info/LICENSE,sha256=cO30Cgp0RVmTC-uxtz3TGHxus816dCWObB_Ru8sn9v0,1066
+tfrec-1.0.0.dist-info/METADATA,sha256=FWj8eifEWp9zdnyTMlu9OIHiKJyDX3Knb2T8nLGvdj0,5830
+tfrec-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfrec-1.0.0.dist-info/top_level.txt,sha256=dTz7u1qBB_Wti9IAY8vtncHJvDv-KFu0wv2uJU6lops,12
+tfrec-1.0.0.dist-info/RECORD,,

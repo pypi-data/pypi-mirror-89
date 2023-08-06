@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: fedvision
+Version: 0.1
+Summary: Please install the fedvision_deploy_toolkit package with: pip install fedvision_deploy_toolkit
+Home-page: https://FedAI.org
+Author: The FedVision Authors
+Author-email: contact@FedAI.org
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Security

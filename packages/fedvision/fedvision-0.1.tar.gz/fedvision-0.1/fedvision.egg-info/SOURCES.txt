@@ -1,0 +1,6 @@
+README.md
+setup.py
+fedvision.egg-info/PKG-INFO
+fedvision.egg-info/SOURCES.txt
+fedvision.egg-info/dependency_links.txt
+fedvision.egg-info/top_level.txt

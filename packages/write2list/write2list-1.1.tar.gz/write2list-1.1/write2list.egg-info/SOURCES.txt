@@ -1,0 +1,8 @@
+README.md
+setup.py
+write2list/__init__.py
+write2list.egg-info/PKG-INFO
+write2list.egg-info/SOURCES.txt
+write2list.egg-info/dependency_links.txt
+write2list.egg-info/not-zip-safe
+write2list.egg-info/top_level.txt

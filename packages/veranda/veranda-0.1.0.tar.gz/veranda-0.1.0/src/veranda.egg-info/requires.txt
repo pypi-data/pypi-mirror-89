@@ -1,0 +1,13 @@
+numpy
+cftime<1.1
+pandas
+pyproj
+netCDF4
+xarray
+toolz
+dask
+
+[testing]
+pytest==3.8.2
+pytest-cov
+coverage==4.5.2

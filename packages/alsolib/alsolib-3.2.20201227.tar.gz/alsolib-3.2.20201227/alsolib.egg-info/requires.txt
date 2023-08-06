@@ -1,0 +1,6 @@
+requests
+pygame
+zmail
+pillow
+numpy
+cefpython3

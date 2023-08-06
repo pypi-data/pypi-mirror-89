@@ -1,0 +1,16 @@
+repols/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repols/cli.py,sha256=O9gojFFDP4gHDsRvi36sS0i0YfzYtXXWdpOcs3txRDg,478
+repols/insort.py,sha256=Zk3DFIjQKq3doYzOAb3Tfm1T9dGfElaRKAfiKslyb4g,411
+repols/list_repositories.py,sha256=Bvvyh9Aczy7P2BbMsZJDVZarfUJYq6dV3S5s4QafhlM,1592
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/list_item.py,sha256=S2f1L8RkNVIiwfNWlNmHJe1-FD9TAF7tmIxuRDDxM6A,228
+test/test_include_metadata.py,sha256=2Ifpq2iuVbEs9M-C2ntIt-kBJdN-vvJCxZNymVMJ0BU,1036
+test/test_insort.py,sha256=ckGR_KkA2UsXkC7CH-KMDOGb0bxVk_k6bcVWPJoYv4Y,759
+test/test_repository_metadata.py,sha256=kEgkIn7UaBWFslPZ1wz5ksYwRER63CObUwclDQ6-MmI,591
+test/test_sort_repos.py,sha256=Sy_m1-vMgAhsnpCXmFHVViQeNhxwnvpEbqYhSsDqj5Q,574
+repols-1.0.0.dist-info/LICENSE.txt,sha256=9ReXeFQliqwko4KsdkKtB8fX_lHKCr25_kGHOaVIQNA,1082
+repols-1.0.0.dist-info/METADATA,sha256=iknQccXzuf_mXYJzp4LWK8HeGkTnMEvlEhhCe-78vEo,1433
+repols-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+repols-1.0.0.dist-info/entry_points.txt,sha256=Pj1OKTRzhoTLngGPOEvvjTRZ_itDiMe16iIJHJwWme4,43
+repols-1.0.0.dist-info/top_level.txt,sha256=shLoO427s-sSgz17oA8mfhE-wYqqk9UZRhuZq2sfVZ4,12
+repols-1.0.0.dist-info/RECORD,,

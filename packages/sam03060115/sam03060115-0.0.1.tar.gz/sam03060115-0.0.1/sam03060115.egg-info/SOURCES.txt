@@ -1,0 +1,8 @@
+README.md
+setup.py
+sam03060115/__init__.py
+sam03060115/lib1.py
+sam03060115.egg-info/PKG-INFO
+sam03060115.egg-info/SOURCES.txt
+sam03060115.egg-info/dependency_links.txt
+sam03060115.egg-info/top_level.txt

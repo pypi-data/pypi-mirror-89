@@ -1,0 +1,12 @@
+serverhttp/__init__.py,sha256=kj_b75_SifUvZeTKXpJpivwGrQJ3hdTO1nrcAlGaNTE,369
+serverhttp/app.py,sha256=YdSt5h_IngBIr8w3XbWIFOo1ATMr_VYq6E2wZpuXHk8,435
+serverhttp/example.py,sha256=apEfyLbN6XehP83MGD_dCkaT3MA8-FJ54RgBwqFvprM,400
+serverhttp/srv/__init__.py,sha256=fMMnM_HUc6E2cB6Mbgg9tZ2qZ8bpkx95nZ0f2YA-dA4,241
+serverhttp/srv/asyncsrv.py,sha256=nrrBtoQv2uboK-JioT4TCAkLiuSWDWq49tJpi3YTJGA,3797
+serverhttp/srv/threaded.py,sha256=2zE2LzyGVzsYNiv-S9JGfZKlxnbw9TibIanu-UWu7u0,3601
+serverhttp/srv/version.py,sha256=d84_T4RdeMKy-jHS-C1HMt9BBET-8Ctk6_-I7xv6vXY,35
+serverhttp-1.3.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+serverhttp-1.3.1.dist-info/METADATA,sha256=FqVNRdWlogK4oTQ2Eml4hr313ln7bzNeP2LQrtMQ0To,368
+serverhttp-1.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+serverhttp-1.3.1.dist-info/top_level.txt,sha256=MEZEDr5JtI7o5DiRsSDyiGsRZl-za0CxMw2ZE4uflzk,11
+serverhttp-1.3.1.dist-info/RECORD,,

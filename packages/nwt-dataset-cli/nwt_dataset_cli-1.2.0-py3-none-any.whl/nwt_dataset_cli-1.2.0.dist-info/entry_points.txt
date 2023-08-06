@@ -1,0 +1,3 @@
+[console_scripts]
+nwt-dataset-cli=nwt_dataset_cli.app:app
+

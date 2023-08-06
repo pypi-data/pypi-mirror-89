@@ -1,0 +1,11 @@
+hurricane/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hurricane/kubernetes.py,sha256=Wh2m5ehFDOxtx08EbiTl6VETYMZmHZunIalAId4ErDg,461
+hurricane/server.py,sha256=6rJVF2mI9nryySBQwIR4k51jdScsotI7qeI7sgMaFU0,8308
+hurricane/testing.py,sha256=2wgpSHHruqv18Q2NLilo-Uz_Il7j8R3cDY01c1AQK8g,5157
+hurricane/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hurricane/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hurricane/management/commands/serve.py,sha256=ZX8BzY9arQz1noEgTVss8Xzdz1Zl01p96Q51gSFe8tg,3295
+django_hurricane-0.3.5.dist-info/METADATA,sha256=stsrukZqxJKiTD6EjLcYhQ3Vas_BpFRqe4jXEwEtPSA,7820
+django_hurricane-0.3.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_hurricane-0.3.5.dist-info/top_level.txt,sha256=VpU8uQxGy0pLItCYvZXP4SggK1S3ZTt_sU4-sEWQI0A,10
+django_hurricane-0.3.5.dist-info/RECORD,,

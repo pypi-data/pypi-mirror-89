@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: border-secure-core
+Version: 0.2.3
+Summary: encrypt/decrypt
+Home-page: UNKNOWN
+Author: Csjs1-2
+Author-email: caimujia@qq.com
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Platform: all
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: pycrypto ; python_version < "3"
+Requires-Dist: pycryptodome ; python_version >= "3.6"
+
+UNKNOWN
+
+

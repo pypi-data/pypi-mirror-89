@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scorpyon
+Version: 0.0.1
+Summary: Adwords utils
+Home-page: https://github.com/thorwhalen/ut/tree/master/scorpyon
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# scorpyon
+Adwords utils
+
+
+To install:	```pip install scorpyon```
+
+

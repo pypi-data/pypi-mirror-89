@@ -1,0 +1,6 @@
+README.md
+setup.py
+ayo4pdf.egg-info/PKG-INFO
+ayo4pdf.egg-info/SOURCES.txt
+ayo4pdf.egg-info/dependency_links.txt
+ayo4pdf.egg-info/top_level.txt

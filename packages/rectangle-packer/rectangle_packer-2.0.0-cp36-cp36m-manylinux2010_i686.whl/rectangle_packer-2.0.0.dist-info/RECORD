@@ -1,0 +1,10 @@
+rectangle_packer-2.0.0.dist-info/LICENSE.md,sha256=sLZ333EuHMbHDwzlyxM4v6CPemvqt2DvUfpfDz7KXdg,1073
+rectangle_packer-2.0.0.dist-info/top_level.txt,sha256=QQOB_yvI1JO-umrsVUcqP5K7uKtMKrKW181ePLCac08,6
+rectangle_packer-2.0.0.dist-info/RECORD,,
+rectangle_packer-2.0.0.dist-info/METADATA,sha256=gR2DmjJlpqR2WmTRwCuE9-hBB7999pQo3tA8ZAszkc4,5273
+rectangle_packer-2.0.0.dist-info/WHEEL,sha256=7JtNhRWDruRK5WHD5rpJF9GKteDJvrX2KOqcdZMEbfQ,110
+rpack/_core.pyx,sha256=XMGnfXIhw3IMiH0SdUgm6yJMYixw-jwH8IlShUCCG2A,15187
+rpack/_core.pxd,sha256=lxMpOMcKqPIdnCM7bav0TxX__7ACZwHiFIICzHgAud0,1036
+rpack/_core.cpython-36m-i386-linux-gnu.so,sha256=HJ5_-dtbNSukL4KZgfbbrifdh-0KSKCYtjP8wQRV2Aw,498624
+rpack/__init__.py,sha256=tNdkJLYFULgkPkZzAD5ocrzTqhqUvx1wZNuLbO6ejfY,7114
+rpack/_rpack.cpython-36m-i386-linux-gnu.so,sha256=DfVw9g2nDiH1qzqJJeIZ1mCICdWOLATu18fdes1y4j0,77364

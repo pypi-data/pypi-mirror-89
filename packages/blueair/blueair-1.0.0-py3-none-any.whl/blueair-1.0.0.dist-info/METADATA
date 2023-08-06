@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: blueair
+Version: 1.0.0
+Summary: Unofficial Python client for BlueAir air purifiers
+Home-page: https://blueair.readthedocs.io
+Author: Emil Loer
+Author-email: emil@codelle.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: coloredlogs (>=15.0)
+Requires-Dist: matplotlib (>=3.3.0)
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: pytz (>=2020.4)
+Requires-Dist: requests (>=2.25.0)
+Requires-Dist: typing-extensions (>=3.7.0.0)
+Requires-Dist: tzlocal (>=2.1)
+
+blueair: An Unofficial Blueair Python client
+============================================
+
+The `blueair` package contains an unofficial Python client for the Blueair air purifiers. It can be used both as a library and as a standalone command line utility. When running the command line utility graphs can be generated showing historical data.
+
+Installation
+------------
+
+First of all, ensure you are running Python 3.7 or newer. Installation of the package is as simple as running:
+
+.. code-block:: console
+
+   $ pip install blueair
+
+After running this command the `blueair` package is available for importing in Python, and the command line interface can be accessed by running `python -m blueair`.
+
+Compatibility
+-------------
+
+This package is inteded to be used with Python 3.7 or newer. It has been annotated with type extensions and supports PEP 561 typed packages.
+
+Disclaimer
+----------
+
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
+This package and its authors are not affiliated by Blueair. For support regarding this package, please do not contact Blueair but instead file an issue using the package repository's issue tracker.
+
+This package has only been tested using a Blueair Classic 280i air purifier located somewhere in Europe. It may or may not work for different models or locations.
+
+Acknowledgements
+----------------
+
+This package would not exist without the work of @mylesagray, who created a Blueair homebridge plugin that can be found at https://github.com/mylesagray/homebridge-blueair.
+
+License
+-------
+
+This package is released under the terms of the MIT license. A copy of the license can be found in the package repository.
+
+

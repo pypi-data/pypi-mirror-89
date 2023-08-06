@@ -1,0 +1,31 @@
+{% extends base_template %}
+
+{% load i18n %}
+{% load form_tags %}
+
+{% block content %}
+    {% block actions %}
+    {% if actions %}
+    <ul class="actions">
+        {% for target_url, icon, label in actions %}
+        <li><a href="{{ target_url }}"><i class="fas {{ icon }}" title="{{ label }}"></i></a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endblock %}
+
+    {% block filter_form %}
+    {% if filter_form %}
+        <form class="filter-form form-inline" action="." method="GET">
+            {% form_errors filter_form %}
+            {% for field in filter_form %}
+                {% form_field field %}
+            {% endfor %}
+            <button type="submit">{% trans "Filter" %}</button>
+        </form>
+    {% endif %}
+    {% endblock %}
+
+    {% block listing %}
+    {% endblock %}
+{% endblock %}

@@ -1,0 +1,14 @@
+{% load catalog_filters %}
+<div class="form-group {{ container_class }}{% if field.field.required %} required{% endif %}">
+    <label>{{ field.label }}</label>
+
+    {% for choice, choice_label in field.field.choices %}
+        <label class="radio">
+                <input type="radio" name="{{ field.name }}" value="{{ choice }}" {% if field.value == choice %}checked="checked"{% endif %}>
+                {{ choice_label }}
+        </label>
+    {% endfor %}
+
+    {% if field.help_text %}<div class="help-block">{{ field.help_text|safe }}</div>{% endif %}
+    {% if field.errors %}{{ field.errors }}{% endif %}
+</div>

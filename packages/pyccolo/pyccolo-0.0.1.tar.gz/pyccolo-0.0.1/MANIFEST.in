@@ -1,0 +1,2 @@
+include versioneer.py
+include pyccolo/_version.py

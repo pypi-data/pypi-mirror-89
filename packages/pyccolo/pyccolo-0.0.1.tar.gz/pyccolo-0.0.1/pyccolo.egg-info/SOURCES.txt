@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pyccolo/_version.py
+pyccolo.egg-info/PKG-INFO
+pyccolo.egg-info/SOURCES.txt
+pyccolo.egg-info/dependency_links.txt
+pyccolo.egg-info/not-zip-safe
+pyccolo.egg-info/requires.txt
+pyccolo.egg-info/top_level.txt
+test/test.py

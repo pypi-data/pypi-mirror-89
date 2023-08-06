@@ -1,0 +1,3 @@
+[console_scripts]
+update-version = version_updater.main:main
+

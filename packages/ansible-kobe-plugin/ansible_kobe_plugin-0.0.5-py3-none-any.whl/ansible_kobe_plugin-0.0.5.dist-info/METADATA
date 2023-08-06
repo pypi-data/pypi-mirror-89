@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ansible-kobe-plugin
+Version: 0.0.5
+Summary: A plugin for ansible to connect kobe
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Keywords: kobe
+Platform: UNKNOWN
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: ansible
+
+UNKNOWN
+
+

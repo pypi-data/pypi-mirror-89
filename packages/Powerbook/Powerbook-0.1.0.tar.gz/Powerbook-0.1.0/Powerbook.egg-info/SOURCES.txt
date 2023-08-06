@@ -1,0 +1,8 @@
+README.md
+setup.py
+Powerbook.egg-info/PKG-INFO
+Powerbook.egg-info/SOURCES.txt
+Powerbook.egg-info/dependency_links.txt
+Powerbook.egg-info/requires.txt
+Powerbook.egg-info/top_level.txt
+powerbook/__init__.py

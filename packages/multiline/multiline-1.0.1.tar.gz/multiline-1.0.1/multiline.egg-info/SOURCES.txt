@@ -1,0 +1,8 @@
+README.md
+setup.py
+multiline/__init__.py
+multiline/multiline_json_parser.py
+multiline.egg-info/PKG-INFO
+multiline.egg-info/SOURCES.txt
+multiline.egg-info/dependency_links.txt
+multiline.egg-info/top_level.txt

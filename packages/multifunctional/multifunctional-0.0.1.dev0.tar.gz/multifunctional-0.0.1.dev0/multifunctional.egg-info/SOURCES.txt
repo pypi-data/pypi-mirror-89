@@ -1,0 +1,15 @@
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+INSTRUCTIONS.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+multifunctional/__init__.py
+multifunctional/version.py
+multifunctional.egg-info/PKG-INFO
+multifunctional.egg-info/SOURCES.txt
+multifunctional.egg-info/dependency_links.txt
+multifunctional.egg-info/requires.txt
+multifunctional.egg-info/top_level.txt

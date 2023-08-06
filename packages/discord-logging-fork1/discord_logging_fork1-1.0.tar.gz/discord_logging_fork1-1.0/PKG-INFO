@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: discord_logging_fork1
+Version: 1.0
+Summary: Transfer logs acquired by logging module to discord with webhook!
+Home-page: https://github.com/AlexNovikovRussian/discord_logging
+Author: kadyk_lesha
+Author-email: novikovprjjects@gmail.com
+License: UNKNOWN
+Description: # discord_logging
+        
+        discord_logging is a logging extension module.  
+        By using this module, logs can be sent by webhook.  
+        
+        # installing  
+        Install and update using pip:
+        
+        `pip install discord_logging`  
+        
+        A simple example.  
+        ```python
+        
+        import discord
+        
+        import logging
+        import discord_logging
+        
+        logger = logging.getLogger()
+        
+        WEBHOOK_URL = "Your webhook url"
+        handler = discord_logging.Discord_Handler(WEBHOOK_URL)
+        
+        logger.addHandler(handler)
+        
+        client = discord.Client()
+        
+        
+        @client.event
+        async def on_ready():
+            print('login！(\'◇\')ゞ')
+        
+        
+        @client.event
+        async def on_message(message):
+            
+            if message.author.bot:
+                return
+            if message.content == '/hello':
+                await message.channel.send('hello')
+        
+        client.run('THi5IsDuMMyaCCesSTOK3nQ4.Cl2FMQ.ThIsi5DUMMyAcc3s5ToKen7kKWs')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

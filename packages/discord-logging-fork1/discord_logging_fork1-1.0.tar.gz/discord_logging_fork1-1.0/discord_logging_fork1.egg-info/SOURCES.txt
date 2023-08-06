@@ -1,0 +1,8 @@
+README.md
+setup.py
+discord_logging/__init__.py
+discord_logging/discord_logging.py
+discord_logging_fork1.egg-info/PKG-INFO
+discord_logging_fork1.egg-info/SOURCES.txt
+discord_logging_fork1.egg-info/dependency_links.txt
+discord_logging_fork1.egg-info/top_level.txt

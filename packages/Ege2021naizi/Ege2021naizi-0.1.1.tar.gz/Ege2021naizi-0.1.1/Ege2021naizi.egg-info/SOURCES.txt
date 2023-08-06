@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+Ege2021naizi/Binomialdistribution.py
+Ege2021naizi/Gaussiandistribution.py
+Ege2021naizi/Generaldistribution.py
+Ege2021naizi/__init__.py
+Ege2021naizi.egg-info/PKG-INFO
+Ege2021naizi.egg-info/SOURCES.txt
+Ege2021naizi.egg-info/dependency_links.txt
+Ege2021naizi.egg-info/not-zip-safe
+Ege2021naizi.egg-info/top_level.txt

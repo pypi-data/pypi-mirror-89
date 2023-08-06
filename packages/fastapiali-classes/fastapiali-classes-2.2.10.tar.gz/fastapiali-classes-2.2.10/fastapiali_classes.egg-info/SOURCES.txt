@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastapiali_classes.egg-info/PKG-INFO
+fastapiali_classes.egg-info/SOURCES.txt
+fastapiali_classes.egg-info/dependency_links.txt
+fastapiali_classes.egg-info/not-zip-safe
+fastapiali_classes.egg-info/requires.txt
+fastapiali_classes.egg-info/top_level.txt

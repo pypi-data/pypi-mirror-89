@@ -1,0 +1,7 @@
+pytorch-lightning==1.1.2
+tabulate
+hyperopt
+tqdm
+pandas
+wandb
+ray[tune]

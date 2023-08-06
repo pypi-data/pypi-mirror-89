@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ordinal
+Version: 1.0.0
+Summary: Get ordinals from numbers (42 -> 42nd).
+Home-page: https://github.com/tusharsadhwani/ordinal
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+# ordinal
+
+Get ordinals from numbers
+
+```py
+from ordinal import ordinal
+num = ordinal(42)
+print(num) # 42nd
+```
+
+## Testing
+
+Clone the app and run the following:
+
+```console
+python setup.py pytest
+```
+
+

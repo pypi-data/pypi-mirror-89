@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PdfCC
+Version: 1.0.0
+Summary: PDF cropper & compressor: removes unwanted noise from pdf         and compresses them
+Home-page: https://gitlab.com/pdfcc/PDF-CC.git
+Author: S Krishna Bhat
+Author-email: memotoskbhat@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pdf2image
+Requires-Dist: pillow
+
+PDF Crop & Compress
+
+A libarary to crop boundaries from pdf files, removing unwanted colours and preserves relevant text. Also compresses pdf size.
+

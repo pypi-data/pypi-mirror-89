@@ -1,0 +1,90 @@
+![logo](https://redshepherdmedia.s3-us-west-2.amazonaws.com/red_logo_64.png "logo")
+
+# Red Shepherd Python API Docs
+
+## _Follow these steps for Simple API Integration_
+
+---
+
+### Step 1 a- Adding the payment library using pip
+
+```python
+pip install RedPay
+```
+
+---
+
+### Step 1 b - Create a RedPay object for secure API methods
+
+```python
+### REPLACE app, url and key with your PROD keys and use a valid account
+### These are DEMO Keys which you can safely use for testing
+app = "DEMO";
+endpoint = "https://redpaystable.azurewebsites.net/";
+key = "MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAtsQxNp3vmKVNYIxfWSi0LIRgCnPaMn0MUNouxgrs4zmg4cnvSeQ3I8YP03YbpXuWA80RvOw/nWErYAKomniJw8Y+xexMfBQ5sgJgewn3ZnRPNM9Y4Z62gwfIlsrs7Bwvpz9uUtLgeQLl1ffNaumnu1IBrqRps0EZ1QyDuu41UckTyo31C40Wez6IbeMfZeusrmPlIWqyBacdviJ5zHCA3zHNq86QMnB8HOP1U81HOSs6GTTelhD7lCoJ+fHKHxcz0MDr37fNpKpC57B0/20wBXFp9tlVtSkHcIty1lyNk2/HDH8knCdqkZk+fCvWgGwdex41x8/rM+LKC13c5J/yG6Gb2PnKhwNk4lvvnz73YAdqTUJ7qNrdtWVnOTWfbMBiNlpBCVqt8xY8UK6u83AVWrWXse0xe2Pn/kRqlXmxWT0mGEoCavjvZ9lQUL7LXAXZ1dff9r+oFUZo6xDQ3ER/OTIKa4jpvaI9S/J1drsrI1f9kkMWFwEh48dCPYplGSxzAgMBAAE=";
+
+### Use this redpay object for all the API calls
+redpay = RedPay(app, key, endpoint)
+
+```
+
+---
+
+### Step 2 a - Charge a Credit / Debit Card
+
+```python
+import json
+
+request = {
+    "account": "4111111111111111",
+    "amount": 2000,
+    "expmmyyyy": "122024",
+    "cvv": "123",
+    "accountHolder": "Anna Conda",
+    "zipCode": "10001"
+}
+
+print("CHARGE Credit Card request >>>")
+print(json.dumps(request, indent=2))
+
+response = redpay.ChargeCard(request)
+
+print("CHARGE Credit Card response >>>")
+print(json.dumps(response, indent=2))
+```
+
+**_ChargeCard Request Example_**
+
+```javascript
+let req = {
+  account: "4111111111111111",
+  amount: 2000,
+  expmmyyyy: "122023",
+  cvv: "123",
+  cardHolderName: "Anna Conda",
+  avsZip: "10001",
+};
+```
+
+**_ChargeCard Response_**
+
+```javascript
+{
+  responseCode: "A",
+  transactionId: "DEMO.j1kbwwwh531ivcsh",
+  authCode: "PPS531",
+  token: "9418594164541111",
+  cardLevel: "Q",
+  cardBrand: "V",
+  cardType: "C",
+  processorCode: "CC",
+  app: "DEMO",
+  account: "9418594164541111",
+  cardHolderName: "Anna Conda",
+  amount: 2000,
+  timeStamp: "12/10/2020 1:46:47 AM",
+  text: "Approval Approval",
+  ipAddress: "198.54.106.248:51554",
+  avsCode: "Z"
+}
+```

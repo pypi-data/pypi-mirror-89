@@ -1,0 +1,8 @@
+vivarium-core>=0.0.19
+cobra
+Arpeggio
+parsimonious
+stochastic-arrow
+pymunk
+iteround
+alphashape

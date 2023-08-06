@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: snippyng
+Version: 0.0.1
+Summary: Audio processing toolset
+Home-page: https://github.com/thorwhalen/ut/tree/master/snippyng
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# snippyng
+Audio processing toolset
+
+
+To install:	```pip install snippyng```
+
+

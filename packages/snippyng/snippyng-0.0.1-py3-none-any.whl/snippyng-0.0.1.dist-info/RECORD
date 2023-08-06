@@ -1,0 +1,15 @@
+snippyng/__init__.py,sha256=L2mSRELff_1PHuB9osKs0WPxsfQS8QP1CTKWgW91h8Q,51
+snippyng/eigen_sound.py,sha256=3RRVyILT-TnX8xdm8piS6Qd0Gu2rQfOl98iwSZoFB7g,8222
+snippyng/features.py,sha256=OhY3xFHNfDhxeusH6Vrwa3XGEWTKkuSWGApN1U_X-M8,1029
+snippyng/locating.py,sha256=0iw_hF2tgEqz8SF6FZGDTyGWCAq-6H4rq6mxM08juGE,7456
+snippyng/text_to_sound.py,sha256=6CzyU4xmGfkJo_aw4ExcmNpzSrc2oslHmFBJwkaehSo,1517
+snippyng/util.py,sha256=3V8eO8Jp7HdzDKPOZm_8v3W8JgNbwKwDWvaUSg3FpLE,26342
+snippyng/dacc/__init__.py,sha256=LKbAi4B44O5tapBFPrRPVB6n1_LDPfpbKBGC7B_QRxs,20
+snippyng/dacc/mg.py,sha256=O9N--1z9YWMAKsUzMPNkbK6784AHVl1zr5Q8QbNV71U,5587
+snippyng/others/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+snippyng/others/audio_tools.py,sha256=12vubrcSBK2jbh6QfUJULda0JHY1F9c-9oWkGfL6BSA,155199
+snippyng-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+snippyng-0.0.1.dist-info/METADATA,sha256=52RudhlhNBA3ACY4CN07Pl1dco_PpptcDo_lblQrUjk,319
+snippyng-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+snippyng-0.0.1.dist-info/top_level.txt,sha256=vxTZGcrVsbnETT6TOwsJxzenod9E14SxqOiOoAaQekY,9
+snippyng-0.0.1.dist-info/RECORD,,

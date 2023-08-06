@@ -1,0 +1,43 @@
+name: publish-linux
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  publish-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch: [i686, x86_64]
+
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+
+    - name: Build and test wheels
+      env:
+        DOCKER_IMAGE: quay.io/pypa/manylinux1_${{ matrix.arch }}
+      run: |
+        echo $DOCKER_IMAGE
+        docker image pull $DOCKER_IMAGE
+        docker container run --rm --net="host" -w=/io -v `pwd`:/io $DOCKER_IMAGE /io/dev/build_manylinux_wheels.sh
+        ls -la dist
+
+    - name: Archive wheels and sdist
+      uses: actions/upload-artifact@v2
+      with:
+        name: pymssql-${{ runner.os }}-manylinux1_${{ matrix.arch }}-${{ github.sha }}
+        path: dist
+
+    - name: Publish wheels
+      run: |
+        pip install twine --upgrade
+        twine upload --skip-existing -u __token__ -p ${{secrets.PYPI_TOKEN}} dist/*
+

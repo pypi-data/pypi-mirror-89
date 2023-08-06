@@ -1,0 +1,8 @@
+cython
+gevent
+psutil
+pytest
+pytest-timeout
+setuptools
+sqlalchemy
+wheel

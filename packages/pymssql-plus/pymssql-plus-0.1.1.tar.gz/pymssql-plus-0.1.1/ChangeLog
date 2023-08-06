@@ -1,0 +1,10 @@
+Change Log
+==========
+
+Version 0.1.1 - 2020-12-21
+
+General
+-------
+
+- Fine-grained number types, such as int, long, float, double
+- Cursor description has richer information, such as precision, scale

@@ -1,0 +1,16 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+# Actually tell PEP517 tools to call setuptools
+build-backend = "setuptools.build_meta"
+
+
+[tool.bork.aliases]
+lint = [
+  "flake8 nines/",
+  "flake8 --ignore E201 tests/",
+  "python3 -m mypy nines/ tests/",
+]
+
+test = "python3 -m pytest"

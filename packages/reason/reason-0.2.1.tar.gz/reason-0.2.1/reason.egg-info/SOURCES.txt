@@ -1,0 +1,16 @@
+README.md
+setup.py
+reason/__init__.py
+reason.egg-info/PKG-INFO
+reason.egg-info/SOURCES.txt
+reason.egg-info/dependency_links.txt
+reason.egg-info/requires.txt
+reason.egg-info/top_level.txt
+reason/classify/__init__.py
+reason/classify/naivebayes.py
+reason/metrics/__init__.py
+reason/metrics/accuracy.py
+reason/tokenize/__init__.py
+reason/tokenize/_treebank.py
+reason/tokenize/sent_tokenize.py
+reason/tokenize/word_tokenize.py

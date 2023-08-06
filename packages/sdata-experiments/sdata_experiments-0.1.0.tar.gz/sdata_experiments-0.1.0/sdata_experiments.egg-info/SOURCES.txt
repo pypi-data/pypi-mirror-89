@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sdata_experiments/__init__.py
+sdata_experiments/tension_test.py
+sdata_experiments.egg-info/PKG-INFO
+sdata_experiments.egg-info/SOURCES.txt
+sdata_experiments.egg-info/dependency_links.txt
+sdata_experiments.egg-info/requires.txt
+sdata_experiments.egg-info/top_level.txt

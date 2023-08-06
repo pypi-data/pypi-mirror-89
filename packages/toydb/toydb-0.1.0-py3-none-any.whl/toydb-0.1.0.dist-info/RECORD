@@ -1,0 +1,11 @@
+toydb/Database.py,sha256=lBAEAZ4QiaQMoZLEWnf-Yh3J7_oWYN7aFEaV74RJ_wM,12988
+toydb/RowStruct.py,sha256=wCHB1TeIOcIeIm0MaeZxyHiMnNbmGUfu5PvO-nPC_AE,6721
+toydb/__init__.py,sha256=Y27vGvwKL5EbLNWbAsRCoec9DRUBLzcBnoVbla7tLoY,161
+toydb/dtypes.py,sha256=eBFxadwHvpu7NJBNoczSFLqTBnnICtPDSnjkHY_uXzQ,5273
+toydb/exceptions.py,sha256=_nL2eoG4tQiJLHwRqZf0m1v8iLE6aqshvz8o1oHQSck,110
+toydb/util.py,sha256=QFz1WWEz2r35cbUCv3oZDHVEf9x55uReS_bPa3160KY,708
+toydb-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+toydb-0.1.0.dist-info/METADATA,sha256=l3bVYC5xAjSO54BkSZ3NYNAGgCaS1uCb_FGZY0JvcTo,2224
+toydb-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+toydb-0.1.0.dist-info/top_level.txt,sha256=_HBipPVqNpBgCgZTD0NR1j9UYhDaILJKNCnCv9hfaSQ,6
+toydb-0.1.0.dist-info/RECORD,,

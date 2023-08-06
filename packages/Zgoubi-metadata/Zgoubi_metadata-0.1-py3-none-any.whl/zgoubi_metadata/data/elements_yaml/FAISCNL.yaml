@@ -1,0 +1,6 @@
+zgoubi_name: FAISCNL
+params:
+  FNAME: {type: A80, default: "", doc: ""}
+template:
+- [FNAME]
+doc: |

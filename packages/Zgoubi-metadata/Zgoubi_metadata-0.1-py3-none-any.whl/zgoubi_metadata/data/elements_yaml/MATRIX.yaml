@@ -1,0 +1,7 @@
+zgoubi_name: MATRIX
+params:
+  IORD: {type: I, default: 0, doc: ""}
+  IFOC: {type: I, default: 0, doc: ""}
+template:
+- [IORD, IFOC]
+doc: |

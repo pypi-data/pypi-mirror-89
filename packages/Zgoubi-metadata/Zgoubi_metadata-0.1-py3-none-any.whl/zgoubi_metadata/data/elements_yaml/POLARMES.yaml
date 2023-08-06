@@ -1,0 +1,44 @@
+zgoubi_name: POLARMES
+params:
+  IC: {type: I, default: 0, doc: ""}
+  IL: {type: I, default: 0, doc: ""}
+  BNORM: {type: E, unit: "", default: 0, doc: ""}
+  AN: {type: E, unit: "", default: 0, doc: ""}
+  RN: {type: E, unit: "", default: 0, doc: ""}
+  TITL: {type: A80, default: "", doc: ""}
+  IA: {type: I, default: 0, doc: ""}
+  JR: {type: I, default: 0, doc: ""}
+  FNAME: {type: A80, default: "", doc: ""}
+  ID: {type: I, default: 0, doc: ""}
+  A: {type: E, unit: "", default: 0, doc: ""}
+  B: {type: E, unit: "", default: 0, doc: ""}
+  C: {type: E, unit: "", default: 0, doc: ""}
+  IORDRE: {type: I, default: 0, doc: ""}
+  XPAS: {type: E, unit: cm, default: 0, doc: ""}
+  KPOS: {type: I, default: 0, doc: ""}
+  RE: {type: E, unit: cm, default: 0, doc: ""}
+  TE: {type: E, unit: "", default: 0, doc: ""}
+  RS: {type: E, unit: cm, default: 0, doc: ""}
+  TS: {type: E, unit: "", default: 0, doc: ""}
+  DP: {type: E, unit: "", default: 0, doc: ""}
+template:
+- [IC, IL]
+- [BNORM, AN, RN]
+- [TITL]
+- [IA, JR]
+- [FNAME]
+- [ID, A, B, C]
+- [IORDRE]
+- [XPAS]
+- [KPOS]
+- [cond_section]
+cond_section:
+- key: KPOS
+  equals: 2
+  template:
+  - [RE, TE, RS, TS]
+- key: KPOS
+  equals: 1
+  template:
+  - [DP]
+doc: |

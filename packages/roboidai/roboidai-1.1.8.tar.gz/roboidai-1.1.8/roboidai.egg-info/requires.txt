@@ -1,0 +1,10 @@
+roboid
+ifaddr
+pyttsx3
+pynput
+pandas
+matplotlib
+scikit-learn
+numpy
+opencv-contrib-python
+tensorflow

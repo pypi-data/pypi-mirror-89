@@ -1,0 +1,10 @@
+roboid>=1.5.13
+ifaddr>=0.1.7
+pyttsx3>=2.90
+pynput
+pandas>=1.1.5
+matplotlib>=3.3.3
+scikit-learn>=0.23.2
+numpy==1.18.5
+opencv-contrib-python>=4.4.0.46
+tensorflow>=2.3.1

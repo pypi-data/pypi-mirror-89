@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: caterpyllar
+Version: 0.0.1
+Summary: A framework to work with DAGs of buffers.
+Home-page: https://github.com/thorwhalen/ut/tree/master/caterpyllar
+Author: Thor Whalen
+License: mit
+Description: 
+        # caterpyllar
+        A framework to work with DAGs of buffers.
+        
+        
+        To install:	```pip install caterpyllar```
+        
+Platform: any
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+tiledb/segy/__init__.py,sha256=Voh7dToUHpqHm183wop7KaH6EVm8bONQEb5cyjfQASk,5858
+tiledb/segy/cli.py,sha256=ZYfvLOj0th_S_Bp57gYnP56H7-359CBwKppxdBHq3-Y,3494
+tiledb/segy/convert.py,sha256=x7VzqlN98WdIk-iLY6YskOCRxcFIaOKLQBR-bM5M0pI,10116
+tiledb/segy/indexables.py,sha256=izVPeVbIS4n6fZfYp7Kzg6vTc6nBuL04l-aOOiD81ZY,7414
+tiledb/segy/singledispatchmethod.py,sha256=Mu899HSkDiPE66gr_edh_ZfqW_Q7d79jZ2P_nM4Ugs4,1209
+tiledb/segy/utils.py,sha256=LSB93j_e5fsB6ROgzlzd29VeQIOYStTcliqN1Y5a2u8,5868
+tiledb_segy-0.2.1.dist-info/LICENSE,sha256=g3EqvYdAgT5TeJbkz5qbSHrIj__lpxgJWD1DPAunS4Q,1079
+tiledb_segy-0.2.1.dist-info/METADATA,sha256=Pm16Yj93u-z54K37QcDmwPKGeJC-uuJ90fAWK1ch8LE,7564
+tiledb_segy-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tiledb_segy-0.2.1.dist-info/entry_points.txt,sha256=hvPfjuIHcQV2r9TGJUDVzlEx_hcj6Blo-fBtTepv9pA,54
+tiledb_segy-0.2.1.dist-info/top_level.txt,sha256=TTVUYCu5VdKjmIqtFaTF9PPxejc3p4Xe7VNX11L4Tvk,7
+tiledb_segy-0.2.1.dist-info/RECORD,,

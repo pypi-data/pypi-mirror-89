@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib/hydomain.py
+sphinxcontrib_hydomain.egg-info/PKG-INFO
+sphinxcontrib_hydomain.egg-info/SOURCES.txt
+sphinxcontrib_hydomain.egg-info/dependency_links.txt
+sphinxcontrib_hydomain.egg-info/namespace_packages.txt
+sphinxcontrib_hydomain.egg-info/not-zip-safe
+sphinxcontrib_hydomain.egg-info/requires.txt
+sphinxcontrib_hydomain.egg-info/top_level.txt

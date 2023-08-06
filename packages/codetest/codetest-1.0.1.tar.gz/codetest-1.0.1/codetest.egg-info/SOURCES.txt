@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+Readme.md
+setup.py
+codetest/__init__.py
+codetest/_codetest.py
+codetest/_utils.py
+codetest/codetest.py
+codetest/test_codetest.py
+codetest.egg-info/PKG-INFO
+codetest.egg-info/SOURCES.txt
+codetest.egg-info/dependency_links.txt
+codetest.egg-info/top_level.txt

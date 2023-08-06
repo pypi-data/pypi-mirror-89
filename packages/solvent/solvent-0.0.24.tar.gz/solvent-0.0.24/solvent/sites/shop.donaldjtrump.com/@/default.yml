@@ -1,0 +1,80 @@
+active_locators:
+  - mode: ''
+    value: ''
+    index: 0
+    uses: 0
+inactive_locators:
+  - mode: ''
+    value: ''
+    index: 0
+    uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: email_address
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: email_address
+        index: 0
+        uses: -1
+      - mode: name
+        value: email-address
+        index: 0
+        uses: -1
+      - mode: id
+        value: email_address
+        index: 0
+        uses: 1
+      - mode: id
+        value: email-address
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[aria-label="Email Address"]'
+        index: 0
+        uses: 0
+      - mode: id
+        value: EmailAddress
+        index: 0
+        uses: 0
+  - verb: click
+    name: shop_now
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Shop Now
+        index: 0
+        uses: -1
+      - mode: text
+        value: Shop now
+        index: 0
+        uses: -1
+      - mode: value
+        value: Shop Now
+        index: 0
+        uses: -1
+      - mode: value
+        value: Shop now
+        index: 0
+        uses: -1
+      - mode: css
+        value: .btn-arrow
+        index: 0
+        uses: -1
+      - mode: tag
+        value: a
+        index: 0
+        uses: -1

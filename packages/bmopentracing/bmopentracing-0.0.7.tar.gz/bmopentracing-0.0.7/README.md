@@ -1,0 +1,40 @@
+# Opentracing tracers
+Jaeger tracer instrumentation implemented
+
+# GitHub url: https://github.com/beyondminds/bmopentracing
+
+# Usage:
+
+```Python
+import logging
+from bmopentracing.tracers.jaeger import trace
+
+class ClassToInstrumentWithJaegerTracing:
+
+    @trace('ClassToInstrumentWithJaegerTracing', logging.DEBUG)
+    def __init__(...):
+    
+    @trace('ClassToInstrumentWithJaegerTracing', logging.DEBUG)
+    def method_to_instrument(...):
+
+
+    @trace('ClassToInstrumentWithJaegerTracing', logging.DEBUG)
+    def anothor_method_to_instrument(...):
+```
+
+# Examples of Jaeger logs:
+```
+INFO:jaeger_tracing:Initializing Jaeger Tracer with UDP reporter
+INFO:jaeger_tracing:Using sampler ConstSampler(True)
+INFO:jaeger_tracing:opentracing.tracer initialized to <jaeger_client.tracer.Tracer object at 0x7fe3662450a0>[app_name=ClassToInstrumentWithJaegerTracing]
+INFO:jaeger_tracing:Reporting span 3ee394c442e9cc86:2fc2724e798b2422:0:1 ClassToInstrumentWithJaegerTracing.__init__
+INFO:jaeger_tracing:Reporting span 86f77e62c1acbd39:bb0b4e49db3372c3:2f8ed28eee8f5172:1 ClassToInstrumentWithJaegerTracing.method_to_instrument
+INFO:jaeger_tracing:Reporting span 86f77e62c1acbd39:6962c9b371b1889a:2f8ed28eee8f5172:1 ClassToInstrumentWithJaegerTracing.anothor_method_to_instrument
+INFO:jaeger_tracing:Reporting span 86f77e62c1acbd39:2f8ed28eee8f5172:0:1 ClassToInstrumentWithJaegerTracing.anothor_method_to_instrument
+```
+
+# The Simplest way to run jaeger web server is:
+```
+./jaeger-1.21.0-darwin-amd64/jaeger-all-in-one --collector.zipkin.http-port=9411
+```
+

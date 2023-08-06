@@ -1,0 +1,11 @@
+watchgod
+wxyz_core
+
+[git]
+gitpython
+
+[toml]
+toml
+
+[yaml]
+pyyaml

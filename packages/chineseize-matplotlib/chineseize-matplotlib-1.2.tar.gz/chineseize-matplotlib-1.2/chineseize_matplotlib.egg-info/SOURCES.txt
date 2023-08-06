@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+chineseize_matplotlib/__init__.py
+chineseize_matplotlib/chineseize_matplotlib.py
+chineseize_matplotlib.egg-info/PKG-INFO
+chineseize_matplotlib.egg-info/SOURCES.txt
+chineseize_matplotlib.egg-info/dependency_links.txt
+chineseize_matplotlib.egg-info/requires.txt
+chineseize_matplotlib.egg-info/top_level.txt
+chineseize_matplotlib/fonts/IPA_Font_License_Agreement_v1.0.txt
+chineseize_matplotlib/fonts/Readme_ipaexg00301.txt
+chineseize_matplotlib/fonts/ipaexg.ttf
+chineseize_matplotlib/fonts/simhei.ttf

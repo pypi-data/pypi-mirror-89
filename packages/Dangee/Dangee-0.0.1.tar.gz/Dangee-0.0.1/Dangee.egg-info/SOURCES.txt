@@ -1,0 +1,9 @@
+README.md
+setup.py
+Dangee.egg-info/PKG-INFO
+Dangee.egg-info/SOURCES.txt
+Dangee.egg-info/dependency_links.txt
+Dangee.egg-info/requires.txt
+Dangee.egg-info/top_level.txt
+dangee/__init__.py
+dangee/core.py

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Dangee
+Version: 0.0.1
+Summary: Dangee
+Home-page: https://github.com/quark-engine/Dangee
+Author: JunWei Song
+Author-email: sungboss2004@gmail.com
+License: UNKNOWN
+Description: # Dangee
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

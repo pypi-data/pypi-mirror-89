@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: hytera-homebrew-bridge
+Version: 2020.1
+Summary: Connect Hytera IPSC repeater to MMDVM system such as HBlink, DMRGateway
+Home-page: https://github.com/OK-DMR/Hytera_Homebrew_Bridge
+Author: Marek Sebera
+Author-email: marek.sebera@gmail.com
+License: AGPL-3.0
+Description: # Hytera Homebrew Bridge
+        
+        ![.github/workflows/sanity.yml](https://github.com/smarek/Hytera_Homebrew_Bridge/workflows/Sanity/badge.svg?branch=master)
+        ![Code Style: Python Black](https://img.shields.io/badge/code%20style-black-000000.svg)
+        ![License](https://img.shields.io/github/license/smarek/Hytera_Homebrew_Bridge)
+        
+        
+        **21.12.2020: We've entered alpha testing phase, see instructions below, on how to install and test**
+        
+        ----
+        
+        This software will interconnect your Hytera repeater (tested RD625 and RD985) with MMDVM server (HBlink, DMRGateway, ...)
+        
+        ----
+        ## Simple install:
+        ```shell
+        $ python3 -m pip install hytera-homebrew-bridge
+        $ curl "https://raw.githubusercontent.com/OK-DMR/Hytera_Homebrew_Bridge/master/settings.ini.default" -o settings.ini
+        # Now edit settings.ini
+        # Hytera: You must provide at least IPSC IP + ports (P2P, DMR and RDAC)
+        # MMDVM: You must provide at least local_ip, master_ip, port and password
+        $ hytera-homebrew-bridge.py settings.ini
+        ```
+        
+        ----
+        ## Development 
+        
+        ```shell
+        $ git clone https://github.com/OK-DMR/Hytera_Homebrew_Bridge.git
+        $ cd Hytera_Homebrew_Bridge
+        $ cp settings.ini.default settings.ini
+        $ apt-get install libsnmp-dev snmp-mibs-downloader gcc python-dev
+        $ pip3 install -r requirements.txt --user --upgrade
+        $ pip3 install -r requirements.development.txt --user --upgrade
+        $ python3 bin/hytera-homebrew-bridge.py settings.ini
+        ```
+        
+        ----
+        
+        Project is licensed under AGPLv3 and uses parts of other software, mentioned in NOTICE
+        
+        ----
+        
+        This project is intended for educational/scientific purposes, and for HAM community to use non-commercialy.  
+        Use at your own risk, and expect no warranties.
+        
+Keywords: mmdvm dmr hytera repeater ham radio repeater
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Environment :: Console
+Classifier: Topic :: Communications :: Ham Radio
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Typing :: Typed
+Classifier: Framework :: Pytest
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown

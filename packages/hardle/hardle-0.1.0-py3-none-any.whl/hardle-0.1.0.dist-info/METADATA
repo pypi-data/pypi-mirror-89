@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: hardle
+Version: 0.1.0
+Summary: Download content from .HAR files
+Home-page: https://github.com/docyx/hardle
+License: MIT
+Keywords: har,scraping,scraper,web
+Author: docyx
+Author-email: oliverxur@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Typing :: Typed
+Project-URL: Documentation, https://github.com/docyx/hardle
+Project-URL: Repository, https://github.com/docyx/hardle
+Description-Content-Type: text/markdown
+
+# Hardle
+
+A simple & lightweight utility for (synchronously) downloading content from .HAR files. Useful when you want to download static sites for offline use.
+
+## Installation
+
+```
+$ pip3 install hardle
+```
+
+Hardle uses type annotations, so Python 3.5 (minimum) is required.
+
+## Usage
+
+### From the Command Line
+
+```
+$ hardle path/to/file.har out/
+```
+
+### From Python
+
+```py
+from hardle import download
+
+download("path/to/file.har", "out/")
+```
+
+## License
+
+[MIT](./LICENSE)
+

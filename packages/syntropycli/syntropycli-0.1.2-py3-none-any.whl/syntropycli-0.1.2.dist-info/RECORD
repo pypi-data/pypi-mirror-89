@@ -1,0 +1,9 @@
+syntropycli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syntropycli/__main__.py,sha256=Q2oK0kUWiakyW9TXqbnGf2jURjgyCpzV115tk4ySH-I,33593
+syntropycli/decorators.py,sha256=FSu6vkjcGzkOpEVmgDUTb2H111lEB1PSW0aQhicjbtY,1689
+syntropycli/utils.py,sha256=MZY9ZOIvWmTwudEG1lA6nVyFtuuQcJDQXD0aFVZxrtY,5631
+syntropycli-0.1.2.dist-info/METADATA,sha256=NscpK9yr5WOjKcGKwGMu1nu9eXKIKx8tvtopCU03KWc,3330
+syntropycli-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+syntropycli-0.1.2.dist-info/entry_points.txt,sha256=b4q6A4nt8J4uXXOQG5MXSjesYqzgRk4kfOCcrtGZhqs,59
+syntropycli-0.1.2.dist-info/top_level.txt,sha256=9SB65fbFEMGwc3pkESpX3L0him3qqcAexo3emWZm0EA,12
+syntropycli-0.1.2.dist-info/RECORD,,

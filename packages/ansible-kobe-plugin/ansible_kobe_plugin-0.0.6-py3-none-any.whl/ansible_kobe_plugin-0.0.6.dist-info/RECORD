@@ -1,0 +1,9 @@
+kobe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kobe/kobe_pb2.py,sha256=0AabLa6RT9dcI5D_qa-Axv1oqJX-KWyNlwTOEl_JlNo,56768
+kobe/kobe_pb2_grpc.py,sha256=qTtEajL43T9hBHYpgQ9imgLwLRBcbi3LyeFpWmoOX60,15812
+var/kobe/lib/ansible/plugins/callback/result.py,sha256=_nRsLEyDK3wREdnZMgR3v3yy6ldlnjadyXCaCJAL070,4795
+ansible_kobe_plugin-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ansible_kobe_plugin-0.0.6.dist-info/METADATA,sha256=a4vD_xNKGD_TIHfma5X66NOjcje740IPLiSRF5FtZ2Q,296
+ansible_kobe_plugin-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ansible_kobe_plugin-0.0.6.dist-info/top_level.txt,sha256=rDOOLd0wPSCSlIZHIV0ljaiZLd7GOywB-cSmnfWb7UQ,5
+ansible_kobe_plugin-0.0.6.dist-info/RECORD,,

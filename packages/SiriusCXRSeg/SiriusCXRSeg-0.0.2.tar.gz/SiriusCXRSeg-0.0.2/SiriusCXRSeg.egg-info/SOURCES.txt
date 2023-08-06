@@ -1,0 +1,6 @@
+README.md
+setup.py
+SiriusCXRSeg.egg-info/PKG-INFO
+SiriusCXRSeg.egg-info/SOURCES.txt
+SiriusCXRSeg.egg-info/dependency_links.txt
+SiriusCXRSeg.egg-info/top_level.txt

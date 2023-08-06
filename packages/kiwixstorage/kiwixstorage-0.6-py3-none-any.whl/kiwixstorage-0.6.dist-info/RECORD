@@ -1,0 +1,10 @@
+kiwixstorage/VERSION,sha256=qtgW6gcGIiP3X7YG9cDULfqlE4jH9WYlwxCQJbuQES8,4
+kiwixstorage/__init__.py,sha256=80uwRYnxKouFvNtt2n8GeJ0Pt5sVdiJFIILm4s6rfX0,28408
+kiwixstorage/test_credentials.py,sha256=HhcuwwzbpUoHT24kUoSNec9yPQXhDFivpXrieuqUAYw,866
+kiwixstorage/__pycache__/__init__.cpython-38.pyc,sha256=aS64XN-wRBDJaBU_gJvivTk0ccB3GlGbuNDcADpFlRc,26001
+kiwixstorage-0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kiwixstorage-0.6.dist-info/METADATA,sha256=WuamnUlCq_xKT5tnPEh7Tmc_GGkB2h9mxPaklZvA-3k,3329
+kiwixstorage-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kiwixstorage-0.6.dist-info/entry_points.txt,sha256=eDDzpliOyzuQRSGFMBbk3ZhRHoEZJEL-8S2_ubYpSMk,72
+kiwixstorage-0.6.dist-info/top_level.txt,sha256=gT-FJyGw0d5DPuUnxtipEbAnwyWMqJe0PkgkmMfMQRI,13
+kiwixstorage-0.6.dist-info/RECORD,,

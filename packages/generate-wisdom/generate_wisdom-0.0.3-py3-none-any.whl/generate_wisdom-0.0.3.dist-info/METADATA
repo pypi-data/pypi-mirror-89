@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: generate-wisdom
+Version: 0.0.3
+Summary: Makes random wise-sounding sayings
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Generate Wisdom
+
+Get randomly generated wise-sounding sayings.
+
+## Installation
+
+```python
+pip install generate_wisdom
+```
+
+## Usage
+
+```python
+from generate_wisdom import wisdom
+print(wisdom()) # 'You deserve to imply with charity.'
+```
+
+

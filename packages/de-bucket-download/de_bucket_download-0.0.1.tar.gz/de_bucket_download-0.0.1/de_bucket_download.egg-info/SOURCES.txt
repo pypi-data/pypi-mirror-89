@@ -1,0 +1,6 @@
+README.md
+setup.py
+de_bucket_download.egg-info/PKG-INFO
+de_bucket_download.egg-info/SOURCES.txt
+de_bucket_download.egg-info/dependency_links.txt
+de_bucket_download.egg-info/top_level.txt

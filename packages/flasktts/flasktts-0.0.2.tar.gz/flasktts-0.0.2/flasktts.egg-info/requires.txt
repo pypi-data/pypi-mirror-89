@@ -1,0 +1,5 @@
+kcu
+kffmpeg
+Unidecode
+pyttsx3
+Flask

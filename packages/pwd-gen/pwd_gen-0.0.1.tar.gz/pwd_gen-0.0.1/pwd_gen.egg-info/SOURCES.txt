@@ -1,0 +1,7 @@
+README.md
+setup.py
+pwd_gen/__init__.py
+pwd_gen.egg-info/PKG-INFO
+pwd_gen.egg-info/SOURCES.txt
+pwd_gen.egg-info/dependency_links.txt
+pwd_gen.egg-info/top_level.txt

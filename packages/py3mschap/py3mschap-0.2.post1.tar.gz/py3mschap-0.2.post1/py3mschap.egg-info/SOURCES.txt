@@ -1,0 +1,15 @@
+README.md
+setup.py
+py3mschap/U32.py
+py3mschap/__init__.py
+py3mschap/des.py
+py3mschap/des_c.py
+py3mschap/des_data.py
+py3mschap/md4.py
+py3mschap/mppe.py
+py3mschap/mschap.py
+py3mschap/utils.py
+py3mschap.egg-info/PKG-INFO
+py3mschap.egg-info/SOURCES.txt
+py3mschap.egg-info/dependency_links.txt
+py3mschap.egg-info/top_level.txt

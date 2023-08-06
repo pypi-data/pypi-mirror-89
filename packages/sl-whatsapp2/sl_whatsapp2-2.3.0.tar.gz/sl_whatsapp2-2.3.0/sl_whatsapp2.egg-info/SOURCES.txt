@@ -1,0 +1,9 @@
+README.md
+setup.py
+BOMBER/whatsapp.py
+sl_whatsapp2.egg-info/PKG-INFO
+sl_whatsapp2.egg-info/SOURCES.txt
+sl_whatsapp2.egg-info/dependency_links.txt
+sl_whatsapp2.egg-info/entry_points.txt
+sl_whatsapp2.egg-info/requires.txt
+sl_whatsapp2.egg-info/top_level.txt

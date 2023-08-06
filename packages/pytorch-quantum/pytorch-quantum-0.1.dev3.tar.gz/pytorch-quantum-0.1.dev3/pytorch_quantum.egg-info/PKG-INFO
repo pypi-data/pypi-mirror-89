@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pytorch-quantum
+Version: 0.1.dev3
+Summary: A PyTorch based library for Quantum Machine Learning
+Home-page: http://github.com/pytorch-quantum
+Author-email: contact@anuragsaharoy.me
+License: UNKNOWN
+Description: ![](docs/source/_static/pytorch-quantum-logo.png)
+        
+        # pytorch-quantum: Build Quantum Machine Learning models leveraging the power of the PyTorch ecosystem
+        
+        [![PyPI version fury.io](https://badge.fury.io/py/pytorch-quantum.svg)](https://pypi.python.org/pypi/pytorch-quantum/)
+        [![PyPI license](https://img.shields.io/pypi/l/pytorch-quantum.svg)](https://pypi.python.org/pypi/pytorch-quantum/)
+        [![PyPI pyversions](https://img.shields.io/pypi/pyversions/pytorch-quantum.svg)](https://pypi.python.org/pypi/pytorch-quantum/)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

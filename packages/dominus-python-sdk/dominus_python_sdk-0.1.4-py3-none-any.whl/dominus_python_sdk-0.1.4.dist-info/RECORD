@@ -1,0 +1,7 @@
+dominus/DominusService_pb2.py,sha256=dtZrCf56lONDYjMOh3RzcUiH2upnnxBuiCR1JTXh2ZI,316503
+dominus/DominusService_pb2_grpc.py,sha256=6mNv799EDu0pd4kKFeDgggRx8nnb2xr_y1gDphX5KJQ,58624
+dominus/__init__.py,sha256=Z5QXohm8FS4iQzWKY_HfR4amdpocuVPtWr0fDeyGcEw,132
+dominus_python_sdk-0.1.4.dist-info/METADATA,sha256=D_G2K3VXO-F-YZm94GmuJ3_q_0kanAYZF_3_jkSvq3c,2713
+dominus_python_sdk-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dominus_python_sdk-0.1.4.dist-info/top_level.txt,sha256=515zxMIbX0DpheRbjvNqKIt_AFqdFjX41jtyp_SqLf4,8
+dominus_python_sdk-0.1.4.dist-info/RECORD,,

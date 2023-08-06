@@ -1,0 +1,3 @@
+[console_scripts]
+order-food=swiggy_order:main
+

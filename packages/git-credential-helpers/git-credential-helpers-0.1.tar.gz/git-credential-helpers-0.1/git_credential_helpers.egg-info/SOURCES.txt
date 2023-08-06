@@ -1,0 +1,10 @@
+README.md
+setup.py
+git_credential_helpers/__init__.py
+git_credential_helpers/github_app.py
+git_credential_helpers.egg-info/PKG-INFO
+git_credential_helpers.egg-info/SOURCES.txt
+git_credential_helpers.egg-info/dependency_links.txt
+git_credential_helpers.egg-info/entry_points.txt
+git_credential_helpers.egg-info/requires.txt
+git_credential_helpers.egg-info/top_level.txt

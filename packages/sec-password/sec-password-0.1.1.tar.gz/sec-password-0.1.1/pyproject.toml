@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sec-password"
+version = "0.1.1"
+description = "Secure Password library using only Python standard lib"
+authors = ["Tom Faulkner <tomfaulkner@gmail.com>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}

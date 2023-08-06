@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: diserver
+Version: 1.0.0
+Summary: Hot reload server for developing Discord bots!
+Home-page: https://github.com/erick-dsnk/discord-bot-server
+Author: Tabacaru Eric
+Author-email: erick.8bld@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: Click
+Requires-Dist: watchdog
+
+UNKNOWN
+
+

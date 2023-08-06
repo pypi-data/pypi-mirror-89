@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: libelle
+Version: 0.0.1
+Summary: Libelle AG
+Home-page: https://www.libelle.com
+Author: Libelle AG
+Author-email: miroslav.jakovljevic@libelle.com
+License: UNKNOWN
+Keywords: libelle
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+# Reserving Name for Libelle AG
+
+Project to reserve the "libelle" name on PyPI.
+

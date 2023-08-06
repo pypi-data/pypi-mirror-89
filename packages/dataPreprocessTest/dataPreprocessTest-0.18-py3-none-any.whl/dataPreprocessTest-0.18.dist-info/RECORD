@@ -1,0 +1,8 @@
+dataPreprocess/__init__.py,sha256=PyCBA9iepBUQkgnKTFu2jiFvJ6HtgmMwEkJD7M3iFLc,119
+dataPreprocess/emo_unicode.py,sha256=NGs90lb4oHubO-AyC4F_gCBhE7G8BsQEwg1nc2kjS_4,162643
+dataPreprocess/preprocess.py,sha256=2hvi2SrhwsUDPx8Oa6gu0uMMkQiGqVjAnhpDwRj9LJY,7033
+dataPreprocessTest-0.18.dist-info/METADATA,sha256=O5kM7jdaghMUt2ET7AS64sxj6oGDMfCBulT9WocLmRA,884
+dataPreprocessTest-0.18.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataPreprocessTest-0.18.dist-info/entry_points.txt,sha256=h7b7sJDtEHv9PGXmPYBSwQY8Mw-F5HwHUfPn1WHIQU4,61
+dataPreprocessTest-0.18.dist-info/top_level.txt,sha256=TQAcpSSEirvKjAfdi8OhYu5PNGaowybcUqZVCDDGcy8,15
+dataPreprocessTest-0.18.dist-info/RECORD,,

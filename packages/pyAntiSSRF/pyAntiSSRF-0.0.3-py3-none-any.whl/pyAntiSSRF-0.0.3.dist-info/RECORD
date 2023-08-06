@@ -1,0 +1,10 @@
+pyAntiSSRF/__init__.py,sha256=c-FBBDTBXzKwX5s5xi8grNnR5EZgEmqbWAtrw1Dsx-s,1407
+pyAntiSSRF/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAntiSSRF/utils/compat.py,sha256=Jd-5Ay9QA0hGhkBmTvxWa_cdVHqZrgKu34ZucpbwD40,880
+pyAntiSSRF/utils/helper.py,sha256=IWSIaptSUcj5Uk9lmtXZcaj7Ubb6KAGjQPXJM1lwCJw,1172
+pyAntiSSRF-0.0.3.dist-info/LICENSE,sha256=2Rz5F0S07Ag7knHJWtQFnUH-UXYKUVLw6BOexcDz9hs,1082
+pyAntiSSRF-0.0.3.dist-info/MANiFEST.in,sha256=hfWORny1f4ICDNzZ32OC5Nq66CLbMg9b2vauoiODyzc,43
+pyAntiSSRF-0.0.3.dist-info/METADATA,sha256=GvYExx3UQpaL-f8iRNaJpQqCUlcceiRbvgyGKzgg1Tw,750
+pyAntiSSRF-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyAntiSSRF-0.0.3.dist-info/top_level.txt,sha256=MISLm-3OkXUFqVSiJWEm7GC_A016VWHFOhX60DlwjY8,28
+pyAntiSSRF-0.0.3.dist-info/RECORD,,

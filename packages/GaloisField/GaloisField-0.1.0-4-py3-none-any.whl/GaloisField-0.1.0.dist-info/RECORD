@@ -1,0 +1,14 @@
+galois_field/GF.py,sha256=xN_mqjYeZLt6J4NpoNeeFBcFdFo7vpZCN0hmfv9uFBQ,16037
+galois_field/__init__.py,sha256=EHfqCbPlHL5erOzvbUKMCdIApFoabdnQEiEB0UxXhIg,193
+galois_field/exceptions.py,sha256=ywaB-boDigGMvMTGpJt01Kw6stfFUlqXUR4rl90hejY,677
+galois_field/fast_polynom.py,sha256=g0_uXFiD56qTABZqoPac6vGkO5dLrqjqaxPo_LIo4zg,3453
+galois_field/util.py,sha256=untFlZmfJCwNlPBFN6dJOR33_R1_amX0g86uyIPKvRs,1562
+galois_field/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galois_field/tests/ffelement_operation_test.py,sha256=HcYrXuZHrZc_Z9_5bujoIr_vYcNeCNRBYuQDdmNh-nY,4236
+galois_field/tests/ffelement_test.py,sha256=wh2T5179y-NhGCnWd_csRFZRGy6Ezu4uiZenNT5sd6s,1486
+galois_field/tests/gf_test.py,sha256=zou4fXNlVaWlYDbEUv0BF-c_a3JVOF5TOoS5sZhiRnU,1601
+GaloisField-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+GaloisField-0.1.0.dist-info/METADATA,sha256=K72ALOIh4C5mLNaKj5Ckmr2hX4gGFVLXH5limN58PjU,998
+GaloisField-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+GaloisField-0.1.0.dist-info/top_level.txt,sha256=g9AzLpvrU1VYDiXiUskZTtPri3EuMOM2GZUTUy_R81M,13
+GaloisField-0.1.0.dist-info/RECORD,,

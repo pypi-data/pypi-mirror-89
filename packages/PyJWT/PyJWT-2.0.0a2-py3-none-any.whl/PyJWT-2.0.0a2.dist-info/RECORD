@@ -1,0 +1,16 @@
+jwt/__init__.py,sha256=joAgcvLwMtK0WXArw05zhtWu-VIHOvvk982YeJAlmLk,1446
+jwt/algorithms.py,sha256=0KkXStAYEfpIB-9gHRrP7yh0a1QJ_Kj-8aylujwLBhQ,18253
+jwt/api_jwk.py,sha256=YqsFdPmeHeJKPxZ37D5_prwr64RxoyC44WEccRabD9Y,1859
+jwt/api_jws.py,sha256=WI30cSdCT9D-l58AYjj-zyRJHD3Zd-aw1XTcSqTj-bU,7922
+jwt/api_jwt.py,sha256=2xKoBYVBEM2xXhbLXU_Kln6SeK8gr54ivHrLsuI4Hk0,7169
+jwt/exceptions.py,sha256=MOFQCg96ZiX1VqjBtysg1VAANcSTZ_XVSLSaHiHgP-I,965
+jwt/help.py,sha256=Btm4l3_fGwHYixaXNEBZZqVd5zwfRjpz2KlLO0wY2xs,1600
+jwt/jwks_client.py,sha256=imteHJY7L4eTuYdpIGX5ePNPXugZHo8PqqYZp7rcwec,1535
+jwt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jwt/utils.py,sha256=IrI7jhMqc0liatezJYB4utXZUgN9XW7f0Hu5AkfvSf0,2237
+PyJWT-2.0.0a2.dist-info/AUTHORS.rst,sha256=klzkNGECnu2_VY7At89_xLBF3vUSDruXk3xwgUBxzwc,322
+PyJWT-2.0.0a2.dist-info/LICENSE,sha256=7IKvgVtfnahoWvswDMW-t5SeHCK3m2wcBUeWzv32ysY,1080
+PyJWT-2.0.0a2.dist-info/METADATA,sha256=BDD7VBbpMt1imWVKzkYAhhaFumAHGUqLiJrAoYv8mzM,4036
+PyJWT-2.0.0a2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyJWT-2.0.0a2.dist-info/top_level.txt,sha256=RP5DHNyJbMq2ka0FmfTgoSaQzh7e3r5XuCWCO8a00k8,4
+PyJWT-2.0.0a2.dist-info/RECORD,,

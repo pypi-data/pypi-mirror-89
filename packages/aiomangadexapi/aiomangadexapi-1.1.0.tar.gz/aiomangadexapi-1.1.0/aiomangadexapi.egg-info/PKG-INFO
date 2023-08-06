@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: aiomangadexapi
+Version: 1.1.0
+Summary: An asychronous mangadex API wrapper with updates and more!
+Home-page: https://github.com/Mudy7/aiomangadexapi
+Author: Mudy7
+Author-email: retaketurbo@gmail.com
+License: UNKNOWN
+Description: # Asynchronous MangaDex python API 
+        An unofficial asynchronous python [MangaDex](https://www.mangadex.org) API built with the JSON API and web scraping.
+        
+        [![Version](https://warehouse-camo.ingress.cmh1.psfhosted.org/272daab11b917f0c559858562da44257e95d80e6/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f646a616e676f2e737667)](https://test.pypi.org/project/aiomangadexapi/)
+        [![License](https://img.shields.io/github/license/md-y/mangadex-full-api.svg?style=flat)](https://github.com/Mudy7/aiomangadexapi/blob/master/LICENCE.txt)
+        [<img src="https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg">](https://reclaimthenet.org/wp-content/uploads/2020/01/mangadex-768x366.jpg)
+         
+        # key features
+         - get data on any manga from mangadex
+         - get updates from mangadex main page
+         - get the mangas from anyone's list with a rss link
+         - get any chapter link from mangadex
+         
+        
+        # Examples
+        
+        ```python
+        #couple examples
+        
+        import aiomangadexapi
+        import asyncio
+        
+        async def get_manga():
+          session = await aiomangadexapi.login(username='username',password='password') # we login into mangadex
+          manga = await aiomangadexapi.search(session,'solo leveling') #search for solo leveling (will return the first result of the search on mangadex)
+          await session.close() #close the session 
+          return manga
+         
+        manga = asyncio.run(get_manga())
+        
+        ```
+        
+        
+        # Documentation
+        https://github.com/Mudy7/aiomangadexapi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

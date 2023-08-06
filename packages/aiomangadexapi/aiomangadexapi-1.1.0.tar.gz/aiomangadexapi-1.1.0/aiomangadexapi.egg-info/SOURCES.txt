@@ -1,0 +1,8 @@
+README.md
+setup.py
+aiomangadexapi/__init__.py
+aiomangadexapi.egg-info/PKG-INFO
+aiomangadexapi.egg-info/SOURCES.txt
+aiomangadexapi.egg-info/dependency_links.txt
+aiomangadexapi.egg-info/requires.txt
+aiomangadexapi.egg-info/top_level.txt

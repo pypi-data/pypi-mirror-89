@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+setup.py
+src/gdot/__init__.py
+src/gdot/__main__.py
+src/gdot/commands.py
+src/gdot/neofetch.py
+src/gdot.egg-info/PKG-INFO
+src/gdot.egg-info/SOURCES.txt
+src/gdot.egg-info/dependency_links.txt
+src/gdot.egg-info/entry_points.txt
+src/gdot.egg-info/requires.txt
+src/gdot.egg-info/top_level.txt

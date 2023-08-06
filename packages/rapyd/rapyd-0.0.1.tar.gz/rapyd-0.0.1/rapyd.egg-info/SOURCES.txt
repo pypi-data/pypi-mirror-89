@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+rapyd/__init__.py
+rapyd/get.py
+rapyd/util.py
+rapyd.egg-info/PKG-INFO
+rapyd.egg-info/SOURCES.txt
+rapyd.egg-info/dependency_links.txt
+rapyd.egg-info/not-zip-safe
+rapyd.egg-info/top_level.txt
+rapyd/util/__init__.py

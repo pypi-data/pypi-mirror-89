@@ -1,0 +1,9 @@
+fast_luhn/__init__.py,sha256=Ahw_10lBjXy6nJqb_SmuKzrDTKZAlNwXJx6gN6WKIzA,136
+fast_luhn/fast_luhn.cpython-35m-x86_64-linux-gnu.so,sha256=21XYpXYSEXJ5iILaHM3jGpSiELy8drsaCJGno3AkmfY,528632
+fast_luhn/fast_luhn.cpython-36m-x86_64-linux-gnu.so,sha256=T1QjbVbsnPVz59UtYjD3fwi0tYSIDhyaKkL5kEWrubE,524432
+fast_luhn/fast_luhn.cpython-37m-x86_64-linux-gnu.so,sha256=POX7StHwVhpihZ_po8_Y4NsbF3cVhStc5mb_PjLIztw,524240
+fast_luhn-0.1.5.dist-info/LICENSE.txt,sha256=9ezlx8cmI2KYWPWLqAOJh_SUPv9y7BESWFvp-ZOXOqg,1081
+fast_luhn-0.1.5.dist-info/top_level.txt,sha256=CY4QB8vJNsO5unBG9ZR_lqoWZfzLnWqfb1-rbZ0c-g0,10
+fast_luhn-0.1.5.dist-info/WHEEL,sha256=pS-jVmEZOyrgrXNZ7O0l1UkFev76jSvEsnqlDkXLK84,112
+fast_luhn-0.1.5.dist-info/METADATA,sha256=EHmcyh1PdoPAkfYCMdv6yLv__THcGsGhRCrYWc-AI1Q,3172
+fast_luhn-0.1.5.dist-info/RECORD,,

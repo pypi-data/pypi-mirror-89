@@ -1,0 +1,3 @@
+[console_scripts]
+siembra = siembra.__main__:main
+

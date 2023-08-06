@@ -1,0 +1,3 @@
+[console_scripts]
+google_search_scraper = src.cli:main
+

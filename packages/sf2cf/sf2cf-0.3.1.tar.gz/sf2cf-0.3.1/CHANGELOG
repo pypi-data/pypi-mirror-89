@@ -1,0 +1,27 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+Based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
+
+## [0.3.1] - 2020-12-29
+### Fixed
+- The xdg module is no longer a required dependency. It was an issue on systems
+  where both pyxdg and xdg were installed, since they use the same namespace.
+
+## [0.3] - 2020-12-28
+### Fixed
+- Use the right name for PyPI
+
+## [0.2] - 2020-12-28
+### Added
+- sf2cf now looks for a configuration file in $XDG_CONFIG_HOME if no config
+  file was specified using "-c"
+
+### Changed
+- The logger is no longer passed to the plugins as an argument. It is instead
+  retrieved using logging.getLogger
+- All plugins now inherit from sf2cf.sf2cf.FeedFixer
+
+### Fixed
+- Fix the error message displayed when unexpected errors occur
+

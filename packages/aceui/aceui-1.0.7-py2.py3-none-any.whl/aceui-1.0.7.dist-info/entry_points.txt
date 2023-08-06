@@ -1,0 +1,4 @@
+[console_scripts]
+ace=aceui.main:run_min
+aceui=aceui.main:run_min
+

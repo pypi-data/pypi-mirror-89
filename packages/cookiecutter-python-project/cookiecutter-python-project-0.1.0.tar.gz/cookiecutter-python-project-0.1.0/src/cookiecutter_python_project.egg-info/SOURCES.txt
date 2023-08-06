@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/cookiecutter_python_project.egg-info/PKG-INFO
+src/cookiecutter_python_project.egg-info/SOURCES.txt
+src/cookiecutter_python_project.egg-info/dependency_links.txt
+src/cookiecutter_python_project.egg-info/requires.txt
+src/cookiecutter_python_project.egg-info/top_level.txt
+src/repository-pattern/__init__.py
+src/repository-pattern/config.py
+src/repository-pattern/adapters/__init__.py
+src/repository-pattern/entrypoints/__init__.py
+src/repository-pattern/model/__init__.py

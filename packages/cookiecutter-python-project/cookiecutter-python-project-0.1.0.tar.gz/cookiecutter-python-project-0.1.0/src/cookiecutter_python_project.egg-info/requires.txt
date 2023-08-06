@@ -1,0 +1,3 @@
+pypika
+pymysql
+yoyo-migrations

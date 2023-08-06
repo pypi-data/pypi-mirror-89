@@ -1,0 +1,77 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="collective.conferences">
+
+<head>
+    <metal:block fill-slot="style_slot">
+        <link rel="stylesheet" type="text/css"
+            tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+            tal:attributes="href string:${navroot}/++resource++collective.conferences/conference.css"
+            />
+    </metal:block>
+</head>
+<body>
+
+<metal:main fill-slot="main">
+    <tal:main-macro metal:define-macro="main"
+        tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime;
+                    ">
+        <span tal:replace="structure context/@@authenticator/authenticator"/>
+
+        <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+        <img style="float: left; margin-right: 2px; margin-top: 2px"
+             tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+             tal:attributes="src string:${navroot}/++resource++collective.conferences/program.gif"
+             />
+
+        <h1 class="documentFirstHeading" tal:content="context/title" />
+
+
+        <div class="discreet">
+            <tal:block condition="context/start">
+                <span i18n:translate="">From:</span>
+                <span tal:content="python:context.start.strftime('%d. %b %Y %H:%M')" />
+            </tal:block>
+            <tal:block condition="context/end">
+                <span i18n:translate="">To:</span>
+                <span tal:content="python:context.end.strftime('%d. %b %Y %H:%M')" />
+            </tal:block>
+        </div>
+
+        <div tal:define="tracks python: view.track_list()" tal:repeat="track tracks">
+        <table class="conftable" border="0" width="100%">
+            <span tal:condition="repeat/track">
+            <caption><h3><a tal:attributes="href python: track.getURL()"
+                tal:content="track/Title" /></h3></caption>
+            <thead>
+                <tr tal:define="room python:view.trackRoom(track)">
+                    <th>Room:</th>
+                    <th colspan="2"><span tal:content="room" />
+       </th>
+                </tr>
+                <tr>
+                    <th><label i18n:translate="">Talk/Workshop</label></th>
+                    <th><label i18n:translate="">Time</label></th>
+                    <th><label i18n:translate="">Subject of the talk</label></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr  tal:repeat="talk python: view.track_talks_workshops(track)">
+                    <td><h4><a tal:attributes="href talk/absolute_url" tal:content="talk/Title" /></h4></td>
+                    <td><span tal:content="python:talk.startitem.strftime('%d. %b %Y %H:%M')" /> to
+                        <span tal:content="python:talk.enditem.strftime('%d. %b %Y %H:%M')" /></td>
+                    <td><p tal:condition="talk/description" tal:content="talk/description" /></td>
+                </tr>
+            </tbody>
+            </span>
+        </table>
+        </div>
+    </tal:main-macro>
+</metal:main>
+</body>
+</html>

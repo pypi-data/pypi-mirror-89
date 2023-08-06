@@ -1,0 +1,112 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="collective.conferences">
+
+<head>
+    <metal:block fill-slot="top_slot">
+      <link rel="stylesheet" type="text/css"
+            tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+            tal:attributes="href string:${navroot}/++resource++collective.conferences/conference.css"
+            />
+        <tal:noborder condition="python:not user.has_permission('Modify portal content', context)">
+            <tal:noborderset tal:define="dummy python:request.set('disable_border', 1)" />
+        </tal:noborder>
+    </metal:block>
+</head>
+
+<body>
+
+<metal:main fill-slot="main">
+    <tal:main-macro metal:define-macro="main"
+        tal:define="workshopleader view/workshopLeaders;
+                    conferencetrack view/conferenceTrack">
+        <span tal:replace="structure context/@@authenticator/authenticator"/>
+
+        <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+        <h1 class="documentFirstHeading" tal:content="context/title" />
+
+        <div class="discreet" tal:condition="view/canRequestReview" i18n:translate="">
+            Please submit this for review.
+        </div>
+
+        <div tal:replace="structure provider:plone.belowcontenttitle" />
+
+        <p class="documentDescription" tal:content="context/description" />
+         <div class="col-sm-6">
+        <h4 i18n:translate="">Details of the Workshop</h4>
+        <div tal:content="structure context/details/output|nothing" />
+        </div>
+        <div class="column talk-right">
+        <div class="col-sm-6">
+        <span tal:condition="context/speaker">
+        <h3 i18n:translate="">Workshop Leader</h3>
+        <ul>
+        <tal:loop repeat="workshopleader workshopleader">
+        <li><a tal:attributes="href python: workshopleader.getURL()">
+                            <span tal:content="workshopleader/Title" />,
+                            </a>
+                            </li>
+                        </tal:loop>
+        </ul>
+        </span>
+        <span tal:condition="context/conferencetrack">
+        <h3><span i18n:translate="">Track:</span>
+        <tal:loop repeat="Track conferencetrack">
+
+        <a tal:attributes="href python: Track.getURL()">
+                            <span tal:content="Track/Title" />
+         </a>
+
+         </tal:loop>
+          </h3>
+         </span>
+         <h3 tal:define=" room python: view.workshoproom">Room:
+         <span tal:content="room" /></h3>
+
+         <span tal:condition="context/twclength">
+         <h4><span i18n:translate="">Workshop Length:</span>
+
+         <tal:loop repeat="length context/twclength">
+         <span tal:content="length" /> <span i18n:translate="">Minutes</span>
+         </tal:loop>
+         </h4>
+        </span>
+         <h4>
+        <span tal:condition="context/startitem">
+         <span i18n:translate="">From: </span>
+        <span tal:content="python:context.startitem.strftime('%d. %b %Y %H:%M')" />
+
+        </span><br />
+        <span tal:condition="context/enditem">
+        <span i18n:translate="">To: </span>
+        <span tal:content="python:context.enditem.strftime('%d. %b %Y %H:%M')" />
+
+        </span>
+        </h4>
+        </div>
+        </div>
+
+
+
+        <div tal:replace="structure provider:plone.abovecontentbody" />
+
+        <div tal:condition="context/slides">
+        <h4 i18n:translate="">Presentation Slides</h4>
+        <a tal:attributes="href string:${context/absolute_url}/@@download/slides/${context/slides/filename}">
+        <span i18n:translate="">Slides</span>
+        </a>
+        </div>
+
+
+
+
+    </tal:main-macro>
+</metal:main>
+
+</body>
+</html>

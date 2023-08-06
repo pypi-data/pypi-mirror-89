@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: convertCoding
+Version: 1.1
+Summary: convert coding method to utf-8, from any other methods.
+Home-page: https://github.com/stopcry/convertCoding
+Author: LaiJianxin
+Author-email: ljx15@tsinghua.org.cn
+License: MIT
+Platform: UNKNOWN
+Requires: chardet
+
+UNKNOWN
+
+

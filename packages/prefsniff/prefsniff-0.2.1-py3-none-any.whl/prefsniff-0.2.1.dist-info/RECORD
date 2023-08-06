@@ -1,0 +1,13 @@
+prefsniff/__about__.py,sha256=z7BmSL1hkjiXQYd4kny1YAmQCiT_4hBepnQ0tzV7oaw,98
+prefsniff/__init__.py,sha256=usBuvlRvt0zt_N04Mka4JRFV6DPPmNPYWXfHHnVpQic,143
+prefsniff/changetypes.py,sha256=_RuXfFTdSWoilnaT9Eg_JIV5QiDbdy5B2ZBIx_rR3cU,9762
+prefsniff/exceptions.py,sha256=AFj7rjbtVrVCtAwDt7FN98l3-z7uET615Lyxsgilp4k,177
+prefsniff/prefsniff.py,sha256=sTGg8MCnLD_LHiWVtVWa-AU1boZSqjjSL81WsOaOKMY,17281
+prefsniff/prefsniff_main.py,sha256=8mwrotXrfDhyYPlOguhFxsrGSP8vzdo3dSdDdvP4Ro8,205
+prefsniff/version.py,sha256=3-SDagUV079TJctsyWQemvQx020dyoksv7bScm-9m1I,273
+prefsniff-0.2.1.dist-info/LICENSE,sha256=GX4WMa2l8EiBI4xMemXE7kfeyHqBGcdPXcxuXSdXAL0,1071
+prefsniff-0.2.1.dist-info/METADATA,sha256=UCaR18OUUT0iREcSa-tpbVx0gfuCqY08p1wXZ9RcwXo,2234
+prefsniff-0.2.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+prefsniff-0.2.1.dist-info/entry_points.txt,sha256=XBS8fDAvmD4_JJeaOpRkXUD9TG4A0YM9m-NYylYNSZQ,56
+prefsniff-0.2.1.dist-info/top_level.txt,sha256=7Qp6dIuRMcjOGSM7LzdCVsLqLDyLJmp3RKI022RmfSI,10
+prefsniff-0.2.1.dist-info/RECORD,,

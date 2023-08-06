@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pre_notifier"
+version = "0.1.12"
+description = "This tool provides you ability to send yourself information about looong executed command when it is done. Information will be sent using Telegram Bot, which you can generate for yourself with Telegram BotFather."
+readme = "README.md"
+authors = ["Ivan Kuznetsov <tikerlade@gmail.com>"]
+
+[tool.poetry.scripts]
+pre_notifier = "pre_notifier.pre_notifier:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+telebot = "^0.0.4"
+python-telegram-bot = "^13.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

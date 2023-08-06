@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: monomer
+Version: 0.0.3
+Summary: Use dataclasses to define Glue Data Catelog
+Home-page: https://gitlab.com/the203/monomer
+Author: Adam Haskell
+Author-email: adam@the203.info
+License: MIT
+Description: 
+        # Monomer
+        
+        DRY AWS CDK Construct for Glue Catelogs with dataclasses 
+        
+        
+        ## Usage
+        soon
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

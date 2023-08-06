@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: FaceBagNet
+Version: 0.0.3
+Summary: 输入一张图片，输出这个图片上的人是活体还是非活体
+Home-page: https://github.com/pypa/sampleproject
+Author: zhaomingming
+Author-email: 13271929138@163.com
+License: MIT
+Keywords: 活体检测,计算机视觉
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4
+Requires-Dist: imgaug
+
+# 使用办法:
+FA = FaceAnti()
+img = cv2.imread('1.jpg',1)
+FA.detect(img)
+
+

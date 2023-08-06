@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: dailypy
+Version: 0.0.4
+Summary: A useful library used everyday
+Home-page: UNKNOWN
+Author: Jack Huang
+Author-email: jackhuang.wz@gmail.com
+License: MIT
+Description: Useful Python Functions used almost everyday.
+        
+        # Install 
+        
+        ```bash
+        pip install dailypy
+        ```
+        
+        # Useage
+        
+        ```python
+        import dailypy as dp
+        time = dp.sm.timeString()
+        ```
+        
+        
+        Change Log
+        ============
+        0.0.1 (19/08/2020)
+        ------------------
+        - First Release
+        
+        0.0.2 (19/08/2020)
+        ------------------
+        - Update README for better viwing
+        
+        0.0.3 (20/08/2020)
+        ------------------
+        - Change src to dailypy
+        
+        0.0.4 (22/12/2020)
+        ------------------
+        - Add timeString function in sm (string manipulate) class.
+        
+Keywords: Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

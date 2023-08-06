@@ -1,0 +1,16 @@
+socket_proxy/__init__.py,sha256=0yYjtvUChgT_IejVVUtB4xkrIs5LHRoQLhQ2viRqkzQ,113
+socket_proxy/base.py,sha256=V37cK7NK5AGHfz4iSNSssshG-IfSgIvzow1C7Vlq0Jc,1884
+socket_proxy/config.py,sha256=MkWoSQfdMh_DJwLUTXAELjiqQ96Kc58lTxrLE1MPXx8,2344
+socket_proxy/connection.py,sha256=NQjmhWh0cC9Jn57G-rJItas4yUr4kH_rahOP3QBM61E,2206
+socket_proxy/main.py,sha256=39NNJDI0QFQ75lHNO6Khg7aWXTmeqmQuyiX6jgXBOto,9449
+socket_proxy/package.py,sha256=ov9FHpp50PGz3xfAiJ9Hqqu6hfxkvvC1zDwZkNrzswg,8784
+socket_proxy/proxy.py,sha256=vEeal9TKYM1erI1gtlTTTVuODVHaZoBwDMR7fRqcIZo,5093
+socket_proxy/tunnel.py,sha256=rML4xe8kfDKNq6Hwz3G9v5nNPjOJx998K-lYY7oJBe8,14523
+socket_proxy/ui.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socket_proxy/utils.py,sha256=rQvZ3bSnkJ52B2F58voBnZlpHb2_UmQtJtt1iqUgtrw,6272
+socket_proxy-1.4.dist-info/LICENSE,sha256=2uv3FXpGSeGfn8IfQfoIC6H2ERGw0jizs1HaWgYDMP4,1085
+socket_proxy-1.4.dist-info/METADATA,sha256=ZC8xO_UmSSdJBV_PVFGhAi2WdfrMw2JUMSjDKl_DQco,2041
+socket_proxy-1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+socket_proxy-1.4.dist-info/entry_points.txt,sha256=Kwdh0QHqQVq-wnmD6nVDbjUj-m2UlGrgoZ3cJg6KJ18,57
+socket_proxy-1.4.dist-info/top_level.txt,sha256=W6iccuTFPJ_pC8hSANVYhKj446G5xcTiZO2bT4vPKWg,13
+socket_proxy-1.4.dist-info/RECORD,,

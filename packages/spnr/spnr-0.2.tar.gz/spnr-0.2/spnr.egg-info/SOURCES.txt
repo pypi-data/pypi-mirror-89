@@ -1,0 +1,17 @@
+README.md
+setup.py
+spnr/__init__.py
+spnr/__main__.py
+spnr/cli.py
+spnr/code.py
+spnr/hash.py
+spnr/json.py
+spnr/qr.py
+spnr/table.py
+spnr/time.py
+spnr.egg-info/PKG-INFO
+spnr.egg-info/SOURCES.txt
+spnr.egg-info/dependency_links.txt
+spnr.egg-info/entry_points.txt
+spnr.egg-info/requires.txt
+spnr.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: eyecu-bumblebee
+Version: 0.2.10
+Summary: Advanced pipelines for video datasets
+Home-page: https://github.com/Eye-C-U/bumblebee/
+License: MIT
+Keywords: Video Processing,Dataset,numpy
+Author: Oguz Vuruskaner
+Author-email: ovuruska@outlook.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/Eye-C-U/bumblebee/
+Project-URL: issues, https://github.com/Eye-C-U/bumblebee/issues
+Description-Content-Type: text/markdown
+
+# Bumblebee
+
+![Bumblebee image](./docs/bumblebee.png)
+
+
+## Architecture Diagram
+
+![Architecture](docs/bumblebee_arch_diagram.png)
+

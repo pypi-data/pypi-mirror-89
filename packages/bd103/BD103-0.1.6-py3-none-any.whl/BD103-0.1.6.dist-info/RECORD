@@ -1,0 +1,10 @@
+bd103/__init__.py,sha256=UpscQoVx9SpWYnPgrkbMWpSywZc5wgoAGwgpIUBPoas,803
+bd103/console.py,sha256=NcegrowAucsd_JbgAcXyolz5FjUdOp6muh8YsewlSr8,2179
+bd103/griddy.py,sha256=sA9AMZYZTC5pl54zxsNoBUAJdH3vLKrfO0HZVAQHieQ,1205
+bd103/engine/__init__.py,sha256=-Sp4oJNqnTc_D81_Q4eikX7p_rYNaP3YnM0o8viW1hI,23
+bd103/engine/textdump.py,sha256=nsJ_b2uZCzuglzZxN47eTgqDVAyv8G5o79IL8Dz1Gds,855
+BD103-0.1.6.dist-info/LICENSE,sha256=BaXAeUYdiSAU3UCB0fCoCqxIF6kz7WLLJPtJA5RdTSM,1048
+BD103-0.1.6.dist-info/METADATA,sha256=nsTDgODqbjZD3S6dxxMKxjMid0Vu0oGvvzbSxMHrRXU,5481
+BD103-0.1.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+BD103-0.1.6.dist-info/top_level.txt,sha256=WpsM4ape0dYdGfyI5m3aIPH7_7AACpvIErfXmaC3GOs,6
+BD103-0.1.6.dist-info/RECORD,,

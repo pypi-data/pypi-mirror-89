@@ -1,0 +1,11 @@
+README.md
+setup.py
+SimpleQualtrics/SimpleQualtrics.py
+SimpleQualtrics/__init__.py
+SimpleQualtrics.egg-info/PKG-INFO
+SimpleQualtrics.egg-info/SOURCES.txt
+SimpleQualtrics.egg-info/dependency_links.txt
+SimpleQualtrics.egg-info/requires.txt
+SimpleQualtrics.egg-info/top_level.txt
+test/SimpleQualtricsTest.py
+test/__init__.py

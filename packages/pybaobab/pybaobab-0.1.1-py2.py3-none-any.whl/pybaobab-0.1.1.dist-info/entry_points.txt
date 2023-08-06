@@ -1,0 +1,5 @@
+[console_scripts]
+generate = baobab.generate:main
+modify = baobab.modify_existing:main
+to_hdf5 = baobab.to_hdf5:main
+

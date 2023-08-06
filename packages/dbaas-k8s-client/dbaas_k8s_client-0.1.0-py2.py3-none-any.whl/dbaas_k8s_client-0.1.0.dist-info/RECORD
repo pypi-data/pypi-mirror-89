@@ -1,0 +1,8 @@
+dbaas_k8s_client-0.1.0.dist-info/RECORD,,
+dbaas_k8s_client-0.1.0.dist-info/metadata.json,sha256=1HVopgTEHXR7GHXDlbO_AO5kuZEuj7LKXg_2z5hift8,887
+dbaas_k8s_client-0.1.0.dist-info/WHEEL,sha256=6lxp_S3wZGmTBtGMVmNNLyvKFcp7HqQw2Wn4YYk-Suo,110
+dbaas_k8s_client-0.1.0.dist-info/DESCRIPTION.rst,sha256=ES9KYt0xm-56NmcWbwR5NTCJ9CEFHneewE2v8Bo0zg4,88
+dbaas_k8s_client-0.1.0.dist-info/top_level.txt,sha256=42k_A9YQtW6j965AFFf11rUwy3XRCRqLnCelDYlXmQg,11
+dbaas_k8s_client-0.1.0.dist-info/METADATA,sha256=2Gpo11Ne1lum0i7ePTwWZ-jlGeL-3XgS6FzNMp7D-o4,857
+k8s_client/client.py,sha256=CKHlxZP31zSVJN1Bj_I74y3J-9M3IPLn9Pik8nXmcAI,683
+k8s_client/__init__.py,sha256=3X-M9ndtYkcY-iaMlgR3JtYGvntNmM0zX9FNkyxSuco,96

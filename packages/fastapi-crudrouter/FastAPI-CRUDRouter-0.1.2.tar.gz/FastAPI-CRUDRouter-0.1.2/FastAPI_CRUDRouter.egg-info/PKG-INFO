@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: FastAPI-CRUDRouter
+Version: 0.1.2
+Summary: A dynamic FastAPI router that automatically creates CRUD routes for your models
+Home-page: https://github.com/awtkns/fastapi-crudrouter
+Author: Adam Watkins
+Author-email: cadamrun@gmail.com
+License: MIT
+Description: <p align="center">
+          <img src="https://raw.githubusercontent.com/awtkns/fastapi-crudrouter/master/docs/assets/logo2.png" height="200" />
+        </p>
+        <p align="center">
+          <em>âš¡ Create CRUD routes with lighting speed</em> âš¡</br>
+          <sub>A dynamic FastAPI router that automatically creates CRUD routes for your models</sub>
+        </p>
+        <p align="center">
+        <img alt="Tests" src="https://github.com/awtkns/fastapi-crudrouter/workflows/Python%20application/badge.svg" />
+        <img alt="Docs" src="https://github.com/awtkns/fastapi-crudrouter/workflows/docs/badge.svg" />
+        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/fastapi" />
+        </p>
+        
+        ---
+        ## Installation
+        ```bash
+        pip install fastapi-crudrouter
+        ```
+        
+        ## Usage
+        ```python
+        from pydantic import BaseModel
+        from fastapi import FastAPI
+        from fastapi_crudrouter import MemoryCRUDRouter as CRUDRouter
+        
+        class Potato(BaseModel):
+            id: int
+            color: str
+            mass: float
+        
+        app = FastAPI()
+        app.include_router(CRUDRouter(model=Potato))
+        
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+loadmydata/__init__.py,sha256=_rnfb4N2JS5olEr6aSEigYVJPMbEk0egufTpp4jQ7JQ,63
+loadmydata/config.py,sha256=z4T99FYHHJz_O0lhL8UF_VTyRTNbVcgXAgorWk8EqeM,279
+loadmydata/load_uea_ucr.py,sha256=_1iK_fg2QBMnUWnlSpIpaVHBYdr2sZUIZuIoqHmLFz4,1647
+loadmydata/utils.py,sha256=SCSfNp9-Tg4IcvCx9E9drHbwWQOjPlQn7mO8g0K6SMM,2323
+loadmydata-0.0.3rc1.dist-info/LICENSE,sha256=PtUpTNrQKb3Pltbo2lP0ObbMPAib-QtFxDZrB85lWQk,1320
+loadmydata-0.0.3rc1.dist-info/METADATA,sha256=cLTnmKQsT1L9OkJ34DVPr4LKbtDiwBf1tvkIhQVFiZA,1008
+loadmydata-0.0.3rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+loadmydata-0.0.3rc1.dist-info/top_level.txt,sha256=QQPDkgVVtBwKXUhYJgEu-8yM-roswC0gkNAr0Rpj1oc,11
+loadmydata-0.0.3rc1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+loadmydata-0.0.3rc1.dist-info/RECORD,,

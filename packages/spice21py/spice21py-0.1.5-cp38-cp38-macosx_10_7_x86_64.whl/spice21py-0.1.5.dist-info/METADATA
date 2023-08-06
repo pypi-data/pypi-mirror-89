@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: spice21py
+Version: 0.1.5
+Requires-Dist: protobuf>=3.13.0
+Requires-Dist: betterproto[compiler]>=1.2.5
+Summary: SPICE for the 21st Century
+Author: Dan Fritchman <dan@fritch.mn>, HW21 <hw21@hw21.io>
+Author-Email: Dan Fritchman <dan@fritch.mn>, HW21 <hw21@hw21.io>
+License: BSD-3-Clause

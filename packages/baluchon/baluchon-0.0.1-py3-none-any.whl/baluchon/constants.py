@@ -1,0 +1,2 @@
+EMPTY_VERSION = -1
+DEFAULT_MIGRATIONS_TABLE = "schema_migrations"

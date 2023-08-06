@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rjgtoys-config
+Version: 0.0.2
+Summary: A modular interface for configuration data
+Home-page: UNKNOWN
+Author: Bob Gautier
+Author-email: bob.gautier@gmail.com
+License: GPL
+Keywords: configuration
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: rjgtoys-xc
+Requires-Dist: rjgtoys-thing
+Requires-Dist: rjgtoys-yaml
+
+# `rjgtoys.config` - A modular configuration data interface
+
+This package provides a simple and modular way for programs to access configuration
+data.
+
+The word 'modular' in the description refers to the way in which `rjgtoys.config`
+allows independent modules or packages to define the structure of their configuration
+data, whilst retrieving that data from a single combined source.
+
+ * There is no need for a single, centralised definition of the 'config file format'
+   for an application as a whole
+ * An application can be built from packages and modules that use `rjgtoys.config`
+   that are not aware of each other's configuration requirements
+ * The structure of the configuration file is itself configurable; the components in
+   an application do not impose it
+
+

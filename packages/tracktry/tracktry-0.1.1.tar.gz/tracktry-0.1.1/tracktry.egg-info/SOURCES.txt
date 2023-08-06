@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tracktry/__init__.py
+tracktry/const.py
+tracktry/tracker.py
+tracktry.egg-info/PKG-INFO
+tracktry.egg-info/SOURCES.txt
+tracktry.egg-info/dependency_links.txt
+tracktry.egg-info/requires.txt
+tracktry.egg-info/top_level.txt

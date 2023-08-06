@@ -1,0 +1,14 @@
+[doc8.extension.check]
+checkblanklineafterdirective = ohnoyoudidnt.checks:CheckBlankLineAfterDirective
+checkblanklineafterheader = ohnoyoudidnt.checks:CheckBlankLineAfterHeader
+checkdoublenewlines = ohnoyoudidnt.checks:CheckDoubleNewlines
+checkfilenames = ohnoyoudidnt.checks:CheckFilenames
+checkfirstitalicized = ohnoyoudidnt.checks:CheckFIRSTItalicized
+checkheadingunderscores = ohnoyoudidnt.checks:CheckHeadingUnderscores
+checkimagealt = ohnoyoudidnt.checks:CheckImageAlt
+checkindentation = ohnoyoudidnt.checks:CheckIndentation
+checkinteriorspaces = ohnoyoudidnt.checks:CheckInteriorSpaces
+checksinglelineparagraph = ohnoyoudidnt.checks:CheckSingleLineParagraph
+checktermspellings = ohnoyoudidnt.checks:CheckTermSpellings
+checktrademarks = ohnoyoudidnt.checks:CheckTrademarks
+

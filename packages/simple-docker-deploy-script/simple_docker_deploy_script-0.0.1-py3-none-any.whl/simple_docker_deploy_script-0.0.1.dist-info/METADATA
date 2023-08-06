@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simple-docker-deploy-script
+Version: 0.0.1
+Summary: A script to deploy a Docker container
+Home-page: UNKNOWN
+Author: Anielkis Herrera
+Author-email: aherrera@zato.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+A simple script used to deploy a test image to Docker
+
+

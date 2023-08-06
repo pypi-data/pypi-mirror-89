@@ -1,0 +1,338 @@
+[
+    {
+        "TNSId": "2020aczg",
+        "dateObs": "2020-12-20 11:15:22",
+        "filename": "tns_2020aczg_2020-12-20.469_Lick-3m_KAST_SIRAH.flm",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/SIRAH/tns_2020aczg_2020-12-20.469_Lick-3m_KAST_SIRAH.flm"
+    },
+    {
+        "TNSId": "2020acsn",
+        "dateObs": "2020-12-18 15:12:51",
+        "filename": "tns_2020acsn_2020-12-18_15-12-51_CMO-2.5m_TDS.txt",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020acsn_2020-12-18_15-12-51_CMO-2.5m_TDS.txt"
+    },
+    {
+        "TNSId": "2020acpc",
+        "dateObs": "2020-12-16 22:02:00",
+        "filename": "tns_2020acpc_2020-12-16_22-02-00_Ekar_AFOSC_Padova-Asiago.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/Padova-Asiago/tns_2020acpc_2020-12-16_22-02-00_Ekar_AFOSC_Padova-Asiago.dat"
+    },
+    {
+        "TNSId": "2020acpc",
+        "dateObs": "2020-12-16 22:02:00",
+        "filename": "tns_2020acpc_2020-12-16_22-02-00_Ekar_AFOSC_Padova-Asiago.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/Padova-Asiago/tns_2020acpc_2020-12-16_22-02-00_Ekar_AFOSC_Padova-Asiago.fits"
+    },
+    {
+        "TNSId": "2020acpb",
+        "dateObs": "2020-12-17 02:50:01",
+        "filename": "tns_2020acpb_2020-12-17_02-50-00.550769_P60_SEDM_ZTF_0.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020acpb_2020-12-17_02-50-00.550769_P60_SEDM_ZTF_0.ascii"
+    },
+    {
+        "TNSId": "2020acpb",
+        "dateObs": "2020-12-17 02:50:01",
+        "filename": "tns_2020acpb_2020-12-17_02-50-00.550769_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020acpb_2020-12-17_02-50-00.550769_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020aceg",
+        "dateObs": "2020-12-18 11:10:03",
+        "filename": "tns_2020aceg_2020-12-18_11-10-03.435690_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020aceg_2020-12-18_11-10-03.435690_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020acef",
+        "dateObs": "2020-12-16 07:58:23",
+        "filename": "tns_2020acef_2020-12-16_07-58-23_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acef_2020-12-16_07-58-23_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020acef",
+        "dateObs": "2020-12-16 07:58:23",
+        "filename": "tns_2020acef_2020-12-16_07-58-23_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acef_2020-12-16_07-58-23_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020aced",
+        "dateObs": "2020-12-16 07:19:26",
+        "filename": "tns_2020aced_2020-12-16_07-19-26.161375_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020aced_2020-12-16_07-19-26.161375_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020acbm",
+        "dateObs": "2020-12-15 03:27:54",
+        "filename": "tns_2020acbm_2020-12-15_03-27-54_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acbm_2020-12-15_03-27-54_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020acbm",
+        "dateObs": "2020-12-15 03:27:54",
+        "filename": "tns_2020acbm_2020-12-15_03-27-54_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acbm_2020-12-15_03-27-54_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020acbc",
+        "dateObs": "2020-12-11 00:00:00",
+        "filename": "tns_2020acbc_2020-12-11_00-00-00_Keck1_LRIS_UCSC.flm",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/UCSC/tns_2020acbc_2020-12-11_00-00-00_Keck1_LRIS_UCSC.flm"
+    },
+    {
+        "TNSId": "2020acat",
+        "dateObs": "2020-12-10 07:21:47",
+        "filename": "tns_2020acat_2020-12-10_07-21-47_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acat_2020-12-10_07-21-47_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020acat",
+        "dateObs": "2020-12-10 07:21:47",
+        "filename": "tns_2020acat_2020-12-10_07-21-47_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020acat_2020-12-10_07-21-47_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020abpt",
+        "dateObs": "2020-12-07 00:00:00",
+        "filename": "tns_2020abpt_2020-12-07_00-00-00_Magellan-Baade_IMACS.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020abpt_2020-12-07_00-00-00_Magellan-Baade_IMACS.asci"
+    },
+    {
+        "TNSId": "2020abmp",
+        "dateObs": "2020-12-07 00:00:00",
+        "filename": "tns_2020abmp_2020-12-07_00-00-00_Magellan-Baade_IMACS.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020abmp_2020-12-07_00-00-00_Magellan-Baade_IMACS.asci"
+    },
+    {
+        "TNSId": "2020aauc",
+        "dateObs": "2020-12-14 06:58:10",
+        "filename": "tns_2020aauc_2020-12-14_06-58-10.417_Lick-3m_KAST_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020aauc_2020-12-14_06-58-10.417_Lick-3m_KAST_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020zpi",
+        "dateObs": "2020-11-17 05:31:34",
+        "filename": "tns_2020zpi_2020-11-17_05-31-34_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020zpi_2020-11-17_05-31-34_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020zpi",
+        "dateObs": "2020-11-17 05:31:34",
+        "filename": "tns_2020zpi_2020-11-17_05-31-34_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020zpi_2020-11-17_05-31-34_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020zka",
+        "dateObs": "2020-11-22 08:48:49",
+        "filename": "tns_2020zka_2020-11-22_08-48-49_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020zka_2020-11-22_08-48-49_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020zka",
+        "dateObs": "2020-11-22 08:48:49",
+        "filename": "tns_2020zka_2020-11-22_08-48-49_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020zka_2020-11-22_08-48-49_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020yzs",
+        "dateObs": "2020-11-08 07:24:14",
+        "filename": "tns_2020yzs_2020-11-08_07-24-14.400_UH88_SNIFS_SCAT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/SCAT/tns_2020yzs_2020-11-08_07-24-14.400_UH88_SNIFS_SCAT.dat"
+    },
+    {
+        "TNSId": "2020yyk",
+        "dateObs": "2020-11-06 01:52:26",
+        "filename": "tns_2020yyk_2020-11-06_01-52-26_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020yyk_2020-11-06_01-52-26_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020yyk",
+        "dateObs": "2020-11-06 01:52:26",
+        "filename": "tns_2020yyk_2020-11-06_01-52-26_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020yyk_2020-11-06_01-52-26_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020ypm",
+        "dateObs": "2020-11-09 03:34:56",
+        "filename": "tns_2020ypm_2020-11-09_03-34-55.82_SOAR_Goodman_REFITT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/REFITT/tns_2020ypm_2020-11-09_03-34-55.82_SOAR_Goodman_REFITT.dat"
+    },
+    {
+        "TNSId": "2020ypm",
+        "dateObs": "2020-11-09 03:34:56",
+        "filename": "tns_2020ypm_2020-11-09_03-34-55.82_SOAR_Goodman_REFITT.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/REFITT/tns_2020ypm_2020-11-09_03-34-55.82_SOAR_Goodman_REFITT.fits"
+    },
+    {
+        "TNSId": "2020yhy",
+        "dateObs": "2020-11-18 00:00:00",
+        "filename": "tns_2020yhy_2020-11-18_P200_DBSP_ZTF.txt",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020yhy_2020-11-18_P200_DBSP_ZTF.txt"
+    },
+    {
+        "TNSId": "2020xyk",
+        "dateObs": "2020-10-25 03:15:03",
+        "filename": "tns_2020xyk_2020-10-25_03-15-03_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020xyk_2020-10-25_03-15-03_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020xyk",
+        "dateObs": "2020-10-25 03:15:03",
+        "filename": "tns_2020xyk_2020-10-25_03-15-03_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020xyk_2020-10-25_03-15-03_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020xyk",
+        "dateObs": "2020-10-23 05:21:20",
+        "filename": "tns_2020xyk_2020-10-23_05-21-20_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020xyk_2020-10-23_05-21-20_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020xyk",
+        "dateObs": "2020-10-23 07:41:05",
+        "filename": "tns_2020xyk_2459145.8202_UH88_SNIFS_SCAT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/SCAT/tns_2020xyk_2459145.8202_UH88_SNIFS_SCAT.dat"
+    },
+    {
+        "TNSId": "2020wie",
+        "dateObs": "2020-10-16 09:06:59",
+        "filename": "tns_2020wie_2020-10-16_09-06-59_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020wie_2020-10-16_09-06-59_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020wie",
+        "dateObs": "2020-10-15 14:03:50",
+        "filename": "tns_2020wie_2459138.086_UH88_SNIFS_SCAT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/SCAT/tns_2020wie_2459138.086_UH88_SNIFS_SCAT.dat"
+    },
+    {
+        "TNSId": "2020wcj",
+        "dateObs": "2020-10-25 06:30:06",
+        "filename": "tns_2020wcj_2020-10-25_06-30-06_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020wcj_2020-10-25_06-30-06_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.asci"
+    },
+    {
+        "TNSId": "2020wcj",
+        "dateObs": "2020-10-25 06:30:06",
+        "filename": "tns_2020wcj_2020-10-25_06-30-06_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ePESSTO%2B/tns_2020wcj_2020-10-25_06-30-06_ESO-NTT_EFOSC2-NTT_ePESSTO%2B.fits"
+    },
+    {
+        "TNSId": "2020wcj",
+        "dateObs": "2020-10-17 00:59:20",
+        "filename": "tns_2020wcj_2020-10-17_00-59-20.313_LT_SPRAT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020wcj_2020-10-17_00-59-20.313_LT_SPRAT.dat"
+    },
+    {
+        "TNSId": "2020wcj",
+        "dateObs": "2020-10-17 00:59:20",
+        "filename": "tns_2020wcj_2020-10-17_00-59-20.313_LT_SPRAT.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020wcj_2020-10-17_00-59-20.313_LT_SPRAT.fits"
+    },
+    {
+        "TNSId": "2020wcj",
+        "dateObs": "2020-10-16 04:59:13",
+        "filename": "tns_2020wcj_2020-10-16_04-59-13_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020wcj_2020-10-16_04-59-13_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020uxz",
+        "dateObs": "2020-11-22 00:00:00",
+        "filename": "tns_2020uxz_2020-11-22_Other_Other.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020uxz_2020-11-22_Other_Other.dat"
+    },
+    {
+        "TNSId": "2020uxz",
+        "dateObs": "2020-10-18 23:30:00",
+        "filename": "tns_2020uxz_2020-10-18_23-30-00_Other_Other.txt",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020uxz_2020-10-18_23-30-00_Other_Other.txt"
+    },
+    {
+        "TNSId": "2020uxz",
+        "dateObs": "2020-10-18 23:30:00",
+        "filename": "tns_2020uxz_2020-10-18_23-30-00_Other_Other.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020uxz_2020-10-18_23-30-00_Other_Other.fits"
+    },
+    {
+        "TNSId": "2020uxz",
+        "dateObs": "2020-10-05 16:44:03",
+        "filename": "tns_2020uxz_2020-10-05_16-44-03_FTS_FLOYDS-S_Global_SN_Project.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/Global%20SN%20Project/tns_2020uxz_2020-10-05_16-44-03_FTS_FLOYDS-S_Global_SN_Project.ascii"
+    },
+    {
+        "TNSId": "2020uxz",
+        "dateObs": "2020-10-05 16:44:03",
+        "filename": "tns_2020uxz_2020-10-05_16-44-03_FTS_FLOYDS-S_Global_SN_Project.fits",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/Global%20SN%20Project/tns_2020uxz_2020-10-05_16-44-03_FTS_FLOYDS-S_Global_SN_Project.fits"
+    },
+    {
+        "TNSId": "2020ugz",
+        "dateObs": "2020-09-29 10:58:29",
+        "filename": "tns_2020ugz_2020-09-29_10-58-29_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020ugz_2020-09-29_10-58-29_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020uas",
+        "dateObs": "2020-10-09 01:24:26",
+        "filename": "tns_2020uas_2020-10-09_01-24-25.57_LT_SPRAT.dat",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/general/tns_2020uas_2020-10-09_01-24-25.57_LT_SPRAT.dat"
+    },
+    {
+        "TNSId": "2020pub",
+        "dateObs": "2020-12-15 12:01:30",
+        "filename": "tns_2020pub_2020-12-15_12-01-30.339432_P60_SEDM_ZTF.ascii",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/ZTF/tns_2020pub_2020-12-15_12-01-30.339432_P60_SEDM_ZTF.ascii"
+    },
+    {
+        "TNSId": "2020noz",
+        "dateObs": "2020-07-25 00:00:00",
+        "filename": "tns_2020noz_2020-07-25_Keck1_LRIS_UCSC.flm",
+        "spec1phot2": 1,
+        "url": "https://wis-tns.weizmann.ac.il/system/files/uploaded/UCSC/tns_2020noz_2020-07-25_Keck1_LRIS_UCSC.flm"
+    }
+]

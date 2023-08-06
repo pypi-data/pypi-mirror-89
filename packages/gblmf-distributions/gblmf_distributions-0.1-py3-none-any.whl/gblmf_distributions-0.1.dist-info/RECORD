@@ -1,0 +1,10 @@
+gblmf_distributions/Binomialdistribution.py,sha256=1KgwpOo96cgTJha3alwBLmfZYV91MJQqw17DMXWHcmw,4682
+gblmf_distributions/Gaussiandistribution.py,sha256=pzvkgrNHWlC4UFbGm2ce2Yn943iNl3Qts9-5_sfb6bM,3631
+gblmf_distributions/Generaldistribution.py,sha256=Jbs8PYHA_UZjAX_DI6FB38V0gPxSJNRemF--A4xP2PM,932
+gblmf_distributions/__init__.py,sha256=0x5xInZkmBodPUmHVJ-Ug_j_t0JugOzUY8RQ7aUbZ44,86
+gblmf_distributions-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+gblmf_distributions-0.1.dist-info/METADATA,sha256=RiDg0UmPwPkmkEHzGoTQ4n40SyFaxGZAKaa0Teo3f5c,269
+gblmf_distributions-0.1.dist-info/RECORD,,
+gblmf_distributions-0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+gblmf_distributions-0.1.dist-info/metadata.json,sha256=7lffLcRrv-jlWOcStA322I1yBKPv63Cj1AkvGrwpOvI,391
+gblmf_distributions-0.1.dist-info/top_level.txt,sha256=pffRVE27Fg53CpzWo8-W1FwFWvtGwqH7XZHAaPMbD24,20

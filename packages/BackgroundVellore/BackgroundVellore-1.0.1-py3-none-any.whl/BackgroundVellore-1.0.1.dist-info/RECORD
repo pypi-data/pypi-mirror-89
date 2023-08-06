@@ -1,0 +1,15 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main/python/Emotion_Detection2.py,sha256=v7gRMSKZeJwf9Civn3v62dD8TdgB2ux0F_2TKCuIX8k,8476
+src/main/python/Processing.py,sha256=kGjRWhTeBTA-yliSYw9cwztSBW1BXpxQGuTdXwBXtjU,1378
+src/main/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main/python/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main/python/background.py,sha256=SoYhdB3JD53eVGD5A2aVs1fHs1-v23S2e2XgCdrbBbo,4589
+src/main/python/main.py,sha256=bkyTJ9BMPzDH3eprrDwfc5JWLpIxmT4zel9WjXOQTHg,15118
+BackgroundVellore-1.0.1.dist-info/METADATA,sha256=vnYwxkUbOM5I0pblsg_FaA6N_Vjjyxu5lx3UqMZU4PU,5141
+BackgroundVellore-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+BackgroundVellore-1.0.1.dist-info/entry_points.txt,sha256=VyVZJy9nD7XmOFpRQ4L51TXKXlcZbm-89hF1zMeK-qg,64
+BackgroundVellore-1.0.1.dist-info/top_level.txt,sha256=_sKM-UJ5e7vCpYqQHQ2ywlDUj34FPbw5flX1rOUySlk,39
+BackgroundVellore-1.0.1.dist-info/RECORD,,

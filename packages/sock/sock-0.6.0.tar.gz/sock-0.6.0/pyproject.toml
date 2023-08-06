@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sock"
+version = "0.6.0"
+description = "Small script to simplify network communication"
+authors = ["hellman"]
+license = "MIT"
+readme = "README.md"
+keywords = ["socket", "telnet", "network"]
+classifiers = [
+    'Intended Audience :: Developers',
+    'Topic :: System :: Networking',
+]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.urls]
+homepage = "http://github.com/hellman/sock"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+websocket_client = "^0.57.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

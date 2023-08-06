@@ -1,0 +1,17 @@
+README.md
+setup.py
+yk_face_api/models/__init__.py
+yk_face_api/models/base_model_.py
+yk_face_api/models/util.py
+yk_face_api/models/face_api/__init__.py
+yk_face_api/models/face_api/identify_request.py
+yk_face_api/models/face_api/process_request.py
+yk_face_api/models/face_api/process_request_config.py
+yk_face_api/models/face_api/template_request.py
+yk_face_api/models/face_api/verify_id_request.py
+yk_face_api/models/face_api/verify_request.py
+yk_face_api_model.egg-info/PKG-INFO
+yk_face_api_model.egg-info/SOURCES.txt
+yk_face_api_model.egg-info/dependency_links.txt
+yk_face_api_model.egg-info/requires.txt
+yk_face_api_model.egg-info/top_level.txt

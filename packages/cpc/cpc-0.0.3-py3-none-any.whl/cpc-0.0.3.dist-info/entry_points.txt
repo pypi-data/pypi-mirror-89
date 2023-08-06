@@ -1,0 +1,3 @@
+[console_scripts]
+cpc = src.main:main
+

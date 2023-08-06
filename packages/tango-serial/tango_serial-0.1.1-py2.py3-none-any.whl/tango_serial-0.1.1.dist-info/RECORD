@@ -1,0 +1,13 @@
+tango_serial/__init__.py,sha256=5dn0y7uo-jLG3GjogwC7vedqoowNwjcdPUR27guA0F4,413
+tango_serial/core.py,sha256=b5Nrp_FTj933DxMTCMlU6Sn2QI7mr-PGVFrNuUEMTYU,5954
+tango_serial/tango/__init__.py,sha256=d8xvQB1PEEB-CObA_IDOwODwvjdWZy-PvS9DWEpyfJw,279
+tango_serial/tango/server/__init__.py,sha256=rJhfmGEoyDr2G0FTY-V8oeR0P8t8xj4UW5UWZc9DLdY,627
+tango_serial/tango/server/__main__.py,sha256=5G0dxMSDVXt0zhi85jwBCHd4UQrDk1mV652eNolQ3y4,275
+tango_serial/tango/server/register.py,sha256=4E1eHlhfx-6fwJoaNkp8z7u3YwN7pUCYpTzG9PtUWfE,185
+tango_serial/tango/server/serial_device.py,sha256=FBKwhIOjo2bQV8HbZSvwz_cluAjDObmOBiuTyfmm5g0,4340
+tango_serial-0.1.1.dist-info/LICENSE,sha256=KCcz2fmFemJzIc9LEoubRUZsL978xU6ORAYCMJ1Stxc,1568
+tango_serial-0.1.1.dist-info/METADATA,sha256=iDdjxCT7NpV_Vi9jpQGYjZJ60N1WS5gBZL2MXI9D214,2581
+tango_serial-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+tango_serial-0.1.1.dist-info/entry_points.txt,sha256=7kNr6eUnTmlWyUu9FrOTwoY8A4kOO5WLWG-7DbkF178,67
+tango_serial-0.1.1.dist-info/top_level.txt,sha256=vBpiMTv5W3JlXYh1WCF7FTDUsUOTkdU2zdJCz5Vf_Wk,13
+tango_serial-0.1.1.dist-info/RECORD,,

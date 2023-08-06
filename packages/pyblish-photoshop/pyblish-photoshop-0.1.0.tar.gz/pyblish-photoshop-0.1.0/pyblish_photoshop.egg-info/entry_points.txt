@@ -1,0 +1,3 @@
+[console_scripts]
+pyblish-photoshop = pyblish_photoshop.cli:cli
+

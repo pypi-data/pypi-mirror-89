@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cnholiday"
+version = "0.2.0"
+description = "查询某天是否放假"
+authors = [
+    "ringsaturn <ringsaturn.me@gmail.com>"
+]
+readme = 'README.md'
+repository = "https://github.com/ringsaturn/cnholiday"
+homepage = "https://github.com/ringsaturn/cnholiday"
+documentation = "https://ringsaturn.github.io/cnholiday/"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "=5.0.0"
+flake8 = "^3.7.9"
+black = "^19.10b0"
+isort = "^4.3.21"
+pre-commit = "^1.20"
+commitizen = "^1.17.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

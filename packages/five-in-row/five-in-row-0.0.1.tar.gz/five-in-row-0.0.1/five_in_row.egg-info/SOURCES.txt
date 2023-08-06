@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+five_in_row/client.py
+five_in_row/model.py
+five_in_row/types.py
+five_in_row.egg-info/PKG-INFO
+five_in_row.egg-info/SOURCES.txt
+five_in_row.egg-info/dependency_links.txt
+five_in_row.egg-info/requires.txt
+five_in_row.egg-info/top_level.txt

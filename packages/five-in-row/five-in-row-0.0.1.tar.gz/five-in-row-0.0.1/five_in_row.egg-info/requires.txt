@@ -1,0 +1,17 @@
+requests
+numpy
+
+[dev]
+setuptools
+wheel
+pytest
+pytest-cov
+pytest-mock
+requests-mock
+mypy
+flake8
+flake8-colors
+flake8-eradicate
+flake8-print
+flake8-todo
+twine

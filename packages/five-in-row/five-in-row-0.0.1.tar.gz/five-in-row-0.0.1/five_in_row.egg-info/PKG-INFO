@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: five-in-row
+Version: 0.0.1
+Summary: Framework for playing piskvorky.jobs.cz
+Home-page: https://github.com/JakubTesarek/five
+Author: Jakub Tesárek
+Author-email: jakub@tesarek.me
+License: unlicensed
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev

@@ -1,0 +1,8 @@
+req2toml/__init__.py,sha256=KI2hhipeYBu6xmGtGTCSFGaRF1hueCxWlcQVc5a7uoA,557
+req2toml/console.py,sha256=EP7uhwf8YItz_tQ3ec2RgLzsdcWpknto_oc0YLqQCfo,1557
+req2toml/utils.py,sha256=n3MzFtamhIfghLvwly0xadq9dLzUp_2DUq69epUiQps,3571
+req2toml-1.1.0.dist-info/entry_points.txt,sha256=4uYQFhDABiovHSA-E8VWiJUgCUAa6rpv6cZnQCOhZQk,49
+req2toml-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+req2toml-1.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+req2toml-1.1.0.dist-info/METADATA,sha256=Dvpa5540q0R2DX2yyCfV1nnPeoIHmvn_BrjET5Mku-Y,684
+req2toml-1.1.0.dist-info/RECORD,,

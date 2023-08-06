@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyer
+Version: 0.0.1
+Summary: Data accessors.
+Home-page: https://github.com/thorwhalen/ut/tree/master/pyer
+Author: Thor Whalen
+License: mit
+Description: 
+        # pyer
+        Data accessors.
+        
+        
+        To install:	```pip install pyer```
+        
+Platform: any
+Description-Content-Type: text/markdown

@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: confdoggo
+Version: 0.1.0a1
+Summary: Your personal configuration doggo.
+Author: Daniele Parmeggiani
+Author-email: git@danieleparmeggiani.me
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: fs-watcher
+Provides-Extra: yaml
+Requires-Dist: PyYAML (>=5.3.1,<6.0.0); extra == "yaml"
+Requires-Dist: pydantic (>=1.6.1)
+Requires-Dist: watchdog (>=0.10.3,<0.11.0); extra == "fs-watcher"
+Description-Content-Type: text/markdown
+
+# confdoggo 🐶
+
+Define your builtin settings:
+
+```python
+class MySettings(confdoggo.Settings):
+    class _(confdoggo.Settings):
+        host: str = "localhost"
+        port: int = 8080
+    server = _()
+
+    class _(confdoggo.Settings):
+        x: int = 42
+    client = _()
+
+    reload_on_changes = True
+    scheduled_shutdown: datetime = None
+```
+
+Let confdoggo catch the configuration files, and run extensible type checking:
+
+```python
+settings = confdoggo.go_catch(
+    MySettings,
+    [
+        'file://./simple.json',  # a local file
+        Path('.') / 'another_one.yaml',  # another local file
+        'ftp://192.168.1.1/folder/file.json',  # a remote file
+        'https://192.168.1.2/folder/file.ini',  # another remote file
+    ],
+)
+```
+Note: order matters! Configurations that have a higher index have higher importance.
+
+Access configuration easily:
+
+```python
+assert settings.server.port == 8080 
+```
+
+See a full example [here](./examples/simple.py).
+
+
+## Install
+
+```bash
+$ pip install confdoggo
+```
+
+
+## Under development
+
+This project is under development: expect breaking changes!
+

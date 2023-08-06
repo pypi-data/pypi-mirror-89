@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ajax_validation/__init__.py
+ajax_validation/apps.py
+ajax_validation/core.py
+ajax_validation.egg-info/PKG-INFO
+ajax_validation.egg-info/SOURCES.txt
+ajax_validation.egg-info/dependency_links.txt
+ajax_validation.egg-info/top_level.txt
+ajax_validation/templates/ajax_validation/ajax_script.html
+docs/docs.txt

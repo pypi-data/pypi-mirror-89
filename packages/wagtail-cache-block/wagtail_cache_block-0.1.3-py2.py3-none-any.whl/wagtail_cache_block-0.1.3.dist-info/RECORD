@@ -1,0 +1,10 @@
+wagtail_cache_block/__init__.py,sha256=uZsygMXMKRw-7qhWojAjnpm8GFPXU92xW6XA8O5GwFY,22
+wagtail_cache_block/apps.py,sha256=P7E9OzbgLXHKQhv_WQTtseqQvwZ4H7n0KiMTPDCq82U,131
+wagtail_cache_block/templatetags/__init__.py,sha256=Txvk49kpGCKheOtDN0yfEIPpIw8Y8yviaTCJKWeyc6c,23
+wagtail_cache_block/templatetags/cache_block_tags.py,sha256=lhlHgKN9_-w1HgASU_Ab_7AxZ_JyxJWGWIzue_QIL4s,3516
+wagtail_cache_block-0.1.3.dist-info/DESCRIPTION.rst,sha256=0Qa7MyuJUhJ0K6wCbP4_4bwlDaqTN6gNvsEYg0ztihI,2453
+wagtail_cache_block-0.1.3.dist-info/METADATA,sha256=TD3uX8OPTYqeqAPNPgRSRHC-ohZslmtcLU_KWYQJ54E,3316
+wagtail_cache_block-0.1.3.dist-info/RECORD,,
+wagtail_cache_block-0.1.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+wagtail_cache_block-0.1.3.dist-info/metadata.json,sha256=p-AN-1q_-k4FhfJJTegmLFkihOmKyKyICZ1CVw7-LzM,998
+wagtail_cache_block-0.1.3.dist-info/top_level.txt,sha256=rTNq9wvqXeMa8_urh-ekiBWIQ-U-xYSl8nsQiwAwrqM,20

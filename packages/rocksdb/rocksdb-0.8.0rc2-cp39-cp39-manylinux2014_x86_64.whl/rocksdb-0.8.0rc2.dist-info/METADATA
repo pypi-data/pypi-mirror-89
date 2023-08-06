@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: rocksdb
+Version: 0.8.0rc2
+Summary: Python bindings for RocksDB
+Home-page: https://github.com/martyanov/python-rocksdb
+Author: Andrey Martyanov
+Author-email: andrey@martyanov.com
+License: BSD License
+Project-URL: Bug Reports, https://github.com/martyanov/python-rocksdb/issues
+Project-URL: Repository, https://github.com/martyanov/python-rocksdb
+Keywords: rocksdb bindings
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools (>=25)
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+python-rocksdb
+==============
+
+Python bindings for RocksDB. See http://rocksdb.readthedocs.io for a more comprehensive install and usage description.
+
+
+Quick install
+-------------
+
+.. code-block:: bash
+
+    $ pip install rocksdb
+
+
+Quick usage guide
+-----------------
+
+.. code-block:: python
+
+    >>> import rocksdb
+    >>> db = rocksdb.DB('test.db', rocksdb.Options(create_if_missing=True))
+    >>> db.put(b'a', b'data')
+    >>> print(db.get(b'a'))
+    b'data'
+
+
+Acknowledgements
+----------------
+
+This project is a fork of `python-rocksdb`_ maintained by `twmht`_, which itself is a fork
+of `pyrocksdb`_, that was originally written by `stephan-hof`_.
+
+.. _python-rocksdb: https://github.com/twmht/python-rocksdb
+.. _twmht: https://github.com/twmht
+.. _pyrocksdb: https://github.com/stephan-hof/pyrocksdb
+.. _stephan-hof: https://github.com/stephan-hof
+
+

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: uniclogs-ultra
+Version: 0.0.1
+Summary: A service for providing a public access interface to internal UniClOGS data.
+Home-page: https://github.com/oresat/uniclogs-ultra
+Author: Dmitri McGuckin
+License:  GPLv3
+Description: # ULTRA (UniClOGS Live Telemetry and Request API)
+        
+        A service for providing a public access interface to internal UniClOGS data.
+        
+        ## API Usage and Documentation
+        
+        Extensive API usage and documentation can be found on our [Apiary Page](https://ultra.docs.apiary.io).
+        
+        ## Start the API Server
+        `$` `gunicorn --worker-tmp-dir /dev/shm --config ultra/__init__.py ultra:api`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev

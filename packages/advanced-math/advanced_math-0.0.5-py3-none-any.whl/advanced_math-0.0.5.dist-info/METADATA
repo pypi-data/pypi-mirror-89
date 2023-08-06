@@ -1,0 +1,352 @@
+Metadata-Version: 2.1
+Name: advanced-math
+Version: 0.0.5
+Summary: module to handle advanced math operations
+Home-page: https://github.com/vaibhavkrkm/advanced_math
+Author: Vaibhav Kumar
+Author-email: vaibhavkrkm@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+advanced_math module to handle advanced math operations
+
+Documentation
+------------------
+
+NAME
+    advanced_math - advanced_math module for handling some advanced mathamatical operations
+
+CLASSES
+    builtins.object
+        Point
+        Point3D
+        Vector2
+        Vector3
+
+    class Point(builtins.object)
+     |  Point(x, y, formatting='default')
+     |  
+     |  Creates a 2D point object
+     |  
+     |  Methods defined here:
+     |  
+     |  __add__(self, another_point)
+     |  
+     |  __eq__(self, another_point)
+     |      Return self==value.
+     |  
+     |  __init__(self, x, y, formatting='default')
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  __sub__(self, another_point)
+     |  
+     |  distance(self, another_point)
+     |      Calculates the distance between two points
+     |      :param another_point: Point
+     |      :return: float
+     |  
+     |  form_vector2(self, another_point)
+     |      Returns a new Vector2 object having x and y of subtraction of first point and second point.
+     |      :param another_point: Point
+     |      :return: Vector2
+     |  
+     |  format(self, formatting)
+     |      Changes the format in which the point is printed (converted into str).
+     |      Supported formats are: default, standard, expanded.
+     |      Although, it doesn't throw errors if any invalid formatting is presented, it's a bad practice doing that!
+     |      :param formatting: str
+     |      :return: None
+     |  
+     |  to_tuple(self)
+     |      Returns the point object in a tuple form
+     |      :return: Tuple
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  from_seq(sequence)
+     |  
+     |  make_point_from_seq(sequence)
+     |      Creates a new point using a sequence
+     |      :param sequence: Sequence
+     |      :return: Point
+     |  
+     |  origin()
+     |      Returns the origin point
+     |      :return: Point
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+
+    class Point3D(builtins.object)
+     |  Point3D(x, y, z, formatting='default')
+     |  
+     |  Creates a 3D point object
+     |  
+     |  Methods defined here:
+     |  
+     |  __add__(self, another_point)
+     |  
+     |  __eq__(self, another_point)
+     |      Return self==value.
+     |  
+     |  __init__(self, x, y, z, formatting='default')
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  __sub__(self, another_point)
+     |  
+     |  distance(self, another_point)
+     |      Calculates the distance between two points
+     |      :param another_point: Point3D
+     |      :return: float
+     |  
+     |  form_vector3(self, another_point)
+     |      TODO: IMPLEMENT AFTER VECTOR3
+     |      Returns a new Vector2 object having x and y of subtraction of first point and second point.
+     |      :param another_point: Point
+     |      :return: Vector2
+     |  
+     |  format(self, formatting)
+     |      Changes the format in which the point3D is printed (converted into str).
+     |      Supported formats are: default, standard, expanded.
+     |      Although, it doesn't throw errors if any invalid formatting is presented, it's a bad practice doing that!
+     |      :param formatting: str
+     |      :return: None
+     |  
+     |  to_tuple(self)
+     |      Returns the point3D object in a tuple form
+     |      :return: Tuple
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  from_seq(sequence)
+     |      Creates a new point using a sequence
+     |      :param sequence: Sequence
+     |      :return: Point3D
+     |  
+     |  origin()
+     |      Returns the origin point
+     |      :return: Point3D
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+
+    class Vector2(builtins.object)
+     |  Vector2(x, y, formatting='default')
+     |  
+     |  Creates a new 2D vector object
+     |  
+     |  Methods defined here:
+     |  
+     |  __add__(self, another_vector)
+     |  
+     |  __eq__(self, another_vector)
+     |      Return self==value.
+     |  
+     |  __floordiv__(self, value)
+     |  
+     |  __init__(self, x, y, formatting='default')
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __mul__(self, value)
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  __sub__(self, another_vector)
+     |  
+     |  __truediv__(self, value)
+     |  
+     |  direction(self)
+     |      Calculates the direction of a vector
+     |      :return: float
+     |  
+     |  format(self, formatting)
+     |      Changes the format in which the vector is printed (converted into str).
+     |      Supported formats are: default, standard, expanded.
+     |      Although, it doesn't throw errors if any invalid formatting is presented, it's a bad practice doing that!
+     |      :param formatting: str
+     |      :return: None
+     |  
+     |  from_seq(sequence)
+     |  
+     |  magnitude(self)
+     |      Calculates the magnitude of a 2D vector
+     |      :return: float
+     |  
+     |  to_tuple(self)
+     |      Returns the vector object in a tuple form
+     |      :return: Tuple
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  down()
+     |      Returns a unit vector in positive y direction
+     |  
+     |  left()
+     |      Returns a unit vector in negative x direction
+     |  
+     |  make_vector_from_seq(sequence)
+     |      Creates a new vector using a sequence
+     |      :param sequence: Sequence
+     |      :return: Vector2
+     |  
+     |  right()
+     |      Returns a unit vector in positive x direction
+     |  
+     |  up()
+     |      Returns a unit vector in negative y direction
+     |  
+     |  zero()
+     |      Returns the null or zero vector
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+
+    class Vector3(builtins.object)
+     |  Vector3(x, y, z, formatting='default')
+     |  
+     |  Creates a new 3D vector object
+     |  
+     |  Methods defined here:
+     |  
+     |  __add__(self, another_vector)
+     |  
+     |  __eq__(self, another_vector)
+     |      Return self==value.
+     |  
+     |  __floordiv__(self, value)
+     |  
+     |  __init__(self, x, y, z, formatting='default')
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __mul__(self, value)
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  __sub__(self, another_vector)
+     |  
+     |  __truediv__(self, value)
+     |  
+     |  direction(self)
+     |      TODO: IMPLEMENT LATER
+     |      Calculates the direction of a vector
+     |      :return: float
+     |  
+     |  format(self, formatting)
+     |      Changes the format in which the vector is printed (converted into str).
+     |      Supported formats are: default, standard, expanded.
+     |      Although, it doesn't throw errors if any invalid formatting is presented, it's a bad practice doing that!
+     |      :param formatting: str
+     |      :return: None
+     |  
+     |  from_seq(sequence)
+     |      Creates a new vector using a sequence
+     |      :param sequence: Sequence
+     |      :return: Vector2
+     |  
+     |  magnitude(self)
+     |      Calculates the magnitude of a 3D vector
+     |      :return: float
+     |  
+     |  to_tuple(self)
+     |      Returns the vector object in a tuple form
+     |      :return: Tuple
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  down()
+     |      Returns a unit vector in positive y direction
+     |  
+     |  inward()
+     |      Returns a unit vector in positive z direction
+     |  
+     |  left()
+     |      Returns a unit vector in negative x direction
+     |  
+     |  outward()
+     |      Returns a unit vector in negative z direction
+     |  
+     |  right()
+     |      Returns a unit vector in positive x direction
+     |  
+     |  up()
+     |      Returns a unit vector in negative y direction
+     |  
+     |  zero()
+     |      Returns the null or zero vector
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+
+

@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+docs/images/MLE_Fisher_uncensored.png
+docs/images/MLE_LRB_censored.png
+docs/images/MRR_BBB_uncensored.png
+docs/images/MRR_MCPB_censored.png
+src/predictr.py
+src/predictr.egg-info/PKG-INFO
+src/predictr.egg-info/SOURCES.txt
+src/predictr.egg-info/dependency_links.txt
+src/predictr.egg-info/requires.txt
+src/predictr.egg-info/top_level.txt

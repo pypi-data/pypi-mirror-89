@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+nextcloud_sdk.egg-info/PKG-INFO
+nextcloud_sdk.egg-info/SOURCES.txt
+nextcloud_sdk.egg-info/dependency_links.txt
+nextcloud_sdk.egg-info/top_level.txt
+ocs/__init__.py
+ocs/basic.py
+tests/__init__.py
+tests/test_webdav.py
+webdav/__init__.py
+webdav/basic.py

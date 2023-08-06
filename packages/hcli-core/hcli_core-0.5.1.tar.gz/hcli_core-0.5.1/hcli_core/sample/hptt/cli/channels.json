@@ -1,0 +1,13 @@
+{
+    "channels": [
+        {
+            "members": [
+                "http://hcli.io"
+            ],
+            "name": "default",
+            "owners": [
+                "http://hcli.io"
+            ]
+        }
+    ]
+}

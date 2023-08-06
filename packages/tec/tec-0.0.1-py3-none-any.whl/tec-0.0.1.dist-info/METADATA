@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tec
+Version: 0.0.1
+Summary: Tools to inspect python objects
+Home-page: https://github.com/thorwhalen/tec
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# tec
+Tools to inspect python objects
+
+
+To install:	```pip install tec```
+
+

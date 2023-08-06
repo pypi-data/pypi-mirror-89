@@ -1,0 +1,11 @@
+README.md
+setup.py
+avatarko_picture_getter/__init__.py
+avatarko_picture_getter/__main__.py
+avatarko_picture_getter/avatarko_picture_getter.py
+avatarko_picture_getter/settings.py
+avatarko_picture_getter.egg-info/PKG-INFO
+avatarko_picture_getter.egg-info/SOURCES.txt
+avatarko_picture_getter.egg-info/dependency_links.txt
+avatarko_picture_getter.egg-info/requires.txt
+avatarko_picture_getter.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.rst
+main.py
+setup.py
+acfun_get.egg-info/PKG-INFO
+acfun_get.egg-info/SOURCES.txt
+acfun_get.egg-info/dependency_links.txt
+acfun_get.egg-info/entry_points.txt
+acfun_get.egg-info/requires.txt
+acfun_get.egg-info/top_level.txt

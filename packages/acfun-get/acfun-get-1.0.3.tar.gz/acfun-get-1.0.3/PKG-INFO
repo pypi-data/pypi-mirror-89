@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: acfun-get
+Version: 1.0.3
+Summary: acfun, A站视频下载工具
+Home-page: https://github.com/ylxy123/acfun-get
+Author: ylxy123
+Author-email: 1205695200@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries

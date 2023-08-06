@@ -1,0 +1,7 @@
+README.md
+setup.py
+commondtools.egg-info/PKG-INFO
+commondtools.egg-info/SOURCES.txt
+commondtools.egg-info/dependency_links.txt
+commondtools.egg-info/requires.txt
+commondtools.egg-info/top_level.txt

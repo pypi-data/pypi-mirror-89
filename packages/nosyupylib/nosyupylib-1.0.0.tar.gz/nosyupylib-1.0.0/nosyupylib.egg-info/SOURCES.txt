@@ -1,0 +1,10 @@
+README.md
+setup.py
+nosyupylib/__init__.py
+nosyupylib/funcs.py
+nosyupylib/workdone.py
+nosyupylib.egg-info/PKG-INFO
+nosyupylib.egg-info/SOURCES.txt
+nosyupylib.egg-info/dependency_links.txt
+nosyupylib.egg-info/requires.txt
+nosyupylib.egg-info/top_level.txt

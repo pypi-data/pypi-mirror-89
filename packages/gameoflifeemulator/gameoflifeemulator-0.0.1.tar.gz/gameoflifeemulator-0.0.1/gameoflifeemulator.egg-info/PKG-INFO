@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: gameoflifeemulator
+Version: 0.0.1
+Summary: The game of life emulator
+Home-page: https://github.com/parsampsh/gameoflife
+Author: parsa shahmaleki
+Author-email: parsampsh@gmail.com
+License: UNKNOWN
+Description: 
+            The Game of life Emulator
+        
+            The Game of Life, also known simply as Life, is a cellular automaton devised by the British
+            mathematician John Horton Conway in 1970. It is a zero-player game, meaning that
+            its evolution is determined by its initial state, requiring no further input.
+            One interacts with the Game of Life by creating an initial configuration
+            and observing how it evolves. It is Turing complete and can simulate
+            a universal constructor or any other Turing machine.
+        
+            More information on wikipedia: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+        
+            This emulator is created by parsa shahmaleki.
+            (c) 2020 parsa shahmaleki <parsampsh@gmail.com>
+            Licensed Under GPL-v3
+        
+            Cli Usage:
+                python3 -m gameoflife --option1=value --option2=value ...
+        
+            Code Usage:
+                gol = GameOfLife(option1=value, option2=value...)
+                gol.start()
+        
+            Options:
+                you can customize the emulator using this options
+        
+                `width`         width of the world. default: width of the terminal
+                `height`        hegith of the world. default: height of the terminal
+                `live_char`     symbol of the live cell. default: `+`
+                `dead_char`     symbol of the dead cell. default: ` `
+                `sleep_time`    sleep time between world frames(secounds). default: `0.05`
+                `border_char`   the world border chars. default: `#`
+                `title`         a title of the head of the world. default: `Conway's Game of life`
+                `random_har`    how much initialized live cells. every more means harder. default: `3`
+        
+            Cli Example:
+                gameoflife --width=100 --height=40 --live_char='@' --sleep_time=0.2 --title='my gameoflife'
+        
+            Code Example:
+                GameOfLife(width=100, live_char='@' sleep_time=0.2, title="something").start()
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

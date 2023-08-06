@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/gameoflife
+gameoflifeemulator/__init__.py
+gameoflifeemulator/gameoflife.py
+gameoflifeemulator.egg-info/PKG-INFO
+gameoflifeemulator.egg-info/SOURCES.txt
+gameoflifeemulator.egg-info/dependency_links.txt
+gameoflifeemulator.egg-info/top_level.txt

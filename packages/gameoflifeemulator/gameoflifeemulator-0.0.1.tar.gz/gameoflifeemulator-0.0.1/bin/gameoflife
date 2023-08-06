@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from gameoflifeemulator import gameoflife
+gameoflife.cli_handle()
+

@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+torancell.egg-info/PKG-INFO
+torancell.egg-info/SOURCES.txt
+torancell.egg-info/dependency_links.txt
+torancell.egg-info/top_level.txt

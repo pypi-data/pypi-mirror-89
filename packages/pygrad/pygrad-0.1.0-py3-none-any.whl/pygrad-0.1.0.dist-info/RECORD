@@ -1,0 +1,14 @@
+pygrad/__init__.py,sha256=-aNfdI82qipYlqR3taENYMop1ItOmq86jH7ty-vjqkM,208
+pygrad/core.py,sha256=MajsKYUwPfo11z2Rv8qw7EKLzd_ZzB-asE96xQHjB2E,7475
+pygrad/data.py,sha256=zWirNhM9lvpb7ybNTwOEiWRGtsYdc31QknTWN_iJYqg,2498
+pygrad/exceptions.py,sha256=wEsKtiE53Uw23s_dQVgmzFutJpufehqmY9bgo-2WHZU,265
+pygrad/functions.py,sha256=vyqfXx0G0yrBc_CYO7wGAeKrq5tEr5tAa1y6IDzS0_U,7934
+pygrad/utils.py,sha256=zyzmyd6lT04mIqHcz4halAkNQM2C7-Vf4_3cplp_e_c,3928
+pygrad/nn/__init__.py,sha256=uG8VBtWuZNpYjkcoeg-2xv0vA2DFqKD5RIEpjanGrrI,54
+pygrad/nn/module.py,sha256=Jh8FfitIOIw6DRR4Ex_rdHylO4rhoITL_2pKobLt2BI,3316
+pygrad/nn/optim.py,sha256=HOZaSrBVZOdBvSAuHSNkPOEQJraDAEISvoV4wWnpO-I,3474
+pygrad-0.1.0.dist-info/LICENSE,sha256=bq6-e66AVXndbmWzETXoMzON-TtjHTbbo18baPLfKYA,1086
+pygrad-0.1.0.dist-info/METADATA,sha256=kp1PMW9lIcADtqow1wzv3-CaEEb2N-0UhwYqskOs-_0,6388
+pygrad-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pygrad-0.1.0.dist-info/top_level.txt,sha256=XULUD0-DItY9yq4OB79beoCwzjyI2IkWD_UYbHAy4Cw,7
+pygrad-0.1.0.dist-info/RECORD,,

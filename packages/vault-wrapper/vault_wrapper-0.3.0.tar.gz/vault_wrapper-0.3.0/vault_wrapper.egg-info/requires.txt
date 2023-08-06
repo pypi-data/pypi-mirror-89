@@ -1,0 +1,8 @@
+hvac
+
+[dev]
+black
+autoflake
+isort
+mypy
+wheel

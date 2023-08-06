@@ -1,0 +1,3 @@
+[repocribro.ext]
+repocribro-badges = repocribro_badges:make_extension
+

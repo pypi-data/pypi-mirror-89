@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dop-python-pip-package
+Version: 0.0.0
+Summary: Python utils library
+Home-page: https://github.com/RyanAngJY/dop_python_pip_package
+Author: Ryan
+Author-email: ryanang.jy@gmail.com
+License: UNKNOWN
+Description: This is a sample python library that can be installed by other projects.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

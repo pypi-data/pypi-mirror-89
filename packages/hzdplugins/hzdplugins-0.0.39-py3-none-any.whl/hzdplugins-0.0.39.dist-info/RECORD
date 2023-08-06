@@ -1,0 +1,16 @@
+hzdplugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/aiidaplugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/aiidaplugins/constants.py,sha256=S1bCCQKBj9TXKvfsmftNdePvZ1xWtLKKR-3PzvUK6mY,8136
+hzdplugins/aiidaplugins/deprecated.py,sha256=sq_0T3E-YXMjCWu_8IBeEOElzTbiybFspFMUBlyEU7o,11707
+hzdplugins/aiidaplugins/info.py,sha256=zEwY5yPaNpaEmoURi0GkVSOsN-uhjDPxnQNAUCFNEWY,17355
+hzdplugins/aiidaplugins/inputgenerator.py,sha256=FFskkURHMhsS2VGPLr_GyC7VgPpFGfwMBl2Yi8fMZhc,8767
+hzdplugins/aiidaplugins/io.py,sha256=yoxTIkvFMEgPLCs2STdEaGAaGL3rW0b4T4HNYc8Nb5Q,6534
+hzdplugins/aiidaplugins/submit.py,sha256=w5DOKofPWnW-illAjXDv-JlHzn07dq_6y6DAAlL6Ryc,30227
+hzdplugins/aiidaplugins/adsorbates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hzdplugins/structure/build.py,sha256=tDl_TVvaX3u5taaDZgDdU93RIWspX8gbn4R114kyAS4,22899
+hzdplugins/structure/math.py,sha256=6nuoczaEkt4Tvewz6yhdWABtTw8pxpLdFyl87P2FCrs,2699
+hzdplugins-0.0.39.dist-info/METADATA,sha256=ZFP1BBd1go8ovLNVmF6KjuiyiXwP98CWfW5JLuGmGfw,377
+hzdplugins-0.0.39.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hzdplugins-0.0.39.dist-info/top_level.txt,sha256=WzwhltsfsssgkZMCOn17eynLtInouuMybiU7xpcH6QQ,11
+hzdplugins-0.0.39.dist-info/RECORD,,

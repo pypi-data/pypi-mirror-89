@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: mechanical-markdown
+Version: 0.1.0
+Summary: Run markdown recipes as shell scripts
+Home-page: https://github.com/wcs1only/mechanical-markdown
+Author: Charlie Stanley
+Author-email: Charlie.Stanley@microsoft.com
+License: MIT
+Description: # Mechanical Markdown
+        
+        If you are using markdown to create tutorials for your users, these markdown files will often be a series of shell commands that a user will copy and paste into their shell of choice, along with detailed text description of what each command is doing.
+        
+        If you are regularly releasing software and having to manually verify your tutorials by copy pasting commands into a terminal every time you create a release, this is the package for you.
+        
+        The mechanical-markdown package is a python library and corresponding shell script that allow you to run annotated markdown tutorials in an automated fashion. It will execute your markdown tutorials and verify the ouput according to expected stdout/stderr that you can embed directly into your markdown tutorials. 
+        
+        # Installing 
+        
+        This package requires a working python3 environment. You can install it using pip:
+        
+        ```bash
+        pip install mechanical-markdown
+        ```
+        
+        # Quick Start
+        
+        <!-- STEP
+        name: "Create start.md"
+        expected_stdout_lines:
+        -->
+        
+        Once the package is installed, create a simple markdown file with an annotated command like so. Call it start.md:
+        
+            # Quick Start Example
+        
+            This is an example markdown file with an annotated test command
+            
+            <!-- STEP 
+            name: First Step
+            expected_stdout_lines:
+              - "test"
+            -->
+        
+            ```bash
+            echo "test"
+            ```
+        
+            <!-- END_STEP -->
+        
+            This unannotated command will not be run:
+            ```bash
+            echo "A command that will not be run"
+            ```
+        
+        <!-- END_STEP -->
+        
+        You can do a dry run to print out exactly what commands will be run using the '-d' flag.
+        
+        ```bash
+        mm.py -d start.md
+        ```
+        
+        You'll see output like the following:
+        
+        ```
+        Step: First Step
+        ----
+        would run 'bash -c' with command: `echo "test"`
+        ---- Expected stdout ----
+        test
+        ---- end stdout ----
+        ---- Expected stderr ----
+        ---- end stderr ----
+        ```
+        
+        Now you can run the steps and verify the output:
+        
+        ```bash
+        mm.py start.md
+        ```
+        
+        The script will parse the markdown, execute the annotated commands, and then print a report like this:
+        
+        ```
+        Validation step: First Step
+        ----
+        command: `echo "test"`
+        return_code: 0
+        ----
+        ---- Expected stdout ----
+        test
+        ---- Actual stdout ----
+        test
+        
+        ---- end stdout ----
+        ---- Expected stderr ----
+        ---- Actual stderr ----
+        
+        ---- end stderr ----
+        ```
+        
+        If anything unexpected happens, you will get report
+        of what went wrong, and mm.py will return non-zero.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

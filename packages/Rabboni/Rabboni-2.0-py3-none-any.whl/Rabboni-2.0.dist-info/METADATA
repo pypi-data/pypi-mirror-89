@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Rabboni
+Version: 2.0
+Summary: BLE&USB for Rabboni
+Home-page: https://github.com/SuiiiDe/Rabboni
+Author: Sui De
+Author-email: vigia22922@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Dist: bleak
+Requires-Dist: xlwt
+Requires-Dist: matplotlib
+Requires-Dist: pygatt
+Requires-Dist: pywinusb
+
+UNKNOWN
+
+

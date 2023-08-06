@@ -1,0 +1,325 @@
+import asyncio
+import enum
+import functools
+import threading
+import typing
+import weakref
+
+from .utils import GlobalEvent, AutoincrementDWORD, AsyncThreadingLock, no_async
+from .base import HasExceptions
+from .data import DataField, DataRequest
+from .events import SystemEvent, SystemEventType
+from . import _native
+from ._native import PERIOD
+
+
+class NotStarted(Exception):
+    pass
+
+
+class AlreadyStarted(Exception):
+    pass
+
+
+class DataWhen(enum.IntEnum):
+    Always = _native.DATA_REQUEST_FLAG.DEFAULT
+    WhenChanged = _native.DATA_REQUEST_FLAG.CHANGED
+
+
+class Sim:
+
+    OPEN_TIMEOUT_SEC: float = 5
+
+    app_name: str
+
+    _sim: typing.Optional[_native.Sim] = None
+    _loop_thr: typing.Optional[threading.Thread] = None
+    _stopping: bool = False
+    _lock: AsyncThreadingLock  # Instance-wide consistency lock
+    _open_evt: GlobalEvent
+    _stop_evt: GlobalEvent
+    _loop_done_evt = GlobalEvent
+    _event_id_inc: AutoincrementDWORD
+    _data_request_id_inc: AutoincrementDWORD
+    _definition_id_inc: AutoincrementDWORD
+    _events: typing.Dict[int, "weakref.ref[SystemEvent]"]  # weakref.ref is not Generic in runtime
+    _data_requests: typing.Dict[int, "weakref.ref[DataRequest]"]
+    _data_definition_ids: typing.Set[int]
+    _exception_targets: typing.Dict[int, "weakref.ref[HasExceptions]"]
+    open_msg: typing.Optional[_native.MsgOpen] = None
+
+    def __init__(self, app_name: str) -> None:
+        self._loop_done_evt = GlobalEvent(packet_ids=[-1])  # FIXME: make packet_ids optional?
+        self._stop_evt = GlobalEvent(packet_ids=[-1])
+        self._stop_evt.set()
+        self._lock = AsyncThreadingLock()
+
+        self._event_id_inc = AutoincrementDWORD()
+        self._data_request_id_inc = AutoincrementDWORD()
+        self._definition_id_inc = AutoincrementDWORD()
+        self._events = {}
+        self._data_requests = {}
+        self._data_definition_ids = set()
+        self._exception_targets = {}
+        self.app_name = app_name
+
+        self._init_open_event(from_init=True)
+
+    def _init_open_event(self, from_init=False):
+        open_packet_id = 1  # Open exceptions come with this packet id
+        # Due to possibly yet undelivered exceptions recreate this event every start cycle
+        evt = GlobalEvent(packet_ids=[open_packet_id])
+        if not from_init:
+            old_evt = self._open_evt
+            if old_evt is not None:
+                old_evt.close()
+        self._open_evt = evt
+        self._exception_targets[open_packet_id] = weakref.ref(evt)
+
+    @property
+    def sim(self) -> _native.Sim:
+        sim = self._sim
+        if sim is None:
+            raise NotStarted(f"Use {self.__class__.__name__} as a context manager (with:) or call start() first")
+        return sim
+
+    async def __aenter__(self) -> "Sim":
+        try:
+            await self.start()
+        except:
+            await self.stop()
+            raise
+        return self
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb) -> None:
+        await self.stop()
+
+    async def start(self, open_timeout: typing.Optional[float] = OPEN_TIMEOUT_SEC):
+        if self._sim is not None:
+            raise AlreadyStarted()
+        self._sim = _native.Sim(self.app_name)
+        self._stopping = False
+        self._stop_evt.clear()
+        self._loop_thr = threading.Thread(target=self._loop, daemon=True)
+        self._loop_thr.start()
+        await self.wait_open(open_timeout)
+
+    async def stop(self):
+        try:
+            sim = self.sim
+        except NotStarted:
+            return
+        self._sim = None
+
+        self._stopping = True
+        sim.interrupt_receive()
+        await self._loop_done_evt.wait()
+
+    async def wait_open(self, timeout: typing.Optional[float] = OPEN_TIMEOUT_SEC) -> None:
+        await self._open_evt.wait(timeout)
+
+    async def wait_stop(self, timeout: typing.Optional[float] = None) -> None:
+        await self._stop_evt.wait(timeout)
+
+    async def subscribe_to_system_event(self, event_type: events.SystemEventType) -> SystemEvent:
+        # TODO: Add explicit unsubscribe
+        # No locking here. Hoping that the counter will not wrap around and reach our value again
+        # before the code below completes.
+        event_id = self._event_id_inc.next(self._events)
+
+        def clean_event(_):
+            try:
+                self.sim.unsubscribe_from_system_event(event_id)
+            except NotStarted:
+                pass
+            self._events.pop(event_id, None)
+            self._exception_targets.pop(packet_id, None)
+            print(f"Cleaned event #{event_id}")
+
+        async with self._lock:
+            self.sim.subscribe_to_system_event(event_id, event_type)
+            packet_id = self.sim.get_last_sent_packet_id()
+            event = SystemEvent(packet_ids=[packet_id], event_id=event_id)
+            ref = weakref.ref(event, clean_event)
+            self._events[event_id] = ref
+            self._exception_targets[packet_id] = ref
+
+        return event
+
+    async def request_data_once(self, fields: typing.List[DataField], object_id: int = 0, timeout: typing.Optional[float] = None):
+        request = await self.request_data_on_sim_object(fields, PERIOD.ONCE, object_id)
+        return await request.wait(timeout)
+
+    async def request_data_on_sim_object(
+            self, fields: typing.List[DataField], period: PERIOD, object_id: int = 0, when: DataWhen = DataWhen.Always,
+            origin: int = 0, interval: int = 0, limit: int = 0):
+        # TODO: Add explicit unsubscribe
+        definition_id = self._definition_id_inc.next(self._data_definition_ids)
+        request_id = self._data_request_id_inc.next(self._data_requests)
+        packet_ids = []
+
+        def clean_data_request(_):
+            # TODO: unsubscribe from data!
+            self._data_definition_ids.discard(definition_id)
+            self._data_requests.pop(request_id, None)
+            for packet_id in packet_ids:
+                self._exception_targets.pop(packet_id, None)
+            print(f"Cleaned data request #{request_id}")
+
+        async with self._lock:
+            for field in fields:
+                self.sim.add_to_data_definition(definition_id, field.name, field.units, field.type.data_type)
+                packet_ids.append(self.sim.get_last_sent_packet_id())
+            self.sim.request_data_on_sim_object(
+                request_id,
+                definition_id,
+                object_id,
+                period,
+                when,
+                origin,
+                interval,
+                limit,
+            )
+            data_request = DataRequest(
+                packet_ids=packet_ids,
+                fields=fields,
+            )
+            ref = weakref.ref(data_request, clean_data_request)
+            self._data_requests[request_id] = ref
+            for packet_id in packet_ids:
+                self._exception_targets[packet_id] = ref
+
+        return data_request
+
+    def _process_event(self, msg: _native.MsgEvent):
+        with self._lock:
+            event = self._events.get(msg.uEventID)
+        if event is None:
+            return
+        event = event()  # dereference the weakref
+        if event is None:
+            return
+        event.send_event(msg)
+
+    def _process_exception(self, msg: _native.MsgException):
+        with self._lock:
+            target = self._exception_targets.get(msg.dwSendID)
+        if target is None:
+            return
+        target = target()  # dereference the weakref
+        if target is None:
+            return
+        target.set_exception(msg)
+
+    def _process_data(self, msg: _native.MsgSimobjectData):
+        with self._lock:
+            data_request = self._data_requests.get(msg.dwRequestID)
+        if data_request is None:
+            return
+        data_request = data_request()  # dereference the weakref
+        if data_request is None:
+            return
+        data_request.send_data(msg)
+
+    def _post_stop(self):
+        self._sim = None
+        self._stopping = True
+        self._loop_thr = None
+
+        while True:
+            try:
+                _, event_ref = self._events.popitem()
+            except KeyError:
+                break
+            event = event_ref()
+            if event is not None:
+                event.close()
+
+        while True:
+            try:
+                _, data_request_ref = self._data_requests.popitem()
+            except KeyError:
+                break
+            data_request = data_request_ref()
+            if data_request is not None:
+                data_request.close()
+
+        self._data_definition_ids = set()
+        self._open_evt.clear()
+        self._stop_evt.set()
+        self._exception_targets = {}
+        self._init_open_event()
+
+    def _loop(self) -> None:
+        try:
+            while not self._stopping:
+                msg = self.sim.receive()
+                base = msg.as_base()
+                if base is None:
+                    continue
+                msg_type = _native.RECV_ID(base.dwID)
+                if msg_type == _native.RECV_ID.OPEN:
+                    self.open_msg = msg.as_open()
+                    self._open_evt.set()
+                elif msg_type == _native.RECV_ID.QUIT:
+                    return
+                elif msg_type == _native.RECV_ID.EVENT:
+                    self._process_event(msg.as_event())
+                elif msg_type == _native.RECV_ID.EVENT_FRAME:
+                    self._process_event(msg.as_event())
+                elif msg_type == _native.RECV_ID.SIMOBJECT_DATA:
+                    self._process_data(msg.as_simobject_data())
+                elif msg_type == _native.RECV_ID.EXCEPTION:
+                    self._process_exception(msg.as_exception())
+
+                # print(_native.RECV_ID(base.dwID))
+        finally:
+            self._post_stop()
+            self._loop_done_evt.set()
+
+    ########################
+    # Synchronous interface
+    ########################
+
+    @no_async
+    def __enter__(self) -> "Sim":
+        return asyncio.run(self.__aenter__())
+
+    @no_async
+    def __exit__(self, exc_type, exc_val, exc_tb) -> None:
+        return asyncio.run(self.__aexit__(exc_type, exc_val, exc_tb))
+
+    @no_async
+    @functools.wraps(wait_open)
+    def sync_wait_open(self, *args, **kwargs):
+        return asyncio.run(self.wait_open(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(wait_stop)
+    def sync_wait_stop(self, *args, **kwargs):
+        return asyncio.run(self.wait_stop(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(request_data_once)
+    def sync_request_data_once(self, *args, **kwargs):
+        return asyncio.run(self.request_data_once(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(request_data_on_sim_object)
+    def sync_request_data_on_sim_object(self, *args, **kwargs):
+        return asyncio.run(self.request_data_on_sim_object(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(subscribe_to_system_event)
+    def sync_subscribe_to_system_event(self, *args, **kwargs):
+        return asyncio.run(self.subscribe_to_system_event(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(start)
+    def sync_start(self, *args, **kwargs):
+        return asyncio.run(self.start(*args, **kwargs))
+
+    @no_async
+    @functools.wraps(stop)
+    def sync_stop(self, *args, **kwargs):
+        return asyncio.run(self.stop(*args, **kwargs))

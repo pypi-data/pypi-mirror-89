@@ -1,0 +1,11 @@
+[console_scripts]
+liquid = liquidcss.__main__:main
+
+[liquidcss.registered_commands]
+deploy = liquidcss.commands.deploy:main
+drop = liquidcss.commands.drop:main
+grab = liquidcss.commands.grab:main
+init = liquidcss.commands.init:main
+stage = liquidcss.commands.stage:main
+status = liquidcss.commands.status:main
+

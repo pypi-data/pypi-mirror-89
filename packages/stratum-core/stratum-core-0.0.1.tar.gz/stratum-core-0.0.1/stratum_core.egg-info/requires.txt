@@ -1,0 +1,8 @@
+colorama
+envyaml
+logzero
+setuptools
+twisted
+
+[test]
+pytest

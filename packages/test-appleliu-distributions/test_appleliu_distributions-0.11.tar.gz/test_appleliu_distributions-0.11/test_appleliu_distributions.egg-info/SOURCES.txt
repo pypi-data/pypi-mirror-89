@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+test_appleliu_distributions.egg-info/PKG-INFO
+test_appleliu_distributions.egg-info/SOURCES.txt
+test_appleliu_distributions.egg-info/dependency_links.txt
+test_appleliu_distributions.egg-info/not-zip-safe
+test_appleliu_distributions.egg-info/top_level.txt

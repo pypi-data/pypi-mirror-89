@@ -1,0 +1,14 @@
+bought/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bought/__main__.py,sha256=RwpS-1eqgQyt2eFrnMz7AVTeotMqMv9rkyvfQuTaK_4,4333
+bought/config.py,sha256=Dmg2SYkLRDLPz_aHScHYSf_cQ8D4Q1MieEBOzwUuwyA,5023
+bought/sounds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bought/sounds/alert.mp3,sha256=ljOQl429BxysbmBcrrl9yzETvcu4GEmH6Nqhftz31BE,133328
+bought/sounds/play.py,sha256=o1_qFDwR_Qfxs5vc1ZRmzY4SX1mzLadBbNEFDUtjzdo,83
+bought/sounds/success.mp3,sha256=f9KlGemDos5ZSC9dsycP2QhChs978YEg_0sM8S0JQ6s,133328
+bought/websites/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bought/websites/newegg.py,sha256=nUn_f2dcjiywJKJkWAIjAyOvWtx-SBCJi0uhCv66H8Q,14681
+bought-0.1.1.dist-info/entry_points.txt,sha256=v2t1VU2ERN3v7DYbuER3tyhWnADlpL7wA_YB1zSWJyo,47
+bought-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+bought-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+bought-0.1.1.dist-info/METADATA,sha256=ZMwkMIOD8hoL1GuNTNKoPJoq_kPdkx8ovfdF6ghn1CQ,4429
+bought-0.1.1.dist-info/RECORD,,

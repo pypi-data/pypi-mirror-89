@@ -1,0 +1,10 @@
+symcollab/algebra/__init__.py,sha256=HAvczPwy3bCAFGcp6KZy4dWTXGC-mpygs4-FaNV8uOk,212
+symcollab/algebra/dag.py,sha256=TikdkniUC28wLGmmrsGtm8T9Z-RCacQaiGs8Pv9tbUw,5818
+symcollab/algebra/parser.py,sha256=Da2YDe7Yj9hd5ZOpwXMY73-OC-QAy-Db0PWWfN0mv68,5941
+symcollab/algebra/substitute.py,sha256=XJH5kC0O8n7lSq-i8JeBmu2Oudfk1b3KMXKUh6cJpg4,6973
+symcollab/algebra/sympy.py,sha256=pF7vQ4sIvrLLWeobGNJYjK-hDdcjPTC6Dz1cmZQtz6E,3514
+symcollab/algebra/term.py,sha256=qtdWlmJI-J_Gb1Fm98VG3B_7MZoZMhWm3dFtryKSmPY,12972
+symcollab_algebra-0.1.1.dist-info/METADATA,sha256=nI3AU3vI-CNyRlnRmcDb7YS7rTuKnNyqlPfNyqsbS8c,1411
+symcollab_algebra-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+symcollab_algebra-0.1.1.dist-info/top_level.txt,sha256=NRdZAxBfhnCAcFVBRyFWMEjSr_Wj-jm7Hm6YIVS4K_g,10
+symcollab_algebra-0.1.1.dist-info/RECORD,,

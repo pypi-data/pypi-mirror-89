@@ -1,0 +1,3 @@
+[console_scripts]
+video-latency-test = video_latency_test:cmdline
+

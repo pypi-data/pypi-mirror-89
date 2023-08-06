@@ -1,0 +1,1 @@
+This package is a pdf to text converter, it shows how to easily convert any document to text. 

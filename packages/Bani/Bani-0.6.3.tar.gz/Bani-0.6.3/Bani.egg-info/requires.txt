@@ -1,0 +1,7 @@
+nlpaug
+numpy
+pandas
+regex
+sentence_transformers==0.3.8
+spacy
+tqdm

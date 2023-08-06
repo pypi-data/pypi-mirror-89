@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: evestop
+Version: 0.1
+Summary: Early stopping with exponential variance elmination
+Home-page: https://github.com/vadim0x60/evestop
+Author: Vadim Liventsev
+Author-email: v.liventsev@tue.nl
+License: MIT
+Download-URL: https://github.com/vadim0x60/evestop/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Optimization,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8

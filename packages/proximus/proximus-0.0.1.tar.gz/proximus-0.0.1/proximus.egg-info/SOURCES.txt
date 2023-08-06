@@ -1,0 +1,7 @@
+README.md
+setup.py
+proximus/__init__.py
+proximus.egg-info/PKG-INFO
+proximus.egg-info/SOURCES.txt
+proximus.egg-info/dependency_links.txt
+proximus.egg-info/top_level.txt

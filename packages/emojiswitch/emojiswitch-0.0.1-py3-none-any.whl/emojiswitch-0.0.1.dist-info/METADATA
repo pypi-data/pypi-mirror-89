@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: emojiswitch
+Version: 0.0.1
+Summary: emoji switch
+Home-page: UNKNOWN
+Author: meiqihezi
+Author-email: 18202722061@163.com
+License: UNKNOWN
+Keywords: pip,emojiswitch,meiqihezi
+Platform: any
+Requires-Python: >=3.6.0
+
+emoji switch supporting Chinese and English
+
+

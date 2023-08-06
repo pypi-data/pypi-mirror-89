@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/libelle/__init__.py
+src/libelle/placeholder.py
+src/libelle.egg-info/PKG-INFO
+src/libelle.egg-info/SOURCES.txt
+src/libelle.egg-info/dependency_links.txt
+src/libelle.egg-info/entry_points.txt
+src/libelle.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.md
+setup.py
+song_and_spell/__init__.py
+song_and_spell.egg-info/PKG-INFO
+song_and_spell.egg-info/SOURCES.txt
+song_and_spell.egg-info/dependency_links.txt
+song_and_spell.egg-info/entry_points.txt
+song_and_spell.egg-info/requires.txt
+song_and_spell.egg-info/top_level.txt

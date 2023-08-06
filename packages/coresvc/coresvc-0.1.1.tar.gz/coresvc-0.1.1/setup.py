@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['coresvc',
+ 'coresvc.base',
+ 'coresvc.datastores',
+ 'coresvc.pubsub',
+ 'coresvc.serializers']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['aio-pika>=6.7.1,<7.0.0', 'aioredis>=1.3.1,<2.0.0', 'mode>=4.4.0,<5.0.0']
+
+setup_kwargs = {
+    'name': 'coresvc',
+    'version': '0.1.1',
+    'description': 'core services in microservice architecture',
+    'long_description': None,
+    'author': 'MartinJ-Dev',
+    'author_email': '29751536+MartinJ-Dev@users.noreply.github.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': None,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)

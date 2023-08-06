@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rapyd
+Version: 0.0.1
+Summary: Utils for generators.
+Home-page: https://github.com/thorwhalen/ut/tree/master/rapyd
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# rapyd
+Utils for generators.
+
+
+To install:	```pip install rapyd```
+
+

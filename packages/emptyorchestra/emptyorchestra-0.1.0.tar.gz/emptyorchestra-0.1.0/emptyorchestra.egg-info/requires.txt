@@ -1,0 +1,7 @@
+Flask>=0.12
+gTTS==2.0.1
+jinja2<3.0
+pywebview>=3.0
+pyyaml
+tinydb>=3.7
+xmltodict<0.12

@@ -1,0 +1,3 @@
+[console_scripts]
+emptyorch = emptyorchestra.eo_web:main
+

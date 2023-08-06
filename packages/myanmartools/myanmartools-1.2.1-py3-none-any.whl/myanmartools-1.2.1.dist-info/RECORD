@@ -1,0 +1,11 @@
+myanmartools/__init__.py,sha256=JEQByLGqOn-0LZfb46ep7xLv-9JGYRDDoO__g93_nbE,134
+myanmartools/_params.py,sha256=CFv3mNY0XwJXY8FXvCD9VhuXON_xXnGP0Ql1wwkPgSY,2906
+myanmartools/zawgyi_detector.py,sha256=yfYm-_7K0yEzN7AdHRuLTViJRuXEEmwWHcumC7L6OI0,2173
+myanmartools/resources/__init__.py,sha256=3Vik16HlujF3Zcx2uvRpvgMSwNFKOl3jzopQd7Y_DjI,239
+myanmartools/resources/compatibility.tsv,sha256=FT_uDTGcc2KM6m7NBZkqWmYN2I_Vmnh4roqgPlTW6t4,2586
+myanmartools/resources/zawgyiUnicodeModel.dat,sha256=ffe998e_LbyD67u291zntqGIbMZBR7d4F2oDqAMkG4o,27988
+myanmartools-1.2.1.dist-info/LICENSE,sha256=O9pkNXGVUPnrpIN_jvZ4g9ISKOl_Jf7KVmpagwGr2dQ,551
+myanmartools-1.2.1.dist-info/METADATA,sha256=mNhc731K2qJz8LzzpRMNyV9Y3E6t1UMmem6KzcXPsmQ,1998
+myanmartools-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+myanmartools-1.2.1.dist-info/top_level.txt,sha256=a1ZUAc5yKaCs2Be9o-HEOI9zvC3nJKgT1XE-sh180mY,13
+myanmartools-1.2.1.dist-info/RECORD,,

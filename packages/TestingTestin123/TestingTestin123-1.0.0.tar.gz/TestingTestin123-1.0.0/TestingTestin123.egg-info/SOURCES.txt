@@ -1,0 +1,9 @@
+README.md
+setup.py
+TestingTestin123.egg-info/PKG-INFO
+TestingTestin123.egg-info/SOURCES.txt
+TestingTestin123.egg-info/dependency_links.txt
+TestingTestin123.egg-info/entry_points.txt
+TestingTestin123.egg-info/requires.txt
+TestingTestin123.egg-info/top_level.txt
+dishastowork/aqws.py.py

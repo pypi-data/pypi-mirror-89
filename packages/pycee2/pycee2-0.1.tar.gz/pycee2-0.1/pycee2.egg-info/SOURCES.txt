@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+usage.py
+pycee/__init__.py
+pycee/answers.py
+pycee/errors.py
+pycee/inspection.py
+pycee/sym_table.py
+pycee/utils.py
+pycee2.egg-info/PKG-INFO
+pycee2.egg-info/SOURCES.txt
+pycee2.egg-info/dependency_links.txt
+pycee2.egg-info/entry_points.txt
+pycee2.egg-info/requires.txt
+pycee2.egg-info/top_level.txt

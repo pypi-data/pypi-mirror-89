@@ -1,0 +1,6 @@
+requests
+python-slugify
+filecache
+googlesearch-python
+html2text
+consolemd

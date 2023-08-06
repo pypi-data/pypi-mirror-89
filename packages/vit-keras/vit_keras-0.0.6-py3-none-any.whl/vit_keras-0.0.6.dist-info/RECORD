@@ -1,0 +1,10 @@
+vit_keras/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+vit_keras/imagenet2012.txt,sha256=pA2b6C60c4vs0d1pmRuJ-H8wmXXoYKbz9FOV2MBqfg0,21674
+vit_keras/layers.py,sha256=5PQnPeHVZC1VUz3dkvnXFPjVmTtwNB-76Hlkk0U_JIs,4916
+vit_keras/utils.py,sha256=jlQ4vijIQfyPFQ8ptOtgy54PIy8tSTy9MgIeQd0yh6s,7657
+vit_keras/visualize.py,sha256=mJK6cslerSxTXvrbnLgJF-L-V8P6ShCBfZEwG9Mozrc,1862
+vit_keras/vit.py,sha256=KjG4Awuaw7jX2aOkJk2tB6ahbXWBuN1_Ko95IEQbWHE,7731
+vit_keras-0.0.6.dist-info/LICENSE,sha256=QLKxkBGZ8tY75WjT1av5RjJuPJvBTsXLFORWOuQ6YMw,10761
+vit_keras-0.0.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+vit_keras-0.0.6.dist-info/METADATA,sha256=-NupsIH9R-1sQhOFWEfgyA3zAbO2riBNLSCbacvgwpk,3972
+vit_keras-0.0.6.dist-info/RECORD,,

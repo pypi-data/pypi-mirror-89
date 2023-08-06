@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: emme
+Version: 0.0.0
+Summary: Object oriented finite element analysis.
+Home-page: https://github.com/claudioperez/emma
+Author: Claudio M. Perez
+Author-email: claudio_perez@berkeley.edu
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/claudioperez/emma/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/claudioperez/emma/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: backends
+Requires-Dist: jaxlib (>0.1.51,~=0.1) ; extra == 'backends'
+Requires-Dist: jax (>0.1.72,~=0.1) ; extra == 'backends'
+Requires-Dist: tensorflow-probability (~=0.10) ; extra == 'backends'
+Requires-Dist: tensorflow (~=2.0) ; extra == 'backends'
+Provides-Extra: jax
+Requires-Dist: jax (>0.1.72,~=0.1) ; extra == 'jax'
+Requires-Dist: jaxlib (>0.1.51,~=0.1) ; extra == 'jax'
+Provides-Extra: shellcomplete
+Requires-Dist: click-completion ; extra == 'shellcomplete'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (~=2.0) ; extra == 'tensorflow'
+Requires-Dist: tensorflow-probability (~=0.10) ; extra == 'tensorflow'
+
+
+
+Changelog
+=========
+
+0.0.0 (2020-09-04)
+------------------
+
+* First release on PyPI.
+
+
+

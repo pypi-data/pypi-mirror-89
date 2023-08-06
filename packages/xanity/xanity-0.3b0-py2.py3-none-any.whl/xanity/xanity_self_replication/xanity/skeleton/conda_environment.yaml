@@ -1,0 +1,20 @@
+#name: pythonExperiment
+#channels:
+#  - javascript
+dependencies:
+  - python=3.8.5   # or 2.7 or 3.5 or 3.6, etc
+  - numpy
+  - scipy
+  - matplotlib
+#  - requests[socks]    # you'll need this if you use a proxy for WAN requests
+#  - scikit-learn
+#  - bokeh=0.9.2
+#  - nodejs=0.10.*
+#  - flask
+
+#  - pip:
+#     - dill
+
+
+#  if using the above for fetching from github,
+#  BE SURE TO REPLACE the colon (:) in the url with a slash (/) !!!!!!!!!!!!!

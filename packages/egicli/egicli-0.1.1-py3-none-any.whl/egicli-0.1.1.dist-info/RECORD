@@ -1,0 +1,13 @@
+egicli/.travis.yml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+egicli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+egicli/checkin.py,sha256=0EMbg2_GaF0flM_uScjMUJtlZiR4pXzbXw3Rx12wEDk,2951
+egicli/cli.py,sha256=3zt5TS1dC94dInFRrio-lGxfPbHHENjnb_San6g_SWM,364
+egicli/endpoint.py,sha256=L08bUArcN7S530EcPb8glqh8WYoEImkn0cWUHJCAl9U,16775
+egicli-0.1.1.dist-info/AUTHORS,sha256=J9LQSnlnJkCYpXnfJFoFlr7rlIkHWz7NIWCL8YlLeCY,217
+egicli-0.1.1.dist-info/LICENSE,sha256=em4oJUKQK43w1uiAmPoBys-ambhzvIKBR5H2MaEqqzU,1068
+egicli-0.1.1.dist-info/METADATA,sha256=G_YIwdtdFDXRWPr9cw7DRsBjGZ_VQJOdEoHreITIsX8,8321
+egicli-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+egicli-0.1.1.dist-info/entry_points.txt,sha256=U4c12KsHAYOW335WxOMtYc6lLA9YNyEQ9hFokU6-vS4,43
+egicli-0.1.1.dist-info/pbr.json,sha256=lhGeHqO-sDqJ0-VOYHSw5p2J05MOV-4tiV8cNRTx-nc,47
+egicli-0.1.1.dist-info/top_level.txt,sha256=ohtAMPUT7aor5Ak5-VQf3zuUD3s0HF0Gcr-zj83xszA,7
+egicli-0.1.1.dist-info/RECORD,,

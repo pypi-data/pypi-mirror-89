@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# BOTLIB - botd
+#
+# this file is placed in the public domain
+
+from bot.hdl import Handler, os
+from bot.trm import execute
+from bot.utl import privilege
+
+def main():
+    import bot.obj
+    bot.obj.wd = "/var/lib/botd/"
+    privilege("botd")
+    h = Handler()
+    h.start()
+    h.walk("bot")
+    h.walk("botd")
+    h.init("irc,udp,rss")
+    h.wait()
+     
+execute(main)
+os._exit(0)

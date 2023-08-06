@@ -1,0 +1,17 @@
+compath_resources/__init__.py,sha256=9v5RAEIWfFB-pcFbtAg1SSUqOmVeIly9LGodvygwbNo,205
+compath_resources/__main__.py,sha256=d3CG6BStuX88G7FGOfTq8Lb_wj0flI1FlSB-YQ2OAg4,117
+compath_resources/cli.py,sha256=rC0lI372gPj307VS68mPJejbx_WqRsoug2HgdoUIJ9g,174
+compath_resources/constants.py,sha256=-O8utbcFBg3aN-YyKbeS0XDT8g5fBTf31YmTbgvFdAo,758
+compath_resources/curation.py,sha256=wJfCParTpdZ8gYQ69D8cO4hlh9xvl-z8FSJSlnw6AaQ,3290
+compath_resources/manager.py,sha256=slpOqsVE3hhunZsWLfhN-_Tvu-rbsixeLYPgCwhomCw,1035
+compath_resources/parser.py,sha256=EiVoUdVK-rYXeZcng5TYzXlbpmJ9s6MHc6g2WDMtCOo,2410
+compath_resources/pathway_size_statistics.py,sha256=zYdziua4Hcj_2R9XWX5XxXaPWHIsTf_BPJXMILc9Frs,1931
+compath_resources/exporters/__init__.py,sha256=xppgT7S6SwrpEkKL7-uyGBzY2qXXVBEGLT2LIx7ibow,141
+compath_resources/exporters/bel.py,sha256=A3b2fA1xZ-eONkWopS9rpZo2UlRkwg6YPBX9PNe6gE4,1177
+compath_resources/exporters/rdf.py,sha256=ww899BvrMQ4R1JOveoZetaFd_Sb17c-Zf9Shxcr-trM,1751
+compath_resources-0.0.9.dist-info/LICENSE,sha256=ci2Yho4UzC3rWJw0Fz8tCX6tJy6VNSbSvHxAYlMCVZw,1129
+compath_resources-0.0.9.dist-info/METADATA,sha256=s_zAUaeLvwy49kJB0vGBvdALSuQJY4GCR5VBxfA5qRs,6681
+compath_resources-0.0.9.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+compath_resources-0.0.9.dist-info/entry_points.txt,sha256=gDsSX0OQPai5EEymp_2dE2_zSRprOTgeBFCPWJmg_BU,105
+compath_resources-0.0.9.dist-info/top_level.txt,sha256=kD14D-Ul9YyyIvj-qcULu3FKdJ_taThrTDAczV3uKPs,18
+compath_resources-0.0.9.dist-info/RECORD,,

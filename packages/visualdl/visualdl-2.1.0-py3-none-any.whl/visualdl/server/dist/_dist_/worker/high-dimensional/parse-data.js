@@ -1,0 +1,1 @@
+import{parseFromBlob as i,parseFromString as o}from"../../resource/high-dimensional/index.js";import{WorkerSelf as m}from"../index.js";const e=new m;e.emit("INITIALIZED"),e.on("RUN",async r=>{if(r){if(r.from==="string")return e.emit("RESULT",o(r.params));if(r.from==="blob")return e.emit("RESULT",await i(r.params))}e.emit("RESULT",null)});

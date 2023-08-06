@@ -1,0 +1,10 @@
+README.md
+setup.py
+my_vic_009.egg-info/PKG-INFO
+my_vic_009.egg-info/SOURCES.txt
+my_vic_009.egg-info/dependency_links.txt
+my_vic_009.egg-info/top_level.txt
+tests/test_hello.py
+vic_pkg/__init__.py
+vic_pkg/dev.ini
+vic_pkg/hello.py

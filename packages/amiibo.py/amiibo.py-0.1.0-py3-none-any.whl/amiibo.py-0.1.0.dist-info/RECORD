@@ -1,0 +1,9 @@
+amiibo/__init__.py,sha256=GzPO9GW0SmZVhDX3QMkgQ5VtkaXRiQIpRfmT1oIVbRM,96
+amiibo/client.py,sha256=5FaOtufMo612tDHKCZtpCp5ugofeGUVSG6AkpUz-eF4,14256
+amiibo/errors.py,sha256=H8rBDwTTH2yGdgRz9gU7NtyBPKLc2y1vKhMM7yTC77o,368
+amiibo/httpclient.py,sha256=isVovZGSVk98PlLOSsTbgBeOtKG5c0CgQlaCbAQqLQ0,2097
+amiibo.py-0.1.0.dist-info/LICENSE,sha256=C1XWMYE9siScGLsQ2DjK6wHPsH8aAgm-bf_hjR9eT5Y,1097
+amiibo.py-0.1.0.dist-info/METADATA,sha256=s9jn-59BdLj950HDeLjlwKLOQC-v35L9dOunQXXQuE8,1299
+amiibo.py-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+amiibo.py-0.1.0.dist-info/top_level.txt,sha256=Q2pxcsTu8fmR3K7AC6cnB-d_7aAumvo6IswfTvQUDrA,7
+amiibo.py-0.1.0.dist-info/RECORD,,

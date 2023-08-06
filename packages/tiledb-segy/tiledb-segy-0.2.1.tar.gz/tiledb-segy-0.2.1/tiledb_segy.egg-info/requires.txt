@@ -1,0 +1,4 @@
+cached_property
+segyio>=1.9.5
+tiledb
+urlpath

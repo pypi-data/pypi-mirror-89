@@ -1,0 +1,9 @@
+*.pyc
+.idea
+.coverage
+coverage/
+.eggs/
+*.egg-info/
+build/
+dist/
+tests/fixtures/

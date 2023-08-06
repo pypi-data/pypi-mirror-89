@@ -1,0 +1,4 @@
+docopt
+termcolor
+brotli
+socketIO_client

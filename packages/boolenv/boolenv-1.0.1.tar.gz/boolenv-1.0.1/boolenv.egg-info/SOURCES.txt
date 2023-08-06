@@ -1,0 +1,6 @@
+README.md
+setup.py
+boolenv.egg-info/PKG-INFO
+boolenv.egg-info/SOURCES.txt
+boolenv.egg-info/dependency_links.txt
+boolenv.egg-info/top_level.txt

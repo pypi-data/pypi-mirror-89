@@ -1,0 +1,11 @@
+README.md
+setup.py
+etcd_register/__init__.py
+etcd_register.egg-info/PKG-INFO
+etcd_register.egg-info/SOURCES.txt
+etcd_register.egg-info/dependency_links.txt
+etcd_register.egg-info/top_level.txt
+etcd_register/etcd/__init__.py
+etcd_register/etcd/client.py
+etcd_register/resolver/__init__.py
+etcd_register/resolver/register.py

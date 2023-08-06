@@ -1,0 +1,49 @@
+zgoubi_name: TOSCA
+params:
+  IC: {type: I, default: 0, doc: ""}
+  IL: {type: I, default: 0, doc: ""}
+  BNORM: {type: E, unit: "", default: 0, doc: ""}
+  XN: {type: E, unit: "", default: 0, doc: ""}
+  YN: {type: E, unit: "", default: 0, doc: ""}
+  ZN: {type: E, unit: "", default: 0, doc: ""}
+  TIT: {type: A80, default: "", doc: ""}
+  IX: {type: I, default: 0, doc: ""}
+  IY: {type: I, default: 0, doc: ""}
+  IZ: {type: I, default: 0, doc: ""}
+  MOD: {type: I, default: 0, doc: ""}
+  FNAME: {type: A8000, default: "", doc: ""}
+  ID: {type: I, default: 0, doc: ""}
+  A: {type: E, unit: "", default: 0, doc: ""}
+  B: {type: E, unit: "", default: 0, doc: ""}
+  C: {type: E, unit: "", default: 0, doc: ""}
+  IORDRE: {type: I, default: 0, doc: ""}
+  XPAS: {type: X, default: 0, doc: ""}
+  KPOS: {type: I, default: 0, doc: ""}
+  XCE: {type: E, unit: "", default: 0, doc: ""}
+  YCE: {type: E, unit: "", default: 0, doc: ""}
+  ALE: {type: E, unit: "", default: 0, doc: ""}
+  RE: {type: E, unit: cm, default: 0, doc: ""}
+  TE: {type: E, unit: "", default: 0, doc: ""}
+  RS: {type: E, unit: cm, default: 0, doc: ""}
+  TS: {type: E, unit: "", default: 0, doc: ""}
+template:
+- [IC, IL]
+- [BNORM, XN, YN, ZN]
+- [TIT]
+- [IX, IY, IZ, MOD]
+- [FNAME]
+- [ID, A, B, C]
+- [IORDRE]
+- [XPAS]
+- [KPOS]
+- [cond_section]
+cond_section:
+- key: KPOS
+  equals: 1
+  template:
+  - [XCE, YCE, ALE]
+- key: KPOS
+  equals: 2
+  template:
+  - [RE, TE, RS, TS]
+doc: |

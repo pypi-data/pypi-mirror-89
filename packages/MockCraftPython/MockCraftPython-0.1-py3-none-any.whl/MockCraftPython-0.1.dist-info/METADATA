@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MockCraftPython
+Version: 0.1
+Summary: MockCraft Python
+Home-page: http://python.mockcraft.art
+Author: Nicolas Lau
+Author-email: nicolaslau@outlook.com
+License: UNKNOWN
+Download-URL: http://python.mockcraft.art/app
+Platform: UNKNOWN
+Requires-Dist: nose
+
+UNKNOWN
+
+

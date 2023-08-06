@@ -1,0 +1,8 @@
+PyYAML
+aws-cdk.core>=1.79.0
+aws-cdk.aws-apigatewayv2>=1.79.0
+
+[dev]
+wheel==0.36.2
+twine==3.3.0
+bump2version==1.0.1

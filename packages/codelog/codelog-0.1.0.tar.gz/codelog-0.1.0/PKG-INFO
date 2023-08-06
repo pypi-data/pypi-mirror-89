@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: codelog
+Version: 0.1.0
+Summary: CodeLog utility.
+Home-page: https://github.com/coreofscience/python-sap
+Author: Oscar Arbeláez
+Author-email: odarbelaeze@gmail.com
+License: MIT license
+Description: # CodeLog
+        
+        Log your coding work.
+        
+        ## Installation
+        
+        Install from pypi using:
+        
+        ```shell
+        pip install -U codelog
+        ```
+        
+        ## Usage
+        
+        Start a configuration file with:
+        
+        ```shell
+        codelog config init
+        ```
+        
+        Track your various repos using:
+        
+        ```shell
+        codelog config track
+        ```
+        
+        Generate your report using:
+        
+        
+        ```shell
+        codelog report
+        # or for a past date
+        codelog report Sept 19
+        ```
+        
+        
+Keywords: git,code,log,journal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

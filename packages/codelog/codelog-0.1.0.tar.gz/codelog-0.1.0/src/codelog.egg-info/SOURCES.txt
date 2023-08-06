@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/codelog/__init__.py
+src/codelog/__main__.py
+src/codelog/cli.py
+src/codelog.egg-info/PKG-INFO
+src/codelog.egg-info/SOURCES.txt
+src/codelog.egg-info/dependency_links.txt
+src/codelog.egg-info/entry_points.txt
+src/codelog.egg-info/not-zip-safe
+src/codelog.egg-info/requires.txt
+src/codelog.egg-info/top_level.txt

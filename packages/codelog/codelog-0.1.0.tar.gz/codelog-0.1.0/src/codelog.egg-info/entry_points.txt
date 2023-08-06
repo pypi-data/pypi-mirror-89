@@ -1,0 +1,3 @@
+[console_scripts]
+codelog = codelog.cli:main
+

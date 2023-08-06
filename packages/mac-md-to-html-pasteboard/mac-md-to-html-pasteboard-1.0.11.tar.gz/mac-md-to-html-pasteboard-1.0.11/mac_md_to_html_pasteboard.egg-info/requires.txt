@@ -1,0 +1,4 @@
+bs4
+pyobjc-core
+pyobjc-framework-Cocoa
+pypandoc

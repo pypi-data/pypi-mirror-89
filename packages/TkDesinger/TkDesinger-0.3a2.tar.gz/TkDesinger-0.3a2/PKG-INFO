@@ -1,0 +1,96 @@
+Metadata-Version: 1.0
+Name: TkDesinger
+Version: 0.3a2
+Summary: Tkinter Desinger to Python 3
+Home-page: http://ppbe.ru
+Author: FotonPC
+Author-email: fototn-pc@inbox.ru
+License: MIT
+Description: =================================================================
+        Foton Tkinter Desinger for Python 3 Documentation - TkDesinger(F)
+        =================================================================
+        
+        Widgets
+        """""""""""
+        * Button
+            * Save - options
+                * Background as bg = *color*
+                * Foreground as fg = *color*
+                * Width as width = *number*
+                    * If button with image, width in pixels.
+                    * If button with only text, width in pt
+                * Height as width = *number*
+                    * If button with image, height in pixels.
+                    * If button with only text, height in pt
+                * Text as text = *string*
+                    .. warning:: Use " and \ in text - not good!
+                * Image - image path to capture
+            * Other
+                .. warning:: Font - it's experimental function! It's don't save
+        * Label
+            * Save - options
+                * See Button save - options
+            * See Button Other
+        * Entry
+            * Save - options
+                * Background as bg = *color*
+                * Foreground as fg = *color*
+                * Width as width = *number*
+                    * If button with image, width in pixels.
+                    * If button with only text, width in pt
+                * Height as width = *number*
+                    * If button with image, height in pixels.
+                    * If button with only text, height in pt
+            * See Button other
+        * Listbox
+            * Save options
+                * Background as bg = *color*
+                * Foreground as fg = *color*
+                * Width as width = *number*
+                    * If button with image, width in pixels.
+                    * If button with only text, width in pt
+                * Height as width = *number*
+                    * If button with image, height in pixels.
+                    * If button with only text, height in pt
+        * Text
+            * Save options
+                * Background as bg = *color*
+                * Foreground as fg = *color*
+                * Width as width = *number*
+                    * If button with image, width in pixels.
+                    * If button with only text, width in pt
+                * Height as width = *number*
+                    * If button with image, height in pixels.
+                    * If button with only text, height in pt
+            * Other
+                * See Button other
+                * .. warning:: Text in tkinter.Text don't save!
+        
+        
+        Work
+        """"
+        
+        Add widgets
+        ~~~~~~~~~~~
+        
+        Press button 'Add widget' to add widget, and widget will arise in coordinates 0,0.
+        You can drop and drag it.
+        You can call to context menu on widget and modify params
+        
+        
+        Other
+        ~~~~~
+        * Replace title - press button 'Rename form' on form
+        * Use PIL to support other images formats - see information for PIL in app
+        * Show code - press button 'View code' in app
+            * .. attention:: The developer is not responsible for the resulting Tkinter code!
+        
+        
+        
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN

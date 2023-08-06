@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/teetime/__init__.py
+src/teetime/py.typed
+src/teetime.egg-info/PKG-INFO
+src/teetime.egg-info/SOURCES.txt
+src/teetime.egg-info/dependency_links.txt
+src/teetime.egg-info/not-zip-safe
+src/teetime.egg-info/top_level.txt

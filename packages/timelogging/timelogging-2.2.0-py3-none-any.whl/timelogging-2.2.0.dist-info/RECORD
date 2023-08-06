@@ -1,0 +1,10 @@
+timelogging/__init__.py,sha256=CnCjZB1CG_-sEohBbIjfPpK3F_MP4aqK5yOjRj7ovww,1157
+timelogging/dayLog.py,sha256=duaZm3reNIy8Z0M3X7ML2wQJfr76hvonPQ9MD6PMVzo,142
+timelogging/dayLogLater.py,sha256=GN1aTz52j5J6hcSHG5GTI85HcLwnR5aTbI5YxHYAJ3o,146
+timelogging/timeLog.py,sha256=KkcHmTyo-llGNe7RhTT4sEd_b9Jiuh1kSVpnZR_Mlrw,114
+timelogging/timeLogLater.py,sha256=-mic1ZyitmO7dpFNEGOFKZFKR8wu_mdGAYhdfu1vwwg,127
+timelogging-2.2.0.dist-info/LICENSE.txt,sha256=VY1gFdMaInhOgUM8BUp9nDq_AUIsHFQqLJlR4qztTO8,1069
+timelogging-2.2.0.dist-info/METADATA,sha256=0UJnNiR5kc-3DwB7mvv9EbSu16WiiXYIRf79p_phyMc,2627
+timelogging-2.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+timelogging-2.2.0.dist-info/top_level.txt,sha256=cfmaI2cVW8Idw2Y5dDOmvXW-6nVf0Zq31WeqOZvkZ9g,12
+timelogging-2.2.0.dist-info/RECORD,,

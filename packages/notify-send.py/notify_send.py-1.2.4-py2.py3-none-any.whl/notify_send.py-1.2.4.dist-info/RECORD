@@ -1,0 +1,9 @@
+notify_send_py/__init__.py,sha256=TfxNiEDgSc3eRZyQRm1J-vYJS7SaWR-gVV9rcYheoe0,81
+notify_send_py/notify3.py,sha256=IrdQcU6ElP-RIBjBixaiqnhVvi5d1Tmm9w1rA8NJ4fo,13695
+notify_send_py/notify_send_py.py,sha256=cgV3B_yyOtDEFZMhkFJIylWL-cxCvZOoTE_nvwwlGdM,7442
+notify_send.py-1.2.4.dist-info/entry_points.txt,sha256=pw4CUQ7SgBR9_F3fN0epvZFECBdNblT4jb-_w2wPbmY,69
+notify_send.py-1.2.4.dist-info/LICENSE,sha256=q9IWVXe5uqmegFOKFMCWOP2myMuot0DI7kC9t8npuGg,1136
+notify_send.py-1.2.4.dist-info/LICENSE_notify2,sha256=NoHyI4snFVvbzHBQOXzjJmt5fzxurk3pojDcgH9oieM,1750
+notify_send.py-1.2.4.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+notify_send.py-1.2.4.dist-info/METADATA,sha256=od9-Fts5WmIeWmiDKTzQO-yj3K5ycE3QCC1jq0fTreU,6283
+notify_send.py-1.2.4.dist-info/RECORD,,

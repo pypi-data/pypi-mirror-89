@@ -1,0 +1,3 @@
+[console_scripts]
+strip-docs = strip_docs.strip_docs:run
+

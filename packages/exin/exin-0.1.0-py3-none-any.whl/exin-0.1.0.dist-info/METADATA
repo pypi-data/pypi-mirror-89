@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: exin
+Version: 0.1.0
+Summary: Explore WordNet
+Home-page: https://github.com/dinarior/explore_imagenet
+Author: Or Dinari
+Author-email: dinari@post.bgu.ac.il
+License: MIT
+Project-URL: Source, https://github.com/dinarior/explore_imagenet
+Project-URL: Tracker, https://github.com/dinarior/explore_imagenet/issues
+Project-URL: Documentation, https://github.com/dinarior/explore_imagenet
+Keywords: julia python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+## Explore Imagenet/WordNet
+
+Tiny package to easily explore the WordNet (and subsequently, ImageNet) structure.
+
+
+### Usage
+
+```
+from exin.exin import find_class
+
+find_class('n02356798')
+```
+=>
+```
+('n00015388', 'animal, animate being, beast, brute, creature, fauna'),
+ ('n01466257', 'chordate'),
+ ('n01471682', 'vertebrate, craniate'),
+ ('n01861778', 'mammal, mammalian'),
+ ('n01886756', 'placental, placental mammal, eutherian, eutherian mammal'),
+ ('n02329401', 'rodent, gnawer'),
+ ('n02355227', 'squirrel'),
+ ('n02355477', 'tree squirrel'),
+ ('n02356798', 'fox squirrel, eastern fox squirrel, Sciurus niger'),
+ 'fox squirrel, eastern fox squirrel, Sciurus niger']
+```
+
+
+

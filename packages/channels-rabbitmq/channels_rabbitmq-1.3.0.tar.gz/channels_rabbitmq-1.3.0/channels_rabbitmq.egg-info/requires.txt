@@ -1,0 +1,9 @@
+aioamqp~=0.14.0
+asgiref~=3.1
+msgpack<2.0,>=0.6.1
+channels<4.0,>=2.2
+
+[tests]
+pytest~=6.1
+pytest-asyncio~=0.14
+pytest-timeout~=1.4

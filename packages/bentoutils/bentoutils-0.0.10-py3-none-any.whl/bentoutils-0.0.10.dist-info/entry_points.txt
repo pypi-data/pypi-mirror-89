@@ -1,0 +1,12 @@
+
+        [console_scripts]
+        bentopack=bentoutils.cli:pack
+        bentopacks3=bentoutils.cli:pack_from_s3
+        get_kaniko_manifest=bentoutils.cli:get_kaniko_manifest
+        get_knative_manifest=bentoutils.cli:get_knative_manifest
+        get_route_manifest=bentoutils.cli:get_route_manifest
+        get_saved_path=bentoutils.cli:get_saved_path
+        first_bento_with_label=bentoutils.cli:first_bento_with_label
+        containerize=bentoutils.cli:containerize
+        deploy_to_knative=bentoutils.cli:deploy_to_knative
+    

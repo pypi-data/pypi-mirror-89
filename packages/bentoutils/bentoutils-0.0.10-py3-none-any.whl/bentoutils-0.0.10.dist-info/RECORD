@@ -1,0 +1,11 @@
+bentoutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bentoutils/cli.py,sha256=TMILryrcF5e3V2xykSSVOybRRVikcpbHisEJNa7TrVc,7988
+bentoutils/kubeutil.py,sha256=VkMXoJ457J-4gKD732WYLoJL4qEtsMU7TC9EEosSb9g,6891
+bentoutils/print_kaniko_manifest.py,sha256=XUCkxeoG1cSnsXCf-0VbySxfmP-3692pg40aoniYso8,3033
+bentoutils/print_knative_manifest.py,sha256=GgkjapNGH-QAoF9eRU5HWwbmxJtIchjO4_QZprm7_OI,3226
+bentoutils/print_route_manifest.py,sha256=ein8tevvr8rJXt-Udj7pPHXoWUrWoFOeBIr-RWr9It8,1641
+bentoutils-0.0.10.dist-info/METADATA,sha256=EXsvp73xa6W_klvZdZNAgCuJ_eQm4eN2cRxL6IxgG1s,1568
+bentoutils-0.0.10.dist-info/WHEEL,sha256=gm79cMopkncyn0iSnI0vQNiDJ8t9on0H4_iz-CrpXMk,92
+bentoutils-0.0.10.dist-info/entry_points.txt,sha256=9Ft0hQ1YDsX0inVWC-WBFDk3QDuhKzP918L9BSOOhY0,536
+bentoutils-0.0.10.dist-info/top_level.txt,sha256=UXMHsKEwzS_iJxKd-SY09qBCvaaQP1O8UNPqDlxD7C0,11
+bentoutils-0.0.10.dist-info/RECORD,,

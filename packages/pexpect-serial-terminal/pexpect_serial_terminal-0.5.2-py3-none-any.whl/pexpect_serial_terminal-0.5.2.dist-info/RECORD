@@ -1,0 +1,9 @@
+pexpect_serial_terminal/__init__.py,sha256=8GGk7mWTSiZCVwMhMcx1t2kJ3bjlyw_wbhI5LXh6rEk,58
+pexpect_serial_terminal/__main__.py,sha256=PYbo1dUaZYTsTknBQ0PJxJkgWJ1RYnEcDA7ut6AXwC0,5339
+pexpect_serial_terminal/_version.py,sha256=isJrmDBLRag7Zc2UK9ZovWGOv7ji1Oh-zJtJMNJFkXw,22
+pexpect_serial_terminal/serial_terminal.py,sha256=mhu9bmko6SiqYZyowwWSwZWG4bT4agUb6qbUMwiLdIg,2254
+pexpect_serial_terminal-0.5.2.dist-info/LICENSE,sha256=iHVfSMGHnnmau6VV4SvC-SNFo6__fuxr4_WBkQdDsZ4,1078
+pexpect_serial_terminal-0.5.2.dist-info/METADATA,sha256=DG9ySEf0LTP78Zh5BJdTln9jT0jJDq8YWAPxpoleoJg,3597
+pexpect_serial_terminal-0.5.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pexpect_serial_terminal-0.5.2.dist-info/top_level.txt,sha256=QPjD6Lyc4aF8zdfPvGQmqwQixcDUsXYCjVFtoflkJ2k,24
+pexpect_serial_terminal-0.5.2.dist-info/RECORD,,

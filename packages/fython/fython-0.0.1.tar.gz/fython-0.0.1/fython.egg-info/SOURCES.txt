@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fython/__init__.py
+fython/foptional.py
+fython.egg-info/PKG-INFO
+fython.egg-info/SOURCES.txt
+fython.egg-info/dependency_links.txt
+fython.egg-info/top_level.txt

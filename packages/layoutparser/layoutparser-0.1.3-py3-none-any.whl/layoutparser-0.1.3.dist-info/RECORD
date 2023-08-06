@@ -1,0 +1,13 @@
+layoutparser/__init__.py,sha256=0yrLmmZ9dG2YXjMiAuuq8yM2QcZ8cKPCn71hnf7dKqc,312
+layoutparser/elements.py,sha256=m8Lzy4WECxhjWARkbQ41E3tR1tfnwqiaGZ6Gid0uQCA,46932
+layoutparser/ocr.py,sha256=pQRzQ-H1pek5t2rNH659SWIUkgynO7aaeXZ6JMLEmsc,16728
+layoutparser/visualization.py,sha256=hmyxskynGeNaTZd6QZAQmjaIcMm7f1kiqI7r1QNNUOs,12308
+layoutparser/misc/NotoSerifCJKjp-Regular.otf,sha256=BqFSzzisJKQG2KSsgROQkuqrNiwHqIDvjrmPVJc6t9E,23607780
+layoutparser/models/__init__.py,sha256=5P3Ryd95T0NSAj-g0hkuQHkE92UPaGtG_MKneWnOVCE,235
+layoutparser/models/catalog.py,sha256=5h8kNV7k9PVBMGIiRaRyrUx_oEaTlyD01BaeXzizMJo,3105
+layoutparser/models/layoutmodel.py,sha256=sgbwWFvJ7-OEIl7mKZIsn09JzFhbZ4Z-6FSTb2HfCgI,4674
+layoutparser-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+layoutparser-0.1.3.dist-info/METADATA,sha256=KaWD2SRVENmMH_nbfZYs50qZPldlYi3ja3-UHVQPzEw,4839
+layoutparser-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+layoutparser-0.1.3.dist-info/top_level.txt,sha256=iFU1TeYXJ0p3IPcOaR-Ww84gM6yfA84s2RKhMRWP9UA,13
+layoutparser-0.1.3.dist-info/RECORD,,

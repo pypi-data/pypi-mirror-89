@@ -1,0 +1,7 @@
+README.md
+setup.py
+alphafold2_pytorch.egg-info/PKG-INFO
+alphafold2_pytorch.egg-info/SOURCES.txt
+alphafold2_pytorch.egg-info/dependency_links.txt
+alphafold2_pytorch.egg-info/requires.txt
+alphafold2_pytorch.egg-info/top_level.txt

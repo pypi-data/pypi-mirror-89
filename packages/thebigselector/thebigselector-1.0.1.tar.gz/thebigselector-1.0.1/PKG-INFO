@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: thebigselector
+Version: 1.0.1
+Summary: A Tkinter text widget based option selector.
+Home-page: https://github.com/kantal/thebigselector
+Author: Antal Koós
+Author-email: k2osgak@gmail.com
+License: MIT
+Project-URL: Doc and source, https://github.com/kantal/thebigselector
+Description: # THE BIG SELECTOR BOX
+        
+        ## A Tkinter text widget based option selector
+        
+        -----
+        
+        ![](https://github.com/kantal/thebigselector/blob/main/docs/screenshot-1.png)
+        ![](https://github.com/kantal/thebigselector/blob/main/docs/screenshot-2.png)
+        
+        Install: `pip install thebigselector`
+        
+        Tested on Python 3.8, it should work on a higher version as well.
+        
+        For the details see:
+        
+          - [docs](https://github.com/kantal/thebigselector/blob/main/docs/Use.md)
+          - [demos](https://github.com/kantal/thebigselector/tree/main/demos)
+        
+Keywords: tkinter,graphics,widget
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

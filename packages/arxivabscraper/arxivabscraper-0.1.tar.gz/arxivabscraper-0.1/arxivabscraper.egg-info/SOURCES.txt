@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+arxivabscraper.egg-info/PKG-INFO
+arxivabscraper.egg-info/SOURCES.txt
+arxivabscraper.egg-info/dependency_links.txt
+arxivabscraper.egg-info/top_level.txt
+arxivabsscraper/__init__.py
+arxivabsscraper/arxivabsscraper.py

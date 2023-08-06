@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pynky/__init__.py
+pynky/poset.py
+pynky.egg-info/PKG-INFO
+pynky.egg-info/SOURCES.txt
+pynky.egg-info/dependency_links.txt
+pynky.egg-info/not-zip-safe
+pynky.egg-info/top_level.txt

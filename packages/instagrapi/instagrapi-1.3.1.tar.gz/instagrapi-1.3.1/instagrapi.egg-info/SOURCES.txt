@@ -1,0 +1,14 @@
+README.md
+setup.py
+instagrapi/__init__.py
+instagrapi/config.py
+instagrapi/exceptions.py
+instagrapi/extractors.py
+instagrapi/story.py
+instagrapi/types.py
+instagrapi/utils.py
+instagrapi.egg-info/PKG-INFO
+instagrapi.egg-info/SOURCES.txt
+instagrapi.egg-info/dependency_links.txt
+instagrapi.egg-info/requires.txt
+instagrapi.egg-info/top_level.txt

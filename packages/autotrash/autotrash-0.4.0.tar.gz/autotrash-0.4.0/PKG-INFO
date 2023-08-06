@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autotrash
+Version: 0.4.0
+Summary: Script to automatically purge old trash
+License: GPLv3
+Author: A. Bram Neijt
+Author-email: bram@neijt.nl
+Requires-Python: >=3.6
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: arrow (>=0.17.0,<0.18.0)

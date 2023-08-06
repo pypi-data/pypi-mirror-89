@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+sepya/__init__.py
+sepya/misc.py
+sepya/text.py
+sepya/utils.py
+sepya.egg-info/PKG-INFO
+sepya.egg-info/SOURCES.txt
+sepya.egg-info/dependency_links.txt
+sepya.egg-info/not-zip-safe
+sepya.egg-info/top_level.txt

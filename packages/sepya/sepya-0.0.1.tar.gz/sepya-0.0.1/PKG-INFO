@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sepya
+Version: 0.0.1
+Summary: Utils to work with images.
+Home-page: https://github.com/thorwhalen/ut/tree/master/sepya
+Author: Thor Whalen
+License: mit
+Description: 
+        # sepya
+        Utils to work with images.
+        
+        
+        To install:	```pip install sepya```
+        
+Platform: any
+Description-Content-Type: text/markdown

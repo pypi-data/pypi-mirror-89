@@ -1,0 +1,3 @@
+[console_scripts]
+xotes = xotes.__main__:main
+

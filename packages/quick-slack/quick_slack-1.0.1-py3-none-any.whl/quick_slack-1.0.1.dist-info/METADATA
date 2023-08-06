@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: quick-slack
+Version: 1.0.1
+Summary: CLI tool to send message to mornitor status, notify process end, etc by slack.
+Home-page: https://github.com/psj8252/quick-slack.git
+Author: Park Sangjun
+License: UNKNOWN
+Keywords: slack,message
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: psutil
+
+# Quick slack
+
+- CLI tool to send message to mornitor status, notify process end, etc by slack.
+
+

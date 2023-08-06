@@ -1,0 +1,5 @@
+Django>=2.2
+ambition-django-timezone-field>=2.0.4
+fleming>=0.6.0
+python-dateutil
+pytz

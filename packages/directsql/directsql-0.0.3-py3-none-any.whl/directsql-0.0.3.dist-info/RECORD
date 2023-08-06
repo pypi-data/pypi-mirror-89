@@ -1,0 +1,9 @@
+directsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+directsql/connector.py,sha256=VR_zo5bKaYAyf1FIJsrj15lG7VDIFgclvvdUisAFCLA,9545
+directsql/sqlgenerator.py,sha256=YPl8zFhg9PGIJXM7ngF_3nNK8SOmmuQqrnceqxVuW44,7932
+directsql/test.py,sha256=nfAcDfEN8y0l_HbzY6Q2UAxszNNYgfD_ioW2UDyN43Y,870
+directsql-0.0.3.dist-info/LICENSE,sha256=cbhDh3z3fBLAuXyJ0O1sXAS4zqeOlAzouXovs-GLO4k,1065
+directsql-0.0.3.dist-info/METADATA,sha256=kLX3eDPkQdbfykVizL2tIE0u8pIz3h4ZhWhwDzQ0TUo,266
+directsql-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+directsql-0.0.3.dist-info/top_level.txt,sha256=jX456KT_Zor5kUAo3soDn3_NB54OWcngxLaY3nTFivo,10
+directsql-0.0.3.dist-info/RECORD,,

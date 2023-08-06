@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: directsql
+Version: 0.0.3
+Summary: hello world ,hello me
+Home-page: https://github.com/lishukan/directsql
+Author: surecanlee
+Author-email: lishukan@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: DBUtils (>=1.13.0)
+
+UNKNOWN
+
+

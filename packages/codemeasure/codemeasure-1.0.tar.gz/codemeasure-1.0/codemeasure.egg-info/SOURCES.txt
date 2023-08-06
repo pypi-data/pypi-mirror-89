@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+codemeasure/__init__.py
+codemeasure.egg-info/PKG-INFO
+codemeasure.egg-info/SOURCES.txt
+codemeasure.egg-info/dependency_links.txt
+codemeasure.egg-info/top_level.txt

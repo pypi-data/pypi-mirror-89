@@ -1,0 +1,3 @@
+[console_scripts]
+qslack = quick_slack.cli:qslack
+

@@ -1,0 +1,10 @@
+quick_slack/__init__.py,sha256=sq7iWPo9XPdnZ2Okm0Wr_12GGcXoeaUBihEgjWgwjB0,61
+quick_slack/cli.py,sha256=D636CzT5-zowp3Sdw6yQhTSohlojUfS-G0DF_0qcJ3w,7977
+quick_slack/config.json,sha256=TZJTvmGn3HAyN7ifIHfc25_WQib0hfM72u2laOPsUYA,90
+quick_slack/low_api.py,sha256=DgejphLcwS4nd2PY11-GVG3MnB2cmKw8om5d9cu8pXs,4874
+quick_slack/utils.py,sha256=uqTWq8mWczdpA8TUR4RmFnQyxxT2UYd84sybjE5SvBk,885
+quick_slack-1.0.2b0.dist-info/METADATA,sha256=AnnBP0qjVB4vfrrV4f_iAecBCOqoLlBmlwpbwyH8PeY,9092
+quick_slack-1.0.2b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quick_slack-1.0.2b0.dist-info/entry_points.txt,sha256=kfFtb5Go9IxgB-8cU8tsqWYmMr4AC34ovHOomvKiXpA,51
+quick_slack-1.0.2b0.dist-info/top_level.txt,sha256=iKAa7bRzZgQN-_irxz9fn2Ic3lfxrZZba9swa-ZK74Q,12
+quick_slack-1.0.2b0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+README.md
+setup.py
+datadistributions/__init__.py
+datadistributions/binomialDistribution.py
+datadistributions/distribution.py
+datadistributions/gaussianDistribution.py
+datadistributions.egg-info/PKG-INFO
+datadistributions.egg-info/SOURCES.txt
+datadistributions.egg-info/dependency_links.txt
+datadistributions.egg-info/not-zip-safe
+datadistributions.egg-info/top_level.txt

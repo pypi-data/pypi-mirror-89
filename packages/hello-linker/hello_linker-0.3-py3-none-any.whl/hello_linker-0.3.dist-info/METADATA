@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hello-linker
+Version: 0.3
+Summary: A Python Library For KamiblockAI
+Home-page: UNKNOWN
+Author: devdio
+Author-email: kei.devdio@gmail.com
+License: UNKNOWN
+Keywords: Kamibot,KamiblockAI,Robot,KamiLink
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: python-socketio (==4.6.1)
+Requires-Dist: keyboard
+
+# HelloLinker
+
+Type the 'q' character to disconnect from the server.
+
+
+```python
+from hello_linker.kaminet import KamiNet
+
+def rcv_msg(user, msg):
+    print(f"user:{user}, msg:{msg}")
+
+
+net = kn.KamiNet("127.0.0.1", rcv_msg)
+net.open()
+```
+
+

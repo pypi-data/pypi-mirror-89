@@ -1,0 +1,12 @@
+NERDA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NERDA/datasets.py,sha256=7fixYpytYOBriabwtxAe76_5Jev7ZeFR71Yx45n3ciE,1535
+NERDA/models.py,sha256=kBwb6t-bhCrgvu_LsLs90VrLMCJw1iryB7dYWHwJWUc,4652
+NERDA/networks.py,sha256=OpRRn8_tYIi2XUJ9D9ELuPa6be18liyXYEksfyTXG6w,970
+NERDA/predictions.py,sha256=IzfroP-S4c4EKkqbgqXy-bSiY_Wihx6JpbzHX5gbMLI,3508
+NERDA/preprocessing.py,sha256=MtsQkw9GI8jfUsZW1XOknmODOHY9GgUk3KBBSCOzdd0,3135
+NERDA/training.py,sha256=IwoywELtTyALm31lcaw7vl9x5q1W93rH7pKTY3j5yRY,6577
+NERDA-0.0.5.dist-info/LICENSE,sha256=R9OSNC-u_MCvdKW5H9AdTGiIoq4UguoZHYLQsLk2D3c,1074
+NERDA-0.0.5.dist-info/METADATA,sha256=tGA9FuCNPPVC9xZgXUPcwyJyVcQi61CLvow-0M-IBFA,1149
+NERDA-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+NERDA-0.0.5.dist-info/top_level.txt,sha256=DW64I4Z08r28XyLsUnatqu-914nlSx-lfv9akrWI3lw,6
+NERDA-0.0.5.dist-info/RECORD,,

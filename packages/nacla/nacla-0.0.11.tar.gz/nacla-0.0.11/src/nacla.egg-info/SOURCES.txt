@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+src/nacla.egg-info/PKG-INFO
+src/nacla.egg-info/SOURCES.txt
+src/nacla.egg-info/dependency_links.txt
+src/nacla.egg-info/top_level.txt

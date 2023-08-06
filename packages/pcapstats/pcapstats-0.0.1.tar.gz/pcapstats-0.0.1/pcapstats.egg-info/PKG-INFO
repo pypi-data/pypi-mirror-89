@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pcapstats
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/sanaakhelloqi/pcapstats
+Author: Sanaa Khelloqi
+Author-email: sanaa.khelloqi@stud-mail.uni-wuerzburg
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: pcap,network,network traffic
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

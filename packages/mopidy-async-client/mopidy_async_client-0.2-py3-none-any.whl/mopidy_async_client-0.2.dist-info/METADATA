@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mopidy-async-client
+Version: 0.2
+Summary: Async Mopidy Client via JSON/RPC Websocket interface
+Home-page: https://github.com/SvineruS/mopidy_async_client
+License: UNKNOWN
+Author: svinerus
+Author-email: svinerus@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Mopidy-Async-Client 
+
+### Fork of [Mopidy-json-client](https://github.com/ismailof/mopidy-json-client), but from scratch and async
+
+
+Async Mopidy Client via JSON/RPC Websocket interface
+
+## Usage
+
+mopidy-async-client provides a main class `MopidyClient`, which manages the connection and methods to the Mopidy Server.
+Use the `bind_event` function to subscribe to mopidy events.
+
+```python
+from mopidy_async_client import MopidyClient
+
+
+async def main():
+    async with MopidyClient() as mopidy:
+        mopidy.bind_event('track_playback_started', print_track_info)
+        await mopidy.playback.play()
+```
+
+## Installation
+
+ `pip install mopidy-async-client`
+
+
+## References
+- [Mopidy Core API](https://mopidy.readthedocs.org/en/latest/api/core)
+

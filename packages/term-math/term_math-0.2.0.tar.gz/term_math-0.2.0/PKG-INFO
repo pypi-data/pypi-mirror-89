@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: term_math
+Version: 0.2.0
+Summary: Add, subtract, multiply, divide with terminal
+Home-page: https://github.com/bgala/term_math
+Author: Bhavin Gala
+Author-email: bhavinpgala@gmail.com
+License: MIT License
+Description: # term_math
+        
+        Add, subtract, multipy, divide 2 numbers in command line
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

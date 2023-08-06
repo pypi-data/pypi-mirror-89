@@ -1,0 +1,9 @@
+enumagic/__init__.py,sha256=eLlUimLtJQo6fGuUl_U4CYJfBUUPd6V2uR7RcsYuAc0,1096
+enumagic/_iter.py,sha256=iXxVux1VD3yUVEFnE0l5T4piVGMV-O8-IbKjgbq67oY,2747
+enumagic/_mapping.py,sha256=yqLHMhxbl8xIdXc4qUgs3QE-pIute9Z3orm3x0TQOa4,5142
+enumagic/_str.py,sha256=fuNhYGwpjfCZf5WpyqGrrjMnUtt6gxqoNlrEBh9mXxc,1548
+enumagic/django.py,sha256=utzuBJSB6gequjse5H0UNzx-Kze2zG98ofgpLkfNle8,4958
+enumagic-0.1.1.dist-info/LICENSE.rst,sha256=tg7sDFksTLgzu1iFWWWz7fuVF_Zm9T0nLupwzr5BMfY,860
+enumagic-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+enumagic-0.1.1.dist-info/METADATA,sha256=oHSl_UcWrpq03tHGLbzvifOCX4HKU1iRqdPTz--hSjw,2222
+enumagic-0.1.1.dist-info/RECORD,,

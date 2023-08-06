@@ -1,0 +1,14 @@
+test/__init__.py,sha256=ylqn_7ZUBSvDGSPIaXaxgvgxUfylpW0_O4D8jIp_ur8,36
+test/test_parser.py,sha256=hrHYaRr0eqRHM2vTRSWmualq8FqurxERtUtNGCx1tY4,1990
+version_updater/__init__.py,sha256=oK50WOL14T_l4DTEp7uOmZ_np3CnfJlnZTGQNO5rFFA,168
+version_updater/main.py,sha256=x4SOR7lWTZcXtfeF_Qo9jbFdd7GSyhdwrfXiIlvGcDM,2152
+version_updater/package_parser.py,sha256=c-2a-H--9usOyW-LnQ2qLi0Emq3CDOqdnbwpTjb5hJg,747
+version_updater/parser.py,sha256=t0F62O1vA6CrrmMOaiUVSRtKqHveYaBmA34ZQjPEat8,919
+version_updater/requirements_parser.py,sha256=1aHbAOScHGDWDiFC2reETIO6IJ5ysbaQu0rmfeeUvaw,839
+version_updater/setup_parser.py,sha256=Is7jzoGKCFPk78-VEmj_jwj8jMuolZZOGZAutVk03BI,1586
+version_updater/yaml_parser.py,sha256=mo_fRTdaWXv-FhFKI_8Gm2PnnUslMqghdVkWkqRVjig,921
+version_updater-0.0.4.dist-info/METADATA,sha256=Y9PdbVXJaPw2qdrvTttKocafls_qnmW15YXEWM7ilJw,1785
+version_updater-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+version_updater-0.0.4.dist-info/entry_points.txt,sha256=QIVvhLa6FOgXCoXhoOT2EpNM4k4pGUyDdVyG5BiSA6g,62
+version_updater-0.0.4.dist-info/top_level.txt,sha256=sphAZCWjp31hYGj_0ykehoDbi_RV7jcEibjy-rQemYs,21
+version_updater-0.0.4.dist-info/RECORD,,

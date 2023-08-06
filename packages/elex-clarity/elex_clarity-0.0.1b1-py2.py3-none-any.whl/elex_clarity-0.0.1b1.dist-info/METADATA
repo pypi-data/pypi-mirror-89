@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: elex-clarity
+Version: 0.0.1b1
+Summary: A CLI for pulling in election results from Clarity
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (<8)
+Requires-Dist: requests (<3)
+Requires-Dist: python-dateutil
+Requires-Dist: python-slugify
+Requires-Dist: xmltodict
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: betamax ; extra == 'dev'
+Requires-Dist: betamax-serializers ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pycodestyle ; extra == 'tests'
+Requires-Dist: betamax ; extra == 'tests'
+Requires-Dist: betamax-serializers ; extra == 'tests'
+
+elex-clarity
+============
+
+A CLI tool for pulling in election results from sites using Clarity.
+
+
+Usage
+-----
+
+Examples:
+^^^^^^^^^
+
+Pulling raw data:
+
+* ``elexclarity 105369 GA --outputType=summary --style=raw``
+* ``elexclarity 105369 GA --outputType=settings --style=raw``
+* ``elexclarity 105369 GA --level=precinct --style=raw``
+
+Getting formatted settings:
+
+* ``elexclarity 105369 GA --outputType=settings --officeID=P``
+
+Pulling formatted results:
+
+Note: these require that you pass in county mapping as a JSON object. Sample formats can be found in the ``tests/fixtures`` folder `here <https://github.com/washingtonpost/elex-clarity/tree/develop/tests/fixtures/mappings>`_.
+
+* ``elexclarity 105369 GA --level=precinct --countyMapping='{"Worth": "13321"}'``
+* ``elexclarity 105369 GA --level=precinct``
+* ``elexclarity 105369 GA --level=county``
+* ``elexclarity 106210 WV --level=county --countyMapping='<mapping json>'``
+* ``elexclarity 105369 WV --level=state``
+
+Using a local file:
+
+* ``elexclarity 105369 GA --level=precinct --filename="tests/fixtures/results/ga_atkinson_precincts_11-3.xml" --countyMapping='<mapping json>'``
+* ``elexclarity 105369 GA --level=county --filename="tests/fixtures/ga_counties_11-3.xml" --countyMapping='<mapping json>'``
+
+Installation
+~~~~~~~~~~~~
+
+* Ideally, set up a virtualenv and activate it (http://virtualenvwrapper.readthedocs.io/en/latest/)
+* ``pip install -e . [dev]``
+
+

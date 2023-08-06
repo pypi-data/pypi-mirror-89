@@ -1,0 +1,9 @@
+gistcafe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gistcafe/inspect.py,sha256=fGxEXPn2uUf8pawyRVPbkjfYFWuNdogchDMZW3WHMhg,2192
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=LhT4g_5DCm4HeCR5NuicyRmqlJ5C5iBNzhaClQh2rrE,1086
+gistcafe-0.0.3.dist-info/LICENSE,sha256=Phf3laKRIKye-8VxaRz_8mKXU88dZSrJIcGtNhZ6ezU,1573
+gistcafe-0.0.3.dist-info/METADATA,sha256=U-kOFI6RomC1xuEeiK2PnWJyaLQ89uggCIUnSpWdTuw,3865
+gistcafe-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gistcafe-0.0.3.dist-info/top_level.txt,sha256=_2GX8feIb166fDJ0-3yL_cjIqgAs_vvs467HVVGiTvI,15
+gistcafe-0.0.3.dist-info/RECORD,,

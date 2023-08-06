@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: lonely
+Version: 0.0.5
+Summary: A lonely package management tool.
+Home-page: https://github.com/lonelyPale/lonely
+Author: lonelypale
+Author-email: lonelypale@126.com
+License: Apache
+Description: ============
+        lonely tools
+        ============
+         
+        This project provides a lonely tools for packaging and distributing python application.
+        
+Keywords: lonely tools
+Platform: UNKNOWN
+Requires-Python: >=3

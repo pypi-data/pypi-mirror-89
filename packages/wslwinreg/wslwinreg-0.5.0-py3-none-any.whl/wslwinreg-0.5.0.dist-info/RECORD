@@ -1,0 +1,10 @@
+wslwinreg/__init__.py,sha256=XbB7UmiL0Crqo5S2fZxsMoLr7EEz5Oceu3VIqxvFS68,3668
+wslwinreg/common.py,sha256=uvQdeCN8Hfpl9wTh3FYk8TVqPmYLiAm2diYmXfLvJlc,21586
+wslwinreg/cygwinapi.py,sha256=hxC0GDedRX3esUjoyz9BXpL_EezMaeMgWyo3vEZbOcg,40379
+wslwinreg/nullapi.py,sha256=1EG07PBpIQHqd202-YKiTI_bO1rftjQLCT6pErv8fsA,5498
+wslwinreg/wslapi.py,sha256=DpiDtDmpROfI5iWiW6VMkw9YFP3IBE2YCElwNepuhVs,933
+wslwinreg-0.5.0.dist-info/LICENSE.txt,sha256=-yW-YtFGbnAdONoKfCNO9UNy6_X98vDEfqLIIZCxav8,1669
+wslwinreg-0.5.0.dist-info/METADATA,sha256=vna4_WF7a4xjL10hJfPc7KLH2EMGDRriZm-Ld61CWbo,3029
+wslwinreg-0.5.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+wslwinreg-0.5.0.dist-info/top_level.txt,sha256=GmjNWik1sHEi20gMiMFY2FfCn7uAGwsCA4y-Rrbls5k,10
+wslwinreg-0.5.0.dist-info/RECORD,,

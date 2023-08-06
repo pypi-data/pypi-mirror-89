@@ -1,0 +1,14 @@
+numpy
+pandas
+pillow
+rapidfuzz
+scikit-image
+
+[easyocr]
+easyocr
+
+[tesseract]
+pytesseract
+
+[winrt]
+winrt==1.0.20239.1

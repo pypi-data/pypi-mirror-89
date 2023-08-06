@@ -1,0 +1,11 @@
+README.md
+setup.py
+PdfCC.egg-info/PKG-INFO
+PdfCC.egg-info/SOURCES.txt
+PdfCC.egg-info/dependency_links.txt
+PdfCC.egg-info/entry_points.txt
+PdfCC.egg-info/requires.txt
+PdfCC.egg-info/top_level.txt
+pdfcc/__init__.py
+pdfcc/logger.py
+pdfcc/pdfcc.py

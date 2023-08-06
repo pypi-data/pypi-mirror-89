@@ -1,0 +1,52 @@
+{
+  "name": "pagination",
+  "module": {},
+  "type": "",
+  "meta": {
+    "count": {
+      "title": "记录总数",
+      "type": {
+        "integer": {}
+      }
+    },
+    "page": {
+      "title": "页码",
+      "type": {
+        "integer": {}
+      }
+    },
+    "page_size": {
+      "title": "页面大小",
+      "type": {
+        "integer": {}
+      }
+    },
+    "next": {
+      "title": "下一页链接",
+      "type": {
+        "string": {}
+      }
+    },
+    "previous": {
+      "title": "上一页链接",
+      "type": {
+        "string": {}
+      }
+    },
+    "results": {
+      "title": "响应数据",
+      "type": {
+        "array": {
+          "array_item": "items"
+        }
+      }
+    },
+    "items": {
+      "title": "响应数据中的元素",
+      "type": {
+        "any": {}
+      }
+    }
+  },
+  "api": {}
+}

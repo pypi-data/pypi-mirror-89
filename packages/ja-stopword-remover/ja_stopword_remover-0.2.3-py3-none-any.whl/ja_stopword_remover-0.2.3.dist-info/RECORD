@@ -1,0 +1,7 @@
+ja_stopword_remover/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ja_stopword_remover/remover.py,sha256=s5VBw4sLNaRUBv8r6OkFSMPE7Ozg06acVPecT_742wU,3286
+ja_stopword_remover/stop_words.py,sha256=O8XvhnETmK1RO-R86cxvBCm3153UUII5f8oI2OlDFd8,21165
+ja_stopword_remover-0.2.3.dist-info/METADATA,sha256=0tEhTrTwPFUICil6MmhYFmz2DVRTB30AwSeMtyRQWt0,682
+ja_stopword_remover-0.2.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+ja_stopword_remover-0.2.3.dist-info/top_level.txt,sha256=62TH3eQH15P4QtxRafrx7Y4MqbRhPI7WSdmE7YBl740,20
+ja_stopword_remover-0.2.3.dist-info/RECORD,,

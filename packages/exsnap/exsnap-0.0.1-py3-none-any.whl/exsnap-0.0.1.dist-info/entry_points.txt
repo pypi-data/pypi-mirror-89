@@ -1,0 +1,3 @@
+[console_scripts]
+exsnap = exsnap.__main__:exsnap
+

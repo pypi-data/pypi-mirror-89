@@ -1,0 +1,13 @@
+numpy
+opencv-python
+pandas
+pillow
+pyyaml>=5.1
+torch
+torchvision
+pycocotools==2.0.1
+fvcore==0.1.1.post20200623
+
+[ocr]
+google-cloud-vision==1
+pytesseract

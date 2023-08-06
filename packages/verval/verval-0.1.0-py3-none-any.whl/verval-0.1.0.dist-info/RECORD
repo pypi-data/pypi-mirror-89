@@ -1,0 +1,9 @@
+LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+README.md,sha256=MImuOOwMUXYe7Vo2r3dvpmofV3Mo40fT06qB8ulGcvI,52
+verval/__init__.py,sha256=aodS1gq0t9nNRYBIu6IlaV8nMlhgUR8XEBKjgaXUC0U,42
+verval/__main__.py,sha256=Qg3KCyiE2nRLM5a5rvv9wQXXUxlYQxZMZJnLQGQYqOg,67
+verval/version.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+verval-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+verval-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+verval-0.1.0.dist-info/METADATA,sha256=6sc2UtKy2emea_vB9UZZYUPxF7YwSANytxL5oSjAPH0,758
+verval-0.1.0.dist-info/RECORD,,

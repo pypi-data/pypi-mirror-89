@@ -1,0 +1,4 @@
+exclude experiments
+exclude data
+exclude test
+include requirements.txt

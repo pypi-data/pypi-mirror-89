@@ -1,0 +1,10 @@
+gender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gender/getGender.py,sha256=NiOglyVa98s2QjA3WVeJs0If0sujv3UFlXVkPZzD2HA,1476
+gender/src/mlData/idf.pickle,sha256=2ZZp-w1GlOS26ZownzS1zePASInsrDqxsJ6rGNXcyrk,125804
+gender/src/mlData/model.pkl,sha256=83GfoNMMhrwt_HvKEjmL1iV2aBYxMrqBcct423b7lV4,6973114
+gender/src/mlData/vectorizer.pickle,sha256=VHriSd-ERaN6evAfgHYOyBRByKF5j_-azKPpbi8a9X0,147808
+python_gender-0.0.3.8.dist-info/LICENSE,sha256=fvqvg5QZRomZGOBLW4NYqt3ujvwpSEgQJXrALAqPnHI,1067
+python_gender-0.0.3.8.dist-info/METADATA,sha256=w7OgJQCc7ZYoOhlXR5VXcKnbrCcrHWW_TUaJfiabt7M,537
+python_gender-0.0.3.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_gender-0.0.3.8.dist-info/top_level.txt,sha256=fKwSiA2PkxI_5LJFS_izaPUh1dRfeIPMdYT4Sumr5po,7
+python_gender-0.0.3.8.dist-info/RECORD,,

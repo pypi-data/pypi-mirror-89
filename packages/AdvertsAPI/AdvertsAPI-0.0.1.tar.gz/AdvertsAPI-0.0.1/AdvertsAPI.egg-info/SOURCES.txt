@@ -1,0 +1,12 @@
+README.md
+setup.py
+AdvertsAPI/__init__.py
+AdvertsAPI/_version.py
+AdvertsAPI/ad_info.py
+AdvertsAPI/category.py
+AdvertsAPI/product_info.py
+AdvertsAPI/utils.py
+AdvertsAPI.egg-info/PKG-INFO
+AdvertsAPI.egg-info/SOURCES.txt
+AdvertsAPI.egg-info/dependency_links.txt
+AdvertsAPI.egg-info/top_level.txt

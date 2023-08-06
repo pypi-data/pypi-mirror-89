@@ -1,0 +1,13 @@
+README.md
+setup.py
+python_trader/__init__.py
+python_trader/csv_parser.py
+python_trader/df_tools.py
+python_trader/indicators.py
+python_trader/strategy.py
+python_trader/trader.py
+python_trader.egg-info/PKG-INFO
+python_trader.egg-info/SOURCES.txt
+python_trader.egg-info/dependency_links.txt
+python_trader.egg-info/requires.txt
+python_trader.egg-info/top_level.txt

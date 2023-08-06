@@ -1,0 +1,275 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import time
+from watchdog.observers import Observer
+from watchdog.events import PatternMatchingEventHandler
+from PIL import Image
+from PIL.ExifTags import TAGS 
+import yaml
+import shutil
+import subprocess
+import argparse
+
+def main():
+    
+    parser = argparse.ArgumentParser()
+    
+    parser.add_argument('-c', '--configure', action='store_true',help="Used to enter configuration of config.yml file")
+    parser.add_argument('-s', '--start',action='store_true',help="Starts the script as CLI program if service config is false. Starts systemd Daemon if service config is true")
+    parser.add_argument('-sh','--show',action='store_true',help="Shows the current configuration")
+    parser.add_argument('-ser','--service',action='store_true',help="Starts the command for the systemd service. Intended to be used by metaClean.service, however can be used to start instance like -s if you wish to start a stand alone instance")
+    
+    arg, unknown = parser.parse_known_args()
+
+    
+    if arg.service == True:
+        eventWatcher.start(config().watchedDir,config().recursiveStat)
+        quit()
+        
+    if arg.configure == True:
+        print("Current configuration")
+        print("-")
+        print("Watched Directory: " + config().watchedDir)
+        print("Recursion: " + config().recursiveStat)
+        print("Systemctl Service " + config().serviceStat)
+        print("User: " + config().user)
+        print("-")
+        print("Setting Up MetaClean")
+        print("-")
+        setup.setDir()
+        setup.setRec()
+        setup.setSer()
+        setup.setUser()
+        config.write(setup.cfg)
+
+    
+    if arg.start == True:         
+        if os.path.isdir(config().watchedDir) == False:
+            print("No Valid Directory Set to Watch")
+            setup.setDir()
+            return
+        if os.path.isdir(config().watchedDir) == True:
+            if config().serviceStat == 'True':
+                print("-")
+                print("Starting systemctl service metaClean.service")
+                print("-")
+                service.start()
+            elif config().serviceStat == 'False':
+                print("Starting metaCleaner")
+                eventWatcher.start(config().watchedDir,config().recursiveStat)
+
+    
+    if arg.show == True:
+            #Print off current config for user. 
+        print("Current configuration")
+        print("-")
+        print("Watched Directory: " + config().watchedDir)
+        print("Recursion: " + config().recursiveStat)
+        print("Systemctl Service: " + config().serviceStat)
+        print("User: " + config().user)
+
+        
+##### Start Config Class#####
+class config():    
+    def __init__(self):
+        #Check and assign file path for config.yml. Added in try and pass exception for Daemon to load up. If no file is found, it just passes on. Need to fix this in another iteration. 
+        try: 
+            user = str(os.environ["USER"])
+            if os.path.isfile("metaCleanConfig/config.yml") == True:
+                self.cfgPath = "metaCleanConfig/config.yml"
+    
+            if os.path.isfile("/home/"+user+"/.local/metaCleanConfig/config.yml") == True:
+                self.cfgPath = "/home/"+user+"/.local/metaCleanConfig/config.yml"
+            
+            with open(self.cfgPath,"r") as f:
+                self.cfg = yaml.load(f,Loader=yaml.SafeLoader)
+                f.close()
+            self.watchedDir = str(self.cfg['var']['watchedDir'])
+            self.serviceStat = str(self.cfg['var']['service'])
+            self.recursiveStat = str(self.cfg['var']['recursive'])
+            self.user = str(self.cfg['var']['user'])
+        except Exception:
+            pass 
+        
+    def write(cfg):
+        with open(config().cfgPath,'w') as f: #Open config.yml as write
+                yaml.dump(cfg,f) #Write the new config with user input as watchedDir
+                f.close()
+
+##### End Config Class #####
+
+##### Start Setup Class#####
+#Class set up to edit config file. Used to input dir to monitor and whether a service will be made or not. 
+class setup():
+    #Another try except pass for daemon to work. If user is not found and config file not found, it just passes on. Daemon fails. Need to fix in another iterantion.  
+    try: 
+        cfg = config().cfg
+    except Exception:
+        pass
+    
+    def setDir():
+        #ask what directory the user wants to monitor
+        watchedDir = input("Input the directory you wanted watched: ")
+        
+        if os.path.isdir(watchedDir) == True:
+            setup.cfg['var']['watchedDir'] = watchedDir
+        else:
+            print("Error: Entered path is not valid")
+            setup.setDir()
+            
+    def setRec():
+        rec = input("Enable Recursivity? (y/n) Default n: ")
+        
+        #Based on user input, set rec var to true or false
+        if rec == 'y': 
+            rec = True
+        elif rec == 'n' or rec == '':
+            rec = False
+        else:
+            print("Error: Please enter y or n")
+            setup.setRec()
+            
+        setup.cfg['var']['recursive'] = rec  
+    
+    def setSer():
+        ser = input("Create systemctl service? *Requires root privileges (y/n) Default n: ")
+        
+        #Based on user input, set sysD var to true or false
+        if ser == 'y':
+            ser = True
+            service.create()
+        elif ser == 'n' or ser == '':
+            ser = False
+        else:
+            print("Error: Please enter y or n")
+            setup.setSer()
+        
+        setup.cfg['var']['service'] = ser
+    def setUser():
+        usr = str(os.getlogin())
+        setup.cfg['var']['user'] = usr
+
+##### End Setup Class ##### 
+    
+##### Start Service Class #####
+    #creates the service file from the template metaClean.service.org
+class service():
+    def create():
+        #Check and assign file path for config.yml
+        if os.path.isfile("metaCleanConfig/metaClean.service.org") == True:
+            svcPathOrg = "metaCleanConfig/metaClean.service.org"
+            svcPath = "metaCleanConfig/metaClean.service"
+        if os.path.isfile("/home/"+str(os.getlogin())+"/.local/metaCleanConfig/metaClean.service.org") == True:
+            svcPathOrg = "/home/"+str(os.getlogin())+"/.local/metaCleanConfig/metaClean.service.org"
+            svcPath = "/home/"+str(os.getlogin())+"/.local/metaCleanConfig/metaClean.service"
+        
+        exPath = str(os.path.realpath(__file__)) #gets the full path this script is run in
+        exStart = '/usr/bin/python3 ' + exPath + ' -ser &> /dev/null' #Creates the command to run as the service
+        usr = str(os.getlogin()) #Gets the user that si running the script
+        wrkDir = str(os.getcwd()) #Gets the current working directory
+        
+        #This opens teh metaClean.service.org file (temmplate file) and writes in teh above variables to make the .service file for the user. 
+        with open(svcPathOrg,"r") as fIn:
+            with open(svcPath,"w+") as fOut:
+                for line in fIn: #reads the lines and where the below strings are found, inputs the above variables
+                    line = line.replace("[workingDirectory]",wrkDir) 
+                    line = line.replace("[user]",usr)
+                    line = line.replace("[executableStart]",exStart)
+                    #print(line.rstrip())
+                    fOut.write(line) #Writes out to metaclean.service. 
+                fOut.close() #closes metaClean.service.org
+            fIn.close() #closes metaClean.service
+        
+        mv = "mv "+ svcPath +" /etc/systemd/system;"
+        subprocess.run(['sudo','bash','-c',mv])
+        
+    #Moves the service file metaClean.service to the directory /etc/systemd/system
+    def start():
+        #Need to add a system in place to stop service if already running
+        #mv = "mv config/metaClean.service /etc/systemd/system;"
+        daemon = "systemctl daemon-reload;"
+        enable = "systemctl enable metaClean.service;"
+        start = "systemctl start metaClean.service;"
+        stop = "systemctl stop metaClean.service;"
+        disable = "systemctl disable metaClean.service;"
+        #subprocess.run(['sudo','bash','-c',mv])
+        subprocess.run(['sudo','bash','-c',daemon])
+        subprocess.run(['sudo','bash','-c',stop])
+        subprocess.run(['sudo','bash','-c',disable])
+        subprocess.run(['sudo','bash','-c',start])
+        subprocess.run(['sudo','bash','-c',enable])
+        subprocess.run(['sudo','bash','-c',daemon])
+        #subprocess.run(['sudo','bash','-c',mv])
+        
+##### End Service Class #####       
+        
+##### Starte Event Watcher Class #####
+class eventWatcher():
+    def start(d,r):
+        #Setting variables to use for PatternMatchingEventhandler. 
+        patterns = ["*.jpg","*.jpeg","*.jfif","*.exif","*.tiff","*.gif","*.gmp","*.png"] #what type of file formats it will look for
+        ignore_patterns = "" #What file formats it will ignore  
+        ignore_directories = False #whether it will ignore directories or not
+        case_sensitive = True #Case sensitive for file names or not
+        eventHandler = PatternMatchingEventHandler(patterns,ignore_patterns,ignore_directories,case_sensitive)
+        
+        #When a file is created then call the created function
+        eventHandler.on_created = eventWatcher.created 
+        
+        
+        #Set variables for the observer
+        path = d #Change this to the directory you want to have watch and clean. 
+        rec = r #Recursive true or not
+        obs = Observer() #set observer
+        
+        obs.schedule(eventHandler,path,recursive=rec) 
+        
+        #Start the observer
+        obs.start() 
+        try:
+            while True: #While true, keep doing this
+                time.sleep(1) #Set one second between each observation 
+                #print("obsWorking")
+        except KeyboardInterrupt: #If keyboard interupts. stop the observer 
+            obs.stop()
+            obs.join()
+    
+    def created(event):
+        wipe.meta(event.src_path) #calls function wipe.meta passing in the created file as the image.
+
+##### End EventWatcher Class #####        
+
+##### Start wipe class ##### 
+class wipe():    
+    def meta(image):
+        
+    #Tries to open the image. If it cannot open it, returns Error
+        try: 
+            im = Image.open(image)
+        except IOError as e:
+            print("Error :( " + image + " Not cleaned" )
+            return
+        
+        ##Creates new "clean" image with the image mode and size still in meta data
+        clean = Image.new(im.mode,im.size)
+        ##Puts the mode and size into the new image
+        clean.putdata(list(im.getdata()))
+        ##Saves the clean image with the same name as the origonal If you save with a new name, it creates an infinite loop 
+        clean.save(image)
+
+##### End wipe class #####
+       
+##### Start Help Class #####
+class helpClass():
+    def printHelp():
+        print("Help")
+        print("-c or --config allows you to config the file config.yml.")
+        print("Runing metaClean as a standalone will either enter you in setup if it is your first time or \n run the script based on the parameters you have set in config.yml")
+        quit()
+##### End Help Class#####
+
+if __name__ == "__main__":
+    main()
+##### #####

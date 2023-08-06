@@ -1,0 +1,10 @@
+README.md
+setup.py
+prawvents/__init__.py
+prawvents/main.py
+prawvents.egg-info/PKG-INFO
+prawvents.egg-info/SOURCES.txt
+prawvents.egg-info/dependency_links.txt
+prawvents.egg-info/not-zip-safe
+prawvents.egg-info/requires.txt
+prawvents.egg-info/top_level.txt

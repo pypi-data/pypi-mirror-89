@@ -1,0 +1,10 @@
+README.md
+setup.py
+puppy/__init__.py
+puppy/__main__.py
+puppy/meta_data.py
+puppy_py.egg-info/PKG-INFO
+puppy_py.egg-info/SOURCES.txt
+puppy_py.egg-info/dependency_links.txt
+puppy_py.egg-info/entry_points.txt
+puppy_py.egg-info/top_level.txt

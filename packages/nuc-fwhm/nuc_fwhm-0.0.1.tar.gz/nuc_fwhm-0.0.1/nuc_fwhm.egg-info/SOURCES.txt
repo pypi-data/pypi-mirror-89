@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg/__init__.py
+nuc_fwhm.egg-info/PKG-INFO
+nuc_fwhm.egg-info/SOURCES.txt
+nuc_fwhm.egg-info/dependency_links.txt
+nuc_fwhm.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+huskoll/Exceptions.py
+huskoll/Huskoll.py
+huskoll/__init__.py
+huskoll.egg-info/PKG-INFO
+huskoll.egg-info/SOURCES.txt
+huskoll.egg-info/dependency_links.txt
+huskoll.egg-info/requires.txt
+huskoll.egg-info/top_level.txt

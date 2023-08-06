@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: huskoll
+Version: 0.1.2
+Summary: Python Wrapper around the Huskoll API.
+Home-page: https://github.com/sotpotatis/Huskoll-Python
+Author: sotpotatis
+License: MIT
+Description: ![Huskoll-Python Library Logo Image](https://gblobscdn.gitbook.com/assets%2F-MP4pDCJ-xRbneIBqxoC%2F-MP4pFi9pAL4XljP57wz%2F-MP59RsAdVcLct0fxuZS%2FHuskoll-Python-banner.png?alt=media&token=4f66da47-8567-4d8b-b9c2-39442328f7d2)
+        
+        # Huskoll-Python
+        
+        A Python library for integrating with the open API provided by the Swedish heater management platform ["Huskoll"](huskoll.se).
+        
+        Supports all the functions currently supported by the Huskoll Library.
+        
+        ## Documentation and code examples
+        
+        Multiple code examples and detailed documentation is available at https://huskoll-lib.albins.website.
+        
+Keywords: api,huskoll
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

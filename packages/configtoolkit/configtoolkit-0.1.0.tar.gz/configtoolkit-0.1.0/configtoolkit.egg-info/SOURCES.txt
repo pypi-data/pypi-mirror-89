@@ -1,0 +1,10 @@
+README.md
+setup.py
+configtoolkit/__init__.py
+configtoolkit/__main__.py
+configtoolkit.egg-info/PKG-INFO
+configtoolkit.egg-info/SOURCES.txt
+configtoolkit.egg-info/dependency_links.txt
+configtoolkit.egg-info/not-zip-safe
+configtoolkit.egg-info/requires.txt
+configtoolkit.egg-info/top_level.txt

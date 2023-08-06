@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django-ajaxview
+Version: 1.0.1
+Summary: Django Ajax base view
+Home-page: https://github.com/kkinder/django-ajaxview
+Author: Ken Kinder
+Author-email: ken+ajaxview@kkinder.com
+License: MIT
+Description: # Django Ajax View
+        Simple Django library for quickly using Ajax calls in regular views.
+        
+        ```python
+        class MyController(AjaxView):
+            ...
+        
+            @ajax
+            def greetings(self, name):
+                return f'Why hello there, {name}!'
+        ```
+        
+        ```javascript
+        const message = await greetings({name: 'Ken'})
+        ```
+        
+        See [documentation for more](https://django-ajaxview.readthedocs.io/)
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown

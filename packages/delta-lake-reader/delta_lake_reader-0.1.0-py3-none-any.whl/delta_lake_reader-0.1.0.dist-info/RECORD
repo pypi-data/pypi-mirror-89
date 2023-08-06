@@ -1,0 +1,8 @@
+deltalake/__init__.py,sha256=956E79y9ImikPQ_VqqkIHCC1YRmkk45C5-PZ6vhR34o,77
+deltalake/azure.py,sha256=rZ2Emd7yHyksZORcD1vfK4Lvd8O8Fum7DN_KQ1zagaU,6156
+deltalake/base.py,sha256=kybUaZxTqIdT6r_HCPIJcVr9oFFaNkaBj-0fUpmSeQM,844
+deltalake/local.py,sha256=zyFgWM2IjS7o6GuJvbAH2NXS-BbtbOgOAJ6qf_g3RE4,3511
+deltalake/reader.py,sha256=orgH4p1KEDtUWV9ej5uzGVIC0fTZF_BlzqWTP1Ku_1o,605
+delta_lake_reader-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+delta_lake_reader-0.1.0.dist-info/METADATA,sha256=OsfEtZ1z10vsmFGSVHiNmBvwGoOAmfTNXVQdoIYVZP8,3982
+delta_lake_reader-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pylol-rl
+Version: 1.0.0
+Summary: PyLoL environment and library for training agents.
+Home-page: https://github.com/MiscellaneousStuff/pylol
+Author: MiscellaneousStuff
+Author-email: raokosan@gmail.com
+License: MIT License
+Description: PyLoL - League of Legends v4.20 Learning Environment
+        
+        PyLoL is the Python component of the League of Legends v4.20 Learning Environment
+        (using a modified version of the LeagueSandbox's GameServer project, not the
+        original server from Riot). It exposes a custom machine learning API for the
+        GameServer project as a Python RL Environment. PyLoL provides an interface for RL
+        agents to interact with the League of Legends v4.20, getting observations and
+        sending actions.
+        
+        Read the README at https://github.com/MiscellaneousStuff/pylol for more information.
+        
+Keywords: League of Legends
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown

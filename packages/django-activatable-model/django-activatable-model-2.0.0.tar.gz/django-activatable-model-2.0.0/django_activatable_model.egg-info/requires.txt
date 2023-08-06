@@ -1,0 +1,9 @@
+Django>=2.2
+django-manager-utils>=2.0.0
+
+[dev]
+coverage
+psycopg2
+django-dynamic-fixture
+django-nose>=1.4
+mock

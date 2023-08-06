@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sqarf
+Version: 0.0.0rc1
+Summary: Simple Quality Assurance Reports and Fixes
+Home-page: https://gitlab.com/kabaretstudio/sqarf
+Author: Damien "dee" Coureau
+Author-email: dee909@gmail.com
+License: LGPLv3+
+Description: [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        
+        # sqarf
+        
+        Simple Quality Assurance Reports and Fixes
+Keywords: kabaret blender b3d pipeline dataflow workflow
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+src/sqarf/__init__.py
+src/sqarf/_version.py
+src/sqarf.egg-info/PKG-INFO
+src/sqarf.egg-info/SOURCES.txt
+src/sqarf.egg-info/dependency_links.txt
+src/sqarf.egg-info/top_level.txt

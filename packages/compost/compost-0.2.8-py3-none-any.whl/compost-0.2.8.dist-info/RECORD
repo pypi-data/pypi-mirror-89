@@ -1,0 +1,9 @@
+compost/__init__.py,sha256=miKLrjwFFCHcpb8Z6bL1Npws6Cmm3kcz8kQBXNIVEr8,293
+compost/dataset.py,sha256=0CJ-mSB8AwZu3jaORlUkOILk_rVdBoUpBXtT9tQ8Kic,4365
+compost/model.py,sha256=35SOx191LIlcku0tpPkRlNTJ5I2MXYPfFawCJePn6WI,2145
+compost/saving_calculation.py,sha256=5p3KeyL5Sjuk1oPsjtr8FsKogT_gyBIcAwNjBgqcOH8,1403
+compost-0.2.8.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+compost-0.2.8.dist-info/METADATA,sha256=f7vcFqi5fk_JcKBV9reg5o5ZeV577vauAKOxU3Gsw-o,651
+compost-0.2.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+compost-0.2.8.dist-info/top_level.txt,sha256=8m-JrB9ZVpCoEv9G9_2RgHpsZ2JkCWHwZZgJHyeW2S4,8
+compost-0.2.8.dist-info/RECORD,,

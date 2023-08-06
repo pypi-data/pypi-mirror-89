@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pcx-utilities
+Version: 0.1.1
+Summary: A package to easily create pipeline for bva-cx-insights.com
+Home-page: https://bva-cx-insights.com
+Author: Adrien Liard
+Author-email: adrien.liard@bva-group.com
+License: MIT
+Description: A package to easily create pipeline for bva-cx-insights.com.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

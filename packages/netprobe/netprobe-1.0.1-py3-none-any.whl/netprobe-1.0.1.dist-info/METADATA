@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: netprobe
+Version: 1.0.1
+Summary: Runs various diagnostics on the local network connection, and exposes it via Telegram MTProto and/or Google Firestore database records
+Home-page: https://github.com/jdcasey/netprobe
+Author: John Casey
+Author-email: jdcasey@commonjava.org
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: google-cloud-firestore
+Requires-Dist: speedtest-cli
+Requires-Dist: ruamel.yaml
+Requires-Dist: pythonping
+Requires-Dist: telethon
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: jinja2
+Requires-Dist: click
+Requires-Dist: black
+
+UNKNOWN
+
+

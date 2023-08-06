@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pymento
+Version: 0.0.1
+Summary: Backup of stuff I'd like to keep around.
+Home-page: https://github.com/thorwhalen/ut/tree/master/pymento
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# pymento
+Backup of stuff I'd like to keep around.
+
+
+To install:	```pip install pymento```
+
+

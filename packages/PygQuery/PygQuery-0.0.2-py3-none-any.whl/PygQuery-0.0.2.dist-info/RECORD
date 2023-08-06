@@ -1,0 +1,8 @@
+pygquery/__init__.py,sha256=OCYGUMM0-sbwEpNUV5ncNHVEnLOVmaJiyqWhs1vFsx0,18
+pygquery/bigquery_reader.py,sha256=VsR04SfexdCnigfwrObmqRSZMJ-kuHer-pQRgJINpIo,1306
+pygquery/bigquery_writer.py,sha256=igG0nZ85P05TEZ3y-Afmn7-wP4701G2QZh-hRcU55YU,1283
+PygQuery-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PygQuery-0.0.2.dist-info/METADATA,sha256=QhFnbtkXihIriB1ara5KO_17LFcmWwqIm_9W3CqBdhY,697
+PygQuery-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PygQuery-0.0.2.dist-info/top_level.txt,sha256=Ni0Iatq3XmNM854WN2yFMeD288vov-GtQO23ZfPz77I,9
+PygQuery-0.0.2.dist-info/RECORD,,

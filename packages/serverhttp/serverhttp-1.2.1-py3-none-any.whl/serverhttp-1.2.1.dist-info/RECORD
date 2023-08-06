@@ -1,0 +1,13 @@
+serverhttp/__init__.py,sha256=kj_b75_SifUvZeTKXpJpivwGrQJ3hdTO1nrcAlGaNTE,369
+serverhttp/app.py,sha256=YdSt5h_IngBIr8w3XbWIFOo1ATMr_VYq6E2wZpuXHk8,435
+serverhttp/example.py,sha256=4AoJrhsBcwBaUNd6geVQG49k7nrQuwRyVG6u6Yy98ZM,332
+serverhttp/srv.py,sha256=h_A4psnk3R7KUKLOqLcl35juOPkQ9hrlFUR86rXeYnE,6346
+serverhttp/srv/__init__.py,sha256=zRPaWzMm2_aQaVGpgunUFpKmvqukkhj2LG8v8JrR2Hc,94
+serverhttp/srv/asyncsrv.py,sha256=xLXplDXyjTWBb4NUSEO1PhDnE6MQmWBKrjIj-bJgDDU,3605
+serverhttp/srv/threaded.py,sha256=BDthkBc5lvsfnFcsau_cXBu9qW_Azc9FUzz4WyJp3Mg,3305
+serverhttp/srv/version.py,sha256=3UlUivKqju_HYfqxRv1aajRPTM-s_mpjXYoBPl7fr_k,35
+serverhttp-1.2.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+serverhttp-1.2.1.dist-info/METADATA,sha256=pXSj_m0u5EE_QnuASHDU1ykGH0gSW2CUwDF4TiNQvVM,368
+serverhttp-1.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+serverhttp-1.2.1.dist-info/top_level.txt,sha256=MEZEDr5JtI7o5DiRsSDyiGsRZl-za0CxMw2ZE4uflzk,11
+serverhttp-1.2.1.dist-info/RECORD,,

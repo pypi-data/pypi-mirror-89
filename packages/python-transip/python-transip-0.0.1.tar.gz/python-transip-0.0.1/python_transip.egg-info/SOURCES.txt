@@ -1,0 +1,7 @@
+README.md
+setup.py
+python_transip.egg-info/PKG-INFO
+python_transip.egg-info/SOURCES.txt
+python_transip.egg-info/dependency_links.txt
+python_transip.egg-info/requires.txt
+python_transip.egg-info/top_level.txt

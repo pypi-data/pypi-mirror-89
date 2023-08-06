@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: doclick
+Version: 0.1.3
+Summary: Programmable pseudo-language simulating desktop actions such as clicking, sending keys etc.
+Home-page: https://github.com/DovaX/doclick
+Author: DovaX
+Author-email: dovax.ai@gmail.com
+License: UNKNOWN
+Description: # doclick
+        Programmable pseudo-language simulating desktop actions such as clicking, sending keys etc.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

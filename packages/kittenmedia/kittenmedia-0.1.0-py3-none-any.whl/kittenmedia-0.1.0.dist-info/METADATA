@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kittenmedia
+Version: 0.1.0
+Summary: a ws socket based multimedia bridge lib for kittencode IDE
+Home-page: https://gitee.com/KittenTech/pylib_kittenmedia
+Author: riven
+Author-email: riven@kittenbot.cc
+License: MIT
+Keywords: kittenmedia
+Platform: UNKNOWN
+Requires-Dist: SimpleWebSocketServer
+
+UNKNOWN
+
+

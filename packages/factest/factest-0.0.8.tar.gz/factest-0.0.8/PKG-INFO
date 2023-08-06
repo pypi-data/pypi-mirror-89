@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: factest
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: https://github.com/zzb610/factest
+Author: zzb610
+Author-email: bwyuchi@163.com
+License: MIT Licence
+Description: A Fantistic Factor Analysising Tools For Quant
+Keywords: pip,factest,alpha factor,quant
+Platform: any

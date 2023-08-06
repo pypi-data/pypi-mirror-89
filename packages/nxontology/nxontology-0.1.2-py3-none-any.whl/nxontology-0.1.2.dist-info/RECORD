@@ -1,0 +1,14 @@
+nxontology/__init__.py,sha256=-MXPDcqWmaC7eBcWiBMv48gJtuqUIa17KRyZaNPY7oo,117
+nxontology/examples.py,sha256=Mn55zi5JFmo1B95QirdWA5RuNriJtNlBBVU6MkZpydI,1261
+nxontology/exceptions.py,sha256=7rZGvmuCW8l_PwhrRr3Vh9ry8I_9QeaVTFlyt6Srj4w,607
+nxontology/ontology.py,sha256=QsdwkNT-sgzsfTl3XmPlI08GAF7v0BW6Hl6PPsaK4Wo,20472
+nxontology/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nxontology/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nxontology/tests/ontology_test.py,sha256=m8jZp30AF7q3mXst1iiUav8zWArG2Tmsxm1eByLJXFo,8141
+nxontology/tests/ontology_test_disconnected_sim.tsv,sha256=AFjXwMAptlCh6xTGgF49osnAAauqEbuoNnOvd1Vb4nQ,7468
+nxontology/tests/ontology_test_metal_sim.tsv,sha256=R5X3IjG2kSj-fRvhFsdITj5SmjfK31Jqo6j-pQ5VNLU,11232
+nxontology-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nxontology-0.1.2.dist-info/METADATA,sha256=LaljzfGAtokOKQkUUOSp7uAsazr7fp5jeeYa_CkyTp8,12191
+nxontology-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nxontology-0.1.2.dist-info/top_level.txt,sha256=AivMDkUeWjxhFZ-BGRWJ4lsXGd_Zu-7_I7Ef_-xu3PI,11
+nxontology-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spacepy.radbelt.diff_LL &#8212; SpacePy v0.2.2 Manual</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="../_static/spacepy_favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spacepy.radbelt.get_local_accel" href="spacepy.radbelt.get_local_accel.html" />
+    <link rel="prev" title="spacepy.radbelt.get_modelop_L" href="spacepy.radbelt.get_modelop_L.html" /> 
+  </head><body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="../index.html"><img src="../_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.radbelt.get_local_accel.html" title="spacepy.radbelt.get_local_accel"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.radbelt.get_modelop_L.html" title="spacepy.radbelt.get_modelop_L"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../radbelt.html" accesskey="U">radbelt - Functions supporting radiation belt diffusion codes</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">spacepy.radbelt.diff_LL</a></li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="spacepy.radbelt.get_modelop_L.html"
+                        title="previous chapter">spacepy.radbelt.get_modelop_L</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="spacepy.radbelt.get_local_accel.html"
+                        title="next chapter">spacepy.radbelt.get_local_accel</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/autosummary/spacepy.radbelt.diff_LL.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="spacepy-radbelt-diff-ll">
+<h1>spacepy.radbelt.diff_LL<a class="headerlink" href="#spacepy-radbelt-diff-ll" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="spacepy.radbelt.diff_LL">
+<code class="sig-prename descclassname">spacepy.radbelt.</code><code class="sig-name descname">diff_LL</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">r</span></em>, <em class="sig-param"><span class="n">grid</span></em>, <em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">Tdelta</span></em>, <em class="sig-param"><span class="n">Telapsed</span></em>, <em class="sig-param"><span class="n">params</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spacepy/radbelt.html#diff_LL"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spacepy.radbelt.diff_LL" title="Permalink to this definition">¶</a></dt>
+<dd><p>calculate the diffusion in L at constant mu,K coordinates
+time units</p>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.radbelt.get_local_accel.html" title="spacepy.radbelt.get_local_accel"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.radbelt.get_modelop_L.html" title="spacepy.radbelt.get_modelop_L"
+             >previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../radbelt.html" >radbelt - Functions supporting radiation belt diffusion codes</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">spacepy.radbelt.diff_LL</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2020, The SpacePy Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.0.
+    </div>
+  </body>
+</html>

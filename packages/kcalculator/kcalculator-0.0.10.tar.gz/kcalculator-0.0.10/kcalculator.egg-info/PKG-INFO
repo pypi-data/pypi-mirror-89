@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kcalculator
+Version: 0.0.10
+Summary: A baisc calulcator
+Home-page: https://github.com/softprodigyofficial/sample-python-package.git
+Author: kuldeep khatana
+Author-email: kuldeep.si.softprodigy@gmail.com
+License: UNKNOWN
+Description: sample-python-packageThis is a basic Python module and you can simply add this by using this command.pip install kcalculator or pip3 install kcalculatorNote:-It basicly perform on addition, subtraction, multiply or divide operations.for Now it perform only basic operation.Ex: - a +b 2+3 = 5How to use this packagefrom calc import calcprint(calc.Number.add_numberes(4,5))This package works for only add_numbers, subtact_numbers, multy_numbers, divide_numbers
+Keywords: calulcator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

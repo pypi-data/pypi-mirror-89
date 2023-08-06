@@ -1,0 +1,9 @@
+qiyu_sso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qiyu_sso/forms/__init__.py,sha256=SUf2Pj_D7mU8DIjnXB8p6sJkYzRBdWSeReWmkAQB5js,36
+qiyu_sso/forms/user_info.py,sha256=m7n7hSx2a8zEhI2-SCaStRCev9-rT6_f_IJPJMK1fbA,266
+qiyu_sso/resp/__init__.py,sha256=JLQBU0IWFEh-T2wK8k9_jXOvhKgrErsYEnwqgX-dCj8,40
+qiyu_sso/resp/user_info.py,sha256=qHeTyhd1XcvZlWXRuquecmHiFjR-BInhNgiPDrUtcM0,1552
+qiyu_sso-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qiyu_sso-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+qiyu_sso-0.1.0.dist-info/METADATA,sha256=iJfwB1LOds7xQ02wNcclqn961f3RI9pzngFb6oHe1n4,369
+qiyu_sso-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+README.md
+setup.py
+dirio/__init__.py
+dirio.egg-info/PKG-INFO
+dirio.egg-info/SOURCES.txt
+dirio.egg-info/dependency_links.txt
+dirio.egg-info/top_level.txt
+dirio.egg-info/zip-safe

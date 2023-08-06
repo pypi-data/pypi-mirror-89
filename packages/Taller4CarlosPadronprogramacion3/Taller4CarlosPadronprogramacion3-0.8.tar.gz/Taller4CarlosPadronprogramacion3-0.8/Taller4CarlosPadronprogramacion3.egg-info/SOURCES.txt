@@ -1,0 +1,6 @@
+README.md
+setup.py
+Taller4CarlosPadronprogramacion3.egg-info/PKG-INFO
+Taller4CarlosPadronprogramacion3.egg-info/SOURCES.txt
+Taller4CarlosPadronprogramacion3.egg-info/dependency_links.txt
+Taller4CarlosPadronprogramacion3.egg-info/top_level.txt

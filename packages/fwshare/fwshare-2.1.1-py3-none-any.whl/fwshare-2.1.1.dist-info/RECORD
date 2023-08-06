@@ -1,0 +1,16 @@
+fwshare/__init__.py,sha256=crWMfMsIPvAoEx1l5NbK_ZR-ay6BaD2AW5owIBLP2-0,4385
+fwshare/basis.py,sha256=AZXecoVe6YR3ItKiV0O9Cyg45jHZqFWe45S466QX0nE,2318
+fwshare/calendar.json,sha256=ZmWPkN6fQOWbkyWp4UOmKdnk4yXziwrQBrFfa-zibdM,137765
+fwshare/cons.py,sha256=6AWblN6Tbx1XUFkLihXOfXzEeS4Nc66KTBShLRHwtEY,8049
+fwshare/cot.py,sha256=Be44cJdal67REEMu7dC8AdAKwVVn4FB0zo93w7qUwSo,31786
+fwshare/dailyBar.py,sha256=fj4h9HstYK-PnI1SesPyUsoh72AMXmO4qeSU-vgKbvc,25689
+fwshare/receipt.py,sha256=FG-2eAULvF6e6J0HpvMlaE9S9klwq7qp88VGiHe9M0M,17880
+fwshare/requests_fun.py,sha256=5QwSsLiobNokBNCXDgEUuV_TCXub4ynEz9Oi4X8FWbw,2365
+fwshare/rollYield.py,sha256=c8muVs4IkKYn4B2cVhcWnZaUh818m60JcuLU6rEB3co,5330
+fwshare/sendEmail.py,sha256=mToogkxNa4qbndg9TBVG4Y8JxI1SCmunQfr8mfwahsU,2024
+fwshare/symbolVar.py,sha256=Ok84-EpDL96MyACVl5c9q3pXKNS8OKVS8glRq0Wzst0,2785
+fwshare-2.1.1.data/data/fwshare/calendar.json,sha256=ZmWPkN6fQOWbkyWp4UOmKdnk4yXziwrQBrFfa-zibdM,137765
+fwshare-2.1.1.dist-info/METADATA,sha256=pQqrppxq5K0SK_i1-iClcghCKDYsY1Q2HCF_7t7oW2Y,231
+fwshare-2.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fwshare-2.1.1.dist-info/top_level.txt,sha256=BXDIxHnxB1kCEEcl0qnqFDTmcm2E6NRPqhb9TCSGQKQ,8
+fwshare-2.1.1.dist-info/RECORD,,

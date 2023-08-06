@@ -1,0 +1,9 @@
+macos_notifier.py,sha256=e_wB-DLFWpGX9Pdb8g6js-2Chqo4-LEfB65-UeJUyfs,2864
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cron.py,sha256=7kQOCyTFNI_x1oEQ6Wq6wrr-pVunkMDkA5-RxnGu4P0,2037
+macos_notifier-1.0.3.dist-info/LICENSE,sha256=UtSUvhVL0I98FwKRPDx4MR1-z42zdTy-7VzJvwyXgYU,1055
+macos_notifier-1.0.3.dist-info/METADATA,sha256=Uo2ciNqsKZWNNwsAEbNWvEY9zI75lvY41i9RrchZFhQ,1769
+macos_notifier-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+macos_notifier-1.0.3.dist-info/entry_points.txt,sha256=8B-XpelHf_fuPU2mmuhAKWxyeyetzKS4RuycrS9e4WU,67
+macos_notifier-1.0.3.dist-info/top_level.txt,sha256=n3KpwRH8KdolAjILbdB7ecjCPQR7BwZt29gBanhevdU,21
+macos_notifier-1.0.3.dist-info/RECORD,,

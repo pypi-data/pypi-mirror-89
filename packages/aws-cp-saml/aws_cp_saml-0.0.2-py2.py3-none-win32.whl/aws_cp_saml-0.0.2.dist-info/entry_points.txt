@@ -1,0 +1,3 @@
+[console_scripts]
+awscp = awscpsaml.awscp:main
+

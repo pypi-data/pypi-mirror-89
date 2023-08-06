@@ -1,0 +1,8 @@
+README.md
+setup.py
+txt_process/__init__.py
+txt_process/read_file.py
+worktools.egg-info/PKG-INFO
+worktools.egg-info/SOURCES.txt
+worktools.egg-info/dependency_links.txt
+worktools.egg-info/top_level.txt

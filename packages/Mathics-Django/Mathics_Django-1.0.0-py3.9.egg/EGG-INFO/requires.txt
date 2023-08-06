@@ -1,0 +1,3 @@
+Mathics3>=1.1.1
+django<3.2,>=3.0
+requests

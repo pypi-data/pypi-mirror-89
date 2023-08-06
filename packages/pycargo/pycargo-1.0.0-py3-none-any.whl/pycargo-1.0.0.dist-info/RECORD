@@ -1,0 +1,12 @@
+pycargo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycargo/classes.py,sha256=AkC3992LhyQ3Hon2L-a90lnqRPpfEzZJ2x2JIi_HXeg,1993
+pycargo/exceptions.py,sha256=dShIMtTy_dwBoeNoiH8jfSKdnaKuqKLSaZafJ-lBYVg,102
+pycargo/fields.py,sha256=E5uEaErI91Js7-4gQ59xOSCwk1sOliekzWrRtgcpDlA,3719
+pycargo/spreadsheet.py,sha256=3vWszAamBNG0UBbhuFei4AZ7cl_ZqxtlC4egXHaxUXg,3426
+pycargo/styles.py,sha256=d6VT93aDIsSTibLeCccAneTW_deMK0veFQx5Vi2mG_c,2242
+pycargo/types.py,sha256=J3UymPhp2XJTPLOeNIy7HVbQJ4T6t2JevaW3VoU99l4,113
+pycargo-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pycargo-1.0.0.dist-info/METADATA,sha256=0o1FQJv7Pmhfo1EWkuGFdKsuahSHuI80hoDmfQBmHIo,656
+pycargo-1.0.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+pycargo-1.0.0.dist-info/top_level.txt,sha256=RcMeqjpB5RG-lqPYiwGzb_vQ56tsGI3Qy_hC56OP7XA,8
+pycargo-1.0.0.dist-info/RECORD,,

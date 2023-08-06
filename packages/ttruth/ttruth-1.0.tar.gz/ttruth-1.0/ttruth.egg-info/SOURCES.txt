@@ -1,0 +1,11 @@
+README.md
+setup.py
+ttruth/Document.py
+ttruth/GTElement.py
+ttruth/Rect.py
+ttruth/Table.py
+ttruth/__init__.py
+ttruth.egg-info/PKG-INFO
+ttruth.egg-info/SOURCES.txt
+ttruth.egg-info/dependency_links.txt
+ttruth.egg-info/top_level.txt

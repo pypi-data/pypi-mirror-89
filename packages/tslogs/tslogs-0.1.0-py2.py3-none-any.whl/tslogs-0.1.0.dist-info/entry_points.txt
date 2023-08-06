@@ -1,0 +1,3 @@
+[console_scripts]
+tslogs = tslogs.cli:main
+

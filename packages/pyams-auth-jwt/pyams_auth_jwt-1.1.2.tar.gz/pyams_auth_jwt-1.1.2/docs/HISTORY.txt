@@ -1,0 +1,27 @@
+Changelog
+=========
+
+1.1.2
+-----
+ - updated french translation
+
+1.1.1
+-----
+ - doctest update
+
+1.1.0
+-----
+ - added refresh tokens management with Cornice REST API
+ - added JWT configuration management interface
+
+1.0.2
+-----
+ - updated package description to allow upload to Pypi!
+
+1.0.1
+-----
+ - removed upload of coverage data to Coveralls.io because of unknown errors
+
+1.0.0
+-----
+ - initial release

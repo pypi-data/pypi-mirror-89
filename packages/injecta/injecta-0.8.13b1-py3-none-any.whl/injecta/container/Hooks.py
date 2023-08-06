@@ -1,0 +1,31 @@
+from typing import List, Tuple
+from box import Box
+from injecta.container.ContainerBuild import ContainerBuild
+from injecta.service.Service import Service
+from injecta.service.ServiceAlias import ServiceAlias
+
+class Hooks:
+
+    _servicesTestingModeEnabled = False
+
+    def enableServicesTestingMode(self):
+        self._servicesTestingModeEnabled = True
+
+    def start(self, rawConfig: dict) -> dict:
+        return rawConfig
+
+    def servicesPrepared(self, services: List[Service], aliases: List[ServiceAlias]) -> Tuple[List[Service], List[ServiceAlias]]:
+        return services, aliases
+
+    def getCustomParameters(self) -> dict:
+        return {
+            'container': {
+                'servicesTestingModeEnabled': self._servicesTestingModeEnabled
+            }
+        }
+
+    def parametersParsed(self, parameters: Box) -> Box:
+        return parameters
+
+    def containerBuildReady(self, containerBuild: ContainerBuild):
+        pass

@@ -1,0 +1,8 @@
+README.md
+setup.py
+colorsimple/__init__.py
+colorsimple/colorsimple.py
+colorsimple.egg-info/PKG-INFO
+colorsimple.egg-info/SOURCES.txt
+colorsimple.egg-info/dependency_links.txt
+colorsimple.egg-info/top_level.txt

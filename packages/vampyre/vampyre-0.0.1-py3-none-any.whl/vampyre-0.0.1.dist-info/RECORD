@@ -1,0 +1,13 @@
+vampyre/__init__.py,sha256=DGMFkrFmb5saNPSBMKlAPAoqZsOD2DbguPA8ydmP_qs,47
+vampyre/browser.py,sha256=HENt1a4cwjVVa9JufpJp7YxsmiI-xmtag9pkEYlrpr8,7508
+vampyre/dogpile.py,sha256=iSJmLYgJXwMQkpLhA3UIVRKloHdfjx7H1wKp-hDqOcY,1097
+vampyre/google.py,sha256=vydqs4F6XJ3vHFEYX4JUkVpvHjRVukzw8UFdWeJhNXo,2621
+vampyre/simple_request.py,sha256=kBIhBZQUHSKdCVfzJB_6AxjkWMS5N_M4Jr22gS3skxM,787
+vampyre/util.py,sha256=iN_AHl4h8x5yNpRr62-hQ10umXVE0qmlg_iVBrJh-T8,2390
+vampyre/venere.py,sha256=y480SeFlijYm6hlwszMbqo4YTxfcbyIrtcO9MIAt4LU,907
+vampyre/yboss.py,sha256=BfPpaZcJegGEUEP6b-YSPmHsECjKynAHpDcWu7-Y-mo,10481
+vampyre-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+vampyre-0.0.1.dist-info/METADATA,sha256=L3FXwwoTbJYpxY6QwtinYnCsiMJJVt6m7PTNLEgFXUs,295
+vampyre-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vampyre-0.0.1.dist-info/top_level.txt,sha256=czyMf7X2GWKFYoHKCtAUxuLeoQwKHY2TzYJ6pvV39HU,8
+vampyre-0.0.1.dist-info/RECORD,,

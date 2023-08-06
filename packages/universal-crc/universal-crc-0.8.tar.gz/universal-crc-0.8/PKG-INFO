@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: universal-crc
+Version: 0.8
+Summary: A universal CRC (8, 16, 32 or 64) computation tool
+Home-page: https://github.com/JoramFC/universalCRC
+Author: Joram Fillol-Carlini
+Author-email: joram.fillolcarlini@laposte.net
+License: UNKNOWN
+Description: # Universal CRC
+        
+        The goal of this project is to provide a simple and universal CRC computation tool, allowing the user to freely choose any of the parameters.
+        
+        ## Installation
+        
+        Install universalCRC
+        
+            $ pip install universal-crc
+        
+        ## Usage
+        
+        To use custom parameters :
+        
+        	from universalCRC import crc
+        	CRC = crc.compute_CRC("111213141516171819",0x07,0x00,0x00,8,False,False)
+        
+        To use predefined parameters :
+        
+        	from universalCRC import crc
+        	CRC = crc.compute_CRC("111213141516171819",preset = "DARC")
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown

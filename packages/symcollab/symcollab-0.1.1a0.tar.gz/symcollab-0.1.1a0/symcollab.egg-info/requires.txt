@@ -1,0 +1,6 @@
+symcollab-algebra
+symcollab-xor
+symcollab-unification
+symcollab-rewrite
+symcollab-theories
+symcollab-moe

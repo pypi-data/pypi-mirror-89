@@ -1,0 +1,10 @@
+README.md
+setup.py
+nwpy/__init__.py
+nwpy/nwpy.py
+nwpy.egg-info/PKG-INFO
+nwpy.egg-info/SOURCES.txt
+nwpy.egg-info/dependency_links.txt
+nwpy.egg-info/entry_points.txt
+nwpy.egg-info/requires.txt
+nwpy.egg-info/top_level.txt

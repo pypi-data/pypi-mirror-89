@@ -1,0 +1,10 @@
+gifu/__init__.py,sha256=R1nT-SoIT2WgUYDo1oUcDEtzFQadkBznFbIh9w7dSg0,183
+gifu/__main__.py,sha256=_KQ6vMdfN5HxjyfAS5JEkX7z-iPxuy-GGDBQhCJmRbk,48
+gifu/gifuu.py,sha256=LBFUDbEzZ1bm3SMnofBfIH_4qN5TCvp-tAd4J9qC6P4,8250
+gifu-1.0.0.data/data/gifu/gifu.xbm,sha256=f8MDj_yV9kpWEOQ5uFwNnSHeUbv6On2KgQibmR4soaM,31337
+gifu-1.0.0.data/data/gifu/tekisuto.txt,sha256=aHsM8CQzN8L19oYjMpuAWr4NNTOWATF8frvMkSL3mj8,324
+gifu-1.0.0.dist-info/METADATA,sha256=MqMJpJHspeNQ4BChhuOdB-EhfJ47nf_N7Iqmcrk3dcw,910
+gifu-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gifu-1.0.0.dist-info/entry_points.txt,sha256=yNc0IwPlG9N3ZUJxCbb8IB6t-Tnce7Tfd73S9XlQNMU,36
+gifu-1.0.0.dist-info/top_level.txt,sha256=qJzxBClkPWia1KPDz6MnXD0FpTQI7SKc1V37cBq6uqM,5
+gifu-1.0.0.dist-info/RECORD,,

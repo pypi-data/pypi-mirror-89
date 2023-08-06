@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+poetry.lock
+pyproject.toml
+setup.cfg
+setup.py
+pyzipcin/__init__.py
+pyzipcin.egg-info/PKG-INFO
+pyzipcin.egg-info/SOURCES.txt
+pyzipcin.egg-info/dependency_links.txt
+pyzipcin.egg-info/requires.txt
+pyzipcin.egg-info/top_level.txt

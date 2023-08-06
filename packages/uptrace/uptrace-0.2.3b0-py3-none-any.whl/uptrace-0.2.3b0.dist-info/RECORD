@@ -1,0 +1,11 @@
+uptrace/__init__.py,sha256=bEusl6Pn6u_W7xowCzNoV0ZzmwyRxyn34lEYOs5dGH8,139
+uptrace/client.py,sha256=BM6fmrjR707yqwn-kO6AO04nGNBCf-KPLDsK4n_8OFs,2344
+uptrace/config.py,sha256=nCiS1RG67AsYoyt24ozBogYLhpVZ0OD_AQoI1iR7W3U,1425
+uptrace/version.py,sha256=wUV43QfdLEZXdmBxPoGeDDetNcXXFI5gi7iCjYto65w,56
+uptrace/spanexp/__init__.py,sha256=NK7-UzIfuCuwEcGUj6Mkus5y_sHDh3iLw7YpZ5YOR1c,102
+uptrace/spanexp/exporter.py,sha256=_JKTRbe_fbXHbVaA3YjM7HKfwdtzfEx54j8Dyx7I30g,3451
+uptrace-0.2.3b0.dist-info/LICENSE,sha256=9ASsiRLBhYb4CCkqvP4owwWtsfgyHVHsybkbT0BLMIU,1322
+uptrace-0.2.3b0.dist-info/METADATA,sha256=ZTQa3nk-6iOkqHs1SXK3M2-N2lk4tPDOsTV5gcMvbqY,1528
+uptrace-0.2.3b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+uptrace-0.2.3b0.dist-info/top_level.txt,sha256=V7vEFLI5v0UMz3M4yZLlTsQqj0KoWsvNEFAyXX2mXoA,8
+uptrace-0.2.3b0.dist-info/RECORD,,

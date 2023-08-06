@@ -1,0 +1,7 @@
+pillow
+requests
+numpy==1.19.3
+
+[:platform_machine != "armv7l"]
+tensorflow==2.4
+onnxruntime==1.6.0

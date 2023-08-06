@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "audiozen"
+version = "0.0.1"
+description = "Audio Zen is created for the training of the deep learning-based audio project"
+authors = ["haoxiangsnr <haoxiangsnr@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+librosa = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+torch = "^1.7.1"
+torchaudio = "^0.7.2"
+pesq = "^0.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

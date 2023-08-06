@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fython
+Version: 0.0.4
+Summary: Functional utilities for Python, inspired by Scala
+Home-page: https://github.com/tsah/fython
+Author: Tsah Weiss
+License: MIT
+Description: # fython
+        Functional utilities for Python, inspired by Scala
+        
+        ## FOptional
+        ```python
+        from fython import option
+        
+        def my_function():
+            return (option(something_that_might_return_none())
+                    .map(do_something)
+                    .map(do_another_thing)
+                    .get_or_else(default_value))
+        
+        @dataclass
+        class Inner:
+            v: Optional[str]
+        
+        @dataclass
+        class Outer:
+            inner: Optional[Inner]
+        
+        c = Outer(Inner("hello"))    
+        
+        inner_value = (option(c)
+                       .flatmap(lambda c: c.inner)
+                       .flatmap(lambda inner: inner.v)
+                       .get_or_throw())
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

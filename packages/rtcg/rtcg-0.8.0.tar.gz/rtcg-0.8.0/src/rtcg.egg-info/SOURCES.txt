@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/rtcg/__init__.py
+src/rtcg.egg-info/PKG-INFO
+src/rtcg.egg-info/SOURCES.txt
+src/rtcg.egg-info/dependency_links.txt
+src/rtcg.egg-info/top_level.txt

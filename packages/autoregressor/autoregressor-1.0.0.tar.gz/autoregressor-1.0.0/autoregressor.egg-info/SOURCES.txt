@@ -1,0 +1,10 @@
+README.md
+setup.py
+autoregressor/__init__.py
+autoregressor/autoregressor.py
+autoregressor/compute.py
+autoregressor.egg-info/PKG-INFO
+autoregressor.egg-info/SOURCES.txt
+autoregressor.egg-info/dependency_links.txt
+autoregressor.egg-info/requires.txt
+autoregressor.egg-info/top_level.txt

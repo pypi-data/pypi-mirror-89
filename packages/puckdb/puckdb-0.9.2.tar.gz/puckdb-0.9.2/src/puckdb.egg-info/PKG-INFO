@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: puckdb
+Version: 0.9.2
+Summary: A concurrent overlay on pickleDB
+Home-page: https://github.com/carstencodes/puckdb
+Author: Carsten Igel
+Author-email: cig@bite-that-bit.de
+License: BSD-3-Clause
+Description: # puckdb
+        
+        puckDB is a concurrent wrapper for pickleDB. It allows you to use pickleDB in multi-threaded implementations. 
+        
+        ## Licensing
+        
+        This library is published under BSD-3-Clause license like pickleDB
+        
+        ## Versioning
+        
+        This library follows semantic versioning 2.0. Any breaking change will produce a new major release. Versions below 1.0 are considered to have a unstable interface.
+        
+Keywords: da,platform,environment,development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database
+Classifier: Typing :: Typed
+Requires-Python: >=3.8, < 4
+Description-Content-Type: text/markdown

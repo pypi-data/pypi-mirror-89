@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/puckdb/__init__.py
+src/puckdb.egg-info/PKG-INFO
+src/puckdb.egg-info/SOURCES.txt
+src/puckdb.egg-info/dependency_links.txt
+src/puckdb.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+#Bruhapi
+
+This is an UNOFFICIAL Python wrapper for or of https://bruhapi.xyz :)
+
+
+```
+$ pip install Bruhapi
+```
+
+These are the endpoints of this wrapper
+
+sponge, chatbot, joke, word, topic, fact
+
+
+For self you can use self or "self"
+
+Chat bot example
+```
+from Bruhapi import Bruh
+LOL = await Bruh.chatbot("self", text='HI') #replace "HI" with the text you want
+print(LOL)
+```
+And facts example 
+
+```
+nice = await Bruh.fact(self)
+print(nice)
+```

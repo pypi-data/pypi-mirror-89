@@ -1,0 +1,10 @@
+README.md
+setup.py
+Bruhapi/__init__.py
+Bruhapi/bruh.py
+Bruhapi/things.py
+Bruhapi.egg-info/PKG-INFO
+Bruhapi.egg-info/SOURCES.txt
+Bruhapi.egg-info/dependency_links.txt
+Bruhapi.egg-info/requires.txt
+Bruhapi.egg-info/top_level.txt

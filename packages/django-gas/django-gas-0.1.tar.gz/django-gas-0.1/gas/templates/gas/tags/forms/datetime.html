@@ -1,0 +1,7 @@
+<div class="form-group datetimefield {{ container_class }}{% if field.field.required %} required{% endif %}">
+    <label>{{ field.label }}</label>
+    {{ field }}
+
+    {% if field.help_text %}<p class="help-block">{{ field.help_text }}</p>{% endif %}
+    {% if field.errors %}{{ field.errors }}{% endif %}
+</div>

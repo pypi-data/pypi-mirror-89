@@ -1,0 +1,11 @@
+.gitnore
+build/
+dist/
+*egg*
+pychell_design
+templates
+pychell_templates*
+pychell-*
+*MAC*
+.DS_Store
+__pycache__/

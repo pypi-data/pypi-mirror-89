@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dpytoolhandle
+Version: 0.0.1
+Summary: Discord.py extension.
+Home-page: https://github.com/Hillo232/fun
+Author: None
+Author-email: none@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+```py
+import FunCommandsDpy
+```
+Then
+```py
+client.load_extension("FunCommandsDpy")
+```
+Or
+```py
+bot.load_extension("FunCommandsDpy")
+```
+

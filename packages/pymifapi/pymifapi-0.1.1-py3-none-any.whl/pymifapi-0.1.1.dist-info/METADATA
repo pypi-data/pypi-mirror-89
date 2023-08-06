@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pymifapi
+Version: 0.1.1
+Summary: Modern Image Formats (JPEG XL and AVIF) Web API client library
+Home-page: https://github.com/varnav/pymifapi
+Author: Evgeny Varnavskiy
+Author-email: varnavruz@gmail.com
+License: UNKNOWN
+Keywords: jpeg,jpeg-xl,avif,webapi,transcoder
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+
+# Modern Image Formats (JPEG XL and AVIF) Web API client library
+
+See [mifapi](https://github.com/varnav/mifapi)
+

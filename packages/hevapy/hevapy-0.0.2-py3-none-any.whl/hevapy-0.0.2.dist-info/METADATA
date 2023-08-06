@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hevapy
+Version: 0.0.2
+Summary: Hydrological Extreme Value Analysis Package
+Home-page: https://github.com/melioristic/hevapy
+Author: Mohit Anand
+Author-email: itsmohitanand@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# HEVA
+
+The package is called Hydrological Extreme Value Analysis and still is in development version. The first beta release is expected by last week of January and will be called version 0.1.0
+
+
+
+

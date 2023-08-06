@@ -1,0 +1,7 @@
+setup.py
+ffmodeler/__init__.py
+ffmodeler.egg-info/PKG-INFO
+ffmodeler.egg-info/SOURCES.txt
+ffmodeler.egg-info/dependency_links.txt
+ffmodeler.egg-info/not-zip-safe
+ffmodeler.egg-info/top_level.txt

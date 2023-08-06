@@ -1,0 +1,9 @@
+aiosmtpd<1.2.3
+pytest
+python-dotenv<0.16.0
+
+[dev]
+flake8
+isort
+pytest-asyncio
+pytest-cov

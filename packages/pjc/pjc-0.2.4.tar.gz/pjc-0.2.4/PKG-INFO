@@ -1,0 +1,91 @@
+Metadata-Version: 1.0
+Name: pjc
+Version: 0.2.4
+Summary: Package for create projects
+Home-page: https://github.com/w0rng/project-creator
+Author: w0rng
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: CreatorProjects
+        ===============
+        
+        F.A.Q.
+        ------
+        **Q**: Что это?
+        
+        **A**: Это программка для создания иерархии папок.
+        
+        **Q**: Зачем это нужно?
+        
+        **A**: Я использую VsCode, а в ней нет возможности создать проект "в один клик".
+        
+        Установка
+        ---------
+        `pip install projectcreator`
+        
+        В связи с тем, что скрипт устанавливается в `~/.local/bin`, эту папку необходимо включить в переменную $PATH, поэтому необходимо выполнить команду `export PATH=/home/username/.local/bin:$PATH`.
+        
+        После проделанных действий программа готова к использованию.
+        
+        Настройка
+        ---------
+        Вся настройка осуществляется в папке `~/.config/project_creator`. Конфиги представляет из себя json файлы.
+        
+        Для использования программы необходимо создать в этой папке файл, с тем названием, которое вы хотели бы использовать при создании проекта.
+        
+        В записи `types` перечисляются языки.
+        
+        В записи `path` перечисляются папки с файлами.
+        
+        В `files` перечисляются файлы с содержимым.
+        
+        В `commands` перечисляются команды, которые надо выполнить после создания проекта.
+        
+        Использование
+        -------------
+        1. Создайте конфиг `~/.config/project_creator/<name_config>`
+        
+        2. Создайте папку проекта, в которой хотите хотите создать инфраструктуру.
+        
+        3. Введите в терминале `create_project <name_config>`
+        
+        Пример конфига
+        --------------
+        .. code-block:: json
+        
+            {
+                "path": {
+                    "code": {
+                        "test": {
+                            "test": {}
+                        },
+                        "re": {}
+                    },
+                    "tmp": {},
+                    "old": {}
+                },
+                "files": {
+                    ".gitignore": [
+                        ".gitignore",
+                        "old/",
+                        "tmp"
+                    ],
+                    "main.py": [
+                        "#!/usr/bin/python3",
+                        "",
+                        "def main():",
+                        "   print('Hello world')",
+                        "",
+                        "if __name__ == '__main__':",
+                        "   main()"
+                    ]
+                },
+                "commands": [
+                    "touch README.md",
+                    "chmod +x main.py",
+                    "git init",
+                    "git add .",
+                    "git commit -m \"Новый проект\""
+                ]
+            }
+Platform: UNKNOWN

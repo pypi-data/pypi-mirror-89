@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: ch55xtool
+Version: 0.0.1
+Summary: An open sourced python tool for flashing WCH CH55x series USB microcontroller
+Home-page: https://github.com/MarsTechHAN/ch552tool
+Author: Han Xiao
+Author-email: hansh-sz@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5

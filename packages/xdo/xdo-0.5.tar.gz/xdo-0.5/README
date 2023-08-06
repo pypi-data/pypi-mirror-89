@@ -1,0 +1,38 @@
+xdo module for Python
+=====================
+
+python-xdo is a module for accessing libxdo from python.
+
+It is based on version 3 of the xdo API, which is a nicely-organized
+API.  It won't compile against earlier SONAME versions of libxdo.
+
+python-xdo was created as a minimal binding use in a couple dedicated
+python applications -- as such, it does currently attempt to cover the
+full libxdo api.  It's very minimal (just enough for the job at hand
+currently), but it doesn't need to remain that way.
+
+Patches to improve library coverage are welcome!
+
+
+BUG REPORTS, PATCHES, AND QUESTIONS
+-----------------------------------
+
+Discussions about libxdo and python-xdo are welcome at
+xdotool-users@googlegroups.com (you may need to subscribe to post).
+
+
+CREDITS
+-------
+
+libxdo itself comes from Jordan Sissel:
+
+  http://www.semicomplete.com/projects/xdotool/
+  https://github.com/jordansissel/xdotool
+
+The python-xdo binding was initially written by
+Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+
+The overhaul to ctypes was inspired by discussion with (and large
+parts of the ctypes code originated from) Samuele Santi
+<redshadow@hackzine.org>, and additional implementation work was done
+by Cyril Brulebois <cyril@debamax.com>.

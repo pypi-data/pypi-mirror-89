@@ -1,0 +1,8 @@
+README
+setup.py
+xdo/__init__.py
+xdo/_xdo.py
+xdo.egg-info/PKG-INFO
+xdo.egg-info/SOURCES.txt
+xdo.egg-info/dependency_links.txt
+xdo.egg-info/top_level.txt

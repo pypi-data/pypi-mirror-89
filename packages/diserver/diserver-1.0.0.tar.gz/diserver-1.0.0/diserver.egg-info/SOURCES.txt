@@ -1,0 +1,8 @@
+disv.py
+setup.py
+diserver.egg-info/PKG-INFO
+diserver.egg-info/SOURCES.txt
+diserver.egg-info/dependency_links.txt
+diserver.egg-info/entry_points.txt
+diserver.egg-info/requires.txt
+diserver.egg-info/top_level.txt

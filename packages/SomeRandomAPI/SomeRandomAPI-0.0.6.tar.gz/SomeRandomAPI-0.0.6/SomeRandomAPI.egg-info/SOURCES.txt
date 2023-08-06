@@ -1,0 +1,8 @@
+README.md
+setup.py
+SomeRandomAPI/SomeRandomAPI.py
+SomeRandomAPI/__init__.py
+SomeRandomAPI.egg-info/PKG-INFO
+SomeRandomAPI.egg-info/SOURCES.txt
+SomeRandomAPI.egg-info/dependency_links.txt
+SomeRandomAPI.egg-info/top_level.txt

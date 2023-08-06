@@ -1,0 +1,1 @@
+print("well your installation is broken since this should run __init__.py and not SomeRandomAPI.py")

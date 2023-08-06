@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: symcollab-unification
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/symcollab/cryptosolve
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: symcollab-algebra
+Requires-Dist: symcollab-xor
+Requires-Dist: mypy (~=0.740)
+Requires-Dist: mypy-extensions (~=0.4.0)
+Requires-Dist: scipy (~=1.5.4)
+Requires-Dist: sympy (==1.4)
+
+UNKNOWN
+
+

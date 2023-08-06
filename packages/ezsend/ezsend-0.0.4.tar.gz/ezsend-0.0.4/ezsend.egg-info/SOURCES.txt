@@ -1,0 +1,8 @@
+README.md
+setup.py
+ezsend/__init__.py
+ezsend.egg-info/PKG-INFO
+ezsend.egg-info/SOURCES.txt
+ezsend.egg-info/dependency_links.txt
+ezsend.egg-info/requires.txt
+ezsend.egg-info/top_level.txt

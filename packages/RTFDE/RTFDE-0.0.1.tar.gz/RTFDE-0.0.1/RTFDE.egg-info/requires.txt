@@ -1,0 +1,8 @@
+lark-parser>=0.11
+oletools>=0.5
+
+[dev]
+lxml>=4.6
+
+[msg_parse]
+extract_msg>=0.27

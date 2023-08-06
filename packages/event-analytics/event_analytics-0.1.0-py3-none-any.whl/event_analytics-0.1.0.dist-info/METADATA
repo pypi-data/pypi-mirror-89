@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: event-analytics
+Version: 0.1.0
+Summary: An Event Analytics package to help organizers analyze, segment & understand Audience & their behavior. Built with love by Babel!
+Home-page: https://github.com/babel-data/event_analytics
+Author: Babel Pte. Ltd
+Author-email: contact@babel.sg
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Event_analytics
+An Event Analytics package to help Organizers analyze, segment & understand Audience & their behavior. 
+This package is being released in conjunction with [IMDA Singapore](https://www.imda.gov.sg/), [Global Sign.In](https://www.globalsignin.com/) & [Babel](https://www.babel.sg/) as part of the [IMDA OIP Challenge](https://www.openinnovation.sg/).
+
+The objective is to help the Event industry better leverage and utilize Data & Analytics to enhance their Audience & Exhibitor engagements.
+
+There are 2 key Business Objectives that this package aims to help with:
+## Determining correlations amongst all data an Event has generated
+## Helping understand the different Audience Segments that each Attendee is suitable for based on advanced Segmentation approaches like RFM
+
+

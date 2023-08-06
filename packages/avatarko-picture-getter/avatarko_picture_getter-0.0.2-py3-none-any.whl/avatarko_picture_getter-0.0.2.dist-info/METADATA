@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: avatarko-picture-getter
+Version: 0.0.2
+Summary: Avatarko picture getter
+Home-page: https://github.com/neznakomec16/avatarko_picture_getter
+Author: Neznakomec16
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: lxml
+Requires-Dist: requests
+
+## Avatarko picture getter
+
+Tool to get random avatar from https://avatarko.ru
+
+### Instalation
+
+```
+pip install avatarko_picture_getter
+```
+
+### Usage
+
+For use as command line interface(cli)
+```
+python -m avatarko_picture_getter [-o filepath]
+```
+or
+```
+from avatarko_picture_getter import AvatarkoPictureGetter
+
+with open('some_picture.png', 'wb') as f:
+    f.write(AvatarkoPictureGetter.get_avatar())
+```
+
+

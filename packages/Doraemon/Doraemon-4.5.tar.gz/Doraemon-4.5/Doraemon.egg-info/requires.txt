@@ -1,0 +1,10 @@
+selenium
+requests
+bs4
+chardet<4.0,>=2.0
+aiohttp
+tqdm
+rsa
+webdriver-manager
+PyExecJS
+nest-asyncio

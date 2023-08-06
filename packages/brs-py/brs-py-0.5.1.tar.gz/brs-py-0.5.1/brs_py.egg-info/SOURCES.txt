@@ -1,0 +1,15 @@
+README.md
+setup.py
+brs/__init__.py
+brs/bits.py
+brs/brs.py
+brs/color.py
+brs/orientation.py
+brs/reader.py
+brs/user.py
+brs/utils.py
+brs/writer.py
+brs_py.egg-info/PKG-INFO
+brs_py.egg-info/SOURCES.txt
+brs_py.egg-info/dependency_links.txt
+brs_py.egg-info/top_level.txt

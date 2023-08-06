@@ -1,0 +1,12 @@
+brigitte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brigitte/card.py,sha256=lVx6vLcvZ2gi-_uDrie1ZRPTNWSUWUTCqL05KbDDnGk,1197
+brigitte/deck.py,sha256=jJWd7RQioaNDBXUyqoIn4-DmJwUc2PNVO1h2gTsY2zI,481
+brigitte/game.py,sha256=5OVaAzBS6m5naBGDIcDDNnN6VbCJNr_ly-tOE2GYPNM,6683
+brigitte/player.py,sha256=c-9Z-TuVfpxi5vjcfMTZrQNq0GkRBiTy3hHvAakXPzQ,2893
+brigitte/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brigitte/commands/pile.py,sha256=5BZ7VSSDAeo92gDYVSuLnommpeQ-j2D0dmeYQUdonns,1065
+brigitte_pkg_youszef-0.0.1.dist-info/LICENSE,sha256=JT9rPYCZVqnXc0Di72_kD8xOudHVzQyrRlq4tj8TqgI,1515
+brigitte_pkg_youszef-0.0.1.dist-info/METADATA,sha256=2rQVsBIs37JGQfmqyh74Ubr6Htt8wSeiyAB4_9BJeFc,412
+brigitte_pkg_youszef-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brigitte_pkg_youszef-0.0.1.dist-info/top_level.txt,sha256=cvdoYIqmKAypBBuxPb_i-Ji7tYAn8UfBcKMt16glHas,9
+brigitte_pkg_youszef-0.0.1.dist-info/RECORD,,

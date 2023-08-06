@@ -1,0 +1,11 @@
+README.md
+setup.py
+flagsup/__init__.py
+flagsup/cached_client.py
+flagsup/client.py
+flagsup/constants.py
+flagsup/utils.py
+flagsup.egg-info/PKG-INFO
+flagsup.egg-info/SOURCES.txt
+flagsup.egg-info/dependency_links.txt
+flagsup.egg-info/top_level.txt

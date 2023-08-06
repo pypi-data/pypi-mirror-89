@@ -1,0 +1,17 @@
+flydenity/__init__.py,sha256=GfqhENMapDsj4uF6WGkTnTIhetYSDhPCJbOcwatIOqw,104
+flydenity/__main__.py,sha256=ybUBl98EzllCyjeikPqJpdel_0lAbL7tID7X2LK7gD4,305
+flydenity/parser.py,sha256=dv_krfZtmH9jrYaQkaO4fpMjiszY9tGcC5mxmFfyQ1c,5686
+flydenity/processed_itu_countries.csv,sha256=s_IUdcH2oxCITIVwsx4Sre8EAc6hYpsYMC_XPv61qFo,30800
+flydenity/processed_itu_countries_regex.csv,sha256=D2Gvc4bHgbYeuzDijvMqtTv1eN0wxBB7mBVuEbd__Eo,61526
+flydenity/processed_itu_organizations.csv,sha256=aA_GphRX6Am9OR4wnMm76CQZcs-RrLlqjZo7HL6FP7E,210
+flydenity/processed_itu_organizations_regex.csv,sha256=bAh1o5sSIbd7shxT0vKRB5U1SMspwTi8t5QC-Bv1SFg,415
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_consistency.py,sha256=3vUQd_y28lOPfJxm35mr8R6OihZrtok359S0IZp4xuE,4325
+tests/test_parse.py,sha256=6FXeXkWkuS7g6-7cU1jyjFoNyfwTzagqVRnzN2uBjkw,1362
+tests/test_parse_icao24bit.py,sha256=E9KO8cj5GTfmOwED4vT8eXqU3Cm0-o78L2IWgvdNLFo,932
+flydenity-0.1.6.dist-info/LICENSE.md,sha256=lCm53rWTebcA7fTDdqSGo-khdV4bmPJ8HSTprcO8HuM,1069
+flydenity-0.1.6.dist-info/METADATA,sha256=npH-NoERIFtBxDcP_RpB80lTu3ySjeDtdjW5DqWFCRY,5717
+flydenity-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flydenity-0.1.6.dist-info/entry_points.txt,sha256=QAlxEezz1DoV5SJBo0d1FcCkbJxGjvhypWh9xpP3kIg,55
+flydenity-0.1.6.dist-info/top_level.txt,sha256=qvnwAJLDERDIGVqiLstWAD3eHzsWm9GELIdd1cXLBDQ,16
+flydenity-0.1.6.dist-info/RECORD,,

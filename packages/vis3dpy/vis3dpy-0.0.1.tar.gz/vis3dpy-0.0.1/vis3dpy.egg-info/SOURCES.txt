@@ -1,0 +1,9 @@
+README.md
+setup.py
+vis3dpy/__init__.py
+vis3dpy/plot.py
+vis3dpy.egg-info/PKG-INFO
+vis3dpy.egg-info/SOURCES.txt
+vis3dpy.egg-info/dependency_links.txt
+vis3dpy.egg-info/requires.txt
+vis3dpy.egg-info/top_level.txt

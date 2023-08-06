@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+object_storage/__init__.py
+object_storage/callback.py
+object_storage/enums.py
+object_storage/uploader.py
+object_storage/utils.py
+yandex_object_storage.egg-info/PKG-INFO
+yandex_object_storage.egg-info/SOURCES.txt
+yandex_object_storage.egg-info/dependency_links.txt
+yandex_object_storage.egg-info/requires.txt
+yandex_object_storage.egg-info/top_level.txt

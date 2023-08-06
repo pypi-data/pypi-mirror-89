@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyAntiSSRF
+Version: 0.0.1
+Summary: python anti ssrf by hijack requests
+Home-page: https://github.com/yangbh/pyAntiSSRF
+Author: m0d9
+Author-email: 0xyangbh@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

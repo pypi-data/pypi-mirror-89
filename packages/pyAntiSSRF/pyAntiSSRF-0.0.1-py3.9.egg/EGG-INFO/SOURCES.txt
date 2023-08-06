@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyAntiSSRF/__init__.py
+pyAntiSSRF.egg-info/PKG-INFO
+pyAntiSSRF.egg-info/SOURCES.txt
+pyAntiSSRF.egg-info/dependency_links.txt
+pyAntiSSRF.egg-info/requires.txt
+pyAntiSSRF.egg-info/top_level.txt

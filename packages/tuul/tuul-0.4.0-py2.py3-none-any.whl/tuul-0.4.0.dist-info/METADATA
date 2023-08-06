@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: tuul
+Version: 0.4.0
+Summary: python toolbox
+Home-page: https://github.com/daniel-balosh/tuul
+Author: Daniel Balosh
+Author-email: no@gmail.com
+License: MIT license
+Keywords: tuul
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+====
+tuul
+====
+
+
+.. image:: https://img.shields.io/pypi/v/tuul.svg
+        :target: https://pypi.python.org/pypi/tuul
+
+.. image:: https://img.shields.io/travis/daniel-balosh/tuul.svg
+        :target: https://travis-ci.com/daniel-balosh/tuul
+
+.. image:: https://readthedocs.org/projects/tuul/badge/?version=latest
+        :target: https://tuul.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+python toolbox
+
+
+* Free software: MIT license
+* Documentation: https://tuul.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-12-24)
+------------------
+
+* First release on PyPI.
+
+

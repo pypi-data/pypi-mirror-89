@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Eve-ml
+Version: 0.0.1rc0
+Summary: Eve: make deep learning more interesting.
+Home-page: https://github.com/densechen/eve
+Author: densechen
+Author-email: densechen@foxmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+README.rst
+setup.py
+PySPARQL/ConstructResult.py
+PySPARQL/SelectResult.py
+PySPARQL/Wrapper.py
+PySPARQL/__init__.py
+PySPARQL.egg-info/PKG-INFO
+PySPARQL.egg-info/SOURCES.txt
+PySPARQL.egg-info/dependency_links.txt
+PySPARQL.egg-info/requires.txt
+PySPARQL.egg-info/top_level.txt

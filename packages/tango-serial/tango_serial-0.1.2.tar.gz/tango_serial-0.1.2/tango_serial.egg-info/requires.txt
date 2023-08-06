@@ -1,0 +1,7 @@
+gevent
+
+[all]
+pytango
+
+[tango]
+pytango

@@ -1,0 +1,10 @@
+README.md
+setup.py
+aggregator/__init__.py
+aggregator/aggregate.py
+aggregator/plot.py
+pdf_aggregator.egg-info/PKG-INFO
+pdf_aggregator.egg-info/SOURCES.txt
+pdf_aggregator.egg-info/dependency_links.txt
+pdf_aggregator.egg-info/entry_points.txt
+pdf_aggregator.egg-info/top_level.txt

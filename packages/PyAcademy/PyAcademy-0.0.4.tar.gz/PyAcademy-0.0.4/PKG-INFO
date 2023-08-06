@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: PyAcademy
+Version: 0.0.4
+Summary: Academic Helper
+Home-page: https://github.com/chinkushah/PyAcademy.git
+Author: Rohan Shah and Gaurav Thakur
+Author-email: rohan.h.shah.03@gmail.com, gaugau939@gmail.com
+License: MIT
+Description: In todayâ€™s world, students of our age face a lot of competition. We have to put in our best efforts now to sow the seeds of a better future.
+        
+        There is intense competition to get into the very best institutes, where thousands of students compete for one seat. In such a world, we require something or someone to guide us. The best guide would have to be a teacher, but it is impossible for a teacher to be with us 24/7.
+        
+        So we, Rohan Shah and Gaurav Thakur, have aimed to create a program, PyAcademy, to solve studentsâ€™ academic doubts, thereby facilitating the students in their race to success.
+        
+        PyAcademy helps students by giving basic formulae of the chapter they need help with and then numerically solving their doubt. We have programmed PyAcademy to solve questions from 11th and 12th syllabus of Physics and Math.
+        
+        In Physics, we have covered the chapters of â€˜Projectile Motionâ€™ and â€˜Circular Motionâ€™.
+        
+        
+        CHANGELOG
+        ==========
+        
+        0.0.4 (25/12/2020)
+        -------------------
+        
+        FIRST RELEASE
+Keywords: education
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+MANIFEST.in
+README.md
+setup.py
+PyAcademy.egg-info/PKG-INFO
+PyAcademy.egg-info/SOURCES.txt
+PyAcademy.egg-info/dependency_links.txt
+PyAcademy.egg-info/requires.txt
+PyAcademy.egg-info/top_level.txt
+gauhanpyacademy/__init__.py

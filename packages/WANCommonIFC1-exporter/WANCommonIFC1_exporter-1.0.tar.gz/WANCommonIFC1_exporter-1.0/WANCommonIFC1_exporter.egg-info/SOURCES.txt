@@ -1,0 +1,8 @@
+README.md
+setup.py
+WANCommonIFC1_exporter.egg-info/PKG-INFO
+WANCommonIFC1_exporter.egg-info/SOURCES.txt
+WANCommonIFC1_exporter.egg-info/dependency_links.txt
+WANCommonIFC1_exporter.egg-info/requires.txt
+WANCommonIFC1_exporter.egg-info/top_level.txt
+bin/WANCommonIFC1_exporter

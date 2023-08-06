@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ManufaiUnityTesting/__init__.py
+ManufaiUnityTesting.egg-info/PKG-INFO
+ManufaiUnityTesting.egg-info/SOURCES.txt
+ManufaiUnityTesting.egg-info/dependency_links.txt
+ManufaiUnityTesting.egg-info/top_level.txt

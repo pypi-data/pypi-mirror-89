@@ -1,0 +1,3 @@
+[console_scripts]
+sl_whatsapp3 = BOMBER.whatsapp:main
+

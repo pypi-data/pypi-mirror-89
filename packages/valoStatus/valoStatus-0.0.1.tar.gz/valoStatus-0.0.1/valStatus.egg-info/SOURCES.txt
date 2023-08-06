@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+valStatus/Region.py
+valStatus/__init__.py
+valStatus.egg-info/PKG-INFO
+valStatus.egg-info/SOURCES.txt
+valStatus.egg-info/dependency_links.txt
+valStatus.egg-info/requires.txt
+valStatus.egg-info/top_level.txt

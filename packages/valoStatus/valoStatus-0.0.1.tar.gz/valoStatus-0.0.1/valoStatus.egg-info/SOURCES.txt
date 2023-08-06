@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+valStatus.egg-info/SOURCES.txt
+valStatus.egg-info/dependency_links.txt
+valStatus.egg-info/requires.txt
+valStatus.egg-info/top_level.txt
+valoStatus/Region.py
+valoStatus/__init__.py
+valoStatus.egg-info/PKG-INFO
+valoStatus.egg-info/SOURCES.txt
+valoStatus.egg-info/dependency_links.txt
+valoStatus.egg-info/requires.txt
+valoStatus.egg-info/top_level.txt

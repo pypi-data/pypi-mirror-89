@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+main.py
+setup.py
+gigatronapi/__init__.py
+gigatronapi.egg-info/PKG-INFO
+gigatronapi.egg-info/SOURCES.txt
+gigatronapi.egg-info/dependency_links.txt
+gigatronapi.egg-info/requires.txt
+gigatronapi.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+minpiler = minpiler.cmdline:run
+

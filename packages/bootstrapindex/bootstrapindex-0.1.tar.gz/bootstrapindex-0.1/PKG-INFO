@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bootstrapindex
+Version: 0.1
+Summary: Returns block bootstrap indexes for walk-forward analysis (expanding or sliding window)
+Home-page: UNKNOWN
+Author: Jirong Huang
+Author-email: jironghuang88@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

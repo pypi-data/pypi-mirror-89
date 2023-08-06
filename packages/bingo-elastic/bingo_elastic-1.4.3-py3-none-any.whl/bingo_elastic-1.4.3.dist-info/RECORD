@@ -1,0 +1,10 @@
+bingo_elastic/__init__.py,sha256=qjngKmjcwKn1c_BwAouVdai-TbnuKZo56EbqRdILxaI,22
+bingo_elastic/elastic.py,sha256=OngmxcA3S0nZLM1I8ifeeOn_TejFgn4yTrwsgrVg__Y,5746
+bingo_elastic/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bingo_elastic/model/helpers.py,sha256=MKmdnQOD9VZTT36sYLJWjMFOTKW0wd3lhjD8arc_zYs,2146
+bingo_elastic/model/record.py,sha256=9pJWpeHHZmJv3rIAFysfy88EWrpU1FXNxH2ZNsz3aYs,3755
+bingo_elastic/queries.py,sha256=7SHz4JIjQUtWdavjO7EhxCkQlER3nAw-WtK7SHa_E5E,9543
+bingo_elastic/utils.py,sha256=flXK6IVMpIEp2h8MNHSYUbaRjY5oC8mNJix6a2S47yM,415
+bingo_elastic-1.4.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+bingo_elastic-1.4.3.dist-info/METADATA,sha256=1Xoio-XBi6KVKIgXE0ryIk8YXIlSSf8XQjNF9GANJSY,453
+bingo_elastic-1.4.3.dist-info/RECORD,,

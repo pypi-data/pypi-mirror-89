@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: genestack_client
+Version: 0.34.0
+Summary: Genestack Python Client Library
+Home-page: https://github.com/genestack/python-client
+Author: Genestack Limited
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        Python library that allows you to interact programmatically with an instance of
+        the Genestack platform.
+        
+Keywords: genestack,genomics,api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

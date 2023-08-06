@@ -1,0 +1,8 @@
+README.md
+setup.py
+numpy_serializer/__init__.py
+numpy_serializer.egg-info/PKG-INFO
+numpy_serializer.egg-info/SOURCES.txt
+numpy_serializer.egg-info/dependency_links.txt
+numpy_serializer.egg-info/requires.txt
+numpy_serializer.egg-info/top_level.txt

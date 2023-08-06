@@ -1,0 +1,6 @@
+README.md
+setup.py
+Ftntconfig.egg-info/PKG-INFO
+Ftntconfig.egg-info/SOURCES.txt
+Ftntconfig.egg-info/dependency_links.txt
+Ftntconfig.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+setup.py
+BayesianLinearRegression/MHGaussianModel.py
+BayesianLinearRegression/MHLaplacianModel.py
+BayesianLinearRegression/MHLinearModel.py
+BayesianLinearRegression/MHLogisticModel.py
+BayesianLinearRegression/__init__.py
+BayesianLinearRegression.egg-info/PKG-INFO
+BayesianLinearRegression.egg-info/SOURCES.txt
+BayesianLinearRegression.egg-info/dependency_links.txt
+BayesianLinearRegression.egg-info/top_level.txt

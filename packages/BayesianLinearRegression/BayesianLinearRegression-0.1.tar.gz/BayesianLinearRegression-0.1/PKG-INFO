@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: BayesianLinearRegression
+Version: 0.1
+Summary: Fits Linear and Logistic Regression Models using MCMC.
+Home-page: UNKNOWN
+Author: John Clements
+Author-email: blr.johnclements@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

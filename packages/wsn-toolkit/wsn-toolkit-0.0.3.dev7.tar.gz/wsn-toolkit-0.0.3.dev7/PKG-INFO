@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: wsn-toolkit
+Version: 0.0.3.dev7
+Summary: A toolkit for Wireless Sensor Networks.
+Home-page: https://github.com/edielsonpf/wsn-toolkit
+Author: Edielson P. Frigieri
+Author-email: edielsonpf@gmail.com
+License: MIT
+Description: [![Build Status](https://travis-ci.org/edielsonpf/wsn-toolkit.svg?branch=main)](https://travis-ci.org/edielsonpf/wsn-toolkit)
+        [![DOI](https://zenodo.org/badge/319434165.svg)](https://zenodo.org/badge/latestdoi/319434165)
+        
+        **wsn-toolkit** is a Python module for simulation of Wireless Sensor Networks
+        
+        Source code
+        ~~~~~~~~~~~
+        
+        You can check the latest sources with the command:
+        
+            git clone https://github.com/edielsonpf/wsn-toolkit.git
+        
+        
+Keywords: network,sensor,tools,simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6

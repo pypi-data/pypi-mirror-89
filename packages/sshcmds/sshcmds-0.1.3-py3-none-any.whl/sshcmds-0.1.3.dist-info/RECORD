@@ -1,0 +1,8 @@
+sshcmds/__init__.py,sha256=Om3apou-mJsbL_hJJ8vqAD-hrZ3B30F_E9LmRtgmFbo,21
+sshcmds/sshcli.py,sha256=_T56EBPhQAeC3o-cIprE2TGOnSXHtSivC6Wx7YhNqC8,389
+sshcmds/sshcmds.py,sha256=yayx2cog_7hCyJTnVwr_R3fNSAfTHgwgCklgzyAmjq4,1987
+sshcmds-0.1.3.dist-info/METADATA,sha256=xvAkQbbSRLPongjSAhFMt2VQy1GcYkRgFN_-Ms1m48Q,837
+sshcmds-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sshcmds-0.1.3.dist-info/entry_points.txt,sha256=oclZ-LXhZYjjQCG_xRLL7chRJpYV1WuPRSzPR5jqbJc,48
+sshcmds-0.1.3.dist-info/top_level.txt,sha256=OXbJOm575wn1dDKmFd6G_JqnIWJLeMn5UMgDCGHiK-4,8
+sshcmds-0.1.3.dist-info/RECORD,,

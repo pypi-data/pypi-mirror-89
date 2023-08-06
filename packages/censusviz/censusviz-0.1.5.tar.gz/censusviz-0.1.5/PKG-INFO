@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: censusviz
+Version: 0.1.5
+Summary: A Python package to make it easier to visualize Census data.
+Home-page: https://github.com/elliotttrio/censusviz
+License: MIT
+Author: Elliott
+Author-email: eat2153@columbia.edu
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: descartes
+Requires-Dist: geopandas
+Requires-Dist: lxml
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: requests
+Project-URL: Documentation, https://censusviz.readthedocs.io
+Project-URL: Repository, https://github.com/elliotttrio/censusviz
+Description-Content-Type: text/markdown
+
+# censusviz 
+
+![](https://github.com/elliotttrio/censusviz/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/elliotttrio/censusviz/branch/main/graph/badge.svg)](https://codecov.io/gh/elliotttrio/censusviz) ![Release](https://github.com/elliotttrio/censusviz/workflows/Release/badge.svg) [![Documentation Status](https://readthedocs.org/projects/censusviz/badge/?version=latest)](https://censusviz.readthedocs.io/en/latest/?badge=latest)
+
+This package helps users more easily visualize maps using Census Population Estimate API and the Census Cartographic GeoJSON boundary files. It transforms GeoJSON files into easy to work with GeoPandas.GeoDataFrame and plot choropleth maps.
+
+## Installation
+
+```bash
+pip install censusviz
+```
+## Dependencies
+
+- python = "^3.6"
+- pandas 
+- pyproj 
+- requests 
+- numpy 
+- shapely 
+- gdal = [Wheels for Windows User](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
+- fiona = [Wheels for Windows User](https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona)
+- geopandas 
+- matplotlib 
+- descartes 
+- lxml
+
+
+## Documentation
+
+The official documentation is hosted on Read the Docs: https://censusviz.readthedocs.io/en/latest/
+
+## Contributors
+
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/elliotttrio/censusviz/graphs/contributors).
+
+### Credits
+
+This package was created with Cookiecutter and the UBC-MDS/cookiecutter-ubc-mds project template, modified from the [pyOpenSci/cookiecutter-pyopensci](https://github.com/pyOpenSci/cookiecutter-pyopensci) project template and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage).
+

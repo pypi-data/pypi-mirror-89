@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: bopku
+Version: 0.1.0
+Summary: Alat bantu administrasi BOP (Bantuan Operasional) Paud.
+Home-page: https://dapodix.github.io/bopku/
+License: GPLv3
+Author: hexatester
+Author-email: habibrohman@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.3.22,<2.0.0)
+Requires-Dist: alembic (>=1.4.3,<2.0.0)
+Requires-Dist: dacite (>=1.6.0,<2.0.0)
+Project-URL: Repository, https://github.com/dapodix/bopku
+Description-Content-Type: text/markdown
+
+# Bopku
+
+Bopku merupakan alat bantu administrasi BOP Paud.
+
+## Fitur yang akan datang
+
+Berikut fitur yang akan direncanakan untuk aplikasi ini.
+
+- Export ke excel
+- Export ke word
+- Print Kwitansi
+
+## Donasi
+
+Jika anda ingin melakukan donasi untuk kami, bisa menghubungi kami melalui [WhatsApp](https://wa.me/6287725780404) ataupun [Telegram](https://t.me/hexatester).
+
+## Legal / Hukum
+
+Kode ini sama sekali tidak berafiliasi dengan, diizinkan, dipelihara, disponsori atau didukung oleh Kemdikbud atau afiliasi atau anak organisasinya. Ini adalah perangkat lunak yang independen dan tidak resmi. _Gunakan dengan risiko Anda sendiri_.
+

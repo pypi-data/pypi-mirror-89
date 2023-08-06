@@ -1,0 +1,14 @@
+WebsitesAvailability-1.0.1.data/scripts/recorder.py,sha256=o4xjWYpmeGuxE4JKM2CgZu3YR3MloLbaPyRc1_FvEk8,6432
+WebsitesAvailability-1.0.1.data/scripts/tracker.py,sha256=wSVpxajryccnH7zGHfaZxhc3yiwEwTYgIotkxajX2SA,7654
+libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libs/log.py,sha256=NjPDQ2xxkOqe20l5j6lLs_6yr8PQqIBGRIiEaOplg60,2350
+libs/status.py,sha256=gEp8eS1HgFToFL7euXGwl9xIufql1ItcCObXFrC-vr4,6260
+libs/webtracker.py,sha256=NhKqrhIEjdTMYxCIuBgZFVJl8mIR8WOCzIUnGvAyr_c,3753
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_websitestatus.py,sha256=TnuMyE9Yn1yqaGs6cgWLDBFjakhynKlScKgZs4uHgwc,6024
+tests/test_webtracker.py,sha256=5egXKDCubFI1A4_87yvvyXmaCrrcVflPeKYmovC9lgc,5362
+WebsitesAvailability-1.0.1.dist-info/LICENSE,sha256=-FqAv4UaDHzQe5fQ_ij6YcUmjEo1014n-Cctc8S4o5c,1088
+WebsitesAvailability-1.0.1.dist-info/METADATA,sha256=Sv1NSsEpuztsg5wdk6BYGZT4MVUGEynzbTL816PAlw0,605
+WebsitesAvailability-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+WebsitesAvailability-1.0.1.dist-info/top_level.txt,sha256=25QuFgVqeTAkczzNY9tRBIvs2LI7rYQCih4cAIGW6Bs,11
+WebsitesAvailability-1.0.1.dist-info/RECORD,,

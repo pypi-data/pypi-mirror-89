@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: cex-webuy-api
+Version: 0.0.2
+Summary: CeX WeBuy API Wrapper
+Home-page: http://pythoncasovi.com
+Author: Darko Dekan
+Author-email: darko.dekan@protonmail.com
+License: The Unlicense (Unlicense)
+Description: # CeX WeBuy API
+        
+        
+        Wrapper for CeX WeBuy API
+        
+        
+        import cex_webuy_api 
+        
+        print(cex_webuy_api.get_product("len1321")) #returns json on that product with that id
+        
+        
+        
+        Change Log
+        ===========
+        0.0.1(20/12/2020)
+        -------------------
+        - Initial release
+Keywords: cex,webuy,api,product,stock
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3.9

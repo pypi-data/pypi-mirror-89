@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: MK8D
+Version: 0.0.1
+Summary: Mario Kart 8 Deluxe livesplit analyzer
+Home-page: https://github.com/Chipdelmal/MK8D
+Author: chipdelmal
+Author-email: chipdelmal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.3.2)
+Requires-Dist: xmltodict (>=0.12.0)
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: numpy (>=1.19.4)
+Requires-Dist: plotly (>=4.13.0)
+Requires-Dist: plotly-express (>=0.4.1)
+Requires-Dist: colour (>=0.1.5)
+
+# MK8D
+
+Python package for "Mario Kart 8 Deluxe" livesplit data analysis.  It processes Livesplit *LSS* files (*XML* format) to provide a cleaner way to analyze the data by re-shaping it to a dataframe. 
+
+
+This package is an improvement upon the [mk8dLivesplit](https://github.com/Chipdelmal/mk8dLivesplit) implementation. The main change is that it handles runs in a dataframe for easier parsing and filtering (sacrificing a bit of processing speed).
+
+## Features
+
+* Streamlined conversion from *LSS* to *CSV* dataframe
+* Combine different *LSS* files into one dataframe automatically
+* Plot and compare runs 
+  * Full run
+  * Individual Tracks
+
+## Dependencies
+
+* Pandas
+* Numpy
+* Plotly
+* Matplotlib
+
+## To do
+
+- [x] Fix bug with tracks sorting
+- [x] Add attempt date support
+- [x] Create command line tool
+

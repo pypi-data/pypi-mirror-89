@@ -1,0 +1,7 @@
+setup.py
+phonetic_matcher/__init__.py
+phonetic_matcher/utils.py
+phonetic_matcher.egg-info/PKG-INFO
+phonetic_matcher.egg-info/SOURCES.txt
+phonetic_matcher.egg-info/dependency_links.txt
+phonetic_matcher.egg-info/top_level.txt

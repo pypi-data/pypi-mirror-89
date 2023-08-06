@@ -1,0 +1,10 @@
+.DS_Store,sha256=942M8qn1KuxxXQrcjaJPMygRnLTXoBxtmYsybteBPFE,6148
+safedata_validator/__init__.py,sha256=_l8J1rDROc0dmIUmrPKgRq6x9b0eVRXewqpjOsZ9e9s,98
+safedata_validator/safedata_validator.py,sha256=OK5ZbHrkvrdiF_lRcJp30pJazGz1q4cVX8qANz7m170,135846
+safedata_validator/version.py,sha256=2-KYn-_VACEfGQEVfe56ACwV5ap3p5u2QlHP5W7uoQc,23
+safedata_validator-2.0.0.dist-info/LICENCE,sha256=vn0pe-BeFAsm4zRj_G5zSX7tAlI5kczzr2So4e76OLA,1050
+safedata_validator-2.0.0.dist-info/METADATA,sha256=42xo32CUPg0fbo250F8cnlfGfig4dxL4MzbHNp_LI4c,1550
+safedata_validator-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+safedata_validator-2.0.0.dist-info/entry_points.txt,sha256=XVxkCnQYLox4OPHJabD1bc9l6NoBvz_1V2-a7s57fgw,82
+safedata_validator-2.0.0.dist-info/top_level.txt,sha256=A7g_xKkrexuuwd-E-6PBs1Maou-TiYA4Uvdh4K0ZGpk,19
+safedata_validator-2.0.0.dist-info/RECORD,,

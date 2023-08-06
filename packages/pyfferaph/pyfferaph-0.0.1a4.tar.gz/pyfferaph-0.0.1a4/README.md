@@ -1,0 +1,61 @@
+# Installation
+
+```
+conda create -n pyfferaph python=3.6
+conda activate pyfferaph
+```
+
+On linux:
+```
+pip install --upgrade pyfferaph
+```
+
+On Mac/Windows, you need first to install the dependencies.
+
+```
+conda install -c conda-forge MDAnalysis
+pip install --upgrade pyfferaph
+```
+
+```bash
+# filter_pyff
+# ============
+#
+# filter_pyff script works on adjacency matrix files, such as as those outputted by Pyinteraph (add reference)
+# The script is designed to:
+
+#1) return and save to file a macro_iin.dat file starting from separete interaction matrices (salt bridges, hydrogen bonds, hydrophobic interactions)
+# Each interaction in each interaction matrix is retained only if above a certaint treshold value (-p option) if provided (default value 0.0).
+# The filtered matrices arte then combined to generate a macro_iin.dat file,
+# an edge between two nodes is drawn if that interaction is above treshold in at least one filterd interaction matrix
+
+threshold=5.0
+filter_pyff -d sb_graph.dat -d hb_graph.dat -d hc_graph.dat -p $threshold -o out_macro_iin.dat
+
+#2) Generate an intercation network G based on either separate interaction matrices or a macro IIN file. A topology file is required (option -g)
+# compute all shortest paths between a set of source and target residues defined in a json formatted input file (option -z).
+# A json-formatted file can be obtained with:
+
+filter_pyff -j template.json
+
+# A score is assigned for each path of a given source-target pair.
+# Identify the best path (or equally best pahts) among all paths connecting source and target residues
+# Calculate the communication robustness index for each source-target pathway (a pathway is define as the set of all the shortest paths connecting source and taget)
+# Print to file all the above mentioned informations. The script saves one file for each source residue. Eache file contains all patht between that source and all the target resiudes.
+
+#starting from separete interaction matrices:
+
+filter_pyff -d sb_graph.dat -d hb_graph.dat -d hc_graph.dat -p $treshold -o out_macro_iin.dat -g topol.gro -z z_file.json
+
+#starting from a macro_iin.dat file
+
+filter_pyff -i macro_iin.dat -g topol.gro -z z_file.json
+
+#3) Compute the selective betweeness for a given redidue (option -s) considering all shortest path between a given source and target file (option -t)
+
+filter_pyff -d sb_graph.dat -d hb_graph.dat -d hc_graph.dat -p $treshold -o out_macro_iin.dat -g topol.gro -s RES1 -t RES2 RES3
+
+#or
+
+filter_pyff -i macro_iin.dat -g topol.gro -s RES1 -t RES2 RES3
+```

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: UtilsRxPY
+Version: 0.0.7
+Summary: This is an awesome project!
+Home-page: https://github.com/Carsten-Leue/UtilsRxPY
+Author: Dr. Carsten Leue
+Author-email: carsten.leue@gmx.net
+License: MIT
+Keywords: UtilsRxPY
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rx
+
+# UtilsRxPY
+
+## Documentation
+
+Refer to the [API docs](https://carsten-leue.github.io/UtilsRxPY/)
+
+## Build Setup
+
+[![Build Status](https://www.travis-ci.com/Carsten-Leue/UtilsRxPY.svg?branch=main)](https://www.travis-ci.com/Carsten-Leue/UtilsRxPY)
+[![Coverage Status](https://coveralls.io/repos/github/Carsten-Leue/UtilsRxPY/badge.svg?branch=master)](https://coveralls.io/github/Carsten-Leue/UtilsRxPY?branch=master)
+

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PygQuery
+Version: 0.0.1
+Summary: Utils package for Google BigQuery
+Home-page: https://github.com/mlabarrere/PygQuery
+Author: M_Lbr
+Author-email: m.micky.lbr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: pyarrow
+
+# PygQuery
+
+

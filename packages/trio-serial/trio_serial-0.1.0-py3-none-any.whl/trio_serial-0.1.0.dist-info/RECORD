@@ -1,0 +1,12 @@
+trio_serial/__init__.py,sha256=VZytfH-aLSb2xMqgPxahadU8Chv6BgNv9uy19TZOnxU,927
+trio_serial/abstract.py,sha256=2ucozV6TtGZJZXEJQsRgT7POI_nYqqqqr7KHs7xRAVw,6796
+trio_serial/bsd.py,sha256=yNFt8EDdPk2ZI-pY-yfmo1WkGsX9x8VrBAVizyOgNRQ,651
+trio_serial/cygwin.py,sha256=q47_bx85smUhyH1dv8AtkrkAJQKCYZQLG84Jsp41H4U,761
+trio_serial/darwin.py,sha256=Z2OJAFqb_4YOWoghs7FCg1dSm_LYdEp9o0jLDuSZaUk,1097
+trio_serial/linux.py,sha256=eacLTjGiR4lhr_W2a1v7R3DMNjSOFamxU8l37pkBa0k,2263
+trio_serial/posix.py,sha256=UqQsQBnDzd3lxha76zpKmkksm98UACZORm67-tvx53s,9871
+trio_serial/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trio_serial-0.1.0.dist-info/LICENSE,sha256=Vv_YCJ4z60Gpti1wdqRHE8AI6fbWouRd5KmkK8nksEU,1862
+trio_serial-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+trio_serial-0.1.0.dist-info/METADATA,sha256=gERFzFOkaaHuGiB97xS-n9oF4Cop5Vz62SHRKLcd4vA,1189
+trio_serial-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+README.md
+setup.py
+cpc.egg-info/PKG-INFO
+cpc.egg-info/SOURCES.txt
+cpc.egg-info/dependency_links.txt
+cpc.egg-info/entry_points.txt
+cpc.egg-info/requires.txt
+cpc.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/utils/__init__.py
+src/utils/solution_tester.py
+src/utils/submission_scraper.py

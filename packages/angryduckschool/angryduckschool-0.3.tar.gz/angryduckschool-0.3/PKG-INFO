@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: angryduckschool
+Version: 0.3
+Summary: OOP Learning Example by angryduck
+Home-page: https://github.com/angryduck888/angryduckschool
+Author: Angryduck
+Author-email: loong.wissawakorn@gmail.com
+License: MIT
+Download-URL: https://github.com/angryduck888/angryduckschool/archive/v_01.tar.gz
+Description: OOP Learning Example by angryduck
+Keywords: Python OOP,Thailand,angryduck888
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

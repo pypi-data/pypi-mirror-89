@@ -1,0 +1,3 @@
+[console_scripts]
+ursgal-install-resources = ursgal.uinstaller:main
+

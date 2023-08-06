@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dada_http/__init__.py
+dada_http.egg-info/PKG-INFO
+dada_http.egg-info/SOURCES.txt
+dada_http.egg-info/dependency_links.txt
+dada_http.egg-info/requires.txt
+dada_http.egg-info/top_level.txt
+tests/__init__.py
+tests/test_http.py

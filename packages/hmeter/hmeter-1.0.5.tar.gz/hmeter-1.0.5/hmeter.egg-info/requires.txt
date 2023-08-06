@@ -1,0 +1,2 @@
+gradio>=1.4.0
+scikit-learn>=0.24.0

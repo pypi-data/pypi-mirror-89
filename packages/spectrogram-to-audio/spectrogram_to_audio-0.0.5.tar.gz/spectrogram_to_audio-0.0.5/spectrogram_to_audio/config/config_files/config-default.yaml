@@ -1,0 +1,15 @@
+audio:
+  sample_rate: 22050
+  audio_time_sec: 4
+
+spectrogram:
+  frequency_min: 0
+  frequency_max: 8000
+  spec_channels: 80
+  frame_length: 1024
+  fft_length: 1024
+  frame_step: 256
+
+dataset:
+  dataset_url: 'https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2'
+  dataset_local_path: '/tmp/.keras/datasets'

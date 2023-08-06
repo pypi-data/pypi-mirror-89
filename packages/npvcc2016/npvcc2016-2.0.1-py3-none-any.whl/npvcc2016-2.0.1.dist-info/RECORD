@@ -1,0 +1,15 @@
+npvcc2016/PyTorch/Lightning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npvcc2016/PyTorch/Lightning/datamodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npvcc2016/PyTorch/Lightning/datamodule/spectrogram.py,sha256=TRjZkevHuZsYVGHPoKQlMomrPpCaHJBRrgy5pEHHfeg,3507
+npvcc2016/PyTorch/Lightning/datamodule/waveform.py,sha256=40rRV4qs40A6MITVdLmn2rPSFos2GQyCQEsB_M40LFE,2624
+npvcc2016/PyTorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npvcc2016/PyTorch/dataset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npvcc2016/PyTorch/dataset/spectrogram.py,sha256=8SWypODEe4VGjIPbwfWTRtvt7Dzf8_heJjF32hst36Q,8169
+npvcc2016/PyTorch/dataset/waveform.py,sha256=jDKAYbyFgQdOuP3fkcGSo3QS10_z70fIWx-4JZDvQLU,7374
+npvcc2016/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npvcc2016/corpus.py,sha256=3CgUNUkHPw57K7vt4fHBK4J4SqD1khQPx4yRm2KChns,4379
+npvcc2016/fs.py,sha256=rcg7wEtviIs7QV73ylpAB2y4YZJRoB-E6TMRcpYrqeI,3552
+npvcc2016-2.0.1.dist-info/LICENSE,sha256=ZqFhXa4x9GiqtY8Q7D27zWMSG0lXJ23lDymUPfl0FOc,1064
+npvcc2016-2.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+npvcc2016-2.0.1.dist-info/METADATA,sha256=APWlSKSEGDzf40SUSTxxm7bWaIv3JRqshFEAVxZd0CI,3141
+npvcc2016-2.0.1.dist-info/RECORD,,

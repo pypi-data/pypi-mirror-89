@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: rw_banks
+Version: 0.0.5
+Summary: Get a list of licensed banks from Rwanda and their corresponding swift code, address, contact info, ussd code and bank code
+Home-page: UNKNOWN
+Author: Igwaneza Bruce
+Author-email: knowbeeinc@gmail.com
+License: MIT
+Description: # rw_banks
+        
+        [![Downloads](https://pepy.tech/badge/rw-banks)](https://pepy.tech/project/rw-banks)
+        [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+        [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+        
+        A lightweight python package that can be used to get list of licensed banks from Rwanda
+        and their corresponding swift code, address, contact information, ussd code and bank code.
+        
+        ## Installation
+        
+        The distribution is hosted on pypi at: https://pypi.org/project/rw_banks/. To directly install the package from pypi, run from your terminal::
+        
+            $ pip install rw_banks
+        
+        ## Usage
+        
+        ```py
+        
+           from rw_banks import getBanks, getbank
+        
+           print(getBanks()); //list of licensed banks
+           print(getbank("BKIGRWRW")); //dict of licensed bank with this swift code ("BKIGRWRW")
+        
+        ```
+        
+Keywords: banks,rwanda,banki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

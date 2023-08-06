@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+cute_deltas/__init__.py
+cute_deltas/_nbdev.py
+cute_deltas/core.py
+cute_deltas.egg-info/PKG-INFO
+cute_deltas.egg-info/SOURCES.txt
+cute_deltas.egg-info/dependency_links.txt
+cute_deltas.egg-info/entry_points.txt
+cute_deltas.egg-info/not-zip-safe
+cute_deltas.egg-info/top_level.txt

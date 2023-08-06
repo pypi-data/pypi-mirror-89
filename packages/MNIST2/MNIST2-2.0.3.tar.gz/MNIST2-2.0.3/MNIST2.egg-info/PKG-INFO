@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: MNIST2
+Version: 2.0.3
+Summary: A MNIST OCR package
+Home-page: https://www.bilibili.com/video/BV164411b7dx?p=12
+Author: Taolar
+Author-email: Taolar9458@163.com
+License: MIT
+Description: Hello!
+        
+        This is the Third version i hope itll work well
+        
+        this package was finished by my team
+        you can easily call this API by using function"NumOCR"
+        function "help" will teach you how to use it
+        
+        thank you again for downloading our package
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries

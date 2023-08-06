@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+cardmaker/Brusher.ttf
+cardmaker/__init__.py
+cardmaker/card.py
+cardmaker/defaultbg.png
+cardmaker/tools.py
+cardmaker.egg-info/PKG-INFO
+cardmaker.egg-info/SOURCES.txt
+cardmaker.egg-info/dependency_links.txt
+cardmaker.egg-info/requires.txt
+cardmaker.egg-info/top_level.txt

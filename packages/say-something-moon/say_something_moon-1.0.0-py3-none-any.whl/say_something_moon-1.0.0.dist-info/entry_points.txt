@@ -1,0 +1,3 @@
+[console_scripts]
+saysomething = saysomething.__main__
+

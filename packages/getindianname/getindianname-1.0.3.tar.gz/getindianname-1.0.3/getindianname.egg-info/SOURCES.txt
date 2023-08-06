@@ -1,0 +1,8 @@
+README.md
+setup.py
+getindianname/__init__.py
+getindianname/main.py
+getindianname.egg-info/PKG-INFO
+getindianname.egg-info/SOURCES.txt
+getindianname.egg-info/dependency_links.txt
+getindianname.egg-info/top_level.txt

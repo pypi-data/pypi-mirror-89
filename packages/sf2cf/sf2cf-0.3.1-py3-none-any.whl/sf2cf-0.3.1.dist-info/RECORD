@@ -1,0 +1,14 @@
+sf2cf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sf2cf/sf2cf.py,sha256=khE2XBsuMVHNvE7LLizTtNiRBTm2z7xzHcMsrMSjBFQ,6228
+sf2cf/feeds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sf2cf/feeds/cyanideandhappiness.py,sha256=xDH_c_hPxJW9O7Ar-yyQZhn4n2zx8zSn8Fp2LmxW92o,3737
+sf2cf/feeds/dilbert.py,sha256=BBGu2pqKqe1QSYXzB3Ixs0I3AoGqwbmvAR2RuLv8x4A,3949
+sf2cf/feeds/webtoons.py,sha256=PKfZtaVfaAnAog_yzzhlMYSaO69t7IYbD6ZeW_vxJSY,5529
+sf2cf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sf2cf/tests/test_sf2cf.py,sha256=eZpThQai1-ixI4A3bwPvxUXkBmtDIa3BvK7kN7X15HI,780
+sf2cf-0.3.1.dist-info/LICENSE,sha256=oXKj8x6jGUbgHOPu4yOVyTrJyDOb0brJjtHwRixIU14,1485
+sf2cf-0.3.1.dist-info/METADATA,sha256=tERx5Ty3IY0HBWnzPHCsp8Fz-VQk6VlTTwKNn5kP7qY,2138
+sf2cf-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sf2cf-0.3.1.dist-info/entry_points.txt,sha256=MU2xMp8QkTetKN3R5-3AFLDfEJgRKLAul5Yp3iE28QI,219
+sf2cf-0.3.1.dist-info/top_level.txt,sha256=ykcXO0fkB3wdh4pMojycqyixAv5Xdb8_ns2dHgKHjo0,6
+sf2cf-0.3.1.dist-info/RECORD,,

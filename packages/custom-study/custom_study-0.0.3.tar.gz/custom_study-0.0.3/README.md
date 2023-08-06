@@ -1,0 +1,1 @@
+An alternative theme for the Django admin that has a horizontal navigation bar with drop down menus for your models. Fully themeable from settings.py.

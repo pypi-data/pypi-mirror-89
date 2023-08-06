@@ -1,0 +1,8 @@
+README.md
+setup.py
+custom_study/__init__.py
+custom_study.egg-info/PKG-INFO
+custom_study.egg-info/SOURCES.txt
+custom_study.egg-info/dependency_links.txt
+custom_study.egg-info/not-zip-safe
+custom_study.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+getids/__init__.py
+getids/__main__.py
+getids/ages.json
+getids.egg-info/PKG-INFO
+getids.egg-info/SOURCES.txt
+getids.egg-info/dependency_links.txt
+getids.egg-info/top_level.txt

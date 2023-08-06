@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pygameapp
+Version: 0.0.2
+Summary: Create applications in pygame.
+Home-page: https://github.com/HuangPatrick16777216/pygameapp
+Author: Patrick Huang and Arjun Sahlot
+Author-email: huangpatrick16777216@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+# Pygame App Version 0.0.2
+
+Python module for designing pygame applications.
+
+`pip install pygameapp`
+

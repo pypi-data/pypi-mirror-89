@@ -1,0 +1,3 @@
+google-cloud-translate
+pyyaml
+yaz

@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: bioregistry
+Version: 0.0.1
+Summary: Integrated registry of biological databases and nomenclatures
+Home-page: https://github.com/cthoyt/bioregistry
+Author: Charles Tapley Hoyt
+Author-email: cthoyt@gmail.com
+Maintainer: Charles Tapley Hoyt
+Maintainer-email: cthoyt@gmail.com
+License: MIT
+Download-URL: https://github.com/cthoyt/bioregistry/releases
+Project-URL: Bug Tracker, https://github.com/cthoyt/bioregistry/issues
+Keywords: databases,biological databases,biomedical databases
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: requests-ftp
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-venn
+Requires-Dist: pystow
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+
+<p align="center">
+  <img src="docs/source/logo.png" height="150">
+</p>
+
+<h1 align="center">
+    Bioregistry
+</h1>
+
+An integrative registry of biological databases, ontologies, and nomenclatures.
+
+## ⬇️ Download
+
+The bioregistry database can be downloaded directly
+from [here](https://github.com/cthoyt/bioregistry/blob/main/src/bioregistry/data/bioregistry.json)
+
+## 🚀 Installation
+
+```bash
+$ pip install git+https://github.com/cthoyt/bioregistry.git
+```
+
+## Usage
+
+The Bioregistry can be read in a Python project using:
+
+```python
+import bioregistry
+
+registry = bioregistry.read_bioregistry()
+```
+
+## Update
+
+```bash
+$ bioregistry update
+```
+
+

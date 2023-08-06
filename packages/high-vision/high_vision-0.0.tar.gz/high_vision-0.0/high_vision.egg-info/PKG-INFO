@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: high-vision
+Version: 0.0
+Summary: A Python Library for Computer Vision tasks like Object Detection, Segmentation, Pose Estimation etc
+Home-page: https://github.com/fahima10/high-vision
+Author: Adeel Intizar
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: TkDesinger
+Version: 0.2a1
+Summary: Tkinter Desinger to Python 3
+Home-page: http://ppbe.ru
+Author: FotonPC
+Author-email: fototn-pc@inbox.ru
+License: MIT
+Description: **Foton Tkinter Desinger for Python 3**
+        	It is simple tkinter desinger. *Python 3 only supported!*
+Platform: UNKNOWN

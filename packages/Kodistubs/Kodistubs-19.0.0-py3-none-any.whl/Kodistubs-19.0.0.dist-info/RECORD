@@ -1,0 +1,11 @@
+xbmc.py,sha256=FRQCDVEMSQvMgSc7iVM8nj9P41mdo1GzqU6FfP4yNy0,57606
+xbmcaddon.py,sha256=gcSifFUiyioHh8VhOK5cYLnsimLPKfNXpL2xleCjFCo,7543
+xbmcdrm.py,sha256=lFgoT6KuPT7t6h0Uf_0lyWhN5G1Sp9gxsyum8j0H_5Q,8488
+xbmcgui.py,sha256=sRXn5bZ0IpPF8KtpB9wKcn4VIYKMMqUJGclx-wvrTGo,155817
+xbmcplugin.py,sha256=r3E3flxO7efKVTySSluxC-LyruWrAV1NxmoxkyZlEnE,17559
+xbmcvfs.py,sha256=DwnO6G_CkkQSQe-aISXk5jPrrmVUC36JaTzsd6BI5lw,11195
+Kodistubs-19.0.0.dist-info/LICENSE.txt,sha256=xh8S2nza1Sa9y-1HpMCmA-YNu_2vi2aTPNCI6RMsMD8,32472
+Kodistubs-19.0.0.dist-info/METADATA,sha256=doeZUWcSX96e0wJMM9O_F-1vfC5n0PkqZ2OvUlf0-qo,2625
+Kodistubs-19.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Kodistubs-19.0.0.dist-info/top_level.txt,sha256=wNydrIxYC-e6Uh6UbiBWYBKQuuEYWX93hM0g94d9VhY,50
+Kodistubs-19.0.0.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+hairgap_binaries/__init__.py,sha256=2dP8na3VSihYSK8ASl7R5AVrVj9Y9sfZ9_S0ZelqJvc,740
+hairgap_binaries/manylinux1_x86_64-hairgapr,sha256=19KcCCB-KEWXXCtalEgPPJoDsaHqR6ff7fsD_TLrm8M,95656
+hairgap_binaries/manylinux1_x86_64-hairgaps,sha256=KoWs-WQ21xDTQelr1WcnT5tTvUajQA_uUCMa3R0nWJY,100056
+hairgap_binaries/manylinux2014_x86_64-hairgapr,sha256=19KcCCB-KEWXXCtalEgPPJoDsaHqR6ff7fsD_TLrm8M,95656
+hairgap_binaries/manylinux2014_x86_64-hairgaps,sha256=KoWs-WQ21xDTQelr1WcnT5tTvUajQA_uUCMa3R0nWJY,100056
+hairgap_binaries/test_hairgap_binaries.py,sha256=ScNtlN6hDoRSDYUCBAkKp7wdRUaBgx8EcTu--sl0j7o,1448
+test_hairgap_binaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hairgap_binaries-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hairgap_binaries-1.0.0.dist-info/METADATA,sha256=tIt6bZfvk2HI7DeFFCThXh3PHe_SvocPTHH797MHlEQ,2281
+hairgap_binaries-1.0.0.dist-info/WHEEL,sha256=4eDX0T7g-E225MrmiLFBGhqv5gWqULajAb6qcAcPl8A,109
+hairgap_binaries-1.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+hairgap_binaries-1.0.0.dist-info/top_level.txt,sha256=18HfG_q92tJTZ_lSTFHL1kJxz40ldzxwZb20M5fO7RE,17
+hairgap_binaries-1.0.0.dist-info/RECORD,,

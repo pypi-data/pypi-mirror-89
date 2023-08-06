@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rainbond-python
+Version: 0.1.3
+Summary: Rainbond python cloud native development base library
+Home-page: https://github.com/hekaiyou/rainbond-python
+Author: Kaiyou He
+Author-email: hky0313@outlook.com
+License: UNKNOWN
+Description: # Rainbond Python
+        
+        Rainbond python cloud native development base library.
+        
+Keywords: rainbond python cloud native
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

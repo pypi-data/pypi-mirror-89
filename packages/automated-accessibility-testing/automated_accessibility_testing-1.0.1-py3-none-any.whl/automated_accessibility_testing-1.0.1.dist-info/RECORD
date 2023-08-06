@@ -1,0 +1,9 @@
+automated_accessibility_testing/__init__.py,sha256=vvAVgSNbd-uhP_ZpPt13VmUAYQ16YYmLemTg2dGh1t8,83
+automated_accessibility_testing/accessibility_functions.py,sha256=lgjBIo8OkRah0HExSI1a4aUUILYlxNzesLehiFUWdL4,3942
+automated_accessibility_testing/django.py,sha256=v6Ba4HZAoafY0c1HZym8jVD8K6VxVOn9DjkTqJsMoco,1104
+automated_accessibility_testing/exceptions.py,sha256=70blzsVMlM8rlkAi_ZEw3g9Bt9Qo5JtENCBwyhC1QLY,912
+automated_accessibility_testing-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+automated_accessibility_testing-1.0.1.dist-info/METADATA,sha256=dyr_ompImit-E51kPvT14mApULtU5mO_2YYSppDCJfA,3090
+automated_accessibility_testing-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+automated_accessibility_testing-1.0.1.dist-info/top_level.txt,sha256=gvcOHtmngQbuLorMr_QNYZql6_zJKErv3kfx8jsCGuk,32
+automated_accessibility_testing-1.0.1.dist-info/RECORD,,

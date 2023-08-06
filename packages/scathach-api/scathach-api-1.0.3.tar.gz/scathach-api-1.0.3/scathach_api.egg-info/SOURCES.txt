@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+scathach/__init__.py
+scathach/dict.py
+scathach/errors.py
+scathach/http.py
+scathach/scathach.py
+scathach_api.egg-info/PKG-INFO
+scathach_api.egg-info/SOURCES.txt
+scathach_api.egg-info/dependency_links.txt
+scathach_api.egg-info/requires.txt
+scathach_api.egg-info/top_level.txt

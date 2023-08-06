@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+cowait/__init__.py
+cowait/__main__.py
+cowait.egg-info/PKG-INFO
+cowait.egg-info/SOURCES.txt
+cowait.egg-info/dependency_links.txt
+cowait.egg-info/entry_points.txt
+cowait.egg-info/requires.txt
+cowait.egg-info/top_level.txt

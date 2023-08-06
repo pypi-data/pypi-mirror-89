@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: pygouv
+Version: 0.0.8
+Summary: API wrapper for data.gouv.fr
+Home-page: https://github.com/feddelegrand7/pygouv
+Author: Mohamed El Fodil Ihaddaden
+Author-email: ihaddaden.fodeil@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (~=1.1)
+Requires-Dist: requests (~=2.25)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# pygouv
+
+`pygouv` is a Python API wrapper for [data.gouv.fr](https://www.data.gouv.fr/fr/), the French Official Open Data Portal.
+
+## Installation
+
+```python
+pip install pygouv
+```
+
+## Usage
+
+```python
+from pygouv import *
+```
+
+### home()
+
+Displays the datasets that are currently exhibited within the home page of the data.gouv.fr portal:
+
+```python
+home()
+```
+
+### site_metrics()
+
+Provides global metrics related to the data.gouv.fr portal
+
+```python
+site_metrics()
+```
+
+### search()
+
+---
+
+Searches for specific data sets through the data.gouv API according to the pattern provided into the `query` parameter:
+
+```python
+search(query = 'paris', page=0, page_size=20)
+```
+
+### explain()
+
+---
+
+Provides in **French** a detailed description of a data set:
+
+```python
+# mind that we're using the print function so that we get a well formatted text
+print(explain(dataset_id = '5f2bc22ff6bf657d74f48375'))
+
+```
+
+### resources()
+
+---
+
+`resources()` lists all the resources available within a specific data set:
+
+```python
+resources(dataset_id = '5f2bc22ff6bf657d74f48375')
+```
+
+### suggest_territory()
+
+Returns suggested territory pages according to the query provided by the user:
+
+```python
+
+suggest_territory(query = 'paris', result_size=10):
+
+```
+
+## Developing `pygouv`
+
+To install `pygouv` along with the tools that you need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e .[dev]
+```
+
+## Code of Conduct
+
+Please note that the `pygouv` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+

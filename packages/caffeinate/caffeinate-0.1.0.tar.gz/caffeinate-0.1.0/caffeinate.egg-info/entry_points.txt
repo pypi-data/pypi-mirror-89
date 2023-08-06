@@ -1,0 +1,3 @@
+[console_scripts]
+awake = caffeinate.caffeinate:run
+

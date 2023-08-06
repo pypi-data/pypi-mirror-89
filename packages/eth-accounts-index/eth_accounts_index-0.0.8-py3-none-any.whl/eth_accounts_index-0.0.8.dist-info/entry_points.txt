@@ -1,0 +1,4 @@
+[console_scripts]
+accounts-index-add = eth_accounts_index.runnable.add:main
+accounts-index-deploy = eth_accounts_index.runnable.deploy:main
+

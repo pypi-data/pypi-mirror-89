@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: steamplus
+Version: 0.1.0
+Summary: A library for extracting data from steam via steam storefront api and steamspy api
+Home-page: https://github.com/MartijnCBV/steamplus/wiki
+Author: Team Ster
+Author-email: martijn.business@hotmail.com
+License: GPL-3.0-only
+Download-URL: https://github.com/MartijnCBV/steamplus/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: steam,statistics,valve
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8

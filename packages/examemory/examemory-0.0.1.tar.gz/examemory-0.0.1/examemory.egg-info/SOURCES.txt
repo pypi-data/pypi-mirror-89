@@ -1,0 +1,10 @@
+README.md
+setup.py
+examemory/__init__.py
+examemory/linux_memory.py
+examemory/memory.py
+examemory/windows_memory.py
+examemory.egg-info/PKG-INFO
+examemory.egg-info/SOURCES.txt
+examemory.egg-info/dependency_links.txt
+examemory.egg-info/top_level.txt

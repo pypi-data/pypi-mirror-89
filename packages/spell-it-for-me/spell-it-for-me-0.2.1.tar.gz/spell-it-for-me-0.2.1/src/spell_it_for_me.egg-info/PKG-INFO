@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: spell-it-for-me
+Version: 0.2.1
+Summary: A simple command line tool to display a spelling for any phrase using a phonetic alphabet.
+Home-page: https://github.com/bondarevts/spell-it-for-me
+Author: Timofei Bondarev
+Author-email: bondarevts@gmail.com
+License: UNKNOWN
+Description: # Spell It For Me
+        A simple command line tool to display a spelling for any phrase using a phonetic alphabet.
+        
+        Can use NATO (`-a nato`, active by default) or law enforcement (`-a police`) phonetic alphabets.
+        
+        More alphabets might be supported in the future.
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```bash
+        $ pip install spell-it-for-me
+        ```
+        
+        ## Usage
+        
+        By default `spell` will print every letter spelled on a separate line using the NATO phonetic alphabet:  
+        ```bash
+        $ spell Louis 
+        Líma
+        Óscar
+        Úniform
+        Índia
+        Siérra
+        ```
+        
+        Spelling phrases of several words is supported:
+        ```bash
+        $ spell Worcester, MA
+        Whísky
+        Óscar
+        Rómeo
+        Chárlie
+        Écho
+        Siérra
+        Tángo
+        Écho
+        Rómeo
+        ,
+         
+        Mike
+        Álfa
+        ```
+        
+        Law enforcement alphabet is available (use `-a police` or `--alphabet police`):
+        ```bash
+        $ spell -a police Louis
+        Lincoln
+        Oscar
+        Union
+        Ida
+        Sam
+        ```
+        
+        Use `-v` (or `--verbose`) to print each letter used for spelling:
+        ```bash
+        spell.py -v Louis
+        L: Líma
+        o: Óscar
+        u: Úniform
+        i: Índia
+        s: Siérra
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Communications
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

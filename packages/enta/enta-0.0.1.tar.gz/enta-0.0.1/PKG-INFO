@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: enta
+Version: 0.0.1
+Summary: Excel数字转列字母
+Home-page: UNKNOWN
+Author: ireman
+Author-email: z_fsong@163.com
+License: UNKNOWN
+Description: excel数字转列号
+        <br>
+        最多675列
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

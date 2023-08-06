@@ -1,0 +1,8 @@
+README.md
+setup.py
+enta/__init__.py
+enta/num_to_alphabet.py
+enta.egg-info/PKG-INFO
+enta.egg-info/SOURCES.txt
+enta.egg-info/dependency_links.txt
+enta.egg-info/top_level.txt

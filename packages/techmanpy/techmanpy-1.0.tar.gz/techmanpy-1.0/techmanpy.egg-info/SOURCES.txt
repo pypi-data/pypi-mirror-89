@@ -1,0 +1,8 @@
+README.md
+setup.py
+./techmanpy/__init__.py
+./techmanpy/exceptions.py
+techmanpy.egg-info/PKG-INFO
+techmanpy.egg-info/SOURCES.txt
+techmanpy.egg-info/dependency_links.txt
+techmanpy.egg-info/top_level.txt

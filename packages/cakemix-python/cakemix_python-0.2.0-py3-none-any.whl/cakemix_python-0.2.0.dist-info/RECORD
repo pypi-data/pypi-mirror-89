@@ -1,0 +1,14 @@
+cakemix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cakemix/__main__.py,sha256=5CYyaDFZjBmxPD1nLBveLIZOFC1cPhe8C_jqMhz-_FQ,436
+cakemix/cli.py,sha256=8_Wkr3_eS5uEVxmjUi4CuTtKYZREoSyQJafW_ICnLCA,478
+cakemix/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cakemix/commands/add.py,sha256=zSSfnQ8hlyezP12xDuuBHUK-48k1x7Pp7AB1eb0Mwxw,3284
+cakemix/commands/remove.py,sha256=u4dMJVQQu5kZcFBy4NEEKlmpb8dN5iNi7m0MDIiz2Xk,110
+cakemix/commands/run.py,sha256=tzOIBpi30uyZWFL8Jxvsa88sQyRTV7kQJgWVWRgxUOQ,101
+cakemix/database.py,sha256=OqLeUZ1drf9UnTgc4pgnHuNTQpxuddTho7CAXozZxso,4776
+cakemix/output.py,sha256=05qHd14-wwkrS00xpuSmU7TqwDOLrxayrxTU61Ok1sI,1294
+cakemix_python-0.2.0.dist-info/entry_points.txt,sha256=eYmNswLw5lpp5tlZAyegQ4NR8ymt2U8U7xM6GpcL7-Y,43
+cakemix_python-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cakemix_python-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cakemix_python-0.2.0.dist-info/METADATA,sha256=q8qjyhUq8IUJnh920zkkEi4_58zVP57YWqYHx1_h57o,2413
+cakemix_python-0.2.0.dist-info/RECORD,,

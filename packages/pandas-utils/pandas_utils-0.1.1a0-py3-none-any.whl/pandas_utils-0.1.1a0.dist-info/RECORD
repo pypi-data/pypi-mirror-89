@@ -1,0 +1,5 @@
+pandas_utils/__init__.py,sha256=FOxCBPIqnFD1ZaDma7_YF2MfpD_hoAP8ejdfB_tZyD0,119
+pandas_utils/group_differences_between_rows.py,sha256=2bKJIFvNVk5gzeLjCNtcvGlE7lZme8jQzT6XM86p1dk,2950
+pandas_utils-0.1.1a0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pandas_utils-0.1.1a0.dist-info/METADATA,sha256=Aw-P8vzXxhj8TRSSIboD1lETxnS8ua_zeqG6MqTohPw,434
+pandas_utils-0.1.1a0.dist-info/RECORD,,

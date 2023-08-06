@@ -1,0 +1,28 @@
+glfw
+mido
+tqdm
+PyGLM
+scipy
+pillow
+gltflib
+jupyter
+moderngl
+soundfile
+webcolors
+ipyevents
+ipywidgets
+matplotlib
+sounddevice
+moderngl-window
+
+[:platform_system != "Linux"]
+python-rtmidi
+
+[:platform_system != "Windows"]
+numpy
+
+[:platform_system == "Windows"]
+numpy==1.19.3
+
+[midi]
+python-rtmidi

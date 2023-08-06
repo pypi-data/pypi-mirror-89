@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RsCMX_Signaling
+Version: 4.0.7.2
+Summary: CMX Signaling Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Description: Rohde & Schwarz CMX Signaling RsCMX_Signaling instrument driver.
+        
+        Version 4.0.7.0002
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,78 @@
+"""Declares :class:`JSONWebSignature`."""
+from typing import Any
+
+from unimatrix.ext import crypto
+from unimatrix.ext.crypto import oid
+
+from .header import JOSEHeader
+from .jwt import JSONWebToken
+from .signature import JOSESignature
+from .utils import base64url_decode
+from .utils import base64url_encode
+from . import exceptions
+
+
+class JSONWebSignature(crypto.Signable):
+    """Represents a JSON Web Signature (JWS) as specified in :rfc:`7515`.
+
+    Args:
+        header (:class:`JOSEHeader`): a preconfigured JOSE header, or ``None``.
+        payload (:class:`JSONWebToken`, :class:`bytes`): the payload of the
+        JSON Web Signature.
+    """
+    __module__ = 'unimatrix.ext.jose'
+    payload: Any
+    MalformedToken = exceptions.MalformedToken
+
+    @classmethod
+    def parse(cls, token):
+        """Parse a :class:`JSONWebSignature` from a byte-sequence or string."""
+        if isinstance(token, str):
+            token = str.encode(token)
+        header, payload, signature = bytes.split(token, b'.')
+        header = JOSEHeader.parse(header)
+        return cls(
+            header,
+            header.get_payload(payload),
+            JOSESignature(base64url_decode(signature), header.algorithm)
+        )
+
+    def __init__(self, header, payload, signature=None):
+        self.header = header or JOSEHeader()
+        self.payload = payload
+        self.signature = signature
+        if isinstance(payload, JSONWebToken):
+            self.header.setdefault('typ', 'JWT')
+
+    def get_jose_header(self, signer: crypto.Signer):
+        """Return a :class:`~unimatrix.ext.crypto.lib.jose.JOSEHeader` instance
+        based on the metadata of :class:`~unimatrix.ext.crypto.Signer`
+        `signer`.
+        """
+        self.header['alg'] = oid.OID_JOSE_ALGORITHMS[signer.algorithm]
+        return bytes(self.header)
+
+    def get_signable_bytes(self, signer: crypto.Signer):
+        """Return a byte-sequence holding the data that needs to be signed
+        for the :class:`JSONWebSignature`.
+        """
+        return self.get_jose_header(signer) + b'.' + bytes(self.payload)
+
+    async def verify(self, key):
+        """Verify the :class:`JSONWebSignature` with the given key. Return
+        a boolean indicating if the signature was valid.
+        """
+        return await self.signature.verify(key, bytes.join(b'.', [
+            bytes(self.header),
+            bytes(self.payload)
+        ]))
+
+    def __str__(self):
+        return str.join('.', [
+            bytes.decode(bytes(self.header)),
+            bytes.decode(bytes(self.payload)),
+            bytes.decode(base64url_encode(bytes(self.signature)))
+        ])
+
+    def __bytes__(self):
+        return str.encode(str(self))

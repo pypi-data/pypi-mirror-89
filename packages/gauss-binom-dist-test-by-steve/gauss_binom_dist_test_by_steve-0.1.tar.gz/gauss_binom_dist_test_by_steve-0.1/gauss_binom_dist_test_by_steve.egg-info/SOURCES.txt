@@ -1,0 +1,10 @@
+setup.py
+gauss_binom_dist_test_by_steve/Binomialdistribution.py
+gauss_binom_dist_test_by_steve/Gaussiandistribution.py
+gauss_binom_dist_test_by_steve/Generaldistribution.py
+gauss_binom_dist_test_by_steve/__init__.py
+gauss_binom_dist_test_by_steve.egg-info/PKG-INFO
+gauss_binom_dist_test_by_steve.egg-info/SOURCES.txt
+gauss_binom_dist_test_by_steve.egg-info/dependency_links.txt
+gauss_binom_dist_test_by_steve.egg-info/not-zip-safe
+gauss_binom_dist_test_by_steve.egg-info/top_level.txt

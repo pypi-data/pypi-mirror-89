@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: manimpango
+Version: 0.1.0
+Summary: Bindings for Pango for using with Manim.
+Home-page: https://github.com/ManimCommunity/manimpango
+Author: The Manim Community Developers
+Maintainer: The Manim Community Developers
+License: UNKNOWN
+Keywords: cython,pango,cairo,svg,manim
+Platform: Linux
+Platform: macOS
+Platform: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ManimPango
+
+Small binding using Cython for Pango. Used internally with Manim.
+
+

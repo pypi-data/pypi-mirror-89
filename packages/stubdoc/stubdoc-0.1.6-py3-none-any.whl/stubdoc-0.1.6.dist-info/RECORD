@@ -1,0 +1,15 @@
+samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samples/sample.py,sha256=pzGDNOvLN_ozcTgqWwBYkFlCrnmcRd-h3hVJtkORCA8,1034
+stubdoc/__init__.py,sha256=QotHVWC4OczG75mTRLfoC38mJlsY5Bb2bWHMFaR9Jp4,83
+stubdoc/cli.py,sha256=CBt_aMVesvTeKueFehwSSTgQlmCE-zawfY1sGF-iaHk,5230
+stubdoc/stubdoc.py,sha256=3u8Ncg9W2ACTw5YgGEPYHERJsKxG4BJADHg0NWafmzQ,15687
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_build.py,sha256=GHF2mp6Z5YSjDjgm4ilZ5AFBVltKAkgXXGbMXcpCT2U,669
+tests/test_cli.py,sha256=Vkm0BYO7DBj_UYigToMKr-0zh6GQ2X38dWpmWpVZAUI,2574
+tests/test_stubdoc.py,sha256=_pMvrD5pVEiNGAPj8EBvvkyr0iKHigtrGfCekQO1Y6M,13071
+stubdoc-0.1.6.dist-info/LICENSE,sha256=2s_mzSy3f_7NeovWtwawdimb6ThPdYjx2HLY3FzmmgM,1064
+stubdoc-0.1.6.dist-info/METADATA,sha256=SVmjNe0hkDDz6YCTSAe6wcZGp1o6pPCrmOhgRu3KLxo,558
+stubdoc-0.1.6.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+stubdoc-0.1.6.dist-info/entry_points.txt,sha256=0Fk9Bucl29B0njOhFHMC5AY6UfT_HmPNQmlp1M8y5NQ,46
+stubdoc-0.1.6.dist-info/top_level.txt,sha256=mkZDJgUDksahhPBFQGEv0HnvPDr8bSHEwKE1cNvy6sc,22
+stubdoc-0.1.6.dist-info/RECORD,,

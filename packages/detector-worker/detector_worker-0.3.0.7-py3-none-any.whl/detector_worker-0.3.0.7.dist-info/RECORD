@@ -1,0 +1,7 @@
+detector_worker/__init__.py,sha256=v7uDUgCGvGXCMM54dQe4jaNyOc3RYcqtvweKpbgPbsA,37
+detector_worker/sentencizer.py,sha256=fU6h8eSietkU25tELx3euVav0wxcmIHIODZYEkP8Ntk,1762
+detector_worker/worker.py,sha256=9waJ5-2l80RfJYU6H6E5pa32V3H7WPxmu-mto0nwv2I,17408
+detector_worker-0.3.0.7.dist-info/METADATA,sha256=LlNdYieAsBr1EVbAQndeXwAEtN7eWtbTs7nGH31VF40,471
+detector_worker-0.3.0.7.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+detector_worker-0.3.0.7.dist-info/top_level.txt,sha256=F7yR5qMa2T44yih6dzzpfOgVYcp10YQspKF96Off7QE,16
+detector_worker-0.3.0.7.dist-info/RECORD,,

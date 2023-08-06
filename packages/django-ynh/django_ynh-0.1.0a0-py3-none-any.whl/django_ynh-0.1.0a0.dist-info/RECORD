@@ -1,0 +1,12 @@
+django_ynh/__init__.py,sha256=3qMyC3MzVHGmmpr_5OFqF8YHTzwHAcrFYYG-JdKKLuI,28
+django_ynh/create_superuser.py,sha256=Xn6kzJnYHLCVYFbpj83ZWPVAXacsOlBfT1k7pQh68u8,1096
+django_ynh/sso_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ynh/sso_auth/auth_backend.py,sha256=pOjrvVdi5f0M15ikbOtGit40hyr1ZGekNlGw5sBzeU8,1969
+django_ynh/sso_auth/auth_middleware.py,sha256=bIbiiexRtstnI4bM8rcjhKpk2kRZ1JGf7GfRnU1vtWQ,2769
+django_ynh/sso_auth/user_profile.py,sha256=trl_MMTNQfsepgSc9P4pPO9TY74KfKs_5NqRVw4Cwlo,2000
+django_ynh/views.py,sha256=e42lvkBD41HG9AhnE8Woa2B5p_haTa_aVpeuCXxgPY4,387
+django_ynh-0.1.0a0.dist-info/entry_points.txt,sha256=o3BOjY1GIIlNDuWtoHuDbdVNSyTXDZTW30bSrk-prtI,73
+django_ynh-0.1.0a0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+django_ynh-0.1.0a0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_ynh-0.1.0a0.dist-info/METADATA,sha256=5M6m-2aQA9NjSScKo60cdPa2X7HiEQWZRLONVbSBVxs,5121
+django_ynh-0.1.0a0.dist-info/RECORD,,

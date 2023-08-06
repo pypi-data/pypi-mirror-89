@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: clarku-youtube-crawler
+Version: 1.0.0
+Summary: Clark University, Package for YouTube crawler and cleaning data
+Home-page: https://github.com/catxmai/clarku-youtube-crawler
+Maintainer: Cat Mai
+Maintainer-email: CMai@clarku.edu
+License: UNKNOWN
+Description: # clarku-youtube-crawler
+        
+        Clark University YouTube crawler and JSON decoder for YouTube json.
+        
+        ### ``Version 0.0.1->0.0.3 ``
+        
+        This is beta without testing since python packaging is a pain. Please don't install these versions.
+        
+        ### ``Version 0.0.5``
+        Finally figured out testing. It works okay. More documentation to come. To install:
+        
+        ``pip install clarku-youtube-crawler``
+        
+        ### ``Version 0.0.6``
+        Stable release only for ``RawCrawler`` feature
+        
+        ### ``Version 1.0.0``
+        I think this might be our first full stable release.
+        
+        ### Example usage
+        First, run only import to generate ``config.ini``
+        ```
+        from clarku_youtube_crawler import *
+        ```
+        or
+        ```
+        from clarku_youtube_crawler import RawCrawler, ChannelCrawler, JSONDecoder
+        ```
+        After running import, go to ``config.ini`` to configure file paths. Make sure ``DEVELOPER_KEY.txt`` (or if the filename differs, configure also in ``config.ini``) is in the same folder. Then run:
+        
+        ```
+        test = RawCrawler.RawCrawler()
+        test.__build__()
+        test.crawl("food",start_date=1, start_month=12, start_year=2020, day_count=1)
+        test.crawl_videos_in_list(comment_page_count=1)
+        test.merge_all()
+        
+        channel = ChannelCrawler.ChannelCrawler()
+        channel.__build__()
+        channel.setup_channel(subscriber_cutoff=1, keyword="")
+        channel.crawl()
+        channel.crawl_videos_in_list(comment_page_count=1)
+        channel.merge_all()
+        
+        jsonn = JSONDecoder.JSONDecoder()
+        jsonn.load_json("FINAL_channel_merged.json")
+        ```
+        
+        If missing requirements (I already include all dependencies so it shouldn't happen), download ``requirements.txt`` here on this repo
+        and run 
+        
+        ``$ pip install -r requirements.txt``
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

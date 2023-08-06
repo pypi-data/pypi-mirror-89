@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: pib-cli
+Version: 0.0.1
+Summary: CLI for Python in a Box
+Home-page: https://github.com/niall-byrne/pib_cli
+Author: Niall Byrne
+Author-email: niall@niallbyrne.ca
+License: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.0,<3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2 (<3.0.0,>=2.10.3)
+Requires-Dist: bandit (<1.6.3,>=1.6.2)
+Requires-Dist: click (<7.2.0,>=7.1.2)
+Requires-Dist: commitizen (<3.0.0,>=2.8.2)
+Requires-Dist: isort (<5.7.0,>=5.6.0)
+Requires-Dist: m2r2 (<0.3.0,>=0.2.7)
+Requires-Dist: pylint (<2.7.0,>=2.6.0)
+Requires-Dist: pytest (<5.5.0,>=5.4.1)
+Requires-Dist: pytest-cov (<2.11.0,>=2.10.1)
+Requires-Dist: pytest-pylint (<0.20.0,>=0.18.0)
+Requires-Dist: PyYAML (<5.4.0,>=5.3.1)
+Requires-Dist: safety (>=1.9.0)
+Requires-Dist: sphinx (<3.1.0,>=3.0.4)
+Requires-Dist: wheel (>=0.36.0)
+Requires-Dist: yapf (>=0.30.0)
+
+# Project Documentation
+
+## PIB CLI
+
+CLI for Python in a Box
+
+[Project Documentation](https://pib_cli.readthedocs.io/en/latest/)
+
+### Develop Branch
+[![pib_cli-automation](https://github.com/niall-byrne/pib_cli/workflows/pib_cli%20Automation/badge.svg?branch=develop)](https://github.com/niall-byrne/pib_cli/actions)
+
+### Master Branch
+[![pib_cli-automation](https://github.com/niall-byrne/pib_cli/workflows/pib_cli%20Automation/badge.svg?branch=master)](https://github.com/niall-byrne/pib_cli/actions)
+
+## Development Dependencies
+
+You'll need to install:
+ - [Docker](https://www.docker.com/) 
+ - [Docker Compose](https://docs.docker.com/compose/install/)
+
+## Setup the Development Environment
+
+Build the development environment container (this takes a few minutes):
+- `docker-compose build`
+
+Start the environment container:
+- `docker-compose up -d`
+
+Spawn a shell inside the container:
+- `./container`
+
+## Development Tooling
+
+- `$ dev` for details once inside the container
+
+## Customizing the Command Line Interface
+
+Configuring the CLI:
+
+The CLI has some defaults built in, but is customizable by setting the `PIB_CONFIG_FILE_LOCATION` environment variable.
+
+The config file itself is yaml.  
+Each command is described by a yaml key in this format :
+```yaml
+- name: "command-name"
+  path_method: "location_string"
+  commands:
+    - 'one or more'
+    - 'shell commands'
+    - 'each run in a discrete environment'
+  success: "Success Message"
+  failure: "Failure Message"
+```
+
+where `location_string` is one of:
+- `project_root` (`/app`)
+- `project_docs` (`/app/documentation`)
+- `project_home` (`/app/${PROJECT_HOME}`)
+
+## Installing a virtual environment on your host machine
+
+A script `hostmachine.sh` is located in the `scripts` folder that does this for you.
+
+It will use `pipenv` to create a virtual environment and install both requirements files in the assets folder.  
+This is useful if you want to make your local IDE aware of what's installed.
+
+(`pip install pipenv` or `brew install pipenv`, may be necessary on your system.)
+
+

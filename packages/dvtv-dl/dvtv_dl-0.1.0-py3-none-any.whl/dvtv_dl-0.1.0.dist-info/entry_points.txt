@@ -1,0 +1,3 @@
+[console_scripts]
+dvtv-dl=dvtv_dl
+

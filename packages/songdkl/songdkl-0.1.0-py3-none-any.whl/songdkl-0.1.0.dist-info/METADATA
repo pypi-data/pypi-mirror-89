@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: songdkl
+Version: 0.1.0
+Summary: automated quantitation of vocal learning in songbirds
+License: BSD
+Author: David Nicholson
+Author-email: nickledave@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: mahotas (>=1.4.11,<2.0.0)
+Requires-Dist: matplotlib (>=3.3.3,<4.0.0)
+Requires-Dist: numpy (>=1.19.4,<2.0.0)
+Requires-Dist: scikit-learn (>=0.24.0,<0.25.0)
+Requires-Dist: scipy (>=1.5.4,<2.0.0)

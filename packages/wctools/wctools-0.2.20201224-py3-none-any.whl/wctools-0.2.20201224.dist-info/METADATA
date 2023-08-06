@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wctools
+Version: 0.2.20201224
+Summary: A small package
+Home-page: https://github.com/LiaoWC
+Author: LiaoWC
+Author-email: wcl.cs07@nctu.edu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python (==4.4.0.46)
+Requires-Dist: joblib (==0.16.0)
+Requires-Dist: matplotlib (==3.3.3)
+Requires-Dist: pandas (==1.1.4)
+Requires-Dist: Werkzeug (==0.16.1)
+Requires-Dist: Pillow (==8.0.1)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: seaborn (==0.11.1)
+
+Hello!
+
+

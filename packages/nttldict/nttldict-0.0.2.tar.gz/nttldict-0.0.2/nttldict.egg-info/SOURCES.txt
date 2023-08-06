@@ -1,0 +1,7 @@
+README.md
+setup.py
+nttldict/__init__.py
+nttldict.egg-info/PKG-INFO
+nttldict.egg-info/SOURCES.txt
+nttldict.egg-info/dependency_links.txt
+nttldict.egg-info/top_level.txt

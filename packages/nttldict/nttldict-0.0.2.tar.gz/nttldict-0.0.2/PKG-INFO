@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: nttldict
+Version: 0.0.2
+Summary: Naive TTL dictionary, with optional on-disk persistence
+Home-page: UNKNOWN
+Author: Carlos Garcia
+Author-email: cgarciaarano@yahoo.es
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

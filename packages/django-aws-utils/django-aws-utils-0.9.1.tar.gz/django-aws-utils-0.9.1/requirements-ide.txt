@@ -1,0 +1,3 @@
+# Workaround for PyCharm limitation of not allowing the use of two requirements files as neede by pip-tools.
+-r requirements-dev.txt
+-r requirements.txt

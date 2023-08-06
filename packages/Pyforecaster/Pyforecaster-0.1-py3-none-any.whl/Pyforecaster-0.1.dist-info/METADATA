@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Pyforecaster
+Version: 0.1
+Summary: Forecaster package is a collection of various forecasting models
+Home-page: UNKNOWN
+Author: Ashwanth kumar
+Author-email: ashwanth.kumar@tokopedia.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+FORECASTER PACKAGE
+==================
+
+Forecaster package is a collection of various forecasting algorithms packed together to make it easy for the developer to build and test their easily with an easy abstraction provided to access those models. 
+
+Model ranging from simple Arima to the complex Deep Learning Models will be equipped together.
+

@@ -1,0 +1,5 @@
+setup.py
+zhenbin_awesome_helloworld_script.egg-info/PKG-INFO
+zhenbin_awesome_helloworld_script.egg-info/SOURCES.txt
+zhenbin_awesome_helloworld_script.egg-info/dependency_links.txt
+zhenbin_awesome_helloworld_script.egg-info/top_level.txt

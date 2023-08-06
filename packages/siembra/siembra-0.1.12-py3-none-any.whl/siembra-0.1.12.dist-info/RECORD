@@ -1,0 +1,17 @@
+siembra/__init__.py,sha256=cFc4nqi1GH_efj-eGcXdeGGjltnvOAqJE7FPM5nHagI,87
+siembra/__main__.py,sha256=lTKiZAv3PBOEDhypRdkfz7nNWWfqJ18ig_OMfjxd7vU,950
+siembra/safepaths.py,sha256=kIbokp616P_xP3AssueA19e5nmpPMHRTUYvEP9cPH8w,142
+siembra/siembra.py,sha256=9OsFXvixFBJ78onhq_T6gjMW5mXZpofUmhNFpfQazGo,676
+siembra/temp_files.py,sha256=GiSvGhxsBSe2nwBZ17m372DScT9lZHNm697ibaHUu_Y,816
+siembra/v0_1/__init__.py,sha256=AS8rw11WYO-0GErdLQgXN2L8kFhnAvs4gIXEYBUkj0I,80
+siembra/v0_1/installer.py,sha256=Qeq9krmmC3IyvuttreJoWLFQyL5f8xqW3pnm1ITMWyg,1172
+siembra/v0_1/validator.py,sha256=ESHFSvlhEeHcldku0RBlglBGo8L-xUgoRYcN-s2WE4I,674
+siembra/v0_1/executors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siembra/v0_1/executors/docker.py,sha256=0f9vaU3l6V7vgipQHaQBjRds42PMLKkrWpwkC9_giw8,1079
+siembra/v0_1/executors/file.py,sha256=VHKZEIMFT041TvzKjT3Eo_Cp8RMrsL9Dr9laggbQap0,1475
+siembra/v0_1/executors/template.py,sha256=1O6SuTEIgIx-FhPXeIwjepgVxQP65ZmmcNuV8D6nvic,319
+siembra-0.1.12.dist-info/METADATA,sha256=N6htmwvkunQlGFsy7aHnWPa50fjooz__4n4MmnrT2mQ,524
+siembra-0.1.12.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+siembra-0.1.12.dist-info/entry_points.txt,sha256=t7omsJnK-fk-i15SVVBU4oGtNf4ET2Lrrr7lpGGBWug,51
+siembra-0.1.12.dist-info/top_level.txt,sha256=xwZ31SBTEzcWp_w7K-FeltdA9OOvh-rxBLoLFfIpYsU,8
+siembra-0.1.12.dist-info/RECORD,,

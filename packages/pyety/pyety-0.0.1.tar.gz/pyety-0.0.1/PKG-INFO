@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyety
+Version: 0.0.1
+Summary: DynamoDB experimentation.
+Home-page: https://github.com/thorwhalen/ut/tree/master/pyety
+Author: Thor Whalen
+License: mit
+Description: 
+        # pyety
+        DynamoDB experimentation.
+        
+        
+        To install:	```pip install pyety```
+        
+Platform: any
+Description-Content-Type: text/markdown

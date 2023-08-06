@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/ddiff/__init__.py
+src/ddiff/configurations.py
+src/ddiff/data_diff.py
+src/ddiff/file_controller.py
+src/ddiff/main.py
+src/ddiff/utils.py
+src/ddiff.egg-info/PKG-INFO
+src/ddiff.egg-info/SOURCES.txt
+src/ddiff.egg-info/dependency_links.txt
+src/ddiff.egg-info/entry_points.txt
+src/ddiff.egg-info/not-zip-safe
+src/ddiff.egg-info/requires.txt
+src/ddiff.egg-info/top_level.txt

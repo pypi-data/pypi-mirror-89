@@ -1,0 +1,6 @@
+black
+pre-commit
+sphinx
+sphinx_rtd_theme
+sphinx-autoapi
+git+https://github.com/bitprophet/releases/#egg=releases

@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 120
+target-version = ['py38']
+
+[tool.setuptools_scm]
+
+[build-system]
+requires = [
+    "setuptools>=51",
+    "wheel",
+    "setuptools_scm[toml]>=5.0.1",
+]

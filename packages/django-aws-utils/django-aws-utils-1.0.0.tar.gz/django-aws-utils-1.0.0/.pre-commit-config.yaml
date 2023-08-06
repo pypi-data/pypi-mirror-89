@@ -1,0 +1,19 @@
+minimum_pre_commit_version: 2.9.3
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 9136088a246768144165fcc3ecc3d31bb686920a  # frozen: v3.3.0
+    hooks:
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: check-vcs-permalinks
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+  - repo: https://github.com/psf/black
+    rev: e66be67b9b6811913470f70c28b4d50f94d05b22  # frozen: 20.8b1
+    hooks:
+      - id: black

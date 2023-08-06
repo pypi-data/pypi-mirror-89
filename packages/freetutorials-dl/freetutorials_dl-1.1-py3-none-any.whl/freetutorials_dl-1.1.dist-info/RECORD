@@ -1,0 +1,10 @@
+freetutorials_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freetutorials_dl/cli.py,sha256=M6s3ayE4_MKWFPUASO0qnSK2oaCzR6vcwSf_9QqFhGU,598
+freetutorials_dl/course.py,sha256=iHRX8EupaEg3FSFt46r5128UvMbfus0g93Lr9rkLFrk,2388
+freetutorials_dl/downloader.py,sha256=CXkctaP6NSRuV-PSj7zV2KyDIDVMm-fS8e4oMJGOow4,1172
+freetutorials_dl-1.1.dist-info/LICENSE,sha256=sLsDW3Qli4iyzlnGUVMk4VcsGABG3kFL7EO3CFXLq08,1093
+freetutorials_dl-1.1.dist-info/METADATA,sha256=DcBHA2JkXc4inwCE6rmsapRYNAO4w9AtzUKKJOjtufY,1838
+freetutorials_dl-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+freetutorials_dl-1.1.dist-info/entry_points.txt,sha256=D2OrY2I8Awa5buVtOKja_xRl_qrEN60vHuM8n1kgqpE,53
+freetutorials_dl-1.1.dist-info/top_level.txt,sha256=l8sdAroZjz-pXjl2Y7cBcljg01xGdfiUJiut5zSAn_A,17
+freetutorials_dl-1.1.dist-info/RECORD,,

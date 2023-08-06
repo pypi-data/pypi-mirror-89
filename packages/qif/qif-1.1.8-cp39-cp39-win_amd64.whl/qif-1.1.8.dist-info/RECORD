@@ -1,0 +1,11 @@
+gsl.dll,sha256=DR1_JKbEvtgEjMi4BolfuKoKH8_ReZX1iex18IUj9aA,2653696
+gslcblas.dll,sha256=OU-5nVswp_55mqhmqxk_LVZ6xfZa03pcQDCKkQ71OaY,416256
+libopenblas.dll,sha256=9Kh1NwyAyaGYEsUcPYDRewL1s-xSJDdJD26akdWK3Uc,32658112
+mp++.dll,sha256=hvY8nFsjoVguFswmoktHQa-XNhojn3okMoB4nrodRVU,38912
+mpir.dll,sha256=CGrFEe6m5WV2kbW9A-d-yvTcFEOAk5DLgphTTmJ5YQc,598016
+msvcp140.dll,sha256=EN3_SNcExgB-TC1T-0hWteXnlHlQM2YjYkajI6qnbp0,585096
+qif.cp39-win_amd64.pyd,sha256=eqMNJyQNLyKDLw_CM7vXltOay0bEo2z6d__rpVitYNY,15498752
+qif-1.1.8.dist-info/METADATA,sha256=5LdNvftUrJiViPg8Cg2K2mRWVpN5_s1yRhHEEnDF4ok,1592
+qif-1.1.8.dist-info/WHEEL,sha256=2Kg4PzfJLrLEnxRV1e1jZf0TVEjxVcXZXjp8WtjE4tI,105
+qif-1.1.8.dist-info/top_level.txt,sha256=v1-YtFWl41sw5xxup5Bgt1u4YT1H_WBg54ii1ZevYAg,5
+qif-1.1.8.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mappyng
+Version: 0.0.1
+Summary: Utils to work with python dictionaries.
+Home-page: https://github.com/thorwhalen/ut/tree/master/mappyng
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# mappyng
+Utils to work with python dictionaries.
+
+
+To install:	```pip install mappyng```
+
+

@@ -1,0 +1,10 @@
+pulumi_policy/__init__.py,sha256=85prReMjdPKx3GvJNlVx6tEkBMeVXkk-5IEiyvton1A,1087
+pulumi_policy/deserialize.py,sha256=DHI6Ssbv-Z4-znbQONTX_s2ylvx_l0fYKakBO3ajsgw,3849
+pulumi_policy/policy.py,sha256=stZOunzw9XXRNLeXvx1LfNfWEiTPeC-G9vf30YtwMyU,38382
+pulumi_policy/proxy.py,sha256=RMFCa72PjZ_fPSRWkCCcafDmzHQUpixfny4MQbuYH5U,6833
+pulumi_policy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_policy/version.py,sha256=QnzUR-l8iZMMyqBx5Cb_ABLBYhINKJTaxDciT_adMjI,635
+pulumi_policy-1.2.1.dev1608662886.dist-info/METADATA,sha256=vFuVYCGHHNAY3tXOEt4mIAuY9A-HoXNpZgbkf5Y3oYc,2417
+pulumi_policy-1.2.1.dev1608662886.dist-info/WHEEL,sha256=oh0NKYrTcu1i1-wgrI1cnhkjYIi8WJ-8qd9Jrr5_y4E,110
+pulumi_policy-1.2.1.dev1608662886.dist-info/top_level.txt,sha256=Kple_6YMrdhwu7WmTNRlUqrt9Hoy368SVBiYRCF5B2k,14
+pulumi_policy-1.2.1.dev1608662886.dist-info/RECORD,,

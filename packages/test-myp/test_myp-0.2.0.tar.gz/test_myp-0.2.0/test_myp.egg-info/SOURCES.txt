@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_myp/__init__.py
+test_myp/__version__.py
+test_myp/core.py
+test_myp.egg-info/PKG-INFO
+test_myp.egg-info/SOURCES.txt
+test_myp.egg-info/dependency_links.txt
+test_myp.egg-info/requires.txt
+test_myp.egg-info/top_level.txt

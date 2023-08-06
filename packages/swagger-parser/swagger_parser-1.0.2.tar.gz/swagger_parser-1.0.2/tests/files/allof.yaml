@@ -1,0 +1,47 @@
+swagger: '2.0'
+info:
+  version: '2016-01-19T11:24:50Z'
+  title: authentication tests
+schemes:
+- http
+paths:
+  /test:
+    get:
+      description: Get something
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/someObject'
+definitions:
+  baseObject:
+    description: base object
+    properties:
+        a_property:
+           description: a property
+           type: string
+  anotherBaseObject:
+    description: another base object
+    properties:
+        another_property:
+            description: another property
+            type: string
+        some_integer:
+            description: an integer
+            type: integer
+  someObject:
+    description: some object
+    allOf:
+      - $ref: '#/definitions/baseObject'
+      - type: object
+        properties:
+          some_property:
+            description: some property
+            type: string
+        required:
+          - some_property
+  anotherObject:
+    description: another object
+    allOf:
+      - $ref: '#/definitions/baseObject'
+      - $ref: '#/definitions/anotherBaseObject'

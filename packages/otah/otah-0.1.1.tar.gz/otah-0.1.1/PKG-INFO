@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: otah
+Version: 0.1.1
+Summary: create OTA manifests from iOS .ipa files for distribution outside the App Store.
+Home-page: https://github.com/ongyx/otah
+Author: Ong Yong Xin
+Author-email: ongyongxin2020+github@gmail.com

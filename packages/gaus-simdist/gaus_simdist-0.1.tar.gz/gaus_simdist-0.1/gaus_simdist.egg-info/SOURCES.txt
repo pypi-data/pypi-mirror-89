@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gaus_simdist/Binomialdistribution.py
+gaus_simdist/Gaussiandistribution.py
+gaus_simdist/Generaldistribution.py
+gaus_simdist/__init__.py
+gaus_simdist.egg-info/PKG-INFO
+gaus_simdist.egg-info/SOURCES.txt
+gaus_simdist.egg-info/dependency_links.txt
+gaus_simdist.egg-info/not-zip-safe
+gaus_simdist.egg-info/top_level.txt

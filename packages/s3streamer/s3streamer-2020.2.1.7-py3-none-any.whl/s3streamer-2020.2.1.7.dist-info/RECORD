@@ -1,0 +1,5 @@
+s3streamer/__init__.py,sha256=A1LddXM0Jd06C1NDCpteaP0dZjyzoITxnVcW6Lxszv8,27
+s3streamer/s3streamer.py,sha256=-eiPJKlpdawt31HEOdiJhfDk4nFLmwVEmBpMEkRAfEY,20263
+s3streamer-2020.2.1.7.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+s3streamer-2020.2.1.7.dist-info/METADATA,sha256=V9QD0X-bCtv7XmaQsGd2WHfhI_wV9qhFFdM5hiP04a0,4327
+s3streamer-2020.2.1.7.dist-info/RECORD,,

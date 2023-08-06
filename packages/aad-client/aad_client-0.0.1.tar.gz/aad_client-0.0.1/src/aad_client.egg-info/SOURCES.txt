@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+src/aad_client/__init__.py
+src/aad_client/_version.py
+src/aad_client/authorisation.py
+src/aad_client.egg-info/PKG-INFO
+src/aad_client.egg-info/SOURCES.txt
+src/aad_client.egg-info/dependency_links.txt
+src/aad_client.egg-info/requires.txt
+src/aad_client.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+serverhttp/__init__.py,sha256=kj_b75_SifUvZeTKXpJpivwGrQJ3hdTO1nrcAlGaNTE,369
+serverhttp/app.py,sha256=btYFztVadbn3pbyr49WfEdSdB2uP08otejN_b9JZHTk,447
+serverhttp/srv.py,sha256=h_A4psnk3R7KUKLOqLcl35juOPkQ9hrlFUR86rXeYnE,6346
+serverhttp-1.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+serverhttp-1.1.dist-info/METADATA,sha256=gjZagIN92az8u5C3xi10TbZS58odHoBUtNro77w-vu0,377
+serverhttp-1.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+serverhttp-1.1.dist-info/top_level.txt,sha256=MEZEDr5JtI7o5DiRsSDyiGsRZl-za0CxMw2ZE4uflzk,11
+serverhttp-1.1.dist-info/RECORD,,

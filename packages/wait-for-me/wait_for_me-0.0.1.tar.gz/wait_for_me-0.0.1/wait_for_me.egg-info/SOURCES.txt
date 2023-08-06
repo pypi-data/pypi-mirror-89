@@ -1,0 +1,9 @@
+README.rst
+setup.py
+hhh1/__init__.py
+hhh1/__version__.py
+hhh1/core.py
+wait_for_me.egg-info/PKG-INFO
+wait_for_me.egg-info/SOURCES.txt
+wait_for_me.egg-info/dependency_links.txt
+wait_for_me.egg-info/top_level.txt

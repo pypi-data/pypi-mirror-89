@@ -1,0 +1,13 @@
+README.md
+setup.py
+symcollab/algebra/__init__.py
+symcollab/algebra/dag.py
+symcollab/algebra/parser.py
+symcollab/algebra/substitute.py
+symcollab/algebra/sympy.py
+symcollab/algebra/term.py
+symcollab_algebra.egg-info/PKG-INFO
+symcollab_algebra.egg-info/SOURCES.txt
+symcollab_algebra.egg-info/dependency_links.txt
+symcollab_algebra.egg-info/requires.txt
+symcollab_algebra.egg-info/top_level.txt

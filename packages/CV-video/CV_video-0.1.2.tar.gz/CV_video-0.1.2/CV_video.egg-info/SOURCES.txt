@@ -1,0 +1,10 @@
+README.md
+setup.py
+CV_video.egg-info/PKG-INFO
+CV_video.egg-info/SOURCES.txt
+CV_video.egg-info/dependency_links.txt
+CV_video.egg-info/requires.txt
+CV_video.egg-info/top_level.txt
+CV_video.egg-info/zip-safe
+video/__init__.py
+video/video.py

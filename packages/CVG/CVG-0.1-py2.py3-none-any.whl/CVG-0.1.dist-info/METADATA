@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CVG
+Version: 0.1
+Summary: pure python algorithms of computer vision for computer graphics
+Home-page: https://github.com/jay9z/CVG
+Author: Jay9z
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: NumPy
+Requires: Matplotlib
+Requires: SciPy
+
+UNKNOWN
+
+

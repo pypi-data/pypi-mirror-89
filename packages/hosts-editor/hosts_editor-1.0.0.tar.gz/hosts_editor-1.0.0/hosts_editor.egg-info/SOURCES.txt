@@ -1,0 +1,11 @@
+README.md
+setup.py
+hosts_editor.egg-info/PKG-INFO
+hosts_editor.egg-info/SOURCES.txt
+hosts_editor.egg-info/dependency_links.txt
+hosts_editor.egg-info/requires.txt
+hosts_editor.egg-info/top_level.txt
+hostseditor/__init__.py
+hostseditor/editor.py
+hostseditor/entry.py
+hostseditor/utils.py

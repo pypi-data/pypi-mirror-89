@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hosts-editor
+Version: 1.0.0
+Summary: A simple API for editing the hosts file.
+Home-page: https://github.com/eitanwass/hosts_editor
+Author: Ethan Wass
+Author-email: eitanwass@gmail.com
+License: MIT
+Description: # hosts_editor
+        
+        An API for editing `hosts` file.\
+        Exposes API for:
+        - Adding entries.
+        - Selectively remove entries by attributes.
+        - Reading entries.
+        - Backup / Restore.
+        
+        Supports Windows and Linux.\
+        Should support both x86 and x64 systems (Tested only on x64 systems though).\
+        Tested on: Windows 10 x64, Linux Ubuntu 20 x64
+        
+Keywords: hosts file editing api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

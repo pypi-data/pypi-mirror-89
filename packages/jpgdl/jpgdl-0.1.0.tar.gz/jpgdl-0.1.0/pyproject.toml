@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jpgdl"
+version = "0.1.0"
+description = "Just a simple script and library image downloader and saving it in JPEG format."
+authors = ["TheBoringDude <iamcoderx@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/TheBoringDude/jpgdl"
+repository = "https://github.com/TheBoringDude/jpgdl"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+httpx = "^0.16.1"
+Pillow = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

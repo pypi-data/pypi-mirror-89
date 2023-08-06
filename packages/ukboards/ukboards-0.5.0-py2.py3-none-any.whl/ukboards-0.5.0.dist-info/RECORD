@@ -1,0 +1,15 @@
+ukboards/__init__.py,sha256=Z6XN6DtdVAcqCxeigz0cLp6FmllhyEFIEi8YoxTwWzM,176
+ukboards/charities.py,sha256=EaGoM7sPFS8ECiS6q0f3EZtwJdHmKpBBaG5mfzaYLnQ,7861
+ukboards/cli.py,sha256=ToRv2J5rLeHY8bYHnt0B9vixkNZiBWF-euvVmh-9-qU,3686
+ukboards/companies.py,sha256=8Tp-0fta005Azib5_qhBLSvtB5E1skGSYZ6g3_koJlE,43843
+ukboards/company_codes.py,sha256=z2PNyhsGwKmnsfS-XoRR8QxE41OGEuU-jmTtali5lfY,3417
+ukboards/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ukboards/ukboards.py,sha256=AbVUPw7LVRlVJgTW7S2EwIgTMkev-uFmT177pfdXI2g,40773
+ukboards/utils.py,sha256=LAabxNQXdPhgs9lJbH5QIush0Oq4E8ZpxIqTbP4hUoA,13065
+ukboards-0.5.0.dist-info/AUTHORS.rst,sha256=1M7svwNDlxgzPBTouSve2Utw_vvqjUO4eF9zVHK2oH4,168
+ukboards-0.5.0.dist-info/LICENSE,sha256=AUHO79yYpBBt9m5HN4nTxn8Nmv6AcUVE5nff42NIAiU,1071
+ukboards-0.5.0.dist-info/METADATA,sha256=b5OE3iNR_hiKn3nqLz-wJTedDL3L6s3AVL9W6MduUDw,4031
+ukboards-0.5.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+ukboards-0.5.0.dist-info/entry_points.txt,sha256=s3_N9ce7lXRaG-BRucgK-p_nvWNOP3GU4hFMkrfrbWw,48
+ukboards-0.5.0.dist-info/top_level.txt,sha256=Hen851r-_cdM_TYsJjGlUwNBLGvJjOQnVcCvrGQPaeg,9
+ukboards-0.5.0.dist-info/RECORD,,

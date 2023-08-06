@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+audiorepr/__init__.py
+audiorepr/audiolize.py
+audiorepr/data.py
+audiorepr/mapper.py
+audiorepr/version.py
+audiorepr.egg-info/PKG-INFO
+audiorepr.egg-info/SOURCES.txt
+audiorepr.egg-info/dependency_links.txt
+audiorepr.egg-info/not-zip-safe
+audiorepr.egg-info/requires.txt
+audiorepr.egg-info/top_level.txt

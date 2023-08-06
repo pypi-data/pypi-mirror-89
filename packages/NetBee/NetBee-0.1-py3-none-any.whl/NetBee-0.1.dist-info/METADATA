@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: NetBee
+Version: 0.1
+Summary: Easy Penetration Testing Dropbox Deployer
+Home-page: https://github.com/Anders0813/NetBee
+Author: Anders0813
+Author-email: eanderson0813@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+
+# NetBee
+Easy Penetration Testing Dropbox Deployer
+
+

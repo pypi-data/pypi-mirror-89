@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: termed
+Version: 1.0.3
+Summary: A terminal based text editor
+Home-page: https://github.com/amirgeva/termed
+Author: Amir Geva
+Author-email: amirgeva@gmail.com
+License: BSD
+Description: # termed - TERMinal EDitor
+        
+        This module is an attempt to create an extensible terminal based editor
+        that has all the comforts of a typical GUI editor.
+        
+        It is a rewrite of the module `yated`, which is a simpler
+        less ambitious editor, which main flaw is lack of support for tabs
+        
+        
+        
+Keywords: terminal text editor
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Editors
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

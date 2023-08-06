@@ -1,0 +1,13 @@
+gym_conservation/__init__.py,sha256=r5dX_GpO2ncruIskVcN_dygBgELeiMEUjkRwgfTgOXY,87
+gym_conservation/envs/__init__.py,sha256=gfodRFWXScMNfZszcZymFqffGSzlSir_mb2zgT9IHIk,100
+gym_conservation/envs/base_env.py,sha256=ZOshRH4fZ5akKAexlAfdqyCl1NRtWVmzSQ10vS6dCZU,5079
+gym_conservation/envs/growth_models.py,sha256=0f4-d-B9TTbnOgGdfNfeBqr5ox0lwqpGpMOZNCgokJc,8082
+gym_conservation/envs/nonstationary.py,sha256=p1yMBsFb81WakXBQnZVQJ_dmkzS0cTXEg5BgOpaDBuM,5545
+gym_conservation/envs/shared_env.py,sha256=VpQgu8rTJdMYSFlxNEG1cmCeKcSfGhGxNGDYae0JL9M,2737
+gym_conservation/models/__init__.py,sha256=5DcaNA50lIKjsA3txFibnstJroXedpumbotZRCsTMi8,102
+gym_conservation/models/policies.py,sha256=RpJ5pfztzabUVun7s6xo7eU8fGQZgsSCdGmQIa9A5lA,1093
+gym_conservation-0.0.3.dist-info/LICENSE,sha256=yIS5cMapQMBRIqmgZwMANkHgzBE9QO9FhII9GSIS7rs,1083
+gym_conservation-0.0.3.dist-info/METADATA,sha256=TD8HyWn0eq7sYnzFUukMQ2nk2jmykh3ZXyqp6w3BFV0,1622
+gym_conservation-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gym_conservation-0.0.3.dist-info/top_level.txt,sha256=aMkSKSQlc9vCemTd9pGfagIvmVM_Xrd6MjvA739gQR4,17
+gym_conservation-0.0.3.dist-info/RECORD,,

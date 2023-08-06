@@ -1,0 +1,5 @@
+setup.py
+convertCoding.egg-info/PKG-INFO
+convertCoding.egg-info/SOURCES.txt
+convertCoding.egg-info/dependency_links.txt
+convertCoding.egg-info/top_level.txt

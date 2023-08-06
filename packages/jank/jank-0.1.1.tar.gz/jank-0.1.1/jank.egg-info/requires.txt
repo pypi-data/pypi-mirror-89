@@ -1,0 +1,2 @@
+pyglet
+pymunk==5.6.0

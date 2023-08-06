@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_entry.py,sha256=YsVOiKhHNzUp2E8cc8j7ZlHBDv6AKXyyg6stxtpE0-s,258
+vtelem/__init__.py,sha256=GxmfFygnSwAoKVvNm1j5pzl2WyMDCreSXl_V-AHyV14,304
+vtelem/app.py,sha256=E9Ad2Ru-rAbwlBbve8L9uFy7Uq8q685V9HsVygY_FRY,346
+vtelem/entry.py,sha256=hFxlM7_p-E-P7WvVcb9yYGWSsb1ouoTBQlhoq80TGMw,2010
+vtelem-0.0.1.dist-info/LICENSE,sha256=3ZR-XH1ejvzP8nP2TpgfnbspCxg81K6KhsRql_EK7lk,1071
+vtelem-0.0.1.dist-info/METADATA,sha256=gN21QbX7PEHDyex6UqFfxz1f9bnofexzlkFll1LD8RA,661
+vtelem-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vtelem-0.0.1.dist-info/entry_points.txt,sha256=s6WO9VNFeFME71SbbOk_TGSGiKpd8EffpAVCV4QwpxQ,46
+vtelem-0.0.1.dist-info/top_level.txt,sha256=edJJ_rvFjIYsNZ9moDs59xYV_u6tX4FPcT9Ss0G9GrQ,13
+vtelem-0.0.1.dist-info/RECORD,,

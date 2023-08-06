@@ -1,0 +1,7 @@
+diskcache==4.1.0
+deprecated==1.2.7
+pytz==2019.2
+PyYAML==3.12
+requests==2.18.4
+tzwhere==3.0.3
+timezonefinder==4.4.0

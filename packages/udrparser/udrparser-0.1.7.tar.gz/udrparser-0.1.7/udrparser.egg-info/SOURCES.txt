@@ -1,0 +1,10 @@
+README.md
+setup.py
+udrparser/__init__.py
+udrparser/getendpointIPs.py
+udrparser/parsewebpagedoc.py
+udrparser.egg-info/PKG-INFO
+udrparser.egg-info/SOURCES.txt
+udrparser.egg-info/dependency_links.txt
+udrparser.egg-info/requires.txt
+udrparser.egg-info/top_level.txt

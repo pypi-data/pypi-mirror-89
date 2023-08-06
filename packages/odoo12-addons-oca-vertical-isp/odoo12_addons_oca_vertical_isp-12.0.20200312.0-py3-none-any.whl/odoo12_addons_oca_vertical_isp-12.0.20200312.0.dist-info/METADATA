@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-vertical-isp
+Version: 12.0.20200312.0
+Summary: Meta package for oca-vertical-isp Odoo addons
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Dist: odoo12-addon-base-phone-rate
+Requires-Dist: odoo12-addon-base-phone-rate-import-bandwith
+Requires-Dist: odoo12-addon-connector-equipment
+Requires-Dist: odoo12-addon-connector-equipment-import-cdr
+Requires-Dist: odoo12-addon-connector-equipment-service
+Requires-Dist: odoo12-addon-product-isp
+
+UNKNOWN
+
+

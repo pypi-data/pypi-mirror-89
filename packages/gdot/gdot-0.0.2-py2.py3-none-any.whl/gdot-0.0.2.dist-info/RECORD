@@ -1,0 +1,10 @@
+gdot/__init__.py,sha256=hctf9-nXYwXYONXjcuJd_5kZo7UnJMwajwq7qnnlEL4,4466
+gdot/__main__.py,sha256=SVIxqbjGxBVZo_IBwOSNVx5jOGMU3hLJEMrVID6FNkw,71
+gdot/commands.py,sha256=7xDx0xq-wZIK8vUKxuP-ks_BuqiWOifG8FJmLlj0QrQ,3532
+gdot/neofetch.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdot-0.0.2.dist-info/LICENSE,sha256=Nlzn9zw2AHSLQlGA6483EVyWxJn6LzN5JvCVikj0yog,1066
+gdot-0.0.2.dist-info/METADATA,sha256=xbvOG8epdNAtmn0pPeimLT69ZIjDwuLU676sn13NHWU,3197
+gdot-0.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+gdot-0.0.2.dist-info/entry_points.txt,sha256=GBSfHQYoI8M6a71SVo9S7o9JPFhaxOxpm2au4t8h1Cc,45
+gdot-0.0.2.dist-info/top_level.txt,sha256=m_vzXI2pUMJiKfsgEudy30ffs2FNjwMBrr9LrZZXAP0,5
+gdot-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,138 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
+#  2019-18-28 Paul Lettich <paul.lettich@netknights.it>
+#             Make privacyideaadm work with Python 3
+#  2018-04-08 Cornelius Kölbel <cornelius.koelbel@netknights.it>
+#             Add more response details on token enrollment
+#  2016-09-05 Cornelius Kölbel <cornelius.koelbel@netknights.it>
+#             Add nitrokey support
+#  2015-09-25 Cornelius Kölbel <cornelius@privacyidea.org>
+#             Add HSM interface
+#  2015-08-19 Cornelius Kölbel <cornelius@privacyidea.org>
+#             Add possibility to write yubikey data to a file.
+#
+#  2015-03-05 Cornelius Kölbel, <cornelius@privacyidea.org>
+#             Add machine and authitem handling
+#  Aug 11, 2014 Cornelius Kölbel
+#
+#  License:  AGPLv3
+#  contact:  http://www.privacyidea.org
+#
+#  loosly based on linotpadm, which is originally written by
+#  (C) 2010 - 2014 LSE Leading Security Experts GmbH
+#  (http://www.linotp.org, http://www.lsexperts.de, linotp@lsexperts.de)
+#
+# This code is free software; you can redistribute it and/or
+# modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
+# License as published by the Free Software Foundation; either
+# version 3 of the License, or any later version.
+#
+# This code is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU AFFERO GENERAL PUBLIC LICENSE for more details.
+#
+# You should have received a copy of the GNU Affero General Public
+# License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+"""This is the command line tool for the privacyIDEA server.
+It can be used to do several special actions like
+
+ enrolling tokens, listing users and tokens,
+ assign and delete tokens,
+ create and manage machines etc.
+ 
+You can put parameters like the password or the host connection definition
+into a file like 'my-secret-connection-values.txt' and reference this file
+like this at the command line:
+
+   @my-secret-connection-values.txt
+   
+Thus you can avoid exposing secret credentials.
+"""
+from __future__ import print_function
+from six.moves import input
+import click
+import sys
+import os
+import datetime
+import subprocess
+
+from privacyideautils.commands.token import token
+from privacyideautils.commands.user import user
+from privacyideautils.commands.audit import audit
+from privacyideautils.commands.resolver import resolver
+from privacyideautils.commands.config import config
+from privacyideautils.commands.realm import realm
+from privacyideautils.commands.machine import machine
+from privacyideautils.commands.securitymodule import securitymodule
+from privacyideautils.commands.certificate import certificate
+from privacyideautils.clientutils import (showresult,
+                                          dumpresult,
+                                          privacyideaclient,
+                                          __version__)
+
+DESCRIPTION = __doc__
+
+CLICK_CONTEXT_SETTINGS = dict(
+    help_option_names=['-h', '--help'],
+    max_content_width=999
+)
+
+
+def print_version(ctx, param, value):
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo('privacyIDEA admin client version: {}'.format(__version__))
+    ctx.exit()
+
+
+@click.group(context_settings=CLICK_CONTEXT_SETTINGS)
+@click.option('-v', '--version', is_flag=True, callback=print_version,
+              expose_value=False, is_eager=True)
+@click.option('-U', '--url', required=True)
+@click.option('-a', '--admin', required=True,
+              help='The username to authenticate against privacyIDEA.')
+@click.option('-p', '--password', type=str,
+              prompt="Please enter your password", hide_input=True,
+              help='The password of the user')
+@click.option('-n', '--nosslcheck',
+              help='Do not check the SSL certificate', is_flag=True)
+@click.option('--pi-authorization',
+              help='Use the PI-Authorization header instead of Authorization header.',
+              is_flag=True)
+@click.pass_context
+def cli(ctx, url, admin, password, nosslcheck, pi_authorization):
+    """
+    Manage your tokens on the privacyIDEA server
+
+    Examples:
+
+    \b
+      Enroll a token
+      $ privacyidea -U https://yourserver -a user token init
+
+    """
+    client = privacyideaclient(admin, password, url,
+                               no_ssl_check=nosslcheck, pi_authorization=pi_authorization)
+    ctx.obj["pi_client"] = client
+
+
+COMMANDS = (token, user, audit, resolver, config, securitymodule, realm, machine, certificate)
+
+for cmd in COMMANDS:
+    cli.add_command(cmd)
+
+
+def main():
+    try:
+        cli(obj={})
+    except ValueError as e:
+        sys.write.err('Error', exc_info=e)
+        click.echo('Error: ' + str(e))
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

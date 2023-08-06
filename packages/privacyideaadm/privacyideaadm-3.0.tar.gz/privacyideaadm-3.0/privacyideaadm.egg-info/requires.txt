@@ -1,0 +1,7 @@
+cffi
+click
+cryptography
+python-yubico
+qrcode
+requests
+six

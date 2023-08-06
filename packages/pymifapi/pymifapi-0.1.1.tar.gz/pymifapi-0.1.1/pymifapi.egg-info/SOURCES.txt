@@ -1,0 +1,9 @@
+README.md
+setup.py
+pymifapi/__init__.py
+pymifapi.egg-info/PKG-INFO
+pymifapi.egg-info/SOURCES.txt
+pymifapi.egg-info/dependency_links.txt
+pymifapi.egg-info/entry_points.txt
+pymifapi.egg-info/requires.txt
+pymifapi.egg-info/top_level.txt

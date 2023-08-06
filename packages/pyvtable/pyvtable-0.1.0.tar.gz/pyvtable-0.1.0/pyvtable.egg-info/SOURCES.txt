@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyvtable.egg-info/PKG-INFO
+pyvtable.egg-info/SOURCES.txt
+pyvtable.egg-info/dependency_links.txt
+pyvtable.egg-info/top_level.txt

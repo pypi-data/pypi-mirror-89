@@ -1,0 +1,12 @@
+chromatose/__init__.py,sha256=VQZjBpnoqTQ8UpjHPnCOQ0MvW--t6oh25ilMxvodz4w,869
+chromatose/heat.py,sha256=_KOGfr2CW4891v1Wr_m3nU2h5I7_woePICCe56-1-Mc,4406
+chromatose/interpolate.py,sha256=gK6dDeWtjZD19ssYhPPTzHwXC-kUKa38TPUZaz6CzCQ,3938
+chromatose/palettes.py,sha256=BUBhBugRPemos4jxA0Z33uA4iAnqNS6AYodx_JpY_Ps,26674
+chromatose/utils.py,sha256=ezxfCo9S5Vq7tzBAC3eP1VvyamLGYAO_GVxWFNnr-1k,7767
+chromatose/viz.py,sha256=DV9BcpITyBHJ0HzK9Nd6SFjyuzPmJXJQM03J2Bb45VY,13757
+chromatose/volcanoes.csv,sha256=D71xGvDu9w45gSCIEOh8_Cu-pvrVicyJScWU5RCN9dI,25635
+chromatose-0.0.3.dist-info/LICENSE.md,sha256=t0vfx-Orn9B9FzvyhsolPX9fr9fSTS-xBpLu1fAVe5A,1066
+chromatose-0.0.3.dist-info/METADATA,sha256=QTusjH-U_oey-Ukm_XHv2CYSfQHZH8PF4H4Gvmpm2v8,1239
+chromatose-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chromatose-0.0.3.dist-info/top_level.txt,sha256=JO9JeWGBA_iKRQntJWkz5XEHCNBAjGbXmbYm0c4GU6A,11
+chromatose-0.0.3.dist-info/RECORD,,

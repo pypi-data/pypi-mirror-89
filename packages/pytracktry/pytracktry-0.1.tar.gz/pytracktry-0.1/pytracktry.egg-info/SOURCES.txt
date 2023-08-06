@@ -1,0 +1,9 @@
+README.md
+setup.py
+pytracktry/__init__.py
+pytracktry/tracker.py
+pytracktry.egg-info/PKG-INFO
+pytracktry.egg-info/SOURCES.txt
+pytracktry.egg-info/dependency_links.txt
+pytracktry.egg-info/requires.txt
+pytracktry.egg-info/top_level.txt

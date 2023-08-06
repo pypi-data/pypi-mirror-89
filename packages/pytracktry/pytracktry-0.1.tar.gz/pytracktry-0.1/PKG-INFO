@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytracktry
+Version: 0.1
+Summary: A python wrapper for the TrackTry API
+Home-page: https://github.com/concentricc/pytracktry
+Author: Concentricc
+Author-email: Concentricc@gmail.com
+License: UNKNOWN
+Description: _Python wrapper package for the TrackTry API._
+        
+        Look at the file `example.py` for a usage example.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: exec-notifier
+Version: 0.1.4
+Summary: Tool to notify you when command will be executed.
+Author: Ivan Kuznetsov
+Author-email: tikerlade@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Notifier
+This tool provides you ability to send yourself information about looong executed command when it is done. Information will be sent using Telegram Bot, which you can generate for yourself with Telegram BotFather.
+
+## Installation and running
+```shell
+>>> pip install pre_notifier
+>>> pre_notifier config --telegram_id=YOUR_TELEGRAM_ID --token=YOUR_BOT_TOKEN
+>>> pre_notifier notify [your_command_here]
+```

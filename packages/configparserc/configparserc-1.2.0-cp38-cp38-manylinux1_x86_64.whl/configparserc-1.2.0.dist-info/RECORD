@@ -1,0 +1,11 @@
+configparserc/__init__.py,sha256=9P_7ZgA8GGyWVHYv_R4d4HbyBYUHKEH67_dFJ7Xt1uo,674
+configparserc/tools.cpython-38-x86_64-linux-gnu.so,sha256=TWepk68gBP9oOLTzuG7m98b6Zc3IYfnLUmwiCdYR81A,102416
+configparserc/config.cpython-38-x86_64-linux-gnu.so,sha256=9q9AQJgSZKl_0zSdTD_NXqfNYgbQhW_JC_iQQLCVkpU,420768
+configparserc/include/_config.h,sha256=CBmlNJgHPBnXhykUzj8l0wg1Ybwdx_VxLMkL83nALSA,480
+configparserc-1.2.0.dist-info/RECORD,,
+configparserc-1.2.0.dist-info/WHEEL,sha256=VEyGcIFAmk_1KbI6gaZGw_mMiT-pdGweASQLX-DzYaY,108
+configparserc-1.2.0.dist-info/METADATA,sha256=bvZCa6jyLeew5qd9qAikdahU7ILjRlHwCiTGNBrRZ0E,5151
+configparserc-1.2.0.dist-info/top_level.txt,sha256=RDmKSEAFGGJkuvq82h0j_EzwuLmAvaADkjAFdrdlxSM,34
+configparserc-stubs/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configparserc-stubs/tools.pyi,sha256=ypu5xeoTg80pfOS9BfoMhd0puDJIbzIPsFnagSYwAnY,776
+configparserc-stubs/config.pyi,sha256=wfdONZjqrmho_QoltKIiVfvzP8det2PdiHQVRpzhZGo,2813

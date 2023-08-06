@@ -1,0 +1,9 @@
+json_fingerprint/__init__.py,sha256=xN3RTZ2bUpYJS5z2o873QS_OreEurOrm00QQA_P6-tY,47
+json_fingerprint/json_fingerprint.py,sha256=nejXvJiMg7WgNJGCL2NS2_yGnW6NKMSzKJ8bdI3CzY4,2441
+json_fingerprint/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_fingerprint/tests/test_jfpv1.py,sha256=5Y3MkiaMj3NkYJuUmATBlThSuXPQ3o7QqxdqFC3nHpY,6059
+json_fingerprint-0.1.10.dist-info/LICENSE,sha256=IV4-QWWqY6UnT_qEzZbu0AyAh0qDPiimPNdhEjXzmag,1071
+json_fingerprint-0.1.10.dist-info/METADATA,sha256=GNrO4Xkiteaxwjw4ArjwrqZ1qRwZN8iUHgqox190aLQ,1971
+json_fingerprint-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+json_fingerprint-0.1.10.dist-info/top_level.txt,sha256=1bPPZfVFA7LZMynBY0fCxgahs7hD1axI7t1Y1diuTxo,17
+json_fingerprint-0.1.10.dist-info/RECORD,,

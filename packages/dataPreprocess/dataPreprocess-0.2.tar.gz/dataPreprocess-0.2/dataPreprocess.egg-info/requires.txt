@@ -1,0 +1,10 @@
+collections
+nltk
+string
+bs4
+spacy
+unidecode
+word2number
+gensim
+emo_unicodepyspellchecker
+inflect

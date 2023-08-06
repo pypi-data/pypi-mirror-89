@@ -1,0 +1,8 @@
+printfactory/__init__.py,sha256=kiGcY6zP9tf5bpHj9NQNcirGD6eaguf2DrxwQF8Nlt8,92
+printfactory/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+printfactory/models/print_tools.py,sha256=NrJpyAkh9sc1GMQkV2tbQVYyQYFTDdvRSxRtuUkpqcw,3980
+printfactory/printer.py,sha256=4O37c0AUpapu9VPI1DEOr8nuW1n6CIfr6jJLju42NRs,3026
+printfactory-0.1.0a0.dist-info/LICENSE,sha256=DhJwGkxTcKrt1uVTSwZ8SzwALx-10Il-ItZ9dJWdjEs,1083
+printfactory-0.1.0a0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+printfactory-0.1.0a0.dist-info/METADATA,sha256=R40OOGhiPmGHByRxYTcD9_cl1EGPO7WeXELGALvH2kM,2291
+printfactory-0.1.0a0.dist-info/RECORD,,

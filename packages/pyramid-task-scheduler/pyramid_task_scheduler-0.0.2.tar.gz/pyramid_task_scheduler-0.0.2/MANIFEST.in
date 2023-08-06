@@ -1,0 +1,5 @@
+recursive-include plant *.ico *.img *.css *.gif *.jpg *.pt *.txt *.mak *.mako *.js *.html *.xml *.jinja2 server.ini *.json
+
+exclude *.yaml *.yml development.ini unit_tests
+recursive-exclude unit_tests *.py
+include *.sqlite

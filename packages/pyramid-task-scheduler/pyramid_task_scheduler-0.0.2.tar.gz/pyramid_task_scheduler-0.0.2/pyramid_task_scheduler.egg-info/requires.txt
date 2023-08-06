@@ -1,0 +1,7 @@
+apscheduler
+docutils
+waitress
+watchdog
+wheel
+
+[dev]

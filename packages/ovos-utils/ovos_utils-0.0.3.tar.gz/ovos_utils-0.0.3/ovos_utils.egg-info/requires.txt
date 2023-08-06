@@ -1,0 +1,6 @@
+phoneme_guesser
+mycroft-messagebus-client
+inflection
+colour
+pexpect
+requests

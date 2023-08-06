@@ -1,0 +1,10 @@
+audiorepr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audiorepr/audiolize.py,sha256=LjalgU_SlS0wA-VtD7bkldUHVnjLcRxS-xHmr0MMWW4,3365
+audiorepr/data.py,sha256=au1zWzkEZmIDLMLu3dlZgOVd4UCwq-evI3YvlblmxBw,1464
+audiorepr/mapper.py,sha256=qG0X5xR9Qj1IEPAvQ1PssQAQg6Jk3U-SQ82RROSH7no,1499
+audiorepr/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+audiorepr-0.0.1.dist-info/LICENSE,sha256=NsRSQg31S5r6ZBeSso78PnOzf_ork2x4FwXopvL0Nso,1063
+audiorepr-0.0.1.dist-info/METADATA,sha256=UoFb_E4-xKdKIf4ORDTeuieyqSMMujWhBLUTYYrIaCI,2187
+audiorepr-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+audiorepr-0.0.1.dist-info/top_level.txt,sha256=N00UWL9sNEPR0-Bddk_NJebJfGsVyIAZPaB7aYE5vWQ,10
+audiorepr-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+py3mschap/U32.py,sha256=tVTW93BzJyVy6I71tdpQfpmb2iCPSMmiG48MxXHZAmQ,4991
+py3mschap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py3mschap/des.py,sha256=jqK4TdwKz96d8BEIPzCMYvzu2XWs1pUn1Aw3DB-iAoU,2272
+py3mschap/des_c.py,sha256=RDcevMJl7hDO2APDN1du4hgnq4_BOeKaNN7lPCA3Lww,8360
+py3mschap/des_data.py,sha256=ucXXZ-TS1njvNTGJFg61ZJo3Qn8xhKofoBcMdA1IW7Y,20596
+py3mschap/md4.py,sha256=MhwCpYSb6oZaz4lfY2Naew0PUlw-1DSfEph_ml38L3A,9104
+py3mschap/mppe.py,sha256=EazOYRac5rQfHQm9QspD7umD0oLuBykfXOPuGMCeAzA,9536
+py3mschap/mschap.py,sha256=P7ONnSVTBH4t8N2LK8ssXUnkzssMY_fWYZoaEvhWBEA,3627
+py3mschap/utils.py,sha256=rkjd7nqPyGOibA1ka786IU8zVHrmL7nCPVgZwBGgodo,3227
+py3mschap-0.1.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+py3mschap-0.1.dist-info/METADATA,sha256=2dLJ174Akzu24eszm2IrBK21lj_4pkmllKQ9mJ6UUFw,2932
+py3mschap-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py3mschap-0.1.dist-info/top_level.txt,sha256=z3ARsBp0N2xd__5yRMNEbaCrQfziAibSa5XUBZxYcDs,10
+py3mschap-0.1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+setup.py
+emojiswitch/__init__.py
+emojiswitch/core.py
+emojiswitch/unicode_codes.py
+emojiswitch.egg-info/PKG-INFO
+emojiswitch.egg-info/SOURCES.txt
+emojiswitch.egg-info/dependency_links.txt
+emojiswitch.egg-info/top_level.txt

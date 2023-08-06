@@ -1,0 +1,4 @@
+[console_scripts]
+ingest_server=code_ingest.__main__:main
+ingest_tests=tests.functionality_check:run_tests
+

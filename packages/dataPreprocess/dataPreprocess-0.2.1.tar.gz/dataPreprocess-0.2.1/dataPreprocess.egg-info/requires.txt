@@ -1,0 +1,8 @@
+nltk
+beautifulsoup4
+spacy
+unidecode
+word2number
+gensim
+pyspellchecker
+inflect

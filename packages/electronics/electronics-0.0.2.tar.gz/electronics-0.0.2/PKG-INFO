@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: electronics
+Version: 0.0.2
+Summary: Tools for Electronics by Uncle Engineer
+Home-page: https://github.com/UncleEngineer/electronics
+Author: Uncle Engineer
+Author-email: loong.wissawakorn@gmail.com
+License: MIT
+Download-URL: https://github.com/UncleEngineer/Electronics/archive/0.0.2.zip
+Description: โปรแกรมช่วยคำนวณด้าน electronics
+        ================================
+        
+        วิธีติดตั้ง (installation)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        เปิด CMD / Terminal
+        
+        .. code:: python
+        
+            pip install electronics
+        
+        วิธีใช้
+        ~~~~~~~
+        
+        เปิด IDLE ขึ้นมาแล้วพิมพ์...
+        
+        .. code:: python
+        
+            import electronics
+        
+        เปิด cmd / terminal ขึ้นมาแล้วพิมพ์...
+        
+        .. code:: python
+        
+            python -m electronics
+        
+        พัฒนาโดย: ลุงวิศวกร สอนคำนวณ FB: https://www.facebook.com/UncleEngineer
+        YouTube: https://www.youtube.com/UncleEngineer
+        
+Keywords: Electronics,Uncle Engineer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

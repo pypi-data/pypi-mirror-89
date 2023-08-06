@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+electronics/__init__.py
+electronics/resistor.py
+electronics.egg-info/PKG-INFO
+electronics.egg-info/SOURCES.txt
+electronics.egg-info/dependency_links.txt
+electronics.egg-info/top_level.txt

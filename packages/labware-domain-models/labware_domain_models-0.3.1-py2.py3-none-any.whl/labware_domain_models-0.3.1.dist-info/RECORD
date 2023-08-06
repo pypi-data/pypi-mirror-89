@@ -1,0 +1,9 @@
+labware_domain_models/__init__.py,sha256=QuPYUJbrlEuAHD43rBTzNHGhPrNhDnuXnMq5xXOHJf8,1106
+labware_domain_models/barcoded_sbs_labware.py,sha256=ZbljSrOHTNqGuVWfhCphoNGhwBtWOeBIir5l3Mxq7hw,2120
+labware_domain_models/exceptions.py,sha256=BhI28TOiap0HA_3PQY4P-wfOTyHon2nFuiYVxMSlDhM,1016
+labware_domain_models/labware_definitions.py,sha256=lHgNy8L38w-cnBAhxo9QlpxPWVxA9jJALVyCt9MbvhQ,13259
+labware_domain_models-0.3.1.dist-info/LICENSE,sha256=dRvw8RqoD0To6-52uMxrdIxe6mgSUiLVSaENxvdHY8M,1065
+labware_domain_models-0.3.1.dist-info/METADATA,sha256=DjYVWFbE2qsveQkyqj6DcfcVPg-XksSxxdq6wKboBQk,854
+labware_domain_models-0.3.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+labware_domain_models-0.3.1.dist-info/top_level.txt,sha256=Pxew_jWaJt3SHfUn8Tx6f65-Yc2qkNbI45op4cZfsUU,22
+labware_domain_models-0.3.1.dist-info/RECORD,,

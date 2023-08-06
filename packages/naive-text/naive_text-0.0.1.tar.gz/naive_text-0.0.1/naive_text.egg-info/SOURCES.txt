@@ -1,0 +1,10 @@
+README.md
+setup.py
+naive_text/__init__.py
+naive_text/normalizer.py
+naive_text/sentence.py
+naive_text.egg-info/PKG-INFO
+naive_text.egg-info/SOURCES.txt
+naive_text.egg-info/dependency_links.txt
+naive_text.egg-info/requires.txt
+naive_text.egg-info/top_level.txt

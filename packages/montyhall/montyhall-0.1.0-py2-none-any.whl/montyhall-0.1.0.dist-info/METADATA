@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: montyhall
+Version: 0.1.0
+Summary: This is a package to run the Monty Hall experiment
+Home-page: https://github.com/jviegas6/montyHall
+Author: Jose Viegas
+Author-email: jviegas6@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.0)
+
+# montyHall
+Monty Hall is a package that allows you to run the Monty Hall paradox experiment.
+
+# Installation instructions
+```python
+pip install montyhall
+```
+# usage
+```python
+import montyhall
+
+# call the class
+monty = montyhall.MontyHall(numberDoors=3, numberIterations=100, numberExperiments=100)
+
+# run a single experiment. This function will return a float value
+print(monty.createExperiment(switch=True))
+
+#run a serie of experiments. This functionwill return a pandas dataframe
+print(monty.runExperiments())
+```
+

@@ -1,0 +1,2 @@
+include *.conf *.ini  #包含根目录下的所有txt文件
+recursive-include config *.conf *.ini  #包含所有位置的config文件夹下的txt与py文件

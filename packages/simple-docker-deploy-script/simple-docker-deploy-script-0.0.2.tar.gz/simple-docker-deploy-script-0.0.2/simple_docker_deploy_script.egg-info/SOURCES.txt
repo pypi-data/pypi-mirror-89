@@ -1,0 +1,6 @@
+run-on-docker.py
+setup.py
+simple_docker_deploy_script.egg-info/PKG-INFO
+simple_docker_deploy_script.egg-info/SOURCES.txt
+simple_docker_deploy_script.egg-info/dependency_links.txt
+simple_docker_deploy_script.egg-info/top_level.txt

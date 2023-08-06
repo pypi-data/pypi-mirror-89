@@ -1,0 +1,63 @@
+### Installation
+```
+pip install flagsup
+```
+### Integration
+- Docs: [Integration doc](https://confluence.teko.vn/display/PS/User+guide+for+setting+up+feature+flags)
+- Init client
+  ```
+  import flagsup
+  flagsup_client = flagsup.CachedFlagsupClient("https://flagsup.dev.tekoapis.net")
+  ```
+- To get flag status (and experiment info if available) for a specific user using User IAM ID
+  - `batchEvaluateFlags(<flagsup.EvaluateRequest>, [<default_status>, <default_treatment>, <default_exp_id>, <default_branch_id>])`
+  - `evaluateFlag(<flag_key>, <iam_id>, [<default_status>, <default_treatment>, <default_exp_id>, <default_branch_id>])`
+  
+  It is recommended to call batchEvaluateFlags() for all your feature flags upon getting userId from IAM service
+  Subsequently you can call evaluateFlag() to get flag value from in-memory cache
+  
+- To get flag status when user is not logged in (**note**: this will disable canary release, black/white list, experiment)
+  - `batchGetFlags(<flag_key_list>, [<default_status>])`
+  - `getFlag(<flag_key>, [<default_status>])`
+  
+  Similar to `evaluateFlag` It is recommended to call `batchGetFlags()` for all your feature flags upon initial load
+  Subsequently you can call `getFlag()` to get flag value from in-memory cache  
+  
+### Example
+```
+import flagsup
+
+if __name__ == "__main__":
+    # Initialisation, provide FlagSup SDK with target domain
+    flagsup_client = flagsup.CachedFlagsupClient("https://flagsup.dev.tekoapis.net")
+
+    # Option 1: Get flags with User ID
+
+    # It is recommended to call batchEvaluateFlags() for all your feature flags upon getting userId from IAM service
+    # Subsequently you can call evaluateFlag() to get flag value from in-memory cache
+
+    # Fetch multiple flag values for the same or different users. Response is cached in memory for subsequent calls.
+    # To reduce network overhead, call this to fetch all flags when your app initialise
+    batch_response = flagsup_client.batch_evaluate_flag([
+        flagsup.EvaluateRequest("flag01", "5f8e4768e00e4d12ba69ed3e7bf3e893"),  # pragma: whitelist secret
+        flagsup.EvaluateRequest("flag02", "5f8e4768e00e4d12ba69ed3e7bf3e893"),  # pragma: whitelist secret
+    ])
+
+    # Fetch a flag value for the logged in user. Response is cached in memory for subsequent calls.
+    flag_status = flagsup_client.evaluate_flag("flag01", "5f8e4768e00e4d12ba69ed3e7bf3e893")  # pragma: whitelist secret
+    if flag_status:
+        #  Flow when flag is enabled
+        pass
+    else:
+        # // Flow when flag is disabled
+        pass
+    # Option 2: Get flags without User ID
+
+    # Fetch multiple flag values. Response is cached in memory for subsequent calls.
+    # To reduce network overhead, call this to fetch all flags when your app initialise
+    batch_response = flagsup_client.batch_get_flag_status(["flag01", "flag02"])
+
+    # Fetch a single flag value. Response is cached in memory for subsequent calls.
+    flag_status = flagsup_client.get_flag_status("flag01")
+
+```

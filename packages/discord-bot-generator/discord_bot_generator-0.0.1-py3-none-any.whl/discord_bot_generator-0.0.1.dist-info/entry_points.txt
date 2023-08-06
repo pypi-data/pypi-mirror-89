@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        discord-bot-generator=discord_bot_generator:cli
+    

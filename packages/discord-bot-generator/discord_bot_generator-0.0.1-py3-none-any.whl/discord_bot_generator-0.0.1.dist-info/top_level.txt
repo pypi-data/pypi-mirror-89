@@ -1,0 +1,2 @@
+discord-bot-generator
+discord_bot_generator

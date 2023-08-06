@@ -1,0 +1,8 @@
+README.md
+setup.py
+unique_arithmetic/__init__.py
+unique_arithmetic/unique_arithmetic.py
+unique_arithmetic.egg-info/PKG-INFO
+unique_arithmetic.egg-info/SOURCES.txt
+unique_arithmetic.egg-info/dependency_links.txt
+unique_arithmetic.egg-info/top_level.txt

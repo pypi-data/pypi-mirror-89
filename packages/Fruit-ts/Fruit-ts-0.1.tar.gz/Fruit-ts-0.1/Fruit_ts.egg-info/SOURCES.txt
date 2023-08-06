@@ -1,0 +1,8 @@
+setup.py
+Fruit-ts/__init__.py
+Fruit-ts/python_code.py
+Fruit_ts.egg-info/PKG-INFO
+Fruit_ts.egg-info/SOURCES.txt
+Fruit_ts.egg-info/dependency_links.txt
+Fruit_ts.egg-info/not-zip-safe
+Fruit_ts.egg-info/top_level.txt

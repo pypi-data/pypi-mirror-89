@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-29 03:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:22
+msgid "Name"
+msgstr "Name"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:23
+msgid "Description"
+msgstr "Beschreibung"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:23
+msgid "What's the cookie's purpose?"
+msgstr "Wozu dient der Cookie?"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:24
+msgid "Lifetime"
+msgstr "Lebenszeit"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:24
+msgid "The cookie's liftime (e.g. 1 Year)"
+msgstr "Die Lebenszeit des Cookies (z.B. 1 Jahr)"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:25
+msgid "Domain"
+msgstr "Domain"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:25
+msgid "Domain of the cookie (e.g. .domain.com)"
+msgstr "Domain des Cookies (z.B. .domain.com)"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:36
+msgid "Ordering"
+msgstr "Reihenfolge"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/banner.html:56
+msgid ""
+"<a href=\"#\" class=\"btn btn-default btn-xs js-cookie-accept pull-right"
+"\">Accept</a> This website uses cookies to help ensure that you enjoy the "
+"best experience.<br/> If you do not consent to our use of cookies, please "
+"adjust your <a href=\"#\" class=\"js-cookie-settings\">privacy settings</a> "
+"accordingly."
+msgstr ""
+"<a href=\"#\" class=\"btn btn-default btn-xs js-cookie-accept pull-right"
+"\">Akzeptieren</a> Diese Website verwendet Cookies, um sicherzustellen, dass "
+"Sie das beste Erlebnis geniessen können.<br/> Wenn Sie mit der Verwendung "
+"von Cookies nicht einverstanden sind, passen Sie bitte Ihre <a href=\"#\" "
+"class=\"js-cookie-settings\">Datenschutzeinstellungen</a> entsprechend an."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/link.html:1
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:49
+msgid "Privacy Settings"
+msgstr "Privatsphäre-Einstellungen"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:53
+msgid ""
+"Websites do not have full control over cookies that may set by various third-"
+"party scripts. To see detailed information about and to manage cookies in "
+"your browser, please check its privacy settings."
+msgstr ""
+"Websites haben nicht die volle Kontrolle über Cookies, die von verschiedenen "
+"Skripten Dritter gesetzt werden können. Um detaillierte Informationen über "
+"die Verwaltung von Cookies in Ihrem Browser zu erhalten, überprüfen Sie "
+"bitte die Datenschutzeinstellungen."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:62
+msgid "Essentials"
+msgstr "Wesentliche"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:63
+msgid ""
+"These cookies and scripts cannot be deactivated as they are needed to "
+"correctly render this website."
+msgstr ""
+"Diese Cookies und Skripte können nicht deaktiviert werden, da sie für die "
+"korrekte Darstellung dieser Website benötigt werden."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:73
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:104
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:129
+msgid "Currently none in use."
+msgstr "Derzeit nicht in Verwendung."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:81
+msgid "Statistics"
+msgstr "Statistik"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:89
+msgid ""
+"These tools are used to collect statistics about user behaviour that helps "
+"us to improve our website and services. No personal data are collected."
+msgstr ""
+"Diese Tools werden verwendet, um Statistiken über das Nutzerverhalten zu "
+"sammeln, die uns helfen, unsere Website und unsere Dienstleistungen zu "
+"verbessern. Es werden keine personenbezogenen Daten erhoben."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:112
+msgid "Personalisation"
+msgstr "Personalisierung"
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:119
+msgid ""
+"In order to improve your experience of our services, we will customise your "
+"experience based upon your usage."
+msgstr ""
+"Um Ihre Erfahrung mit unseren Services zu verbessern, passen wir Ihre "
+"Erfahrung basierend auf Ihrer Nutzung an."
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:134
+msgid "Accept"
+msgstr "Akzeptieren"

@@ -1,0 +1,8 @@
+README.md
+setup.py
+local_ci_hooks/__init__.py
+local_ci_hooks/local_ci_hooks
+local_ci_hooks.egg-info/PKG-INFO
+local_ci_hooks.egg-info/SOURCES.txt
+local_ci_hooks.egg-info/dependency_links.txt
+local_ci_hooks.egg-info/top_level.txt

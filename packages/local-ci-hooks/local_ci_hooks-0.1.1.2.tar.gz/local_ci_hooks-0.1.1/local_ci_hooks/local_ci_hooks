@@ -1,0 +1,59 @@
+#!/bin/bash
+# Copyright 2020 - RidgeRun LLC
+# Author: Luis G. Leon Vega <luis.leon@ridgerun.com>
+# Licenced under MIT
+# Support: only Linux/MacOS with BASH
+
+OPTION=$1
+EXECUTABLE=$(python3 -c "import local_ci_hooks as _; print(_.__file__)")
+LIB_PATH="$(dirname ${EXECUTABLE})"
+
+function check_repo() {
+  echo "Checking git repository"
+  git status > /dev/null 2>&1
+  if [ "$?" -ne "0" ]; then
+    echo "> Error: the current directory does not have a repo"
+    exit 1
+  else
+    echo "> OK"
+  fi
+  GIT_TOP_DIR=$(git rev-parse --show-toplevel)
+}
+
+function help() {
+  echo "Usage:"
+  echo "  local_ci_hooks <option>"
+  echo "Options:"
+  echo "  -i, --install: installs Local CI onto the current repo"
+  echo "  -u, --uninstall: uninstalls Local CI from the current repo"
+}
+
+case $OPTION in
+  -i|--install)
+    check_repo
+    echo "Installing Local CI onto the current repo"
+    cp ${LIB_PATH}/local_ci.sh ${GIT_TOP_DIR}/.local_ci.sh
+    cp ${LIB_PATH}/pre-push.hook ${GIT_TOP_DIR}/.git/hooks/pre-push
+    if [ "$?" -eq "0" ]; then 
+      echo "> Installed"
+    fi
+    ;;
+  -u|--uninstall)
+    echo "Uninstalling Local CI from the current repo"
+    rm ${GIT_TOP_DIR}/.git/hooks/pre-push.hook > /dev/null 2>&1
+    if [ "$?" -eq "0" ]; then 
+      echo "> Uninstalled"
+    else
+      echo "> Not uninstalled. Probably it's never been there"
+    fi
+    ;;
+  -h|--help)
+    help
+    exit 0
+    ;;
+  *)
+    echo "Invalid option"
+    help
+    exit 1
+    ;;
+esac;

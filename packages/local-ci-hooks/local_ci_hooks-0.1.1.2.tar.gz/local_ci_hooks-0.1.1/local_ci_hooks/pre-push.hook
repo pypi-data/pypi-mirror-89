@@ -1,0 +1,44 @@
+#!/bin/bash
+# Copyright 2020 - RidgeRun LLC
+# Author: Luis G. Leon Vega <luis.leon@ridgerun.com>
+# Licenced under MIT
+# Support: only Linux/MacOS with BASH
+
+SCRIPT=.local_ci.sh
+
+# Checking test script
+echo "- Checking test script $GIT_DIR/${SCRIPT}"
+cat $(pwd)/${SCRIPT} > /dev/null 2>&1
+if [ "$?" -ne "0" ]; then
+  echo "Test script not found. Skipping tests"
+  exit 0
+fi
+
+# Creating temporary dir with the repo
+echo "- Cloning the repo with the last commit in a temporary folder"
+ORIGIN_DIR=$(pwd)
+TEST_DIR="$(mktemp -d /tmp/.local-ci.XXXXXX)"
+CURRENT_COMMIT=$(git rev-parse HEAD)
+git clone $(pwd) ${TEST_DIR} > /dev/null 2>&1
+if [ "$?" -ne "0" ]; then
+  echo "> Could not clone the repo"
+  rm -r ${TEST_DIR}
+  exit 1
+fi
+cd ${TEST_DIR}
+
+# Executing tests
+echo "- Executing tests"
+$(pwd)/${SCRIPT} > ${ORIGIN_DIR}/.local-ci.log
+if [ "$?" -ne "0" ]; then
+  echo "> Tests did not pass. Please, check the failing tests in .local-ci.log"
+  rm -r ${TEST_DIR}
+  exit 1
+fi
+
+# Clean up
+echo "> Tests passed. Continuing with pushing the repo"
+cd -
+rm ${ORIGIN_DIR}/.local-ci.log
+rm -r ${TEST_DIR}
+exit 0

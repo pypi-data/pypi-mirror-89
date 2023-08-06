@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_templateengine.py,sha256=3ULUIEs2I_u-3l19xstsGU37cIkJTl2apMU0c-UW49o,4434
+tests/test_website.py,sha256=1hlNEFv9GRKKjj5WcYfTA2ujJQhE_WdFuOxhRmgU1dY,11699
+tests/test_webstaterator.py,sha256=vPx4j4x0wARCyaDKEq0Nzt3-arUfEmi-aWvsChX1Vn0,7633
+webstaterator/__init__.py,sha256=J5ttQK7lux5I1iqB83bz3whgKRsa088W7tJjOqg-fWU,3504
+webstaterator/__main__.py,sha256=c7bCpiyZpd7l7LIR42HcwsB9c7AOb1by8Q3T2r-il50,2357
+webstaterator/templateengine.py,sha256=Wclhc_LeI3KkV00hTCrlJKaEM5oTE9BACOpiR1QTwac,1851
+webstaterator/website.py,sha256=s16WQE3w3_CfTlKqg-aJ2pg6Ht9krr-EYGKPu-nAxuk,10698
+webstaterator-0.1.1.dist-info/LICENSE,sha256=FuPbV1A-QqDyY4PCKjK6y2wvqRF1HAaLz55mb87Ijmk,1069
+webstaterator-0.1.1.dist-info/METADATA,sha256=auYZUwVlcNHGLs3BJ91oK8ra8PfIhShEizp7CnrWc_U,5979
+webstaterator-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+webstaterator-0.1.1.dist-info/entry_points.txt,sha256=oade881INjxTCVBHBJ6KbMugMvadJ1Hx_c1HqPhtqfc,66
+webstaterator-0.1.1.dist-info/top_level.txt,sha256=w7F4M6wFvvit1SABUh1LSasYqCWHf5_tmdwAB5ChEdw,20
+webstaterator-0.1.1.dist-info/RECORD,,

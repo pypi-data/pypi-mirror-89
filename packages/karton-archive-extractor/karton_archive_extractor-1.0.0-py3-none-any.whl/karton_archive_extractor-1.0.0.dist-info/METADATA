@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: karton-archive-extractor
+Version: 1.0.0
+Summary: Extractor of various archive formats for Karton framework
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Dist: karton-core (==4.0.3)
+Requires-Dist: click (==6.6)
+Requires-Dist: cryptography (>=2.1)
+Requires-Dist: olefile (==0.43)
+Requires-Dist: peepdf (>=0.4.1)
+Requires-Dist: python-magic (==0.4.12)
+Requires-Dist: six
+
+UNKNOWN
+
+

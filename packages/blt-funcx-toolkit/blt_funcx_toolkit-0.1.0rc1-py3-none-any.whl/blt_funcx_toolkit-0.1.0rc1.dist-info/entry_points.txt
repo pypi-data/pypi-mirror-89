@@ -1,0 +1,3 @@
+[console_scripts]
+fxsh = blt_funcx_toolkit.fxsh:cli_run
+

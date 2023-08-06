@@ -1,0 +1,9 @@
+etcd_register/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etcd_register/etcd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etcd_register/etcd/client.py,sha256=_ScJNilzzyneCU_d3lkk379Vo-qZEkZ1c8EOgUgK_6A,2478
+etcd_register/resolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etcd_register/resolver/register.py,sha256=Eh6S0jTKaN8gy8h52KBgAmzJ1lEf4zsVpvbgx_tlfVU,3013
+etcd_register-0.0.4.dist-info/METADATA,sha256=5xUrzefx88Tu5ri30zEqQ00_qx5YRgKJ85fV6JcTsCc,554
+etcd_register-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+etcd_register-0.0.4.dist-info/top_level.txt,sha256=fOOW72Ih5NmY2y4W912vkk0XcoQvvfs9CiGORLiFrrg,14
+etcd_register-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+rest_framework_discovery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_discovery/apps.py,sha256=4wPcT9e3aLKkoN5AYj0Nxct7Ghqu9Dqm2FJC8Xb3zc0,108
+rest_framework_discovery/introspect.py,sha256=ngicJWLDeT0uOM8jeVFWZtYiBlXijuhv22mN5FCK-Fs,4265
+rest_framework_discovery/settings.py,sha256=Qa6_OJauCcfCPEUOb2VJ0BzCnAZePtvHO7YuVarzZSY,797
+rest_framework_discovery/urls.py,sha256=CUksaXpxytk_9NAex7ORMXqFjzoicowmdGu32y2RCFE,376
+rest_framework_discovery/views.py,sha256=68iw_4cHuhLBLHvPUOCGnWiQceepwoobmzHBCw3BYpY,2554
+djangorestframework_discovery-0.1.8.dist-info/LICENSE.md,sha256=r9lx2KTt_dtj6gy5zDMd8o9KYR6KInt2IlrL9MlxUic,1490
+djangorestframework_discovery-0.1.8.dist-info/METADATA,sha256=LhR5dl-hfbEYnt3IWdMaEUGM0A9412bTetAxsCgPOqI,4157
+djangorestframework_discovery-0.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+djangorestframework_discovery-0.1.8.dist-info/top_level.txt,sha256=9yEqc8hJ_3dxQRjpAkjEX7fBGXAPV7Lz9J35mqPvJts,25
+djangorestframework_discovery-0.1.8.dist-info/RECORD,,

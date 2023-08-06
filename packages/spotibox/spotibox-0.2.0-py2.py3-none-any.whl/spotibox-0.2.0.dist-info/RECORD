@@ -1,0 +1,11 @@
+spotibox/__init__.py,sha256=hIJMNvDKpehE0XCPb1VEA-UScb_xGaPZHhBFh2HWouA,136
+spotibox/albums.py,sha256=d2OhFPmcHHlEEwJDgItuh6Ig_kzg6o5b_dYUgMMqhb0,196
+spotibox/cli.py,sha256=sXJJBm0SQ00NuH4M5B0wRz9faO9oXAnj5uAuUNas2wg,402
+spotibox/spotibox.py,sha256=q6AJomdry_owJ_YLAYQqNhsOr6vYwCHJTwQixuWetT8,4062
+spotibox-0.2.0.dist-info/AUTHORS.rst,sha256=rgK9wOPXRyR2XNnmLvhcWGss6suTRY7oNeiGUEjCUzE,166
+spotibox-0.2.0.dist-info/LICENSE,sha256=8m9fcRCHaLGQFqsR6kTn34gKMCcgz0EbBxfu0xd4xEM,1074
+spotibox-0.2.0.dist-info/METADATA,sha256=rzW-CfcXTfN3JQ7ILPhu3MS_ZJxpyqCZhmUOHOM3Flc,1943
+spotibox-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+spotibox-0.2.0.dist-info/entry_points.txt,sha256=NlXujAc2ZxxCyc1L8PHrOVgljUVbGKvQ91UdTJhBFKE,48
+spotibox-0.2.0.dist-info/top_level.txt,sha256=CKbLODvOp8sNZ42oL5P8SpJvfZUaQGmgz1-gCIp_eGQ,9
+spotibox-0.2.0.dist-info/RECORD,,

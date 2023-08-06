@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-harbor-client
+Version: 1.0.0
+Summary: Harbor API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: Swagger,Harbor API
+Platform: UNKNOWN
+Requires-Dist: certifi (>=2017.4.17)
+Requires-Dist: python-dateutil (>=2.1)
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.23)
+
+These APIs provide services for manipulating Harbor project.  # noqa: E501
+
+

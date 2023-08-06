@@ -1,0 +1,17 @@
+slurry/__init__.py,sha256=t3CDyiVs5nk8KVyLM_FGvlQtbvQHnPAWi2MrbGN1TSI,107
+slurry/pipeline.py,sha256=wJj1Xj-tA3kPR-N7PiwKnKapJIloogi3g0UU7ud34T0,5213
+slurry/sections/__init__.py,sha256=RI1Nb9ejCcyJX0S2InI9uMwz1AgjAJi21XH1P-CEoFE,257
+slurry/sections/_buffers.py,sha256=MrrGmWPefmJQe9SsUWCuoPFR9ksj9nu6bOEIZxQZce0,7403
+slurry/sections/_combiners.py,sha256=sZkRFOPDpKqEMPt1BzZvgKh8mqzc8_JDfrlq0NoObcc,9302
+slurry/sections/_filters.py,sha256=skUvqfI0rRw0Uhrg3HPwICEWzLtegcxivREJncSPXXs,5483
+slurry/sections/_producers.py,sha256=yYoGJD7tbxOrIPkiLghmFQXSP8vJK3vydYBJvfMBH2k,2236
+slurry/sections/_refiners.py,sha256=rUT9E5XL219acLSd1YB2wh8wFV5cRXP34GsOIcdq48A,995
+slurry/sections/abc.py,sha256=yVrnGDzBRzIPFZBaJGJola9TsCmDOIZbzKSCXFYg0OA,5504
+slurry/sections/multiprocessing.py,sha256=xpFukShPzX3HNHYFLGpYdqxPNrNdkEx-M404PrE_S7E,2724
+slurry/sections/threading.py,sha256=IVMXqfn8uKxJDL15qfUj4DPg38XAXueflN3QvODW5Ao,1668
+slurry/sections/weld.py,sha256=1IFEOeCpkWK2SstleLrN4dYOBBXcBHLm5qAawnNRlXE,2757
+slurry/tap.py,sha256=cKZgGXJ7wWuiw_nKyL58CF6uRUq7KT8nuKEMvjziDhA,1683
+slurry-0.10.0.dist-info/LICENSE,sha256=t496dRDxY93EWzeDi327XEt54jBkN1bhkdWZH0njz5s,1085
+slurry-0.10.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+slurry-0.10.0.dist-info/METADATA,sha256=0TJZmzjla0_vb2z19mTybNtHxLh8nuvfxHWfxtsxNQA,3922
+slurry-0.10.0.dist-info/RECORD,,

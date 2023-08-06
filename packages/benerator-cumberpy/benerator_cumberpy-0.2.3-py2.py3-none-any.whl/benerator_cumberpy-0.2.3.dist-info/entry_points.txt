@@ -1,0 +1,4 @@
+[console_scripts]
+benerate = benerator_cumberpy:benerate_name
+hello-ben = benerator_cumberpy:hello
+

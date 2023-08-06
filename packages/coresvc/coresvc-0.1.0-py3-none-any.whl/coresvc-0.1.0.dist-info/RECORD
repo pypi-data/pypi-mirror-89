@@ -1,0 +1,15 @@
+coresvc/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+coresvc/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coresvc/base/base_model.py,sha256=G65zgAdsZzhYwnSq9NAs-A7V49aYKSlEF1Xe3cNtW7Y,83
+coresvc/base/base_service.py,sha256=pebw3_oEvcLNZ2yJY_UtI0uc_8rJKjzUY2Hp1n7ZOa4,2426
+coresvc/datastores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coresvc/datastores/redis.py,sha256=kSRv24damWURRei13p7pxtqxW2UJPY3w7HMUjlly8V8,1111
+coresvc/pubsub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coresvc/pubsub/consumer.py,sha256=EPXqCyDCemqPjTRdMACs9_nC8E8jyi1dyBx9QRyXXXc,2171
+coresvc/pubsub/producer.py,sha256=72YcNBvMlja0KZud4oVPF0UfdGVQ80TvOQxeIF-Tx6E,1749
+coresvc/pubsub/pubsub.py,sha256=INXyfjex4yzWV0ypFX2JgBijGkkZf0UmLYzbtkbxwr0,1004
+coresvc/serializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coresvc/serializers/serializer.py,sha256=YJpNpINQ9m00BjS8-rHjUOg6Ubpxh6SKElPKa-F6bCg,1189
+coresvc-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+coresvc-0.1.0.dist-info/METADATA,sha256=TDgGFf9iX_hYkFq_8ANRPZVOQCnXBi8lKdlrPOwHLlY,478
+coresvc-0.1.0.dist-info/RECORD,,

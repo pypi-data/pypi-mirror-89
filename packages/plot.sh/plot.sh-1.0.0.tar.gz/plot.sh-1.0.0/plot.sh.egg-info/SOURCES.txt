@@ -1,0 +1,6 @@
+setup.py
+plot.sh.egg-info/PKG-INFO
+plot.sh.egg-info/SOURCES.txt
+plot.sh.egg-info/dependency_links.txt
+plot.sh.egg-info/not-zip-safe
+plot.sh.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+olympyc/__init__.py
+olympyc/ms_s3.py
+olympyc/s3io.py
+olympyc/s3io_old.py
+olympyc.egg-info/PKG-INFO
+olympyc.egg-info/SOURCES.txt
+olympyc.egg-info/dependency_links.txt
+olympyc.egg-info/not-zip-safe
+olympyc.egg-info/top_level.txt

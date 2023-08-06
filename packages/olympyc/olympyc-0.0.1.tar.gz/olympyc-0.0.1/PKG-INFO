@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: olympyc
+Version: 0.0.1
+Summary: s3 io stuff
+Home-page: https://github.com/thorwhalen/ut/tree/master/olympyc
+Author: Thor Whalen
+License: mit
+Description: 
+        # olympyc
+        s3 io stuff
+        
+        
+        To install:	```pip install olympyc```
+        
+Platform: any
+Description-Content-Type: text/markdown

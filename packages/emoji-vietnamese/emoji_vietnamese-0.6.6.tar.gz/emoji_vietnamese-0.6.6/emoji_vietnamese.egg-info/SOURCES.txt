@@ -1,0 +1,17 @@
+CHANGES.md
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+emoji_vietnamese/__init__.py
+emoji_vietnamese/core.py
+emoji_vietnamese/unicode_codes.py
+emoji_vietnamese.egg-info/PKG-INFO
+emoji_vietnamese.egg-info/SOURCES.txt
+emoji_vietnamese.egg-info/dependency_links.txt
+emoji_vietnamese.egg-info/requires.txt
+emoji_vietnamese.egg-info/top_level.txt
+emoji_vietnamese.egg-info/zip-safe
+tests/__init__.py
+tests/test_core.py
+tests/test_unicode_codes.py

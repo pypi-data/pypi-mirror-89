@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+metaClean
+setup.py
+metaClean.egg-info/PKG-INFO
+metaClean.egg-info/SOURCES.txt
+metaClean.egg-info/dependency_links.txt
+metaClean.egg-info/top_level.txt
+metaCleanConfig/config.yml
+metaCleanConfig/metaClean.service.org

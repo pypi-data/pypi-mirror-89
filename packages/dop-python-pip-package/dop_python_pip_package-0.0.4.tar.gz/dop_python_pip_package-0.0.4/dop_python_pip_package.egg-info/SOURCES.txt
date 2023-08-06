@@ -1,0 +1,10 @@
+README.md
+setup.py
+dop_python_pip_package/__init__.py
+dop_python_pip_package.egg-info/PKG-INFO
+dop_python_pip_package.egg-info/SOURCES.txt
+dop_python_pip_package.egg-info/dependency_links.txt
+dop_python_pip_package.egg-info/requires.txt
+dop_python_pip_package.egg-info/top_level.txt
+dop_python_pip_package/main_utils/__init__.py
+dop_python_pip_package/main_utils/math.py

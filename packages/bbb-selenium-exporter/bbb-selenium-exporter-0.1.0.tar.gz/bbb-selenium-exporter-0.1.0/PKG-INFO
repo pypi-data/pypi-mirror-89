@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bbb-selenium-exporter
+Version: 0.1.0
+Summary: Export Prometheus metrics scraped from BigBlueButton servers using Selenium
+Home-page: https://gitlab.com/infra.run/public/bbb-selenium-exporter
+Author: Markus Otto
+Author-email: markus.otto@infra.run
+License: UNKNOWN
+Description: # bbb-selenium-exporter
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

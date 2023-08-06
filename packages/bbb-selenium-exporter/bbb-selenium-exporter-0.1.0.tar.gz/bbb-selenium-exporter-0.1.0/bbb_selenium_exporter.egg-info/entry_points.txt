@@ -1,0 +1,3 @@
+[console_scripts]
+bbb-selenium-exporter = bbb_selenium_exporter.server:main
+

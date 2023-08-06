@@ -1,0 +1,8 @@
+vault_wrapper/__init__.py,sha256=KZTLwds6ErLJ2_jw_Mnci270-XDVpGYJ_NSNfkwi0h8,64
+vault_wrapper/client.py,sha256=NTLO5pVLubcFRtIo55V5xb0lov_ecr11utbbEW0CQgI,1477
+vault_wrapper/policy.py,sha256=dSKbWK-w2QRDnRomaw_p64FA3Obx5qebO2rGzIV-5ZA,585
+vault_wrapper-0.3.3.dist-info/LICENSE.md,sha256=VKeuwXvFCZe-znYAjmB6lP-3eZ0LFwC0c95wUA4U_k4,1071
+vault_wrapper-0.3.3.dist-info/METADATA,sha256=p_fADpp9d8G23xFxldOgCtYLaZwAmMzK1o6FMkmL4mM,3656
+vault_wrapper-0.3.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+vault_wrapper-0.3.3.dist-info/top_level.txt,sha256=DonG0z9_S6V83mbR1wX-Z4UJJd7SYsqXWGiS1kca2TQ,14
+vault_wrapper-0.3.3.dist-info/RECORD,,

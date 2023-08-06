@@ -1,0 +1,6 @@
+README.md
+setup.py
+CLTviz.egg-info/PKG-INFO
+CLTviz.egg-info/SOURCES.txt
+CLTviz.egg-info/dependency_links.txt
+CLTviz.egg-info/top_level.txt

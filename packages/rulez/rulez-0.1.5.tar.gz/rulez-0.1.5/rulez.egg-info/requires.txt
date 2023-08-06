@@ -1,0 +1,9 @@
+reg
+dectate
+boolean.py
+jsonpath_ng
+sqlalchemy
+
+[test]
+mirakuru
+elasticsearch<8.0.0,>7.0.0

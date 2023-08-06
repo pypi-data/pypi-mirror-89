@@ -1,0 +1,10 @@
+setup.py
+nadima_distributions/Binomialdistribution.py
+nadima_distributions/Gaussiandistribution.py
+nadima_distributions/Generaldistribution.py
+nadima_distributions/__init__.py
+nadima_distributions.egg-info/PKG-INFO
+nadima_distributions.egg-info/SOURCES.txt
+nadima_distributions.egg-info/dependency_links.txt
+nadima_distributions.egg-info/not-zip-safe
+nadima_distributions.egg-info/top_level.txt

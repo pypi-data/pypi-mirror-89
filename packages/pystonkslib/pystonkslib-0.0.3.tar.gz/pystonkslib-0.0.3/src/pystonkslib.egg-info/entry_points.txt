@@ -1,0 +1,4 @@
+[console_scripts]
+example_command = pystonkslib.example:main
+update_tickers = pystonkslib.tools.update_tickers:main
+

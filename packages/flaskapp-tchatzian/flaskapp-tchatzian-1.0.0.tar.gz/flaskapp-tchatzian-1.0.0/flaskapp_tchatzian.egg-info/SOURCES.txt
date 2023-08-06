@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+flaskapp_tchatzian.egg-info/PKG-INFO
+flaskapp_tchatzian.egg-info/SOURCES.txt
+flaskapp_tchatzian.egg-info/dependency_links.txt
+flaskapp_tchatzian.egg-info/entry_points.txt
+flaskapp_tchatzian.egg-info/not-zip-safe
+flaskapp_tchatzian.egg-info/requires.txt
+flaskapp_tchatzian.egg-info/top_level.txt
+src/__init__.py
+src/app.py

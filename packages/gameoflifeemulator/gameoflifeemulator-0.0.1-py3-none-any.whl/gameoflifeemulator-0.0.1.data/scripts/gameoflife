@@ -1,0 +1,4 @@
+#!python
+from gameoflifeemulator import gameoflife
+gameoflife.cli_handle()
+

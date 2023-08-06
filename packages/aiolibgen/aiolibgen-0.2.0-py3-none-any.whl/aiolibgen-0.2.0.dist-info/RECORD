@@ -1,0 +1,10 @@
+aiolibgen/__init__.py,sha256=ezga7Tq1ZHThsCDQhr9I2zqDfXxo9DlUny45aPPlo2w,61
+aiolibgen/cli.py,sha256=nlpcdb3htFoitkWoiJfgsd_dbsyOwo39KRfCEwpwcy0,293
+aiolibgen/client.py,sha256=omp1xbdKhuNS1fw0f78hg5PEkZNlaSBUDJ7wzjbYHz8,2250
+aiolibgen/exceptions.py,sha256=S2bTe6TidU0HzYGFdWOLIAuvitxsGjUchenYEtxqrBY,286
+aiolibgen-0.2.0.dist-info/LICENSE,sha256=LtsTHm6WqG7Ex_KL82-DgLbDzk0IOYPUz-HomBLp75o,1063
+aiolibgen-0.2.0.dist-info/METADATA,sha256=WvOg-CrMCuG6pZHtkNnv8VzJcTc_ZPiNv4riJQpgJRA,645
+aiolibgen-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aiolibgen-0.2.0.dist-info/entry_points.txt,sha256=OblvHBCdUzMIhBbgKg4ibjl2sMk-zC-oaXgjq0yfhYY,51
+aiolibgen-0.2.0.dist-info/top_level.txt,sha256=U2rQpZO9z0Aw_JroQ69D2ZAn76eBUrff-tEAkX6oFD0,10
+aiolibgen-0.2.0.dist-info/RECORD,,

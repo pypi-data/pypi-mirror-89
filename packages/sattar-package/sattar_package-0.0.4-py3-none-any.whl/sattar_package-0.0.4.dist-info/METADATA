@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sattar-package
+Version: 0.0.4
+Summary: A very basic libray
+Home-page: UNKNOWN
+Author: Sattar Monjezi
+Author-email: sattarmonjezi88@gmail.com
+License: MIT
+Keywords: special_topics_IAUN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: autocorrect (>=0.3.0)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: numpy (>=4.1.0)
+Requires-Dist: gensim (>=3.0.1)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: requests (>=2.18.0)
+Requires-Dist: spaCy (>=2.0.3)
+Requires-Dist: scikit-learn (>=v0.19.1)
+Requires-Dist: wikipedia (>=1.4.0)
+
+THIS is a simple package for special topics IAUN
+
+#CHANGE LOG 
+==================
+
+version 0.0.4 release data: 12/24/2020
+

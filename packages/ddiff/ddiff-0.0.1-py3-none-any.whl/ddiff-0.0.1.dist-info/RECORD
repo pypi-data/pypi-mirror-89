@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddiff/configurations.py,sha256=BFAhfaLArCiCVZcaeCjEYlm0EUoLpI4V05EgGgjSm08,303
+ddiff/data_diff.py,sha256=eYediXxr5ljXgXgD57AmRbDTM_19LdQvIWA9oLJIZPM,14176
+ddiff/file_controller.py,sha256=01vvzp_0VHU9gYVGcXT9SJluRRDUJXuGSyBQBZb14mo,3140
+ddiff/main.py,sha256=hqpZTo7yaCzCl_N1_HSSb2GAefsHsfcVIg8tM5v1-fc,2659
+ddiff/utils.py,sha256=kAYgPJR1DowlhxbhLa6kIMRxa1F_3dTdVQRUF3tsyFA,1621
+ddiff-0.0.1.dist-info/LICENSE,sha256=J2fJ1iLJd4_aSNlupljOZg-u5QGDfyXwoCqzDWMexFI,1070
+ddiff-0.0.1.dist-info/METADATA,sha256=q4Mwd9gcTD6fNklvz_ygaiWADeFmtSbPok5D58HlsZc,7501
+ddiff-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ddiff-0.0.1.dist-info/entry_points.txt,sha256=Hu0l4XtrCc9OuUhiqKs0c5I7V7YHIia5l_K__4yg6Jo,43
+ddiff-0.0.1.dist-info/top_level.txt,sha256=oXMjwpGMlMnz0BAaqqaHC0DhIpuHxXk5dim-A5cUvy0,15
+ddiff-0.0.1.dist-info/RECORD,,

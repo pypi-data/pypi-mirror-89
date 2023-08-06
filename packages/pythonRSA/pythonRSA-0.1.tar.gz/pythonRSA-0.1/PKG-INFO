@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pythonRSA
+Version: 0.1
+Summary: Simple RSA module in python
+Home-page: https://github.com/user/elio27
+Author: Elio27
+Author-email: elio27online@gmail.com
+License: MIT
+Download-URL: https://github.com/elio27/pythonRSA/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: RSA,Encryption,Decryption
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

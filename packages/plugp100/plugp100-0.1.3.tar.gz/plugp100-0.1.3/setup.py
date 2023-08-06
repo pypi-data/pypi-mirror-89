@@ -1,0 +1,27 @@
+from setuptools import setup, find_packages
+
+with open('README.md') as readme_file:
+    README = readme_file.read()
+
+with open('requirements.txt') as requirements_file:
+    REQUIREMENTS = requirements_file.read().split("\n")
+
+setup_args = dict(
+    name='plugp100',
+    version='0.1.3',
+    description='Useful tools to work with Elastic stack in Python',
+    long_description_content_type="text/markdown",
+    long_description=README,
+    license='GPL3',
+    packages=find_packages(),
+    author='@petretiandrea',
+    author_email='andreapetreti.dev@gmail.com',
+    keywords=['Tapo', 'P100'],
+    #url='https://github.com/ncthuc/elastictools',
+    #download_url='https://pypi.org/project/elastictools/'
+)
+
+install_requires = REQUIREMENTS
+
+if __name__ == '__main__':
+    setup(**setup_args, install_requires=install_requires)

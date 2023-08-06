@@ -1,0 +1,14 @@
+README.md
+setup.py
+Intx/__init__.py
+Intx/intx.py
+Intx.egg-info/PKG-INFO
+Intx.egg-info/SOURCES.txt
+Intx.egg-info/dependency_links.txt
+Intx.egg-info/top_level.txt
+intx/__init__.py
+intx/intx.py
+intx.egg-info/PKG-INFO
+intx.egg-info/SOURCES.txt
+intx.egg-info/dependency_links.txt
+intx.egg-info/top_level.txt

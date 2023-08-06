@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: aiounu
+Version: 0.1.2
+Summary: Asyncio module for unu in Python3 using aiohttp.
+Home-page: https://github.com/tensortom/aiounu
+License: MIT
+Keywords: url-shortener,link-shortener,url,shorten,shortener,links,unu,aiohttp,async,asyncio
+Author: TensorTom
+Author-email: 14287229+TensorTom@users.noreply.github.com
+Requires-Python: >=3.7,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.7.3,<4.0.0)
+Requires-Dist: mo-dots (>=4.2.20340,<5.0.0)
+Requires-Dist: pytest (>=6.1.1)
+Requires-Dist: pytest-aiohttp (>=0.3.0)
+Requires-Dist: pytest-asyncio (>=0.14.0)
+Project-URL: Repository, https://github.com/tensortom/aiounu
+Description-Content-Type: text/markdown
+
+
+# aiounu
+
+An asyncio module for [unu](https://u.nu/) in Python3 using aiohttp. Forked from
+[vcinex/unu](https://github.com/vcinex/unu).
+
+## Install
+
+```sh
+pip install aiounu
+```
+
+## Use
+
+```python
+import aiounu as unu
+
+test_url = "https://example.com/?test=52e838e8-0943-4ccb-bfd8-ae6bb3173bd2"
+unu_resp = await unu.shorten(url=test_url, output_format="dot", keyword="")
+print(unu_resp.shorturl)
+```
+
+## Example Result
+
+If `output_format` is set to **dot** (The default), the resulting JSON object properties will be accessible (Thanks to
+[mo-dots](https://pypi.org/project/mo-dots/)) by both dot.notation and dict['notation'].
+
+```json
+{
+  "url": {
+    "keyword": "kfuns",
+    "url": "https://example.com/?test=52e838e8-0943-4ccb-bfd8-ae6bb3173bd2",
+    "title": "Example Domain",
+    "date": "2020-12-22 08:44:33",
+    "ip": "22.42.219.59"
+  },
+  "status": "error",
+  "message": "https://example.com/?test=52e838e8-0943-4ccb-bfd8-ae6bb[...] added to database<br/>(Could not check Google Safe Browsing: Bad Request)",
+  "title": "Example Domain",
+  "shorturl": "https://u.nu/kfuns",
+  "statusCode": 200
+}
+```
+
+Only the `url` variable is necessary. For a runnable example, see
+[tests/test_shorten.py](https://github.com/TensorTom/aiounu/blob/master/tests/test_shorten.py) or clone the repo
+and run [pytest](https://docs.pytest.org/en/stable/).
+
+----------------------------------------
+
+MIT License

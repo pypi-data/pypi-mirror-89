@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "aiounu"
+version = "0.1.2"
+description = "Asyncio module for unu in Python3 using aiohttp."
+authors = ["TensorTom <14287229+TensorTom@users.noreply.github.com>"]
+readme = "README.md"
+repository = "https://github.com/tensortom/aiounu"
+homepage = "https://github.com/tensortom/aiounu"
+keywords = ["url-shortener", "link-shortener", "url", "shorten",
+    "shortener", "links", "unu", "aiohttp", "async", "asyncio"]
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Framework :: AsyncIO",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+aiohttp = "^3.7.3"
+pytest = ">=6.1.1"
+pytest-asyncio = ">=0.14.0"
+pytest-aiohttp = ">=0.3.0"
+mo-dots = "^4.2.20340"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[pytest]
+testpaths = "tests"

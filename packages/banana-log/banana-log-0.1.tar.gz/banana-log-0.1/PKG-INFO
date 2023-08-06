@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: banana-log
+Version: 0.1
+Summary: Make printing Program Log easy with fancy color
+Home-page: https://github.com/WasinUddy/Banana-log
+Author: Wasin Silakong
+Author-email: wasinsilakong@gmail.com
+License: MIT
+Download-URL: https://github.com/WasinUddy/Banana-log/archive/v01.tar.gz
+Description: UNKNOWN
+Keywords: color,Logfile,Log
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

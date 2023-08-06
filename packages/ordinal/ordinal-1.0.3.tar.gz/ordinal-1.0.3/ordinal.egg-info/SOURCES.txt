@@ -1,0 +1,8 @@
+README.md
+setup.py
+ordinal/__init__.py
+ordinal.egg-info/PKG-INFO
+ordinal.egg-info/SOURCES.txt
+ordinal.egg-info/dependency_links.txt
+ordinal.egg-info/requires.txt
+ordinal.egg-info/top_level.txt

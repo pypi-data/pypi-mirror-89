@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: speak_heAR
+Version: 0.0.1
+Summary: speak and take command functions
+Home-page: https://github.com/Rohan-LK/py_speak_heaR.git
+Author: Rohan Lal Kshetry
+Author-email: rlkshetry95@gmail.com
+License: UNKNOWN
+Description: # listenspeak
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+speak_heAR.py
+example_pkg/__init__.py
+speak_heAR.egg-info/PKG-INFO
+speak_heAR.egg-info/SOURCES.txt
+speak_heAR.egg-info/dependency_links.txt
+speak_heAR.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+setup.py
+imphook.egg-info/PKG-INFO
+imphook.egg-info/SOURCES.txt
+imphook.egg-info/dependency_links.txt
+imphook.egg-info/top_level.txt

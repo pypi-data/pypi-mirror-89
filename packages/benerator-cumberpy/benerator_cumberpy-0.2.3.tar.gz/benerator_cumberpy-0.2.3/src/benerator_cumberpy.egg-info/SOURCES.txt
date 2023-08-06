@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/benerator_cumberpy/__init__.py
+src/benerator_cumberpy.egg-info/PKG-INFO
+src/benerator_cumberpy.egg-info/SOURCES.txt
+src/benerator_cumberpy.egg-info/dependency_links.txt
+src/benerator_cumberpy.egg-info/entry_points.txt
+src/benerator_cumberpy.egg-info/top_level.txt

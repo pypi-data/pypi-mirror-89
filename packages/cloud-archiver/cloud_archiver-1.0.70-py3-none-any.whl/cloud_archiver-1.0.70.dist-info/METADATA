@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cloud-archiver
+Version: 1.0.70
+Summary: A nice package.
+Home-page: https://github.com/pixegami/cloud-archiver
+Author: Pixegami
+Author-email: pixegami@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: rich
+
+# Hello World
+
+

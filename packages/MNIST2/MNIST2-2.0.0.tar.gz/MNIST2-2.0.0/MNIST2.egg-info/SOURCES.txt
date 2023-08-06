@@ -1,0 +1,10 @@
+README.rst
+setup.py
+MNIST2/API.py
+MNIST2/Functions.py
+MNIST2/__init__.py
+MNIST2.egg-info/PKG-INFO
+MNIST2.egg-info/SOURCES.txt
+MNIST2.egg-info/dependency_links.txt
+MNIST2.egg-info/requires.txt
+MNIST2.egg-info/top_level.txt

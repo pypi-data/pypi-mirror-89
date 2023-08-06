@@ -1,0 +1,10 @@
+py_notes/__init__.py,sha256=0xzH7e_cjY4HvB8BtOU-4SD-8A2YgBQkFXbC5vG0P7E,22
+py_notes/notes.py,sha256=AFxdw_gzdD0vqlktpxgRzPdr_i6-DAcmA_sxlHmihm4,5402
+py_notes/utils/__init__.py,sha256=qafI6ajmtOcQ70H9zMbH0bwqbpV4rAwOoo7bX44Je5A,46
+py_notes/utils/databases/general.sqlite3,sha256=YRnz2nwnHu5W8L3hgz2hTNgqDg1TLDzoaeyQ2JudDl8,12288
+py_notes/utils/db.py,sha256=GL5rQtI7bpstKTMZbH5ZqkSeDUxM6Z0Nrdr7vu4EXjA,686
+py_notes-1.0.2.dist-info/entry_points.txt,sha256=MSonmdnyBQZSh60ZVPkFnY9JOz1tbOH99smHHLf8Qiw,44
+py_notes-1.0.2.dist-info/LICENSE,sha256=nlb-GEhkXqy_cpLGozd8SqRSTS40RutTHM_6MiXpcmU,1072
+py_notes-1.0.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+py_notes-1.0.2.dist-info/METADATA,sha256=mpQTWkAUoP_5ZO7aKG3LFoN8vfXs_mIg5swwP2f178Q,1767
+py_notes-1.0.2.dist-info/RECORD,,

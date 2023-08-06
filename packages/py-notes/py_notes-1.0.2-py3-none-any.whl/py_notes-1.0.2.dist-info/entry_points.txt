@@ -1,0 +1,3 @@
+[console_scripts]
+notes=py_notes.notes:cli
+

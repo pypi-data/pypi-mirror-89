@@ -1,0 +1,7 @@
+awscli_plugin_logs_tail/__init__.py,sha256=ygeed_gb-MWq1HVQEbRGKz2-bPldYE8SdTH5w27qZ9M,339
+awscli_plugin_logs_tail/tail.py,sha256=1ySSEjsrzrsj5P-LK3bp4ExvfZTwx_ZuNwuYj_ErGBo,13070
+awscli_plugin_logs_tail-0.2.dist-info/LICENSE,sha256=aKy2ySy-vEebiC4mHIi8WgRkXwW4bq5Q3sSFRLAys_g,1318
+awscli_plugin_logs_tail-0.2.dist-info/METADATA,sha256=0_u2RNy57gfypVEVZPG9Kmdp6JGhl8KjnyLwmQcqF3o,1654
+awscli_plugin_logs_tail-0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+awscli_plugin_logs_tail-0.2.dist-info/top_level.txt,sha256=0ohP16t_8LUf-2c1L4xwsrVaZl4HsNm62hgqlXUYOuE,24
+awscli_plugin_logs_tail-0.2.dist-info/RECORD,,

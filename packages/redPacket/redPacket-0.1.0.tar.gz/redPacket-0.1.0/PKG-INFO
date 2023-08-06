@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: redPacket
+Version: 0.1.0
+Summary: Delivery red-packets program.
+Home-page: https://github.com/Relvyy/
+Author: zhuyancun
+Author-email: mydeepl@foxmail.com
+License: MIT
+Description: long description
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries

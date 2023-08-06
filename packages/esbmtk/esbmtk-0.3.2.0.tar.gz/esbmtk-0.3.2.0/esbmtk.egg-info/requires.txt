@@ -1,0 +1,7 @@
+nptyping
+os
+typing
+numpy
+pandas
+matplotlib
+pint

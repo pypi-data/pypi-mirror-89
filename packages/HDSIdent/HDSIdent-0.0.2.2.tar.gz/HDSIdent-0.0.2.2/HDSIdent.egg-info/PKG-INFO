@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: HDSIdent
+Version: 0.0.2.2
+Summary: HDSIdent is an open-source Python package that can be used to obtain historical data segments suitable for performing System Identification
+Home-page: https://github.com/GiulioCMSanto/HDSIdent
+Author: Giulio Cesare Mastrocinque Santo
+Author-email: giuliosanto@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

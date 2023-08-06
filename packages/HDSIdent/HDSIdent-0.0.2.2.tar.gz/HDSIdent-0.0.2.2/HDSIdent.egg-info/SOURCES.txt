@@ -1,0 +1,9 @@
+README.md
+setup.py
+HDSIdent/__init__.py
+HDSIdent.egg-info/PKG-INFO
+HDSIdent.egg-info/SOURCES.txt
+HDSIdent.egg-info/dependency_links.txt
+HDSIdent.egg-info/requires.txt
+HDSIdent.egg-info/top_level.txt
+HDSIdent.egg-info/zip-safe

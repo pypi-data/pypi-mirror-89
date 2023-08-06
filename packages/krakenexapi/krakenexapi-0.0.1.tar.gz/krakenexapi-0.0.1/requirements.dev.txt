@@ -1,0 +1,18 @@
+# tests
+tox
+pytest
+
+# code formatter + checks?
+black
+
+# static code analysis
+bandit
+safety
+
+# contributing
+pre-commit
+dco-check
+
+# publishing
+twine
+bumpversion

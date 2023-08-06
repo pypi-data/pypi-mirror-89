@@ -1,0 +1,5 @@
+krakenexapi
+===========
+
+.. automodule:: krakenexapi
+    :members:

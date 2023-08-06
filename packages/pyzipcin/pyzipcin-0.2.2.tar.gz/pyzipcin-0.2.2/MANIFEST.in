@@ -1,0 +1,4 @@
+include *.in
+include *.lock
+include *.md
+global-include *.db

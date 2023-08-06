@@ -1,0 +1,5 @@
+[console_scripts]
+clouDL = clouDL.main:main
+clouDL_analyze = clouDL.analyze:main
+clouDL_create = clouDL.main:create_user_files
+

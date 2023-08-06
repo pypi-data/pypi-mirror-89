@@ -1,0 +1,3 @@
+[console_scripts]
+git-credential-github-app = git_credential_helpers.github_app:main
+

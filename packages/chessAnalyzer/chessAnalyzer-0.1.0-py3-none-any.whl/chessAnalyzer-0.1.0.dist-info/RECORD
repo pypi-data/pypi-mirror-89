@@ -1,0 +1,12 @@
+chessAnalyzer/__init__.py,sha256=0mMq6aR0bKHu-KDayO-7pq5yPlbcWFpDwetdCHWSeu4,135
+chessAnalyzer/chess_graph.py,sha256=lsqXxXT0mWYbiaHTFs2PVsw2QUFDbZrrH9jRhyuXRHo,7961
+chessAnalyzer/main.py,sha256=M55P1oJ2vkzQVK0iZnOUXzS7gGSbOjyyuHZ0XPKwKuQ,16260
+chessAnalyzer/Chess-Coordinate-Trainer-master/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessAnalyzer/Chess-Coordinate-Trainer-master/chess_coordinate_trainer.py,sha256=I6e0EQzkzWqco9vV9NJLykB80ql8vRU8QG5XFwe7jWw,33848
+chessAnalyzer/Engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessAnalyzer/eco_codes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessAnalyzer-0.1.0.dist-info/LICENSE,sha256=svltSBI0h-Q_r_4zm2T3LBMe7DZ0NfGiEQbFqtyx8tE,1093
+chessAnalyzer-0.1.0.dist-info/METADATA,sha256=8AOfkIF1_jCJp9e_6wkCLVjsEvj1hEAbPBCVUGsXEfs,1515
+chessAnalyzer-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chessAnalyzer-0.1.0.dist-info/top_level.txt,sha256=_GtIg9y-wTxL9FwJ-m_9PoVuUVsoF2URAZsZTFFIx_E,14
+chessAnalyzer-0.1.0.dist-info/RECORD,,

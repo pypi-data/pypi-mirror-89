@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pystonkslib
+Version: 0.0.1a0
+Summary: This is a stonks data pulling library
+Home-page: https://gitlab.com/bubthegreat/pystonkslib
+Author: Micheal Taylor
+Author-email: bubthegreat@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.6

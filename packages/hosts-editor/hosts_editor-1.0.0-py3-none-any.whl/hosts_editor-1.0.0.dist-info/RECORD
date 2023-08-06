@@ -1,0 +1,9 @@
+hostseditor/__init__.py,sha256=QdbjRBOKuxAGxX4x3PBLO6D0fdo6RCifK-ZlroRmVu8,33
+hostseditor/editor.py,sha256=mzKdi9dU5_446Ay75JOENSzVZnxbkQwsfI0DAaMVI2o,4889
+hostseditor/entry.py,sha256=_CeDOW8tCHS2Prf9paFLyTpxd4TKWbmy0zjwo-8xWgE,1683
+hostseditor/utils.py,sha256=Ap59qcwGh24ACRL97EYAkVDbVGWwa1Rxd7aAKgnXDVI,470
+hosts_editor-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+hosts_editor-1.0.0.dist-info/METADATA,sha256=XzJWCohKV6Lz8cyfhJBovjH_FnLQVu_CfDnbu_QpsGo,886
+hosts_editor-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hosts_editor-1.0.0.dist-info/top_level.txt,sha256=n0XFnnKCRjkWhgYpB2LIQeMi0ILgz68JFf_ZUS6hu18,12
+hosts_editor-1.0.0.dist-info/RECORD,,

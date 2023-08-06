@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ivy-cms-unused-cleaner/__init__.py
+ivy-cms-unused-cleaner/cms_cleaner.py
+ivy_cms_unused_cleaner.egg-info/PKG-INFO
+ivy_cms_unused_cleaner.egg-info/SOURCES.txt
+ivy_cms_unused_cleaner.egg-info/dependency_links.txt
+ivy_cms_unused_cleaner.egg-info/requires.txt
+ivy_cms_unused_cleaner.egg-info/top_level.txt

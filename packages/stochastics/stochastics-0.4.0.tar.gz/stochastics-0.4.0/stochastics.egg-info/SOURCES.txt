@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stochastics/__init__.py
+stochastics/config.py
+stochastics/errors.py
+stochastics/utils.py
+stochastics.egg-info/PKG-INFO
+stochastics.egg-info/SOURCES.txt
+stochastics.egg-info/dependency_links.txt
+stochastics.egg-info/top_level.txt
+stochastics/models/__init__.py
+stochastics/models/custom_types.py
+stochastics/models/markov_chain.py

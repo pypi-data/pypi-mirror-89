@@ -1,0 +1,16 @@
+version_major    = 2
+version_minor    = 1
+version_patch    = 0
+version          = "2.1.0"
+revision         = "a793d5225b532"
+version_full     = "2.1.0 (a793d5225b532)"
+compiler         = "MSVC"
+compiler_version = "19.28.29335.0"
+compiler_full    = "MSVC (19.28.29335.0)"
+scalartype       = "double"
+pinning          = "OFF"
+defects          = "OFF"
+cuda             = "OFF"
+openmp           = "OFF"
+threads          = "OFF"
+fftw             = "OFF"

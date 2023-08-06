@@ -1,0 +1,12 @@
+README.md
+setup.py
+say_something_moon.egg-info/PKG-INFO
+say_something_moon.egg-info/SOURCES.txt
+say_something_moon.egg-info/dependency_links.txt
+say_something_moon.egg-info/entry_points.txt
+say_something_moon.egg-info/requires.txt
+say_something_moon.egg-info/top_level.txt
+saysomething/__init__.py
+saysomething/__main__.py
+saysomething/data.py
+saysomething/display.py

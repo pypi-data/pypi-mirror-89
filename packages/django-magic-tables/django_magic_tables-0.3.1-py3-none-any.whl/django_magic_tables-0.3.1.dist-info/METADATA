@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-magic-tables
+Version: 0.3.1
+Summary: A Django app to turn easily QuerySets into tables
+Home-page: https://www.example.com/
+Author: Gabriele Mattioli
+Author-email: gabrymattioli@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/django-magic-tables/0.1/
+Keywords: Table,Magictable
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+=====
+Magic Tables
+=====
+
+Magic Tables is a Django app to turn QuerySets to any kind of table.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "magic_talbes" to your INSTALLED_APPS setting like this:
+
+    INSTALLED_APPS = [
+        ...
+        'magic_talbes',
+    ]
+
+

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: guide-seq
+Version: 1.0.1
+Summary: An easy to use bioinformatic pipeline for the GUIDE-seq assay.
+Home-page: https://github.com/tsailabSJ/guideseq
+Author: Shengdar Q Tsai, Martin Aryee, Ved V Topkar
+Author-email: STSAI4@mgh.harvard.edu, Aryee.Martin@mgh.harvard.edu, vedtopkar@gmail.com
+License: AGPL
+Keywords: guideseq
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: Unix
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+guide-seq
+
+

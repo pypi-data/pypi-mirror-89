@@ -1,0 +1,16 @@
+rjgtoys_xc-0.0.3-py3.8-nspkg.pth,sha256=MoO-3UzAsPtMs95wu7fSbW2pQOEhRRjB3OygDIgyn30,544
+rjgtoys/xc/__init__.py,sha256=mYrfMCeUm9u_xbir5ZOG-6-3CQAFWhC1lCXlRzKp9Tg,5550
+rjgtoys/xc/_json.py,sha256=YH-A4aayfK_QmcB6VPxgLMnqca9D32j7X5GoRXQ4eWY,671
+rjgtoys/xc/_raises.py,sha256=qAqhlJ5mqn6Z-jBYYYfGn7r-CULDLRYbQYBhroxuVqw,7518
+rjgtoys/xc/_thing.py,sha256=PkdlluZtFjchJZ67crbb6vvZrM2otl9vg8bqnojAR6A,2621
+rjgtoys/xc/_xc.py,sha256=pP5azX9i7jDQUJVDZhfsURx47Dwh6lqrJPDDbMDYnQA,7418
+rjgtoys/xc/autodoc.py,sha256=r5KnL9fPtFFKFpFwsy714zteY2YpbzK9wOZuBDj3Eqc,8056
+rjgtoys/xc/fastapi.py,sha256=QWtvvJ_fIeL1FFVdrwRZkLwTwJDZ8Xq3fEAs_2bEzC0,5445
+rjgtoys/xc/raises.py,sha256=_wLku8OjJokBNcIqgt4IRm1qxlXmwNJ8G-sEPvbcDc0,7457
+rjgtoys/xc/starlette.py,sha256=J3KCR9cJ_b9ewgpdv07Tj2Mn6x955u94Ek5uf_r_DQc,556
+rjgtoys_xc-0.0.3.dist-info/LICENSE,sha256=oz74U14T1SoTDxiZU7XxPMYx9p7LRiks5Dia8m5wj7g,1140
+rjgtoys_xc-0.0.3.dist-info/METADATA,sha256=yl0ceuNBGaVjFJHIJFsZubdlyJ8M0vw5h4COpAYFyeY,1289
+rjgtoys_xc-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rjgtoys_xc-0.0.3.dist-info/namespace_packages.txt,sha256=rcZaaS-fyrLbITM65Phsk25NSO3PrOKJrpVipUVi20Y,8
+rjgtoys_xc-0.0.3.dist-info/top_level.txt,sha256=rcZaaS-fyrLbITM65Phsk25NSO3PrOKJrpVipUVi20Y,8
+rjgtoys_xc-0.0.3.dist-info/RECORD,,

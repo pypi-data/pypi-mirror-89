@@ -1,0 +1,13 @@
+openpmd_api/__init__.py,sha256=wvp7xZO6TPq0fcJslyAcuUysNsZ0RXwDDDhdvoP-zMA,277
+openpmd_api/openpmd_api_cxx.cp35-win_amd64.pyd,sha256=-n--xgIPqy9cGc9Zo7bM65j9h_zY_mEddukCpEYwWIk,7345152
+openpmd_api/Release/openpmd_api_cxx.exp,sha256=-XwepyFjYoC6x8Wl7VD9JpLIDAZJd5tupYJFJXn_CaE,27704
+openpmd_api/Release/openpmd_api_cxx.lib,sha256=pEbPiVmNhTMwryUZOfhz1ebVpO9nf1W8JpPRH7jYHRQ,47356
+openpmd_api/ls/__init__.py,sha256=VteJ4jSZkobxt9u8j4vfCDxK3DKg9l-nfnawQTqC8k4,74
+openpmd_api/ls/__main__.py,sha256=kX6lHOFdp8e9vwl8yQ0DzfrM33Knq48zLc0PLP8iGlA,505
+openPMD_api-0.12.0a0.dist-info/COPYING,sha256=X2MfrkZ8grjNKP0exCXIFolaNfnZTja-4OAWRXDo4PY,35823
+openPMD_api-0.12.0a0.dist-info/COPYING.LESSER,sha256=BQw0zvwlokcBbdD_SM6PbLv6qHqcdXQ-RLdzDmiiTyY,7818
+openPMD_api-0.12.0a0.dist-info/METADATA,sha256=7iV8cwKGYqBupGnCWnXabPva9wNdiItcLeocGKqYuSU,23144
+openPMD_api-0.12.0a0.dist-info/WHEEL,sha256=SxCF5RRW3Q_ggbAjzZyyl3kuZVt89lxAee8FBI92h1k,101
+openPMD_api-0.12.0a0.dist-info/entry_points.txt,sha256=0C2qx4GJBe6DpGU_QjL2xvI0FKqvSfS0A8PP-9MXoHE,61
+openPMD_api-0.12.0a0.dist-info/top_level.txt,sha256=l4v2I9R-b9Obh9lx0yDm7Fp5FpsEbRkn_iadD-muRbA,16
+openPMD_api-0.12.0a0.dist-info/RECORD,,

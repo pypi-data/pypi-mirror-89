@@ -1,0 +1,3 @@
+[console_scripts]
+feefkodhyionffu = feefkodhyionffu.cli:cli
+

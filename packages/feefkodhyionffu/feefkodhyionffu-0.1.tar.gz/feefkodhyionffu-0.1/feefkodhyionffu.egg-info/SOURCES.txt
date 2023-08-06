@@ -1,0 +1,8 @@
+setup.py
+feefkodhyionffu/__init__.py
+feefkodhyionffu/cli.py
+feefkodhyionffu.egg-info/PKG-INFO
+feefkodhyionffu.egg-info/SOURCES.txt
+feefkodhyionffu.egg-info/dependency_links.txt
+feefkodhyionffu.egg-info/entry_points.txt
+feefkodhyionffu.egg-info/top_level.txt

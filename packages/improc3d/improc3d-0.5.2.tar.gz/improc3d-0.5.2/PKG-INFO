@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: improc3d
+Version: 0.5.2
+Summary: Useful functions to process 3D images
+Home-page: https://github.com/shuohan/image-processing-3d
+Author: Shuo Han
+Author-email: shan50@jhu.edu
+License: MIT
+Description: # Image Processing 3D
+        
+        This repository contains some functions to process 3D images or multi-channel 3D images (a 4D array with channels as the first dimensions). Main functions include:
+        
+        * Resize, crop, and uncrop
+        * Reslice (affine)
+        * Rotate
+        * Scale
+        * Deform
+        
+        See the [documentation](https://shan-utils.gitlab.io/image-processing-3d) for more details.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

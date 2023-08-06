@@ -1,0 +1,9 @@
+setup.py
+my_test_pr/__init__.py
+my_test_pr.egg-info/PKG-INFO
+my_test_pr.egg-info/SOURCES.txt
+my_test_pr.egg-info/dependency_links.txt
+my_test_pr.egg-info/requires.txt
+my_test_pr.egg-info/top_level.txt
+my_test_pr/code/__init__.py
+my_test_pr/code/file.py

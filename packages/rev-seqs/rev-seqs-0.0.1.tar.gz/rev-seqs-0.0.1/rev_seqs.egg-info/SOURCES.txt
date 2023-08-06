@@ -1,0 +1,10 @@
+README.md
+setup.py
+rev_seqs.egg-info/PKG-INFO
+rev_seqs.egg-info/SOURCES.txt
+rev_seqs.egg-info/dependency_links.txt
+rev_seqs.egg-info/requires.txt
+rev_seqs.egg-info/top_level.txt
+revseqs/__init__.py
+revseqs/__main__.py
+revseqs/revseqs.py

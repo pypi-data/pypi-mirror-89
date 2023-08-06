@@ -1,0 +1,16 @@
+pyvsphere/__init__.py,sha256=PM3OT4FGzMqnJr_EP1fRQPTktrDc1aHUGpdJ7gJSiMA,64
+pyvsphere/mymodule.py,sha256=pxSN3cqSDj9f4s4IKKAjCvYe4GHRka9dPgpLB7eDaOo,685
+pyvsphere/vcenter.py,sha256=k2gRcpHLsUIiUR4kV198ZcHNzUlG55x5tWmZLsrgNtw,488
+pyvsphere/vmware_datastore_facts.py,sha256=FMtzdXuANROGRlW6WhLwtePwTH5_7SBIXqMDQ0-8B3s,1679
+pyvsphere/vmware_guest_disk_info.py,sha256=6Z9V3O0ziakf7fQgEQpszqpsJeIod7ncq2wQ-5LVH3U,1631
+pyvsphere/vmware_guest_facts.py,sha256=41neTq3e0w4ph9AmAqL_GpBrQa04PdhPUQraEgk7uzY,9952
+pyvsphere/vmware_host_facts.py,sha256=B6OicBWAKM7uWesyCIqKj-DldyNOJMI-cjp7ZFphnHY,3042
+pyvsphere/vmware_portgroup_facts.py,sha256=HUx3WWMV4bwpw0ZMq_x3sJLop5cKrhDN-PulbsX_jcg,4522
+pyvsphere/vmware_resource_pool_facts.py,sha256=BEzjipudKRRnhy9HGChsLyebjECsXrhZXRloRdlEFOs,3017
+pyvsphere/vmware_vm_facts.py,sha256=ZIUOGeFauimdvWnJLELHm_1AGpsGeoxYhiA8S95Up-I,1117
+pyvsphere/vmware_vswitch_facts.py,sha256=UKIk3IDLdYGZHa85d1ZFMSeRMfAC-FRku2YRKed8SYo,3402
+pyvsphere/vsphere.py,sha256=5Qu2y_BjQR0n2DPbFdHVHI5r6Es_oHHLqrBB0-Led2g,7097
+pyvsphere-0.0.6.dist-info/METADATA,sha256=wJzd22fb3FpABEba2tgUh1ZjsO6o_b3nXEHF7Qjq2S4,511
+pyvsphere-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyvsphere-0.0.6.dist-info/top_level.txt,sha256=tt6dDSqYlWQg9IdWeo7dU6SOQqPD5nkVWyf7bjSubAc,10
+pyvsphere-0.0.6.dist-info/RECORD,,

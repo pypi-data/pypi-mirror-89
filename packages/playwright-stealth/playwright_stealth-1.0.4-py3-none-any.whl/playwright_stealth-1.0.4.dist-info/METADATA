@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: playwright-stealth
+Version: 1.0.4
+Summary: playwright stealth
+Home-page: https://github.com/ASAS1314/playwright_stealth
+Author: ASAS1314
+Author-email: lcjasas@sina.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# playwright_stealth
+
+Transplanted from [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth), **Not perfect**.
+
+## Install
+
+```
+$ pip install playwright-stealth
+```
+
+## Usage
+
+```python
+from playwright import sync_playwright
+from playwright_stealth import stealth_sync
+
+playwright = sync_playwright().start()
+
+# Use playwright.chromium, playwright.firefox or playwright.webkit
+# Pass headless=False to see the browser UI
+executablePath = 'C:\\Google\\Chrome\\Application\\chrome.exe'
+browser = playwright.chromium.launch(executablePath=executablePath, headless=True)
+page = browser.newPage()
+stealth_sync(page)
+```
+
+## Test results
+
+### playwright without stealth
+
+<table class="image">
+<tr>
+  <td><figure class="image"><a href="https://github.com/ASAS1314/pyppeteer_stealth/images/example1.png"><img src="https://github.com/ASAS1314/pyppeteer_stealth/images/example1.png"></a><figcaption>headless</figcaption></figure></td>
+</tr>
+</table>
+
+### playwright with stealth
+
+<table class="image">
+<tr>
+  <td><figure class="image"><a href="https://github.com/ASAS1314/pyppeteer_stealth/images/example.png"><img src="https://github.com/ASAS1314/pyppeteer_stealth/images/example.png"></a><figcaption>headless</figcaption></figure></td>
+</tr>
+</table>
+
+

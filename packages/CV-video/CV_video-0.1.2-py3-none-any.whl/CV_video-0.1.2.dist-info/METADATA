@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CV-video
+Version: 0.1.2
+Summary: Loading IP camera and display with Opencv3
+Home-page: https://github.com/Relvyy/
+Author: zhuyancun
+Author-email: mydeepl@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: matplotlib (==3.3.0)
+Requires-Dist: opencv-python (>=3.4.10)
+
+long description
+
+

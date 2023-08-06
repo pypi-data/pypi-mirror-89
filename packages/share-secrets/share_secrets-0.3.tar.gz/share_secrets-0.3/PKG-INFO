@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: share_secrets
+Version: 0.3
+Summary: share secrets with ease.
+Home-page: https://github.com/anish-m-code/share_secret
+Author: Anish M
+Author-email: aneesh25861@gmail.com
+License: GPLv3
+Download-URL: https://github.com/Anish-M-code/share_secret/archive/v0.3.tar.gz
+Description: A simple secret sharing tool made in python3 as a student Project , It uses Repeated Encryption using Modular addition
+          of one time generated random key with size equal to data fed as input and data itself , so that even for same data fed as input in each
+          attempt , secret codes splitted by the program will be different. Even if one of the generated secret backup codes is lost then the secret data
+          will be lost forever...  
+Keywords: Secret sharing,cryptography
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: Lu-Project-4-C8123
+Version: 0.0.2
+Summary: A example package for course project
+Home-page: https://github.com/pypa/Lu_Project_4_C8123
+Author: WangLu
+Author-email: p2009842@ipm.edu.mo
+License: UNKNOWN
+Description: # README
+        
+        ## 目标
+        
+        按参数批量进行试验
+        目前完成了基本部分
+        
+        ## 结构说明
+        
+        main: 主函数
+        - main.py 测试主函数
+        - models.py 模型定义
+        
+        analysis: 分析结果数据
+        - UncertaintyDrow 画图
+        
+        base: 基础类库，用于存信息
+        - experiment.py 实验流程控制
+        - get_dataset.py 可以用名字获取数据集实例
+        - get_loss.py 可以用名字获取损失函数
+        - get model.py 可以用名字获取模型
+        - get_optimizer.py 可以用名字获取损失函数
+        - history.py 存储实验历史
+        - metrics.py 指标相关的类，如存储正确率，损失等指标
+        - runners.py 批量跑实验的类
+        - tool.py 一些工具函数
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free For Educational Use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

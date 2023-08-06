@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: disk-treemap
+Version: 1.0.0
+Summary: xsJust another disk usage analyzer with treemap GUI.
+Home-page: UNKNOWN
+Author: Epix Zhang
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: tqdm
+Provides-Extra: compression
+Requires-Dist: flask-compress ; extra == 'compression'
+
+UNKNOWN
+
+

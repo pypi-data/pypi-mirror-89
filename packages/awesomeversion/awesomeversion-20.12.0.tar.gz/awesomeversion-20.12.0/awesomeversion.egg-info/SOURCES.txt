@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+awesomeversion/__init__.py
+awesomeversion/awesomeversion.py
+awesomeversion/exceptions.py
+awesomeversion/match.py
+awesomeversion/strategy.py
+awesomeversion.egg-info/PKG-INFO
+awesomeversion.egg-info/SOURCES.txt
+awesomeversion.egg-info/dependency_links.txt
+awesomeversion.egg-info/top_level.txt

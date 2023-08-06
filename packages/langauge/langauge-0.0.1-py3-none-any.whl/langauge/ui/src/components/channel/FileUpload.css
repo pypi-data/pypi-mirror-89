@@ -1,0 +1,19 @@
+.file-upload-label {
+  margin: 0;
+}
+
+.file-upload-label-container {
+  display: flex;
+  align-items: center;
+}
+
+.file-upload-label-container i {
+  color: green;
+  display: block;
+  margin-left: 10px;
+}
+
+.file-upload-label-container .fa-trash-alt {
+  cursor: pointer;
+  color: #242424;
+}

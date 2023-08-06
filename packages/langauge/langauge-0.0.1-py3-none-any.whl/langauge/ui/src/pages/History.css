@@ -1,0 +1,10 @@
+.history-container input {
+  display: block;
+  width: 250px;
+}
+
+.history-header {
+  padding: 0 20px 0 2px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+README.md
+setup.py
+py2sqlm/__init__.py
+py2sqlm/fields.py
+py2sqlm/table.py
+py2sqlm/utils.py
+py2sqlm_andlvovsky.egg-info/PKG-INFO
+py2sqlm_andlvovsky.egg-info/SOURCES.txt
+py2sqlm_andlvovsky.egg-info/dependency_links.txt
+py2sqlm_andlvovsky.egg-info/top_level.txt

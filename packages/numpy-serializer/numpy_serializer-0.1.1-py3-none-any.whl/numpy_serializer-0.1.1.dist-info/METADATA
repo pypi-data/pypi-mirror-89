@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: numpy-serializer
+Version: 0.1.1
+Summary: Preserve numpy arrays shapes while serializing them to bytes
+Home-page: https://github.com/4thel00z/numpy_serializer
+Author: 4thel00z
+Author-email: 4thel00z@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: msgpack (==1.0.2)
+Requires-Dist: msgpack-numpy (==0.4.7.1)
+Requires-Dist: numpy (==1.19.4)
+
+# numpy-serializer
+
+## Motivation
+
+I couldn't find a nice high-level package that is fast enough to serialize and deserialize numpy arrays while preserving the type
+and shape informations.
+
+## Installation
+
+```
+pip install numpy-serializer
+```
+
+## How to use
+
+```python3
+import numpy_serializer as ns
+import numpy as np
+
+a = np.random.normal(size=(50,120,150))
+b = ns.to_bytes(a)
+c = ns.from_bytes(b)
+assert np.array_equal(a,c)
+```
+
+## License
+
+This project is licensed under the GPL-3 license.
+
+

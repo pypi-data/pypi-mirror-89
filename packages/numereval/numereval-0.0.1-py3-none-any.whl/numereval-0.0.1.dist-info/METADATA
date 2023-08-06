@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: numereval
+Version: 0.0.1
+Summary: A small package for evaluating numer.ai model locally
+Home-page: https://github.com/parmarsuraj99/numereval
+Author: Suraj Parmar
+Author-email: parmarsuraj99@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# A small library to reproduce the scores on numer.ai diagnistics dashboard.
+
+

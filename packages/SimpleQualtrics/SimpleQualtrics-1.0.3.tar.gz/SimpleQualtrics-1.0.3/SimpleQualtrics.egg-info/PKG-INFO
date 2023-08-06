@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: SimpleQualtrics
+Version: 1.0.3
+Summary: Python module to support Qualtrics APIs
+Home-page: https://github.com/charlesweir/SimpleQualtrics
+Author: Charles Weir
+Author-email: pypi.cafaw@xoxy.net
+License: UNKNOWN
+Description: # SimpleQualtrics
+        
+        Python module to support Qualtrics' APIs.
+        
+        SimpleQualtrics is a stand-alone single-class API to access the Qualtrics APIs directly,
+        handling all of the Qualtrics web-specific protocols in a robust manner and
+        answering data structures that are easy to process in Python.
+        
+        Specifically, SimpleQualtrics provides: 
+        * Separation of credentials from code,
+        * Configuration handling, 
+        * Choice of API server, 
+        * Practical error handling with exceptions, 
+        * Call timeouts,
+        * Call logging, and 
+        * Python-friendly decoding of Qualtrics response formats and protocols.
+        
+        See https://simplequaltrics.readthedocs.io/ for full documentation.
+        
+Keywords: qualtrics API https
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Communications
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

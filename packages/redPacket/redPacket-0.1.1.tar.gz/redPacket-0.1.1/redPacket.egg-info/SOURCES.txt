@@ -1,0 +1,10 @@
+README.md
+setup.py
+redPacket/__init__.py
+redPacket/redPacket.py
+redPacket.egg-info/PKG-INFO
+redPacket.egg-info/SOURCES.txt
+redPacket.egg-info/dependency_links.txt
+redPacket.egg-info/requires.txt
+redPacket.egg-info/top_level.txt
+redPacket.egg-info/zip-safe

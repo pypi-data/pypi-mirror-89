@@ -1,0 +1,10 @@
+setup.py
+lmign_dist/Binomialdistribution.py
+lmign_dist/Gaussiandistribution.py
+lmign_dist/Generaldistribution.py
+lmign_dist/__init__.py
+lmign_dist.egg-info/PKG-INFO
+lmign_dist.egg-info/SOURCES.txt
+lmign_dist.egg-info/dependency_links.txt
+lmign_dist.egg-info/not-zip-safe
+lmign_dist.egg-info/top_level.txt

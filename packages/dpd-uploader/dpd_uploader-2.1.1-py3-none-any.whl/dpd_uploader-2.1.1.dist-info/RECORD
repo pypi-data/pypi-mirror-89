@@ -1,0 +1,12 @@
+dpd_uploader/Uploader.py,sha256=HDiEFkS1JCFe75Fldy1h3UyS5v1Ok7gWrA9iPnsbDj0,2673
+dpd_uploader/__init__.py,sha256=NnGBW1l85Rn7mkZGOveEbrtM2bJavg44ctE8gASobYM,1260
+dpd_uploader/_imports_.py,sha256=Ki0UeZNsc-AkHTJWFFmimMaR2lOMma_v2Asf23xWE34,60
+dpd_uploader/dpd_uploader.min.js,sha256=qKF8Cxg4nJx3_nthhzpJyqmU6Ba1AC13lwPEWNTbgLY,20695
+dpd_uploader/dpd_uploader.min.js.map,sha256=LkkNlDDLMGOKlQxsWV9UU8Op6cjwsunyWr1d6QI3Oa4,71426
+dpd_uploader/metadata.json,sha256=qgg32zsGjOSfpiIKeklsWqPWZ4NyRVzKjnrWFfjgDBk,3244
+dpd_uploader/package-info.json,sha256=4TvVfSWfjeKQ5uKJcb-o9XITgbwpEdWoTEgo6EF8vUg,1904
+dpd_uploader-2.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dpd_uploader-2.1.1.dist-info/METADATA,sha256=MZtGYs-smvUW2fsEVvtnalauSgPqB_0e0VgVQFJapIA,299
+dpd_uploader-2.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dpd_uploader-2.1.1.dist-info/top_level.txt,sha256=oTsGJ-l10ggfJJDuFgKgPdin4fk1HIARmwYbo6yi6Ks,13
+dpd_uploader-2.1.1.dist-info/RECORD,,

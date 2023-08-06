@@ -1,0 +1,4 @@
+scipy
+numpy
+napari[all]
+magicgui==0.1.6

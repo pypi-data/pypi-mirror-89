@@ -1,0 +1,13 @@
+{
+    "entity_name": "SampleModel",
+    "entity_names": "SampleModels",
+    "entity_variable": "sampleModel",
+    "entity_variables": "sampleModels",
+    "entity_kebab": "sample-model",
+    
+    "entity_package": "samplemodel",
+    
+    "module_name": "samplemodel",
+    
+    "collection_name": "sample_models"
+}

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: com.wyattbaldwin.cached-property
+Version: 1.0.post1
+Summary: @cached_property
+Home-page: https://github.com/wylee/com.wyattbaldwin/tree/dev/cached_property
+Author: Wyatt Baldwin
+Author-email: self@wyattbaldwin.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/wylee/com.wyattbaldwin/tree/dev/cached_property

@@ -1,0 +1,16 @@
+Changelog
+=========
+
+1.1.1
+-----
+ - updated forms legend display condition
+
+1.1.0
+-----
+ - added support for IObjectData interface in tables
+ - updated forms templates
+ - added missing IDs in inner tabs sub-forms
+
+1.0.0
+-----
+ - initial release

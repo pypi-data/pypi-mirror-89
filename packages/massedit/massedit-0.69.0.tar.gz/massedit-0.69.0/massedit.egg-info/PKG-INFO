@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: massedit
+Version: 0.69.0
+Summary: Edit multiple files using Python text processing modules
+Home-page: http://github.com/elmotec/massedit
+Author: elmotec
+Author-email: elmotec@gmx.com
+License: MIT
+Description: README.rst
+Keywords: sed editor stream python edit mass
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Requires-Python: >=2.7
+Description-Content-Type: text/x-rst

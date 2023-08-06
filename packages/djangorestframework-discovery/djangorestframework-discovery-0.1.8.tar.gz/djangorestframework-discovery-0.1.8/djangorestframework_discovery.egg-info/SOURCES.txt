@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+djangorestframework_discovery.egg-info/PKG-INFO
+djangorestframework_discovery.egg-info/SOURCES.txt
+djangorestframework_discovery.egg-info/dependency_links.txt
+djangorestframework_discovery.egg-info/requires.txt
+djangorestframework_discovery.egg-info/top_level.txt
+rest_framework_discovery/__init__.py
+rest_framework_discovery/apps.py
+rest_framework_discovery/introspect.py
+rest_framework_discovery/settings.py
+rest_framework_discovery/urls.py
+rest_framework_discovery/views.py

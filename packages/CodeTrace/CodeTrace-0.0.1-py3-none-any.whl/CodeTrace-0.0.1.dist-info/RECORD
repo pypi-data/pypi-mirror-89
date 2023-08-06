@@ -1,0 +1,12 @@
+CodeTrace-0.0.1.data/scripts/codetrace.py,sha256=chEXCwORGTDZv6DL9mI59D_OD89v9hPR5MqxUQpzYzc,1996
+CodeTrace-0.0.1.data/scripts/ct,sha256=chEXCwORGTDZv6DL9mI59D_OD89v9hPR5MqxUQpzYzc,1996
+codetrace/__init__.py,sha256=II2dzl-7m3GflW4g3Dao95wQeziTtz4V0i9y-Kb2J9A,37
+codetrace/codetrace.py,sha256=chEXCwORGTDZv6DL9mI59D_OD89v9hPR5MqxUQpzYzc,1996
+codetrace/test_ct.py,sha256=cRcRm_6GwswttOnRdzTv5SXG-FR0_3L5ZiG8ACo6NE0,2435
+src/__init__.py,sha256=II2dzl-7m3GflW4g3Dao95wQeziTtz4V0i9y-Kb2J9A,37
+src/codetrace.py,sha256=VtSlUcp3OLVKsUy9wl21uT6NmOvoconNd8I2uze_wbc,1995
+src/test_ct.py,sha256=cRcRm_6GwswttOnRdzTv5SXG-FR0_3L5ZiG8ACo6NE0,2435
+CodeTrace-0.0.1.dist-info/METADATA,sha256=Fp_5JLcXPDKWai25qz5ETjPqSbxoIylTJPyNTqsUgCs,457
+CodeTrace-0.0.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+CodeTrace-0.0.1.dist-info/top_level.txt,sha256=_d-LowbN6lB6o8rgx2ucojlWpP3OArDKyfyEfoQjHCw,10
+CodeTrace-0.0.1.dist-info/RECORD,,

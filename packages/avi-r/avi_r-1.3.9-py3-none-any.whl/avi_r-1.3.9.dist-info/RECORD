@@ -1,0 +1,9 @@
+avi_r/__init__.py,sha256=xlEzWn0jPxSGNCQaMtMMgmWwhejXgf2CuCNMeBdSOB0,55
+avi_r/frame.py,sha256=FW46hYXaQnVYTK_6JQqBz0Ln6P0_RbL4dZ0EnA34K6Q,2435
+avi_r/reader.py,sha256=I8TWQzfNCOAquUAvEvP2i5Eu4vk71XaibnKtq7PssHA,12007
+avi_r/utils.py,sha256=7loW-g_bNcgtnoAzEsiV90SechLAOYEIhNwgciN7e1A,510
+avi_r-1.3.9.dist-info/LICENSE,sha256=9rbQ4gyS9AMaNXWy_0o_i1GJ8YEK4lUAbUJ5lAsxZ-0,35061
+avi_r-1.3.9.dist-info/METADATA,sha256=lAdADf16hI4Ob6SZcYlcfk20HcAOPVAOPJLa-zESrb0,3355
+avi_r-1.3.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+avi_r-1.3.9.dist-info/top_level.txt,sha256=yhLbzNQ5J4a9r5SZFP1dxF2CKAh2UvGJ8FpcbnvNtmk,6
+avi_r-1.3.9.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+git_improved/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_improved/changelog.py,sha256=BOlMUKZcWIT0h6yJXuTAcKRgu1ahaglVbtoIErZdKxI,6235
+git_improved/configurations.py,sha256=an8jmFhmi1gtuKlMFNJ-BY2QC455zd7pd69EMQNNoG8,950
+git_improved/constants.py,sha256=Kke6mQhQ1a4YOwhUHYbGq38QDhuKROFl70IIsZT6ULE,121
+git_improved/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_improved/commands/done.py,sha256=HlgxjSB-atRETbFnWqTXUmk54uG2B3YDKSoyJ2aBm5I,3469
+git_improved/commands/new_branch.py,sha256=h-xbCprwasmAxjWiQSrkL0ZaSNAh8g_6FfWBuzk7VcM,215
+git_improved/commands/release.py,sha256=DhgHYNgd1MNl-oDLpBnU4B6nnl0NdTElC6HGR5zt_YI,3295
+git_improved/commands/setup.py,sha256=IdTFQdNgDpY-zd7ZAaa4B3eeG5_u5D_T9ti4z06iSqs,3428
+git_improved-0.0.2.dist-info/METADATA,sha256=O2iWnbp1Cie9tpUE1MAeRtGvij0ZqkryT2p151FZqzI,265
+git_improved-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+git_improved-0.0.2.dist-info/entry_points.txt,sha256=x8BMBxYq_WtQTQvrSqA7voDD6LHqZYtAIwTTGO4RwSU,396
+git_improved-0.0.2.dist-info/top_level.txt,sha256=BX92JnpzXaPZe37pF6tqsahk2vFMNVoIXLIXY9Y5wVE,13
+git_improved-0.0.2.dist-info/RECORD,,

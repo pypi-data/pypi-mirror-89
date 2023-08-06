@@ -1,0 +1,7 @@
+absl-py>=0.1.6
+tensorflow<2.4,==2.3
+
+[docs]
+fire
+annoy
+scann==1.1.1

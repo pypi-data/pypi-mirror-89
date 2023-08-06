@@ -1,0 +1,10 @@
+setup.py
+jair_matrices/__init__.py
+jair_matrices/exceptions.py
+jair_matrices/matrix.py
+jair_matrices/test.py
+jair_matrices.egg-info/PKG-INFO
+jair_matrices.egg-info/SOURCES.txt
+jair_matrices.egg-info/dependency_links.txt
+jair_matrices.egg-info/not-zip-safe
+jair_matrices.egg-info/top_level.txt

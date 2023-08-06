@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+math_learn.egg-info/PKG-INFO
+math_learn.egg-info/SOURCES.txt
+math_learn.egg-info/dependency_links.txt
+math_learn.egg-info/not-zip-safe
+math_learn.egg-info/top_level.txt

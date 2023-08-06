@@ -1,0 +1,7 @@
+yodf/__init__.py,sha256=sbR5wzAQF4pkgDqGfGD8Y0EYsY8VW_kPkL_6v0AokAg,468
+yodf/core.py,sha256=uuo7jx1KDWkb20nXFZAjRak9g-v-3RPma8hstwoxv4o,11411
+yodf/operations.py,sha256=IMYOb2RRiISkXHBjGQO6Flu60hI6aIVjH8rVQVpPJBA,2543
+yodf/train.py,sha256=X00AoWkLK2rwDbsl50vGJ_paoitibkmr6n1KXBbVTh4,2414
+yodf-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+yodf-1.0.1.dist-info/METADATA,sha256=knY8JOOLHicN1lc_U0ELcbHFIL2IhMLjOWkbd-AnD5w,682
+yodf-1.0.1.dist-info/RECORD,,

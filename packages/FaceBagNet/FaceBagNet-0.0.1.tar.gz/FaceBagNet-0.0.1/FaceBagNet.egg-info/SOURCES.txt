@@ -1,0 +1,15 @@
+MANIFEST.in
+readme.md
+setup.py
+FaceBagNet/1.jpg
+FaceBagNet/FaceAnti.py
+FaceBagNet/FaceBagNet.py
+FaceBagNet/FaceBagNet_model_A.py
+FaceBagNet/__init__.py
+FaceBagNet.egg-info/PKG-INFO
+FaceBagNet.egg-info/SOURCES.txt
+FaceBagNet.egg-info/dependency_links.txt
+FaceBagNet.egg-info/top_level.txt
+FaceBagNet/__pycache__/FaceBagNet.cpython-36.pyc
+FaceBagNet/__pycache__/FaceBagNet_model_A.cpython-36.pyc
+FaceBagNet/model/global_min_acer_model.pth

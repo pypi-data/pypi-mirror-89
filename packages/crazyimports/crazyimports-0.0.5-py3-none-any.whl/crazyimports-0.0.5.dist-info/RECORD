@@ -1,0 +1,15 @@
+crazyimports/__init__.py,sha256=accEzKV4pOPl-RhNpT3Km0oy4CKr5fpyIOPc8zsVtHc,121
+crazyimports/common/__init__.py,sha256=K3gyrFBYL9Wv3y5Za90dGW5jF7vy_89pwyYRpcMJjwo,1475
+crazyimports/csv/__init__.py,sha256=i9JZV6fR7YR2sJsW27JBsJ7vtkZPTIO_OTohPRVtHLo,24
+crazyimports/csv/loader.py,sha256=QCmtZFGxpTyZw35wco29wi9fDFtJHIe6WJwPfRi83NA,422
+crazyimports/json/__init__.py,sha256=w0J03YFQcrSL2i-y6xK7vwua7ye_3aBIrAoehSXHL1I,25
+crazyimports/json/loader.py,sha256=DE4gVGYbxg_0rq8G17ddfuY7TW3qPFiR659ZRoKcUGw,148
+crazyimports/sqlite/__init__.py,sha256=toJJwymXjLJcxfEyj2LXc__4kc8nFVmRIu3A2nRCVrs,28
+crazyimports/sqlite/loader.py,sha256=tQ5kL7998Gm4RnaK75-0uSIzZN3gsFgSk-are7ArdL4,679
+crazyimports/yaml/__init__.py,sha256=GJeGBkuFEyVvq5yA0lrlxKKTnNbwhEvesfH8bZe2dTU,25
+crazyimports/yaml/loader.py,sha256=LtjKIc8HdSs7wYWvYJNSSJ4_egg7xbyRbmjvdRZ-rYs,576
+crazyimports-0.0.5.dist-info/LICENSE,sha256=TK-GTI5o4yaI64Y1QD58X_ZRVokHt_t9eVm7ByHQJek,1072
+crazyimports-0.0.5.dist-info/METADATA,sha256=o9ViaDkmidkZSzq1IK3QVGeyq8b4Vg9HSCRFL0GDeiI,2394
+crazyimports-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+crazyimports-0.0.5.dist-info/top_level.txt,sha256=xtPqgMB25jd7jMZcOjbrxe8Ff8N3UB2U7kZ0HBOh2iE,13
+crazyimports-0.0.5.dist-info/RECORD,,

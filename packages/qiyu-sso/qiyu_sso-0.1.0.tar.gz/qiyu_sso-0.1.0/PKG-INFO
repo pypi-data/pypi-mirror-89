@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qiyu-sso
+Version: 0.1.0
+Summary: SSO client from QiYuTech
+Author: dev
+Author-email: dev@qiyutech.tech
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.7,<2)
+Description-Content-Type: text/markdown
+
+# qiyu-sso
+SSO Client from QiYuTech
+

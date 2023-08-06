@@ -1,0 +1,12 @@
+README.md
+setup.py
+dict_logic.egg-info/PKG-INFO
+dict_logic.egg-info/SOURCES.txt
+dict_logic.egg-info/dependency_links.txt
+dict_logic.egg-info/top_level.txt
+dictlogic/__init__.py
+dictlogic/builtins.py
+dictlogic/logic.py
+dictlogic/scope.py
+dictlogic/types.py
+dictlogic/utils.py

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+saral_squarev9.egg-info/PKG-INFO
+saral_squarev9.egg-info/SOURCES.txt
+saral_squarev9.egg-info/dependency_links.txt
+saral_squarev9.egg-info/entry_points.txt
+saral_squarev9.egg-info/top_level.txt
+square/__init__.py
+square/__main__.py

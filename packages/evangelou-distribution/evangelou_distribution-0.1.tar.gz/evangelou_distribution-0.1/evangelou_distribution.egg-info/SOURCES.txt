@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+evangelou_distr/Binomialdistribution.py
+evangelou_distr/Gaussiandistribution.py
+evangelou_distr/Generaldistribution.py
+evangelou_distr/__init__.py
+evangelou_distribution.egg-info/PKG-INFO
+evangelou_distribution.egg-info/SOURCES.txt
+evangelou_distribution.egg-info/dependency_links.txt
+evangelou_distribution.egg-info/not-zip-safe
+evangelou_distribution.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+DOCUMENTATION.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyguardian/__guardian.py
+pyguardian/__init__.py
+pyguardian.egg-info/PKG-INFO
+pyguardian.egg-info/SOURCES.txt
+pyguardian.egg-info/dependency_links.txt
+pyguardian.egg-info/not-zip-safe
+pyguardian.egg-info/requires.txt
+pyguardian.egg-info/top_level.txt

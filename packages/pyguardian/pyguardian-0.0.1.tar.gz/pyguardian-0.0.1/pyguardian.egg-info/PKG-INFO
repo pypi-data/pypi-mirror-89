@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyguardian
+Version: 0.0.1
+Summary: pyguardian simplifies parameter type validation
+Home-page: https://github.com/greysonDEV/pyguardian
+Author: Greyson Murray
+Author-email: greysonmurray.dev@gmail.com
+Maintainer: Greyson Murray
+Maintainer-email: greysonmurray.dev@gmail.com
+License: MIT
+Description: # pyguardian
+        
+        ## Description
+        pyguardian is a Python library that validates the types of a function's parameters via the `guard decorator`:
+        ```python
+        @guard(int, int)
+        def add(a, b):
+            return a+b
+        ```
+        
+        ## Installation
+        ```bash
+        pip install pyguardian
+        ```
+        
+        ## Documentation
+        [pyguardian documentation](https://github.com/greysonDEV/pyguardian/blob/master/DOCUMENTATION.md)
+        
+        ## License
+        pyguardian is licensed under the [MIT](https://github.com/greysonDEV/pyguardian/blob/master/LICENSE) License.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev

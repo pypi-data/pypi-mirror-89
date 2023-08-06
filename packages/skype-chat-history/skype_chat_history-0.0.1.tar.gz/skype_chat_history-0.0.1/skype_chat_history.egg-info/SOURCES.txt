@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+skype_chat_history/__init__.py
+skype_chat_history.egg-info/PKG-INFO
+skype_chat_history.egg-info/SOURCES.txt
+skype_chat_history.egg-info/dependency_links.txt
+skype_chat_history.egg-info/requires.txt
+skype_chat_history.egg-info/top_level.txt

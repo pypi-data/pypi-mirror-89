@@ -1,0 +1,11 @@
+persocial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persocial/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+persocial/apps.py,sha256=GWb01qXK629ZkgfxNnkYs7lkdlLrEMDjoh_RP2MfGDM,93
+persocial/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persocial/models/__init__.py,sha256=3SOfQ2l04SWpSXf0lOsTE4UuOOIb1EdyVqcX4oLa4vU,159
+persocial/models/actors.py,sha256=J0Ik6BF4QaRXyzylYMjkhXlWRMn04-j3ng3t6Qr2b_Y,269
+persocial/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+persocial-0.1.2.dist-info/LICENSE,sha256=8PTgel9G5vcf8E4foL0KB4nW6_7XFVt0wd9FrHcRjk8,1066
+persocial-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+persocial-0.1.2.dist-info/METADATA,sha256=Bczuqo-oL6Mni1rQzogZb0s5tD5zT_uU5TXFuWsMnBA,326
+persocial-0.1.2.dist-info/RECORD,,

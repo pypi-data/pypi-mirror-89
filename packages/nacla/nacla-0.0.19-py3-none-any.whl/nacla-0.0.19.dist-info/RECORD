@@ -1,0 +1,7 @@
+nacla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nacla/nacla.py,sha256=jgeYuFlCO1TUX0s-sEUoSjNBnHlDY8IMGaYUUTlAllI,2876
+nacla/model/rnn.pth,sha256=Q0tNe4oYZ4rWFs4n_ceM16vlNjS3725NApv_wpZb0NY,109442
+nacla-0.0.19.dist-info/METADATA,sha256=-urcoRJISDhI3ghz9a4uTcBPO_QNMfN7eGOERicaFGc,673
+nacla-0.0.19.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nacla-0.0.19.dist-info/top_level.txt,sha256=5hRQtd3tCONeI3dv06TgLlqLA5PS6IVXC-ipJ6VW7XM,6
+nacla-0.0.19.dist-info/RECORD,,

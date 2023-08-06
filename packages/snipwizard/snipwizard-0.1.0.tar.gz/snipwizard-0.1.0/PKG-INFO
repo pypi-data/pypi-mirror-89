@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: snipwizard
+Version: 0.1.0
+Summary: A package that contains useful python utilities and snippets. Aims to have no dependencies on other python packages, just pure stdlib
+Author: Samuel DSR
+Author-email: samuel.longshihe@gmail.com
+Requires-Python: >=3.6.0,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

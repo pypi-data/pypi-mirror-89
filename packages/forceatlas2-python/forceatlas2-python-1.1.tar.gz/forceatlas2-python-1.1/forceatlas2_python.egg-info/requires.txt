@@ -1,0 +1,4 @@
+pandas>=0.21
+
+[:python_version < "3.8"]
+importlib_metadata>=0.7

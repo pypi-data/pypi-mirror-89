@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: forceatlas2-python
+Version: 1.1
+Summary: scRNA-Seq analysis tools that scale to millions of cells
+Home-page: https://github.com/klarman-cell-observatory/forceatlas2-python
+Author: Joshua Gould, Yiming Yang, Bo Li
+Author-email: cumulus-support@googlegroups.com
+License: UNKNOWN
+Description: ====================================
+        Force Atlas 2 Python
+        ====================================
+        
+        Pip installable forceatlas2, where source code is at https://github.com/klarman-cell-observatory/forceatlas2.
+        
+Keywords: Force Directed Layout
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: ~=3.5

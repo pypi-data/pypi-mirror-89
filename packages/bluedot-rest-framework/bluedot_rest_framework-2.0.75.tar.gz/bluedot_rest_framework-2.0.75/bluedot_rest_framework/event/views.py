@@ -1,0 +1,31 @@
+
+from datetime import datetime
+from rest_framework.decorators import action
+from rest_framework.response import Response
+from bluedot_rest_framework import import_string
+from bluedot_rest_framework.utils.viewsets import CustomModelViewSet, AllView
+from bluedot_rest_framework.utils.jwt_token import jwt_get_userid_handler
+from bluedot_rest_framework.utils.func import get_tree
+from bluedot_rest_framework.utils.area import area
+from .live.views import LiveView
+from .frontend_views import FrontendView
+from .filter import EventFilter
+from rest_framework import filters
+from django_filters.rest_framework.backends import DjangoFilterBackend
+
+Event = import_string('EVENT.models')
+EventSerializer = import_string('EVENT.serializers')
+EventRegister = import_string('EVENT.register.models')
+
+
+class EventView(CustomModelViewSet, FrontendView, LiveView, AllView):
+    model_class = Event
+    serializer_class = EventSerializer
+    filterset_class = EventFilter
+    filter_backends = [
+        DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+    ordering_fields = '__all__'
+
+    @ action(detail=False, methods=['get'], url_path='area', url_name='area')
+    def area(self, request, *args, **kwargs):
+        return Response(area)

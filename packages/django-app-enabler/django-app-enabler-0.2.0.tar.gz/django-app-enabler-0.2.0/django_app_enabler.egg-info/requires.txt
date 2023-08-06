@@ -1,0 +1,5 @@
+astor
+click
+
+[docs]
+django<3.1

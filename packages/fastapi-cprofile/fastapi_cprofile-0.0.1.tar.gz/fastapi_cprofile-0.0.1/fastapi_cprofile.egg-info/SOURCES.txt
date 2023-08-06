@@ -1,0 +1,11 @@
+README.md
+setup.py
+fastapi_cprofile/__init__.py
+fastapi_cprofile/_version.py
+fastapi_cprofile/profiler.py
+fastapi_cprofile.egg-info/PKG-INFO
+fastapi_cprofile.egg-info/SOURCES.txt
+fastapi_cprofile.egg-info/dependency_links.txt
+fastapi_cprofile.egg-info/not-zip-safe
+fastapi_cprofile.egg-info/requires.txt
+fastapi_cprofile.egg-info/top_level.txt

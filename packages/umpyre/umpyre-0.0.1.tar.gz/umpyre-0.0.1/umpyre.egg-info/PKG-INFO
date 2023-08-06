@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: umpyre
+Version: 0.0.1
+Summary: System utils in python
+Home-page: https://github.com/thorwhalen/ut/tree/master/umpyre
+Author: Thor Whalen
+License: mit
+Description: 
+        # umpyre
+        System utils in python
+        
+        
+        To install:	```pip install umpyre```
+        
+Platform: any
+Description-Content-Type: text/markdown

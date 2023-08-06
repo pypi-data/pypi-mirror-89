@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+petit_mail/__init__.py
+petit_mail/data_struct.py
+petit_mail/render_functions.py
+petit_mail/server.py
+petit_mail/utils.py
+petit_mail.egg-info/PKG-INFO
+petit_mail.egg-info/SOURCES.txt
+petit_mail.egg-info/dependency_links.txt
+petit_mail.egg-info/requires.txt
+petit_mail.egg-info/top_level.txt
+test/test_serv.py
+test/test_serv_docker.py

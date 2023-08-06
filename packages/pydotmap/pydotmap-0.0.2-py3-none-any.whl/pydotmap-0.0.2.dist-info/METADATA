@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydotmap
+Version: 0.0.2
+Summary: Dot notation python dicationary
+Home-page: https://github.com/iamatulsingh/pydotmap
+Author: Atul Kumar Singh
+Author-email: atulsingh0401@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This package is just a wrapper to python standard library `dict`. It will allow you to use python dict or dictionary as dot notation just like javascript object. You can find the source code here https://github.com/iamatulsingh/pydotmap/
+
+

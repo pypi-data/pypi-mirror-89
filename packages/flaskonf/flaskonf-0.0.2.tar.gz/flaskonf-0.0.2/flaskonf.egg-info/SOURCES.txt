@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+flaskonf/__init__.py
+flaskonf/_nbdev.py
+flaskonf/api.py
+flaskonf.egg-info/PKG-INFO
+flaskonf.egg-info/SOURCES.txt
+flaskonf.egg-info/dependency_links.txt
+flaskonf.egg-info/entry_points.txt
+flaskonf.egg-info/not-zip-safe
+flaskonf.egg-info/top_level.txt
+flaskonf/static/css/bootstrap.css
+flaskonf/static/js/bootstrap.min.js
+flaskonf/static/js/bootstrap.min.js.map
+flaskonf/static/js/jquery.min.js
+flaskonf/templates/get_page.html

@@ -1,0 +1,9 @@
+zabbix_import-1.0.0.data/data/LICENSE,sha256=bC_qvxsWcFC1Q_Hvr6ylMQrIo5WAcIFpurTAe3C2tPA,449
+zabbix_import-1.0.0.data/data/README.md,sha256=1ssMHc5CWkTWuvnrXdCEKlptjmFd9sO1JLbv3BrcKis,1855
+zabbix_import-1.0.0.data/data/VERSION,sha256=WYVJhIUxBN9cNT4vaBoV_HkkdC-aLkaMKa8kjc5FzgM,6
+zabbix_import-1.0.0.data/scripts/zbx-import.py,sha256=wQBMuWiAFQPwHSnRiHNBbKqrcx7UsOgreqIjEqWA65s,10191
+zabbix_import-1.0.0.dist-info/LICENSE,sha256=bC_qvxsWcFC1Q_Hvr6ylMQrIo5WAcIFpurTAe3C2tPA,449
+zabbix_import-1.0.0.dist-info/METADATA,sha256=-RePXJOFxPz2R1lUMx85geuA2aCmFL3QTtTAF_DEQP0,2255
+zabbix_import-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zabbix_import-1.0.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+zabbix_import-1.0.0.dist-info/RECORD,,

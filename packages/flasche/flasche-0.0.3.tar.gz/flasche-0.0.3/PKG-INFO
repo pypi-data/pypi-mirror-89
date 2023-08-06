@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: flasche
+Version: 0.0.3
+Summary: flasche extends flask by prometheus-flask-exporter and swagger
+Home-page: https://github.com/deepshore/flasche
+Author: deepshore
+Author-email: github@deephore.de
+License: UNKNOWN
+Description: # flasche
+        
+        flasche extends flask by a prometheus exporter and a swaggerUI
+        
+        ## Install flasche
+        
+        Install the latest version of flasche like this:
+        
+        ```bash
+        pip install flasche
+        ```
+        
+        ## Build a flasche project
+        
+        Create a project folder with a basic setup like this:
+        
+        ```bash
+        flasche build <project>
+        ```
+        
+        ## Running the app
+        
+        Running the app in a development server is done by:
+        
+        ```bash
+        flasche run <project>
+        ```
+            
+Keywords: flask,web
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown

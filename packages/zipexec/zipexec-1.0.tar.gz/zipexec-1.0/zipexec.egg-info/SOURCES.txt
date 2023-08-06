@@ -1,0 +1,8 @@
+README.md
+setup.py
+zipexec/__main__.py
+zipexec.egg-info/PKG-INFO
+zipexec.egg-info/SOURCES.txt
+zipexec.egg-info/dependency_links.txt
+zipexec.egg-info/entry_points.txt
+zipexec.egg-info/top_level.txt

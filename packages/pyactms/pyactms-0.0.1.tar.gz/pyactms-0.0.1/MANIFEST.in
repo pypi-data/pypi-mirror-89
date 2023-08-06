@@ -1,0 +1,8 @@
+include *.md
+exclude *.png
+exclude .DS_Store
+exclude .gitignore
+exclude .travis.yml
+recursive-include example *.lisp
+recursive-include example *.py
+recursive-include tests *.py

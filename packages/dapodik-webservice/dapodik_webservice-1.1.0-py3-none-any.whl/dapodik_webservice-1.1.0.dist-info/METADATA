@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dapodik-webservice
+Version: 1.1.0
+Summary: SDK Python Web Service aplikasi Dapodik
+Home-page: https://github.com/dapodix/dapodik-webservice
+Author: hexatester
+Author-email: UNKNOWN
+License: GPLv3
+Keywords: dapodik dapodik-webservice kemdikbud
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python
+Requires-Dist: requests
+Requires-Dist: dacite
+
+UNKNOWN
+
+

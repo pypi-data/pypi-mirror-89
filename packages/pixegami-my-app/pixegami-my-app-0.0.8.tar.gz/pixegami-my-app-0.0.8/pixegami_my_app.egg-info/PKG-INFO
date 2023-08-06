@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pixegami-my-app
+Version: 0.0.8
+Summary: A template Python CLI app.
+Home-page: https://github.com/pixegami/python-cli-template
+Author: Pixegami
+Author-email: pixegami@gmail.com
+License: UNKNOWN
+Description: # python-cli-template
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

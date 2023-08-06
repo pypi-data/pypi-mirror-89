@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pwd-gen
+Version: 0.0.1
+Summary: simple password generator
+Home-page: https://github.com/B00bleaTea/pwd_gen
+Author: B00bleTeA
+Author-email: asnojus039@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# simple password generator
+> pwd_gen.generate(length)
+**generate a password with a given length**
+
+> pwd_gen.encrypt(pwd)
+**encrypts and returns a given password**
+
+> pwd_gen.inpm()
+**it usedto be the input, but now it's kinda useless**
+
+> pwd_gen.tst()
+**if pwd_gen.inpm() is used - use this to test it**
+
+> pwd_gen.pause()
+**pauses the programme**
+
+####made by b00bleTeA on github.com
+
+

@@ -1,0 +1,14 @@
+README.rst
+setup.py
+pjc.egg-info/PKG-INFO
+pjc.egg-info/SOURCES.txt
+pjc.egg-info/dependency_links.txt
+pjc.egg-info/entry_points.txt
+pjc.egg-info/top_level.txt
+projectcreator/__init__.py
+projectcreator/__main__.py
+projectcreator/config.py
+projectcreator/create_config.py
+projectcreator/create_project.py
+projectcreator/list_projects.py
+projectcreator/remove_config.py

@@ -1,0 +1,11 @@
+safelock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safelock/safelock.asc,sha256=P069YW6ap1ljk8BPH7a8CW0TYm_Le6-xZvAD4SiGEcA,862
+safelock/safelock.py,sha256=lf5R_dHiLKgqJBL5JgaHpIKP2jfMYWepCisq5EJdQOQ,7302
+safelock/safelock.service,sha256=SWIrzF2RIlYzRaCKcPo_qwWo6g0WxWKHj1KlV8q9fsU,333
+safelock/version.py,sha256=mj8AR2BlLKrQul0h-DB_yukCCVL1wjjNejNhmseuJ8U,138
+safelock-1.2.6.data/scripts/safelock,sha256=DvvRq4n0wN5X_isLKeuCsSghAwigHj65buHCrSEewG0,7138
+safelock-1.2.6.dist-info/LICENSE,sha256=6_OWVQkCohoFCMihB3HyqyftoPj0JjrfDoOeyRjP66M,1052
+safelock-1.2.6.dist-info/METADATA,sha256=lhDtO03F1g7uv2NEJm2Sl69cWsPoT2hi3TJuKPzkee8,1715
+safelock-1.2.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+safelock-1.2.6.dist-info/top_level.txt,sha256=iSauJZpoLrIHGUbry1lE7mawsJUBeN8HgMLV2dHcqKs,9
+safelock-1.2.6.dist-info/RECORD,,

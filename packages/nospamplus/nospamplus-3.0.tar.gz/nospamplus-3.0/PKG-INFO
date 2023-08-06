@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nospamplus
+Version: 3.0
+Summary: A Python Wrapper For Nospamplus Api
+Home-page: http://nospamplus.tk
+Author: Leo
+Author-email: dev@nospamplus.tk
+License: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Description: # NoSpam+
+        
+        An Python Wrapper For NoSpamPlus Api.
+        
+        # Support
+        
+        * Channel : @NospamPlus
+        * Group : @NospamPlusSupport
+        * Bot : @NospamPlusBot
+        * Website : nospamplus.tk
+        
+        # Usage Example
+        
+        ```python
+        from nospamplus.connect import Connect
+        mytoken = 'your_token_from_@nospamplusbot'
+        token_connect = Connect(mytoken)
+        user = token_connect.is_banned(12974624)
+        print(user.ban_code)
+        print(user.reason) 
+        ```
+        
+        # Installing
+        ```shell script
+        pip install nospamplus
+        ```
+        or 
+        ```shell script
+        pip3 install nospamplus
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+Change Log
+--------------------
+
+0.0.4 (12/27/2020)
+
+-> Added a new feature where it checks if the input or variable is a string and prints out an error.

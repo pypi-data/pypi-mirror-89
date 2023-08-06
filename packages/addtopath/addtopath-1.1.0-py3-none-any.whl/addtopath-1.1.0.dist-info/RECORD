@@ -1,0 +1,9 @@
+addtopath/__init__.py,sha256=iL4ojTFsxuBkbQKcS6n94golNCzA92GE6Ta-6YHOuzM,1223
+addtopath/__main__.py,sha256=rIlM2xQRraEEy_3ek5G9Egnva4cFBY6YRhlSaxWPHYU,1287
+addtopath/entrypoint.py,sha256=DNELWKIUUOGBQvuzLsssYLtu-0_WiAORCojPvARDMJw,3694
+addtopath-1.1.0.dist-info/LICENSE,sha256=DrSpz_bdxXgnv01R33Ya4_2gTO09qOMNl3qAVbT1RJM,1097
+addtopath-1.1.0.dist-info/METADATA,sha256=SgDvNzB4nWoPnb-GZlpbJzzMGcTiPgzdrLKweNuKM48,2050
+addtopath-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+addtopath-1.1.0.dist-info/entry_points.txt,sha256=F6MlYZrjL8UORckeEjqR29GTBv0BxsW_V0JBsJ3LyxM,45
+addtopath-1.1.0.dist-info/top_level.txt,sha256=iUeRbRObRvuP1Ix_kCZI1UJeUDemRgVojiKPVV3u6V8,10
+addtopath-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,122 @@
+active_locators:
+  - mode: ''
+    value: ''
+    index: 0
+    uses: 0
+inactive_locators:
+  - mode: ''
+    value: ''
+    index: 0
+    uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: first_name
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: first_name
+        index: 0
+        uses: -1
+      - mode: name
+        value: first-name
+        index: 0
+        uses: -1
+      - mode: id
+        value: edit-submitted-info-first
+        index: 0
+        uses: 1
+      - mode: id
+        value: first-name
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[aria-label="First Name"]'
+        index: 0
+        uses: 0
+  - verb: fill
+    name: last_name
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: last_name
+        index: 0
+        uses: -1
+      - mode: name
+        value: last-name
+        index: 0
+        uses: -1
+      - mode: id
+        value: edit-submitted-info-last
+        index: 0
+        uses: 1
+      - mode: id
+        value: last-name
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[aria-label="Last Name"]'
+        index: 0
+        uses: 0
+  - verb: fill
+    name: email
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: email
+        index: 0
+        uses: -1
+      - mode: name
+        value: email
+        index: 0
+        uses: -1
+      - mode: id
+        value: edit-submitted-info-email
+        index: 0
+        uses: 1
+      - mode: id
+        value: email
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[aria-label="Email"]'
+        index: 0
+        uses: 0
+  - verb: click
+    name: subscribe
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Subscribe
+        index: 0
+        uses: 0
+      - mode: text
+        value: Subscribe
+        index: 0
+        uses: 0
+      - mode: css
+        value: '[value="Subscribe"]'
+        index: 0
+        uses: 0
+      - mode: name
+        value: op
+        index: 0
+        uses: 0

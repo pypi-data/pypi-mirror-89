@@ -1,0 +1,1 @@
+attrs==20.3.0chaospy==4.2.1codetiming==1.2.0jsonschema==3.2.0numpy==1.19.4pandas==1.1.4petab==0.1.12pyparsing==2.4.7python-copasi==4.29.227python-dateutil==2.8.1PyYAML==5.3.1sympy==1.6.2

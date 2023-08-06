@@ -1,0 +1,3 @@
+[console_scripts]
+pytorchseg_predict = segmentation.scripts.predict:main
+

@@ -1,0 +1,14 @@
+pywin32
+pytest
+pytest-cov
+pytest-sugar
+pytest-html
+pytest-ordering
+pytest-rerunfailures
+pytest-xdist
+pytest-instafail
+selenium
+jmespath
+requests
+pyyaml
+Appium-Python-Client

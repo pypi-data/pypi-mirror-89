@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lineaug
+Version: 0.1
+Summary: Augment line images for improving OCR datasets 
+Home-page: https://github.com/maxnth/lineaug
+Author: Maximilian Nöth
+Author-email: maximilian.noeth@protonmail.com
+License: MIT License
+Description: # LineAug
+        Augment line images for improving OCR datasets 
+        
+        ## CLI
+        ```
+        usage: augment.py [-h] -i [IMAGES [IMAGES ...]] [-o OUTPUT] [-gt GROUND_TRUTH] [-n N] [-bg] [-e]
+        
+        Augment OCR in the form of line images.
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -i [IMAGES [IMAGES ...]], --images [IMAGES [IMAGES ...]]
+                                Path to line image(s).
+          -o OUTPUT, --output OUTPUT
+                                Output path where augmented images will be saved.
+          -gt GROUND_TRUTH, --ground_truth GROUND_TRUTH
+                                Extension of the ground truth text files. Will create new ground truth files for the augmented line images containing the existing ground truth for the associated
+                                line (optional).
+          -n N                  Number of augmented line image variants to create for each input.
+          -bg, --background     Whether to add noise to the background of the line image.
+          -e, --enumerate       Enumerate output file names instead of using input file names.
+        ```
+        
+Keywords: Augmentation,OCR,optical character recognition
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

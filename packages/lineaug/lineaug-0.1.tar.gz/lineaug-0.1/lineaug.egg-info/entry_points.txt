@@ -1,0 +1,3 @@
+[console_scripts]
+lineaug-augment = lineaug.scripts.augment:main
+

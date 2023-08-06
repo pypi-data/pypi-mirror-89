@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+lineaug/__init__.py
+lineaug.egg-info/PKG-INFO
+lineaug.egg-info/SOURCES.txt
+lineaug.egg-info/dependency_links.txt
+lineaug.egg-info/entry_points.txt
+lineaug.egg-info/requires.txt
+lineaug.egg-info/top_level.txt
+lineaug/libs/__init__.py
+lineaug/libs/ocrodeg.py
+lineaug/scripts/__init__.py
+lineaug/scripts/augment.py
+lineaug/src/Augmentation.py
+lineaug/src/__init__.py
+lineaug/src/utils.py

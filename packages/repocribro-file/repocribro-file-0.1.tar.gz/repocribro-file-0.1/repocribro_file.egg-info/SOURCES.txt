@@ -1,0 +1,15 @@
+README.rst
+setup.py
+repocribro_file/__init__.py
+repocribro_file/ext_file.py
+repocribro_file/models.py
+repocribro_file.egg-info/PKG-INFO
+repocribro_file.egg-info/SOURCES.txt
+repocribro_file.egg-info/dependency_links.txt
+repocribro_file.egg-info/entry_points.txt
+repocribro_file.egg-info/not-zip-safe
+repocribro_file.egg-info/requires.txt
+repocribro_file.egg-info/top_level.txt
+repocribro_file/controllers/__init__.py
+repocribro_file/controllers/admin.py
+repocribro_file/templates/core/repo/files_tab.html

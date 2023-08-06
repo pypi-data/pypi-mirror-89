@@ -1,0 +1,3 @@
+[repocribro.ext]
+repocribro-file = repocribro_file:make_extension
+

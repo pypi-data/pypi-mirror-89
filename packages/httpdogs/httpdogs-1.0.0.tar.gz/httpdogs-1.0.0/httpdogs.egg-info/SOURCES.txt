@@ -1,0 +1,7 @@
+README.md
+setup.py
+httpdogs/__init__.py
+httpdogs.egg-info/PKG-INFO
+httpdogs.egg-info/SOURCES.txt
+httpdogs.egg-info/dependency_links.txt
+httpdogs.egg-info/top_level.txt

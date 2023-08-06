@@ -1,0 +1,9 @@
+paintedlife/__init__.py,sha256=8oUmWNnVR669Dhtb4GApw95tSz36-EEtxYf14Btv7W8,63
+paintedlife/game_of_life.py,sha256=Wp8GUsiaJ4revM8ECruPem90DLw0vhJrTIO-3a2t6Ys,9292
+paintedlife/pattern_generator.py,sha256=-kRoEUw_4JZdht-YtW_aXxpHjunpNjBVQNW2aNW0hKo,1444
+paintedlife/patterns.py,sha256=QYPjuJy5vmEY-Ca1n4Xhoc8x1FqYd6-ZLlpx1pdAcq4,43
+paintedlife-0.0.3.dist-info/LICENSE.txt,sha256=Ia9HVZOCOcUUXfjxq2n1SIJ-3Qo69T8i0-a7fjScEN8,1462
+paintedlife-0.0.3.dist-info/METADATA,sha256=Wnk5NCECLlQsi4cbTi4c8tXK8KrJ7u4_VL2yB8Daqco,561
+paintedlife-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+paintedlife-0.0.3.dist-info/top_level.txt,sha256=dcBdVe7Xk8ZU_Gm8XW0hamvaGu8g2TKD0-KcrFB_EVQ,12
+paintedlife-0.0.3.dist-info/RECORD,,

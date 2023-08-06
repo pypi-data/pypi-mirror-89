@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "baluchon"
+version = "0.0.1"
+description = "A tool for managing migrations in Clickhouse"
+authors = ["Alain BERRIER <alain.berrier@outlook.com>"]
+maintainers = ["Alain BERRIER <alain.berrier@outlook.com>"]
+readme = "README.md"
+homepage = "https://gitlab.com/aberrier/baluchon"
+repository = "https://gitlab.com/aberrier/baluchon"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    'Intended Audience :: Developers',
+    'Intended Audience :: Information Technology',
+    "Framework :: Django",
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: Implementation :: PyPy',
+    'Topic :: Database',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Application Frameworks',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+packages = [
+    { include = "baluchon"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+clickhouse-driver = "==0.1.4"
+clickhouse-cityhash= "==1.0.2.3"
+lz4 = "==3.1.0"
+cerberus = "==1.3.2"
+pendulum = "==2.1.2"
+Jinja2 = "==2.11.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "*", allow-prereleases = true}
+ipdb = "*"
+ipython = "*"
+environs = "8.0.0"
+pytest = "~6.0.1"
+pytest-black = "~0.3.10"
+pytest-cov = "~2.10.0"
+pytest-env = "~0.6.2"
+pytest-socket = "~0.3.5"
+pytest-sugar = "~0.9.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

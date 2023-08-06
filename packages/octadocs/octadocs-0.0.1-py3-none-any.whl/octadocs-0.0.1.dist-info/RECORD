@@ -1,0 +1,12 @@
+octadocs/__init__.py,sha256=RGZqiXrjVFrTz4vuyANF4nFI2-xuBbUZ35dyP1UNXNQ,82
+octadocs/conversions.py,sha256=eWmzxQHrJQI3q2O1wEwC_QPoA9b5llxfWqpXeKm3fKs,669
+octadocs/environment.py,sha256=8EwsujTSjpXFI5hu2Ec42CHe54rdHxhWt7cTA7iyI-A,1959
+octadocs/macros.py,sha256=PDkWsyB64ZzxSaLlzk6FdKUDsTd_C447esqGY6FzFU0,4369
+octadocs/navigation.py,sha256=-wnO0JEqMlULtScrUqBFbCR1Lcj8oaLzFdNv0mrdo5A,2823
+octadocs/plugin.py,sha256=Im-rHkHq70m6TL162zP6rvj9oW2G8takPFUVLx31tHc,8928
+octadocs/settings.py,sha256=Z06FK042EsMwWk-EzbRyZ3QkBeScFHdM_WRiVTtRhv8,28
+octadocs-0.0.1.dist-info/entry_points.txt,sha256=KYyoc8oW05vou6bKn53nxVe1_DAQazwtxbg83ZAlOC0,51
+octadocs-0.0.1.dist-info/LICENSE,sha256=S_IOBKpzT9L7_3IuKguXo3r09jSd7nNuMDbGWqfsHsY,1103
+octadocs-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+octadocs-0.0.1.dist-info/METADATA,sha256=NsZIuCvh57Hh1H3_Sj5VZxn05HMbO5rnI_EbxH863Ic,2661
+octadocs-0.0.1.dist-info/RECORD,,

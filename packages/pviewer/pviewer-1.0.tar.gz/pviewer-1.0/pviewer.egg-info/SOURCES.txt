@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+policies/EC2ReadOnlyAccess
+policies/IAMFullAccess
+policies/RDSReadOnlyAccess
+pviewer/__init__.py
+pviewer/__main__.py
+pviewer.egg-info/PKG-INFO
+pviewer.egg-info/SOURCES.txt
+pviewer.egg-info/dependency_links.txt
+pviewer.egg-info/entry_points.txt
+pviewer.egg-info/requires.txt
+pviewer.egg-info/top_level.txt
+test/test_policies.py

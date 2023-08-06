@@ -1,0 +1,13 @@
+README.md
+setup.py
+ReminderManager/__init__.py
+ReminderManager/test.py
+ReminderManager/ReminderController/ReminderCategorizer.py
+ReminderManager/ReminderController/ReminderManagerService.py
+ReminderManager/ReminderController/ReminderOccurrence.py
+ReminderManager/ReminderNotifier/ReminderNotifier.py
+ReminderManager/reminderlib.egg-info/PKG-INFO
+ReminderManager/reminderlib.egg-info/SOURCES.txt
+ReminderManager/reminderlib.egg-info/dependency_links.txt
+ReminderManager/reminderlib.egg-info/requires.txt
+ReminderManager/reminderlib.egg-info/top_level.txt

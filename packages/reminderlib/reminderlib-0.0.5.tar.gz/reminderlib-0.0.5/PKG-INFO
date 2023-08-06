@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: reminderlib
+Version: 0.0.5
+Summary: Sample reminder library for AWS dynamodb
+Home-page: UNKNOWN
+Author: Jayashathiskumar Jayakumar
+Author-email: x20154810@student.ncirl.ie
+License: UNKNOWN
+Description: ### Sample Reminder Library
+        
+        ## Test the package
+        
+        1. run 'python setup.py bdist_wheel'
+        2. run 'install - pip3 install -e .'
+        
+        ## Scripts to upload library
+        
+        1. Install twine - pip3 install setuptools twine
+        2. Create a package - 'python setup.py bdist_wheel sdist'
+        3. Upload - twine upload --repository-url https://upload.pypi.org/legacy/ dist/*   
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

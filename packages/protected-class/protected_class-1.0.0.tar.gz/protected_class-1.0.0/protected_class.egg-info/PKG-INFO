@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: protected-class
+Version: 1.0.0
+Summary: Protect class attributes in any python object instance
+Home-page: https://github.com/sundarnagarajan/python_protected_class
+Author: Sundar Nagarajan
+Author-email: sun.nagarajan@gmail.com
+License: BSD
+Description: README.md
+Keywords: private private_attributes frozen immutable freeze frozen_object immutable_object freeze_object
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown

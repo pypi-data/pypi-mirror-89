@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pillepy
+Version: 0.0.1
+Summary: Useful functions for data manipulation.
+Home-page: UNKNOWN
+Author: Philipp Gugenhan
+Author-email: p.gugenhan@gmail.com
+License: MIT
+Description: Hey fellas, this is my collection of useful functions for data manipulation.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (18/12/2020)
+        -------------------
+        - First Release
+Keywords: data
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

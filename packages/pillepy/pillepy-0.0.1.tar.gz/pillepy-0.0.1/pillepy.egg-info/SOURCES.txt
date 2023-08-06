@@ -1,0 +1,7 @@
+MANIFEST.in
+README.txt
+setup.py
+pillepy.egg-info/PKG-INFO
+pillepy.egg-info/SOURCES.txt
+pillepy.egg-info/dependency_links.txt
+pillepy.egg-info/top_level.txt

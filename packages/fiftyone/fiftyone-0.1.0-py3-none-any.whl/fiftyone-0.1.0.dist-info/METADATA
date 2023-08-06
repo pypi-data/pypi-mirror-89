@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: fiftyone
+Version: 0.1.0
+Summary: Project FiftyOne
+Home-page: https://github.com/voxel51/fiftyone
+Author: Voxel51, Inc.
+Author-email: info@voxel51.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Requires-Dist: argcomplete
+Requires-Dist: eventlet
+Requires-Dist: Flask
+Requires-Dist: flask-socketio
+Requires-Dist: future
+Requires-Dist: gunicorn
+Requires-Dist: mongoengine
+Requires-Dist: numpy
+Requires-Dist: Pillow (<7,>=6.2)
+Requires-Dist: pymongo
+Requires-Dist: retrying
+Requires-Dist: setuptools
+Requires-Dist: tabulate
+Requires-Dist: fiftyone-brain
+Requires-Dist: fiftyone-db
+Requires-Dist: fiftyone-gui
+Requires-Dist: voxel51-eta
+Requires-Dist: python-engineio[client] (<3.12) ; python_version < "3"
+Requires-Dist: python-socketio[client] (<4.5) ; python_version < "3"
+Requires-Dist: python-engineio[client] ; python_version >= "3"
+Requires-Dist: python-socketio[client] ; python_version >= "3"
+
+UNKNOWN
+
+

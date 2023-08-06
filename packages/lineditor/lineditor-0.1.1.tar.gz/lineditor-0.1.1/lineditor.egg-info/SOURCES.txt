@@ -1,0 +1,8 @@
+README.md
+setup.py
+lineditor/__init__.py
+lineditor/editor.py
+lineditor.egg-info/PKG-INFO
+lineditor.egg-info/SOURCES.txt
+lineditor.egg-info/dependency_links.txt
+lineditor.egg-info/top_level.txt

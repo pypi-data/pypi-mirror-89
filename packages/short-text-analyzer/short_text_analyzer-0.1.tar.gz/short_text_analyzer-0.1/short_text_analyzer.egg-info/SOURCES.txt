@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+short_text_analyzer/__init__.py
+short_text_analyzer/_nbdev.py
+short_text_analyzer/core.py
+short_text_analyzer.egg-info/PKG-INFO
+short_text_analyzer.egg-info/SOURCES.txt
+short_text_analyzer.egg-info/dependency_links.txt
+short_text_analyzer.egg-info/entry_points.txt
+short_text_analyzer.egg-info/not-zip-safe
+short_text_analyzer.egg-info/top_level.txt

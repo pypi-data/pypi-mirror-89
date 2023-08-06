@@ -1,0 +1,14 @@
+LICENSE
+README.md
+doclick_core.py
+doclick_image.py
+setup.py
+Examples/BasicExample/older_script.txt
+Examples/BasicExample/script.txt
+doclick/doclick_core.py
+doclick/doclick_image.py
+doclick.egg-info/PKG-INFO
+doclick.egg-info/SOURCES.txt
+doclick.egg-info/dependency_links.txt
+doclick.egg-info/requires.txt
+doclick.egg-info/top_level.txt

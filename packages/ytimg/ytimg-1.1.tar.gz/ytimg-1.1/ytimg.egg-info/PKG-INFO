@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ytimg
+Version: 1.1
+Summary: Gets thumbail of a Youtube video
+Home-page: https://github.com/Potatochips2001/ytimg
+Author: Potatochips2001
+Author-email: 
+License: UNKNOWN
+Description: # installation
+        pip3 install ytimg
+        
+        # usage
+        ```
+        import ytimg
+        ytimg.get(https://www.youtube.com/watch?v=vmoPjrmrtU4)
+        # returns: https://i.ytimg.com/vi/vmoPjrmrtU4/hqdefault.jpg
+        ```
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

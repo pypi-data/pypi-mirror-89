@@ -1,0 +1,7 @@
+README.md
+setup.py
+ytimg/__init__.py
+ytimg.egg-info/PKG-INFO
+ytimg.egg-info/SOURCES.txt
+ytimg.egg-info/dependency_links.txt
+ytimg.egg-info/top_level.txt

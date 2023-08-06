@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+teamux/teamux.py
+teamux.egg-info/PKG-INFO
+teamux.egg-info/SOURCES.txt
+teamux.egg-info/dependency_links.txt
+teamux.egg-info/top_level.txt

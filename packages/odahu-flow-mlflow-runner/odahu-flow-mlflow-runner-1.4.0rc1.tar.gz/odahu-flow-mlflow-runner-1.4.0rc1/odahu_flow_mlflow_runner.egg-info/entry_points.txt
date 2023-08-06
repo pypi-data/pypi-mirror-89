@@ -1,0 +1,4 @@
+[console_scripts]
+odahu-flow-mlflow-runner = odahuflow.mlflowrunner.runner:main
+odahu-flow-mlflow-wrapper = odahuflow.mlflowrunner.wrapper.wrapper:main
+

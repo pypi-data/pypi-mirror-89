@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+hotwire_django.egg-info/PKG-INFO
+hotwire_django.egg-info/SOURCES.txt
+hotwire_django.egg-info/dependency_links.txt
+hotwire_django.egg-info/requires.txt
+hotwire_django.egg-info/top_level.txt

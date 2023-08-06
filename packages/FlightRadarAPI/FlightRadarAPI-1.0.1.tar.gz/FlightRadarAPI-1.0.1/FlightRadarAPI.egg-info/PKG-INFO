@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: FlightRadarAPI
+Version: 1.0.1
+Summary: API for FlightRadar24
+Home-page: https://github.com/JeanExtreme002/Flightradar24
+Author: Jean Loui Bernard Silva de Jesus
+License: MIT
+Description: # FlightRadarAPI
+        API for [Flight Radar 24](https://www.flightradar24.com/) written in Python 3.
+        
+        # Installing FlightRadarAPI:
+        ```
+        pip3 install FlightRadarAPI
+        ```
+        
+        # How to use it?
+        Just create a `FlightRadar24API` object after importing it.
+        
+        ```
+        from FlightRadar24.api import FlightRadar24API
+        fr_api = FlightRadar24API()
+        ```
+        
+        **Getting airports list:**
+        ```
+        airports = fr_api.get_airports()
+        ```
+        
+        **Getting airlines list:**
+        ```
+        airlines = fr_api.get_airlines()
+        ```
+        
+        **Getting flights list:**
+        ```
+        flights = fr_api.get_flights() # Returns a generator object.
+        ```
+        
+Keywords: flightradar24 api
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

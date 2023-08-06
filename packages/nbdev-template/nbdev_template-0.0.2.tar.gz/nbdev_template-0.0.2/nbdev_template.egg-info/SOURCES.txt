@@ -1,0 +1,11 @@
+README.md
+setup.py
+nbdev_template/__init__.py
+nbdev_template/_nbdev.py
+nbdev_template/core.py
+nbdev_template.egg-info/PKG-INFO
+nbdev_template.egg-info/SOURCES.txt
+nbdev_template.egg-info/dependency_links.txt
+nbdev_template.egg-info/entry_points.txt
+nbdev_template.egg-info/not-zip-safe
+nbdev_template.egg-info/top_level.txt

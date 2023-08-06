@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nitpyck
+Version: 0.0.1
+Summary: Utils for parsing.
+Home-page: https://github.com/thorwhalen/ut/tree/master/nitpyck
+Author: Thor Whalen
+License: mit
+Description: 
+        # nitpyck
+        Utils for parsing.
+        
+        
+        To install:	```pip install nitpyck```
+        
+Platform: any
+Description-Content-Type: text/markdown

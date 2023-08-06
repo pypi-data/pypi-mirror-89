@@ -1,0 +1,13 @@
+lightrdf-0.2.1.dist-info/METADATA,sha256=L6PVuBmZSPAhBvF8BOR87hhueR5kK3QvxvdhyL2i25g,6840
+lightrdf-0.2.1.dist-info/WHEEL,sha256=3LtlYgwfTF_IMQINp2VhR9XqrZvctrUGf0JexPxtjPE,94
+lightrdf/lightrdf.cp36-win_amd64.pyd,sha256=BLn2SfI4M2zwMzz7WrCp6DMw85Z9aoV7rV1P9Voy14I,2182144
+lightrdf/lightrdf.cp37-win_amd64.pyd,sha256=taVKzXdILbqVSDM5-5to-x-c4QM3OJ8v8gnK5FeDKJk,2181120
+lightrdf/lightrdf.cp38-win_amd64.pyd,sha256=kF5xXsQbYWuGLUNhAWkomb_a2sdeHwrmkDOukAP2Q-M,2181120
+lightrdf/lightrdf.cp39-win_amd64.pyd,sha256=yrGdYSW1tOkkJ9oVUmYR-vYJVfuoPMOR3A10m5tHTnA,2181120
+lightrdf/python_module/nt.py,sha256=fsQaMaI8UhAFub_lVZs-yiQNz3eydpNzRWZRypI2jbs,759
+lightrdf/python_module/turtle.py,sha256=BVsg3GUvLO1x71ul_QFiV-wITlQqHhojj0OafRnS5lM,853
+lightrdf/python_module/xml.py,sha256=LbzUHcQo6NDeZIjfrMhOD5zBiJfuG7o4X73sZJSdZW8,835
+lightrdf/python_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightrdf/__init__.py,sha256=U7djg-cGQVz0h3wTIlyK5NDPedt8xLrYohCmJASfZ4k,3572
+lightrdf/lightrdf.cp37-win_amd64.pyd,sha256=IxB7-dAn_XrV1AZkmpe-cSrxidNJjVM2ocAqKpjiZUw,766976
+lightrdf-0.2.1.dist-info/RECORD,,

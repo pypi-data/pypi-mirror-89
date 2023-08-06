@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+RuckusVirtualSmartZoneAPIClient/__init__.py
+RuckusVirtualSmartZoneAPIClient/api_interface.py
+RuckusVirtualSmartZoneAPIClient.egg-info/PKG-INFO
+RuckusVirtualSmartZoneAPIClient.egg-info/SOURCES.txt
+RuckusVirtualSmartZoneAPIClient.egg-info/dependency_links.txt
+RuckusVirtualSmartZoneAPIClient.egg-info/requires.txt
+RuckusVirtualSmartZoneAPIClient.egg-info/top_level.txt
+tests/mytests.py

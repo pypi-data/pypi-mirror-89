@@ -1,0 +1,11 @@
+dact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dact/__main__.py,sha256=c0LozkwE1a3USpIPNJ7MkJ7no8NG0_ihyZSDnuat3F8,1120
+dact/classmodule.py,sha256=mQUE1JcD1ik_pzrc-UO17mQaw7gLLSBakJ5RiQH2HWU,149
+dact/createreact.py,sha256=AUcQNX6jI_TWeA0bd_2WQsBpfx1pyYWq2s5E8XsWZZE,6761
+dact/funcmodule.py,sha256=vpGjqq6R3awqVyyAkS8iRj0EU9H_e0QevK_zFc5onl8,2801
+dact-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+dact-0.1.0.dist-info/METADATA,sha256=sT_57gS440AMJIR6cyxIIALSw40iIfM7oPrjJIHtcAI,909
+dact-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dact-0.1.0.dist-info/entry_points.txt,sha256=2GJ0lQttIonceBFQ9rD-ozptmjYIa1IYGvxrM_75SlU,79
+dact-0.1.0.dist-info/top_level.txt,sha256=HyySjlJea55__HkuoT2rKUyqM18wm8fkYhJ1wydvpvo,5
+dact-0.1.0.dist-info/RECORD,,

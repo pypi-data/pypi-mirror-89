@@ -1,0 +1,6 @@
+setup.py
+redis_client_connect.egg-info/PKG-INFO
+redis_client_connect.egg-info/SOURCES.txt
+redis_client_connect.egg-info/dependency_links.txt
+redis_client_connect.egg-info/requires.txt
+redis_client_connect.egg-info/top_level.txt

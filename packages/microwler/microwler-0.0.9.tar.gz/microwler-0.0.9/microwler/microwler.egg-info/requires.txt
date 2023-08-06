@@ -1,0 +1,4 @@
+aiohttp
+lxml
+prettytable
+random-user-agent

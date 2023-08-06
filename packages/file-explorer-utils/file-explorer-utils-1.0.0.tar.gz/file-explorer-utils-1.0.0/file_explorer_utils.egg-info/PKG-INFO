@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: file-explorer-utils
+Version: 1.0.0
+Summary: Useful functions for file explorer
+Home-page: https://github.com/Tlalocan/file-explorer-utils
+Author: Tlalocan
+License: MIT
+Description: # file_explorer_utils
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+setup.py
+symcollab/xor/__init__.py
+symcollab/xor/ac.py
+symcollab/xor/structure.py
+symcollab/xor/xor.py
+symcollab/xor/xorhelper.py
+symcollab_xor.egg-info/PKG-INFO
+symcollab_xor.egg-info/SOURCES.txt
+symcollab_xor.egg-info/dependency_links.txt
+symcollab_xor.egg-info/requires.txt
+symcollab_xor.egg-info/top_level.txt

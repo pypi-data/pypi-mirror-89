@@ -1,0 +1,11 @@
+extensions/ublock-origin.crx,sha256=HzrFdp8_IudRRdY8QMNTXeofUEco1xgIAD4v00HmSV0,2790849
+persine/__init__.py,sha256=vNEfTOAZFsJ_uVyncZCUqdhycBfcO2qn41OuO5pCdR0,133
+persine/bridges/__init__.py,sha256=IVmsQ-b0us1HXK0wrETwuRbl5fVfhigOWZH_YYJdjrg,64
+persine/bridges/youtube.py,sha256=zzPqrnMNel5STfXxT-ikCP19Jr5eL96AQHrnfTdh7wY,11843
+persine/persona.py,sha256=q2jXdRqVtjcpZtyiUCJl9xwGRB2WdcRLSWnvo42tTGo,3911
+persine/persona_engine.py,sha256=o0DveDLGkdJUsB2adDlA8JGnKlTKtvQzhrRGjpL-X2Q,6144
+persine/utils.py,sha256=pNjXbVe_Hd9bnMelyEhzGWRwsAASx-1SaXhTkzLKcpA,994
+persine-0.1.0.dist-info/LICENSE,sha256=JJdUUbWSFhYP2wz_wGVJmkOQpykbv3jyHA62p0HjyHs,1054
+persine-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+persine-0.1.0.dist-info/METADATA,sha256=FMadFaid4AjrwnBVQA_LLtI59mrjM2W0Vh7suBBmU5A,7116
+persine-0.1.0.dist-info/RECORD,,

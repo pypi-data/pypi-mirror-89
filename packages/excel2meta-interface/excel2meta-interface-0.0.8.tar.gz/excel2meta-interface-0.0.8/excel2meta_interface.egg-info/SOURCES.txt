@@ -1,0 +1,7 @@
+README.md
+excel2meta_interface.egg-info/PKG-INFO
+excel2meta_interface.egg-info/SOURCES.txt
+excel2meta_interface.egg-info/dependency_links.txt
+excel2meta_interface.egg-info/requires.txt
+excel2meta_interface.egg-info/top_level.txt
+plugins/__init__.py

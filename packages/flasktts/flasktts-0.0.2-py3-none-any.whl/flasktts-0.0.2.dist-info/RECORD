@@ -1,0 +1,9 @@
+flasktts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flasktts/constants.py,sha256=6cC66nqIw0VK6lICCjxhitVe3rQNx5_ekOP8oY3KSik,40
+flasktts/server.py,sha256=OAL3SXZDrnqLqVCILZtHe2Z37jVQaUyJpPnuXMY3lH4,2106
+flasktts/text_to_speech.py,sha256=RbfZe5Q-EazsEAB77iVnT-3k-xEskCabHZ7RalfdUpI,3436
+flasktts/utils.py,sha256=UBH3Rzeihh7lWpVXYrW-XjwdgHuF5jQZ7JHa6IPR_8U,852
+flasktts-0.0.2.dist-info/METADATA,sha256=foFPgV4-9Q5ToxJGezNI4XvPUEkWBR-_YHrimrnTc6k,840
+flasktts-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flasktts-0.0.2.dist-info/top_level.txt,sha256=Xuzch_yRADQzZ2g6_S0piRKyZ0ulMkifbviSQ4WTQKw,9
+flasktts-0.0.2.dist-info/RECORD,,

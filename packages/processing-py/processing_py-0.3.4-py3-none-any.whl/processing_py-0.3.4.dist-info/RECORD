@@ -1,0 +1,12 @@
+processing_py/__init__.py,sha256=4JCdHF9OknsxsCp4HDyZaLN7c4J3p6dnR20dj3hhuyw,110
+processing_py/app.py,sha256=pvDLQQMITppcsbJl7s28yQ-x0ZMtOOJgENK8hy768Xc,9831
+processing_py/color.py,sha256=BCwlaNoQWXQMCShJr_GawW0QyuLOhAvmSq-ZAqwyRjc,2625
+processing_py/constants.py,sha256=VCvgolWXD5XcodOwIbYp3ZB7D875-dJKQ2UOBG2_VL4,201
+processing_py/i3_jython.py,sha256=xIj6N9VLTscYScLEoSsKAWmVjD1xsTAWXSmMepqi1rM,1007
+processing_py/listener.py,sha256=2YMMCva0U4PsN6nJT8GP48rxqu1FAC36ao_qmURWRRg,506
+processing_py/requirements.py,sha256=t4f1MnAqozgDdprWUhz2spkXCAmdfzsLYyDPnR9ELUc,2303
+processing_py-0.3.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+processing_py-0.3.4.dist-info/METADATA,sha256=4nvdz7XvKFVVLUhJGc-57OyuHdQ5FMIhyWE-BRk1yoo,2472
+processing_py-0.3.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+processing_py-0.3.4.dist-info/top_level.txt,sha256=klEbwuUSbXfNudUFiUXR682DOSZjwH8UKOwnRiFlnak,14
+processing_py-0.3.4.dist-info/RECORD,,

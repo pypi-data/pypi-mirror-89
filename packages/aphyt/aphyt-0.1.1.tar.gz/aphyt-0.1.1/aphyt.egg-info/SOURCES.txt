@@ -1,0 +1,7 @@
+README.md
+setup.py
+aphyt/__init__.py
+aphyt.egg-info/PKG-INFO
+aphyt.egg-info/SOURCES.txt
+aphyt.egg-info/dependency_links.txt
+aphyt.egg-info/top_level.txt

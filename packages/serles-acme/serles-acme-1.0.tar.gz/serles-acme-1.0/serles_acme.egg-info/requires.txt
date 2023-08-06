@@ -1,0 +1,11 @@
+Flask
+Flask-RESTful
+Flask-SQLAlchemy
+requests
+jwcrypto
+cryptography
+dnspython
+requests
+zeep
+docutils
+gunicorn

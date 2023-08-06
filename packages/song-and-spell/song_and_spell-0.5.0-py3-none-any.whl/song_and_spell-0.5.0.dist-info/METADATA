@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: song-and-spell
+Version: 0.5.0
+Summary: A configurable, mutable toddler radio that encourages spelling
+Home-page: https://github.com/cboddy/song-and-spell
+Author: Chris Boddy
+Author-email: chris@boddy.im
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: Jinja2
+Requires-Dist: MarkupSafe
+Requires-Dist: Pygments
+Requires-Dist: Werkzeug
+Requires-Dist: appdirs
+Requires-Dist: backcall
+Requires-Dist: black
+Requires-Dist: click
+Requires-Dist: dataclasses
+Requires-Dist: decorator
+Requires-Dist: evdev
+Requires-Dist: ipython
+Requires-Dist: ipython-genutils
+Requires-Dist: itsdangerous
+Requires-Dist: jedi
+Requires-Dist: mypy-extensions
+Requires-Dist: parso
+Requires-Dist: pathspec
+Requires-Dist: pexpect
+Requires-Dist: pickleshare
+Requires-Dist: prompt-toolkit
+Requires-Dist: ptyprocess
+Requires-Dist: pynput
+Requires-Dist: python-xlib
+Requires-Dist: regex
+Requires-Dist: six
+Requires-Dist: toml
+Requires-Dist: traitlets
+Requires-Dist: typed-ast
+Requires-Dist: typing-extensions
+Requires-Dist: wcwidth
+Requires-Dist: wheel
+Requires-Dist: xdg
+Requires-Dist: youtube-dl
+
+# song-and-spell
+
+### tl;dr
+
+A key-logger that triggers playing an audio track when a sequence of keys are pressed and  a web-app to configure the words and songs.
+
+Requires VLC to be installed on the host.
+
+### todo 
+
+* ~~key-logger~~
+* ~~youtube-dl the link and store as mp3 locally.~~
+* ~~flask-web-app~~
+    * ~~list of words and files/links~~
+    * ~~mute~~
+    * ~~upload file~~
+      * ~~remove word/file~~
+    * ~~form add word/link ~~
+* systemd service to:
+    * run on start-up
+    * restart on error
+* bash script to deploy (ideally to an [rpi-400]https://www.raspberrypi.org/products/raspberry-pi-400/)
+
+### setup
+```
+python3 -m venv
+. bin/venv/activate
+pip3 install -r requirements.txt
+```
+
+

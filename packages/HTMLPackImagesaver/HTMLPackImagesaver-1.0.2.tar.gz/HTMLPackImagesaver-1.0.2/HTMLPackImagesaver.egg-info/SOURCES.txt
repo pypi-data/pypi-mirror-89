@@ -1,0 +1,9 @@
+README.md
+setup.py
+HTMLPackImagesaver/__init__.py
+HTMLPackImagesaver/__main__.py
+HTMLPackImagesaver.egg-info/PKG-INFO
+HTMLPackImagesaver.egg-info/SOURCES.txt
+HTMLPackImagesaver.egg-info/dependency_links.txt
+HTMLPackImagesaver.egg-info/requires.txt
+HTMLPackImagesaver.egg-info/top_level.txt

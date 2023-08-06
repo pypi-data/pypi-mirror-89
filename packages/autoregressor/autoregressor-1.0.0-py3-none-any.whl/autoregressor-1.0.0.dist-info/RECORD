@@ -1,0 +1,8 @@
+autoregressor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoregressor/autoregressor.py,sha256=HGi_v3FS4j_5sZMAvYnbiapF6ZlBvkPF3G6V7C3C6pg,1406
+autoregressor/compute.py,sha256=YTkbCvuA_P-j3KXNDNoMv05jWi6MviE6lX50svIbgMs,2898
+autoregressor-1.0.0.dist-info/LICENSE,sha256=kIMn8RYMkYPaVNXhrjJ5WvjLpTWDwwX0osa011oiL4Y,1088
+autoregressor-1.0.0.dist-info/METADATA,sha256=HhRfRkuw8QleRghGBoeNlbQRBtYoC9up_JjZr9_kpfo,1208
+autoregressor-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autoregressor-1.0.0.dist-info/top_level.txt,sha256=QpaGHlx-H04p1toJs3qYGdyErZ1YKIoDJbF2LzAp-ak,14
+autoregressor-1.0.0.dist-info/RECORD,,

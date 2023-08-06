@@ -1,0 +1,76 @@
+import vxi11
+
+
+class AgilentB596X(vxi11.Instrument):
+    def __init__(self, host):
+        super().__init__(host=host)
+
+        self.channel = None
+        self.mode = None
+
+    def conf(self):
+        if self.channel and self.mode:
+            self.write(":SOUR{}:FUNC:MODE {}".format(self.channel, self.mode))
+
+    def output(self, value):
+        self.conf()
+        if self.channel:
+            self.write(
+                ":OUTP{} {}".format(self.channel, "ON" if value else "OFF")
+            )
+
+    def set_channel(self, channel):
+        self.channel = channel
+        self.write(":SOUR{}:FUNC:SHAP DC".format(self.channel))
+        self.conf()
+
+    def set_mode(self, mode):
+        self.mode = mode
+        self.conf()
+
+    def set_value(self, value):
+        self.write(":SOUR{}:{} {}".format(self.channel, self.mode, value))
+
+
+class KeySight344XX(vxi11.Instrument):
+    def __init__(self, host):
+        super().__init__(host=host)
+
+        self.write("*CLS")
+        self.write("*RST")
+
+        self.write("TRIG:SOUR IMM")
+
+        self.write("CALC:FUNC AVER")
+        self.write("CALC:STAT ON")
+
+        self.ACorDC = None
+        self.mode = None
+
+    def calc_average(self):
+        self.write("*CALC:AVER:AVER")
+        return float(self.read())
+
+    def conf(self):
+        if self.ACorDC and self.mode:
+            self.write("CONF:{}:{}".format(self.mode, self.ACorDC))
+
+    def conf_ACorDC(self, ACorDC):
+        self.ACorDC = ACorDC
+        self.conf()
+
+    def conf_mode(self, mode):
+        self.mode = mode
+        self.conf()
+
+    def count(self, value):
+        self.write("SAMP:COUN {}".format(value))
+
+    def initiate(self):
+        self.write("INIT")
+
+    def opc(self):
+        self.write("*OPC")
+
+    def set_aperture(self, value):
+        self.write("{}:APER {}".format(self.mode, value))

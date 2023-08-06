@@ -1,0 +1,12 @@
+parameters:
+  - loop_instance0.parameter0
+  - loop_instance0.parameter1
+measurements:
+  - loop_instance0.measurement0
+  - parameters:
+      - loop_instance1.parameter2
+      - loop_instance1.parameter3
+    measurements:
+      - loop_instance0.measurement1
+      - loop_instance1.measurement2
+name: first_loop

@@ -1,0 +1,21 @@
+junction_bias:
+  instrument: power_source
+  usage: voltage_source
+  kwargs:
+    host: 192.168.0.0
+  attributes:
+    channel: 1
+junction_current:
+  instrument: multimeter
+  usage: dc_current_meter
+  kwargs:
+    host: 192.168.0.1
+  attributes:
+    channel: 1
+junction_voltage:
+  instrument: multimeter
+  usage: dc_volt_meter
+  kwargs:
+    host: 192.168.0.1
+  attributes:
+    channel: 2

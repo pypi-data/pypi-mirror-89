@@ -1,0 +1,5 @@
+parameters:
+  - loop_instance0.parameter0
+measurements:
+  - loop_instance1.measurement0
+name: first_loop

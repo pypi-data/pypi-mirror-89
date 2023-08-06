@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: vkbottle-sync
+Version: 0.1
+Summary: Sync Version
+Home-page: https://github.com/vkbottle/sync
+License: MIT
+Keywords: vk,vk-api,vkbottle,user-longpoll,longpoll-api,callback,middleware
+Author: timoniq
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Typing :: Typed
+Requires-Dist: GitPython (>=3.1.11,<4.0.0)
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: choicelib (>=0.1.1,<0.2.0)
+Requires-Dist: vbml (>=1.0,<2.0)
+Requires-Dist: vkbottle-types (>=0.1.21,<0.2.0)
+Requires-Dist: watchgod (>=0.6,<0.7)
+Project-URL: Bug Tracker, https://github.com/timoniq/vkbottle/issues
+Project-URL: Repository, https://github.com/vkbottle/sync
+Description-Content-Type: text/markdown
+
+# VKBottle Sync
+
+## Что это?
+
+Все как в [vkbottle](https://github.com/timoniq/vkbottle) но синхронно
+

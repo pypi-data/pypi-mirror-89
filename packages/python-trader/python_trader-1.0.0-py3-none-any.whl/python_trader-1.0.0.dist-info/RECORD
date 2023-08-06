@@ -1,0 +1,10 @@
+python_trader/__init__.py,sha256=tvnWZJe2jzL4sxvPziRth2U0DDE8A1gDVY18G7zs58o,165
+python_trader/csv_parser.py,sha256=h0k0b_MW_PDjD3cBt1ulukJQVCMu7TwqpMj1QapT0C8,1895
+python_trader/df_tools.py,sha256=VhqC56ZgIfluiYAy9sdIztc9MILkh5Q5auj5HD7Tn9E,2176
+python_trader/indicators.py,sha256=8JAtVJazqAFvOWE3nrO2cXb_5zcEjzrbi8aaaEnL7vU,1075
+python_trader/strategy.py,sha256=n91eqczUANYFOHsE4DW1hlWOOtc5BehlSAKl_aKm5f4,4466
+python_trader/trader.py,sha256=GsFtj5xDDV9l4OAPUKGpqbAnR68c_V5mF5HKF6uP3gQ,10474
+python_trader-1.0.0.dist-info/METADATA,sha256=FVV-56DoWXh_Ju-8LLaMqMTXfG6qnYv-DueMUD3xIdQ,550
+python_trader-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+python_trader-1.0.0.dist-info/top_level.txt,sha256=iYpUDJyxu4NAcJDG1cVJFSFfbKB8ItD40TkZL4J3xNs,14
+python_trader-1.0.0.dist-info/RECORD,,

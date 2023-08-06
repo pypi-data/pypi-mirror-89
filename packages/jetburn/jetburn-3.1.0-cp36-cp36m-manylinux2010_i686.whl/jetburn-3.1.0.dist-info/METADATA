@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jetburn
+Version: 3.1.0
+Summary: Airline Ticket Fare Explorer Program.
+Home-page: https://jetburn.rtfd.io
+Author: Dalwar Hossain
+Author-email: dalwar23@pm.me
+License: GNU General Public License v3
+Keywords: jetburn,airline,ticket,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Requires-Dist: pyfiglet (>=0.8.post1)
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: tabulate (>=0.8.7)
+Requires-Dist: datapackage (>=1.13.0)
+Requires-Dist: PyInquirer (>=1.0.3)
+Requires-Dist: Click (>=7.1.1)
+Requires-Dist: PyYAML (>=5.3.1)
+
+UNKNOWN
+
+

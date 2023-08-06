@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: smart-alpha
+Version: 0.0.1
+Summary: Top-level package for Smart Alpha.
+Home-page: https://github.com/amazingvince/smart_alpha
+License: Apache-2.0
+Author: Vincent Haines
+Author-email: amazingvince@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+
+===========
+Smart Alpha
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/smart_alpha.svg
+        :target: https://pypi.python.org/pypi/smart_alpha
+
+.. image:: https://img.shields.io/travis/amazingvince/smart_alpha.svg
+        :target: https://travis-ci.com/amazingvince/smart_alpha
+
+.. image:: https://readthedocs.org/projects/smart-alpha/badge/?version=latest
+        :target: https://smart-alpha.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/amazingvince/smart_alpha/shield.svg
+     :target: https://pyup.io/repos/github/amazingvince/smart_alpha/
+     :alt: Updates
+
+
+
+framework for trading stocks 
+
+
+* Free software: Apache-2.0
+* Documentation: https://smart-alpha.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `briggySmalls/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`briggySmalls/cookiecutter-pypackage`: https://github.com/briggySmalls/cookiecutter-pypackage
+

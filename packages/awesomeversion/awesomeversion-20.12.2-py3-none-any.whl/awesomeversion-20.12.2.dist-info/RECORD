@@ -1,0 +1,10 @@
+awesomeversion/__init__.py,sha256=g6UZgdVnIwF0l_xBOYRwqBFZ-4EniZbJs4IYWxGc1Mc,88
+awesomeversion/awesomeversion.py,sha256=HzrVlAIR0dl-CfQ5flLXaksJztEvL1ZDHbPlFUTShB4,6908
+awesomeversion/exceptions.py,sha256=Ubz3CqeN7kMj2Es3zuu-iYQjgFNOHVYmVPNfcw9F0RU,126
+awesomeversion/match.py,sha256=Yz0tgGDULC6iuuQbX6IsHMlJ7vXiZR_Uch4NNfrGERI,1660
+awesomeversion/strategy.py,sha256=uz5Ql_IqvCHpFUBknAyXzdF0mIUtRBzN9uY6JuG_T1o,611
+awesomeversion-20.12.2.dist-info/LICENCE.md,sha256=mnbxG4c0SVcxibIBvM3T1parflGonIBbTe1pwu77t4Q,1061
+awesomeversion-20.12.2.dist-info/METADATA,sha256=9-CoBSF7TQ_7fYR1ErHzTxbqZGTeINCRho7pUfEoLCY,2919
+awesomeversion-20.12.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awesomeversion-20.12.2.dist-info/top_level.txt,sha256=NIRjBRzG8R9CU66doMo2A8okK3Wy4zSiL6yk_qHJAic,15
+awesomeversion-20.12.2.dist-info/RECORD,,

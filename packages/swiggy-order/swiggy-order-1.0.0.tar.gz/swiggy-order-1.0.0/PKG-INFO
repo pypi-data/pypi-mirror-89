@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swiggy-order
+Version: 1.0.0
+Summary: Order food via terminal.
+License: MIT
+Author: Amresh Venugopal
+Author-email: amresh.venugopal@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: coloredlogs (>=15.0,<16.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)

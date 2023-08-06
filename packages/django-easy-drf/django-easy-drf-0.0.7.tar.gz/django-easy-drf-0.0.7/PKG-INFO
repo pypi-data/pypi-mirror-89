@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-easy-drf
+Version: 0.0.7
+Summary: A package to create boring stuff of django rest framework
+Home-page: https://github.com/pablop94/django-easy-drf
+Author: Pablo Pissi
+Author-email: pablopissi@gmail.com
+License: UNKNOWN
+Description: # django-easy-drf
+        
+        A simple package that makes for you the repetitive work of creating Serializers, ViewSets and urls for django rest framework.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

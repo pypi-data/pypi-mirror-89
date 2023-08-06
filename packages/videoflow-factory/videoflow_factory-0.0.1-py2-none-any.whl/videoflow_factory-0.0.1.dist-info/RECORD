@@ -1,0 +1,9 @@
+videoflow_factory/__init__.py,sha256=w1Q1fOZ2-NXPJH8w3q4cqtbYhWYiuxqb-0bDsQXcbV4,86
+videoflow_factory/flowbuilder.py,sha256=YadXtq7zcQmefDlqHYB_WRIgr2mo9kzlkXa64DibRpU,1737
+videoflow_factory/utils.py,sha256=XhM0GSGH7alfQQiWt9as6cOAbK8e8rNer1MliL1WCGs,696
+videoflow_factory/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+videoflow_factory/videoflow_factory.py,sha256=jgTfmNYDLomHwfiiSVOc7Xt0YSmCJstDl423e9wrgn4,1662
+videoflow_factory-0.0.1.dist-info/METADATA,sha256=mmA8y5HjKQkwHIfYb16kC0AAPuhYJnlS2hn6CaPhhtM,2754
+videoflow_factory-0.0.1.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+videoflow_factory-0.0.1.dist-info/top_level.txt,sha256=zDMcYHoYb-qT1b8BNrfxBwdd5bAqTJQh7owbUfUlpFY,18
+videoflow_factory-0.0.1.dist-info/RECORD,,

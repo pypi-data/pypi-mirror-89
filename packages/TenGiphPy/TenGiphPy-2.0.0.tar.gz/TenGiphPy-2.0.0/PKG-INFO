@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: TenGiphPy
+Version: 2.0.0
+Summary: API Wrapper for the Gif library Tenor and Giphy. Join my server: https://discord.gg/uFdVUMH
+Home-page: https://github.com/realSnosh/TenGiphPy
+Author: Snosh
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/realSnosh/TenGiphPy/archive/2.0.0.tar.gz
+Description: TenGiphPy is a Python wrapper for the Tenor and Giphy API.
+        
+        Installation
+        ===============
+        Clone Repository: ``python3 setup.py install``
+        
+        Install with pip: ``python3 -m pip install TenGiphPy``
+        
+        Update with pip: ``python3 -m pip install -U TenGiphPy``
+        
+        Usage
+        =====
+        **GIF Endpoints**
+        
+        To use:
+        
+        ```python
+        import TenGiphPy
+        t = TenGiphPy.Tenor(token='APITOKEN')
+        g = TenGiphPy.Giphy(token='APITOKEN')
+        print(t.random("GIFTAG"))
+        print(g.random("GIFTAG"))
+        # Will return a random GIF with the tag "GIFTAG"
+        ```
+        
+        [Click here, if you want a sample script for the discord.py library](https://gist.github.com/realSnosh/3eae65975e09e3f60fbeeee393054cf2)
+        
+Keywords: giphy,tenor,python,python3,api,wrapper,alphasnosh,snosh
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

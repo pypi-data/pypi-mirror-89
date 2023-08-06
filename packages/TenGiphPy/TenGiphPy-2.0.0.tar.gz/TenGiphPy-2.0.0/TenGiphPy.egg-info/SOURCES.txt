@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+TenGiphPy/__init__.py
+TenGiphPy.egg-info/PKG-INFO
+TenGiphPy.egg-info/SOURCES.txt
+TenGiphPy.egg-info/dependency_links.txt
+TenGiphPy.egg-info/requires.txt
+TenGiphPy.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+image: nixos/latest
+sources:
+  - https://git.sr.ht/~cyplo/netlify-deployer
+
+secrets:
+  - b7161fff-05f4-4470-b4a1-57bd67dede23
+  - 6b127d6f-e950-462e-a383-3cb6ae0ea60d
+tasks:
+  - github_push: |
+      set +xv
+      cd netlify-deployer
+      GITHUB_TOKEN=`cat ~/.github_token`
+      git remote add github https://cyplo:$GITHUB_TOKEN@github.com/cyplo/netlify_deployer.git
+      git push github master --tags --force
+
+  - pypi_publish: |
+      set +xv
+      cd netlify-deployer
+      nix-shell --pure --run 'python setup.py sdist bdist_wheel'
+      rm -f dist/netlify_deployer-0.0.0*
+      if [ $(git tag --points-at HEAD | wc -m) -ne 0 ]; then  nix-shell -p python38Packages.twine --run 'twine upload dist/*'; fi

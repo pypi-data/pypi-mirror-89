@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SomeRandomAPI
+Version: 0.0.6
+Summary: A wrapper library for some-random-api.
+Home-page: https://bruhdev.com
+Author: BruhDev
+Author-email: mr.bruh.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+With this Python module you can easily use https://some-random-api.ml, this is a wrapper library for it.
+
+Documentation is coming soon.
+

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: SiriusN16CXRseg
+Version: 0.0.1
+Summary: Проект по сегментации легких.
+Home-page: https://github.com/SenpaiBabai/CXRsegmentation
+Author: Sirius_nauka16
+Author-email: dkhasanov76@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: torchvision (==0.8.1)
+Requires-Dist: torch (==1.7.0)
+Requires-Dist: opencv-python (==4.1.2.30)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: imageio (==2.4.1)
+Requires-Dist: albumentations (==0.5.2)
+Requires-Dist: imgaug (==0.4.0)
+Requires-Dist: segmentation-models-pytorch (==0.1.3)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: pathlib (==1.0.1)
+
+# CXRsegmentation
+Проект по сегментации легких сделанный в рамках проектной смены Сириуса 'Большие вызовы'. 
+Программа модуля разработана Центром ИИ Университета Иннополис. 
+### Основная идея
+Распознать легкие и отсегментировать их.
+### Стек технологий:
+Для этого предполагается использование следующий стек технологий:
+* > Linux (Ubuntu)
+* > Python, pip, numpy, PyTorch, Pathlib и т.д.
+* > OpenCV 
+* > Machine learning or Deep learning 
+* > Jupyter lab / Jupyter Notebook
+* > To be added
+
+

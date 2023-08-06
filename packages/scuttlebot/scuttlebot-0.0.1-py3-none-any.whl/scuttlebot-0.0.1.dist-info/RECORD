@@ -1,0 +1,11 @@
+venv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+venv/main.py,sha256=jUClMjVFP6umLcX89Zd3k_DevL3TS6ZN8vqjS86l9_M,1186
+venv/webscraper.py,sha256=seABFL56Ce6_h2La716z6MmHvHpP5QNPof7ORYbjYrI,1201
+venv/Bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+venv/Bot/constants.py,sha256=PDaL7ZQ0ucjxD2g_8x9UyuUOkMiaPGsNwtrhM5CN-zk,1110
+venv/Bot/rune_img.py,sha256=f4mumdNgAnLjVFbslJNs4QwEd36HAcrs2XQTbcExk7o,6813
+venv/Bot/runes.py,sha256=HKpuH7ddfiella2cwE4MXge9WCGghlN5b2lerO3AIUg,23593
+scuttlebot-0.0.1.dist-info/METADATA,sha256=bILPpFs23cbxPZ7Y2RrPbQeNgvOX3E7KN5gGB_VOWR0,562
+scuttlebot-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scuttlebot-0.0.1.dist-info/top_level.txt,sha256=lvD9JFyAVI1PwJjIr8xS8gCefelT_xlceLIVCFF1y6w,5
+scuttlebot-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: scuttlebot
+Version: 0.0.1
+Summary: LoL Discord Bot
+Home-page: https://discord.gg/VMwphqfmQk
+Author: Noah Garrett
+Author-email: nwggaming123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: discord.py
+Requires-Dist: riotwatcher
+Requires-Dist: bs4
+Requires-Dist: lxml
+
+# ScuttleBot
+A league of legends discord bot
+
+

@@ -1,0 +1,4 @@
+include *.txt
+include *.md
+include *.py
+recursive-include dada_text *.py *.mp3 *.mp4 *.txt *.yml *.zip *.tar.gz *.m4a *.csv *.yml *.json *.yaml

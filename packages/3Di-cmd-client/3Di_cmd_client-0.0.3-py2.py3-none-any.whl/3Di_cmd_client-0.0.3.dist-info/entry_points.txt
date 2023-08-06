@@ -1,0 +1,5 @@
+[console_scripts]
+active_simulations = cmd_client.commands.active_simulations:cli
+scenario = cmd_client.commands.run_scenario:cli
+suite = cmd_client.commands.run_suite:run
+

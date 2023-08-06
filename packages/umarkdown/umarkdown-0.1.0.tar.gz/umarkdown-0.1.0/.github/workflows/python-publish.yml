@@ -1,0 +1,64 @@
+name: Upload Python Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  benchmarks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+      - name: Benchmark
+        run: python tests/benchmarks.py
+      - name: Commit benchmark reports
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "test: Update benchmarks"
+          file_pattern: docs/images/*.svg
+          tagging_message: ${GITHUB_REF#refs/tags/}
+          push_options: --force
+      - name: Deploy Docs
+        run: mkdocs gh-deploy
+
+  deploy:
+    needs: benchmarks
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.8", "3.9"]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip twine wheel
+          python setup.py sdist bdist_wheel
+      - name: Upload wheels
+        uses: actions/upload-artifact@v2
+        with:
+          name: wheels
+          path: dist/*.whl
+      - name: Build and publish
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        run: |
+          twine upload --skip-existing dist/*

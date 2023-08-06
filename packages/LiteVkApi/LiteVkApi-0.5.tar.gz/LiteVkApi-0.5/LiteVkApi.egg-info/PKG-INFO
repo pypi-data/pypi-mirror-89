@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: LiteVkApi
+Version: 0.5
+Summary: Библиотека для лекгого написания ботов ВК!
+Home-page: UNKNOWN
+Author-email: ma_mush@mail.ru
+License: UNKNOWN
+Description: 
+        # КРАТКАЯ ДОКУМЕНТАЦИЯ
+        
+        Привет! эта библиотека создана для быстрого написания ботов в ВК. Сейчас я расскажу вам о ней!
+        
+        ну не получается у меня настроить(
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

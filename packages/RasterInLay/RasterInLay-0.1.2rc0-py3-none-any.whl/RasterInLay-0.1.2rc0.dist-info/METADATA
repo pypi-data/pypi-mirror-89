@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: RasterInLay
+Version: 0.1.2rc0
+Summary: Modifies a raster by constraining the distribution within specified areas using data from another raster.
+Home-page: https://rasterinlay.readthedocs.io
+Author: Jonas I. Liechti
+Author-email: j-i-l@t4d.ch
+License: BSD
+Project-URL: Bug Tracker, https://github.com/tools4digits/rasterinlay/issues
+Project-URL: Documentation, https://rasterinlay.readthedocs.io
+Project-URL: Source Code, https://github.com/tools4digits/rasterinlay
+Keywords: raster GIS overlap inlay multi-layer rescaling land-use land-cover
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# RasterInLay
+
+## Installation
+
+

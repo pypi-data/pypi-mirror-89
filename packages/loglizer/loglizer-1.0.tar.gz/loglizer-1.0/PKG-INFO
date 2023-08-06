@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: loglizer
+Version: 1.0
+Summary: 工具来自https://github.com/logpai/loglizer, 根据原作者原意, 请大家用于开源研究, 如需授权请联系原作者, 侵删
+Home-page: https://github.com/logpai/loglizer
+Author: avocador
+Author-email: avocador@163.com
+License: BSD License
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3

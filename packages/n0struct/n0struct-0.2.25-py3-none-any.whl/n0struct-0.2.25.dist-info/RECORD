@@ -1,0 +1,12 @@
+n0struct/__init__.py,sha256=VAQxi-vtQXd_L6N_GTRgnyAluxPGyto1lHDJ__CANkw,120873
+n0struct/xmltodict0121.py,sha256=qMoWiNn1VIuOwYCYtcY_XNjsziK5U0EbWbi7qQ30dxw,20141
+n0struct/test/001.py,sha256=A3JgVIyxUG94arjj9y_dqIGfgNmDT-NZp_G4xWS0j8I,118
+n0struct/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+n0struct/test/__main__.py,sha256=KHrczFdRx6MJskzBI8kpJ5Ce-n9VkdObwP6iksFG-NY,136
+n0struct/test/test_n0struct.py,sha256=aqYcl7Xi7dXwkhoh8i9gwewSD1A7OsOprNFgbV8OhH0,9662
+n0struct/test/test_n0struct2.py,sha256=aqYcl7Xi7dXwkhoh8i9gwewSD1A7OsOprNFgbV8OhH0,9662
+n0struct-0.2.25.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+n0struct-0.2.25.dist-info/METADATA,sha256=wpg3nd4W4Ci4hdC-ueunuWiN953Qprg7zply4tGECC8,764
+n0struct-0.2.25.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+n0struct-0.2.25.dist-info/top_level.txt,sha256=FHz0HprF71egCJO5dNeBsmmay7VbcgT6dXQW9cJx8uA,9
+n0struct-0.2.25.dist-info/RECORD,,

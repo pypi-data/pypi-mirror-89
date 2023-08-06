@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sshcmds
+Version: 0.1.6
+Summary: A package to run ssh commands
+Home-page: https://github.com/colmagi
+Author: James You
+Author-email: jamesyou314@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.1
+Description-Content-Type: text/markdown
+
+# Startup server: vault server -dev
+'''sh
+vault server -dev
+'''
+# set environment: 
+'''sh
+set VAULT_ADDR=http://127.0.0.1:8200
+'''
+# login with token: Root Token: s.UyYcKkBx9Q3kONk050jTU5PH
+'''sh
+vault login
+'''
+# Enable path kv-v1:
+'''sh
+vault secrets enable -path="kv-v1" kv
+'''
+# Create secret key pairing
+'''sh 
+vault kv put kv-v1/<PATH> <KEY>=VALUE>
+'''
+# Read secret
+'''sh
+vault kv get kv-v1/ssh
+'''
+
+

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nines
+Version: 0
+Summary: A tiny library for computing about “nines” and percentiles.
+Home-page: https://gitlab.com/chaotic-evil/reliability/py-nines
+Author: nicoo
+Author-email: nicoo@mur.at
+License: ISC
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+

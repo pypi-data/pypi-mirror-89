@@ -1,0 +1,9 @@
+riscv_assembler/__init__.py,sha256=xd3BK5oHKflLUfrUyRyWuza0o1Y1d2R2rZYT8YPG6Fk,239
+riscv_assembler/convert.py,sha256=kzAU02PWV_0-YyHvaxq-2V0VKrTZQ-PiIE1PpbSsJLA,13819
+riscv_assembler/data/instr_data.dat,sha256=6qwq-3EAPKtF4GxE2gELEq5FtH_ZRbvHN5Gvgql0-sU,1416
+riscv_assembler/data/reg_map.dat,sha256=1u2YZP2RKfsIhcQwVNP1OPePrmJmSfpEuKSqbFVXc38,451
+riscv_assembler-1.0.10.dist-info/LICENSE,sha256=tkTJcfKDbbvGlMebUmg5tcWgSFqKTRl7hbV5OXb0SAI,1068
+riscv_assembler-1.0.10.dist-info/METADATA,sha256=VXgTBqLe6cfGon1Le4jXGWu6rT_5tNYBFx2y-UzySTM,9810
+riscv_assembler-1.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+riscv_assembler-1.0.10.dist-info/top_level.txt,sha256=zCIJRoMkgwnebEDE_YPSAZ-a5MpEGAM0qpyhOM4EBM4,16
+riscv_assembler-1.0.10.dist-info/RECORD,,

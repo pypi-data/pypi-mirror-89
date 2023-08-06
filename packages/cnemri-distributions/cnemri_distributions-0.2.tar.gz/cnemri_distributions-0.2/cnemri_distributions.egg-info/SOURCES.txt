@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cnemri_distributions/Binomialdistribution.py
+cnemri_distributions/Gaussiandistribution.py
+cnemri_distributions/Generaldistribution.py
+cnemri_distributions/__init__.py
+cnemri_distributions.egg-info/PKG-INFO
+cnemri_distributions.egg-info/SOURCES.txt
+cnemri_distributions.egg-info/dependency_links.txt
+cnemri_distributions.egg-info/not-zip-safe
+cnemri_distributions.egg-info/top_level.txt

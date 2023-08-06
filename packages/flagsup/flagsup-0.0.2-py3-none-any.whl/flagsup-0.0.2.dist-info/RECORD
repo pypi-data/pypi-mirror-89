@@ -1,0 +1,10 @@
+flagsup/__init__.py,sha256=v6AKjAXWibe9thV1-5aGYqMT51S0N9H43uJVH6AXzmI,116
+flagsup/cached_client.py,sha256=E6o2fnXizFcITf3s1L2jpt5hEuFgA6W-i3eZZSt6slQ,5185
+flagsup/client.py,sha256=xyRHAXz53fUivE_Nn3EMbhtwphQHzXivR36l0MLtEJY,5406
+flagsup/client_sdk.py,sha256=5qwK9n9Zz_8Xa7702mhrjq3oz-vdrIqdLDDg2XiB9Og,3222
+flagsup/constants.py,sha256=YP-QdNuVySTklqSr77qD4h-Vtt2cHAvp-FnY7pUnQUs,316
+flagsup/utils.py,sha256=DL-Hqq0EEF6VZdEWt7NZnZdNyjpTP_KRvHNd5qAhL74,267
+flagsup-0.0.2.dist-info/METADATA,sha256=j2SssNYjJEB9pEwRvJjfAXd_IKHBh5EUtrvea0UjjwE,3230
+flagsup-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flagsup-0.0.2.dist-info/top_level.txt,sha256=R9rgZnBv-qD0M4YVD8TY7L2Eh6iSZPal3X74lS4oNis,8
+flagsup-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+README.md
+setup.py
+mongo_bulk/__init__.py
+mongo_bulk.egg-info/PKG-INFO
+mongo_bulk.egg-info/SOURCES.txt
+mongo_bulk.egg-info/dependency_links.txt
+mongo_bulk.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+django_aws_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_aws_utils/ec2_ip.py,sha256=6vO9scLi4BfL7FpJQRBMBqws7_ENy4NHRlw1qpv_Jlk,833
+django_aws_utils/secrets_manager.py,sha256=INVBFDVNkviunc_f6fAbwlxps6nBaf8zPz8VH8iWK84,1058
+django_aws_utils-0.9.1.dist-info/LICENSE,sha256=xc5vQ6PONf3pHpcFQHWqxCXssGIqJfY6MHK9tB43Xfc,1549
+django_aws_utils-0.9.1.dist-info/METADATA,sha256=f9nKevz3pNUPu0T6QZc-xJNmKKjkWoIWCeO2Wp84d0Q,2063
+django_aws_utils-0.9.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_aws_utils-0.9.1.dist-info/top_level.txt,sha256=-xZi9_NdjEjzhk9i82GUXgOJqnELiF6LDFUrvkDmAYo,17
+django_aws_utils-0.9.1.dist-info/RECORD,,

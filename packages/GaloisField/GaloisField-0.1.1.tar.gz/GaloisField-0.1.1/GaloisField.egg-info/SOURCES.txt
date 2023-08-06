@@ -1,0 +1,15 @@
+README.md
+setup.py
+GaloisField.egg-info/PKG-INFO
+GaloisField.egg-info/SOURCES.txt
+GaloisField.egg-info/dependency_links.txt
+GaloisField.egg-info/top_level.txt
+galois_field/GF.py
+galois_field/__init__.py
+galois_field/exceptions.py
+galois_field/fast_polynom.py
+galois_field/util.py
+galois_field/tests/__init__.py
+galois_field/tests/ffelement_operation_test.py
+galois_field/tests/ffelement_test.py
+galois_field/tests/gf_test.py

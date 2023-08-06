@@ -1,0 +1,13 @@
+redlibssh2
+
+[docs]
+sphinx
+sphinx_rtd_theme
+redlibssh2
+
+[tests]
+coveralls
+requests[socks]
+redlibssh2
+jinja2
+pytest-cov

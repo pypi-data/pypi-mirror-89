@@ -1,0 +1,10 @@
+README.md
+setup.py
+midi_wrapper/__init__.py
+midi_wrapper/midi_device.py
+midi_wrapper/midi_input.py
+midi_wrapper/midi_menu.py
+midi_wrapper_SnooperXP.egg-info/PKG-INFO
+midi_wrapper_SnooperXP.egg-info/SOURCES.txt
+midi_wrapper_SnooperXP.egg-info/dependency_links.txt
+midi_wrapper_SnooperXP.egg-info/top_level.txt

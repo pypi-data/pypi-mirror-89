@@ -1,0 +1,11 @@
+morphine/__init__.py,sha256=FKmqEa3aHMEsAMDyQ_G9s-tAykiEOpj-e_AjtQS8E18,130
+morphine/cli.py,sha256=S8EiefE2vK2uy37mPQcPxWNndTE7vwMFr3i0Y4rEibM,449
+morphine/colors.py,sha256=ToRDRK9dCVh3BIqbAT70_JkRRKDHLyUfuMmP2eqNRjo,445
+morphine/trace_formatter.py,sha256=7e9dAePyniy-zfFmh23zNTixTrDeOODK9wKi3ROST4Y,5649
+morphine/trace_shell.py,sha256=OmBw01xI9Ul2aswzl1OIXYs40cnHmb910nTN77IsLMY,1937
+morphine_tracer-0.1.0.dist-info/LICENSE,sha256=PbHb786NTW639mGDdAczuB25rYj7-v2zyAZoaXkdKvM,1073
+morphine_tracer-0.1.0.dist-info/METADATA,sha256=PrxmfJVRu1hMfQohPDpUfHxLAk2g3Ld35Uh4AuvlgaQ,1382
+morphine_tracer-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+morphine_tracer-0.1.0.dist-info/entry_points.txt,sha256=Bp-saxfC-Pf1PNEI0Yz_ANCo_6SPXN2SeG0ff_ppFW4,48
+morphine_tracer-0.1.0.dist-info/top_level.txt,sha256=suVerivTPa07rx-a17PxW56__t9cZMeJu5VnK81VhtA,9
+morphine_tracer-0.1.0.dist-info/RECORD,,

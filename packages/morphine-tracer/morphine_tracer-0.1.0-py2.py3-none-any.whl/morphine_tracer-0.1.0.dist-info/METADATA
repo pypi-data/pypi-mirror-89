@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: morphine-tracer
+Version: 0.1.0
+Summary: Simple Prolog trace formatter
+Home-page: https://github.com/skalermo/morphine
+Author: Roman Moskalenko
+Author-email: skalermo@gmail.com
+License: MIT license
+Keywords: morphine
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+# morphine
+
+Simple Prolog trace formatter.
+
+This is a simple wrapper around [swipl](https://www.swi-prolog.org/) 
+tracer. To be more precise morphine creates its own shell and runs
+```console
+swipl -s path/to/file -g "leash(-all),trace,start." -t halt
+```
+When output seems like swipl's tracing morphine formats it.
+
+## Requirements
+
+- python 3.5 or higher
+- swipl
+
+## Installation
+
+```console
+pip install morphine
+```
+
+## Usage
+
+```console
+morphine path/to/prolog/file
+```
+
+Make sure the file has the predicate `start/0` (takes no arguments).
+Morphine automatically runs this predicate.
+
+### User input
+
+Morphine's shell can receive and pass to swipl user input.
+

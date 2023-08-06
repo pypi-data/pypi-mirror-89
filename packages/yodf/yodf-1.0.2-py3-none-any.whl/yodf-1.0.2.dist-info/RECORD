@@ -1,0 +1,12 @@
+yodf/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+yodf/.pytest_cache/CACHEDIR.TAG,sha256=_6yxVh2WiLnZteBvP_oQgUoDwqb4kte-o-f-9iWZ6yM,194
+yodf/.pytest_cache/README.md,sha256=numMMZ_9AtPkbSmahGy9Q5CMiP3PnfbXMRcSADxcW3Y,295
+yodf/.pytest_cache/v/cache/nodeids,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+yodf/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+yodf/__init__.py,sha256=sbR5wzAQF4pkgDqGfGD8Y0EYsY8VW_kPkL_6v0AokAg,468
+yodf/core.py,sha256=uuo7jx1KDWkb20nXFZAjRak9g-v-3RPma8hstwoxv4o,11411
+yodf/operations.py,sha256=IMYOb2RRiISkXHBjGQO6Flu60hI6aIVjH8rVQVpPJBA,2543
+yodf/train.py,sha256=X00AoWkLK2rwDbsl50vGJ_paoitibkmr6n1KXBbVTh4,2414
+yodf-1.0.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+yodf-1.0.2.dist-info/METADATA,sha256=AiI5FuVDgJ3R3EIhbtIZzHLb5ExNmbVyV7zHrckRCrY,4705
+yodf-1.0.2.dist-info/RECORD,,

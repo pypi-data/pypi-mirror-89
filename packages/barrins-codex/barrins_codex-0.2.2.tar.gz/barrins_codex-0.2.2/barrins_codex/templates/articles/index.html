@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p>
+	{% trans %}
+	Cette section explore la stratégie de <strong>Magic: the Gathering</strong>. La section
+	<strong>Aspects théoriques</strong> explore les concepts fondateurs du jeu tandis que la
+	section <strong>Aspects pratiques</strong>.
+	{% endtrans %}
+</p>
+
+<div class="align-left">
+	<table class="wide-column">
+		<tbody>
+			<tr>
+				<td>{{ link("/articles/lart-de-classifier-les-decks") }}</td>
+				<td>(<em>Metagame</em>)</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="wide-column">
+		<tbody>
+			<tr>
+				<td>{{ link("/articles/lart-de-bien-melanger-un-deck") }}</td>
+				<td>(<em>{{ _("Mélange")}}</em>)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<p>
+	<em>D'autres articles à venir ...</em>
+</p>
+{% endblock %}

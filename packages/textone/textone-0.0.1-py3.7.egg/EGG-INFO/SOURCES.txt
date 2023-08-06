@@ -1,0 +1,6 @@
+setup.py
+textone.egg-info/PKG-INFO
+textone.egg-info/SOURCES.txt
+textone.egg-info/dependency_links.txt
+textone.egg-info/requires.txt
+textone.egg-info/top_level.txt

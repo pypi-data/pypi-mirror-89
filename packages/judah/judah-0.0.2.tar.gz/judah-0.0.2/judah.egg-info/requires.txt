@@ -1,0 +1,11 @@
+pydantic
+python-dotenv
+email-notifier
+psycopg2-binary
+selenium
+requests
+SQLAlchemy
+xml-stream
+webdriver-manager
+bonobo
+xlrd

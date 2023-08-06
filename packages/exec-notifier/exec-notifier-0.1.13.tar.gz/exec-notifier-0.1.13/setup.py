@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+modules = \
+['exec_notifier']
+install_requires = \
+['requests>=2.25.1,<3.0.0']
+
+entry_points = \
+{'console_scripts': ['exec_notifier = exec_notifier:main']}
+
+setup_kwargs = {
+    'name': 'exec-notifier',
+    'version': '0.1.13',
+    'description': 'Tool to notify you when command will be executed.',
+    'long_description': '# Execution Notifier\n[![PyPI](https://img.shields.io/pypi/v/exec-notifier)](https://pypi.org/project/exec-notifier/)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n[![Actions Status](https://github.com/tikerlade/exec-notifier/workflows/Deploy%20publisher/badge.svg)](https://github.com/tikerlade/exec-notifier/actions/)\n[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tikerlade/exec-notifier/master.svg)](https://results.pre-commit.ci/latest/github/tikerlade/exec-notifier/master)\n\nThis tool provides you ability to send yourself information about looong executed command when it is done. Information will be sent using Telegram Bot, which you can generate for yourself with Telegram BotFather.\n\n## Prerequisites\nIn execution of your application you will need your Telegram ID. To get it visit [@exec_notifier_bot](https://telegram.me/exec_notifier_bot) and use `/start` command.\n\n## Installation and running\n```shell\n>>> pip install exec-notifier\n>>> exec_notifier config --telegram_id=YOUR_TELEGRAM_ID\n>>> exec_notifier notify [your_command_here]\n```\n\n## Limitation\n\nIf you wnat to run commands with `&&`, `||`, `;`, `|`, `>` in your terminal please use backslash character \\ before each of such symbols.\n\nAnother way is to put your command in quotes `""`.\n\n**Example using quotes**\n\n```shell\n>>> exec_notifier notify "ls -l | head"\n>>> exec_notifier notify "ls -l > output.txt"\n>>> exec_notifier notify "ls -l && sleep 3"\n```\n\n**Example using backslash**\n\n```shell\n>>> exec_notifier notify ls -l \\| head\n>>> exec_notifier notify ls -l \\> output.txt\n>>> exec_notifier notify ls -l \\&\\& sleep 3\n```\n\n\n## Future\n* Your own bot supportage will be added\n',
+    'author': 'Ivan Kuznetsov',
+    'author_email': 'tikerlade@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/tikerlade/exec-notifier',
+    'py_modules': modules,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)

@@ -1,0 +1,8 @@
+README.md
+setup.py
+dt/__init__.py
+dt/__main__.py
+springbuk_de_bucket_download_5.egg-info/PKG-INFO
+springbuk_de_bucket_download_5.egg-info/SOURCES.txt
+springbuk_de_bucket_download_5.egg-info/dependency_links.txt
+springbuk_de_bucket_download_5.egg-info/top_level.txt

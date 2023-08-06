@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyByteBuffer/__init__.py
+PyByteBuffer/utils.py
+PyByteBuffer.egg-info/PKG-INFO
+PyByteBuffer.egg-info/SOURCES.txt
+PyByteBuffer.egg-info/dependency_links.txt
+PyByteBuffer.egg-info/top_level.txt

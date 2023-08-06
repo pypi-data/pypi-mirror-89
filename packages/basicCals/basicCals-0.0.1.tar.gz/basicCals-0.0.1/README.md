@@ -1,0 +1,2 @@
+This is a simple module for mathematics which takes 2 numbers and it can add, subtract, multiply, divide, find power of two 2 numbers.
+

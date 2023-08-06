@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: req2toml
+Version: 1.0.0
+Summary: Convert requirements.txt to pyproject.toml
+License: Apache-2.0
+Author: Ben Chen
+Author-email: benbenbang@github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (==7.1.2)

@@ -1,0 +1,14 @@
+bugout/__init__.py,sha256=wFE_k3TCj_nr35rqak0F6HM_4ihnWz6CWDVWpskzU28,323
+bugout/__main__.py,sha256=MgW4PypwbVDW6tayOISTgd3DZ_sddPm7IED99vgm0CY,887
+bugout/app.py,sha256=cR2iEd_P1ZkWcvSTzIXl85bq7_RxU2WXtB7ZUk9evAw,5295
+bugout/calls.py,sha256=T43fB18JC0j2v8Zl6edAauSXCmOpz_FiX7tmTpJwddo,778
+bugout/data.py,sha256=kLex1NMF9Ayh-vCmwOuPFquB0ewGqKzSgfeQyChXHuk,1720
+bugout/group.py,sha256=TsWlZ871IYisDZdxvE-NcDzT5YSNiDGWAccZ5j2eZ-s,5096
+bugout/journal.py,sha256=HxFJop6URgYf3Ka77XWsGvTYmKxN3S_NRikUa4zMW4Y,1204
+bugout/user.py,sha256=cHooBgC9k4z0K6OouXgPe4IpfLKFiUK3vjUU92bVHTI,7407
+bugout-0.0.5.dist-info/LICENSE,sha256=jD2vqCwU32YG6CclyArJVCVR4iETYKxKiM00zwZ6LqM,1067
+bugout-0.0.5.dist-info/METADATA,sha256=fdkWq-snB_8TOWNciUSXI4J071tWgFe8pUpxnhfjTOM,1865
+bugout-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bugout-0.0.5.dist-info/entry_points.txt,sha256=0GAtOk_ztKV5DJO4JkQure3sovOEP6flPwOMfMmKhgw,49
+bugout-0.0.5.dist-info/top_level.txt,sha256=S_RjfYCfn_cxEcDSvnxq0rLdbD-ZdB3X3ATe41nnXv4,7
+bugout-0.0.5.dist-info/RECORD,,

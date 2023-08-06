@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: pyramid_task_scheduler
+Version: 0.0.3
+Summary: task scheduler for pyramid framework
+Home-page: UNKNOWN
+Author: Patrick Magyar
+Author-email: magyarpatrick@gmail.com
+License: UNKNOWN
+Description: # pyramid_task_scheduler
+        
+        [![Build Status](http://git/api/badges/PLANT/pyramid_task_scheduler/status.svg)](http://git/PLANT/pyramid_task_scheduler)
+        coming soon
+        
+        ## Install
+        
+        install packages
+        `pip install pyramid-task-scheduler`
+        
+        or require in `setup.py`
+        
+        add the follwing line to your `Configuratior` section of your pyramid application:
+        e.g
+        ```python
+            config = Configurator(settings=settings)
+            config.include('pyramid_task_scheduler')  # Add this Line
+        ```
+        ## Modes
+        
+        ### json crontab
+        
+        add the following two lines to your .ini file
+        
+        ```{ .ini }
+        pyramid_task_scheduler_mode = json
+        pyramid_task_scheduler_path = path_to/crontab.json
+        ```
+        
+        single cron crontab example:
+        
+        ```json
+        {
+        	"cron": [
+        		{
+        			"name": "first_cron",
+        			"import_script": "import_script",
+        			"exec_func": "function_to_execute",
+        			"crontab_time": "0 * * * *"
+        		}
+        	]
+        }
+        ```
+        
+        multiple crons crontab example:
+        
+        ```json
+        {
+            "cron": [
+                {
+                    "name": "first_cron",
+                    "import_script": "import_script",
+                    "exec_func": "function_to_execute",
+                    "crontab_time": "0 * * * *"
+                },
+                {
+                    "name": "second_cron",
+                    "import_script": "import_script",
+                    "exec_func": "function_to_execute",
+                    "crontab_time": "0 * * * *"
+                }
+            ]   
+        }
+        ```
+        
+        # NOTE
+        
+        this package is alpha experimental. It is recommened to NOT use it for productional environments.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Pyramid
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Provides-Extra: dev

@@ -1,0 +1,4 @@
+recursive-include aruco/include *
+include aruco/*.h
+include aruco/README.md
+include aruco/LICENSE

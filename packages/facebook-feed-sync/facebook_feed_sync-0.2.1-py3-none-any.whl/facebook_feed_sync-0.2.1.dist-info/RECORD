@@ -1,0 +1,11 @@
+facebook_feed_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facebook_feed_sync/__main__.py,sha256=IUR4ZrZFrh_aFn6waQMCSAxiZvkBe5Wfqp9ZZUqvAQU,103
+facebook_feed_sync/cli.py,sha256=3f00E8lkXaxSOC0dbg5lC94Fvc4i54uGa6-AnHxlb34,10151
+facebook_feed_sync/packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facebook_feed_sync/packages/gsheet.py,sha256=JpoGoerIVcsTNDswuuvC1uCLTKVT2Z-MT-cPgbmFzfk,6102
+facebook_feed_sync/packages/plenty.py,sha256=6JdfK0ONBnOB2TmTKCUzcyjBhnO0JXtZ7XM7RJdmyuY,19903
+facebook_feed_sync/packages/shared_data.py,sha256=EPxmz2Bbtg07ATeFDXZ5SVQ7e8rDZZGUj4Kmr1g8Mzs,1765
+facebook_feed_sync-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+facebook_feed_sync-0.2.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+facebook_feed_sync-0.2.1.dist-info/METADATA,sha256=h7FL4A8sBjBxBGcdRErMO39wy1k8fmhY9g5ZngjckII,6401
+facebook_feed_sync-0.2.1.dist-info/RECORD,,

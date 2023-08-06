@@ -1,0 +1,5 @@
+staticfiles_downloader/__init__.py,sha256=VCCv1CvS2fy-gDLJAMjNCO0Ux4I08GKHy3UEx1P7u8k,5613
+django_staticfiles_downloader-1.0.0.dist-info/LICENSE,sha256=YzTGbL28ZVJio6Qxq-IyHoMP3fCL84VXy326DNNbsto,1483
+django_staticfiles_downloader-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_staticfiles_downloader-1.0.0.dist-info/METADATA,sha256=EIkDlxsyZC0UMQnY7VJ6-gxGlr9F5vQqZ9Q_hLgFce0,3252
+django_staticfiles_downloader-1.0.0.dist-info/RECORD,,

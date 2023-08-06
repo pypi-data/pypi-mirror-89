@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: karton-asciimagic
+Version: 1.0.0
+Summary: Various encoders for ascii-encoded executables for Karton framework
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Dist: karton.core (==4.0.5)
+
+UNKNOWN
+
+

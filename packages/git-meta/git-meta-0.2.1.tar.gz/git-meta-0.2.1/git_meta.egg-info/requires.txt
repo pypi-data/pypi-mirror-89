@@ -1,0 +1,12 @@
+gitpython
+docopt
+appdirs
+
+[dev]
+Sphinx
+tox
+
+[tests]
+flake8
+pytest
+pytest-cov

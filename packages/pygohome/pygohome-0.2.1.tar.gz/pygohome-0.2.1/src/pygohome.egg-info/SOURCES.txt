@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+binder/requirements.txt
+src/pygohome/__init__.py
+src/pygohome/convert.py
+src/pygohome/jupygohome.py
+src/pygohome/processor.py
+src/pygohome/world.py
+src/pygohome.egg-info/PKG-INFO
+src/pygohome.egg-info/SOURCES.txt
+src/pygohome.egg-info/dependency_links.txt
+src/pygohome.egg-info/not-zip-safe
+src/pygohome.egg-info/requires.txt
+src/pygohome.egg-info/top_level.txt

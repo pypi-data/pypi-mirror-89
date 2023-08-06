@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: svirl
+Version: 1.0
+Summary: GPU accelerated Ginzburg-Landau equations solver
+Home-page: UNKNOWN
+Maintainer: Shriram Jagannathan, Ivan Sadovskyy
+Maintainer-email: svirl@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

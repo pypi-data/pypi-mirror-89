@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: minpiler
+Version: 0.3.2
+Summary: Compile python code to Mindustry microprocessor instructions
+Home-page: https://github.com/neumond/minpiler
+Author: Vitalik Verhovodov
+Author-email: knifeslaughter@gmail.com

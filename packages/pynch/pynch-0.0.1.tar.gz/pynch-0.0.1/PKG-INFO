@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pynch
+Version: 0.0.1
+Summary: Utils for collections and misc basic data structures.
+Home-page: https://github.com/thorwhalen/ut/tree/master/pynch
+Author: Thor Whalen
+License: mit
+Description: 
+        # pynch
+        Utils for collections and misc basic data structures.
+        
+        
+        To install:	```pip install pynch```
+        
+Platform: any
+Description-Content-Type: text/markdown

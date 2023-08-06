@@ -1,0 +1,14 @@
+README.md
+setup.py
+scuttlebot.egg-info/PKG-INFO
+scuttlebot.egg-info/SOURCES.txt
+scuttlebot.egg-info/dependency_links.txt
+scuttlebot.egg-info/requires.txt
+scuttlebot.egg-info/top_level.txt
+venv/__init__.py
+venv/main.py
+venv/webscraper.py
+venv/Bot/__init__.py
+venv/Bot/constants.py
+venv/Bot/rune_img.py
+venv/Bot/runes.py

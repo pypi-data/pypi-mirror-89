@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hypermodern-tutorial
+Version: 0.1.2
+Summary: The hypermodern Python project - walking through tutorial
+License: MIT
+Keywords: hypermodern
+Author: mattyocode
+Author-email: matthewoliver@live.co.uk
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: desert (>=2020.11.18,<2021.0.0)
+Requires-Dist: importlib-metadata (>=3.3.0,<4.0.0); python_version < "3.8"
+Requires-Dist: marshmallow (>=3.10.0,<4.0.0)
+Requires-Dist: requests (>=2.24.0,<2.25.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/mattyocode/hypermodern-python-tutorial/workflows/Tests/badge.svg)](https://github.com/mattyocode/hypermodern-python-tutorial/actions?workflow=Tests)
+[![codecov](https://codecov.io/gh/mattyocode/hypermodern-python-tutorial/branch/main/graph/badge.svg?token=H8B46Y497K)](https://codecov.io/gh/mattyocode/hypermodern-python-tutorial)
+[![PyPI](https://img.shields.io/pypi/v/hypermodern-tutorial.svg)](https://pypi.org/project/hypermodern-python/)
+
+
+# Working through Hypermodern Python tutorial/walk through
+
+Tutorial found at: https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+

@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+**/*.pyc
+
+.DS_Store
+
+# Environments
+venv/
+
+# docs build
+docs/_build/*

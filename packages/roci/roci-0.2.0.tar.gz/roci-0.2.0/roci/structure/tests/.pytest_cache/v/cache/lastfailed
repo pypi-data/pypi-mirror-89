@@ -1,0 +1,10 @@
+{
+  "test_week_one.py::TestDayFive": true,
+  "test_week_one.py::TestDayFive::test_missing": true,
+  "test_week_one.py::TestDayFour": true,
+  "test_week_one.py::TestDayFour::test_passport_checker": true,
+  "test_week_one.py::TestDayFour::test_very_passport_checker": true,
+  "test_week_one.py::TestDayOne": true,
+  "test_week_one.py::TestDayThree": true,
+  "test_week_one.py::TestDayTwo": true
+}

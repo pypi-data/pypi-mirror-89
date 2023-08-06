@@ -1,0 +1,13 @@
+[
+  "test_week_one.py::TestDayFive::test_missing",
+  "test_week_one.py::TestDayFive::test_search",
+  "test_week_one.py::TestDayFour::test_passport_checker",
+  "test_week_one.py::TestDayFour::test_very_passport_checker",
+  "test_week_one.py::TestDayOne::test_three_factors",
+  "test_week_one.py::TestDayOne::test_two_factors",
+  "test_week_one.py::TestDayThree::test_stepper",
+  "test_week_one.py::TestDayThree::test_traverse",
+  "test_week_one.py::TestDayTwo::test_password_check",
+  "test_week_one.py::TestDayTwo::test_regex",
+  "test_week_one.py::TestDayTwo::test_toboggan_password_check"
+]

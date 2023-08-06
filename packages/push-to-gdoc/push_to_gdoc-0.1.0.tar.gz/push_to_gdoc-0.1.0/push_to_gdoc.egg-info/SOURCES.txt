@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+push_to_gdoc/__init__.py
+push_to_gdoc/document.py
+push_to_gdoc/google_api_services.py
+push_to_gdoc.egg-info/PKG-INFO
+push_to_gdoc.egg-info/SOURCES.txt
+push_to_gdoc.egg-info/dependency_links.txt
+push_to_gdoc.egg-info/requires.txt
+push_to_gdoc.egg-info/top_level.txt

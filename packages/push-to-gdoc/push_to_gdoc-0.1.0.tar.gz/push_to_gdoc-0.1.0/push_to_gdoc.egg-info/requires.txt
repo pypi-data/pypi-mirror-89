@@ -1,0 +1,10 @@
+matplotlib
+pandas
+appdirs
+google-api-python-client
+google_auth_oauthlib
+google
+
+[test]
+pytest
+black

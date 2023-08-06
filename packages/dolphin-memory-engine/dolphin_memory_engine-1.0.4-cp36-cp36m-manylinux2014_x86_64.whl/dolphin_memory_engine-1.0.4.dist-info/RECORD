@@ -1,0 +1,8 @@
+libdolphin-memory-engine.a,sha256=LeFZxSU3PJ3eHKSlvw4DbWjeDQqpkIwAbbAolMg0Fqo,83636
+_dolphin_memory_engine.cpython-36m-x86_64-linux-gnu.so,sha256=_YMl5Bf_1x0Z6UU8XmE-Fcw-5LvkAnVTaFWaEqm-QK8,841240
+dolphin_memory_engine/__init__.py,sha256=-pESoak-AqyzD9XTx3OlxCSusZthXxIH2Tp4Mmg4go4,37
+dolphin_memory_engine-1.0.4.dist-info/WHEEL,sha256=bq3rXxiDUvyLW6YY42zWHb7BBkuqZPPNUVDA9DdQOPE,112
+dolphin_memory_engine-1.0.4.dist-info/METADATA,sha256=lPMKigY6AuycXIA8ObPLHX2DgjYBfy1rpA8CLILPkpI,2122
+dolphin_memory_engine-1.0.4.dist-info/top_level.txt,sha256=1LNPcH-zSlfAvCET7e6wSq8HKGdMoXU73jJ8qKC6OZU,45
+dolphin_memory_engine-1.0.4.dist-info/RECORD,,
+dolphin_memory_engine-1.0.4.dist-info/LICENSE,sha256=8TbPfcvY-ssZRE4-Lk5yr0zVQ9Q2pZtzLuWckodTiCE,1066

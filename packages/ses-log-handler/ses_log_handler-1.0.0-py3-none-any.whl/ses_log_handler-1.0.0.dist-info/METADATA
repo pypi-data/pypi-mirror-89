@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ses-log-handler
+Version: 1.0.0
+Summary: Log messages to email via Amazon SES
+License: MIT
+Author: Matt Pye
+Author-email: pyematt@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (>=1.0.0,<2.0.0)

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygeonhole
+Version: 0.0.1
+Summary: Persistence and serialization tools
+Home-page: https://github.com/thorwhalen/ut/tree/master/pygeonhole
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# pygeonhole
+Persistence and serialization tools
+
+
+To install:	```pip install pygeonhole```
+
+

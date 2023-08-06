@@ -1,0 +1,12 @@
+README.md
+setup.py
+Crawler/BaseMethod.py
+Crawler/Javdb.py
+Crawler/__init__.py
+Util/FileProcess.py
+Util/Mysqlite.py
+Util/__init__.py
+chaotools18.egg-info/PKG-INFO
+chaotools18.egg-info/SOURCES.txt
+chaotools18.egg-info/dependency_links.txt
+chaotools18.egg-info/top_level.txt

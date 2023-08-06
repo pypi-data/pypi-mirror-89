@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: chaotools18
+Version: 0.1.2
+Summary: chaotools18
+Home-page: UNKNOWN
+Author: chao
+License: UNKNOWN
+Description: # chaotools18
+        
+        作者：chao
+        
+        日期：2020/12/28
+        
+        描述：18+工具包
+        
+        包功能：
+        
+        1. Javdb爬虫
+        
+        2. fc2官网爬虫
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

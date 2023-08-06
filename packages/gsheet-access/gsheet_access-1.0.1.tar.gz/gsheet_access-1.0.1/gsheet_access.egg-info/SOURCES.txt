@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+gsheet_access/__init__.py
+gsheet_access.egg-info/PKG-INFO
+gsheet_access.egg-info/SOURCES.txt
+gsheet_access.egg-info/dependency_links.txt
+gsheet_access.egg-info/requires.txt
+gsheet_access.egg-info/top_level.txt

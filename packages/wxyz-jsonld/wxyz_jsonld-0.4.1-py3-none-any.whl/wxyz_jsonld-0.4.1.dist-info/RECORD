@@ -1,0 +1,9 @@
+wxyz/jsonld/__init__.py,sha256=NLwWMPWgbhyNTNqEzTZIzVCA0z4O4rc-uocqyhZdt04,257
+wxyz/jsonld/_version.py,sha256=kqTsdYx8sMUmcVVbgrESbMOb30kg4lOfzmE9McWNFig,141
+wxyz/jsonld/base.py,sha256=dwrmcerllSc6sT45CLfwlLMColVuchbULmoX1mFOUF8,511
+wxyz/jsonld/widget_jsonld.py,sha256=ONOrt3NmHDolEt69lPFbKOniwKYfMDS-FCElzfyPOfc,3310
+wxyz_jsonld-0.4.1.dist-info/LICENSE.txt,sha256=eCLRDwnuKT4Cjf3-GQnzbErv3RI6VztYjoc5ASOpzUE,1502
+wxyz_jsonld-0.4.1.dist-info/METADATA,sha256=lcxxva-i-gHVIJ4sy72nOUcws4JrB5KTZ1keInQvoEI,6869
+wxyz_jsonld-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wxyz_jsonld-0.4.1.dist-info/top_level.txt,sha256=L2IhezSAoU7rRMbA8WYT1_SIc5UXysQlIHtVbIvLWNs,5
+wxyz_jsonld-0.4.1.dist-info/RECORD,,

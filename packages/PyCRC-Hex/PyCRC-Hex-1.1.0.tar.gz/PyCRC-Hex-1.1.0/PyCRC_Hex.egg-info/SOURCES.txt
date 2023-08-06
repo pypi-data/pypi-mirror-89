@@ -1,0 +1,13 @@
+README.md
+setup.py
+PyCRC/__init__.py
+PyCRC/bcc.py
+PyCRC/crc.py
+PyCRC/lrc.py
+PyCRC_Hex.egg-info/PKG-INFO
+PyCRC_Hex.egg-info/SOURCES.txt
+PyCRC_Hex.egg-info/dependency_links.txt
+PyCRC_Hex.egg-info/not-zip-safe
+PyCRC_Hex.egg-info/top_level.txt
+test/__init__.py
+test/aa.py

@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+permissions/__init__.py
+permissions/crud.py
+permissions/enums.py
+permissions/fixtures.py
+permissions/models.py
+permissions/schemas.py
+permissions/utils.py
+tortoise_permissions_system.egg-info/PKG-INFO
+tortoise_permissions_system.egg-info/SOURCES.txt
+tortoise_permissions_system.egg-info/dependency_links.txt
+tortoise_permissions_system.egg-info/top_level.txt

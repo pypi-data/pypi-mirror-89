@@ -1,0 +1,12 @@
+README.md
+setup.py
+symcollab/rewrite/__init__.py
+symcollab/rewrite/forward_closure.py
+symcollab/rewrite/rule.py
+symcollab/rewrite/system.py
+symcollab/rewrite/variants.py
+symcollab_rewrite.egg-info/PKG-INFO
+symcollab_rewrite.egg-info/SOURCES.txt
+symcollab_rewrite.egg-info/dependency_links.txt
+symcollab_rewrite.egg-info/requires.txt
+symcollab_rewrite.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: symcollab-rewrite
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/symcollab/cryptosolve
+License: UNKNOWN
+Description: # Rewrite Library
+        
+        Beginnings of a rewrite library. Currently you can rewrite a term with a RewriteRule. Variants are also implemented where you can get the variants of a term from a set of rewrite rules.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyggyback
+Version: 0.0.1
+Summary: My personal collection of other people's code (sometimes modified to my liking).
+Home-page: https://github.com/thorwhalen/ut/tree/master/pyggyback
+Author: Thor Whalen
+License: mit
+Description: 
+        # pyggyback
+        My personal collection of other people's code (sometimes modified to my liking).
+        
+        
+        To install:	```pip install pyggyback```
+        
+Platform: any
+Description-Content-Type: text/markdown

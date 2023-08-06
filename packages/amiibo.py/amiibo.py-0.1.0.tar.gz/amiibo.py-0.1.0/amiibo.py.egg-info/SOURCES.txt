@@ -1,0 +1,11 @@
+README.md
+setup.py
+amiibo/__init__.py
+amiibo/client.py
+amiibo/errors.py
+amiibo/httpclient.py
+amiibo.py.egg-info/PKG-INFO
+amiibo.py.egg-info/SOURCES.txt
+amiibo.py.egg-info/dependency_links.txt
+amiibo.py.egg-info/requires.txt
+amiibo.py.egg-info/top_level.txt

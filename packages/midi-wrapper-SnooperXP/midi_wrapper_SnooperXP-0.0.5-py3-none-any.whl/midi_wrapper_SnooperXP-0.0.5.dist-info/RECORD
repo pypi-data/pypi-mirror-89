@@ -1,0 +1,9 @@
+midi_wrapper/__init__.py,sha256=liVN9jfVIqFVpP_g9teAk-N8IT4lWVmnDArkJ0dtqnw,638
+midi_wrapper/midi_device.py,sha256=0zUTVjCskS-DNbyku1GJerm3ukLQxaBcmN5vaXzzjoc,551
+midi_wrapper/midi_input.py,sha256=K5JfbHb-gAY9o9IQi1W-5yKlvqxCePGNZfcVLNI8F1U,4407
+midi_wrapper/midi_menu.py,sha256=Hr03d-sWXdt-5_hC-j6WPikFu6ypyJd_Trr-1PA284w,1878
+midi_wrapper_SnooperXP-0.0.5.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+midi_wrapper_SnooperXP-0.0.5.dist-info/METADATA,sha256=xmmssOv5wydEKV3ynGPyx0bgEicdHWwA7U9wZKblAew,1623
+midi_wrapper_SnooperXP-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+midi_wrapper_SnooperXP-0.0.5.dist-info/top_level.txt,sha256=cVUvRyPPEHY0us_wrYyAwLN5C_eonoFJovxqSWqe7-o,13
+midi_wrapper_SnooperXP-0.0.5.dist-info/RECORD,,

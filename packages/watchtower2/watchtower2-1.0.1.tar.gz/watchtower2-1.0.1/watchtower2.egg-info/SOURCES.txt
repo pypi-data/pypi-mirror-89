@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+watchtower2/__init__.py
+watchtower2/django.py
+watchtower2.egg-info/PKG-INFO
+watchtower2.egg-info/SOURCES.txt
+watchtower2.egg-info/dependency_links.txt
+watchtower2.egg-info/requires.txt
+watchtower2.egg-info/top_level.txt

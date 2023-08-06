@@ -1,0 +1,11 @@
+__init__.py,sha256=6I2HvgdC35F1LgZBlOj7Mdc-WMVUoktQMvPHTDmzddQ,1957
+test.py,sha256=DGwsmxF81tMiMIGNiS97pNEpJQolgOPP4KWJzMutkR4,28
+ReminderController/ReminderCategorizer.py,sha256=ZN8UJk2E6dEI1nT-C6Tp46I4MEd3m8iQmL5Aw7a74hI,2529
+ReminderController/ReminderManagerService.py,sha256=Zizt9RBQh0zUtkRZknADORXyx4NOLUH8LWbdZ7PaXI8,2427
+ReminderController/ReminderOccurrence.py,sha256=T7NoqoBBOGwV1XJc3LR6_AypnYwePbq7fkMNxSg6Gxc,1185
+ReminderNotifier/ReminderNotifier.py,sha256=xMnNMasusohZlA_Dkyi3qMtlPZuxMTDMtLSSS2s-6Rg,1700
+reminderlib-0.0.5.dist-info/LICENSE.txt,sha256=1v9F4LrCJeph6BnlezGaGaYPw1ujq_BoMnfbf8eu0wY,1082
+reminderlib-0.0.5.dist-info/METADATA,sha256=RmdoZ52MN6bL04Hz7hDfupp-yclBC_S9FXncKOvvoTk,942
+reminderlib-0.0.5.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+reminderlib-0.0.5.dist-info/top_level.txt,sha256=n8sj95qeALVEAxX8Cutepkctt82sL2eZjjGOT5F8fmQ,210
+reminderlib-0.0.5.dist-info/RECORD,,

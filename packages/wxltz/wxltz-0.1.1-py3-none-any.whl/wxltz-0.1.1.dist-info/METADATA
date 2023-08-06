@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wxltz
+Version: 0.1.1
+Summary: 
+Author: givonwash
+Author-email: givonwash@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pywal (>=3.3.0,<4.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# wxltz
+
+A pywal wrapper CLI
+
+> [TODO]: Add docs
+

@@ -1,0 +1,11 @@
+README.md
+setup.py
+takeme_openpyxl/__init__.py
+takeme_openpyxl.egg-info/PKG-INFO
+takeme_openpyxl.egg-info/SOURCES.txt
+takeme_openpyxl.egg-info/dependency_links.txt
+takeme_openpyxl.egg-info/not-zip-safe
+takeme_openpyxl.egg-info/requires.txt
+takeme_openpyxl.egg-info/top_level.txt
+takeme_openpyxl/reader/__init__.py
+takeme_openpyxl/writer/__init__.py

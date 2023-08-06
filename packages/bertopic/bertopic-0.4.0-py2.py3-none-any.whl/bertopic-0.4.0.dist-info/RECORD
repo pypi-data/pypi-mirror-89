@@ -1,0 +1,11 @@
+bertopic/__init__.py,sha256=r_50h8fIpNK5DycwsTQuYR-PRviLeEPvMNK4v5-Ip5A,266
+bertopic/_bertopic.py,sha256=HXkDe_Wi42P05Qt3XV5XpGpWk4r5H1n-xH8A9HH7_e8,48152
+bertopic/_ctfidf.py,sha256=6lu__VhdIDgdmFtI3822Zb4Ttws8Bj2chsPAsFA0R2I,2217
+bertopic/_embeddings.py,sha256=kkYbpETDa76XQLTmgqUkUERoVJFRfP1e1cZWvf1Yyg8,3690
+bertopic/_mmr.py,sha256=uMaHogTwVB88ACWrJdjp3U1HnzoZWoLb6nfw9PjYEKQ,2266
+bertopic/_utils.py,sha256=d8TDLZPg3R4SPSHg2bpF6B40EBXl6d3dRYb5ufsI_os,2577
+bertopic-0.4.0.dist-info/LICENSE,sha256=xykdOf2PvqoTt9IQJJm51sxeP8pyTvvypZle4Ms79Po,1100
+bertopic-0.4.0.dist-info/METADATA,sha256=xJYww4aEhUXi3tI3fslz7yP1AvHioXtmsnvoaaNkoRY,8848
+bertopic-0.4.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+bertopic-0.4.0.dist-info/top_level.txt,sha256=7XXm06i3_LJOWcmJuJhp3YFI3CyNWjqCmIUn_QN6H9o,9
+bertopic-0.4.0.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lazymappingstorage
+Version: 0.0.1
+Summary: A dict like storage backed by a yaml file or similar method
+Home-page: UNKNOWN
+Author: Andreas Stephanides
+Author-email: st-andreas@gmx.at
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+asdf
+
+
+#Install
+
+
+#Development
+git clone
+pip install -e
+
+pip install -e .[dev]
+

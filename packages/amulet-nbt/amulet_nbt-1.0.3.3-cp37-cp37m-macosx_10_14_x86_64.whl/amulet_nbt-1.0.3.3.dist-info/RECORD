@@ -1,0 +1,10 @@
+amulet_nbt/__init__.py,sha256=xjwLfkptLQetED6PiIXBofOT-zJN-jByBgfwrLuLBqY,969
+amulet_nbt/_version.py,sha256=Et9goDH-4xtlkOcJPGJttnIWUaQw5DINH_PygU0W264,499
+amulet_nbt/amulet_cy_nbt.c,sha256=ACfAiS7XeuXRv2hNYdabfYIYmkWcj2C2syTPz7O-xRY,2073466
+amulet_nbt/amulet_cy_nbt.cpython-37m-darwin.so,sha256=Bxp6FzMRBoic7VKId7UjZLBLWQNTfkqFkhwQK4D8_bo,648480
+amulet_nbt/amulet_cy_nbt.pyx,sha256=PUrzF5gc3mVspjetqRj2QahpLblVfBsNTlMycvALYgQ,49099
+amulet_nbt/amulet_py_nbt.py,sha256=W_WllxOkgICKHKhH8fqkLPdGlqNEfYsbB_P7-sQUyec,42435
+amulet_nbt-1.0.3.3.dist-info/METADATA,sha256=cwGoFZesQXu0O4YHE8lqIXZFMYUQbaouUCA-d-cG-oI,310
+amulet_nbt-1.0.3.3.dist-info/WHEEL,sha256=SPFsdN-g7Osut7El6pRHojcroYU7REc1DdD4VXzi4B4,111
+amulet_nbt-1.0.3.3.dist-info/top_level.txt,sha256=vWTd0xETnLCMfq1wi6y-1tP7Am6N8x_K20TE71H9ukg,11
+amulet_nbt-1.0.3.3.dist-info/RECORD,,

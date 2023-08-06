@@ -1,0 +1,10 @@
+groupme_bot/__init__.py,sha256=HTPrWtBBlPtz6LycrNsU9Fx4g6sh0RpwdRwbmNlrK0I,493
+groupme_bot/application.py,sha256=vB9R10bNBxlBL34tJNTn0YlqLZN8wvVeWScLwruyedY,5887
+groupme_bot/attachment.py,sha256=0eFopawi4wK7LTWedhRgyFaEd8--669xZsgyQ707Oz4,1302
+groupme_bot/bot.py,sha256=F3iYhzeA-s3I6EcCWevrxUqyOe4AeB3EMvNeoILt8Nw,7448
+groupme_bot/callback.py,sha256=mpBCOIJO1lG_rKZSi7xZ7fvUUR833fSD__VGDr-BtYY,1724
+groupme_bot-0.2.0.dist-info/LICENSE,sha256=ZKHDW7HWuW530N3F_zRJeJbNuG7D7ewsWC7tXqtNe_E,1069
+groupme_bot-0.2.0.dist-info/METADATA,sha256=9XQJEv26Tba86gwhxbMgajYodn2Z3REda-rJQi_7lUc,4381
+groupme_bot-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+groupme_bot-0.2.0.dist-info/top_level.txt,sha256=gOBztd6nRRodh3ahuqQ5MpPn_2oJD7gg7VhBR4TlZL0,12
+groupme_bot-0.2.0.dist-info/RECORD,,

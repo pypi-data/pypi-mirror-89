@@ -1,0 +1,15 @@
+marksman/__init__.py,sha256=mKDYVB3ICXovFMUMO4f4pfOpSBxxN8H18ZEsb5hQdQk,132
+marksman/analyser.py,sha256=joaIj4fBlj1k3Tvc18VroW7qVOC5KKZS-UD10cT7eBs,525
+marksman/app.py,sha256=aiTkKSlIdK8AAVziCriflWn_q40IhBwbZh0dipyWHtU,1502
+marksman/cli.py,sha256=_mQwC-eo10uFoITJSrR_c-PVQzcb-I_2UF_M55KNZrc,2669
+marksman/mailer.py,sha256=IAP701eTIXvxkDLGR4jROzu2c5ktq-N7x-gy6KB5rfE,1293
+marksman/models.py,sha256=tTI6Vs4KhMg9M1qqOv-hY-00jyyVjRdFbKjtB_zRXs4,3758
+marksman/plot.py,sha256=C5ZeG643cNvIaqVx5LRKM6jcATDFkCJpTyelZOQIEt8,908
+marksman/settings.py,sha256=KToTYDmXKhIdoOqfMiUBlQDp7RvuINZDQuLKBWSzJVc,67
+marksman/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marksman/validators.py,sha256=EhhgaV0dK0IUa0ygRI_ZkMBhMDpTYaATWQp0_sijzF4,1127
+marksman-0.2.0.dist-info/METADATA,sha256=DiALMd89B7xlnBoucArH969nHj8z9dKuKMuOUEZEogY,1629
+marksman-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+marksman-0.2.0.dist-info/entry_points.txt,sha256=mm6hL0ey2VwgYj9tklxa9SC_P_EKZ-5Pwuv-EYPwXs4,48
+marksman-0.2.0.dist-info/top_level.txt,sha256=XCW28hCDAyyxtthQzCBAAsZdTp1Dq7x6L5oqzEV606A,9
+marksman-0.2.0.dist-info/RECORD,,

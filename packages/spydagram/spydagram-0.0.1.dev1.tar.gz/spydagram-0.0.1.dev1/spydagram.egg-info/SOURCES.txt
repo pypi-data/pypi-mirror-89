@@ -1,0 +1,8 @@
+README.md
+setup.py
+spydagram/__init__.py
+spydagram/__main__.py
+spydagram.egg-info/PKG-INFO
+spydagram.egg-info/SOURCES.txt
+spydagram.egg-info/dependency_links.txt
+spydagram.egg-info/top_level.txt

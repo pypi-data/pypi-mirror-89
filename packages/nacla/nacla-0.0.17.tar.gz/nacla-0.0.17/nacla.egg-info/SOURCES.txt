@@ -1,0 +1,10 @@
+MANIFEST.in
+readme.md
+setup.py
+nacla/__init__.py
+nacla/nacla.py
+nacla.egg-info/PKG-INFO
+nacla.egg-info/SOURCES.txt
+nacla.egg-info/dependency_links.txt
+nacla.egg-info/top_level.txt
+nacla/model/rnn.pth

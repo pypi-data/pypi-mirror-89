@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: nacla
+Version: 0.0.17
+Summary: 输入一个姓名，输出这个姓名输入哪个国家
+Home-page: https://github.com/pypa/sampleproject
+Author: zhaomingming
+Author-email: 13271929138@163.com
+License: MIT
+Description: UNKNOWN
+Keywords: name classify,nlp
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4

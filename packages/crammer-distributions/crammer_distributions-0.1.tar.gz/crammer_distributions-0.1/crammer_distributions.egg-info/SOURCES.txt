@@ -1,0 +1,10 @@
+setup.py
+crammer_distributions/Binomialdistribution.py
+crammer_distributions/Gaussiandistribution.py
+crammer_distributions/Generaldistribution.py
+crammer_distributions/__init__.py
+crammer_distributions.egg-info/PKG-INFO
+crammer_distributions.egg-info/SOURCES.txt
+crammer_distributions.egg-info/dependency_links.txt
+crammer_distributions.egg-info/not-zip-safe
+crammer_distributions.egg-info/top_level.txt

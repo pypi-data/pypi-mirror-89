@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tmsgit
+Version: 0.0.2
+Summary: Help maintaining a clean git project!
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: argcomplete
+
+UNKNOWN
+
+

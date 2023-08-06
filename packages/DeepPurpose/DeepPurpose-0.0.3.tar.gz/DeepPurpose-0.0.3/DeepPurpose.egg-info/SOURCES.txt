@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+DeepPurpose.egg-info/PKG-INFO
+DeepPurpose.egg-info/SOURCES.txt
+DeepPurpose.egg-info/dependency_links.txt
+DeepPurpose.egg-info/requires.txt
+DeepPurpose.egg-info/top_level.txt

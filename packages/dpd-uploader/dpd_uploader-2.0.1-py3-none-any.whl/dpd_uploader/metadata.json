@@ -1,0 +1,117 @@
+{
+  "src/lib/components/Uploader.react.js": {
+    "description": "Plotly Dash compatible component which allows\nlarge file uploads using ResumableJs",
+    "displayName": "Uploader",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component, used to identify dash components\nin callbacks. The ID needs to be unique across all of the\ncomponents in an app."
+      },
+      "file_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The name of the file that was uploaded",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "children": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "node"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Children of this dash component"
+      },
+      "accepted_file_types": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "Allow specific file types to be uploaded"
+      },
+      "max_file_size": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Maximum file size. If `-1`, then infinite",
+        "defaultValue": {
+          "value": "1024 * 1024 * 10",
+          "computed": false
+        }
+      },
+      "chunk_size": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Minimum file size",
+        "defaultValue": {
+          "value": "1024 * 1024",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "HTML class name of the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "CSS styles to apply upload div",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "upload_complete": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "The boolean flag telling if upload is completed.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "service": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The service to send the files to"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-supplied function for updating props"
+      }
+    }
+  }
+}

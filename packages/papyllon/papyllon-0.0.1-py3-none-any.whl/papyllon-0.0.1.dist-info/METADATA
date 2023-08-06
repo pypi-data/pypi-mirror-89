@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: papyllon
+Version: 0.0.1
+Summary: Yet another package to work with graphs and networks
+Home-page: https://github.com/thorwhalen/ut/tree/master/papyllon
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# papyllon
+Yet another package to work with graphs and networks
+
+
+To install:	```pip install papyllon```
+
+

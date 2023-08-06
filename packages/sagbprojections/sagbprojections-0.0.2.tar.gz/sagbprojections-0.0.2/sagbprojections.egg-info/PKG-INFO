@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: sagbprojections
+Version: 0.0.2
+Summary: A module to query SAGB NBA daily fantasy projections
+Home-page: UNKNOWN
+Author: Rohit Tanikella
+Author-email: rohit.tanikella@gmail.com
+License: MIT
+Description: This is a module that allows you to query NBA Daily Fantasy Projections from Berkeley's Sports Analytics Group (SAGB).
+        
+        Change Log
+        ==========
+        
+        0.0.1 (04/24/2020)
+        ------------------
+        - Initial test release with only 2020 NBA Finals Game 6 Projections
+        
+        0.0.2 (04/24/2020)
+        ------------------
+        - Updated to include static files
+Keywords: NBA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

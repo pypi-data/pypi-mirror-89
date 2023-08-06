@@ -1,0 +1,3 @@
+[console_scripts]
+netprobe-run = netprobe.command:run
+

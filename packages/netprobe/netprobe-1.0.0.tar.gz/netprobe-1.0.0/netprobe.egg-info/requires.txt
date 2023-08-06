@@ -1,0 +1,10 @@
+google-cloud-firestore
+speedtest-cli
+ruamel.yaml
+pythonping
+telethon
+aiohttp
+aiofiles
+jinja2
+click
+black

@@ -1,0 +1,11 @@
+frispy/__init__.py,sha256=pmCWIvHOhUy6BXCBQBLUOwESSUsFUvca2LlxFzPR-xA,281
+frispy/disc.py,sha256=X_nj2ca2DvQ-uxSgwlb7kZ87cFB_fiLD_OAncWwyyug,6443
+frispy/environment.py,sha256=LoPI55avSBUhbLImjjAXL1roomrj7d5Rwg6fwfZs3tw,1697
+frispy/equations_of_motion.py,sha256=1V0On06CdKiAoDdzk3uV3UZNp1MOA-k7ueFBNDtZwEM,5551
+frispy/model.py,sha256=g398_cpHqLOIcQy552WgsjW5vxOi7Q3WjhE8CZ0M6Es,4580
+frispy/trajectory.py,sha256=Fc2ZdUMKNsrohv9eTUe_PR5BLDBiV1kB_iPdkd1cblk,4826
+frispy/wind.py,sha256=PpgmEFk5OHLPWMRBEdL3nE3U_AkFVt3Ke6NF_16M5HQ,1757
+frispy-1.0.1.dist-info/METADATA,sha256=Tku5XnbkHnQ7dJhv7r8TsJZo3g1uVpUMDBrG-MS7LnM,3628
+frispy-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+frispy-1.0.1.dist-info/top_level.txt,sha256=NIMxnhhflldUNsO4uHMsgTocreRjAI5OJhNJIQJLHIc,7
+frispy-1.0.1.dist-info/RECORD,,

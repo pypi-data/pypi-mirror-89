@@ -1,0 +1,12 @@
+kmatch/__init__.py,sha256=1dT-Tn8Ln6874KfbiZjnzXPl40IDrFXkaPMqEpsxBH0,110
+kmatch/kmatch.py,sha256=qcwl1C4zRm8bb9hvoekh5nYWvXArmRbJF1uee6GaWjA,7637
+kmatch/mixins.py,sha256=GS2EgdbAFrWkp_Tl3q7x6hZkvSdcSbzeQ9IdtbBlO_w,1888
+kmatch/version.py,sha256=2TT01DGFRX_yfHDudJYKyjuZ_KBG5XEPrmQgzbOvqKs,23
+kmatch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmatch/tests/kmatch_tests.py,sha256=CwTzJ2b11tbyDae-IMBTmCRIVNLZWj_Q7nWrA8llf2k,13717
+kmatch/tests/mixin_tests.py,sha256=Hx-EkkVFTTkTNmU4V3yJ0WJo5Zkl6QysLUgJXLQvCVc,1247
+kmatch-0.4.0.dist-info/LICENSE,sha256=Ryffm-2AnCYciP16Q9QHmKPvmT3jfoWHbWmpkIXCNeE,1095
+kmatch-0.4.0.dist-info/METADATA,sha256=UGEU-oIcA8lJ7fd0uOg3p9sfULVXcwGyzjCCJas2Pm4,1660
+kmatch-0.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kmatch-0.4.0.dist-info/top_level.txt,sha256=oX-avMpxuDA-BeT_TcxW-oSx0cYSngmcnVFznDvN4PE,7
+kmatch-0.4.0.dist-info/RECORD,,

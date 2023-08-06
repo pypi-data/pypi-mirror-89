@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+qtemplate/__init__.py
+qtemplate.egg-info/PKG-INFO
+qtemplate.egg-info/SOURCES.txt
+qtemplate.egg-info/dependency_links.txt
+qtemplate.egg-info/requires.txt
+qtemplate.egg-info/top_level.txt

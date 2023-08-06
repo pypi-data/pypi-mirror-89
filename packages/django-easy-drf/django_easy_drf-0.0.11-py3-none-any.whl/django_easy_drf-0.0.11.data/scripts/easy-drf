@@ -1,0 +1,6 @@
+#!python
+import os
+from django_easy_drf.main import create_all
+
+
+create_all(os.getcwd())

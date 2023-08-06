@@ -1,0 +1,7 @@
+README.md
+setup.py
+flyinghu.egg-info/PKG-INFO
+flyinghu.egg-info/SOURCES.txt
+flyinghu.egg-info/dependency_links.txt
+flyinghu.egg-info/requires.txt
+flyinghu.egg-info/top_level.txt

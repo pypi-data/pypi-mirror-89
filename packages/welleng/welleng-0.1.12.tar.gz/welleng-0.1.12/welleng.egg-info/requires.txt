@@ -1,0 +1,9 @@
+matplotlib
+networkx
+pandas
+python-fcl
+numpy
+scipy
+trimesh
+vedo
+vtk

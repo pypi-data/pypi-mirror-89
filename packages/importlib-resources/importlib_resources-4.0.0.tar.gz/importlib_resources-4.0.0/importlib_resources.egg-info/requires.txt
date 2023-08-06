@@ -1,0 +1,8 @@
+
+[:python_version < "3.8"]
+zipp>=0.4
+
+[docs]
+sphinx
+rst.linker
+jaraco.packaging

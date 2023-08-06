@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: perfectoai
+Version: 1.0.26
+Summary: perfectoAI is an automated emailable reporter along with AI graphs & predictions
+Home-page: https://github.com/genesisthomas/PerfectoAI.git
+Author: Genesis Thomas
+Author-email: gthomas@perforce.com
+License: GPLv3
+Keywords: Perfecto,appium,selenium,testing,api,automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: json2html
+Requires-Dist: jenkinsapi
+Requires-Dist: requests
+Requires-Dist: configparser
+Requires-Dist: termcolor
+Requires-Dist: numpy
+Requires-Dist: cython
+Requires-Dist: pandas
+Requires-Dist: retrying
+Requires-Dist: ephem
+Requires-Dist: pymeeus
+Requires-Dist: easydict
+Requires-Dist: korean-lunar-calendar
+Requires-Dist: MarkupSafe
+Requires-Dist: jinja2
+Requires-Dist: matplotlib
+Requires-Dist: colorama
+Requires-Dist: LunarCalendar
+Requires-Dist: holidays
+Requires-Dist: cmdstanpy
+Requires-Dist: convertdate
+Requires-Dist: openpyxl
+Requires-Dist: wheel
+Requires-Dist: pystan
+Requires-Dist: xlrd
+Requires-Dist: tzlocal
+Requires-Dist: plotly
+Requires-Dist: fbprophet
+
+# Perfectoai
+
+
+## Recommended system configuration:
+
+    1. 8 GB Ram and above
+
+    2. 2.20 GHz multi core processors and above
+
+
+## Prerequisites:
+
+  1. Install [Python](https://www.python.org/downloads/) version 3+ and make sure that python version > 3+ is set as default.
+
+  2. Install [pip](https://pip.pypa.io/en/stable/installing/)
+
+  3. Run the following command from command prompt:
+
+        `pip install perfectoai -U`
+
+    terminal:
+
+        `pip3 install perfectoai -U`
+
+    Additional requirements for Report processing:  
+
+    * Install [npm](https://nodejs.org/en/)
+
+    * Run the following command from command prompt/ terminal:
+
+            Mac: 
+                `sudo npm install -g electron@1.8.4 orca --unsafe-perm=true`
+            Windows: 
+                `npm install -g electron@1.8.4 orca --unsafe-perm=true`
+
+

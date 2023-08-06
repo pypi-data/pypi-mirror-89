@@ -1,0 +1,5 @@
+wxyz_core
+json-e<5,>=4.3
+
+[tests]
+pytest

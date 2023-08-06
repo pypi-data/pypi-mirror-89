@@ -1,0 +1,11 @@
+README.rst
+requirements.txt
+setup.py
+bin/csv2zip
+bin/csv_zip_rsync
+csv_zip_rsync/__init__.py
+csv_zip_rsync.egg-info/PKG-INFO
+csv_zip_rsync.egg-info/SOURCES.txt
+csv_zip_rsync.egg-info/dependency_links.txt
+csv_zip_rsync.egg-info/requires.txt
+csv_zip_rsync.egg-info/top_level.txt

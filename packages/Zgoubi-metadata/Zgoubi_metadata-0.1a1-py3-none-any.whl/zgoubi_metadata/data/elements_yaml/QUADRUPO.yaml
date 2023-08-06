@@ -1,0 +1,39 @@
+zgoubi_name: QUADRUPO
+params:
+  IL: {type: I, default: 0, doc: ""}
+  XL: {type: E, unit: cm, default: 0, doc: ""}
+  R_0: {type: E, unit: "", default: 0, doc: ""}
+  B_0: {type: E, unit: "", default: 0, doc: ""}
+  X_E: {type: E, unit: "", default: 0, doc: ""}
+  LAM_E: {type: E, unit: "", default: 0, doc: ""}
+  NCE: {type: I, default: 0, doc: ""}
+  C_0: {type: E, unit: "", default: 0, doc: ""}
+  C_1: {type: E, unit: "", default: 0, doc: ""}
+  C_2: {type: E, unit: "", default: 0, doc: ""}
+  C_3: {type: E, unit: "", default: 0, doc: ""}
+  C_4: {type: E, unit: "", default: 0, doc: ""}
+  C_5: {type: E, unit: "", default: 0, doc: ""}
+  X_S: {type: E, unit: "", default: 0, doc: ""}
+  LAM_S: {type: E, unit: "", default: 0, doc: ""}
+  NCS: {type: I, default: 0, doc: ""}
+  CS_0: {type: E, unit: "", default: 0, doc: ""}
+  CS_1: {type: E, unit: "", default: 0, doc: ""}
+  CS_2: {type: E, unit: "", default: 0, doc: ""}
+  CS_3: {type: E, unit: "", default: 0, doc: ""}
+  CS_4: {type: E, unit: "", default: 0, doc: ""}
+  CS_5: {type: E, unit: "", default: 0, doc: ""}
+  XPAS: {type: X, default: 0, doc: ""}
+  KPOS: {type: I, default: 0, doc: ""}
+  XCE: {type: E, unit: "", default: 0, doc: ""}
+  YCE: {type: E, unit: "", default: 0, doc: ""}
+  ALE: {type: E, unit: "", default: 0, doc: ""}
+template:
+- [IL]
+- [XL, R_0, B_0]
+- [X_E, LAM_E]
+- [NCE, C_0, C_1, C_2, C_3, C_4, C_5]
+- [X_S, LAM_S]
+- [NCS, CS_0, CS_1, CS_2, CS_3, CS_4, CS_5]
+- [XPAS]
+- [KPOS, XCE, YCE, ALE]
+doc: |

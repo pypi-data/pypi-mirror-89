@@ -1,0 +1,10 @@
+zgoubi_name: PARTICUL
+params:
+  M: {type: E, unit: "", default: 0, doc: ""}
+  Q: {type: E, unit: "", default: 0, doc: ""}
+  G: {type: E, unit: "", default: 0, doc: ""}
+  tau: {type: E, unit: "", default: 0, doc: ""}
+  X: {type: E, unit: "", default: 0, doc: ""}
+template:
+- [M, Q, G, tau, X]
+doc: |

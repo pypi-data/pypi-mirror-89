@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+x509middleware/__init__.py
+x509middleware/asgi.py
+x509middleware/util.py
+x509middleware.egg-info/PKG-INFO
+x509middleware.egg-info/SOURCES.txt
+x509middleware.egg-info/dependency_links.txt
+x509middleware.egg-info/requires.txt
+x509middleware.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tabular-nn
+Version: 0.1.0
+Summary: Tabular NN: Neural Network for Tabular Data implement by PyTorch
+Home-page: https://github.com/auto-flow/tabular_nn
+Author: Qichun Tang
+Author-email: qichun.tang@bupt.edu.cn
+License: BSD
+Description: # Tabular NN
+        
+        -----
+        
+        Neural Network for Tabular Data implement by PyTorch.
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown

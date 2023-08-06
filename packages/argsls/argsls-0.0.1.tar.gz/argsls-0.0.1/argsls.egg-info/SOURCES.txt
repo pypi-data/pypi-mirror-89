@@ -1,0 +1,7 @@
+README.md
+setup.py
+ArgTools/__init__.py
+argsls.egg-info/PKG-INFO
+argsls.egg-info/SOURCES.txt
+argsls.egg-info/dependency_links.txt
+argsls.egg-info/top_level.txt

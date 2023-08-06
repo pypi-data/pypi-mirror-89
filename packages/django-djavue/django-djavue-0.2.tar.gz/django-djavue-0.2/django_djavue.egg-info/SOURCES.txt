@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_djavue.egg-info/PKG-INFO
+django_djavue.egg-info/SOURCES.txt
+django_djavue.egg-info/dependency_links.txt
+django_djavue.egg-info/top_level.txt
+djavue/__init__.py
+djavue/component_list.py
+djavue/parser.py
+djavue/renderer.py
+djavue/views.py

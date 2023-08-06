@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: metaClean
+Version: 0.4.3
+Summary: Auto Clean Pictures MetaData
+Home-page: https://gitlab.com/veggieburger/metaclean.git
+Author: veggieburger
+Author-email: veggies4dayz@protonmail.com
+License: UNKNOWN
+Description: # Meta Cleaner
+        
+        Python project to clean meta data off of pictures inserted in particular folder. 
+        
+        This script is in the very early stages. 
+        
+        This script can be run as a systemd service or on its own. 
+        
+        Run the script by going to its directory and entering python3 metaClean.py <flags> 
+        
+        The following flags are available to use. 
+        
+        -c or --configure
+        
+        - This flag configures the file config.yml setting the watched directory, recursivity, and whether this will be run as a systemd service or not
+        
+        -s or --start
+        
+        - This flag starts watching the set directory if the configuration paramater *service* is set to false
+        - If *service* is set to true, the script starts the systemctl daemon. 
+        
+        -sh or --show
+        
+        - This flag shows the current configuration of config.yml
+        
+        -ser or --service
+         
+        - This flag is used for the systemctl daemon, it bypasses all if other setups and just watches the set directory. This flag is not intended to only be used by the systemd daemon. 
+        
+        Ex. 
+        python3 metaClean.py -sh -c -s 
+        
+        This command will 
+        1. show your current config.yml
+        2. Allow you to edit config.yml
+        3. Start the service. Ether as a deomon or standalone service. All depending what you configure it as. 
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

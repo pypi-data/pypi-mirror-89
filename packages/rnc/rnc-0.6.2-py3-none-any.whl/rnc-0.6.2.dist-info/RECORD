@@ -1,0 +1,14 @@
+rnc/__init__.py,sha256=TuNZJFvVFbMdrUTvb3XC0eva_Hvrep9yQfxAVn8RTTY,5455
+rnc/corpora.py,sha256=JFAiPFRGuFUXqnmkfJII8DtzDk5GSrP8ExPcsjk2dGE,51827
+rnc/corpora_params.py,sha256=jUzKyD0WIOGYg7HnyhWOOiaKGVysm3s59oV-H9HrT88,4748
+rnc/corpora_requests.py,sha256=QCb4CK2xVQzTHJW1cnsnk1S1K9rauv2mXlNj4DSIcXc,10589
+rnc/examples.py,sha256=Cgmv2OzVO0985-fj_DOj8PPbPkuTgXWnEP6DMHGmkSo,20676
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_corpora.py,sha256=Uzf3D7leGmWejjSWIKrudGMbgnFBzjHhgJlxWPJc0OM,19457
+tests/test_examples.py,sha256=ULYiQKZjHD3jkI3Fp2va1YCGDHaKGTwzWvQQn0TtaM0,12951
+tests/test_requests.py,sha256=EgLVWELAxe4CQc_ND1PvhMPL_8-3qHH4glsqGN9-w74,698
+rnc-0.6.2.dist-info/LICENSE,sha256=cP0FR0cZU45FAfKCjwT_o0Hj1F62ORH-IQNVIVqtMUQ,1063
+rnc-0.6.2.dist-info/METADATA,sha256=DqlAfQaur-Vfn5_cf0xdvAJN8lrACkpjjVs0oQslZbw,12223
+rnc-0.6.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rnc-0.6.2.dist-info/top_level.txt,sha256=CtpsMk7Q5Y8jntqBO7yoMR1CFxuF7zh8aKMpvsrMGOc,10
+rnc-0.6.2.dist-info/RECORD,,

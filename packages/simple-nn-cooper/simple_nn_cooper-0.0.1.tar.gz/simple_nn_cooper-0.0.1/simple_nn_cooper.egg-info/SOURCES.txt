@@ -1,0 +1,11 @@
+README.md
+setup.py
+simple_nn_cooper/__init__.py
+simple_nn_cooper.egg-info/PKG-INFO
+simple_nn_cooper.egg-info/SOURCES.txt
+simple_nn_cooper.egg-info/dependency_links.txt
+simple_nn_cooper.egg-info/top_level.txt
+simple_nn_cooper/nn/__init__.py
+simple_nn_cooper/nn/core.py
+simple_nn_cooper/utils/__init__.py
+simple_nn_cooper/utils/utilities.py

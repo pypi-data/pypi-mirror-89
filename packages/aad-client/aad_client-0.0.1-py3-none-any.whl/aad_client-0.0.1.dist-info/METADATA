@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aad-client
+Version: 0.0.1
+Summary: Python Client for Packages Authenticating with Azure Active Directory
+Home-page: https://djpugh.github.io/aad_client
+Author: David Pugh
+Author-email: djpugh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Natural Language :: English
+Classifier: Development Status :: 2 - Pre-Alpha
+Provides: aad_client
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Requires-Dist: msal
+Requires-Dist: requests
+
+UNKNOWN
+
+

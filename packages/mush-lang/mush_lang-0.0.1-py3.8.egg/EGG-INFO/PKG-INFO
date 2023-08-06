@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: mush-lang
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/wwj718/mush_lang
+Author: Wenjie Wu
+Author-email: wuwenjie718@gmail.com
+License: GNU General Public License v3
+Description: 
+        mush-lang
+        
+        
+        
+Keywords: mush_lang
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0

@@ -1,0 +1,4 @@
+codelab_adapter_client>=4.0.0
+prompt_toolkit
+pygments
+click

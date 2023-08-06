@@ -1,0 +1,13 @@
+django_easy_drf-0.0.6.data/scripts/easy-drf,sha256=InlBnBZpk2p_sJ7ssJ76BjV5YGySF8I7ijvydatT5Is,115
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/__main__.py,sha256=mWpZk-fzqtpdX61ePjFFZ_agUW8XJCGP_R8UA5t4GDc,80
+lib/creator.py,sha256=D_witDD9pyNr3aBfANQ7Q1gKdyPXOhrg2GSjoyL9_9Y,1752
+lib/models.py,sha256=fFd7R-AKRFbRDL2h95Pu11ylaxLNN6UXvmF8_6sdZ8U,1289
+lib/serializers.py,sha256=G5aDp6ywJvghtPg2Dp0GX9omTot7low9DEvjXV2PZzc,545
+lib/urls.py,sha256=YMvz4by3sG_NTQxgoeXFPdC26Gg7guHBeHq6oDIURC4,310
+lib/views.py,sha256=IfXiOxrIlifdhW-MZWCypHapLNCHUjnBNsNrlmyhJfk,455
+django_easy_drf-0.0.6.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+django_easy_drf-0.0.6.dist-info/METADATA,sha256=gbOmXhBYf3Lpq-gnu9Qc-ElV_0XqsD2DhnF5NQQM-RE,653
+django_easy_drf-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_easy_drf-0.0.6.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+django_easy_drf-0.0.6.dist-info/RECORD,,

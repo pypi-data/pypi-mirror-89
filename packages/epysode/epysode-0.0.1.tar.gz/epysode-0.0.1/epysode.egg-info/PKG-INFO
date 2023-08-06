@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: epysode
+Version: 0.0.1
+Summary: Utils to work with files.
+Home-page: https://github.com/thorwhalen/ut/tree/master/epysode
+Author: Thor Whalen
+License: mit
+Description: 
+        # epysode
+        Utils to work with files.
+        
+        
+        To install:	```pip install epysode```
+        
+Platform: any
+Description-Content-Type: text/markdown

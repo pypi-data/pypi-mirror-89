@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+epysode/__init__.py
+epysode/accessor.py
+epysode/facc.py
+epysode/iter.py
+epysode/mk.py
+epysode/name.py
+epysode/to.py
+epysode.egg-info/PKG-INFO
+epysode.egg-info/SOURCES.txt
+epysode.egg-info/dependency_links.txt
+epysode.egg-info/not-zip-safe
+epysode.egg-info/top_level.txt

@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: dop-python-pip-package
+Version: 0.0.4
+Summary: Python utils library
+Home-page: https://github.com/RyanAngJY/dop_python_pip_package
+Author: Ryan
+Author-email: ryanang.jy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: atomicwrites (==1.4.0)
+Requires-Dist: attrs (==20.3.0)
+Requires-Dist: bleach (==3.2.1)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==3.3.0)
+Requires-Dist: keyring (==21.7.0)
+Requires-Dist: more-itertools (==8.6.0)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: packaging (==20.8)
+Requires-Dist: pkginfo (==1.6.1)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: Pygments (==2.7.3)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest (==3.7.2)
+Requires-Dist: readme-renderer (==28.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: tqdm (==4.55.0)
+Requires-Dist: twine (==3.3.0)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.26.2)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.4.0)
+
+This is a sample python library that can be installed by other projects.
+
+# Making new changes
+
+Remember to run:
+
+```
+pipenv shell
+```
+
+# Deploying new changes
+
+## Step 1: Update the version number in setup.py
+
+## Step 2: Deploy
+
+```
+make install_required
+make build_package
+make push_to_pypi
+```
+
+# Installation
+
+To install, run:
+
+```
+pip install dop-python-pip-package
+```
+
+

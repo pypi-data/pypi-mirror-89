@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+happyreport/__init__.py
+happyreport/happy.py
+happyreport.egg-info/PKG-INFO
+happyreport.egg-info/SOURCES.txt
+happyreport.egg-info/dependency_links.txt
+happyreport.egg-info/top_level.txt
+happyreport/email/__init__.py
+happyreport/email/smtp.py
+happyreport/format/__init__.py
+happyreport/format/format.py

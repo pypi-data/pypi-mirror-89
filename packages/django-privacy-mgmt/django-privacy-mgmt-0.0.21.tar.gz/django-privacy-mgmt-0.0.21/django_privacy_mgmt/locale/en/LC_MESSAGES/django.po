@@ -1,0 +1,92 @@
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:22
+msgid "Name"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:23
+msgid "Description"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:23
+msgid "What's the cookie's purpose?"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:24
+msgid "Lifetime"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:24
+msgid "The cookie's liftime (e.g. 1 Year)"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:25
+msgid "Domain"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:25
+msgid "Domain of the cookie (e.g. .domain.com)"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/models.py:36
+msgid "Ordering"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/banner.html:56
+msgid ""
+"<a href=\"#\" class=\"btn btn-default btn-xs js-cookie-accept pull-right"
+"\">Accept</a> This website uses cookies to help ensure that you enjoy the "
+"best experience.<br/> If you do not consent to our use of cookies, please "
+"adjust your <a href=\"#\" class=\"js-cookie-settings\">privacy settings</a> "
+"accordingly."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/link.html:1
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:49
+msgid "Privacy Settings"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:53
+msgid ""
+"Websites do not have full control over cookies that may set by various third-"
+"party scripts. To see detailed information about and to manage cookies in "
+"your browser, please check its privacy settings."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:62
+msgid "Essentials"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:63
+msgid ""
+"These cookies and scripts cannot be deactivated as they are needed to "
+"correctly render this website."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:73
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:104
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:129
+msgid "Currently none in use."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:81
+msgid "Statistics"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:89
+msgid ""
+"These tools are used to collect statistics about user behaviour that helps "
+"us to improve our website and services. No personal data are collected."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:112
+msgid "Personalisation"
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:119
+msgid ""
+"In order to improve your experience of our services, we will customise your "
+"experience based upon your usage."
+msgstr ""
+
+#: addons-dev/django-privacy-mgmt/django_privacy_mgmt/templates/django_privacy_mgmt/popup.html:134
+msgid "Accept"
+msgstr ""

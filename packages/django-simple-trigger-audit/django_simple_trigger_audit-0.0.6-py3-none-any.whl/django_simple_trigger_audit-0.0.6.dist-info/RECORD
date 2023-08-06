@@ -1,0 +1,16 @@
+simple_trigger_audit/__init__.py,sha256=F4gt-Jyf_bytB0YbxnGqQaUbBB_JGJJ6TImLBECcxGc,77
+simple_trigger_audit/admin.py,sha256=5YFLJS--fV2uNXoGksFHZKrouMVst547gjJws7mBvJo,1156
+simple_trigger_audit/apps.py,sha256=qKqc-SMBenmN2e3tr11w8tZRANsDnJmFMfuEEOEUArM,836
+simple_trigger_audit/middleware.py,sha256=c7vWo_43LE7TlRiOK1rZH4kBk5lrhs6i6HOKiIh2hXc,1252
+simple_trigger_audit/models.py,sha256=2hvCr1QAd5_nV6FR1Gw8HTfTPyn19lOdNgtR9ALxAR4,1280
+simple_trigger_audit/signals.py,sha256=zsjPsIbW5Gvhk7nT2ydN5hxe0XeDOh6N0VvvuBAqIrI,4501
+simple_trigger_audit/utils.py,sha256=RPosKogee11Y4WWnvD2uUPDX4z94YYvdEun-lElluEE,289
+simple_trigger_audit/migrations/0001_initial.py,sha256=WuTiIk7X7LO8cncJZT4LNntXIal2-JWW0yyyZJvg3tk,1019
+simple_trigger_audit/migrations/0002_trigger_audit_entries_table.py,sha256=s22E7Cc4_i6meIpxOEZbDdsPfpMQJb7Jz8qtXKMLijA,798
+simple_trigger_audit/migrations/0003_trigger_audit_entry_creator_func.py,sha256=Jfad_aU8Aox5xA35u58l1SoFpcz_qHRjkgzLCWnPmcM,1687
+simple_trigger_audit/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_trigger_audit-0.0.6.dist-info/LICENSE,sha256=w_erimHDUkZUjP4yxOWNGnon8pXPyEFPyf5pW4DWGzs,1511
+django_simple_trigger_audit-0.0.6.dist-info/METADATA,sha256=d9noWCsCN7WYTYcDrHOuyx-vhI7miiRVPq8k7Rl14ZU,8025
+django_simple_trigger_audit-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_simple_trigger_audit-0.0.6.dist-info/top_level.txt,sha256=GUwa8Q-jBR5DxAmMOFPiuJvJMPtjdV_6-huAk3XPkds,21
+django_simple_trigger_audit-0.0.6.dist-info/RECORD,,

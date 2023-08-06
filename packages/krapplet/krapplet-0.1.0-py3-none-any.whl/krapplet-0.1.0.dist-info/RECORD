@@ -1,0 +1,12 @@
+krapplet/__init__.py,sha256=v7QQahRmpKz4Fk0Hpy6_ez9pvn2hLq_hI1DqqW7rGOI,187
+krapplet/__main__.py,sha256=35633ZYWhWBN8p_5IrhEEbwehOYu8SV6Pt-DhRKa1Uo,304
+krapplet/krapplet.py,sha256=zTHLCYm4JOkxxKbWSyHCl8K036-lFxjURdQaCRjhyCk,28311
+krapplet-0.1.0.data/data/share/applications/krapplet.desktop,sha256=8vUWcNbUzkYQ0XQgP8dKfYu24qlKbrbTQQu48SAX-J0,241
+krapplet-0.1.0.data/data/share/icons/hicolor/48x48/apps/krapplet.png,sha256=wAvm7yLmZVNK3XhlSXkVcn5D48t5M3DvKzzRnWWhPCc,9171
+krapplet-0.1.0.data/data/share/icons/hicolor/96x96/apps/krapplet.png,sha256=oKom3psZ1JvujfGfp1qP0ckRM7ahYHhdMAk3zXyaxH4,14596
+krapplet-0.1.0.dist-info/LICENSE,sha256=e3koVsunJwNhLJ2soby9kjBFbhtrEETrzqZz3nY2Qog,1529
+krapplet-0.1.0.dist-info/METADATA,sha256=6w3OIz7FQLhJGVadGtMvcRgvI32Sj3MYzqUsswFg1D4,6174
+krapplet-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+krapplet-0.1.0.dist-info/entry_points.txt,sha256=b-JQYrZ9hF0-o0DX5nZKfFhN3JP6TtE15NvQLDXywgg,53
+krapplet-0.1.0.dist-info/top_level.txt,sha256=YMNBGUqwScNHlCdDe_v34ZXP52eiJYaHlm-p3FUGYqQ,9
+krapplet-0.1.0.dist-info/RECORD,,

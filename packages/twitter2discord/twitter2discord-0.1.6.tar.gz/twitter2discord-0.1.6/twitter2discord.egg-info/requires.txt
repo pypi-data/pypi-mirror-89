@@ -1,0 +1,4 @@
+emoji==0.5.1
+googletrans==4.0.0-rc1
+requests==2.20.0
+tweepy==3.7.0

@@ -1,0 +1,6 @@
+docopt
+xerox
+
+[tests]
+pytest
+pytest-cov

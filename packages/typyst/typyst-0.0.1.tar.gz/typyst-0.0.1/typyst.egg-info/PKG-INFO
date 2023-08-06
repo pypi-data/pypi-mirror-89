@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: typyst
+Version: 0.0.1
+Summary: Utils to manipulate strings
+Home-page: https://github.com/thorwhalen/ut/tree/master/typyst
+Author: Thor Whalen
+License: mit
+Description: 
+        # typyst
+        Utils to manipulate strings
+        
+        
+        To install:	```pip install typyst```
+        
+Platform: any
+Description-Content-Type: text/markdown

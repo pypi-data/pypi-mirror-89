@@ -1,0 +1,14 @@
+app_enabler/__init__.py,sha256=Z8xKQAKzFN7WnO7CBeQ31UywAo5_O_OO8xkCASZLgu4,84
+app_enabler/__main__.py,sha256=jLMqA2GhFwakFwFPXMtvKNGxQvLLoxknrnROk4G9Y3I,48
+app_enabler/cli.py,sha256=iwKwVJxB3egGmcj3lM-583y3-k-E54OidC6JvVbVM2g,2513
+app_enabler/django.py,sha256=48zUOhVsDZswSnfR9I06SUQ5kwzXNN1IJRnKevNOkdY,1365
+app_enabler/enable.py,sha256=ZosCYPP__QDBaNplO6bDeWVOkQ3aaHo0klX066GTM-0,3950
+app_enabler/errors.py,sha256=dknIKsZWP68SWv0BA2jEtrKU5poqmFc4xQiavE-vHv0,283
+app_enabler/install.py,sha256=crzxK0ARCFc1dqT72bUVsAKjpb5QuJPidatgUlb6C0g,2076
+app_enabler/patcher.py,sha256=CHw89S6oPh955yqg-L4mHKdvYZNSyvKgVfAntKIGwi4,6228
+django_app_enabler-0.2.0.dist-info/LICENSE,sha256=9QobDIx_YCVSXW3JsGiKZmwcXlVh7xj6amkVBd9-RWE,1478
+django_app_enabler-0.2.0.dist-info/METADATA,sha256=CaoIdnQ9OwIBZhTTpE2_yHrnWOJ1ZrDEWAz46d5IV9A,4777
+django_app_enabler-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_app_enabler-0.2.0.dist-info/entry_points.txt,sha256=0z-PyWyryewkexPavQcufbZXerwHq7skhpWkuGNjnNY,65
+django_app_enabler-0.2.0.dist-info/top_level.txt,sha256=fiyIUYqQ3WQ7u9uICC0Dkvwq7Ocb7U2LN_2Ml9aPNa0,12
+django_app_enabler-0.2.0.dist-info/RECORD,,

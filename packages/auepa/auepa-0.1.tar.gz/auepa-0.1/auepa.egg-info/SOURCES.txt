@@ -1,0 +1,9 @@
+setup.py
+auepa/__init__.py
+auepa.egg-info/PKG-INFO
+auepa.egg-info/SOURCES.txt
+auepa.egg-info/dependency_links.txt
+auepa.egg-info/top_level.txt
+auepa/Emoji/__init__.py
+auepa/Meta/__init__.py
+auepa/Utils/__init__.py

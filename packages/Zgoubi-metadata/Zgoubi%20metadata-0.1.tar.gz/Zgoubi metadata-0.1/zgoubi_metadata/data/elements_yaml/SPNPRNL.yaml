@@ -1,0 +1,6 @@
+zgoubi_name: SPNPRNL
+params:
+  FNAME: {type: A80, default: "", doc: ""}
+template:
+- [FNAME]
+doc: |

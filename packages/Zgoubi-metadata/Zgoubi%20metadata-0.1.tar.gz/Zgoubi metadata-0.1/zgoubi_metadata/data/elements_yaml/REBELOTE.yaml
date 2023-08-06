@@ -1,0 +1,8 @@
+zgoubi_name: REBELOTE
+params:
+  NPASS: {type: I, default: 0, doc: ""}
+  KWRIT: {type: I, default: 0, doc: ""}
+  K: {type: I, default: 0, doc: ""}
+template:
+- [NPASS, KWRIT, K]
+doc: |

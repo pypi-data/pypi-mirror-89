@@ -1,0 +1,12 @@
+README.md
+macos_notifier.py
+pyproject.toml
+setup.py
+macos_notifier.egg-info/PKG-INFO
+macos_notifier.egg-info/SOURCES.txt
+macos_notifier.egg-info/dependency_links.txt
+macos_notifier.egg-info/entry_points.txt
+macos_notifier.egg-info/requires.txt
+macos_notifier.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cron.py

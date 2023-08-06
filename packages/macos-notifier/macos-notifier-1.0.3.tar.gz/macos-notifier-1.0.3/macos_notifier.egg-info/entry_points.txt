@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        notifier=macos_notifier:cli
+    

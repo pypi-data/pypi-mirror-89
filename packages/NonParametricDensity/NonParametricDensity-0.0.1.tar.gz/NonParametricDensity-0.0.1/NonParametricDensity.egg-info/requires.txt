@@ -1,0 +1,4 @@
+numpy
+
+[GPU support]
+cupy

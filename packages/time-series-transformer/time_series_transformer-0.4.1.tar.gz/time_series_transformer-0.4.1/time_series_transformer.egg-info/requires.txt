@@ -1,0 +1,15 @@
+torch
+numpy==1.19.0
+
+[dev]
+pylint
+autopep8
+bumpversion
+twine
+
+[docs]
+
+[test]
+pytest
+flights-time-series-dataset
+time-series-predictor

@@ -1,0 +1,12 @@
+edgebenchmark/__init__.py,sha256=Wje9s5Fl1UobHFj2sW75cftI85MVQ1Xr54R_IbqkTxA,56
+edgebenchmark/custom_types.py,sha256=XJPkP5FzaopZWIb-OJbWDztWs5dr-jaR5C7qJPeR_bU,2421
+edgebenchmark/edgebenchmark.py,sha256=K4vtB9Y8XdqoyljlVBGd2MqOvpfeY6jKAuTT0XE8cOs,5831
+edgebenchmark/edgebenchmark_cli.py,sha256=1ZlenENuW4PqXdN_6fs3xJ5L320kPnS6DipbwhbnvRM,5024
+edgebenchmark/settings.py,sha256=o27Nc34_oOFPX225IPUrnqj01UDKMWtQw383VO8993w,1310
+edgebenchmark/utils.py,sha256=fJK4ssivswqY6c2CgQJxGLrSFkyc7pRi5aNIdT7Umw8,3612
+edgebenchmark-0.0.5.dist-info/LICENSE,sha256=hllDKmYpQ7DH_MfjYlY2NQD9T1aqDUIwPpw1sY7-lS0,11402
+edgebenchmark-0.0.5.dist-info/METADATA,sha256=Vh97dJLk_PnY3nHK7SCVbsabmqe5ubQE1PcPLutItT4,4211
+edgebenchmark-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+edgebenchmark-0.0.5.dist-info/entry_points.txt,sha256=S5H-pdL4NdqGQN7Dfb0jBsetT2WztPF2lS1xsiLD9PY,89
+edgebenchmark-0.0.5.dist-info/top_level.txt,sha256=yr66045-qCAFy1mID1zLdpOdd7s2aibdPtbstyjFdY0,14
+edgebenchmark-0.0.5.dist-info/RECORD,,

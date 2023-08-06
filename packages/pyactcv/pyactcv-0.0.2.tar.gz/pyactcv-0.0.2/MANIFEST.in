@@ -1,0 +1,4 @@
+include *.md
+include *.png
+recursive-include examples *.py
+recursive-include tests *.py

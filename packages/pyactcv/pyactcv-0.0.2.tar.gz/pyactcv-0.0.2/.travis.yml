@@ -1,0 +1,17 @@
+language: python
+python:
+  - "3.6"
+#env:
+#  global:
+    # yaml build with a lot of warnings, which clutter the output
+#    - PYTHONWARNINGS=ignore::yaml.YAMLLoadWarning
+install:
+  - pip install -e .
+  - pip install pytest
+ # - pip install pytest-cov codecov coveralls  # install packages for code coverage report
+script:
+#   - coverage run -m pytest -vv
+  - python setup.py pytest
+after_success:
+  - pip install coveralls
+  - coveralls # uploads report to codecov.io

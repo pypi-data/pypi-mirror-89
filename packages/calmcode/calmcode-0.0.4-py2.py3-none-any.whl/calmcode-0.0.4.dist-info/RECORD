@@ -1,0 +1,11 @@
+calmcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calmcode/challenge/__init__.py,sha256=I0mRI-HCjB1NOzzUwlTsivLuLnn3eYMODVpJfhKnfYM,78
+calmcode/challenge/_challenge.py,sha256=HjrubM5TJEW7vGrXUnrzwoXK3Mj0fIII5W-qqWX9Tbs,124
+calmcode/challenge/sailship.py,sha256=4dZQouTSEMA6H-oDgfEjTLjjMdH1PmhjaaJInzC_xAQ,2523
+calmcode/challenge/tsp.py,sha256=MpxK9RbdnqrPX5KfZp5H-svD6MpqyvgFnT0nuZIif30,2909
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_travelling_sales_ship.py,sha256=A__ymbNKfFQVPSKHJRaMj0fZxiYs4GC4guwgE1DqRXA,857
+calmcode-0.0.4.dist-info/METADATA,sha256=cytYHGuN_BMvnuovyQJPnNTyXWE9_I4-kL-kAh9cY64,419
+calmcode-0.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+calmcode-0.0.4.dist-info/top_level.txt,sha256=zV-DGj-w2UsjS0SK3AU4yYKdghDZYHbYpVkIWwSlFAc,15
+calmcode-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: eyecu-bumblebee
+Version: 0.1.2
+Summary: 
+Author: Oguz Vuruskaner
+Author-email: ovuruska@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

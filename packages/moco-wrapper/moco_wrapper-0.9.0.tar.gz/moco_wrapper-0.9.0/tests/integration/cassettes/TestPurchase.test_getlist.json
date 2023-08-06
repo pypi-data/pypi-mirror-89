@@ -1,0 +1,105 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2020-12-07T13:16:04",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.0"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/purchases?page=1"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAAAAAA/+xaXY+bRhT9K9Y8s3i+YXhuVbVVpSpK+9AoQmNm7EXFgIYhjRXtf6+GDwcTiHG0ybKbvHmHixnOPefee2b95gNIFYiQCEPCPZAqndt0n2oDIvAzhgjfQYgQ8IDRiU5LGw8j8jrLPGBTm2kQgde6sn/WJrmXlfatrmycWn0EHkjzfdEHpzuZ95+N3muj80T3C0pa90UYYngH0R10z1W1jtv1NqbS5l2a6LjUJi1UvDfFceaSPT+0stLWFYhAqXOV5gfggVKejjq38VHb+0KBCKjU6MTGSu9SCzyQaxvbwsoMRChEPvTAwRRV1a9hCN1aUhv3AicH1l+vgAf2aabj2mT9k5O6ssUxLk1RamNTXYHow4MHrDxUIHrz1gNJcSxlfmqXu011l+rKYdzmRxDCSSiQcI8wlc3l0SHlUHabbf+Su0SBBw842N13tLdiGnAcLEjTp69s5fvziugWQISgz9praZ5ktdIKRNbUegYiafWhMN0bVnVZZqk2cWK0Sm2c18ede8sAQggfHB5GS6tVLG1PBEfB4DUiEWIRRf8AD9SluhLz4A1oTWdoDcUMrQH/9e9XP/0GZjBzcMXNlRhttE38M8UnsG3fJ97XWQZm2f/x88bq9y6jn1eCW0fn9UlFXN46oYwzcKQJWKCQncz/ja2RebXX5pIvWBAf0xEBCMSPoBFQdni6dDi6X4imyXLAoYA0QPishIs8HLSN+zuGKfiqgqMLyDPSXKuXgebwWXL9p4Hi9jKrxpJDHeI3SM4b7Jld3zMe7bnL+2DT3A94t2vyZHWCwOt1wsVc1Ak21/7gd9D+ElndX+ZWMJ+STwgGffxZSYNtdaqsPm5VkdSNtrYySYo6t1sSECoYZeJ8bUsR5ziAW0U1QVruCEdMcgb9Uu3Beronv617dsgNREH9IOhEwT6V8oQoeqAfVRR8gSj4UBQIsmBCFMg1T7pIFKo+Hk+bvoR7G4fY5qDtc5HFy50KSUgDsihRa50L0R2mr2EQIRhBMUPtUcwFtafqfUNtcgO1G1Q7uNo9bv5L7f3Gpfy5kPyJaj9kVAi45XuEIEWSQ4SwJGRFtd9pBN2Y8ZX2gaEQyAKx0JFYpkxUIxY8Z6KC3/8g7BcwV2IaHL1Nk5ORi+pwzvdFb4d++KbbfVOLYsPKScsUCsYYP0ugDe+p1fF74L2+gW8iIeViCV/WZJxcjYBXNl3ppMjViq1Tr3woIhZeqQ5dzIV1EnPWadmU+MjWCd810+m3ap+lPJUyG5X+0IdjXaOr0+GXmCe+3YkwYZzQAAocyCRcUQOlASfwRvPUIjccMX3B5+U80zQf+0RhVhajmIumOSWLpmnyLzdP7RY2HTHXJBFZlqZ4p9XX1ci6HBS7MVsrJfpg8sNzR2ejmCHROZwjevASib7GXtCYKbINlQgCGAqJiVRK8hX1AicX/vLkwhbIhY3GpXBuXFp28vAMxqXvrRfQgGPxMgYdvGDQwaNBh8zV/2W/HJgwTZv22pdymn7bE7QpSiOBfMEmHNvnD9HWw2lnx8NlSZp47QGvQx+zjtfUJwt97aOeejnPeu3Uq4u5KNRTvG5+OhDeXqg//hf1B6ufuFKTJSlaK6cHdXh2+BjFPLz9PwAA///2Hyk/5yUAAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Length": [
+            "1234"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Mon, 07 Dec 2020 13:16:03 GMT"
+          ],
+          "Etag": [
+            "W/\"60e7bd89a6043d4d99fccb6a9f514c1a\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Page": [
+            "1"
+          ],
+          "X-Per-Page": [
+            "100"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "4301ede3-edcb-4796-8143-879528c04d25"
+          ],
+          "X-Runtime": [
+            "0.081846"
+          ],
+          "X-Total": [
+            "12"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/purchases?page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

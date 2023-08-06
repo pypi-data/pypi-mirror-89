@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_probmax/Binomialdistribution.py
+distributions_probmax/Gaussiandistribution.py
+distributions_probmax/Generaldistribution.py
+distributions_probmax/__init__.py
+distributions_probmax.egg-info/PKG-INFO
+distributions_probmax.egg-info/SOURCES.txt
+distributions_probmax.egg-info/dependency_links.txt
+distributions_probmax.egg-info/not-zip-safe
+distributions_probmax.egg-info/top_level.txt

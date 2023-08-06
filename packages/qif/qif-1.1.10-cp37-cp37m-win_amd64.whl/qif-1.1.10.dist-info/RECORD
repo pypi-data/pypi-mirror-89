@@ -1,0 +1,12 @@
+qif/__init__.py,sha256=qkvcLAQqZK0uSAWBH_5P7wggwrmdAoBOEkspCR6gMq4,50
+qif/_qif.cp37-win_amd64.pyd,sha256=xaVztt1YhJhFuaeEa6InffOFIAcPQGgWGqPIukBMX1k,15518720
+qif/gsl.dll,sha256=Cbn5Bczi5BZ5MgBKDB3Q9ocW4_ZiNMCr6AwMiQtp9oI,2653696
+qif/gslcblas.dll,sha256=F8LBsJQXfYb-5R0bgGPhlGkMEzrZAcbfSm7q_r8aAzs,416256
+qif/libopenblas.dll,sha256=9Kh1NwyAyaGYEsUcPYDRewL1s-xSJDdJD26akdWK3Uc,32658112
+qif/mp++.dll,sha256=BPxy4LKrFIrnW4T1uOIHJnfyESDJAwDQPSAatKsbZrs,38400
+qif/mpir.dll,sha256=U7kKsY-xnYpqOvYQJETnDZbqp2Rcqt1cyddZduUTXnc,598016
+qif/msvcp140.dll,sha256=EN3_SNcExgB-TC1T-0hWteXnlHlQM2YjYkajI6qnbp0,585096
+qif-1.1.10.dist-info/METADATA,sha256=bSRBHOg3IcfLHslqhgfPRdXP-vSNkGyZfMtPrK5AvKA,1593
+qif-1.1.10.dist-info/WHEEL,sha256=zdzelNAN7OMlbGAPizxWEjDYw36I1XfOus-OTyLWlAw,106
+qif-1.1.10.dist-info/top_level.txt,sha256=FA-bUqbDJphNdzvmJRpSaPb35L5wZCd76pypfNrkgo0,13
+qif-1.1.10.dist-info/RECORD,,

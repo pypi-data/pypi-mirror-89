@@ -1,0 +1,9 @@
+README.md
+setup.py
+serverhttp/__init__.py
+serverhttp/app.py
+serverhttp/srv.py
+serverhttp.egg-info/PKG-INFO
+serverhttp.egg-info/SOURCES.txt
+serverhttp.egg-info/dependency_links.txt
+serverhttp.egg-info/top_level.txt

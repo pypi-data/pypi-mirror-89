@@ -1,0 +1,11 @@
+snipwizard/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+snipwizard/decorators.py,sha256=2KHjkVkmDub655JI0B66cg0d22tufrQ22SJlUR0tpiM,843
+snipwizard/ds/__init__.py,sha256=7xF82SoTV8teKaG_UPXZghb_gZ55IP3TQz3MpA3D4qA,115
+snipwizard/ds/circular_doubly_linked_list.py,sha256=6ib1U8fmzvlxxN_-xTDBVeLylUAIPcJRgIF1cenfLQQ,3110
+snipwizard/ds/doubly_linked_list.py,sha256=El_Rat3iJCD2glfno9S8_DbQLnNlzCJKG4BOhzQmVwA,2981
+snipwizard/func.py,sha256=gSrkFRwUqAbJ9KzkI-mosOlFImhQhSPHlcwT7fcqYAE,734
+snipwizard/option.py,sha256=ekuRJWhbwxKsa5ynQn2iE2hF4xKkoqz6t43zApnycnE,2657
+snipwizard/singleton.py,sha256=d5M-H37o2cqgSBDg-RulXS3pvbVZ4I8SPIAXHPXWAog,238
+snipwizard-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+snipwizard-0.1.0.dist-info/METADATA,sha256=zCd3E_Ifrbu9NkL1d_Mjvavqs33KHjACnDXv1M4hKeY,535
+snipwizard-0.1.0.dist-info/RECORD,,

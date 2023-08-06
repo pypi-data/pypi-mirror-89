@@ -1,0 +1,10 @@
+README.md
+setup.py
+nospamplus/__init__.py
+nospamplus/class_types.py
+nospamplus/connect.py
+nospamplus.egg-info/PKG-INFO
+nospamplus.egg-info/SOURCES.txt
+nospamplus.egg-info/dependency_links.txt
+nospamplus.egg-info/requires.txt
+nospamplus.egg-info/top_level.txt

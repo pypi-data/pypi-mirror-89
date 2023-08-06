@@ -1,0 +1,10 @@
+python_script_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_script_manager/__main__.py,sha256=A4Y7VdR389yo5DBOeuINOpDD33yJoZv1f5jHtuXkVIk,1367
+python_script_manager/const.py,sha256=yRYF_t7vKCuclUUl77VzcbUxB0wKfGIaUcQT0LNSw_Y,39
+python_script_manager/funcs.py,sha256=MoprZM90dc8DpAqw1RSLCTs-t6u_RhE_Y4D8K0esRbM,1195
+python_script_manager-0.0.4.dist-info/LICENSE.txt,sha256=iQeht64G9E15oAF72wPSH6mUlUafBHM7wU-J9p5A8jY,1072
+python_script_manager-0.0.4.dist-info/METADATA,sha256=rei2ZL19OIr5uPGcEyQJYQB_3zwXxms9wic9LzAEeGI,1898
+python_script_manager-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_script_manager-0.0.4.dist-info/entry_points.txt,sha256=OHXHLU5TJUnl_G0i-f5yyfuzz6rXpJpQGPKprv9wvgU,79
+python_script_manager-0.0.4.dist-info/top_level.txt,sha256=yK6eFnQOnxqghe_AmT9u8_PGWhJnNct81JKKNMg1Dyc,22
+python_script_manager-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+strnaming/__init__.py,sha256=s1nvwSYzdN2lirdUJt2WnIUC-cmaf52nXUlo-FEA-4g,1200
+strnaming/__main__.py,sha256=AVl8_lW_FgLwLe2CkZMwoXvAE3B7tKNoTBCLY4dVyDc,1135
+strnaming/classes.py,sha256=R6Ykn__ALVbrdaXYMW_z7aF6BrEJXWy7C1hwPZ5YOuc,25232
+strnaming/libstrnaming.py,sha256=nO0XKpmYP06_U3up0hwIef1eZZDVhVYQ62hfzlb0oOQ,52205
+strnaming/strnaming.py,sha256=u_pBHj7Ll4vHYxTruj4sFclbCddcKdjk_0M9VIf0dWQ,5006
+strnaming/data/ranges_uas-frr.txt,sha256=mzyFGnsHImNXdFEX7UlM1suajOEywPigq32DXi7fCVs,2118
+strnaming/data/refseqs.txt,sha256=-Qu0S2nwZ1oRU8ms8NFI9GPIIu3OwmyaG41CGeh_ctE,23652
+strnaming/data/structures.txt,sha256=25nuLGPQr9FMvVQNvI_u-hhdGYGD5nw5hCaaypsuLD0,5922
+strnaming-1.0.0.dist-info/LICENSE-LESSER.txt,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+strnaming-1.0.0.dist-info/LICENSE.txt,sha256=s9Hq5_Uk_J3dSFYqRlLv0rzYSOOLA_BeOIvM6UPnPfI,35819
+strnaming-1.0.0.dist-info/METADATA,sha256=nK6QrisAIxtrNS-8piWg1sWOUF5ci5Smd_nsuM6U3ok,3401
+strnaming-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+strnaming-1.0.0.dist-info/entry_points.txt,sha256=XoZQhQwQBTHHjnwqMDm_U-D1VfzZbOfZ3jiNptCI74Q,56
+strnaming-1.0.0.dist-info/top_level.txt,sha256=NftYcoGTg2vPAJNeTdKAX56XyiWGqZDHltL490lp5HU,10
+strnaming-1.0.0.dist-info/RECORD,,

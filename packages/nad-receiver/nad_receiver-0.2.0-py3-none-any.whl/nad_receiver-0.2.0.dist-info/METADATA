@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nad-receiver
+Version: 0.2.0
+Summary: Library to interface with NAD receivers through RS232, TCP and telnet
+Home-page: https://github.com/joopert/nad_receiver
+Author: joopert
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/joopert/nad_receiver/archive/0.2.0.tar.gz
+Platform: UNKNOWN
+Requires-Dist: pyserial (>=3.2.1)
+
+UNKNOWN
+
+

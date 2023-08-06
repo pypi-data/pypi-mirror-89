@@ -1,0 +1,9 @@
+README.rst
+setup.py
+lshcos/__init__.py
+lshcos/lshcos.py
+lshcos.egg-info/PKG-INFO
+lshcos.egg-info/SOURCES.txt
+lshcos.egg-info/dependency_links.txt
+lshcos.egg-info/requires.txt
+lshcos.egg-info/top_level.txt

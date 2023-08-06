@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: lshcos
+Version: 0.0.2
+Summary: A fast Python implementation of locality sensitive hashing with cosine distance.
+Home-page: https://github.com/jinzitian/LSHCos
+Author: Chef_J
+Author-email: hedge_jzt@hotmail.com
+Maintainer: Chef_J
+Maintainer-email: hedge_jzt@hotmail.com
+License: MIT
+Description: ==========
+        LSHCos
+        ==========
+        
+        A fast Python implementation of locality sensitive hashing with cosine distance
+        
+        Installation
+        ============
+        ``LSHCos`` depends on the following libraries:
+        
+        - numpy
+        
+        
+        To install:
+        
+        .. code-block:: bash
+        
+            $ pip install lshcos
+        
+        Quickstart
+        ==========
+        To create band 2 row 6 hashes for input data of 8 dimensions:
+        
+        .. code-block:: python
+        
+            import numpy as np
+            from lshcos import LSHCos
+            
+            ### usage one:
+            lshcos = LSHCos(2, 6, 8)
+            lshcos.add([1,2,3,4,5,6,7,8],'v_1')
+            lshcos.add([2,3,4,5,6,7,8,9],'v_2')
+            lshcos.add([10,12,99,1,5,31,2,3],'v_3')
+            lshcos.query([1,2,3,4,5,6,7,7],2)
+            
+            ### usage two:
+            lshcos = LSHCos(2, 6, 8)
+            xxx = [('v_'+str(i),np.random.randn(8)) for i in range(100)]
+            yyy = np.random.randn(8)
+            for name,v in xxx:
+                lshcos.add(v,name)
+            lshcos.query(yyy)
+        	
+        Main Interface
+        ==============
+        
+        - To initialize a ``LSHCos`` instance:
+        
+        .. code-block:: python
+        
+            LSHCos(band_num, row_num, v_dim)
+        
+        parameters:
+        
+        ``band_num``:
+            The number of band.
+        ``row_num``:
+            The number of row for each band.
+        ``v_dim``:
+            The dimension of the input vector.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+extensions/ublock-origin.crx,sha256=HzrFdp8_IudRRdY8QMNTXeofUEco1xgIAD4v00HmSV0,2790849
+persine/__init__.py,sha256=nh_0owYKAKlP7AYJ5RIrJuHyBkeB1D8GT-nTsY9FXHU,133
+persine/bridges/__init__.py,sha256=E4123RaEc6EIAvqYtneAlguoQY3XOqDMyUKa17FxHII,113
+persine/bridges/amazon.py,sha256=z2D2g4bkdBUw4Ia3VIJ3cYHKHfvDezKzbB0IrJ1f8rc,6492
+persine/bridges/youtube.py,sha256=Gp7yTFaysXg0rMQOuDop23ooFMOOXeQPHkgdN9c1yoU,11846
+persine/persona.py,sha256=q2jXdRqVtjcpZtyiUCJl9xwGRB2WdcRLSWnvo42tTGo,3911
+persine/persona_engine.py,sha256=uyrQjcp5WZs_1Jrso3gPtvAf9uwJUj1GmofwsEZftJ0,6269
+persine/utils.py,sha256=pNjXbVe_Hd9bnMelyEhzGWRwsAASx-1SaXhTkzLKcpA,994
+persine-0.1.1.dist-info/LICENSE,sha256=JJdUUbWSFhYP2wz_wGVJmkOQpykbv3jyHA62p0HjyHs,1054
+persine-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+persine-0.1.1.dist-info/METADATA,sha256=3SDihuuZY5UdFuhUiOzoHfxVoDs74dO_NdMsKsTSge8,7878
+persine-0.1.1.dist-info/RECORD,,

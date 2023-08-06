@@ -1,0 +1,8 @@
+loadmydata/__init__.py,sha256=p56B5btWSFwK6V9bTGkMeBLGqclCePjDu5eS6v__DW4,36
+loadmydata/config.py,sha256=ONsDGj-UMXL29v7Hv8045SVq652LRmLOyYvaetX4Y48,193
+loadmydata/load_uea_ucr.py,sha256=gsEZugMVx790WW-bYBmzm4H9nRvPntmHy8-_Y26tsv4,1592
+loadmydata/utils.py,sha256=rKguPN4thT3-5ueNtWuLvwxK06KYAXpJuBl91_IoL0s,2383
+loadmydata-0.0.0.dist-info/LICENSE,sha256=PtUpTNrQKb3Pltbo2lP0ObbMPAib-QtFxDZrB85lWQk,1320
+loadmydata-0.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+loadmydata-0.0.0.dist-info/METADATA,sha256=Z59_E63WLA1S4Wj6oBpykDVEp13kJOjkrrCQKhZ7XH0,639
+loadmydata-0.0.0.dist-info/RECORD,,

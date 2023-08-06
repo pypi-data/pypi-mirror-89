@@ -1,0 +1,8 @@
+distributions_probmax/Binomialdistribution.py,sha256=ok2v8gVtJX_RJpu1CFCStzVE3fjRDGPQGpTdVRJw378,1827
+distributions_probmax/Gaussiandistribution.py,sha256=pzvkgrNHWlC4UFbGm2ce2Yn943iNl3Qts9-5_sfb6bM,3631
+distributions_probmax/Generaldistribution.py,sha256=Jbs8PYHA_UZjAX_DI6FB38V0gPxSJNRemF--A4xP2PM,932
+distributions_probmax/__init__.py,sha256=xQBKjQkxV_0zL8KZuodZTf97r6VlnayOS0LNOAylYgg,157
+distributions_probmax-0.1.dist-info/METADATA,sha256=Iuk9WU0pGrxfYWR5iFqhHdJTpXcFWAmHmoG5EChw5TY,1090
+distributions_probmax-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+distributions_probmax-0.1.dist-info/top_level.txt,sha256=g-rGGtt-AyiuuOtbGXYlkc_Q75H2-TqdUm2vaKl4Q3c,22
+distributions_probmax-0.1.dist-info/RECORD,,

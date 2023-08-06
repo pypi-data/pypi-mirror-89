@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-gmzoom-tools
+Version: 0.1.2
+Summary: Slotmarks.com - online casino guide
+Home-page: https://slotmarks.com/en/
+Author: slotmarks
+Author-email: info@slotmarks.com
+Requires-Python: >=3.2,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+[Slotmarks.com](https://slotmarks.com/en/) - your guide to online casinos.
+
+#New Casinos
+
+

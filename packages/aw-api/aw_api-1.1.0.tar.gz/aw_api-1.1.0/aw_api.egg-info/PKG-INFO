@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: aw-api
+Version: 1.1.0
+Summary: Armored Warfare unofficial API
+Home-page: https://github.com/lookandhate/ArmoredWarfareAPI
+Author: https://github.com/lookandhate
+Author-email: 
+License: MIT
+Description: UNKNOWN
+Keywords: armored warfare,aw,armored warfare api,armata,армата
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7.0

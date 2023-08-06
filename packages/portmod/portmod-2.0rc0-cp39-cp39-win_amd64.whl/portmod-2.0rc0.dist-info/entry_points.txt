@@ -1,0 +1,6 @@
+[console_scripts]
+inquisitor = portmod._cli.inquisitor:main
+openmw-conflicts = portmod._cli.openmw_conflicts:main
+portmod = portmod._cli.main:main
+pybuild = portmod._cli.pybuild:main
+

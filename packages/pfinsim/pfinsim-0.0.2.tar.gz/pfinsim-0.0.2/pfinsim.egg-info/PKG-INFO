@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pfinsim
+Version: 0.0.2
+Summary: Personal finance simulation package
+Home-page: https://github.com/xgerrmann/pfinsim
+Author: Xander Gerrmann
+Author-email: <xander@xgerrmann.com>
+License: UNKNOWN
+Description: Package containing tools for analysing and simulating ones personal financial situation
+Keywords: python,simulation,finance,personal
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3

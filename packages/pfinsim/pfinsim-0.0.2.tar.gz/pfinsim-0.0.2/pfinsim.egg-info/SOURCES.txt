@@ -1,0 +1,6 @@
+README.md
+setup.py
+pfinsim.egg-info/PKG-INFO
+pfinsim.egg-info/SOURCES.txt
+pfinsim.egg-info/dependency_links.txt
+pfinsim.egg-info/top_level.txt

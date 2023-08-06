@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pypapers
+Version: 0.1
+Summary: Python helper for working with a documents folder on OSx.
+Home-page: https://github.com/lambdamusic/pypapers
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: mdfind
+Requires-Dist: psutil
+Requires-Dist: public
+Requires-Dist: runcmd
+Requires-Dist: values
+
+# PyPapers
+
+## Why?
+
+I've tried many of them and finally got fed up with [reference managements systems](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software). Either too bloated with features, or lacking simplicity.
+
+Let's try to do this the simple way: 
+* all PDFs in one folder (or so) 
+* a command line tool to search them 
+* rely on OSx excellent `mdfind` library for searching 
+* rely on excellent Preview app for reading/editing 
+
+
+## Install
+
+> still in development 
+

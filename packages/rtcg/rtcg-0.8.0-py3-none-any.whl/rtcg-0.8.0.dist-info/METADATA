@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rtcg
+Version: 0.8.0
+Summary: A runt-time code generator for python
+Home-page: https://github.com/carstencodes/rtcg
+Author: Carsten Igel
+Author-email: cig@bite-that-bit.de
+License: BSD-3-Clause
+Keywords: code generation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System
+Classifier: Typing :: Typed
+Requires-Python: >=3.7, < 4
+Description-Content-Type: text/markdown
+
+# rtcg
+
+Run-time code generation for python. If a method requires special parameter sequence or names, it might be better to create a small dynamic wrapper.
+
+This library will not create function at run-time. It is not intended to create functions. This is considered as rather unsecure. It will merely generate a trampoline function using named arguments, nothing more.
+
+## Licensing
+
+This library is published under BSD-3-Clause license.
+
+## Versioning
+
+This library follows semantic versioning 2.0. Any breaking change will produce a new major release. Versions below 1.0 are considered to have a unstable interface.
+
+

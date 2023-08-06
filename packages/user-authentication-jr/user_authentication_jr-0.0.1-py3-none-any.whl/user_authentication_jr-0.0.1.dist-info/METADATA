@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: user-authentication-jr
+Version: 0.0.1
+Summary: A token based User model package with support for Cookies and API token authentication
+Home-page: https://github.com/jrbenriquez/user-authentication-jr
+Author: John Rei Enriquez
+Author-email: johnrei.enriquez@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# User Authentication with Token and/or Cookie Support
+
+This is an initial readme.
+Check out github url instead: https://github.com/jrbenriquez/user-authentication-jr
+
+

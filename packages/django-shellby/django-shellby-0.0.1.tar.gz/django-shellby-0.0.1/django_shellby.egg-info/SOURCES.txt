@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+django_shellby.egg-info/PKG-INFO
+django_shellby.egg-info/SOURCES.txt
+django_shellby.egg-info/dependency_links.txt
+django_shellby.egg-info/top_level.txt

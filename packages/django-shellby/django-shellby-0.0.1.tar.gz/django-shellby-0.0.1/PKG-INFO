@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-shellby
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Koen Woortman
+Author-email: koensw@outlook.com
+License: MIT
+Description: # Django-Shellby
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

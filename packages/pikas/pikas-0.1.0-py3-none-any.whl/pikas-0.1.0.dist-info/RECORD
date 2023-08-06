@@ -1,0 +1,7 @@
+pikas/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pikas/ensemble/bagging.py,sha256=x4S6QlZgr5Vg23_BZDrOjIDSKC7L80IMEGijE3Dp-_M,790
+pikas/ensemble/sklearn.py,sha256=2IcE3Y9xhamuE_bRjozEJvkA5Zvm_QzXV9yvPxWVSLs,358
+pikas/ensemble/tests/test_sklearn.py,sha256=zOjZyPw8bR-r5zZsU4mPzqADw4PMvYcDGQt5TUpnzfg,1190
+pikas-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pikas-0.1.0.dist-info/METADATA,sha256=PmKBFkygFkup2CZpara2XyJLDSp7e3rWG77V8re_aw0,470
+pikas-0.1.0.dist-info/RECORD,,

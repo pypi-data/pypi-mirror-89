@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: skype_chat_history
+Version: 0.0.2
+Summary: Skype Chat History Extractor
+Home-page: http://www.pythoncasovi.com
+Author: Darko Dekan
+Author-email: darko.dekan@protonmail.com
+License: The Unlicense (Unlicense)
+Description: # Skype Chat History
+        
+        Easily extract calls and contacts from messages.json file.
+        
+        history = SkypeChatHistory("/home/Documents/messages.json")
+        print(history.extract_calls()) # extract calls
+        print(history.extract_contacts()) # get list of contacts
+        
+        Change Log
+        ===========
+        0.0.1(20/12/2020)
+        -------------------
+        - Wrapped history in class
+Keywords: skype,chat,history,parse,extract,json
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3.9

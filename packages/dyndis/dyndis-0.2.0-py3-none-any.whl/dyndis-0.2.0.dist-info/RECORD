@@ -1,0 +1,12 @@
+dyndis/__init__.py,sha256=oqDGnm_NIAgIKDwxOYUSa3QjmB1VpiPn4rgsWDIRyq0,194
+dyndis/_version.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+dyndis/annotation_filter.py,sha256=n9Uj_8LziwJpWHYxePhgxqL8pSNsnOaZXvg2Kes7hZc,6967
+dyndis/exceptions.py,sha256=YETvUjnLymUHhLwOqPcZv3YKqjF5aSprptPtiLoG7Y4,137
+dyndis/implementor.py,sha256=63THiQyQ1vdFEQcVvLvtsOAAkU2pVVzlUI-cP5y0PS0,2464
+dyndis/multidispatch.py,sha256=uGbQAbJ4Eav-DeVwWNXnbMzOvVp5w7HARjgb8EQUvlw,5826
+dyndis/topological_sort.py,sha256=dlABh-XG26Pi-uu-kQL0DWqIe8gycaV_Hpe1S_vnHog,947
+dyndis/weaktupledict.py,sha256=Ug-EGug8VQ7Z9bugNvDsPfwFAEd79jzbK7ISJ79G2uM,700
+dyndis-0.2.0.dist-info/LICENSE,sha256=nmHNDQZ2kwqb_Svs10EUbV-eo86xshZL4-UWnSQK6po,1051
+dyndis-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+dyndis-0.2.0.dist-info/METADATA,sha256=7HqRKMLUKqJjGg52K1SYhcWtBWTfWWsHqhyWMqdnC5Q,6499
+dyndis-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+openapigateway/__init__.py
+openapigateway/constructs.py
+openapigateway.egg-info/PKG-INFO
+openapigateway.egg-info/SOURCES.txt
+openapigateway.egg-info/dependency_links.txt
+openapigateway.egg-info/requires.txt
+openapigateway.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+#!python
+"""A minimalistic, GTK-based RCON GUI."""
+
+from rcon.gui import main
+
+
+if __name__ == '__main__':
+    main()

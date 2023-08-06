@@ -1,0 +1,5 @@
+numpy
+pyopencl
+toolz
+scikit-image
+matplotlib

@@ -1,0 +1,9 @@
+setup.py
+cli/__init__.py
+cli/main.py
+sodaflow.egg-info/PKG-INFO
+sodaflow.egg-info/SOURCES.txt
+sodaflow.egg-info/dependency_links.txt
+sodaflow.egg-info/entry_points.txt
+sodaflow.egg-info/requires.txt
+sodaflow.egg-info/top_level.txt

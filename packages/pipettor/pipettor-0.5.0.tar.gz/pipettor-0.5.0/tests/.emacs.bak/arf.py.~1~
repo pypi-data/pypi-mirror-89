@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    sys.path.insert(0, os.path.normpath(os.path.dirname(sys.argv[0])) + "/../lib")
+    from testCaseBase import TestCaseBase, LoggerForTests
+else:
+    from .testCaseBase import TestCaseBase, LoggerForTests
+from pipettor import Pipeline, Popen, ProcessException, PipettorException, DataReader, DataWriter, File, run, runout, runlex, runlexout

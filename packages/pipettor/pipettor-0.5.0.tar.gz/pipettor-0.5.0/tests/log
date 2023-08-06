@@ -1,0 +1,59 @@
+/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py:942: ResourceWarning: subprocess 31720 is still running
+  _warn("subprocess %s is still running" % self.pid,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py:942: ResourceWarning: subprocess 31721 is still running
+  _warn("subprocess %s is still running" % self.pid,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py:942: ResourceWarning: subprocess 31722 is still running
+  _warn("subprocess %s is still running" % self.pid,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py:942: ResourceWarning: subprocess 31723 is still running
+  _warn("subprocess %s is still running" % self.pid,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......../../lib/pipettor/exceptions.py:56: ErrorDuringErrorHandlingWarning: error during process cleanup on error an integer is required (got type NoneType)
+  File "./../lib/pipettor/processes.py", line 404, in _error_cleanup_process
+    proc._force_finish()
+  File "./../lib/pipettor/processes.py", line 237, in _force_finish
+    if self.started and not self.poll():
+  File "./../lib/pipettor/processes.py", line 229, in poll
+    return self._waitpid(os.WNOHANG)
+  File "./../lib/pipettor/processes.py", line 218, in _waitpid
+    w = os.waitpid(self.pid, flag)
+
+
+  warn(msg + " " + str(exception) + "\n" + stack, ErrorDuringErrorHandlingWarning)
+E..................
+======================================================================
+ERROR: testExecFail (__main__.PipelineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_pipettor.py", line 153, in testExecFail
+    pl.wait()
+  File "./../lib/pipettor/processes.py", line 489, in wait
+    self._wait_guts()
+  File "./../lib/pipettor/processes.py", line 473, in _wait_guts
+    self.start()
+  File "./../lib/pipettor/processes.py", line 435, in start
+    self._start_guts()
+  File "./../lib/pipettor/processes.py", line 423, in _start_guts
+ResourceWarning: Enable tracemalloc to get the object allocation traceback    self._start_processes()
+  File "./../lib/pipettor/processes.py", line 373, in _start_processes
+    self._start_process(proc)
+  File "./../lib/pipettor/processes.py", line 367, in _start_process
+    proc._start(self.pgid)
+  File "./../lib/pipettor/processes.py", line 184, in _start
+    raise self.procExcept
+  File "./../lib/pipettor/processes.py", line 180, in _start
+    self._start_process(pgid)
+  File "./../lib/pipettor/processes.py", line 169, in _start_process
+    self.popen = subprocess.Popen(self.cmd,
+  File "/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'procDoesNotExist'
+
+----------------------------------------------------------------------
+Ran 26 tests in 2.610s
+
+FAILED (errors=1)

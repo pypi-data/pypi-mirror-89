@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi-sqla
+Version: 0.1.0
+Summary: SqlAlchemy integration for FastAPI®
+Author: Hadrien David
+Author-email: hadrien.david@dialogue.co
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.61)
+Requires-Dist: psycopg2 (<3)
+Requires-Dist: sqlalchemy (<2)
+Requires-Dist: structlog (>=20)

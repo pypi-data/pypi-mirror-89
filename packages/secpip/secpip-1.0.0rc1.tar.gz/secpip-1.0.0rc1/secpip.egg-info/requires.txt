@@ -1,0 +1,5 @@
+packaging
+pip==20.2.4
+requests
+termcolor
+virtualenv

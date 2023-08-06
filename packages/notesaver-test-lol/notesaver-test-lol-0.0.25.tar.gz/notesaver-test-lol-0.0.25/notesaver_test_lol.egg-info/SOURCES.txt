@@ -1,0 +1,9 @@
+README.md
+setup.py
+NoteSaver/cli.py
+NoteSaver/main.py
+notesaver_test_lol.egg-info/PKG-INFO
+notesaver_test_lol.egg-info/SOURCES.txt
+notesaver_test_lol.egg-info/dependency_links.txt
+notesaver_test_lol.egg-info/entry_points.txt
+notesaver_test_lol.egg-info/top_level.txt

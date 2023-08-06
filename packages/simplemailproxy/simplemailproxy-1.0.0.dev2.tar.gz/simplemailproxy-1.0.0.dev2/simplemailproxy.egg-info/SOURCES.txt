@@ -1,0 +1,8 @@
+README.md
+setup.py
+simplemailproxy/__init__.py
+simplemailproxy/__main__.py
+simplemailproxy.egg-info/PKG-INFO
+simplemailproxy.egg-info/SOURCES.txt
+simplemailproxy.egg-info/dependency_links.txt
+simplemailproxy.egg-info/top_level.txt

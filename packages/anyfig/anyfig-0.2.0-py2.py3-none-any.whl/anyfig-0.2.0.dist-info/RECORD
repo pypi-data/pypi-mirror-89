@@ -1,0 +1,13 @@
+anyfig/__init__.py,sha256=Y0wLHv_foFf3XrFeutzVNzOxGVjhhX6v_hWfXFD17UE,936
+anyfig/anyfig_setup.py,sha256=nvb1TCQN_JTu5YYf8GhcyzxuTcygehlDOl-HQmdu0qY,7001
+anyfig/config_functions.py,sha256=3AL_m8pPNoWHlsk_UX_ge3GMKwK5D3xBlLHcCYRMzv8,4487
+anyfig/dummyfields.py,sha256=Cf9rWLn3Wr5Nnd2Xf41v68W8pv8uX_PdAYpqJpsba7Q,483
+anyfig/fields.py,sha256=TTe01HiFFW0x_d-eT3_47wuNAjIxWQ4UhHil-q-7Eh0,4722
+anyfig/figutils.py,sha256=3NINlhhTo5SdIV5qvCBd9SVMn-vvAxmttaidHXxyEUY,5142
+anyfig/print_utils.py,sha256=Pc5tRH-GlzsUReloyjRRdVWw9UCkWZ9RaUMkYETSLgE,5579
+anyfig-0.2.0.dist-info/AUTHORS.MD,sha256=OVg8ZiApcQkKIv5_dS42WcfdywDN-hzf-HkUBmcwq_A,152
+anyfig-0.2.0.dist-info/LICENSE,sha256=W9wrLofXlW3OH-xtiecCY2HDusCExWVJecNAWnCygQk,1073
+anyfig-0.2.0.dist-info/METADATA,sha256=KI2Bk-1vXIufnLSKrgJtU-C3VkV-qwUFcFpKbs7ArYE,1752
+anyfig-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+anyfig-0.2.0.dist-info/top_level.txt,sha256=ug_p6JK8Q_DWpfonUDeg4f6Gd4GGPTmSrxLZNgR96HA,7
+anyfig-0.2.0.dist-info/RECORD,,

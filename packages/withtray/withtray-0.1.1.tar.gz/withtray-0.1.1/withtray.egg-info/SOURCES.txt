@@ -1,0 +1,10 @@
+README.md
+setup.py
+withtray/__init__.py
+withtray/main.py
+withtray.egg-info/PKG-INFO
+withtray.egg-info/SOURCES.txt
+withtray.egg-info/dependency_links.txt
+withtray.egg-info/entry_points.txt
+withtray.egg-info/requires.txt
+withtray.egg-info/top_level.txt

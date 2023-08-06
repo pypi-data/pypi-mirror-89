@@ -1,0 +1,3 @@
+[console_scripts]
+lone = lonely.__main__:main
+

@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: liczonko
+Version: 0.0.1
+Summary: Say hello!
+Home-page: https://github.com/pawlaczyk/liczonko
+Author: Dominika Pawlaczyk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: twine (>=3.2.0) ; extra == 'dev'
+
+# liczonko
+
+discrete mathematics
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install liczonko
+```
+
+## Usage
+
+```python
+from abstract_algebra import say_hello
+
+# Generate "Hello, World!"
+say_hello()
+
+# Generate "Hello, Everybody!"
+say_hello("Everybody")
+```
+
+# Developing Liczonko
+
+To install liczonko, along with the tools you need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e .[dev]
+```
+
+

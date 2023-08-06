@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: keynote-highlight
+Version: 0.0.1
+Summary: 
+License: MIT
+Author: Nikita Churikov
+Author-email: nikita@chur.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.7.3,<3.0.0)
+Requires-Dist: black (>=20.8b1,<21.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pyperclip (>=1.8.1,<2.0.0)

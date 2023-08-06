@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sl-whatsapp2
+Version: 2.3.0
+Summary: A Python pakege useing enemouse whatsapp fake message sending 
+Home-page: https://github.com/shehan9909
+Author: shehan
+Author-email: shehan9909@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# whatsapp
+chmod 777 setup
+
+python whatsapp.py
+
+https://twilio.com
+
+enter id
+
+enter token
+
+enter send number
+
+enter send message
+
+enjoy😆
+
+

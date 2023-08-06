@@ -1,0 +1,15 @@
+cawdrey/__init__.py,sha256=yG1tt-y_0VkbeYbAtClFJOuEX9ncI1d34_aEW8ZBbVA,1689
+cawdrey/_bdict.py,sha256=PA1f6h6t36GfXKOWfsGkwKoAt8UzXXyvyGXCn4XtU6U,5693
+cawdrey/_bdict.pyi,sha256=mrVI0sju7cmnY3YmkvKK42zNGCTt8cluD9otlnH3QTs,229
+cawdrey/_frozendict.py,sha256=hnNRebjhZcPvLjP5YYWRcb5Nor1665jDG5h7RnaUwhQ,6094
+cawdrey/alphadict.py,sha256=iJhQZ9h5lONE1jpKfPLJ9ZggZBCMKM0yEjMhfBFlyqg,2252
+cawdrey/base.py,sha256=xQXfPPVjkSjr3NHqn8d-Ffdbfysr1r3g2NEGlcBRnfQ,5195
+cawdrey/frozenordereddict.py,sha256=EZ0mhVWgDsPyeDAXngbc6zlzigD7K3PAehzrd9EYgRo,3335
+cawdrey/nonelessdict.py,sha256=qG5mP8pwXSiKyz73ASGjLIo5SOUqeG_tRK0AR9VkvPk,3632
+cawdrey/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cawdrey/utils.py,sha256=SIJSqwuqlBziuqjNHUVqowzI1pjQ6qWdE89W3dydDio,1328
+cawdrey-0.2.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cawdrey-0.2.1.dist-info/METADATA,sha256=E18lL8cYwwCCw-yoxHbXs5KumvvjqDVT_j3JMuZ8lCo,8556
+cawdrey-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cawdrey-0.2.1.dist-info/top_level.txt,sha256=z2vEWC9BOgTYQ-lalC9G3WCVx2uSypGAfVJzk_Vv1oY,8
+cawdrey-0.2.1.dist-info/RECORD,,

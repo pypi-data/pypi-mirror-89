@@ -1,0 +1,8 @@
+setup.py
+rabbit_test/__init__.py
+rabbit_test/greet.py
+rabbittest.egg-info/PKG-INFO
+rabbittest.egg-info/SOURCES.txt
+rabbittest.egg-info/dependency_links.txt
+rabbittest.egg-info/requires.txt
+rabbittest.egg-info/top_level.txt

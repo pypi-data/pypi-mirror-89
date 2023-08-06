@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pandas-coder/__init__.py
+pandas-coder/main.py
+pandas_coder.egg-info/PKG-INFO
+pandas_coder.egg-info/SOURCES.txt
+pandas_coder.egg-info/dependency_links.txt
+pandas_coder.egg-info/requires.txt
+pandas_coder.egg-info/top_level.txt

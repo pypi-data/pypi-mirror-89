@@ -1,0 +1,13 @@
+README.md
+setup.py
+chessAnalyzer/__init__.py
+chessAnalyzer/chess_graph.py
+chessAnalyzer/main.py
+chessAnalyzer.egg-info/PKG-INFO
+chessAnalyzer.egg-info/SOURCES.txt
+chessAnalyzer.egg-info/dependency_links.txt
+chessAnalyzer.egg-info/top_level.txt
+chessAnalyzer/Chess-Coordinate-Trainer-master/__init__.py
+chessAnalyzer/Chess-Coordinate-Trainer-master/chess_coordinate_trainer.py
+chessAnalyzer/Engine/__init__.py
+chessAnalyzer/eco_codes/__init__.py

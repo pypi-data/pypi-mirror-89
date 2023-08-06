@@ -1,0 +1,8 @@
+README.md
+setup.py
+nekogirl/__init__.py
+nekogirl.egg-info/PKG-INFO
+nekogirl.egg-info/SOURCES.txt
+nekogirl.egg-info/dependency_links.txt
+nekogirl.egg-info/entry_points.txt
+nekogirl.egg-info/top_level.txt

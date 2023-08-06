@@ -1,0 +1,188 @@
+Metadata-Version: 2.1
+Name: obsei
+Version: 0.0.2
+Summary: Observe PoI text data from the various sources, segment it and then inform about it
+Home-page: https://github.com/lalitpagaria/obsei
+Author: Lalit Pagaria
+Author-email: pagaria.lalit@gmail.com
+License: Apache Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: antlr4-python3-runtime (==4.8)
+Requires-Dist: apscheduler (==3.6.3)
+Requires-Dist: atlassian-python-api (==2.2.0)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: deprecated (==1.2.10)
+Requires-Dist: elasticsearch (==7.10.1)
+Requires-Dist: fastapi (==0.63.0)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: flask (==1.1.2)
+Requires-Dist: gunicorn (==20.0.4)
+Requires-Dist: h11 (==0.11.0)
+Requires-Dist: httptools (==0.1.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-resources (==3.3.1)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jinja2 (==2.11.2)
+Requires-Dist: joblib (==1.0.0)
+Requires-Dist: markupsafe (==1.1.1)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: omegaconf (==2.1.0.dev14)
+Requires-Dist: packaging (==20.8)
+Requires-Dist: pydantic (==1.7.3)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.4)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: regex (==2020.11.13)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: sacremoses (==0.0.43)
+Requires-Dist: searchtweets-v2 (==1.0.4)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sqlalchemy (==1.3.22)
+Requires-Dist: starlette (==0.13.6)
+Requires-Dist: tokenizers (==0.9.4)
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: tqdm (==4.54.1)
+Requires-Dist: transformers (==4.1.1)
+Requires-Dist: tweet-preprocessor (==0.6.0)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: tzlocal (==2.1)
+Requires-Dist: urllib3 (==1.26.2)
+Requires-Dist: uvicorn (==0.13.2)
+Requires-Dist: uvloop (==0.14.0)
+Requires-Dist: vadersentiment (==3.3.2)
+Requires-Dist: werkzeug (==1.0.1)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: zipp (==3.4.0)
+
+# Obsei: OBserve, SEgment and Inform
+
+<p align="center">
+    <a href="https://github.com/lalitpagaria/obsei/actions">
+        <img alt="CI" src="https://github.com/lalitpagaria/obsei/workflows/CI/badge.svg?branch=master">
+    </a>
+    <a href="https://github.com/lalitpagaria/obsei/blob/master/LICENSE">
+        <img alt="License" src="https://img.shields.io/github/license/lalitpagaria/obsei?color=blue">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/pypi/pyversions/obsei" alt="PyPI - Python Version" />
+    </a>
+    <a href="#">
+        <img alt="Release" src="https://img.shields.io/pypi/v/obsei">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/pypi/dm/obsei" alt="Downloads" />
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/docker/pulls/lalitpagaria/obsei" alt="Docker Pulls" />
+    </a>
+    <a href="https://github.com/lalitpagaria/obsei/commits/master">
+        <img alt="Last commit" src="https://img.shields.io/github/last-commit/lalitpagaria/obsei">
+    </a>
+</p>
+
+`Obsei` is intended to be a workflow automation tool for text segmentation need. `Obsei` consist of -
+ - **OBserver**, observes platform like Twitter, Facebook, App Stores, Google reviews, Amazon reviews and feed that information to,
+ - **SEgmenter**, which perform text classification and sentiment analysis and feed that information to,
+ - **Informer**, which send it to ticketing system, data store or other places for further action and analysis.
+
+## Installation
+
+### To use as SDK
+Install via PyPi:
+```shell
+pip install obsei
+```
+Install from master branch (if you want to try the latest features):
+```shell
+git clone https://github.com/lalitpagaria/obsei.git
+cd obsei
+pip install --editable .
+```
+
+To update your installation, just do a `git pull`. The `--editable` flag
+will update changes immediately.
+
+### To use as Rest interface
+Start docker with default configuration file:
+```shell
+docker run -d --name obesi -p 9898:9898 lalitpagaria/obsei:latest
+```
+Start docker with custom configuration file (Assuming you have configfile `config.yaml` at `/home/user/obsei/config` at host machine):
+```shell
+docker run -d --name obesi -v "/home/user/obsei/config:/home/user/config" -e "OBSEI_CONFIG_PATH=/home/user/config" -e "OBSEI_CONFIG_FILENAME=config.yaml" -p 9898:9898 lalitpagaria/obsei:latest
+```
+Start docker locally with `docker-compose`:
+```shell
+docker-compose up --build
+```
+Following environment variables are useful to customize various parameters -
+- `OBSEI_CONFIG_PATH`: Configuration file path (default: ../config)
+- `OBSEI_CONFIG_FILENAME`: Configuration file name (default: rest.yaml)
+- `OBSEI_NUM_OF_WORKERS`: Number of workers for rest API server (default: 1)
+- `OBSEI_WORKER_TIMEOUT`: Worker idle timeout in seconds (default: 180)
+- `OBSEI_SERVER_PORT`: Rest API server port (default: 9898)
+- `OBSEI_WORKER_TYPE`: Gunicorn worker type (default: uvicorn.workers.UvicornWorker)
+
+## Use cases
+`Obsei` use cases are following, but not limited to -
+- Automatic customer issue ticketing based on sentiment analysis
+- Proper tagging of ticket like login issue, signup issue, delivery issue etc for faster disposal
+- Checking effectiveness of social media marketing campaign
+- Extraction of deeper insight from feedbacks on various platforms
+- Research purpose
+
+## Components
+
+- **Source**: Twitter (Facebook, Instagram, Google reviews, Amazon reviews, App Store reviews, Slack, Microsoft Team, Chat-bots etc planned in future)
+- **Analyzer**: Sentiment and Text classification (QA, Natural Search, FAQ, Summarization etc planned in future)
+- **Sink**: HTTP API, ElasticSearch, DailyGet, and Jira (Salesforce, Zendesk, Hubspot, Slack, Microsoft Team, etc planned in future)
+- **Processor**: Simple integration between Source, Analyser and Sink (Rich workflows using rule engine planned in future)
+
+## Examples
+Refer [example](https://github.com/lalitpagaria/obsei/tree/master/example) folder for `obsei` usage examples.
+
+## Attribution
+This could not have been possible without following open source software -
+- [searchtweets-v2](https://github.com/twitterdev/search-tweets-python): For Twitter's API v2 wrapper
+- [vaderSentiment](https://github.com/cjhutto/vaderSentiment): For rule-based sentiment analysis
+- [transformers](https://github.com/huggingface/transformers): For text-classification pipeline
+- [tweet-preprocessor](https://github.com/s/preprocessor): For tweets preprocessing and cleaning
+- [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api): To interact with Jira
+- [elasticsearch](https://github.com/elastic/elasticsearch-py): To interact with Elasticsearch
+- [hydra](https://github.com/facebookresearch/hydra.git): To elegantly configuring Obsei
+- [apscheduler](https://github.com/agronholm/apscheduler): To schedule task to execute desired workflow
+- [pydantic](https://github.com/samuelcolvin/pydantic): For data validation
+- [fastapi](https://fastapi.tiangolo.com/) & [gunicorn](https://gunicorn.org/): For HTTP server and API interface
+
+## Citing Obsei
+If you use `obsei` in your research please use the following BibTeX entry:
+```text
+@Misc{Pagaria2020Obsei,
+  author =       {Lalit Pagaria},
+  title =        {Obsei - A workflow automation tool for text segmentation need},
+  howpublished = {Github},
+  year =         {2020},
+  url =          {https://github.com/lalitpagaria/obsei}
+}
+```
+
+

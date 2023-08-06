@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: duplauth
+Version: 0.0.1
+Summary: A python3 client for the auth.dupl.tech api
+Home-page: https://github.com/AgeOfMarcus/duplauth
+Author: AgeOfMarcus
+Author-email: marcus@marcusweinberger.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# duplauth
+A python3 client for the auth.dupl.tech api
+
+

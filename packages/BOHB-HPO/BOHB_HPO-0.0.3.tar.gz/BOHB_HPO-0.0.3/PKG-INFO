@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BOHB_HPO
+Version: 0.0.3
+Summary: Bayesian Optimization Hyperband Hyperparameter Optimization
+Home-page: https://github.com/goktug97/bohb_hpo
+Author: Göktuğ Karakaşlı
+Author-email: karakasligk@gmail.com
+License: MIT
+Description: Bayesian Optimization Hyperband Hyperparameter Optimization
+        ===========================================================
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

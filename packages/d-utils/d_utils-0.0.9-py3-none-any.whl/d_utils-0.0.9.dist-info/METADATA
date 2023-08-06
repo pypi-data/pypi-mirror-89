@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: d-utils
+Version: 0.0.9
+Summary: Utilities for Web Scraping
+Home-page: UNKNOWN
+Author: Veldhaenchen
+Author-email: johannes.velde@gmx.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: pyvirtualdisplay
+Requires-Dist: webdriverdownloader
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# WebScraping Utils  
+
+https://img.shields.io/pypi/dm/d-utils
+
+###Project description
+Python module to facilitate downloading and deploying WebDriver binaries. 
+The classes in this module can be used to automatically search for and download the latest version (or a specific version) of a WebDriver binary (will download to ```$HOME/webdriver``` or ```/usr/local/webdriver``` if run with sudo), 
+extract the binary from the downloaded archive and create a symlink in either ```/usr/local/bin``` (if run with sudo) or ```$HOME/bin```.
+Note: For non-root users, the ```$HOME/bin``` directory may not be in the search PATH.
+If you are unable to add this directory your search path, a workaround is to capture the return value from the download() or download_and_install() method (see the docstrings for those methods for more information on the return values) and pass the path to the downloaded webdriver binary as a parameter to the constructor for the Selenium WebDriver instance.
+See the documentation for the executable_path parameter for the relevant WebDriver class for more information.
+
+###Installation
+This module is available on the Python Package Index (PyPI) and can be installed as follows:
+```
+$ pip3 install d-utils
+```
+###Classes
+The following classes are available:
+- ChromeDriverDownloader for downloading and installing chromedriver (for Google Chrome).
+- GeckoDriverDownloader for downloading and installing geckodriver (for Mozilla Firefox).
+- OperaChromiumDriverDownloader for downloading and installing operadriver (for Chromium based Opera browsers).
+###Example module usage
+####Supported Modules:
+- platform_driver("Path")
+
+use the path whether it exists or not
+```/home/USER/bin/chromedriver```
+```
+driver = platform_driver("/home/USER/bin/chromedriver")
+driver.get(url)
+```
+- cicle_browser("BrowserName")
+```
+driver = cicle_browser("Firefox")
+driver.get(url)
+```
+- switch_to("BrowserName")
+```
+driver = switch_to("Firefox")
+driver.get(url)
+```
+
+

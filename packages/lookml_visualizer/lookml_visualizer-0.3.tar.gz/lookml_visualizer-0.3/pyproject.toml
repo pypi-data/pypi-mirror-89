@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "lookml_visualizer"
+author = "Aziz Alto"
+author-email = "iamaziz.alto@gmail.com"
+home-page = "https://github.com/iamaziz/lookml_visualizer"
+description-file = "README.md"
+requires = [
+    "lookml-tools>=2.0.5",
+    "networkx==2.5",
+    "plotly==4.14.1",
+    "matplotlib==3.3.3",
+    "lkml==0.1.1",
+    "pydot==1.4.1"
+]

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: setenv
+Version: 0.0.1
+Summary: Set environment variables starswith export into os.evrion.
+Home-page: https://github.com/KingJem/setenv.git
+Author: KingJem
+Author-email: qqqqivy@gmail.com
+License: GPLv3
+Description: 
+        ## Linux 下自动把环境变量中的export 导出的环境变量添加到os.envrion 中去
+        
+        ## set environment variables startswith `export` into os.evrion 
+        
+        
+        
+        ```
+        # usage
+        
+        import setenv
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

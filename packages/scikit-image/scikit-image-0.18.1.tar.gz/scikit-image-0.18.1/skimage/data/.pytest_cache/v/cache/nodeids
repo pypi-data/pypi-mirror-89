@@ -1,0 +1,23 @@
+[
+  "tests/test_data.py::test_astronaut",
+  "tests/test_data.py::test_camera",
+  "tests/test_data.py::test_checkerboard",
+  "tests/test_data.py::test_chelsea",
+  "tests/test_data.py::test_clock",
+  "tests/test_data.py::test_coffee",
+  "tests/test_data.py::test_horse",
+  "tests/test_data.py::test_hubble",
+  "tests/test_data.py::test_immunohistochemistry",
+  "tests/test_data.py::test_logo",
+  "tests/test_data.py::test_moon",
+  "tests/test_data.py::test_page",
+  "tests/test_data.py::test_rocket",
+  "tests/test_data.py::test_text",
+  "tests/test_data.py::test_stereo_motorcycle",
+  "tests/test_data.py::test_binary_blobs",
+  "tests/test_data.py::test_lfw_subset",
+  "tests/test_data.py::test_cell",
+  "tests/test_data.py::test_cells_3d",
+  "tests/test_data.py::test_data_dir",
+  "tests/test_data.py::test_download_all"
+]

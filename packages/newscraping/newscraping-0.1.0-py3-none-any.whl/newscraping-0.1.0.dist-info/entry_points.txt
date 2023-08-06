@@ -1,0 +1,3 @@
+[console_scripts]
+news=newscraping.application.scraping:news
+

@@ -1,0 +1,7 @@
+newscraping/application/scraping.py,sha256=eXHOrGJbg1_4xS4hA66y00IYCfHLEADcQXKM2wlWxmg,1450
+newscraping/infrastructure/infra.py,sha256=fIrdcGkiuH01drjqrr2Tg6BJzPqsIj5B-CT2jDDSAnE,3298
+newscraping/settings/base.py,sha256=cdnGLMF_4Okty9z5MQEm-TcLeahQSCQ2Gsd3Kfbgu_w,777
+newscraping-0.1.0.dist-info/entry_points.txt,sha256=WwolaNeX69nqPgkt_zuRPQHvTtpUKMOKfvLeC9qKdVQ,62
+newscraping-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+newscraping-0.1.0.dist-info/METADATA,sha256=PA0BVbI1r1amKEelM0GmXjD5ZOLDDOisWMhfgYHebag,520
+newscraping-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+decyclify/__init__.py
+decyclify/functions.py
+decyclify/node_iterators.py
+decyclify.egg-info/PKG-INFO
+decyclify.egg-info/SOURCES.txt
+decyclify.egg-info/dependency_links.txt
+decyclify.egg-info/requires.txt
+decyclify.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"name": "Fadhil Abubaker", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "rayyan-store", "run_requires": [{"requires": ["enum", "requests"]}], "summary": "Python client interface for RayyanStore", "version": "0.1.0"}

@@ -1,0 +1,13 @@
+sqlalchemy
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+datetime
+geopandas
+shapely
+contextily
+pydataapi
+more-itertools==8.4
+tabulate

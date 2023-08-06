@@ -1,0 +1,7 @@
+antipattern_mitigation/__init__.py,sha256=0ce28zd93CooQabdHXXeuUPRULxdVGPx6tqyMA4m1P8,105
+antipattern_mitigation/__main__.py,sha256=-2D1uWDQ4jazCfBJELfhVxaLp3V4B3cZK8GHpyBYEVM,268
+antipattern_mitigation/service/__init__.py,sha256=Evh7x6QQNv89tfwENgGdwUXE7fIk3c4CzWWbIkUDkXA,179
+antipattern_mitigation/service/_service.py,sha256=B5DvPwewNmqaxo0dkMilto5CEmoqkFBOgqRkuAhM75E,1030
+antipattern_mitigation-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+antipattern_mitigation-0.1.0.dist-info/METADATA,sha256=TdAJ5M1jju7oAdfPcIw8ZFdCBL4lVXCOu_AayEfZMrE,385
+antipattern_mitigation-0.1.0.dist-info/RECORD,,

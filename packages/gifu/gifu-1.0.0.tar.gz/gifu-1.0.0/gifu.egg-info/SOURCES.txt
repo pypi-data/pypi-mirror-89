@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+gifu/__init__.py
+gifu/__main__.py
+gifu/gifu.xbm
+gifu/gifuu.py
+gifu/tekisuto.txt
+gifu.egg-info/PKG-INFO
+gifu.egg-info/SOURCES.txt
+gifu.egg-info/dependency_links.txt
+gifu.egg-info/entry_points.txt
+gifu.egg-info/requires.txt
+gifu.egg-info/top_level.txt

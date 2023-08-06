@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: fastapiali-classes
+Version: 2.2.13
+Summary: Classi per poter creare oggeti da usare con fastapi
+Home-page: https://github.com/giaca95/Fastapiali-classes
+Author: giaca95
+Author-email: giacomo_callegaro.95@libero.it
+License: MIT
+Download-URL: https://github.com/giaca95/Fastapiali-classes.git
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7

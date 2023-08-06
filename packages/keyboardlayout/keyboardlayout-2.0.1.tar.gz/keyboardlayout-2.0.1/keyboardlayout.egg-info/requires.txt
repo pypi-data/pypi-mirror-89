@@ -1,0 +1,7 @@
+PyYAML>=5.3.1
+
+[dev]
+sphinx
+setuptools
+wheel
+twine

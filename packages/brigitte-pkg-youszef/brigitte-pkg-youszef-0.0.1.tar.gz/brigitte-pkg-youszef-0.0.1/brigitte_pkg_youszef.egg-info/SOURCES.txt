@@ -1,0 +1,13 @@
+README.md
+setup.py
+brigitte/__init__.py
+brigitte/card.py
+brigitte/deck.py
+brigitte/game.py
+brigitte/player.py
+brigitte/commands/__init__.py
+brigitte/commands/pile.py
+brigitte_pkg_youszef.egg-info/PKG-INFO
+brigitte_pkg_youszef.egg-info/SOURCES.txt
+brigitte_pkg_youszef.egg-info/dependency_links.txt
+brigitte_pkg_youszef.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+toggl_python/__init__.py,sha256=lLexM-nkj5nv8hTGoIFVFPEa4rdHzLW84hQLh7tki10,1093
+toggl_python/api.py,sha256=oySAkcgOp8jsQ5yePCvso9eZ0YxAfbm3_obFBT8MpLM,1891
+toggl_python/auth.py,sha256=24j6Q0DBV_hwv1Jjh3xp0GJkXBy_L6NqED5dCoUjOYI,244
+toggl_python/entities.py,sha256=1UooHPV39Nob7x0jLAAUVdm5VkP1ywEAoBCLII4IP9A,3531
+toggl_python/exceptions.py,sha256=-7sBNdlNJy6YKZtLyrXJBGOYzndxKMDVo3bzVF-CS98,456
+toggl_python/repository.py,sha256=z4HwvJcyxCPtsItS1acj7O2alVsHDVhJZyXnvrCebwk,8283
+toggl_python/response.py,sha256=nF2oVsgsYYY6gAlNbVS86A7bHAjwgQsRoELT2K10BZQ,583
+toggl_python-0.2.7.dist-info/LICENSE,sha256=Oq8iIvVjUs7qGF59kmZs8XCsrDurhSjBFTMGrLvI6e8,1070
+toggl_python-0.2.7.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+toggl_python-0.2.7.dist-info/METADATA,sha256=Z_-o7XBOrGJ28vJpkdu3dR1mdEFk6wYeJIwGhI0AEaY,2190
+toggl_python-0.2.7.dist-info/RECORD,,

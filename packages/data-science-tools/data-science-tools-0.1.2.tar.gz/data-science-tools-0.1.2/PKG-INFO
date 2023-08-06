@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: data-science-tools
+Version: 0.1.2
+Summary: blah
+Home-page: https://github.com/saiwing-yeung/ds_tools
+Author: Saiwing Yeung
+Author-email: saiwing.yeung@gmail.com
+License: UNKNOWN
+Description: # Readme
+        
+        ds_tools is a collection of helper Python functions that are useful in Data Science.
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-12-23)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: data-science-tools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5

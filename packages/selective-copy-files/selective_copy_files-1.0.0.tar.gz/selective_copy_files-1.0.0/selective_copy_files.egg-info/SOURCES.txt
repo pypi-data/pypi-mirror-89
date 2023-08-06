@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+selective_copy_files/__init__.py
+selective_copy_files/selective_copy.py
+selective_copy_files.egg-info/PKG-INFO
+selective_copy_files.egg-info/SOURCES.txt
+selective_copy_files.egg-info/dependency_links.txt
+selective_copy_files.egg-info/top_level.txt

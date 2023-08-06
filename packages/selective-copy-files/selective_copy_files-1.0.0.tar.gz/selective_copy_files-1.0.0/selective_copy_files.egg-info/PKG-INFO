@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: selective-copy-files
+Version: 1.0.0
+Summary: Copy to a specific folder, all files within a directory, that match a particular extension
+Home-page: UNKNOWN
+Author: Dari Developer
+Author-email: hernandezdarifrancisco@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/DariHernandez/selective_copy_files/blob/master/README.md
+Project-URL: Funding, https://www.paypal.com/paypalme/FranciscoDari
+Project-URL: Source, https://github.com/DariHernandez/selective_copy_files
+Description: # Selective copy
+        Copy to a specific folder, all files within a directory, that match a particular extension
+        
+        # Install
+        ``` bash
+        $ pip install selective-copy
+        ```
+        
+        ## How to use
+        ``` python
+        # Import pakage
+        from selective_copy_files import selective_copy
+        
+        #  Save local folders
+        from_folder = "c:\\user\\my_files"
+        to_folder = "c:\\user\\backup_of_my_files"
+        extention = "png"
+        
+        # backup folder 
+        selective_copy.Copy(from_folder, to_folder, extention)
+        ```
+        
+Keywords: copy,slective copy,filter files,auto copy,selective-copy,filter-files,auto-copy
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

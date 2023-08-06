@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: truckfactor
+Version: 0.2.7
+Summary:  Tool to compute the truck factor of a Git repository 
+Home-page: https://github.com/HelgeCPH/truckfactor
+Author: HelgeCPH
+Author-email: ropf@itu.dk
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: numpy (>=1.19.4,<2.0.0)
+Requires-Dist: pandas (>=1.1.5,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://github.com/HelgeCPH/truckfactor/blob/main/README.md
+Project-URL: Repository, https://github.com/HelgeCPH/truckfactor
+Description-Content-Type: text/markdown
+
+uiuiui
+

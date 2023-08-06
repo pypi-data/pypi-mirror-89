@@ -1,0 +1,11 @@
+README.md
+setup.py
+helpjuice/__init__.py
+helpjuice/__version__.py
+helpjuice/client.py
+helpjuice/errors.py
+helpjuice.egg-info/PKG-INFO
+helpjuice.egg-info/SOURCES.txt
+helpjuice.egg-info/dependency_links.txt
+helpjuice.egg-info/requires.txt
+helpjuice.egg-info/top_level.txt

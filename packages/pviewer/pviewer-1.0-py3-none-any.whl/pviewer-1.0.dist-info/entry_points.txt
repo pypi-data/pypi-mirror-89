@@ -1,0 +1,3 @@
+[console_scripts]
+pviewer = pviewer.__main__:main
+

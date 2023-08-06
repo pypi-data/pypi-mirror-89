@@ -1,0 +1,13 @@
+flask_tinify/__init__.py,sha256=RJRsANqugtmghWx-wPLa53wsqp9WcSrayhqsmrFJPcg,415
+flask_tinify/client.py,sha256=Il7W2EU8IOzOG9F4t-rHkYPT2jPnjCk9I4BmW_C8ZdI,2893
+flask_tinify/errors.py,sha256=kFuyRrPYB7oGDeSREAZdarHn5eLl-XrSONcgZZL6vjA,1095
+flask_tinify/extension.py,sha256=aW4ERWZ2LLYIeOvPYJUpvIa2hOI4AWu0UC08Eq38Zi0,2822
+flask_tinify/result.py,sha256=e4Z2RmW0H4MZBPhTy5_59P0Af651fCJdIaXFAhgpZtM,744
+flask_tinify/result_meta.py,sha256=O0F9dgtu8KPlFuDeA2NPCR6kKGE252rH926oABFFt6k,455
+flask_tinify/source.py,sha256=tj_YCH4wY2ne1aXXfIIllWSM0zgRHvrp6heJr8MCQHY,1321
+flask_tinify/version.py,sha256=uGilDWWEtHN5Sj8h1caV1XlWHdwXHUHFR6cmWFbHS90,20
+flask_tinify-1.5.dist-info/LICENSE,sha256=8rnQg2ZwFzKPwEcSx2JE2ZYhbRON1rVAqeslG80xlHk,1073
+flask_tinify-1.5.dist-info/METADATA,sha256=FIXMHzCRgbPW_xkrFDn8p_IUquysP15HQpm452rMjzo,1621
+flask_tinify-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flask_tinify-1.5.dist-info/top_level.txt,sha256=DoLiMxEA61YBE2ZsDIVrpCR8tyIOPuQUGG34rxtNsCM,13
+flask_tinify-1.5.dist-info/RECORD,,

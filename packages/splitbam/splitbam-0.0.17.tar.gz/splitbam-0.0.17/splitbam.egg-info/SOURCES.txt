@@ -1,0 +1,10 @@
+README.md
+setup.py
+splitbam/__init__.py
+splitbam/splitbam.py
+splitbam.egg-info/PKG-INFO
+splitbam.egg-info/SOURCES.txt
+splitbam.egg-info/dependency_links.txt
+splitbam.egg-info/entry_points.txt
+splitbam.egg-info/requires.txt
+splitbam.egg-info/top_level.txt

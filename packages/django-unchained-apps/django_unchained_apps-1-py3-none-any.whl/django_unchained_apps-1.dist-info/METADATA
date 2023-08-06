@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-unchained-apps
+Version: 1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Unchained
+Author-email: UNKNOWN
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Requires-Dist: unchained-utils
+
+UNKNOWN
+
+

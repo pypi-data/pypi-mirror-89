@@ -1,0 +1,15 @@
+dataclass_property/__init__.py,sha256=b71PhqOZzTmowPRoB9G9p3y1iy9HOG6Wu7Anu8jIgds,1096
+dataclass_property/__meta__.py,sha256=vkJYU2FX3Yi_-PjPvi0tSbwhQX7ESKPuVKFmrJqbKYQ,237
+dataclass_property/datetime_utils.py,sha256=Pve8iAlMRkKiDX7H9Jd1odXBcIPuC--kahj7-bbkcv8,16256
+dataclass_property/internals.py,sha256=KcLOJbReKmTfdD-xXo_O72wVSBLJo9qRz2ygRqm_3EQ,17107
+dataclass_property/weekdays_list.py,sha256=Yw-5H5IVU3LUEGeaY-zF967NLQj2yJRmbfqNkqOMJhg,8971
+dataclass_property/__pycache__/__init__.cpython-38.pyc,sha256=LVVXyh7kPVBjaXgup_3TQ9C5bPcb_oHGeZOQNAp81bA,1064
+dataclass_property/__pycache__/__meta__.cpython-38.pyc,sha256=GYRBhFZR4tsRoWYN-9RFzQvh88DWKqDah705fyBLuJ0,408
+dataclass_property/__pycache__/datetime_utils.cpython-38.pyc,sha256=IZJY-2CAfybgFdx_WgUP0OBdmB5TCzN6NOYDizIRrlg,14355
+dataclass_property/__pycache__/internals.cpython-38.pyc,sha256=v_oLWVR8hQXlYd9TgBlf5IAm1qrcTVjV-LinWEUuRbE,7830
+dataclass_property/__pycache__/weekdays_list.cpython-38.pyc,sha256=VxtDxYCuWYxvDhaBDe-vH5SbNWse655ERaL7abb0-_I,9206
+dataclass_property-1.1.1.dist-info/LICENSE,sha256=g8LuMufT8GHSC9dk8_UMXARs6Ju-Ge6HcFKzKD9tBU0,1090
+dataclass_property-1.1.1.dist-info/METADATA,sha256=iFfwUXhqulsxsZ04ZspaAbt22r3y7t3KMPFP0t7xAg4,2580
+dataclass_property-1.1.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+dataclass_property-1.1.1.dist-info/top_level.txt,sha256=IU_J-y6tgdA6pkBYzWGK2jOTjV0Nj8YYJe2T0Te3DgI,19
+dataclass_property-1.1.1.dist-info/RECORD,,

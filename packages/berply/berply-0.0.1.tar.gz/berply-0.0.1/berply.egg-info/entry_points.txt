@@ -1,0 +1,3 @@
+[console_scripts]
+berply = berply.main:main
+

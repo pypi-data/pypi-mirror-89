@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: berply
+Version: 0.0.1
+Summary: simple kubernetes config management system
+Home-page: https://github.com/uplol/berply
+License: UNKNOWN
+Description: # berply
+        
+        ```
+        $ berply --env prod diff -l service=big-example
+        
+        $ berply --env prod apply ./res/example-configmap.yaml
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

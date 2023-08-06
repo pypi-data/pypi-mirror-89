@@ -1,0 +1,10 @@
+README.md
+setup.py
+berply/__init__.py
+berply/main.py
+berply.egg-info/PKG-INFO
+berply.egg-info/SOURCES.txt
+berply.egg-info/dependency_links.txt
+berply.egg-info/entry_points.txt
+berply.egg-info/requires.txt
+berply.egg-info/top_level.txt

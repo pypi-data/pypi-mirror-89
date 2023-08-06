@@ -1,0 +1,3 @@
+[console_scripts]
+ds_tools = ds_tools.cli:main
+

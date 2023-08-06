@@ -1,0 +1,33 @@
+Metadata-Version: 1.0
+Name: textimage
+Version: 1.0.0
+Summary: puts text on image
+Home-page: UNKNOWN
+Author: HYKANTUS
+Author-email: hykantus@gmail.com
+License: UNKNOWN
+Description: Description
+        Write text on image with text wrap.
+        
+        Libraries used
+        from PIL import Image
+        from PIL import ImageFont
+        from PIL import ImageDraw
+        import textwrap
+        import random
+        import string
+        
+        Usage
+        from textimage import textimage
+        writetext('text', 'font_directory', 'font_size', 'image_directory', 'width', 'height', 'output_directory')
+        
+        
+        Change Log
+        ==========
+        
+        1.0.0 (28/12/2020)
+        ------------------
+        - First Release
+        
+Keywords: Pillow,PIL,Image Manipulation,text,text on image
+Platform: UNKNOWN

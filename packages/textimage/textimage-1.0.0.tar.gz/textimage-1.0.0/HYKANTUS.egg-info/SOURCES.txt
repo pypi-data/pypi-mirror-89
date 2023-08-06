@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+HYKANTUS.egg-info/PKG-INFO
+HYKANTUS.egg-info/SOURCES.txt
+HYKANTUS.egg-info/dependency_links.txt
+HYKANTUS.egg-info/requires.txt
+HYKANTUS.egg-info/top_level.txt
+writetext/__init__.py

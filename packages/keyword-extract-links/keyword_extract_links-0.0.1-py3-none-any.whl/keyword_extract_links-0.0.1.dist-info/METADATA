@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: keyword-extract-links
+Version: 0.0.1
+Summary: This is a package that extracts keyword links based on web keywords
+Home-page: UNKNOWN
+Author: lvyunze
+Author-email: 17817462542@163.com
+License: UNKNOWN
+Keywords: extracts keyword links based on web keywords
+Platform: UNKNOWN
+Requires-Dist: lxml (==4.6.2)
+
+UNKNOWN
+
+

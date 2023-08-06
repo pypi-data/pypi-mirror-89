@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+qiskit_tensorflow/__init__.py
+qiskit_tensorflow.egg-info/PKG-INFO
+qiskit_tensorflow.egg-info/SOURCES.txt
+qiskit_tensorflow.egg-info/dependency_links.txt
+qiskit_tensorflow.egg-info/requires.txt
+qiskit_tensorflow.egg-info/top_level.txt

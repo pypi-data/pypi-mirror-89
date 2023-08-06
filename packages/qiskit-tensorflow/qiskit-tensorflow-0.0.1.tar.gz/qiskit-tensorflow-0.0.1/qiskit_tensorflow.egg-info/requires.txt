@@ -1,0 +1,2 @@
+qiskit==0.23.*
+tensorflow==2.4.*

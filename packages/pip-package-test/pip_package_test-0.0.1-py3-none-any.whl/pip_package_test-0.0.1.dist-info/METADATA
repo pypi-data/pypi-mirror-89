@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pip-package-test
+Version: 0.0.1
+Summary: Testing PIP package creation
+Home-page: UNKNOWN
+Author: Sonu
+Author-email: doshi.paril@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Testing Packaging with add function.
+
+```
+def add(x, y):
+    c = x + y
+    return c
+```
+

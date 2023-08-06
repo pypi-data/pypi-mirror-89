@@ -1,0 +1,12 @@
+randomsubgroups/__init__.py,sha256=ZJMtLPfkcYAHNeJ9VJB8pxNBGMxYvbiD1WjgcDoViMY,322
+randomsubgroups/_randomsubgroups.py,sha256=u37pcydX5Rin8XN8txqd6XN8DRMmKGEMXnIKNzIMOmA,36067
+randomsubgroups/_version.py,sha256=075iz_wmJWFZOiHbuinNMyz1WJHo7tp0N817twjxQkQ,23
+randomsubgroups/pysubgrouputils.py,sha256=Ol8du6g12_qZNntC_-kdmcELSBzq6gypu5awur9N0IM,11264
+randomsubgroups/subgroup.py,sha256=4vBU3jj7u7D0hsXv7AK2PF2wBqz9ImRKQ5Pkj1cs_0w,5369
+randomsubgroups/subgroup_predictor.py,sha256=5okLILRRKRGuYHRNIQz2ahgonoTV9Tl6e9UdLUoKgyw,10891
+randomsubgroups/test__randomsubgroups.py,sha256=7Xk3CgXSy93sYAW8exJAJKVik4s2dv8-ysOAAmCgn-4,912
+random_subgroups-0.4.1.dist-info/LICENSE,sha256=BXVtZwjBfhRiZw-9Fc-aen50UGNgYa9BcLjjgxNvtow,1093
+random_subgroups-0.4.1.dist-info/METADATA,sha256=3pVObt6chegYLXaVJwdoBsk8gvWi29Jog8YuVpo800g,1422
+random_subgroups-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+random_subgroups-0.4.1.dist-info/top_level.txt,sha256=9HjDVayR8JvdZbqohf93HUgMISI-TuYceBQEixEh0ak,16
+random_subgroups-0.4.1.dist-info/RECORD,,

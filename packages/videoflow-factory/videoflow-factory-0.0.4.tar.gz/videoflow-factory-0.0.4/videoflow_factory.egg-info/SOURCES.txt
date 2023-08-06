@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+videoflow_factory/__init__.py
+videoflow_factory/flowbuilder.py
+videoflow_factory/utils.py
+videoflow_factory/version.py
+videoflow_factory/videoflow_factory.py
+videoflow_factory.egg-info/PKG-INFO
+videoflow_factory.egg-info/SOURCES.txt
+videoflow_factory.egg-info/dependency_links.txt
+videoflow_factory.egg-info/not-zip-safe
+videoflow_factory.egg-info/top_level.txt

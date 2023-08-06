@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+topsis_tanisha_101803042/__init__.py
+topsis_tanisha_101803042/topsis.py
+topsis_tanisha_101803042.egg-info/PKG-INFO
+topsis_tanisha_101803042.egg-info/SOURCES.txt
+topsis_tanisha_101803042.egg-info/dependency_links.txt
+topsis_tanisha_101803042.egg-info/requires.txt
+topsis_tanisha_101803042.egg-info/top_level.txt

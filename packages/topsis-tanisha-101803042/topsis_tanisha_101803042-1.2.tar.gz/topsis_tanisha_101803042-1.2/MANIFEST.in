@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.txt
+include setup.cfg
+include setup.py
+include topsis_tanisha_101803042\__init__.py
+include topsis_tanisha_101803042\topsis.py
+prune dist

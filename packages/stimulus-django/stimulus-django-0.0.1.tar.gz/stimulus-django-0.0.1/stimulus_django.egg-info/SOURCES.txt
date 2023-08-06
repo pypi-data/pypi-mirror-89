@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+stimulus_django.egg-info/PKG-INFO
+stimulus_django.egg-info/SOURCES.txt
+stimulus_django.egg-info/dependency_links.txt
+stimulus_django.egg-info/requires.txt
+stimulus_django.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+pycee/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycee/answers.py,sha256=-BDyqGFRJ--QU-2-M4LCZc_mAyk3QwH0CqpIzlesNP4,6042
+pycee/errors.py,sha256=NKHpI8AmdvU0HQ1kTSAK9pSaN_ZwpsfI_6P7rWcLk-8,9676
+pycee/inspection.py,sha256=F5YSiB-uqhBR-pWHJ40GsWpWmYpK_AFuI9yt3v6hO1E,5884
+pycee/sym_table.py,sha256=Gw2H8rmYWDmBLu3KM7XWrAYtqzQcW0yTulxYlZF-FsM,544
+pycee/utils.py,sha256=UTbfJ29dpmA2MFq6LQWVENUFRqb2qdvkrbTgTjS8grs,7066
+pycee2-0.1.data/scripts/usage.py,sha256=FZoo0jwiAlDDnawZGBkaCugFc17hudVbrDy-zIi7X-Q,560
+pycee2-0.1.dist-info/LICENSE,sha256=xXMTRMX15nxW6V6Pfd20VfmxzDmSaqOvJn09FsLVdbA,1128
+pycee2-0.1.dist-info/METADATA,sha256=wNLLWGNOPe6m5-Il1MDH8IO0e3sdCj2q44Y4zWUqL9Y,3475
+pycee2-0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pycee2-0.1.dist-info/entry_points.txt,sha256=nhkoLXlTQSBYaOCVf341flXsLWikKL8KDNqlHo1BWmY,38
+pycee2-0.1.dist-info/top_level.txt,sha256=CdAHyDfSSyxcg-Esd4Y2ZPzVDMRrjjAZrWoNzERg_qc,6
+pycee2-0.1.dist-info/RECORD,,

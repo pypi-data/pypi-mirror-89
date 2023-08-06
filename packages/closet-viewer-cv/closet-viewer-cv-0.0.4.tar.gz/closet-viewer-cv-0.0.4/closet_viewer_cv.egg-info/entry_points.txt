@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    closet-viewer-cv=closet_viewer_cv:main
+    

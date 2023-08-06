@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+git_split_commit/__init__.py
+git_split_commit/command.py
+git_split_commit.egg-info/PKG-INFO
+git_split_commit.egg-info/SOURCES.txt
+git_split_commit.egg-info/dependency_links.txt
+git_split_commit.egg-info/entry_points.txt
+git_split_commit.egg-info/requires.txt
+git_split_commit.egg-info/top_level.txt

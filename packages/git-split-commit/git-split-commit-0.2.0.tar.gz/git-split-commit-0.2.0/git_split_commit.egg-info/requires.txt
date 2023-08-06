@@ -1,0 +1,4 @@
+click
+coloredlogs
+gitpython
+simple-term-menu

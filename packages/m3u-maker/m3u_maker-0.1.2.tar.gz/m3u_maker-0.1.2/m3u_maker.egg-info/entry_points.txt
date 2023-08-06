@@ -1,0 +1,5 @@
+[console_sripts]
+m3u-maker = m3u_maker:main
+m3u_maker = m3u_maker:main
+mkm3u8 = m3u_maker:main
+

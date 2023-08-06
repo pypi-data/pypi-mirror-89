@@ -1,0 +1,6 @@
+unidecode
+
+[test]
+coverage
+pytest
+pytest-cov

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: project-pkgs
+Version: 0.0.2
+Summary: 个人项目常用库
+Home-page: UNKNOWN
+Author: Rustle Karl
+Author-email: fu.jiawei@outlook.com
+License: BSD
+Description: # 个人项目常用库
+        
+Keywords: color,logger,pkgs
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

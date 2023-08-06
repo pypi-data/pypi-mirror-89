@@ -1,0 +1,10 @@
+anserializer/__init__.py,sha256=dIsKJBkbbNrMHreMMLFcCXj2iq5lf22n_my2-gGm8Po,22
+anserializer/serializer.py,sha256=cpodbbVLJnIc-ccTDQhduE_18jArMU1eWyFbSrWV-0M,5563
+anserializer/serializers/__init__.py,sha256=37uL2U_it6XNN6mxEtg_93Otqgzs_wquN63bydRmQUI,21
+anserializer/serializers/datetimeserializer.py,sha256=ii_aJm1c2lJBOIlmJhM-DEzp7xwH2suFezYmcssEYyg,1038
+anserializer/serializers/objectserializer.py,sha256=ulyoJ2-pMS7ZdEZwRTXgizwEXeliD0_iEUSy334hj7g,1718
+anserializer-1.0.0.dist-info/LICENSE,sha256=9iNfPNRmMItkBtlN8JXhcgZo--K-xFPy2dUKRRe1pX4,1063
+anserializer-1.0.0.dist-info/METADATA,sha256=gbGu5vJWJo68SF_RtUM4pV4xjbXh208-cWcL98dTlyc,1462
+anserializer-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+anserializer-1.0.0.dist-info/top_level.txt,sha256=5OS4QeqMtBO2n-j13nbwgy0xuKeMj_YxJbO78EyhFxU,13
+anserializer-1.0.0.dist-info/RECORD,,

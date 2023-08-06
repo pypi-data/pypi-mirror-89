@@ -1,0 +1,3 @@
+[ioc.providers]
+unimatrix.ext.crypto = = unimatrix.ext.crypto.__ioc__
+

@@ -1,0 +1,3 @@
+[console_scripts]
+aws_session_recorder = aws_session_recorder.cli:main
+

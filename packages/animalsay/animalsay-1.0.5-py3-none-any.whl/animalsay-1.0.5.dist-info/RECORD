@@ -1,0 +1,12 @@
+animalsay/__init__.py,sha256=B6EvMvgLUKpAA5EcQV86nv8YlofdwCJjanimHZXSQEo,74
+animalsay/__main__.py,sha256=OWnOyrq-4nGc9imlkwGVIk-_eGu3lOwUkbFL-_v_PcE,125
+animalsay/utils.py,sha256=Daxo7-2gxl7dixncrSuQGeQzj1nKqgbYGXjQODmGEGU,2186
+animalsay/farm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animalsay/farm/animals.py,sha256=_Dw_xusbXY5InfSxHLTvJRWT3CFYkbPMiYMynKKOkik,187
+animalsay/home/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animalsay/home/animals.py,sha256=W_khmRjPCeTcSNvXaRsebh0KrvBtlq-tLvrn5pncjV0,154
+animalsay-1.0.5.dist-info/LICENSE.txt,sha256=T2tms31MMTMadNYZcTT51SuoA4OntZCR1mFHCg6Hxn0,1078
+animalsay-1.0.5.dist-info/METADATA,sha256=hsfgJdhCXR6bU9Xcs_WwtShUjRrJ53mGPpFEtW-rKlM,2633
+animalsay-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+animalsay-1.0.5.dist-info/top_level.txt,sha256=JrVooAtOX9AtIfdh_fGeDBLl2QT_1GB4D-Xv3-HRFFw,10
+animalsay-1.0.5.dist-info/RECORD,,

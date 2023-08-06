@@ -1,0 +1,6 @@
+selenium
+pyvirtualdisplay
+webdriverdownloader
+
+[dev]
+pytest>=3.7

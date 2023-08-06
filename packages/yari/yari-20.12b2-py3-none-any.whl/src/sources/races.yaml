@@ -1,0 +1,407 @@
+races:
+  Aasimar:
+    bonus:
+      Charisma: 2
+    languages: ['Common', 'Celestial']
+    ratio:
+      height:
+        base: 56
+        modifier: 2d10
+      weight:
+        base: 110
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Celestial Legacy, [[1, Light]]]
+      - [Celestial Resistance, ['Necrotic', 'Radiant']]
+      - [Darkvision, 60]
+  Bugbear:
+    bonus:
+      Dexterity: 1
+      Strength: 2
+    languages: ['Common', 'Goblin']
+    ratio:
+      height:
+        base: 72
+        modifier: 2d12
+      weight:
+        base: 200
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Long-Limbed]
+      - [Powerful Build]
+      - [Sneaky, [Stealth]]
+      - [Surprise Attack]
+  Dragonborn:
+    bonus:
+      Strength: 2
+      Charisma: 1
+    languages: ['Common', 'Draconic']
+    ratio:
+      height:
+        base: 66
+        modifier: 2d8
+      weight:
+        base: 175
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Breath Weapon]
+      - [Damage Resistance]
+      - [Draconic Ancestry]
+  Dwarf:
+    bonus:
+      Constitution: 2
+    languages: ['Common', 'Dwarvish']
+    ratio: ~
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Dwarven Combat Training, [Battleaxe, Handaxe, Throwing hammer, Warhammer]]
+      - [Dwarven Resilience, [Poison]]
+      - [Dwarven Toughness]
+      - [Stonecunning]
+      - [Tool Proficiency, ["Artisan's tools - Brewer's supplies", "Artisan's tools - Mason's tools", "Artisan's tools - Smith's tools"]]
+  Elf:
+    bonus:
+      Dexterity: 2
+    languages: ['Common', 'Elvish']
+    ratio: ~
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Fey Ancestry, [Charm, Sleep]]
+      - [Keen Senses, [Perception]]
+      - [Trance]
+  Firbolg:
+    bonus:
+      Strength: 1
+      Wisdom: 2
+    languages: ['Common', 'Elvish', 'Giant']
+    ratio:
+      height:
+        base: 74
+        modifier: 2d12
+      weight:
+        base: 175
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Firbolg Magic, [[1, Detect Magic], [1, Disguise]]]
+      - [Hidden Step]
+      - [Powerful Build]
+      - [Speech of Beast and Leaf]
+  Gith:
+    bonus:
+      Intelligence: 1
+    languages: ['Common', 'Gith']
+    ratio: ~
+    size: Medium
+    speed: 30
+    traits: ~
+  Gnome:
+    bonus:
+      Intelligence: 2
+    languages: ['Common', 'Gnomish']
+    ratio:
+      height:
+        base: 35
+        modifier: 2d4
+      weight:
+        base: 35
+        modifier: 1d1
+    size: Small
+    speed: 25
+    traits:
+      - [Gnome Cunning]
+      - [Darkvision, 60]
+  Goblin:
+    bonus:
+      Dexterity: 2
+      Constitution: 1
+    languages: ['Common', 'Goblin']
+    ratio:
+      height:
+        base: 41
+        modifier: 2d4
+      weight:
+        base: 35
+        modifier: 1d1
+    size: Small
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Fury of the Small]
+      - [Nimble Escape]
+  Goliath:
+    bonus:
+      Constitution: 1
+      Strength: 2
+    languages: ['Common', 'Giant']
+    ratio:
+      height:
+        base: 74
+        modifier: 2d10
+      weight:
+        base: 200
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Natural Athlete, [Athletics]]
+      - [Stone's Endurance]
+      - [Powerful Build]
+      - [Mountain Born]
+  HalfElf:
+    bonus:
+      Charisma: 2
+    languages: ['Common', 'Elvish']
+    ratio:
+      height:
+        base: 57
+        modifier: 2d8
+      weight:
+        base: 110
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Fey Ancestry, [Charm, Sleep]]
+      - [Languages, [Abyssal, Celestial, Deep Speech, Draconic, Dwarvish, Giant, Gith, Gnomish, Goblin, Halfling, Infernal, Orc, Primordial, Sylvan, Undercommon]]
+      - [Skill Versatility, [Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth, Survival]]
+  HalfOrc:
+    bonus:
+      Strength: 2
+      Constitution: 1
+    languages: ['Common', 'Orc']
+    ratio:
+      height:
+        base: 58
+        modifier: 2d10
+      weight:
+        base: 140
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Menacing, [Intimidation]]
+      - [Relentless Endurance]
+      - [Savage Attacks]
+  Halfling:
+    bonus:
+      Dexterity: 2
+    languages: ['Common', 'Halfling']
+    ratio:
+      height:
+        base: 31
+        modifier: 2d4
+      weight:
+        base: 35
+        modifier: 1d1
+    size: Small
+    speed: 25
+    traits:
+      - [Brave]
+      - [Halfling Nimbleness]
+      - [Lucky]
+  Hobgoblin:
+    bonus:
+      Constitution: 2
+      Intelligence: 1
+    languages: ['Common', 'Goblin']
+    ratio:
+      height:
+        base: 56
+        modifier: 2d10
+      weight:
+        base: 110
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Martial Training (Weapon), [Battleaxe, Blowgun, Flail, Greataxe, Greatsword, Halberd, Hand Crossbow, Heavy Crossbow, Lance, Longbow, Longsword, Maul, Morningstar, Net, Pike, Rapier, Scimitar, Shortsword, Trident, War pick, Warhammer, Whip]]
+      - [Martial Training (Armor), [Light]]
+      - [Saving Face]
+  Human:
+    bonus:
+      Strength: 1
+      Dexterity: 1
+      Constitution: 1
+      Intelligence: 1
+      Wisdom: 1
+      Charisma: 1
+    languages: ['Common']
+    ratio:
+      height:
+        base: 56
+        modifier: 2d10
+      weight:
+        base: 110
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Languages, [Abyssal, Celestial, Deep Speech, Draconic, Dwarvish, Elvish, Giant, Gith, Gnomish, Goblin, Halfling, Infernal, Orc, Primordial, Sylvan, Undercommon]]
+  Kenku:
+    bonus:
+      Dexterity: 2
+      Wisdom: 1
+    languages: ['Common', 'Auran']
+    ratio:
+      height:
+        base: 52
+        modifier: 2d8
+      weight:
+        base: 50
+        modifier: 1d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Expert Forgery]
+      - [Kenku Training, [Acrobatics, Deception, Stealth, Sleight of Hand]]
+      - [Mimicry]
+  Kobold:
+    bonus:
+      Dexterity: 2
+      Strength: -2
+    languages: ['Common', 'Draconic']
+    ratio:
+      height:
+        base: 25
+        modifier: 2d4
+      weight:
+        base: 25
+        modifier: 1d1
+    size: Small
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - ["Grovel, Cower, and Beg"]
+      - [Pack Tactics]
+      - [Sunlight Sensitivity]
+  Lizardfolk:
+    bonus:
+      Constitution: 2
+      Wisdom: 1
+    languages: ['Common', 'Draconic']
+    ratio:
+      height:
+        base: 57
+        modifier: 2d10
+      weight:
+        base: 120
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Bite, 1d6]
+      - [Cunning Artisan]
+      - [Hold Breath]
+      - [Hunter's Lore, [Animal Handling, Nature, Perception, Stealth, Survival]]
+      - [Natural Armor, 13]
+      - [Hungry Jaws]
+  Orc:
+    bonus:
+      Constitution: 1
+      Strength: 2
+    languages: ['Common', 'Orc']
+    ratio:
+      height:
+        base: 64
+        modifier: 2d8
+      weight:
+        base: 175
+        modifier: 2d6
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Aggressive]
+      - [Menacing, [Intimidation]]
+      - [Powerful Build]
+  Tabaxi:
+    bonus:
+      Dexterity: 2
+      Charisma: 1
+    languages: ['Common']
+    ratio:
+      height:
+        base: 58
+        modifier: 2d10
+      weight:
+        base: 90
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Feline Agility]
+      - [Cat's Claws, 1d4]
+      - [Cat's Talent, [Perception]]
+      - [Languages, [Abyssal, Celestial, Deep Speech, Draconic, Dwarvish, Elvish, Giant, Gith, Gnomish, Goblin, Halfling, Infernal, Orc, Primordial, Sylvan, Undercommon]]
+  Tiefling:
+    bonus:
+      Charisma: 2
+    languages: ['Common', 'Infernal']
+    ratio:
+      height:
+        base: 57
+        modifier: 2d8
+      weight:
+        base: 110
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Hellish Resistance, [Fire]]
+  Triton:
+    bonus:
+      Charisma: 1
+      Constitution: 1
+      Strength: 1
+    languages: ['Common', 'Primordial']
+    ratio:
+      height:
+        base: 54
+        modifier: 2d10
+      weight:
+        base: 90
+        modifier: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Amphibious]
+      - [Control Air and Water]
+      - [Emissary of the Sea]
+      - [Guardians of the Depths]
+  Yuanti:
+    bonus:
+      Charisma: 2
+      Intelligence: 1
+    languages: ['Abyssal', 'Common', 'Draconic']
+    ratio:
+      height:
+        base: 56
+        modifier: 2d10
+      weight:
+        base: 110
+        modififer: 2d4
+    size: Medium
+    speed: 30
+    traits:
+      - [Darkvision, 60]
+      - [Innate Spellcasting, [[0, Poison Spray], [1, Animal Friendship (Snakes only)], [3, Suggestion]]]
+      - [Magic Resistance]
+      - [Poison Immunity]

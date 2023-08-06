@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dbt-ipy
+Version: 0.1.1
+Summary: IPython magic to use dbt
+Home-page: http://www.github.com/jmriego/dbt-ipy
+Author: José María Riego
+Author-email: jmriego@telefonica.net
+License: GNU GPLv3
+Keywords: ipython dbt sql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python
+Requires-Dist: dbt (>=0.17)
+Requires-Dist: ipython (>=1.0)
+
+Run DBT commands
+
+So far only the following IPython magics are implemented:
+
+# Line magics
+`%dbt rpc <args>`
+it will run dbt rpc in the background. The args will be passed directly to dbt as command line arguments.
+
+# Cell magics
+`%%compile_sql`
+the sql query in the cell will be compiled with the DBT RPC server and IPython will output the text
+
+`%%run_sql`
+the sql query in the cell will be run on the DBT RPC server and IPython will output the agate table. Also, it will run its `.print_table()` method
+
+

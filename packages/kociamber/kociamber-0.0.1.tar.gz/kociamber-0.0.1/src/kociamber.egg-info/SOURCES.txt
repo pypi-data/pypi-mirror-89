@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/abstract_algebra.py
+src/kociamber.egg-info/PKG-INFO
+src/kociamber.egg-info/SOURCES.txt
+src/kociamber.egg-info/dependency_links.txt
+src/kociamber.egg-info/requires.txt
+src/kociamber.egg-info/top_level.txt
+tests/test_abstract_algebra.py

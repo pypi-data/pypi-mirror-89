@@ -1,0 +1,7 @@
+include __pkginfo__.py
+include LICENSE
+include requirements.txt
+prune **/__pycache__
+include rsc_on_this_day.1
+recursive-include rsc_on_this_day *.pyi
+include rsc_on_this_day/py.typed

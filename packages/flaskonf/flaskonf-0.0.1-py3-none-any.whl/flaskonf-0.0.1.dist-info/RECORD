@@ -1,0 +1,14 @@
+flaskonf/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+flaskonf/_nbdev.py,sha256=Ilr-GQF-NYzEAYBvs_h3ascKC8E4r_Ttcf1_vThLCfw,517
+flaskonf/api.py,sha256=LoRL_FP6xzp1WamNVtOlE3uE89GqHOMuLSqWKTcIQ6U,7200
+flaskonf/static/css/bootstrap.css,sha256=L9fxXhh0DKyukbrb0cy4GeQxzbUQ2K8-70UQCD3i5zM,198240
+flaskonf/static/js/bootstrap.min.js,sha256=2JaAhvdQnfNMMnhWPauHOZ2k-dzftBmBjjownu3HC4g,63240
+flaskonf/static/js/bootstrap.min.js.map,sha256=RE1Ort2xyjPVzw37Xs43LyZPtQieTQ8mgrM_xMfj1x4,191971
+flaskonf/static/js/jquery.min.js,sha256=o3xvfVoAnalAlD3CPebt5QWZ3yLdooNGruu0ZJvZy0U,69916
+flaskonf/templates/get_page.html,sha256=xLyvqFLqisFwo0e3qUEnrZNkgUgdoxVdJEgoxft3VRk,4507
+flaskonf-0.0.1.dist-info/LICENSE,sha256=Chgdr9PMLLSODbBOtIo3mzGbj45ZKb4CqKg9oV2Z1bI,1085
+flaskonf-0.0.1.dist-info/METADATA,sha256=n1WwyzMP4W7gHdjZjlVtSI788jduhmFOLkaEhhVZXCA,741
+flaskonf-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flaskonf-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+flaskonf-0.0.1.dist-info/top_level.txt,sha256=lv-Eixb9yhXnXKzwKptJ57iVVnfvtj_On91LpvscPIQ,9
+flaskonf-0.0.1.dist-info/RECORD,,

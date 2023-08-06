@@ -1,0 +1,10 @@
+zstandard/backend_c.cpython-36m-x86_64-linux-gnu.so,sha256=Fu9L315Q1pHVtGDzsUT08L4TTiHQZAy-1IjzpOB6aIs,7291784
+zstandard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zstandard/__init__.pyi,sha256=Yd7aebO1tqKbuk4tawzVRhdcmGD8J9tL1hHRk-VZhXY,13406
+zstandard/backend_cffi.py,sha256=jYCUknnHbuX93734YSHOAkuo9R_RUk4gvU6WPaQ3QI4,146535
+zstandard/__init__.py,sha256=0nWAwRYdtiaBckUS6xvBp0ZtvC4kpV8tLnBTMgezAC8,7059
+zstandard-0.15.0.dist-info/METADATA,sha256=_D_C5yIEXAyBbEy1wXu3PhTHcaikg0_BNR11u2sRiAM,2578
+zstandard-0.15.0.dist-info/RECORD,,
+zstandard-0.15.0.dist-info/top_level.txt,sha256=J-wj94pPadY4ipFaanrYBlrMblOSegEYS8o_LdogrpU,10
+zstandard-0.15.0.dist-info/LICENSE,sha256=eI_oXlNySkCymQUcSryc901Csn55aDJbgIkcJfea20s,1484
+zstandard-0.15.0.dist-info/WHEEL,sha256=IkZiJFiZiRavDHfaLV1hdVPFYe1HJNLQ8dnz1DVQgHk,109

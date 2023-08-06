@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mbuslite
+Version: 0.0.0
+Summary: A small, in-process message bus implementation.
+Home-page: https://gitlab.com/francisferrell/mbuslite
+Author: Francis Ferrell
+Author-email: francisferrell@gmail.com
+License: MIT
+Description: 
+        # mbuslite
+        
+        `mbuslite` provides a message bus implementation embedded within the application's process.
+        
+        With it, you can loosely couple your application components. It implements the publish-subscribe
+        pattern.
+        
+        ## Motivation
+        
+        Having worked with crossbar and autobahn, as well as DBus, I like the message bus pattern. I've
+        wanted to use it in some projects to achieve the same loose coupling between internal components.
+        
+        Having also worked wih sqlite, I like the simplicity of a library instead of a remote service.
+        
+        Thus, `mbuslite`.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

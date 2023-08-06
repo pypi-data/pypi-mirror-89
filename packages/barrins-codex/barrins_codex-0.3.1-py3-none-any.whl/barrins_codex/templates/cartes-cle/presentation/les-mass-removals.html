@@ -1,0 +1,114 @@
+{% extends "cartes-cle/_layout.html" %}
+{% import "cartes-cle/_layout_card_column.html" as layout with context %}
+
+{% block content %}
+{% trans trimmed
+	les_blasts=link("/cartes-cle/presentation/les-blasts")
+%}
+<h1>Les removals</h1>
+<div class="tip">
+	Les removals sont des sorts qui permettent de retirer (<em>remove</em>) des permanents du champ
+	de bataille. Il en existe plusieurs catégories : les <em>spot removals</em> qui permettent de
+	gérer une seule carte et les <em>mass removals</em> qui en gèrent plusieurs.
+</div>
+{% endtrans %}
+
+{% call layout.card_column("Swords to Plowshares", _("Exil de créature")) %}
+{% trans trimmed %}
+Meilleur removal de la couleur et est aussi carte la plus jouée en blanc dans le format.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Fatal Push", _("Destruction de créature")) %}
+{% trans trimmed %}
+L'anti-créature le plus joué du format. Cette carte a un coût très bas et permet de
+détruire une grande majorité des créatures, dont des généraux.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Deadly Rollick", _("Exil de créature")) %}
+{% trans trimmed %}
+Carte relativement facile à intégrer dans un deck. L'effet de surprise est un plus non négligeable
+qui permet de se sortir de certaines situations.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Palace Jailer", _("Exil de créature")) %}
+{% trans trimmed %}
+Joué lorsque cela ne va pas à l'encontre du plan de jeu. Sa gestion passant par le fait d'être
+<em>monarch</em>, elle crée dans le même temps du <em>Card Advantage</em> pendant quelques tours.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Abrupt Decay", _("Destruction de permanents")) %}
+{% trans trimmed
+	assassins_trophy=card("Assassin's Trophy")
+%}
+Anti-permanent très générique qui permet de gérer aussi bien des créatures que, par
+exemple, des planeswalkers problématiques. Se joue généralement avec {{ assassins_trophy }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("Parallax Wave", _("Exil de créature")) %}
+{% trans trimmed %}
+Enchantement recherché par la plupart des jeux à base de créature. Il permet de gérer une créature
+adverse pendant plusieurs tours ou plusieurs créatures adverses dans un temps plus court,
+permettant de verrouiller une fenêtre pour être léthal.
+{% endtrans %}
+{% endcall %}
+
+
+
+
+
+
+{% call layout.card_column("Terminate") %}
+{% trans trimmed
+	angraths_rampage=card("Angrath's Rampage"),
+	dreadbore=card("Dreadbore")
+%}
+Anti-créature sans défaut et parmi les plus joués en Rakdos. Se joue généralement avec
+{{ dreadbore }} et {{ angraths_rampage }}.
+{% endtrans %}
+{% endcall %}
+
+
+<p>
+	{{ deadly_rollick }} est une
+</p>
+<p>
+
+</p>
+<p><strong>Infliger suffisamment de dégâts</strong></p>
+<p>
+	Les cartes permettant de faire cela sont principalement des {{ blasts }} et sont
+	détaillés sur une page à part. En plus de ces cartes, des sorts qui ne ciblent
+	que des créatures sont également jouables.
+</p>
+<p>
+	{{ flame_slash }} est l'exemple des sorts de dégâts qui ne peuvent pas être lancés en
+	ne ciblant que des créatures.
+</p>
+<p>
+	{{ abrade }} a un coût de mana décent et des options intéressantes. Cela en fait une carte de choix pour les decks ayant besoin de g
+</p>
+
+<p><strong>Réduire l'endurance à zéro</strong></p>
+<p>
+	{{ dismember }} est la carte qui représente à elle seule cette famille de sorts. C'est
+	le quatrième anti-créature le plus joué du format.
+</p>
+
+
+<p>
+	C’est pour ces raisons que certaines cartes seront difficilement détrônables comme
+	{{ terminate }}, {{ lightning_bolt }} et son alter ego {{ chain_lightning }}, {{ abrade }},
+	{{ dreadbore }}, {{ angraths_rampage }} et {{ deadly_rollick }}.
+</p>
+<p>
+	En plus de ces <em>spot removals</em>, il est nécessaire de jouer un certain nombre de
+	<em>wraths</em> : {{ damnation }}, {{ toxic_deluge }}, {{ sweltering_suns }} et
+	{{ fiery_confluence }} qui sert également de gestion d’artefacts de masse voire de moyen de
+	tuer l'adversaire.
+</p>
+{% endblock %}

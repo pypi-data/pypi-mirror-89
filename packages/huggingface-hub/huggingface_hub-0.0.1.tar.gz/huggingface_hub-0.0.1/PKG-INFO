@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: huggingface_hub
+Version: 0.0.1
+Summary: Client library to download and publish models on the huggingface.co hub
+Home-page: https://github.com/huggingface/huggingface_hub
+Author: Hugging Face, Inc.
+Author-email: julien@huggingface.co
+License: Apache
+Description: ## `huggingface_hub`
+        
+        ### Client library to download and publish models and other files on the huggingface.co hub
+        
+        <p align="center">
+        	<img alt="Build" src="https://github.com/huggingface/huggingface_hub/workflows/Python%20tests/badge.svg">
+        	<a href="https://github.com/huggingface/huggingface_hub/blob/master/LICENSE">
+        		<img alt="GitHub" src="https://img.shields.io/github/license/huggingface/huggingface_hub.svg?color=blue">
+        	</a>
+        	<a href="https://github.com/huggingface/huggingface_hub/releases">
+        		<img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/huggingface_hub.svg">
+        	</a>
+        </p>
+        
+Keywords: model-hub machine-learning models natural-language-processing deep-learning pytorch pretrained-models
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: quality
+Provides-Extra: all
+Provides-Extra: dev

@@ -1,0 +1,14 @@
+db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+db/vulndb_full.json,sha256=oJlQQver7haEDPdcMMOMX7kGIKWVJTRW7FHIKC2HHyU,780396
+src/__init__.py,sha256=iwDi0TUz45SMYIlshEAh-UPerqIe7nxUavbLYwEgSR8,25
+src/headers.py,sha256=2jnLqZtySho7CEr6qhDyM7K1p_SMtCBpTVkHq7t_oKI,7847
+src/report.py,sha256=9XTyscM11KmeQ6XOY_73fXSndUWwBCG2V0CNMPIduqo,4924
+src/requirements.py,sha256=crG4E9kLF3mKtrNVkmlijJeD99ACvAKZJUaeKZVdl_g,3048
+src/secpip.py,sha256=P5aO2kjg3vfZ4b2UEF7BeNAXRdDG5quCgxBjDtafIVQ,17180
+src/utils.py,sha256=NGUWAwa8bZN2m7x-ib39K6mKxn4ftN9-sj1zJULOI6g,17128
+secpip-1.0.0rc1.dist-info/LICENSE.md,sha256=N-mwlIk1Eyhsm5tToQqfnHCeNfSEYOnf-xxpzWMsCn8,1068
+secpip-1.0.0rc1.dist-info/METADATA,sha256=U5UmV0Zce_rnP6fZgj415x2sLfLJWo-IY-Ft2hl_InM,15637
+secpip-1.0.0rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+secpip-1.0.0rc1.dist-info/entry_points.txt,sha256=gozMvm9K4IZjTWT-Eag1dcORJKK8_uWwoztdLcLRQTs,98
+secpip-1.0.0rc1.dist-info/top_level.txt,sha256=uC-39ZeNLR8226zL5_EtojWMkEumDHtWfcC8rwmrqkw,7
+secpip-1.0.0rc1.dist-info/RECORD,,

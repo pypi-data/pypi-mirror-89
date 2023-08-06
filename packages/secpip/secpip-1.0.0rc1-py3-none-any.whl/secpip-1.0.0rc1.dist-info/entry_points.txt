@@ -1,0 +1,5 @@
+[console_scripts]
+secpip = src.secpip:main
+secpip3 = src.secpip:main
+secpip3.6 = src.secpip:main
+

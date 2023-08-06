@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Dangee
+Version: 0.0.2
+Summary: Dangee
+Home-page: https://github.com/quark-engine/Dangee
+Author: JunWei Song
+Author-email: sungboss2004@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: quark-engine
+
+# Dangee Framework
+
+Dangee framework provides information of elements (function, variable etc.) in android binaries. Users can therefore, use these information to construct the analysis, find potential malicious activites or security vulnerabilities.
+
+
+

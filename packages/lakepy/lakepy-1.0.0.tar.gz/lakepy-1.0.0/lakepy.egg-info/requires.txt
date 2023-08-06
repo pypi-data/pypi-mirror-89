@@ -1,0 +1,10 @@
+sqlalchemy
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+datetime
+geopandas
+shapely
+contextily

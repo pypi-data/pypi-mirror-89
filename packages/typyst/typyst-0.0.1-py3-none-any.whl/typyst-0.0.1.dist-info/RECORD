@@ -1,0 +1,13 @@
+typyst/__init__.py,sha256=ZXK0ju-DLZ_kHKDxL-MGedU5Vtb36VcULcMol0B5wgc,60
+typyst/gen.py,sha256=ay3kvrgAlgFRm1HMsH3lIfKBQ7P5ZMb7TFAxnnuc1xc,17160
+typyst/naming.py,sha256=oAw11Um3MbzIsDGMLPo0hWNflcyoycO0K1MNpGfr0y0,18949
+typyst/pronounceable_mapping.py,sha256=9SzNybZ3_8mR-z80utJMmcxIVIYIbDfJPMTQwxdEm_s,7934
+typyst/regex_with_defaults.py,sha256=gs9bbqjJUNhC1J_x26xIoJz_hNKXdHRqiM9VwwhZBDw,3075
+typyst/table.py,sha256=6NoVVKOZ5i1_0jyOotaruBY9DOx6R9mCuSkq7IbZqDs,2438
+typyst/to.py,sha256=KUeyYiJnq-kgOstM0pmgTJXQihgxScrP24BzmhQeQ9M,5679
+typyst/trans.py,sha256=qcC9suTkDK-7C-m6Yi1LkmbIslyKsG2nGtDA7kxsiL0,8704
+typyst-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+typyst-0.0.1.dist-info/METADATA,sha256=sXfKXSV2NamfcInWdjbX-0TbwosgzqhvTVM8rx9rfcs,317
+typyst-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+typyst-0.0.1.dist-info/top_level.txt,sha256=v6P9-J9qqV88KqlOBgg0Dq39XHzPkqvJdS2RCynJlFo,7
+typyst-0.0.1.dist-info/RECORD,,

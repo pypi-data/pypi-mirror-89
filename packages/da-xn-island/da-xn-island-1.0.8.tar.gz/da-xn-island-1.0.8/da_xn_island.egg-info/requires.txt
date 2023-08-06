@@ -1,0 +1,3 @@
+requests
+colorama
+da_xn_island.utils

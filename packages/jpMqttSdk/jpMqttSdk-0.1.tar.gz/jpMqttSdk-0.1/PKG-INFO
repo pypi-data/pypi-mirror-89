@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: jpMqttSdk
+Version: 0.1
+Summary: jp Mqtt Sdk
+Home-page: https://github.com/jithendrajp
+Author: PATTIPATI JITHENDRA PRASAD
+Author-email: jithendra.prasad@outlook.com
+License: MIT
+Download-URL: https://github.com/jithendrajp
+Description: UNKNOWN
+Keywords: mqtt,sdk,azure
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,12 @@
+kloppy>=1.5.1
+pyspark>=3.0.1
+graphframes>=0.6
+numpy>=1.19.4
+matplotlib>=3.3.3
+
+[development]
+pre-commit
+
+[test]
+pytest
+pandas>=1.0.0

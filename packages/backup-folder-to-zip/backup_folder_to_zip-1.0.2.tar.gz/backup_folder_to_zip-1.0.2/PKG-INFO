@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: backup_folder_to_zip
+Version: 1.0.2
+Summary: Copies an entire folder and its contains into a zip file whose filename increments.
+Home-page: UNKNOWN
+Author: Dari Developer
+Author-email: hernandezdarifrancisco@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/DariHernandez/backup_folder_to_zip/blob/master/README.md
+Project-URL: Funding, https://www.paypal.com/paypalme/FranciscoDari
+Project-URL: Source, https://github.com/DariHernandez/backup_folder_to_zip/
+Description: # Backup folder to zip
+        Copies an entire folder and its contains into a zip file whose filename increments. 
+        
+        ## Install
+        
+        ``` bash
+        $ pip install backup-folder-to-zip
+        ```
+        
+        ## How to use
+        
+        ``` python
+        # Import pakage
+        from backup_folder_to_zip import backup
+        
+        #  Save local folders
+        from_folder = "c:\\user\\my_files"
+        to_folder = "c:\\user\\backup_of_my_files"
+        
+        # backup folder 
+        mybackup = extractor.Extractor(from_folder, to_folder)
+        ```
+        
+Keywords: zip,backup,back up,auto backup,auto back up
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

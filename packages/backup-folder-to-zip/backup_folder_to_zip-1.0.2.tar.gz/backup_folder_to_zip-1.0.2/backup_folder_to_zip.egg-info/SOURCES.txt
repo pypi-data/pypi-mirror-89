@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+backup_folder_to_zip/__init__.py
+backup_folder_to_zip/backup.py
+backup_folder_to_zip.egg-info/PKG-INFO
+backup_folder_to_zip.egg-info/SOURCES.txt
+backup_folder_to_zip.egg-info/dependency_links.txt
+backup_folder_to_zip.egg-info/requires.txt
+backup_folder_to_zip.egg-info/top_level.txt

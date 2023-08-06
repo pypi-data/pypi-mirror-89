@@ -1,0 +1,8 @@
+README.md
+metalake_file_management.egg-info/PKG-INFO
+metalake_file_management.egg-info/SOURCES.txt
+metalake_file_management.egg-info/dependency_links.txt
+metalake_file_management.egg-info/requires.txt
+metalake_file_management.egg-info/top_level.txt
+tests/__init__.py
+tests/test_create_folder.py

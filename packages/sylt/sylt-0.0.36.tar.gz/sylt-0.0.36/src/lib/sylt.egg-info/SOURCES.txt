@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/lib/sylt/top.py
+src/lib/sylt.egg-info/PKG-INFO
+src/lib/sylt.egg-info/SOURCES.txt
+src/lib/sylt.egg-info/dependency_links.txt
+src/lib/sylt.egg-info/top_level.txt
+src/lib/sylt/common/__init__.py
+src/lib/sylt/common/utils.py
+src/lib/sylt/sdk/__init__.py
+src/lib/sylt/sdk/client.py

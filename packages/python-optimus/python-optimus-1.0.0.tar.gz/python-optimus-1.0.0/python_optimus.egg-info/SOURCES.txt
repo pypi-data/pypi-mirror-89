@@ -1,0 +1,7 @@
+README.md
+setup.py
+optimus_ids/__init__.py
+python_optimus.egg-info/PKG-INFO
+python_optimus.egg-info/SOURCES.txt
+python_optimus.egg-info/dependency_links.txt
+python_optimus.egg-info/top_level.txt

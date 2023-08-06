@@ -1,0 +1,10 @@
+gibli/__init__.py,sha256=gxBMMAwjyTgZGJjU0-MlVqxjD4AimF3eCDnactzcRr0,110
+gibli/conf.py,sha256=Wt-WbTRbZAIUNiMxJfiWYBM8dJ8pqL95qLH5hr81T5E,631
+gibli/filters.py,sha256=ePm-X_x3FIa0GbAy3lohfTs6FKr76TyVRVpPV3TTKTM,1033
+gibli/formatters.py,sha256=wArCazaLXGzTke80_yA0iDzEksfqbZx5kBgUuyHRm38,1088
+gibli/gibli.py,sha256=QU-2EEjrZ4RFXwtKf3nZgYo98yGXd1ZgT6iT5LHmgvc,2240
+gibli/handlers.py,sha256=Jj1Xr1bTbIOcmXjivNWhupHzX0zG0O4AKI5KxSq3Izk,255
+gibli-1.0.4.dist-info/METADATA,sha256=aFh8xh8bKbEsSxTisXorNHVIZuFbs0JhFnK1G4ySQi0,739
+gibli-1.0.4.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+gibli-1.0.4.dist-info/top_level.txt,sha256=pdGqUT2TGgn95KgmFZWRmchCc3M-Qa5PZzqP6EKtkb8,6
+gibli-1.0.4.dist-info/RECORD,,

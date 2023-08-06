@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+pypapers/VERSION.py
+pypapers/__init__.py
+pypapers/cli.py
+pypapers/helpers.py
+pypapers/search.py
+pypapers.egg-info/PKG-INFO
+pypapers.egg-info/SOURCES.txt
+pypapers.egg-info/dependency_links.txt
+pypapers.egg-info/entry_points.txt
+pypapers.egg-info/requires.txt
+pypapers.egg-info/top_level.txt
+pypapers/tests/__init__.py
+pypapers/tests/quicktest.py
+pypapers/tests/test_one.py

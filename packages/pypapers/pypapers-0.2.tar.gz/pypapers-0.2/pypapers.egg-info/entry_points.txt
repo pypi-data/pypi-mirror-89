@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        pypapers = pypapers.cli:main_cli
+        quicktest_pypapers = pypapers.tests.quicktest:quicktest_cli
+    

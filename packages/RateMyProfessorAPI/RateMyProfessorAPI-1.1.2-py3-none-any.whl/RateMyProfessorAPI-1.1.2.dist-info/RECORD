@@ -1,0 +1,11 @@
+ratemyprofessor/__init__.py,sha256=Q2EZpXqcTLPsaXMRwci2AXAarN0J66-bpbTvKr2jq00,3960
+ratemyprofessor/professor.py,sha256=nJjVMLw-fMgW5BdKgS8ykSUj6A8OmjrMK4ukbeAyJS0,7595
+ratemyprofessor/school.py,sha256=hWCCYk6dLSNZq6m-xSAknur2WMWhLewFTvz7LQLXDuE,686
+ratemyprofessor/json/header.json,sha256=zgdF_IztyJq1gmEdKtyOfgUXODxXJjEQLlLXNYau4kc,221
+ratemyprofessor/json/professorquery.json,sha256=39HWRwTpAIXiGLBj3pG79lXrF4biK6z99W4T9bxa10k,242
+ratemyprofessor/json/ratingsquery.json,sha256=myLuj_PfsuOU0sNCybRZBIHJNgQ0J7RCVrJCB40kw9Y,442
+RateMyProfessorAPI-1.1.2.dist-info/LICENSE,sha256=sl0fb0o_gWEWWz63Vn3si7uIqk7ADivq_JXfRWWEmfQ,11344
+RateMyProfessorAPI-1.1.2.dist-info/METADATA,sha256=Lyon-UoCvufor9R8SM6JiSNxerHlU0TqHUAy8nTYs7s,3579
+RateMyProfessorAPI-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+RateMyProfessorAPI-1.1.2.dist-info/top_level.txt,sha256=20xpCOlOXwO3GdqMmBln8FPEA4TR6J91mzepthwgdX8,16
+RateMyProfessorAPI-1.1.2.dist-info/RECORD,,

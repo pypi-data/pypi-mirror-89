@@ -1,0 +1,3 @@
+[console_scripts]
+create_superuser=django_ynh.create_superuser:main
+

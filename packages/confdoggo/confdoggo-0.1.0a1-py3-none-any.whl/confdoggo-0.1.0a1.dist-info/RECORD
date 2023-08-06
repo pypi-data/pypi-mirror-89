@@ -1,0 +1,15 @@
+confdoggo/__init__.py,sha256=LgWRpU8Pg-WMN5_dDLjauZNAIog4y_i6f3moad-xWQw,1026
+confdoggo/__version__.py,sha256=9vhKx9JT5E-XdxCb_CEEL0utBl7jMWu_DXa_elVBkrw,2376
+confdoggo/clients/__init__.py,sha256=fusGojC3rFgfz47kgRhwI8foJAZSrNcl5tEFiICKhWQ,1503
+confdoggo/clients/fs.py,sha256=pQxd8FCpwnjsPGH2kdNBQK08372nPhUU05uoBWXdnIE,965
+confdoggo/core.py,sha256=WHO6EYeup4uxsZL2O8Y6GywGfMW_d18sA8Y9_onmra8,5054
+confdoggo/frontends/__init__.py,sha256=cR8S6BjUknLc4o7vh-9MGLemMUDoFvX2It8L9k7dSbA,1881
+confdoggo/frontends/json.py,sha256=RO1DFVfs0lhiZEDkXYmOH3wxS95fBSMNEsyy7vnT72M,904
+confdoggo/frontends/yaml.py,sha256=sp46elDIPlU8VCP4GSr4Tu97N-fV0LCFrzBwbxvw25w,1016
+confdoggo/utils.py,sha256=xrcWJhFmxc3iHqGZb25I5_JJX4keJpGtoUv-I5r0cLQ,1233
+confdoggo/watchers/__init__.py,sha256=uRPZr2LAW_XmAi4-bcGTBaFvYBcFgs8Ab23kyo2ByK0,1659
+confdoggo/watchers/fs.py,sha256=WZdzS5Dy6nXuwxEQrhZc_rintoOlutW69OdmKarRK80,2715
+confdoggo-0.1.0a1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+confdoggo-0.1.0a1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+confdoggo-0.1.0a1.dist-info/METADATA,sha256=Pj_jzxays08-WeinzIjteJmDXWZTrYNWK63T787qTPs,1789
+confdoggo-0.1.0a1.dist-info/RECORD,,

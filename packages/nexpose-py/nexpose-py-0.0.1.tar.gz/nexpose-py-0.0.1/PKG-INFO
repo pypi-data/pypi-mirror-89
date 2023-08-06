@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nexpose-py
+Version: 0.0.1
+Summary: Python3 bindings and CLI tools for Nexpose API version 3
+Home-page: https://github.com/coalfire/nexpose-py
+Author: Noah Birnel
+Author-email: noah.birnel@coalfire.com
+License: UNKNOWN
+Description: nexpose-py
+        ==========
+        
+        Python3 bindings and CLI tools for the Nexpose API version 3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst

@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: share_secrets
+Version: 0.4
+Summary: share secrets with ease.
+Home-page: https://github.com/anish-m-code/share_secret
+Author: Anish M
+Author-email: aneesh25861@gmail.com
+License: GPLv3
+Download-URL: https://github.com/Anish-M-code/share_secret/archive/v0.3.tar.gz
+Description: A simple secret sharing tool done as student project in cryptography.
+Keywords: Secret sharing,cryptography
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Security :: Cryptography

@@ -1,0 +1,6 @@
+numpy
+scipy<=1.5
+matplotlib
+shapely
+pybind11
+meshpy

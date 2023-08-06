@@ -1,0 +1,13 @@
+indigo/__init__.py,sha256=XtJMPvLGokjGJ_7vonRiallnk_MGZXekemyLugpy0XM,148647
+indigo/bingo.py,sha256=wKuSQ1LAoPrTcM0Ud3cmA8mm5J2bEuJZ53n4kTve1sI,14265
+indigo/inchi.py,sha256=sXSRTmMfjnq_v93_rmMiNqBlJ1lR_A9oUJY8cKXGr84,3471
+indigo/renderer.py,sha256=9KEd65WndtkiZNgzcUTQo5moXYUq7J98_CPo0VHGGSI,3982
+indigo/lib/Mac/10.7/libbingo.dylib,sha256=oiCkmgwcEP4jRxjOXPnH4wNHD97P12EQf3zvDxDyiSA,409840
+indigo/lib/Mac/10.7/libindigo-inchi.dylib,sha256=UHzoKmMdsbtHxPgbA18OICjfVSclDSkIoVKXBfUwDXQ,61720
+indigo/lib/Mac/10.7/libindigo-renderer.dylib,sha256=0lp70Dz5LItbachzMzij4PwWr1nvahKKy3y0jcHsZGs,2194256
+indigo/lib/Mac/10.7/libindigo.dylib,sha256=-0UR9QQ1-JKvqhQetySr-a25KEPd6U2m3SHxUEHCjXI,7440576
+epam.indigo-1.4.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+epam.indigo-1.4.3.dist-info/METADATA,sha256=Tb8CyihdPkrYlM5PCdtzOYhAZq8DSBfX1BwC62hp6ts,1972
+epam.indigo-1.4.3.dist-info/WHEEL,sha256=44xM9EN9Vb83RQ10SzFw7ldaIDg1JP45yr91czWadJ0,106
+epam.indigo-1.4.3.dist-info/top_level.txt,sha256=UgW0PXeSu4w7YR-JkL4f9Yt_fQfJreKO9DsH1S16M0g,7
+epam.indigo-1.4.3.dist-info/RECORD,,

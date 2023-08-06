@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: emailsanta
+Version: 1.0.0
+Summary: Python module to simulate emailing the legendary Christmas character Santa, powered by Alan Kerr's emailSanta.com.
+Home-page: https://github.com/fffelix-jan/emailsanta-py
+Author: Félix An
+Author-email: fffelix.jan.yt@gmail.com
+License: AGPLv3
+Project-URL: Documentation, https://github.com/fffelix-jan/emailsanta-py
+Project-URL: Funding, https://www.felixan.tk
+Project-URL: Source, https://github.com/fffelix-jan/emailsanta-py
+Project-URL: Tracker, https://github.com/fffelix-jan/emailsanta-py/issues
+Platform: UNKNOWN
+Requires-Python: >= 3.5
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: html2text
+Requires-Dist: requests
+
+# emailsanta
+Python module to "send a letter to Santa" using emailsanta.com and receive a reply
+Documentation coming soon! Until then, figure it out yourself.
+

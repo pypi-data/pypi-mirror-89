@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PyAuthGG
+Version: 1.0.3
+Summary: Simple Python Auth.GG Package
+Home-page: https://github.com/xFueY/PyAuthGG/
+Author: xFueY
+Author-email: xFueY@protonmail.com
+License: MIT
+Keywords: AuthGG
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests
+
+Simple Python Auth.GG Package
+
+
+Version 1.0.3 - 28th December 2020
+- Testing
+
+Version 1.0.2 - 28th December 2020
+- Testing
+
+Version 1.0.1 - 28th December 2020
+- Testing
+
+Version 1.0.0 - 28th December 2020
+- Initial Release
+
+

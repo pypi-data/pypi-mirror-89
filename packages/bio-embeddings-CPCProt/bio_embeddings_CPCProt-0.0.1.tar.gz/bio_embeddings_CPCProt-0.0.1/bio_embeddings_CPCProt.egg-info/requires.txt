@@ -1,0 +1,5 @@
+numpy<2.0,>=1.19
+torch<2.0,>=1.0
+lmdb<2.0,>=1.0
+bio-embeddings-tape-proteins<=1.0,>=0.4
+scipy<2.0,>=1.5

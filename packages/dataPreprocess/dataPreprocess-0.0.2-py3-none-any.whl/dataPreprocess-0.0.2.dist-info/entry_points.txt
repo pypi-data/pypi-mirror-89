@@ -1,0 +1,3 @@
+[console_scripts]
+dataPreprocess = __init__:main
+

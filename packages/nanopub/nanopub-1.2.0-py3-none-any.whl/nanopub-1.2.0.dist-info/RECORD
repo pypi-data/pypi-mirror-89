@@ -1,0 +1,17 @@
+nanopub/__init__.py,sha256=Yc1XeEoZ3wU96ECBcq2rIkPxeKqMCTh7JMNRWkYqmmI,121
+nanopub/_version.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+nanopub/client.py,sha256=OIQ_7CUGtQnzSH4lYbZ-H7YsGzWE7Nqmz8feyW6Iy3I,17601
+nanopub/definitions.py,sha256=55hCw3u_PJ0q4_l_1lvCc_y3ecLnVX6NI0_vPZyiWdY,413
+nanopub/java_wrapper.py,sha256=NZFesM_ZXYDYt-g3jyvzizRv-ElWIaUrwGt7UtRqSUM,3334
+nanopub/namespaces.py,sha256=ObnD55GWuK8EB6TZYCqWBxXL28I8X80O8AIKnZ_idK8,753
+nanopub/profile.py,sha256=xHNoFxB7fyc_0RiT7UxPI2aR4MCMIKaU4uxUUp_ysq0,2930
+nanopub/publication.py,sha256=7nwmb0FWPZa4ILe7aHYjx3SyrR0VwZf3UuCv9jjxp5I,15226
+nanopub/setup_profile.py,sha256=yFVVvVOiyuJXF4m09fvpL62mYCGqVUmHxa2dgPJCkVQ,6095
+nanopub-1.2.0.data/data/bin/nanopub-java,sha256=4DIR_maSBd2qto4oLJ3XuTbZSF8lCooEAj1Ly2cWEsE,1424
+nanopub-1.2.0.data/data/lib/nanopub-1.32-jar-with-dependencies.jar,sha256=C_Nk8ebVQ7pDiPcU048uCbx7pr4AzGci4bUxsJx0qIo,10605788
+nanopub-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nanopub-1.2.0.dist-info/METADATA,sha256=dzShnkHn58THIzVT3pwE8zQdzd3LN03KWJiDTa8ib9w,4506
+nanopub-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nanopub-1.2.0.dist-info/entry_points.txt,sha256=Qo9aMs6cHk_oeXT2ObZUqol1T5R02VDu3F5XmIambio,62
+nanopub-1.2.0.dist-info/top_level.txt,sha256=VTVakeDEpIn2iT1-3p_Tie9Z9eENzG8Q25KpBtkKR4A,8
+nanopub-1.2.0.dist-info/RECORD,,

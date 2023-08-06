@@ -1,0 +1,6 @@
+mysql-connector
+psycopg2
+tqdm
+
+[cython]
+mysql2postgresql_cython

@@ -1,0 +1,3 @@
+[console_scripts]
+siembra = src.siembra:main
+

@@ -1,0 +1,9 @@
+ipa_notify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipa_notify/ipa_notify.py,sha256=pXBxyza-5KjDq2VDj0J8K_WCpjfqKbS0tUyhURZqcxE,4387
+ipa_notify/notifier.py,sha256=wmb-B-sTpcgeBFNCszXLZjwL75H-gSvmBe8I7cX-vew,1292
+ipa_notify-0.1.4.dist-info/COPYING,sha256=qxX9UmvY3Rip5368E5ZWv00z6X_HI4zRG_YOK5uGZsY,17987
+ipa_notify-0.1.4.dist-info/METADATA,sha256=0wkucfIOusvk6krclqo1fGNULYtKxiGAbrFB3YQbFII,2769
+ipa_notify-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ipa_notify-0.1.4.dist-info/entry_points.txt,sha256=30bbPzmPhezIZ139oQkEySx2X-wH1xLT6mIykWO7OC0,59
+ipa_notify-0.1.4.dist-info/top_level.txt,sha256=LPDwd2p-QOsIM7z4GqGjDl_TZ3cOnBHtT3DjfTsF4yk,11
+ipa_notify-0.1.4.dist-info/RECORD,,

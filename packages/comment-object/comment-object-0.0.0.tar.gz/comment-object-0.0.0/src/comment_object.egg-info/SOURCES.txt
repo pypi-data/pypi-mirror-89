@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/comment/__init__.py
+src/comment_object.egg-info/PKG-INFO
+src/comment_object.egg-info/SOURCES.txt
+src/comment_object.egg-info/dependency_links.txt
+src/comment_object.egg-info/top_level.txt

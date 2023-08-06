@@ -1,0 +1,10 @@
+*.egg-info
+*.pyc
+dist
+build
+*~
+*.so
+.idea/
+ssh2/libssh2.so*
+ssh2/*.c
+wheelhouse/

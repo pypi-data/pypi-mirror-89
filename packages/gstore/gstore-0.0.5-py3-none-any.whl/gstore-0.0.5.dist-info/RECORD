@@ -1,0 +1,14 @@
+gstore/__init__.py,sha256=nRIlcBJCQFTYqcMkxQlCsTWqepzcHaRkdQoTCoxhZlM,910
+gstore/__main__.py,sha256=nIwdsXnwsgTVFWRWlStguJftaJGMvuEOIQ7PXNzHrS4,750
+gstore/args.py,sha256=MwAnckHxxToy0WfJ0YyMkc4oQ8TPw74Ua7JSpFHYBAw,1412
+gstore/cli.py,sha256=XsZopW3CIDX-ieh03TtzLQ9sU95JM6CNyHhD2GpT8Zc,1063
+gstore/client.py,sha256=a2_Mt8-wFF-61nL9vwkHVuY3n6vTjx7v8dvrhNah3R0,2421
+gstore/logger.py,sha256=sGN3F2YfN1BqShliZ9p-y28_FhHSPbgcMKfifncUscI,2568
+gstore/repo.py,sha256=3aTErdS51bfh3qmIk2CymchEXYgjMd_46CdmzYgQkqs,3679
+gstore-0.0.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+gstore-0.0.5.dist-info/METADATA,sha256=jaSngU5HPbg09AT2ghTUDyD6VULV60COeicSE0c0KJc,8272
+gstore-0.0.5.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+gstore-0.0.5.dist-info/entry_points.txt,sha256=KtmLkTT1P7zigAB6osudf5ruBKVXjqagyOkszGhbfQg,44
+gstore-0.0.5.dist-info/top_level.txt,sha256=fDsA57rdSXjPW1mhs20SSHcGnhvBK95Vl_CxBP-otpI,7
+gstore-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gstore-0.0.5.dist-info/RECORD,,

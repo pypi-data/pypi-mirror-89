@@ -1,0 +1,7 @@
+bs4
+click
+colorama
+fleep
+keyring
+requests
+tqdm

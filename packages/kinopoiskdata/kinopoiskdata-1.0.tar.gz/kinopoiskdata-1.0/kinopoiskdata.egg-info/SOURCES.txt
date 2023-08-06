@@ -1,0 +1,6 @@
+README.md
+setup.py
+kinopoiskdata.egg-info/PKG-INFO
+kinopoiskdata.egg-info/SOURCES.txt
+kinopoiskdata.egg-info/dependency_links.txt
+kinopoiskdata.egg-info/top_level.txt

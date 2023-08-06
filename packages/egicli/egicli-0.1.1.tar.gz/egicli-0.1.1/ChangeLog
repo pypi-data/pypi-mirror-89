@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+0.1.1
+-----
+
+* Update setup.cfg (#19)
+
+0.1
+---
+
+* Ec3 (#17)
+* Fix typo in "--not-production" flag (#14)
+* Changed requests.post data type adrgument (#8)
+* Fix for env var usage on endpoint commands (#6)
+* Initial commit (#1)
+* Initial commit

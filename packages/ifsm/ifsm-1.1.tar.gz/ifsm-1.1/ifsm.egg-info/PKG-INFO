@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ifsm
+Version: 1.1
+Summary: fsm
+Home-page: https://github.com/diaohaha/ifsm
+Author: Gaoda
+Author-email: gdnhm@qq.com
+License: BSD
+Description: a sample fsm
+Platform: any

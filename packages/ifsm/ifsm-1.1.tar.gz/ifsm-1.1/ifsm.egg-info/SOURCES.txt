@@ -1,0 +1,7 @@
+setup.py
+ifsm/__init__.py
+ifsm/core.py
+ifsm.egg-info/PKG-INFO
+ifsm.egg-info/SOURCES.txt
+ifsm.egg-info/dependency_links.txt
+ifsm.egg-info/top_level.txt

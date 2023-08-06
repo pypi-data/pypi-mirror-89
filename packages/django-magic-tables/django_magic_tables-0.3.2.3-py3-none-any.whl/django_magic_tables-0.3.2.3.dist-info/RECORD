@@ -1,0 +1,12 @@
+magic_tables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_tables/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_tables/apps.py,sha256=4ARegfeSBs_J2e3HYqsKt34tJACam_yhkEaGoQJK1Hg,98
+magic_tables/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+magic_tables/templates/magic_tables/table.html,sha256=jo5kCBobxqH41HrIHsOBVYU67I5rlEWRLjzuoXAd2zM,625
+magic_tables/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_tables/templatetags/magic_tables_tags.py,sha256=Yn5AZK6tJr0rkxcQiUMK8r5NRctukKNFU9QrAAe41zA,2281
+django_magic_tables-0.3.2.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+django_magic_tables-0.3.2.3.dist-info/METADATA,sha256=FDeShBnDphMGkuv_IZk4ii99oMmQ-WKb6C0lk3pLAXA,1009
+django_magic_tables-0.3.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_magic_tables-0.3.2.3.dist-info/top_level.txt,sha256=ZFt_ApGme7NCHUkrYEVL5L7rmNTnwmjAgyz8kULTTRg,13
+django_magic_tables-0.3.2.3.dist-info/RECORD,,

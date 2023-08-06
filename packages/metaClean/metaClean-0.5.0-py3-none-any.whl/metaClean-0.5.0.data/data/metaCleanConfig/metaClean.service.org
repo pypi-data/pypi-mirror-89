@@ -1,0 +1,13 @@
+[Unit]
+Description=Auto Cleans photos added to certain folder
+After=multi-user.target
+
+[Service]
+WorkingDirectory=[workingDirectory]
+User=[user]
+Type=idle
+ExecStart=[executableStart]
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

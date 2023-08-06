@@ -1,0 +1,5 @@
+var:
+  recursive: false
+  service: false
+  user: None
+  watchedDir: None

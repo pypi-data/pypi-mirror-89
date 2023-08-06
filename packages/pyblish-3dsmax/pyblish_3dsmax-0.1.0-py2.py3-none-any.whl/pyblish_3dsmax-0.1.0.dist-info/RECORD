@@ -1,0 +1,10 @@
+pyblish_3dsmax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyblish_3dsmax/app.py,sha256=oKSW3CvhuulJWVhjXQ-SxcjnCjoo1L3j9SrescwLq2Q,2172
+pyblish_3dsmax/version.py,sha256=V3AAd5-EuvNLEtk04vwiDI12B3ftMNu7doHhbdrX3Lg,239
+pyblish_3dsmax/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyblish_3dsmax/plugins/collect_current_file.py,sha256=EHsgZ4Buzhqwgs5XuCT-ERTpUqxRBV6Ppqd1E3Oajo4,699
+pyblish_3dsmax-0.1.0.dist-info/LICENSE,sha256=BQw0zvwlokcBbdD_SM6PbLv6qHqcdXQ-RLdzDmiiTyY,7818
+pyblish_3dsmax-0.1.0.dist-info/METADATA,sha256=9-GbttkXQ5ZKkPupMgv2H5C-l_BVBl1ioNcvd2haeeM,2068
+pyblish_3dsmax-0.1.0.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+pyblish_3dsmax-0.1.0.dist-info/top_level.txt,sha256=YWTe12809mJR2Qcrgq2VaaUsYDYFIij6uTxGHt8gEuc,15
+pyblish_3dsmax-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.optional.txt
+requirements.txt
+setup.cfg
+setup.py
+biosimulators_test_suite/__init__.py
+biosimulators_test_suite/_version.py
+biosimulators_test_suite.egg-info/PKG-INFO
+biosimulators_test_suite.egg-info/SOURCES.txt
+biosimulators_test_suite.egg-info/dependency_links.txt
+biosimulators_test_suite.egg-info/requires.txt
+biosimulators_test_suite.egg-info/top_level.txt

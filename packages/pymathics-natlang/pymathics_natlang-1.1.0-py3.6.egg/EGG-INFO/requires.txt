@@ -1,0 +1,4 @@
+Mathics3>=1.1.0
+nltk
+spacy<3.0
+pattern

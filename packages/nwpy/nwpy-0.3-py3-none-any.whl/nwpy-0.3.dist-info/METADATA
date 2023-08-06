@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: nwpy
+Version: 0.3
+Summary: TUI based network watcher using Python!
+Home-page: https://github.com/thewh1teagle/nwpy
+Author: thewh1teagle
+Author-email: example@gmail.com
+License: MIT
+Keywords: scanner,python,network,arp,anylzer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: dnspython
+Requires-Dist: mac-vendor-lookup
+Requires-Dist: tableprint
+
+# nwpy 🚀
+TUI based network watcher using Python!
+![nwpy](https://user-images.githubusercontent.com/61390950/100191849-89e2ab00-2ef9-11eb-9ec3-f3a334868165.png)
+
+# Installation
+1. clone the repo
+```git clone
+git clone https://github.com/thewh1teagle/nwpy
+```
+2. install requirements
+```
+pip3 install -r nwpy/requirements.txt
+```
+3. move nwpy into /usr/local/bin
+```mv
+sudo mv nwpy/nwpy /usr/local/bin
+```
+# Basic Usage
+Simply run ```nwpy```, It will look for your default interface and start scanning.
+```bash
+$ nwpy --help
+usage: nwpy [-h] [-i I] [-l]
+
+Network scanner
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -i I        interface
+  -l          List available interfaces
+```
+
+

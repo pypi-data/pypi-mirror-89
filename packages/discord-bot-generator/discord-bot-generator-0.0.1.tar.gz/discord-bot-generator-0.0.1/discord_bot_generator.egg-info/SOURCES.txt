@@ -1,0 +1,14 @@
+README.md
+setup.py
+discord_bot_generator/__init__.py
+discord_bot_generator/__main__.py
+discord_bot_generator/__version__.py
+discord_bot_generator/cli.py
+discord_bot_generator/config.py
+discord_bot_generator/generator.py
+discord_bot_generator.egg-info/PKG-INFO
+discord_bot_generator.egg-info/SOURCES.txt
+discord_bot_generator.egg-info/dependency_links.txt
+discord_bot_generator.egg-info/entry_points.txt
+discord_bot_generator.egg-info/requires.txt
+discord_bot_generator.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+README.md
+check_lines
+check_lines.py
+setup.py
+check_lines.egg-info/PKG-INFO
+check_lines.egg-info/SOURCES.txt
+check_lines.egg-info/dependency_links.txt
+check_lines.egg-info/top_level.txt
+src/functions.py
+src/info.py
+src/precommit.py

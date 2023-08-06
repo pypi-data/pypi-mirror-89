@@ -1,0 +1,87 @@
+Metadata-Version: 1.2
+Name: myquerytutor
+Version: 2.1.0
+Summary: Educational tool to teach SQL
+Home-page: https://gitlab.com/tuxta/myquerytutor
+Author: Steven Tucker
+Author-email: tuxta2@gmail.com
+License: LGPL-3.0-or-later
+Project-URL: Changelog, https://gitlab.com/tuxta/myquerytutor/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://gitlab.com/tuxta/myquerytutor/issues
+Description: ========
+        Overview
+        ========
+        
+        Educational tool to teach SQL
+        
+        * Free software: GNU Lesser General Public License v3 or later (LGPLv3+)
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install myquerytutor
+        
+        
+        
+        Documentation
+        =============
+        
+        
+        To use the project:
+        
+        .. code-block:: python
+        
+            import myquerytutor
+            myquerytutor.longest()
+        
+        
+        Development
+        ===========
+        
+        To run all the tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        2.1.0 (2020-12-22)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5

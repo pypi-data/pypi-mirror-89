@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: groupme-bot
+Version: 0.1.0
+Summary: A simple bot builder for GroupMe
+Home-page: https://github.com/brandenc40/groupme-bot
+Author: Branden Colen
+Author-email: brandencolen@anl.gov
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

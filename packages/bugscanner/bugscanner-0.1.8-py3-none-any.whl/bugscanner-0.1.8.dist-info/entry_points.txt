@@ -1,0 +1,3 @@
+[console_scripts]
+bugscanner = bugscanner.__main__:main
+

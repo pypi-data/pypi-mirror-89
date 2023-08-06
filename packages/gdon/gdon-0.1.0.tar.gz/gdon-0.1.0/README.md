@@ -1,0 +1,93 @@
+# Présentation
+
+G1pourboire est un outil permettant de générer des pourboires en Ğ1.
+En développement, ceci est une version Béta.
+
+Il est fonctionnel en ligne de commande, mais pas (encore ?) en interface graphique. Cette contribution est bienvenue !
+
+# Installation
+
+Le logiciel est empaqueté et référencé sur l'index Pypi.
+
+## Installation des dépendances DEBIAN
+
+- `python3`
+- `pip3`
+- `build-essential` 
+-  python3-wheel`
+
+### Debian :
+
+```
+$ sudo apt-get install python3 python3-pip python3-dev build-essential python3-wheel
+# si sur carte ARM:
+$ sudo apt-get install libffi-dev
+
+# ajouter .local/bin à votre PATH
+$ echo 'export PATH="/home/$USER/.local/bin:$PATH"' >> .bash_aliases
+# redémarrer votre terminal ou votre interpréteur de commande
+# installer gdon
+$ python3 -m pip install gdon
+```
+
+
+## Installation pour les devs :
+
+Désolé, le dépôt est encore nommé "Ğ1pourboire", ancien nom du projet
+
+```
+# apt install pipenv
+$ git clone https://git.duniter.org/matograine/g1pourboire.git
+$ cd g1pourboire
+$ pipenv install '-e .'
+$ pipenv run gdon
+```
+
+# Utilisation
+
+pour connaître toutes les commandes :
+`gdon help`
+
+* Générer et remplir des Ğ1Dons :
+
+Les Ğ1Dons seront bloqués jusqu'à la péremption.
+Le compte depuis lequel vous crééez les Ğ1Dons vous sera nécessaire pour les récupérer.
+
+```
+$ gdon generer <montant> <nombre_pages> <peremption_date_JJ/MM/AAAA> 
+```
+* Récupérer le contenu de Ğ1Dons :
+```
+$ gdon recuperer
+```
+
+* Récupérer des Ğ1Dons depuis un dossier de sauvegarde:
+```
+gdon recuperer<dossier>
+```
+
+* Récupérer des Ğ1Dons depuis un fichier:
+```
+recuperer fichier <fichier>
+```
+
+* Si la récupération s'est mal passée :
+```
+recuperer backup <année>
+```
+
+* Configurer le noeud Duniter :
+```
+gdon noeud <noeud> <port>
+```
+
+Les dons générés sont stockés par défaut dans `~/Documents/G1dons/` en pdf. 
+Les fichiers de récupération sont par défaut dans ~/Documents/G1dons/Récupération. Ne pas le supprimer !
+Les pourboires ne sont pas récupérables avant la date de péremption.
+
+
+# TODO
+
+- Interface graphique
+- Suivi des pourboires générés
+- Paquet stand-alone pour Windows

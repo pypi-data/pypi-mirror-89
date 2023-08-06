@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+pyblish_3dsmax/__init__.py
+pyblish_3dsmax/app.py
+pyblish_3dsmax/version.py
+pyblish_3dsmax.egg-info/PKG-INFO
+pyblish_3dsmax.egg-info/SOURCES.txt
+pyblish_3dsmax.egg-info/dependency_links.txt
+pyblish_3dsmax.egg-info/not-zip-safe
+pyblish_3dsmax.egg-info/requires.txt
+pyblish_3dsmax.egg-info/top_level.txt
+pyblish_3dsmax/plugins/__init__.py
+pyblish_3dsmax/plugins/collect_current_file.py

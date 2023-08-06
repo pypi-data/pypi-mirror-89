@@ -1,0 +1,3 @@
+torancell
+
+red(),gold(),ruby(),diamond(),black(),x(),sun(),sword(),etc...

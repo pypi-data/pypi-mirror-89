@@ -1,0 +1,13 @@
+src/GUI.py,sha256=JvYVfkQRIIy_XbOCnsLcilwh7-wyMAA7Vn6ICZLqdrk,6481
+src/__init__.py,sha256=ApXX_zLNV3I8wfbLg4G76KAdfKG-v1pZsrY5OA2z9W4,886
+src/analyze.py,sha256=j3vgfhh7tWn650cC26vg3TqiySC-TIBn_pFTOLO3HVs,2207
+src/layouts.py,sha256=09EzuQ32uXB5ba2TTXpW78BePmb3vJCMiU8lz3PEO58,5210
+src/log.py,sha256=qYU_FO42SQit9R9Z3uWU-RWWCfE75DjBTt4pmmjxvjQ,495
+src/output_dialog.py,sha256=yt-KWC78vKRC0ahl56UPumaPwwJpz31OobsE677pOGs,835
+src/page.py,sha256=spgZ5P0SgmWDly4nsIa5Wqeoj1HLoB_o_CyioVaPXfo,4340
+src/types_supported.py,sha256=jCbeGv2Wy4CHjXHnwUBCk6icghjVprAdZEsaPzuXHDg,5209
+clarisse-0.0.3.dist-info/LICENSE,sha256=beW-eBATljW38ubMk43S25MU2SJYZD9DZXU9nNKcGA8,11356
+clarisse-0.0.3.dist-info/METADATA,sha256=ZR4OtALMdfVd-ihvebC9crZptflW4ADUY6Qa3Is4r7I,7393
+clarisse-0.0.3.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+clarisse-0.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+clarisse-0.0.3.dist-info/RECORD,,

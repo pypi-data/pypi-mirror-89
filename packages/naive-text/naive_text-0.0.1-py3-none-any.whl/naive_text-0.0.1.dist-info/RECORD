@@ -1,0 +1,8 @@
+naive_text/__init__.py,sha256=njddqgCxLgSu1U9lh1E0iBGNLc1IZcWABQjVPLmNUG4,177
+naive_text/normalizer.py,sha256=HGO2GLuZr2DlWwu5pUAO-b6wUszN8hhwxexlV79aPsg,3248
+naive_text/sentence.py,sha256=rFphr76AKZV0kdSAEHwi6lhfjaZovEsEvjgJCSVwvB0,678
+naive_text-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+naive_text-0.0.1.dist-info/METADATA,sha256=BOgqdWlNM7HMJZUAF-wnc48jMzAOcQY7GGXaWx2ZiSs,3381
+naive_text-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+naive_text-0.0.1.dist-info/top_level.txt,sha256=ilhyAQPvv47nMXtod0mm74SqQ3GRavr8xzaH5FsZyVM,11
+naive_text-0.0.1.dist-info/RECORD,,

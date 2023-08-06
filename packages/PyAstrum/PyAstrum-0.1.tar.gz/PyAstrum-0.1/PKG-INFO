@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: PyAstrum
+Version: 0.1
+Summary: Python SDK for space agencies RESTful APIs
+Home-page: https://github.com/ultraeia/PyAstrum
+Author: Marcos Jesus Vivar
+Author-email: marcos.vivar@protonmail.com
+License: MIT License
+Download-URL: https://github.com/ultraeia/PyAstrum/archive/0.1.tar.gz
+Project-URL: Source, https://github.com/ultraeia/PyAstrum
+Description: # PyAstrum
+        Python SDK to handle RESTful API of several aerospace organizations:
+        - NASA (api.nasa.gov)
+        - ESA (open.esa.int)
+        
+        ## Installation
+        1. Install `tox` on your system
+            - `pip install tox`
+        
+        2. Go to the project folder
+            - `cd PyAstrum`
+        
+        3. Set up your development environment
+            - `tox --devenv <virtual_environment> -e <python_environment>`
+        
+        ### Example
+        `tox --devenv .venv-pyastrum -e py38`
+        
+        4. Activate your virtual environment
+            - `source .venv-pyastrum/bin/activate`
+        
+        5. Run the tests and validate succesful build in the project's root directory
+            - `tox`
+        
+        6. If you want to run a specific environment
+            - `tox -e py38`
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

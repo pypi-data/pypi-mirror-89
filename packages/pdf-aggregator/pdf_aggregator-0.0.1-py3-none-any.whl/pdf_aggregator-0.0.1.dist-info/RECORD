@@ -1,0 +1,9 @@
+aggregator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aggregator/aggregate.py,sha256=gvFGUc8otsL279moOGN1TEX2d-3VxMjAC7b8dxSJjlc,10136
+aggregator/plot.py,sha256=2O8r1eSIBw0_2HzhKc-kLaQLYqN3PR_30NRYlbIFX2Y,17365
+pdf_aggregator-0.0.1.dist-info/LICENSE,sha256=YUmv1kGQ3xveftMK3IABiLUNBy8yN0KZnRbYGFYvgHY,759
+pdf_aggregator-0.0.1.dist-info/METADATA,sha256=TBah1BM2LYarrUiy99z49fmUK7xyHbWPNwSB6OqRahI,2003
+pdf_aggregator-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pdf_aggregator-0.0.1.dist-info/entry_points.txt,sha256=P-qWdZAxvYb0yJ6HMOe5VNFQ4eOL2B1_GM7gTClgm1U,94
+pdf_aggregator-0.0.1.dist-info/top_level.txt,sha256=tisVED9KCthbvxpLFVPgVAw0MwI_Ipk8S91qOqS1zbY,11
+pdf_aggregator-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+pdf-aggregator = aggregator.aggregate:main
+pdf-plot = aggregator.plot:main
+

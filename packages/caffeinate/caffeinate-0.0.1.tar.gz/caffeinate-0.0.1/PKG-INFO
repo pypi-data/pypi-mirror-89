@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: caffeinate
+Version: 0.0.1
+Summary: Don't let your computer go to sleep while you're busy training your model
+Home-page: https://github.com/subash774/Caffeinate
+Author: Subash Poudyal
+Author-email: subash.poudyal8@gmail.com
+License: MIT
+Description: # Caffeinate
+        Don't let your computer go to sleep while training your models
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown

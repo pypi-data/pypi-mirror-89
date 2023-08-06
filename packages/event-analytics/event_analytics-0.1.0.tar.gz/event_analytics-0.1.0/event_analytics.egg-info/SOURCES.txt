@@ -1,0 +1,9 @@
+README.md
+setup.py
+event_analytics/__init__.py
+event_analytics/event_analytics.py
+event_analytics/test.py
+event_analytics.egg-info/PKG-INFO
+event_analytics.egg-info/SOURCES.txt
+event_analytics.egg-info/dependency_links.txt
+event_analytics.egg-info/top_level.txt

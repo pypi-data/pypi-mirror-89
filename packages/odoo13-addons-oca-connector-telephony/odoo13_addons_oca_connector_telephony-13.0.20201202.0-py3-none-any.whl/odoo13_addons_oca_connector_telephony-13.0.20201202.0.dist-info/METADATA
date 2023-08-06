@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-connector-telephony
+Version: 13.0.20201202.0
+Summary: Meta package for oca-connector-telephony Odoo addons
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Dist: odoo13-addon-base-phone
+
+UNKNOWN
+
+

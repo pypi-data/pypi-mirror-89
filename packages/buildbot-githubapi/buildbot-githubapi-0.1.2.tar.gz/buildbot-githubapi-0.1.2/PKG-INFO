@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: buildbot-githubapi
+Version: 0.1.2
+Summary: GitHub API plugin for BuildBot
+Home-page: https://github.com/eosswedenorg/buildbot-GitHubAPI
+Author: Henrik Hautakoski
+Author-email: henrik@eossweden.org
+License: UNKNOWN
+Description: # Buildbot GitHub API
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Build Tools
+Requires: Buildbot (>=2.8.0)
+Description-Content-Type: text/markdown

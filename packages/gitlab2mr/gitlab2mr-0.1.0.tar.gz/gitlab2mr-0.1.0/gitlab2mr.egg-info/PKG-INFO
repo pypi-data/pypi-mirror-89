@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: gitlab2mr
+Version: 0.1.0
+Summary: A gitlab-to-myrepo config helper
+Home-page: https://github.com/schlagenhauf/gitlab2mr
+Author: Jonas Schlagenhauf
+License: GNU General Public License
+Description: # gitlab2mr
+        
+        A python script to generate a [myrepos](https://myrepos.branchable.com/) config file from a Gitlab
+        instance.
+        
+        You don't want to waste your time checking out all your Gitlab repositories but you are too lazy
+        to maintain a myrepos config manually. Then this tool is for you.
+        
+        ## Installation
+        
+        gitlab2mr is (SOON) available via pip:
+        
+        ```
+        pip install --user gitlab2mr
+        ```
+        
+        ## Usage
+        
+        ```
+        gitlab2mr -u <url-of-your-gitlab-instance> -t <private-access-token> -f ".mrconfig.gitlab"
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

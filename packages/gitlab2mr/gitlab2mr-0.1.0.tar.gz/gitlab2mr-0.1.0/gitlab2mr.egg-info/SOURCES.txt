@@ -1,0 +1,11 @@
+README.md
+setup.py
+gitlab2mr/__init__.py
+gitlab2mr/__main__.py
+gitlab2mr/cli.py
+gitlab2mr.egg-info/PKG-INFO
+gitlab2mr.egg-info/SOURCES.txt
+gitlab2mr.egg-info/dependency_links.txt
+gitlab2mr.egg-info/entry_points.txt
+gitlab2mr.egg-info/requires.txt
+gitlab2mr.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+nacla.egg-info/PKG-INFO
+nacla.egg-info/SOURCES.txt
+nacla.egg-info/dependency_links.txt
+nacla.egg-info/top_level.txt
+src/__init__.py
+src/nacla.py
+src/model/rnn.pth

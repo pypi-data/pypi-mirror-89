@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ThreadPoolExecutorPlus
+Version: 0.0.1
+Summary: A fully replaceable executor that makes it possible to reuse idle threads and shrink thread list when there's no heavy load.
+Home-page: https://github.com/GoodManWEN/ThreadPoolExecutorPlus
+Author: WEN
+License: UNKNOWN
+Keywords: concurrent.futures,threading,multi-threads,ThreadPoolExecutor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+

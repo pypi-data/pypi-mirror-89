@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: cmdperfect
+Version: 0.1
+Summary: Hy, this is cool librari for making cmd programs more beautifull and easy
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: Hi this is cool library for making cmd programs more beautifull and more easy
+        
+        Change Log
+        ==========
+        
+        0.1 (27/12/2020)
+        -----------------
+        - First Release
+Keywords: cmd display perfect cmdperfect perfectcmd cool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+cmdperfect/__init__.py
+cmdperfect.egg-info/PKG-INFO
+cmdperfect.egg-info/SOURCES.txt
+cmdperfect.egg-info/dependency_links.txt
+cmdperfect.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+Hi this is cool library for making cmd programs more beautifull and more easy

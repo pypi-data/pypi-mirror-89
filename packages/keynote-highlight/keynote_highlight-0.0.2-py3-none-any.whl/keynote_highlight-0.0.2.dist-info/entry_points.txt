@@ -1,0 +1,3 @@
+[console_scripts]
+keyhi=keynote_highlight.main:main
+

@@ -1,0 +1,13 @@
+openavalancheproject/None.py,sha256=79HkaRAU-yBREBhq3U9TddNf5nz8HMJvvJ5R2JoxeD0,193
+openavalancheproject/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+openavalancheproject/_nbdev.py,sha256=746vY-wMjPuJ2j9wMcTU6DadhkzF9qRKKG6BIe500Zw,500
+openavalancheproject/convert_to_zarr.py,sha256=5thnGNfiCe9HxxJAzmHEbzemVc47LySNDUmz3BvLH_s,5315
+openavalancheproject/parse_gfs.py,sha256=205d0Ezxx51qf1I10DAvpA9vEKj-itjMhSyGrzMNWhM,11723
+openavalancheproject/parse_gfs_batch.py,sha256=53jwlsU4RfFhg1NUiZNoHoeCW8uuCjCSWsMoh8478gE,331
+openavalancheproject/prep_ml.py,sha256=OjJZcM372h3n0J00iTmJuc-V6msKQsQxRxDccOnMwno,45706
+openavalancheproject-0.0.3.dist-info/LICENSE,sha256=MpumrJlHcWCj6O46wmfPETQef6wgKYN-Z1Rd7mg4-gM,1081
+openavalancheproject-0.0.3.dist-info/METADATA,sha256=QZaoV24QTKO628SEZ1KKUXNVNGMZtySwK2obfQyi6Yg,22364
+openavalancheproject-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openavalancheproject-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+openavalancheproject-0.0.3.dist-info/top_level.txt,sha256=XwcUVAeW3Durflnb9VkifJbZm-2QpHdv3M1VwDdHjsk,21
+openavalancheproject-0.0.3.dist-info/RECORD,,

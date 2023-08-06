@@ -1,0 +1,10 @@
+LICENSE,sha256=3hr0puLebQ5Lh64Mp7lBGhRSmy3GZjvNtCvPvD1wpLQ,1072
+fastapi_cloudauth/__init__.py,sha256=cUuuCaC9Qp7ZLShP_ipJZGRzDdaL4WMhV-KMN7iTOa8,134
+fastapi_cloudauth/auth0.py,sha256=K3OCXGvX6Ereatd3ud4xlcgw5MXK0QZQ-UT7qPt2cS4,840
+fastapi_cloudauth/base.py,sha256=CbwC9U5V4Wi6ppl0WgqmgSxduUb3AGhGJr8U_dGBkBw,7082
+fastapi_cloudauth/cognito.py,sha256=PHFIRSIbOVT3joAtduOtCWuV3ujBBN2-8inToRpToDc,993
+fastapi_cloudauth/firebase.py,sha256=2cv8n7I6lCiypHvvj89uidUNX02EvAaYksyql1zxHKs,580
+fastapi_cloudauth-0.2.0.dist-info/LICENSE,sha256=3hr0puLebQ5Lh64Mp7lBGhRSmy3GZjvNtCvPvD1wpLQ,1072
+fastapi_cloudauth-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastapi_cloudauth-0.2.0.dist-info/METADATA,sha256=jlQNqrovpizAu24-tN4CJmEBD5rvH9XYrrT0ol9QmKI,6590
+fastapi_cloudauth-0.2.0.dist-info/RECORD,,

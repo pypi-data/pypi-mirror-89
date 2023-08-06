@@ -1,0 +1,14 @@
+gitspindle/__init__.py,sha256=kinAGn3WI_xbyy8qdTrsbu4NtKj3VmLTQWpr0kboTuQ,26455
+gitspindle/ansi.py,sha256=qsd125GRf8vhXcXpTwgKLdpnP8CK3jO-BtqIb9iiKm4,1136
+gitspindle/bbapi.py,sha256=gP1M90j1ARV9khPR6NUb5Bb1u-m2KoY67ksKKchFsmo,11313
+gitspindle/bitbucket.py,sha256=eRLDDLP-g9rmQhZypSqP65t-gsZVE63ObOwMRAOC4YQ,28365
+gitspindle/github.py,sha256=rIN3tPZBN3cUa3Ys_yy4ywQuz1Fr-LKu9Kl3eqZGC8Q,69235
+gitspindle/gitlab.py,sha256=Kkttxv3M2-3zMwTHzd-nejqbAuc46DcjuFbk5aN8po4,38191
+gitspindle/monkey.py,sha256=SUKCnXr1ZcaJ6CTe4pteWeKPngK1XUltKpVTIU14pRU,4322
+gitspindle/public_suffix.py,sha256=6gjyjKGMaVE6rX903NI58gbaHZwjsK12KsKOEASpBWw,3302
+git_spindle-4.0.0.dist-info/COPYING,sha256=wR--FDHbEqULQdRyFcyAlQtenVtHw9cipzgcYPaB87Y,2433
+git_spindle-4.0.0.dist-info/METADATA,sha256=IF22-OgCEBiLqZ-zb582D_nkMh1Z6m4qaNx0RiYWhiA,757
+git_spindle-4.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+git_spindle-4.0.0.dist-info/entry_points.txt,sha256=DxSqMD5F9J-hfSbNyAbDolgilkbImAhM5hvBWE1TArM,123
+git_spindle-4.0.0.dist-info/top_level.txt,sha256=jdQxbEmrU-V_ThsJsrg8eLZSo71zk25LWKOZJgDDG9c,11
+git_spindle-4.0.0.dist-info/RECORD,,

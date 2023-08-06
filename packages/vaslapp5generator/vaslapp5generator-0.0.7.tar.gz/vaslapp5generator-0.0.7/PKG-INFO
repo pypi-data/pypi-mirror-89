@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: vaslapp5generator
+Version: 0.0.7
+Summary: Generate vaslapp v5 entity boilerplate
+Home-page: https://github.com/vaslsolutions/vaslapp5generator
+Author: Ali Farhoudi
+Author-email: af.farhoudi@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: vaslapp,vasl baas,code generator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

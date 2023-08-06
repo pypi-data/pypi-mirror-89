@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+unclechat/__init__.py
+unclechat/chatserver.py
+unclechat/guichat.py
+unclechat.egg-info/PKG-INFO
+unclechat.egg-info/SOURCES.txt
+unclechat.egg-info/dependency_links.txt
+unclechat.egg-info/top_level.txt

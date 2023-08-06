@@ -1,0 +1,3 @@
+[buildbot.changes]
+GitHubAPI = src.githubapi:GitHubAPI
+

@@ -1,0 +1,16 @@
+dotfiles/__init__.py,sha256=WsiLimnwE2u3Dv4Us0OJnXpKa40pvSmez8yQIYglA4k,180
+dotfiles/__main__.py,sha256=FFJyF5RIyKeZ-Ul2LUWRBykNdHRWxZWBBivo94U1Noc,1818
+dotfiles/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotfiles/core/dry.py,sha256=-vS_CFMq88CB47ny8oRPjCrjQyHHzAVBOIK1m8meJDk,656
+dotfiles/core/logging.py,sha256=pZQdoj1V7CYt9rHfxDUAqNWvP_ldoyEkQmhory4zgOY,517
+dotfiles/core/matcher.py,sha256=PJdSs4JnTCtcIMJh4dohY6JFv7XNIWmmpcK8D-Wa8oM,3590
+dotfiles/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotfiles/subcommands/list/__init__.py,sha256=7pg35NGNEmxUfDMiz9HIBUr5MUi2I5EWrKhnEib1RS8,598
+dotfiles/subcommands/sync/__init__.py,sha256=QllZrJpMwkgUm6_iTWqOUf28ZR-Dpe8l6Z5_tFPP1QY,1885
+dotfiles/subcommands/update/__init__.py,sha256=_0Er9RnHkdTx9ec5-ymwQeCqrbxIzOTFicoRZBPFaiE,1957
+dotfiles_sync-0.0.11.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+dotfiles_sync-0.0.11.dist-info/METADATA,sha256=-cAWjAv1CwZLWx5R0zcItOuGis7CX3y3Lusg7QpcIkA,6668
+dotfiles_sync-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dotfiles_sync-0.0.11.dist-info/entry_points.txt,sha256=HouoLZenYoVfc33E_zI8V0KBx4l3YOkApcrCIsaicGQ,53
+dotfiles_sync-0.0.11.dist-info/top_level.txt,sha256=jIpO3kJwgEG8IdNyEamwDavhV48x6GiTBxpQQK9c1qg,9
+dotfiles_sync-0.0.11.dist-info/RECORD,,

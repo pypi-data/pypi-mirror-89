@@ -1,0 +1,9 @@
+numpy
+pyopencl
+toolz
+scikit-image
+napari
+napari_plugin_engine
+pyclesperanto_prototype==0.6.0
+magicgui
+numpy==1.19.3

@@ -1,0 +1,7 @@
+setup.py
+MockCraftPython/__init__.py
+MockCraftPython.egg-info/PKG-INFO
+MockCraftPython.egg-info/SOURCES.txt
+MockCraftPython.egg-info/dependency_links.txt
+MockCraftPython.egg-info/requires.txt
+MockCraftPython.egg-info/top_level.txt

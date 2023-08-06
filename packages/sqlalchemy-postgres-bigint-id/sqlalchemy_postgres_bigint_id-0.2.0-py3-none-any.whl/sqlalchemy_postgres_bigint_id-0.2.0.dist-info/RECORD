@@ -1,0 +1,12 @@
+sqlalchemy_bigint_id/__init__.py,sha256=Di4sWDkxJ9Ty4yJoELmMmaLLtnJhBHIXo1ub-d5uRYs,109
+sqlalchemy_bigint_id/config.py,sha256=HvH_VI8AsDBhvP25Ov5_lVhwdsYVQc7oISViEOpLFns,112
+sqlalchemy_bigint_id/migration.py,sha256=9G9CiEEgkt7xfeNiO_6IX5NK7-SDe3fg1Mq1GucJXQ0,3312
+sqlalchemy_bigint_id/schema.py,sha256=aLaetxjYE7LUdWuoFgYj7h7fj4CmACv-HxYXg_AfK18,3100
+sqlalchemy_bigint_id/types.py,sha256=V_SocA7D0ojtYQKUT3sG09VGuwEmrWQxVRbLSuppC2s,299
+sqlalchemy_bigint_id/utils.py,sha256=N8Re3dhCRbUUnnHH-btC3Jg_BLusA-EZGpJK9r2PV4w,300
+sqlalchemy_bigint_id/version.py,sha256=OZy788iRzt1hxYbQdcKYo5mAAOiczMDiWI999ynS3vc,40
+sqlalchemy_postgres_bigint_id-0.2.0.dist-info/LICENSE,sha256=yhMD2FJAAoqWQINqo5hTGHGouW4Raf7cKmumkIzRtCE,1067
+sqlalchemy_postgres_bigint_id-0.2.0.dist-info/METADATA,sha256=plahdPv3NsTGOr4Ku0V0-Hce9zFimV1lrFBnvLqLT-M,7610
+sqlalchemy_postgres_bigint_id-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sqlalchemy_postgres_bigint_id-0.2.0.dist-info/top_level.txt,sha256=E3LMRlXG8zwhC7Zg_WvvqTvbXXR24yz08l_14TVSePU,21
+sqlalchemy_postgres_bigint_id-0.2.0.dist-info/RECORD,,

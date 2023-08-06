@@ -1,0 +1,7 @@
+README.md
+setup.py
+py_ios_device/py_ios_device.py
+py_ios_device.egg-info/PKG-INFO
+py_ios_device.egg-info/SOURCES.txt
+py_ios_device.egg-info/dependency_links.txt
+py_ios_device.egg-info/top_level.txt

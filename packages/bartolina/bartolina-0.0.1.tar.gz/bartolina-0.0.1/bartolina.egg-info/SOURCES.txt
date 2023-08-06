@@ -1,0 +1,12 @@
+README.md
+ez_setup.py
+pyproject.toml
+setup.py
+bartolina/__init__.py
+bartolina/bartolina.py
+bartolina.egg-info/PKG-INFO
+bartolina.egg-info/SOURCES.txt
+bartolina.egg-info/dependency_links.txt
+bartolina.egg-info/requires.txt
+bartolina.egg-info/top_level.txt
+tests/__init__.py

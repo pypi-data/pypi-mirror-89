@@ -1,0 +1,8 @@
+numpy
+astropy
+attrs
+camb
+sklearn
+halotools
+pandas
+cluster_toolkit @ git+https://github.com/tmcclintock/cluster_toolkit/@master#egg=cluster_toolkit

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+depix.py
+requirements.txt
+setup.py
+depix.egg-info/PKG-INFO
+depix.egg-info/SOURCES.txt
+depix.egg-info/dependency_links.txt
+depix.egg-info/requires.txt
+depix.egg-info/top_level.txt
+depixlib/LoadedImage.py
+depixlib/Rectangle.py
+depixlib/__init__.py
+depixlib/functions.py

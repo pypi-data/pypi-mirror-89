@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bkk
+Version: 1.0.2
+Summary: Simple CLI app, displaying real-time data from BKK Futár API
+Home-page: UNKNOWN
+Author: Gergely Balint
+License: UNKNOWN
+Keywords: bkk futár cli
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: datetime
+Requires-Dist: requests
+
+# BKK futár API on the CLI
+
+The goal of the app is to have a simple, bloat-free way of checking the real-time schedule of the user's usual stop.
+
+## Install
+
+The app works on all OS-s.
+
+Requirements:
+* python
+* pip
+
+Write `pip install bkk` in your terminal (Linux/MacOS), or cmd window (Windows) to install.
+
+## Usage
+
+Edit config.py to choose stop, and preferred time window. 
+
+After that, just call the app with `bkk`
+
+List all available options  with `bkk --help`
+

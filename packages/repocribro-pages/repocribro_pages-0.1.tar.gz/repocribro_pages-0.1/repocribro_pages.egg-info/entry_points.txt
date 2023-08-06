@@ -1,0 +1,3 @@
+[repocribro.ext]
+repocribro-pages = repocribro_pages:make_extension
+

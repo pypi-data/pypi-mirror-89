@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: repocribro_pages
+Version: 0.1
+Summary: Extension of repocribro for custom static pages
+Home-page: https://github.com/MarekSuchanek/repocribro-pages
+Author: Marek Suchánek
+Author-email: suchama4@fit.cvut.cz
+License: MIT
+Description: repocribro-pages
+        ================
+        
+        |license| |pypi| |requires|
+        
+        
+        Extension of `repocribro`_ for custom static pages
+        
+        License
+        -------
+        
+        This project is licensed under the MIT License - see the `LICENSE`_ file for more details.
+        
+        
+        .. _LICENSE: LICENSE
+        .. _repocribro: https://github.com/MarekSuchanek/repocribro
+        
+        .. |license| image:: https://img.shields.io/github/license/MarekSuchanek/repocribro-pages.svg
+            :alt: License
+            :target: LICENSE
+        .. |pypi| image:: https://badge.fury.io/py/repocribro-pages.svg
+            :alt: PyPi Version
+            :target: https://badge.fury.io/py/repocribro-pages
+        .. |requires| image:: https://requires.io/github/MarekSuchanek/repocribro-pages/requirements.svg?branch=master
+             :alt: Requirements Status
+             :target: https://requires.io/github/MarekSuchanek/repocribro-pages/requirements/?branch=master
+        
+Keywords: repocribro custom pages information cms
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Plugins
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control

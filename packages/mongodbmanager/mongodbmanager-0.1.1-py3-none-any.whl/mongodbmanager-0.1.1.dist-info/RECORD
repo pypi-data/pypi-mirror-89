@@ -1,0 +1,10 @@
+CSVWriter.py,sha256=XKkdvFqb7J3TIULOusbV3bJBn7HKzy0QQfpJt47p0pU,458
+bgcolours.py,sha256=SV9ztNYOVhc_gTAqKn_9gpvaEGvnOSysRItZKkdhCWE,316
+pymmo.py,sha256=0GBBgbB1-Fy99oec3_Nh-oWHMgFOpuKXX85itxJV58k,47060
+mongodbmanager-0.1.1.data/scripts/mm,sha256=zf-IbqsMcfRbvcBC1G0f2AQNQlj1kC1xKjT7QfTYmdc,111151
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pymmo.py,sha256=J_kkZK78TKX_Cczuj-ve_BQ8TuoUC9FBngDKPX-8yuA,17661
+mongodbmanager-0.1.1.dist-info/METADATA,sha256=ERrkcs3BbTOeBC04HQfwxySlOjcCfLx_ycnyB-fujLA,26460
+mongodbmanager-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mongodbmanager-0.1.1.dist-info/top_level.txt,sha256=ZDoqqFQgNmbysCoj_fu82_kjEEKHPYP104SQOLN4ZNo,32
+mongodbmanager-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,2187 @@
+#!python
+"""
+Author: Rhys Campbell
+Name: mm - "MongoDB Manager"
+Created: 2016/03/28
+"""
+import inspect
+import os
+import sys
+import argparse
+import time
+import configparser
+import hashlib
+import ast
+import json
+from pprint import pprint
+import pickle
+
+from bgcolours import bgcolours
+from subprocess import call, PIPE
+
+from pymmo import MmoMongoCluster
+import CSVWriter
+#exec(open(os.path.dirname(os.path.abspath(inspect.stack()[0][1]))  + "/../pymmo/pymmo.py").read())
+#exec(open(os.path.dirname(os.path.abspath(inspect.stack()[0][1]))  + "/CSVWriter.py").read())
+from os.path import expanduser
+
+MEGABYTE=1048576.0 # Needs to be a float or python floors the result
+
+# Stolen from http://stackoverflow.com/questions/4048651/python-function-to-convert-seconds-into-minutes-hours-and-days
+def nice_time_display(seconds, granularity=2):
+    intervals = (
+        ('w', 604800),  # 60 * 60 * 24 * 7
+        ('d', 86400),  # 60 * 60 * 24
+        ('h', 3600),  # 60 * 60
+        ('m', 60),
+        ('s', 1),
+    )
+    result = []
+    if isinstance(seconds, int):
+        for name, count in intervals:
+            value = seconds // count
+            if value:
+                seconds -= value * count
+                if value == 1:
+                    name = name.rstrip('s')
+                result.append("{0}{1}".format(value, name))
+        return ','.join(result[:granularity])
+    else:
+        return ""
+
+def display_cluster_state(mmo, c):
+    """
+    Print out a overview of the MongoDB Cluster and its status. The inital connection should be a mongos for this to work correctly.
+    :param self:
+    :param mmo: A instance of the MmoMongoCluster class
+    :return:
+    """
+    config_servers = mmo.mmo_config_servers(c)
+    mongos_servers = mmo.mmo_mongos_servers(c)
+    mongod_shard_servers = mmo.mmo_shard_servers(c)
+    shards = mmo.mmo_shards()
+    replicaset_options = mmo.mmo_replicaset_conf(c)
+    print_list_of_hosts("MongoDB Config Servers", config_servers, bgcolours.OKGREEN, None)
+    print_list_of_hosts("MongoDB mongos servers", mongos_servers, bgcolours.OKGREEN, None)
+    print_list_of_hosts("MongoDB mongod shard servers", mongod_shard_servers, bgcolours.OKGREEN, replicaset_options)
+    CURSOR_UP_ONE = '\x1b[1A' # Horrible hack to fix formatting issue with newline
+    ERASE_LINE = '\x1b[2K'
+    print(CURSOR_UP_ONE + ERASE_LINE + CURSOR_UP_ONE)
+    print(bgcolours.BOLD + "MongoDB shards" + bgcolours.ENDC)
+    #for shard in shards:
+        #print_colour_data_row(bgcolours.OKGREEN, "{0}   ", [shard])
+
+    #for shard in replicaset_options:
+    header_lookup = [ {"rs": "command_output.config._id"},
+                      {"v": "command_output.config.version"},
+                      {"pv": "command_output.config.protocolVersion"},
+                      {"chaining": "command_output.config.settings.chainingAllowed"},
+                      {"hb interval (ms)": "command_output.config.settings.heartbeatIntervalMillis"},
+                      {"hb t/o (s)": "command_output.config.settings.heartbeatTimeoutSecs"},
+                      {"election t/o (ms)": "command_output.config.settings.electionTimeoutMillis"},
+                      {"catchUp t/o (ms)": "command_output.config.settings.catchUpTimeoutMillis"},
+                        #getLastErrorModes: < document >,
+                        #getLastErrorDefaults: < document >,
+                      { "replicaSetId": "command_output.config.settings.replicaSetId"}]
+
+    headers = ["rs",
+               "v",
+               "pv",
+               "chaining",
+               "hb interval (ms)",
+               "hb t/o (s)",
+               "election t/o (ms)",
+               "catchUp t/o (ms)",
+               "replicaSetId"
+               ]
+    format_string = create_format_string(headers,
+                                         header_lookup,
+                                         replicaset_options)
+    print_bold_header(format_string, headers)
+    replicasets_done = []
+    for replicaset in replicaset_options:
+        if "config" in replicaset["command_output"].keys():
+            print_colour_data_row(bgcolours.OKGREEN,
+                                  format_string,
+                                  [replicaset["command_output"]["config"]["_id"],
+                                   replicaset["command_output"]["config"]["version"],
+                                   replicaset["command_output"]["config"]["protocolVersion"],
+                                   replicaset["command_output"]["config"]["settings"]["chainingAllowed"],
+                                   replicaset["command_output"]["config"]["settings"]["heartbeatIntervalMillis"],
+                                   replicaset["command_output"]["config"]["settings"]["heartbeatTimeoutSecs"],
+                                   replicaset["command_output"]["config"]["settings"]["electionTimeoutMillis"],
+                                   replicaset["command_output"]["config"]["settings"].get("catchUpTimeoutMillis", "NA"),
+                                   replicaset["command_output"]["config"]["settings"].get("replicaSetId", "NA")])
+            replicasets_done.append(replicaset["shard"])
+
+    for replicaset in mmo.mmo_shards():
+        if replicaset not in replicasets_done:
+            print_colour_data_row(bgcolours.FAIL,
+                                          "{0} {1}",
+                                          [replicaset,
+                                        "Entire replicaset may be down"])
+
+
+
+def print_replication_summary(replication_summary):
+    header_lookup = [ {"hostname": "hostname"},
+                      {"rs": "replicaset"},
+                      { "state": "state" },
+                      { "cfgV": "configVersion"},
+                      { "lag": "lag" },
+                      {"uptime": "uptime"} ]
+
+    format_string = create_format_string([ "hostname",
+                                       "rs",
+                                       "state",
+                                       "cfgV",
+                                       "lag",
+                                        "uptime"], header_lookup, replication_summary)
+    max_hostname_length = length_of_longest_element(replication_summary, "hostname") + 2
+    #format_string = "{:<" + str(max_hostname_length) + "} {:<10} {:<10} {:<10} {:<10} {:<10}"
+    print_bold_header(format_string, [ "hostname",
+                                       "rs",
+                                       "state",
+                                       "cfgV",
+                                       "lag",
+                                       "uptime"])
+    replicasets_down = []
+    for host in replication_summary:
+        colour = bgcolours.OKGREEN
+        if host["state"] in ["UNKNOWN" , "DOWN", "(not reachable/healthy)", "UNK"]:
+            colour = bgcolours.FAIL
+            if host["state"] == "UNK": # Entire replicaset is down
+                replicasets_down.append(host["replicaset"])
+        elif host["state"] in ["STARTUP", "STARTUP2", "RECOVERING", "ROLLBACK", "REMOVED"]:
+            colour = bgcolours.WARNING
+        print_colour_data_row(colour, format_string, [ host["hostname"],
+                                                                  host["replicaset"],
+                                                                  host["state"],
+                                                                  host["configVersion"],
+                                                                  host["lag"],
+                                                                  nice_time_display(host["uptime"])])
+    if os.path.exists("/tmp/replication_summary.p"):
+        os.rename("/tmp/replication_summary.p","/tmp/replication_summary.previous")
+    pickle.dump(replication_summary, open( "/tmp/replication_summary.p", "wb"))
+    if os.path.exists("/tmp/replication_summary.previous"):
+        current_state = pickle.load( open( "/tmp/replication_summary.p", "rb"))
+        previous_state = pickle.load( open( "/tmp/replication_summary.previous", "rb"))
+
+        state_changes_list = []
+        uptime_reset_list = []
+        for host in current_state:
+            for h in previous_state:
+                if host["hostname"] == h["hostname"]:
+                    if host["state"] != h["state"]:
+                        state_changes_list.append(host["hostname"] + " " + h["state"] + " -> " + host["state"])
+                    if host["uptime"] < h["uptime"]:
+                        uptime_reset_list.append(host["hostname"] + " " + str(h["uptime"]) + " -> " + str(host["uptime"]))
+                    break
+        if len(state_changes_list) > 0:
+            change = "change"
+            has = "has"
+            if len(state_changes_list) > 1:
+                change = "changes"
+                has = "have"
+            print("There {0} been {1} {2} in the cluster state since the last check".format(has, len(state_changes_list), change))
+            for change in state_changes_list:
+                print(change)
+        else:
+            if len(replicasets_down) == 0:
+                print("There have been no state changes in the cluster since the last check")
+            else:
+                print("The following replicasets are entirely down: " + " ".join(replicasets_down))
+        if len(uptime_reset_list) > 0:
+            host = "host"
+            have = "has"
+            _is = "is"
+            if len(uptime_reset_list) > 1:
+                host = "hosts"
+                have = "have"
+                _is = "are"
+            print("The following {0} {1} an uptime that {2} less than previously logged:".format(host, have, _is))
+            for host in uptime_reset_list:
+                print(host)
+
+def print_colour_data_row(colour, format_string, string_data):
+    """
+    Print our data lines in a nice format
+    :param colour: The colour you want, in the form of bgcolours.OKGREEN
+    :param format_string: The format string specification
+    :param string_data:  Should be a list, in order, of the items you want to print out
+    :return:
+    """
+    string_data = map(str, string_data)
+    sys.stdout.write(colour + format_string.format(*string_data) + bgcolours.ENDC + "\n")
+
+def print_list_of_hosts(title, host_list, colour, replicaset_options):
+    """
+    Prints the title followed by the hosts in the list.
+    :param title:
+    :param host_list: [ { "hostname": <string>, "port": <int> }, ...]
+    :return:
+    """
+    sys.stdout.write(bgcolours.BOLD + title + bgcolours.ENDC + "\n")
+    print_count = 0
+    attribute_list = []
+    hosts_done = []
+    for host in host_list: # This change has been badly structured! TODO - Redesign this completely. The replset up/down features have not been implemenetd welll
+        if mmo.mmo_is_mongo_up(host["hostname"], host["port"]):
+            colour = bgcolours.OKGREEN
+        else:
+            colour = bgcolours.FAIL
+        if title == "MongoDB mongod shard servers":
+            for shard in replicaset_options:
+                if "config" in shard["command_output"].keys():
+                    for member in shard["command_output"]["config"]["members"]:
+                        if member["host"] not in hosts_done:
+                            if member["host"] == host["hostname"] + ":" + str(host["port"]):
+                                attribute_list = []
+                                attribute_list.append(member["_id"])
+                                if member["arbiterOnly"]:
+                                    attribute_list.append("arbiterOnly=true")
+                                if member["buildIndexes"]:
+                                    attribute_list.append("buildIndexes=true")
+                                else:
+                                    attribute_list.append("buildIndexes=false")
+                                if member["hidden"]:
+                                    attribute_list.append("hidden=true")
+                                attribute_list.append("priority=" +  str(member["priority"]))
+                                if len(member["tags"]) > 0:
+                                    attribute_list.append(str(member["tags"]))
+                                if member["slaveDelay"] > 0:
+                                    attribute_list.append("slaveDelay=" + str(member["slaveDelay"]))
+                                attribute_list.append("votes=" + str(member["votes"]))
+                                rs = shard["command_output"]["config"]["_id"]
+                                #if member["host"] == host["hostname"] + ":" + str(host["port"]):
+                                sys.stdout.write(colour + "{0}:{1} - {2} - {3}".format(host["hostname"], host["port"], rs, attribute_list) + bgcolours.ENDC)
+                                sys.stdout.write("\n")  # One shard server per line
+                                hosts_done.append(host["hostname"] + ":" + str(host["port"]))
+                else:
+                    if host["hostname"] + ":" + str(shard["port"]) not in hosts_done:
+                        sys.stdout.write(colour + "{0}:{1} - {2} - {3}".format(host["hostname"], shard["port"], shard["shard"], []) + bgcolours.ENDC)
+                        sys.stdout.write("\n")
+                        hosts_done.append(host["hostname"] + ":" + str(shard["port"]))
+        if print_count % 3 == 0 and print_count > 0 and title != "MongoDB mongod shard servers":  # max 3 hosts per line
+            sys.stdout.write("\n")
+        if title != "MongoDB mongod shard servers":
+            sys.stdout.write(colour + "{0}:{1} ".format(host["hostname"], host["port"]) + bgcolours.ENDC)
+        print_count+=1
+    sys.stdout.write("\n")
+
+
+"""
+Thse functions below could be abstracted into a single function. Something like...
+display_serverStatus_output(mmo, c, headers, display_columns)
+Where headers is a list of the titles we want to show and display_columns are the paths to the appropriate data
+"""
+
+def print_bold_header(format_string, header_list):
+    sys.stdout.write(bgcolours.BOLD + format_string.format(*header_list) + bgcolours.ENDC + "\n")
+
+def display_instance_info_for_cluster(mmo, c, inc_mongos):
+    """
+    "host" : <string>,
+    "advisoryHostFQDNs" : <array>,
+    "version" : <string>,
+    "process" : <"mongod"|"mongos">,
+    "pid" : <num>,
+    "uptime" : <num>,
+    "uptimeMillis" : <num>,
+    "uptimeEstimate" : <num>,
+    "localTime" : ISODate(""),
+    :param mmo:
+    :param c:
+    :param: inc_mongos
+    :return:
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    header_lookup = [{"hostname": "hostname"},
+                     {"shard": "shard"},
+                     {"port": "port"},
+                     {"version": "command_output.version"},
+                     {"process": "command_output.process"},
+                     {"pid": "command_output.pid"},
+                     {"uptime": "command_output.uptime"},
+                     {"localTime": "command_output.localTime"}]
+    headers = ["hostname",
+                "shard",
+                "port",
+                "version",
+                "process",
+                "pid",
+                "uptime",
+                "localTime"]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [ doc["hostname"],
+                                                                  doc["shard"],
+                                                                  doc["port"],
+                                                                  doc["command_output"]["version"],
+                                                                  doc["command_output"]["process"],
+                                                                  doc["command_output"]["pid"],
+                                                                  int(doc["command_output"]["uptime"]),
+                                                                  str(doc["command_output"]["localTime"])[:19]])
+
+def display_asserts_for_cluster(mmo, c, inc_mongos, poll):
+    """
+    Print the asserts for all the shard mongod processes in the cluster
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"regular": "command_output.asserts.regular"},
+        {"warning": "command_output.asserts.warning"},
+        {"msg": "command_output.asserts.msg"},
+        {"user": "command_output.asserts.user"},
+        {"rollovers": "command_output.asserts.rollovers"}
+    ]
+    headers = ["hostname",
+                "shard",
+                "port",
+                "regular",
+                "warning",
+                "msg",
+                "user",
+                "rollovers"]
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+
+    print_bold_header(format_string, headers)
+
+    previous_state = []
+    if os.path.exists("/tmp/server_status.previous"):
+        previous_state = pickle.load(open("/tmp/server_status.previous", "rb"))
+
+    for doc in serverStatus:
+
+        # Get the previous document for this server
+        previous_server_info = { "command_output": { "asserts": {} } } # Default in case there is no file available
+        for old_data in previous_state:
+            if poll:  # Ignore unless polling is on
+                if doc["hostname"] == old_data["hostname"] and doc["port"] == old_data["port"]:
+                    previous_server_info = old_data
+
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["asserts"]["regular"] - previous_server_info["command_output"]["asserts"].get("regular", 0),
+                                                                 doc["command_output"]["asserts"]["warning"] - previous_server_info["command_output"]["asserts"].get("warning", 0),
+                                                                 doc["command_output"]["asserts"]["msg"] - previous_server_info["command_output"]["asserts"].get("msg", 0),
+                                                                 doc["command_output"]["asserts"]["user"] - previous_server_info["command_output"]["asserts"].get("user", 0),
+                                                                 doc["command_output"]["asserts"]["rollovers"] - previous_server_info["command_output"]["asserts"].get("rollovers", 0)])
+    if os.path.exists("/tmp/server_status.previous") and poll:
+        last_poll = int(os.path.getmtime("/tmp/server_status.previous"))
+        print("Last poll was {0}".format(pretty_date(last_poll)))
+    elif poll:
+        print("No previous poll data found")
+
+def display_backgroundFlushing_for_cluster(mmo, c, inc_mongos):
+    """
+    "backgroundFlushing" : {
+   "flushes" : <num>,
+   "total_ms" : <num>,
+   "average_ms" : <num>,
+   "last_ms" : <num>,
+   "last_finished" : ISODate("...")
+    },
+    Note this only applies to the MMAPv1 engine
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "flushes",
+        "total_ms",
+        "average_ms",
+        "last_ms",
+        "last_finished"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"flushes": "command_output.backgroundFlushing.flushes"},
+        {"total_ms": "command_output.backgroundFlushing.total_ms"},
+        {"average_ms": "command_output.backgroundFlushing.average_ms"},
+        {"last_ms": "command_output.backgroundFlushing.last_ms"},
+        {"last_finished": "command_output.backgroundFlushing.last_finished"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+    key_not_present_count = 0
+
+    for doc in serverStatus:
+        if "backgroundFlushing" in doc["command_output"].keys():
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["command_output"]["backgroundFlushing"]["flushes"],
+                                                                     doc["command_output"]["backgroundFlushing"]["total_ms"],
+                                                                     doc["command_output"]["backgroundFlushing"]["average_ms"],
+                                                                     doc["command_output"]["backgroundFlushing"]["last_ms"],
+                                                                     doc["command_output"]["backgroundFlushing"]["last_finished"]])
+        else:
+            key_not_present_count = key_not_present_count + 1
+            print_colour_data_row(bgcolours.OKGREEN, format_string,  [doc["hostname"],
+                                                                      doc["shard"],
+                                                                      doc["port"],
+                                                                      "NA",
+                                                                      "NA",
+                                                                      "NA",
+                                                                      "NA",
+                                                                      "NA"])
+    if key_not_present_count > 0:
+        print_colour_data_row(bgcolours.WARNING, "{0:<80}", ["The backgroundFlushing key missing on " + str(key_not_present_count) + " instances. Perhaps MMAPV1 is not used here?"] )
+
+
+def display_connections_for_cluster(mmo, c, inc_mongos):
+    """
+    Print the connection stats for the shard mongod process in the cluster
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+         "shard",
+         "port",
+         "current",
+         "available",
+         "totalCreated"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"current": "command_output.connections.current"},
+        {"available": "command_output.connections.available"},
+        {"totalCreated": "command_output.connections.totalCreated"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+
+    for doc in serverStatus:
+
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["connections"]["current"],
+                                                                 doc["command_output"]["connections"]["available"],
+                                                                 doc["command_output"]["connections"]["totalCreated"]])
+
+def display_journaling_for_cluster(mmo, c, inc_mongos, poll):
+    """
+    "dur" : {
+   "commits" : <num>,
+   "journaledMB" : <num>,
+   "writeToDataFilesMB" : <num>,
+   "compression" : <num>,
+   "commitsInWriteLock" : <num>,
+   "earlyCommits" : <num>,
+   "timeMs" : {
+      "dt" : <num>,
+      "prepLogBuffer" : <num>,
+      "writeToJournal" : <num>,
+      "writeToDataFiles" : <num>,
+      "remapPrivateView" : <num>,
+      "commits" : <num>,
+      "commitsInWriteLock" : <num>
+   }
+}
+    TODO add additional stat if screen space
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+          "shard",
+          "port",
+          "commits",
+          "journaledMB",
+          "writeToDataFilesMB",
+          "compression",
+          "commitsInWriteLock",
+          "earlyCommits"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"commits": "dur.commits"},
+        {"journaledMB": "dur.journaledMB"},
+        {"writeToDataFilesMB": "dur.writeToDataFilesMB"},
+        {"compression": "dur.compression"},
+        {"commitsInWriteLock": "dur.commitsInWriteLock"},
+        {"earlyCommits": "dur.earlyCommits"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+    no_journaling_count = 0
+
+    previous_state = []
+    if os.path.exists("/tmp/server_status.previous"):
+        previous_state = pickle.load(open("/tmp/server_status.previous", "rb"))
+
+    for doc in serverStatus:
+        if "dur" in doc.keys():
+
+            # Get the previous document for this server
+            previous_server_info = {"command_output": {"asserts": {}}}  # Default in case there is no file available
+            for old_data in previous_state:
+                if poll:  # Ignore unless polling is on
+                    if doc["hostname"] == old_data["hostname"] and doc["port"] == old_data["port"]:
+                        previous_server_info = old_data
+
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["dur"]["commits"] - previous_server_info["command_output"]["dur"].get("commits", 0),
+                                                                     doc["dur"]["journaledMB"] - previous_server_info["command_output"]["dur"].get("journaledMB", 0),
+                                                                     doc["dur"]["writeToDataFilesMB"]  - previous_server_info["command_output"]["dur"].get("writeToDataFilesMB", 0),
+                                                                     doc["dur"]["compression"]  - previous_server_info["command_output"]["dur"].get("compression", 0),
+                                                                     doc["dur"]["commitsInWriteLock"]  - previous_server_info["command_output"]["dur"].get("commitsInWriteLock", 0),
+                                                                     doc["dur"]["earlyCommits"]  - previous_server_info["command_output"]["dur"].get("earlyCommits", 0)])
+        else:
+            no_journaling_count = no_journaling_count + 1
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     "NA",
+                                                                     "NA",
+                                                                     "NA",
+                                                                     "NA",
+                                                                     "NA",
+                                                                     "NA"])
+    if no_journaling_count > 0:
+        print_colour_data_row(bgcolours.WARNING, "{0:<80}", ["The dur key missing on " + str(no_journaling_count) + " instances. Perhaps MMAPV1 is not used here?"])
+    if os.path.exists("/tmp/server_status.previous") and poll:
+        last_poll = int(os.path.getmtime("/tmp/server_status.previous"))
+        print("Last poll was {0}".format(pretty_date(last_poll)))
+    elif poll:
+        print("No previous poll data found")
+
+def display_extra_info_for_cluster(mmo, c, inc_mongos, poll):
+    """
+    Show the stats from the extra_info section of the serverStatus document
+    "extra_info" : {
+   "note" : "fields vary by platform.",
+   "heap_usage_bytes" : <num>,
+   "page_faults" : <num>
+    }
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "heap_usage_bytes",
+        "page_faults"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"heap_usage_bytes": "command_output.extra_info.heap_usage_bytes"},
+        {"page_faults": "command_output.extra_info.page_faults"}
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+
+    previous_state = []
+    if os.path.exists("/tmp/server_status.previous"):
+        previous_state = pickle.load(open("/tmp/server_status.previous", "rb"))
+
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+
+        # Get the previous document for this server
+        previous_server_info = { "command_output": { "extra_info": {} } } # Default in case there is no file available
+        for old_data in previous_state:
+            if poll:  # Ignore unless polling is on
+                if doc["hostname"] == old_data["hostname"] and doc["port"] == old_data["port"]:
+                    previous_server_info = old_data
+
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["extra_info"].get("heap_usage_bytes", "NA"),
+                                                                 doc["command_output"]["extra_info"]["page_faults"] - previous_server_info["command_output"]["extra_info"].get("page_faults", 0)])
+
+    if os.path.exists("/tmp/server_status.previous") and poll:
+        last_poll = int(os.path.getmtime("/tmp/server_status.previous"))
+        print("Last poll was {0}".format(pretty_date(last_poll)))
+    elif poll:
+        print("No previous poll data found")
+
+def display_opcounters_for_cluster(mmo, c, inc_mongos, repl, poll):
+    """
+    Display the opcounters for all nodes in the cluster
+    "opcounters" : {
+   "insert" : <num>,
+   "query" : <num>,
+   "update" : <num>,
+   "delete" : <num>,
+   "getmore" : <num>,
+   "command" : <num>
+    }
+
+    When repl = True we'll displau the opcounters from the replication document instead
+
+    "opcountersRepl" : {
+   "insert" : <num>,
+   "query" : <num>,
+   "update" : <num>,
+   "delete" : <num>,
+   "getmore" : <num>,
+   "command" : <num>
+    },
+
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+
+    document = "opcounters"
+    if repl:
+        document = "opcountersRepl"
+
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos, poll)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "insert",
+        "query",
+        "update",
+        "delete",
+        "getmore",
+        "command"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"insert": "command_output." + document + ".insert"},
+        {"query": "command_output." + document + ".query"},
+        {"update": "command_output." + document + ".update"},
+        {"delete": "command_output." + document + ".delete"},
+        {"getmore": "command_output." + document + ".getmore"},
+        {"command": "command_output." + document + ".command"}
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+
+    print_bold_header(format_string, headers)
+
+    previous_state = []
+    if os.path.exists("/tmp/server_status.previous"):
+        previous_state = pickle.load(open("/tmp/server_status.previous", "rb"))
+
+    for doc in serverStatus:
+        # Get the previous document for this server
+        previous_server_info = { "command_output": { document: {} } } # Default in case there is no file available
+        for old_data in previous_state:
+            if doc["hostname"] == old_data["hostname"] and doc["port"] == old_data["port"]:
+                if poll: # Ignore unless polling is on
+                    previous_server_info = old_data
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"][document]["insert"] - previous_server_info["command_output"][document].get("insert", 0),
+                                                                 doc["command_output"][document]["query"] - previous_server_info["command_output"][document].get("query", 0),
+                                                                 doc["command_output"][document]["update"] - previous_server_info["command_output"][document].get("update", 0),
+                                                                 doc["command_output"][document]["delete"] - previous_server_info["command_output"][document].get("delete", 0),
+                                                                 doc["command_output"][document]["getmore"] - previous_server_info["command_output"][document].get("getmore", 0),
+                                                                 doc["command_output"][document]["command"] - previous_server_info["command_output"][document].get("command", 0)])
+    if os.path.exists("/tmp/server_status.previous") and poll:
+        last_poll = int(os.path.getmtime("/tmp/server_status.previous"))
+        print("Last poll was {0}".format(pretty_date(last_poll)))
+    elif poll:
+        print("No previous poll data found")
+
+
+def display_globalLock_for_cluster(mmo, c, in_mongos):
+    """
+    Display the global lock document for the database.
+    "globalLock" : {
+   "totalTime" : <num>,
+   "currentQueue" : {
+   "currentQueue" : {
+      "total" : <num>,
+      "readers" : <num>,
+      "writers" : <num>
+   },
+   "activeClients" : {
+      "total" : <num>,
+      "readers" : <num>,
+      "writers" : <num>
+   }
+    },
+    :param mmo:
+    :param c:
+    :param in_mongos:
+    :return:
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, in_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "totalTime",
+        "total",
+         "readers",
+         "writers",
+         "total",
+         "readers",
+         "writers"
+    ]
+
+    # Probably don't want to use dynamic format_string here because of the unusual layout of the part TBD
+
+    max_hostname_length = length_of_longest_element(serverStatus, "hostname") + 2
+    format_string = "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<10} {3:<10} {4:<10} {5:<10} {6:<10} {7:<10} {8:<10} {9:<10}"
+    print_bold_header( "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<10} {3:<10} {4:<30} {5:<30}", ["",
+                                                                                                   "",
+                                                                                                   "",
+                                                                                                   "",
+                                                                                                   "currentQueue",
+                                                                                                   "activeClients"])
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["globalLock"]["totalTime"],
+                                                                 doc["command_output"]["globalLock"]["currentQueue"]["total"],
+                                                                 doc["command_output"]["globalLock"]["currentQueue"]["readers"],
+                                                                 doc["command_output"]["globalLock"]["currentQueue"]["writers"],
+                                                                 doc["command_output"]["globalLock"]["activeClients"]["total"],
+                                                                 doc["command_output"]["globalLock"]["activeClients"]["readers"],
+                                                                 doc["command_output"]["globalLock"]["activeClients"]["writers"]])
+
+def display_network_for_cluster(mmo, c, inc_mongos, poll):
+    """
+    Print the network stats for the shard mongod process in the cluster
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "bytesIn",
+        "bytesOut",
+        "numRequests"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"bytesIn": "command_output.network.bytesIn"},
+        {"bytesOut": "command_output.network.bytesOut"},
+        {"numRequests": "command_output.network.numRequests"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+
+    print_bold_header(format_string, headers)
+
+    previous_state = []
+    if os.path.exists("/tmp/server_status.previous"):
+        previous_state = pickle.load(open("/tmp/server_status.previous", "rb"))
+
+    for doc in serverStatus:
+
+        # Get the previous document for this server
+        previous_server_info = { "command_output": { "network": {} } } # Default in case there is no file available
+        for old_data in previous_state:
+            if poll:  # Ignore unless polling is on
+                if doc["hostname"] == old_data["hostname"] and doc["port"] == old_data["port"]:
+                    previous_server_info = old_data
+
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["network"]["bytesIn"] - previous_server_info["command_output"]["network"].get("bytesIn", 0),
+                                                                 doc["command_output"]["network"]["bytesOut"] - previous_server_info["command_output"]["network"].get("bytesOut", 0),
+                                                                 doc["command_output"]["network"]["numRequests"] - previous_server_info["command_output"]["network"].get("numRequests", 0)])
+    if os.path.exists("/tmp/server_status.previous") and poll:
+        last_poll = int(os.path.getmtime("/tmp/server_status.previous"))
+        print("Last poll was {0}".format(pretty_date(last_poll)))
+    elif poll:
+        print("No previous poll data found")
+
+
+def display_security_for_cluster(mmo, c, inc_mongos):
+    """
+    Print the security document for each mongod shard in the cluster.
+    TODO - Need to test this on an MongoDB cluster with SSL enabled
+    "security" : {
+   "SSLServerSubjectName": <string>,
+   "SSLServerHasCertificateAuthority": <boolean>,
+   "SSLServerCertificateExpirationDate": <date>
+    }
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "SSLServerSubjectName",
+        "SSLServerHasCertificateAuthority",
+        "SSLServerCertificateExpirationDate"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"SSLServerSubjectName": "command_output.security.SSLServerSubjectName"},
+        {"SSLServerHasCertificateAuthority": "command_output.security.SSLServerHasCertificateAuthority"},
+        {"SSLServerCertificateExpirationDate": "command_output.security.SSLServerCertificateExpirationDate"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+        if 'security' in doc["command_output"].keys():
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["command_output"]["security"]["SSLServerSubjectName"],
+                                                                     doc["command_output"]["security"]["SSLServerHasCertificateAuthority"],
+                                                                     doc["command_output"]["security"]["SSLServerCertificateExpirationDate"]])
+        else:
+            fs = format_string.split(" ")
+            fs = " ".join(fs[:3]) + " {3:<50}"
+            print_colour_data_row(bgcolours.OKGREEN, fs, [doc["hostname"],
+                                                          doc["shard"],
+                                                          doc["port"],
+                                                          "SSL Security is not enabled on this host"])
+
+def display_storage_engine_for_cluster(mmo, c, inc_mongos):
+    """
+    Display the storage engine details for each host in the cluster
+    "storageEngine" : {
+   "name" : <string>,
+   "supportsCommittedReads" : <boolean>
+    },
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+        "hostname",
+        "shard",
+        "port",
+        "name",
+        "supportsCommittedReads"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"name": "command_output.storageEngine.name"},
+        {"supportsCommittedReads": "command_output.storageEngine.supportsCommittedReads"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["storageEngine"]["name"],
+                                                                 doc["command_output"]["storageEngine"].get("supportsCommittedReads", "NA")]) # 3.2 Only
+
+def display_wired_tiger_for_cluster(mmo, c, sub_doc, inc_mongos):
+    """
+    Display wired tiger stats
+    """
+    raise Exception("Not implemented!")
+
+def display_mem_for_cluster(mmo, c, inc_mongos):
+    """
+    Display details from the mem document for each mongod process in the cluster
+    "mem" : {
+   "bits" : <int>,
+   "resident" : <int>,
+   "virtual" : <int>,
+   "supported" : <boolean>,
+   "mapped" : <int>,
+   "mappedWithJournal" : <int>
+    },
+    """
+    serverStatus = mmo.mmo_cluster_serverStatus(c, inc_mongos)
+
+    headers = [
+         "hostname",
+         "shard",
+         "port",
+         "bits",
+         "resident",
+         "virtual",
+         "supported",
+         "mapped",
+         "mappedWithJournal"
+    ]
+
+    header_lookup = [
+        {"hostname": "hostname"},
+        {"shard": "shard"},
+        {"port": "port"},
+        {"bits": "command_output.mem.bits"},
+        {"resident": "command_output.mem.resident"},
+        {"virtual": "command_output.mem.virtual"},
+        {"supported": "command_output.mem.supported"},
+        {"mapped": "command_output.mem.mapped"},
+        {"mappedWithJournal": "command_output.mem.mappedWithJournal"},
+    ]
+
+    format_string = create_format_string(headers, header_lookup, serverStatus)
+    print_bold_header(format_string, headers)
+    for doc in serverStatus:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["command_output"]["mem"]["bits"],
+                                                                 doc["command_output"]["mem"]["resident"],
+                                                                 doc["command_output"]["mem"]["virtual"],
+                                                                 doc["command_output"]["mem"]["supported"],
+                                                                 doc["command_output"]["mem"]["mapped"],
+                                                                 doc["command_output"]["mem"].get("mappedWithJournal", "NA")]) # Only present for MMAPv1
+
+def display_host_info_for_cluster(mmo, c, inc_mongos, sub_command):
+    """
+    Summaries the content of the host_info document
+    {
+   "system" : {
+          "currentTime" : ISODate("<timestamp>"),
+          "hostname" : "<hostname>",
+          "cpuAddrSize" : <number>,
+          "memSizeMB" : <number>,
+          "numCores" : <number>,
+          "cpuArch" : "<identifier>",
+          "numaEnabled" : <boolean>
+   },
+   "os" : {
+          "type" : "<string>",
+          "name" : "<string>",
+          "version" : "<string>"
+   },
+   "extra" : {
+          "versionString" : "<string>",
+          "libcVersion" : "<string>",
+          "kernelVersion" : "<string>",
+          "cpuFrequencyMHz" : "<string>",
+          "cpuFeatures" : "<string>",
+          "pageSize" : <number>,
+          "numPages" : <number>,
+          "maxOpenFiles" : <number>
+   },
+   "ok" : <return>
+    }
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+    hostInfo = mmo.mmo_cluster_hostInfo(c, inc_mongos)
+
+    if sub_command == "system":
+
+        headers = ["hostname",
+                   "shard",
+                   "port",
+                   "cpuAddrSize",
+                   "memSizeMB",
+                   "numCores",
+                   "cpuArch",
+                   "numaEnabled"]
+        header_lookup = [{"hostname": "hostname"},
+                         {"shard": "shard"},
+                         {"port": "port"},
+                         {"cpuAddrSize": "command.system.cpuAddrSize"},
+                         {"memSizeMB": "command.system.memSizeMB"},
+                         {"numCores": "command.system.numCores"},
+                         {"cpuArch": "command.system.cpuArch"},
+                         {"numaEnabled": "command.system.numaEnabled"}]
+        format_string = create_format_string(headers, header_lookup, hostInfo)
+
+        currentTimes = set() # So we can compare the currentTime of each host
+        print_bold_header(format_string, headers)
+        for doc in hostInfo:
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["command_output"]["system"]["cpuAddrSize"],
+                                                                     doc["command_output"]["system"]["memSizeMB"],
+                                                                     doc["command_output"]["system"]["numCores"],
+                                                                     doc["command_output"]["system"]["cpuArch"],
+                                                                     doc["command_output"]["system"]["numaEnabled"]])
+            currentTimes.add(doc["command_output"]["system"]["currentTime"])
+        diff = max(currentTimes) - min(currentTimes)
+        if hasattr(diff, "total_seconds"):
+            diff = diff.total_seconds() * 1000
+        else: # python 2.6
+            diff = diff.seconds * 1000
+        line = "Time difference in milliseconds between the cluster nodes: " + str(diff) + " ms (not concurrently sampled)"
+        print(line)
+    elif sub_command == "os":
+        headers = ["hostname",
+                   "shard",
+                   "port",
+                   "type",
+                   "name",
+                   "version"]
+        header_lookup = [{"hostname": "hostname"},
+                         {"shard": "shard"},
+                         {"port": "port"},
+                         {"type": "command.os.tyoe"},
+                         {"name": "command.os.name"},
+                        {"version": "command.os.version"}]
+        format_string = create_format_string(headers, header_lookup, hostInfo)
+        print_bold_header(format_string, ["hostname",
+                                          "shard",
+                                          "port",
+                                          "type",
+                                          "name",
+                                          "version"])
+        for doc in hostInfo:
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["command_output"]["os"]["type"],
+                                                                     doc["command_output"]["os"]["name"],
+                                                                     doc["command_output"]["os"]["version"]])
+    elif sub_command == "extra":
+        versionStrings = [] # Too big to display so we'll collect and output later
+        headers = ["hostname",
+                   "shard",
+                   "port",
+                   "libcVersion",
+                   "kernelVersion",
+                   "cpuFrequencyMHz",
+                   "pageSize",
+                   "numPages",
+                   "maxOpenFiles"]
+        header_lookup = [{"hostname": "hostname"},
+                         {"shard": "shard"},
+                         {"port": "port"},
+                         {"libcVersion": "command.extra.libcVersion"},
+                         {"kernelVersion": "command.extra.kernelVersion"},
+                         {"cpuFrequencyMHz": "command.extra.cpuFrequencyMHz"},
+                         {"pageSize": "command.extra.pageSize"},
+                         {"numPages": "command.extra.numPages"},
+                         {"maxOpenFiles": "command.extra.maxOpenFiles"}]
+        format_string = create_format_string(headers, header_lookup, hostInfo)
+        print_bold_header(format_string, headers)
+        for doc in hostInfo:
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                     doc["shard"],
+                                                                     doc["port"],
+                                                                     doc["command_output"]["extra"].get("libcVersion", "NA"),
+                                                                     doc["command_output"]["extra"].get("kernelVersion", "NA"),
+                                                                     doc["command_output"]["extra"]["cpuFrequencyMHz"],
+                                                                     doc["command_output"]["extra"]["pageSize"],
+                                                                     doc["command_output"]["extra"].get("numPages", "NA"),
+                                                                     doc["command_output"]["extra"].get("maxOpenFiles", "NA")])
+            versionStrings.append({ "hostname": doc["hostname"],
+                                    "port": doc["port"],
+                                    "versionString": doc["command_output"]["extra"]["versionString"]})
+        print_bold_header("{0:100}", ["Version Strings: "])
+        for v in versionStrings:
+
+            line = " ".join(format_string.split(" ")[:2]) + " {2:<100}" # Code gets the first two elements from the format_string
+            print(line.format(v["hostname"],
+                              v["port"],
+                              v["versionString"]))
+
+def display_db_hash_info_for_cluster(mmo, c, verbose_display=False):
+    """
+
+    :param mmo:
+    :param c:
+    :param verbose_display: Display all data when true. Otherwise we choose to display less
+    :return:
+    """
+    db_hashes = mmo.mmo_list_dbhash_on_cluster(c)
+
+    headers = ["hostname",
+               "shard",
+               "port",
+               "db",
+               "coll #",
+               "s",
+               "md5"]
+
+    #header_lookup = [{"hostname": "hostname"},
+    #                 {"shard": "shard"},
+    #                 {"port": "port"},
+    #                 {"db": "db"},
+    #                 {"col #": 6},
+    #                 {"s": 4},
+    #                 {"md5": "command.md5"}]
+    #format_string = create_format_string(headers, header_lookup, db_hashes)
+    # The db_hashes in a multi-nest list so we can't use the create_format_string function at the moment
+    # Until we specifically support this structure
+    max_hostname_length = length_of_longest_element(db_hashes, "hostname") + 2
+    format_string = "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<10} {3:<10} {4:<6} {5:<3} {6:<10} "
+
+    # s is just a status flag, 0 means all is goos, 1 means the replicaset is not in sync
+    print_bold_header(format_string, headers)
+    for doc in db_hashes:
+        for entry in doc:
+            hashes_list = set()
+            for document in db_hashes: # here we count the number of db hashes for the shard db combination
+                for item in document: # TODO Why two for loops. Check this out when you haven't had 4 beers
+                    if item['shard'] == entry['shard'] and item['db'] == entry['db']:
+                        hashes_list.add(item["command_output"]['md5'])
+            show_row = True
+            if len(entry["command_output"]["collections"]) == 0 and verbose_display == False: show_row = False
+
+            if show_row:
+                if len(hashes_list) > 1:
+
+                    print_colour_data_row(bgcolours.WARNING, format_string, [entry["hostname"],
+                                                                             entry["shard"],
+                                                                             entry["port"],
+                                                                             entry["db"],
+                                                                             len(entry["command_output"]["collections"]),
+                                                                             "1",
+                                                                             entry["command_output"]["md5"]])
+                else:
+                    print_colour_data_row(bgcolours.OKGREEN, format_string, [entry["hostname"],
+                                                                             entry["shard"],
+                                                                             entry["port"],
+                                                                             entry["db"],
+                                                                             len(entry["command_output"]["collections"]),
+                                                                             "0",
+                                                                             entry["command_output"]["md5"]])
+
+def step_down_primary(mmo, c, replicaset, force):
+    if replicaset in mmo.mmo_shards():
+        sd = mmo.mmo_step_down(c, replicaset, 60, 50, force)
+    elif replicaset == mmo.config_server_repl_name:
+        sd = mmo.mmo_step_down(c, replicaset, 60, 50, force)
+    else:
+        raise Exception("Not a valid replicaset name.")
+
+def sharding_status(mmo, c):
+    sh = mmo.mmo_sharding_status(c)
+    query = { "_id": "balancer" }
+    sharding_host = mmo.mmo_execute_query_on_mongos(c, query, "config", "locks", True)
+    groups = sharding_host["process"].split(":")
+    sharding_host = ':'.join(groups[:2])
+
+    headers = ["shard", "hosts"]
+    header_lookup = [{"shard": "_id"},
+                     {"hosts": "host"}]
+    format_string = create_format_string(headers, header_lookup, sh["shards"])
+
+    print_bold_header(format_string, headers)
+    for doc in sh["shards"]:
+        print(format_string.format(doc["_id"], doc["host"]))
+    if sh["ok"] == 1:
+        print("Sharding state is OK")
+    print("Balancing host is {0:<30}".format(sharding_host))
+    print("The following databases are sharded")
+    sharded_databases = mmo.mmo_execute_query_on_mongos(c, { "partitioned": True }, "config", "databases", False)
+    headers = ["database", "primary shard"]
+    print_bold_header("{0:<10} {1:<10}", headers)
+    for db in sharded_databases:
+        print_colour_data_row(bgcolours.OKGREEN, "{0:<10} {1:<10}", [db["_id"], db["primary"]])
+    print_bold_header("{0:<100}",["Sharded colllections"])
+    print_bold_header("{0:<30} {1:<100}", ["collection", "shard key"])
+    for collection in mmo.mmo_sharded_collection_details(c):
+        print_colour_data_row(bgcolours.OKGREEN, "{0:<30} {1:<100}", [collection["_id"], str(collection["key"])])
+
+def profile_and_display(mmo, c, profile, slowms, database):
+    """
+    Displays and manages the profile level of the Mongo Cluster
+    :param mmo:
+    :param c:
+    :param profile: Profiling level -1, 0, 1, or 2
+    :param slowms: Slowms (optional)
+    :return:
+    """
+    # if the profling level is anything other than -1 we need to run the
+    # profile command with -1 again to get the current level
+    prof = mmo.mmo_change_profiling_level(c, profile, slowms, database)
+    max_hostname_length = length_of_longest_element(prof, "hostname") + 2
+    format_string = "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<10} {3:<10} {4:<10}"
+    if prof != -1:
+        prof = mmo.mmo_change_profiling_level(c, -1, None, database)
+    headers = ["hostname", "shard", "port", "db", "profile", "slowms"]
+    header_lookup = [{"hostname": "hostname"},
+                     {"shard": "shard"},
+                     {"port": "port"},
+                     {"db": "db"},
+                     {"profile": "command_output.was"},
+                     {"slowms": "command_output.slowms"}]
+    format_string = create_format_string(headers, header_lookup, prof)
+    print_bold_header(format_string, headers)
+    for doc in prof:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [doc["hostname"],
+                                                                 doc["shard"],
+                                                                 doc["port"],
+                                                                 doc["db"],
+                                                                 doc["command_output"]["was"],
+                                                                 doc["command_output"]["slowms"]])
+
+def print_database_summary(mmo, c):
+    # create_format_string not viable here ue to format of data again
+    cluster_nodes = mmo.mmo_list_databases_on_cluster(c, False)
+    max_hostname_length = length_of_longest_element(cluster_nodes, "hostname") + 2
+    for server in cluster_nodes:
+        print_bold_header("{0:<" + str(max_hostname_length) + "} {1:<10}", [server["hostname"], server["port"]])
+        print_bold_header("{0:<10} {1:<10} {2:<10}", ["name", "size", "empty"])
+        for db in server["command_output"]["databases"]:
+            print_colour_data_row(bgcolours.OKGREEN, "{0:<10} {1:<10} {2:<10}", [db["name"],
+                                                                              db["sizeOnDisk"],
+                                                                              db["empty"]])
+
+def print_validate_indexes(mmo, c, validate_indexes):
+    """
+    Performs  few validations on the indexes on shard servers throughput the cluster.
+    Currently we display the count of indexes and an md5 hash of the index definitions.
+    :param mmo:
+    :param c:
+    :param validate_indexes:
+    :return:
+    """
+    database, collection = validate_indexes.split(".")
+    indexes = mmo.mmo_verify_indexes_on_collection(c, database, collection)
+    max_hostname_length = length_of_longest_element(indexes, "hostname") + 2
+    format_string = "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<10} {3:<20}"
+    print_bold_header(format_string, ["hostname", "port", "index #", "index_hash_md5"])
+    index_versions_in_cluster = set()
+    for server in indexes:
+        index_count = len(server["command_output"])
+        index_hash_md5 = hashlib.md5(str(server["command_output"])).hexdigest() if index_count > 0 else server["msg"]
+    if index_count > 0:
+      for index in server["command_output"]:
+        index_versions_in_cluster.add(index["v"])
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [server["hostname"],
+                                                                 server["port"],
+                                                                 str(index_count),
+                                                                 index_hash_md5])
+      iv = ""
+      for v in index_versions_in_cluster:
+          iv = iv + str(v) + ","
+      print("Index versions: " + iv[:-1])
+
+def print_collection_stats(mmo, c, namespace):
+    execution_database, collection = namespace.split(".")
+    stats = mmo.mmo_collection_stats(c, execution_database, collection)
+    print_bold_header("{0:<100}", ["statistics for the " + namespace + " namespace"])
+    print_bold_header("{0:<9} {1:<8} {2:<10} {3:<10} {4:<15} {5:<15}", ["sharded",
+                                                                        "capped",
+                                                                        "count",
+                                                                        "size (mb)",
+                                                                        "storageSize (mb)",
+                                                                        "IndexSize (mb)"])
+    print("{0:<9} {1:<8} {2:<10} {3:<10.2f} {4:<15.2f} {5:<15.2f}".format(stats["sharded"],
+                                                                            stats["capped"],
+                                                                            stats["count"],
+                                                                            stats["size"] / MEGABYTE,
+                                                                            stats["storageSize"] / MEGABYTE,
+                                                                            stats["totalIndexSize"] / MEGABYTE))
+    print_bold_header("{0:<15} {1:<10} {2:<8} {3:<8}", ["avgObjSize (b)", "nindexes", "nchunks", "shards"])
+    print("{0:<15.2f} {1:<10} {2:<8} {3:<8}".format(stats["avgObjSize"],
+                                             stats["nindexes"],
+                                             stats.get("nchunks", "NA"),
+                                             len(stats.get("shards", ""))))
+    print_bold_header("{0:<20} {1:<20}", ["index name", "size (mb)"])
+    for index in stats["indexSizes"]:
+        print("{0:<20} {1:<20.2f}".format(index, stats["indexSizes"][index] / MEGABYTE))
+
+def print_database_stats(mmo, c, database):
+    dbstats = mmo.mmo_database_stats(c, database)
+    # print the summary first
+    print_bold_header("{0:<100}", ["Database stats summary of " + database])
+    format_string = "{0:<9} {1:<15} {2:<15} {3:<17} {4:<9} {5:<15} {6:<9} {7:<13}"
+    print_bold_header(format_string, ["objects",
+                                      "avgObjSize (b)",
+                                      "datasize (mb)",
+                                      "storageSize (mb)",
+                                      "extents",
+                                      "indexSize (mb)",
+                                      "fileSize",
+                                      "extents free"])
+    print_colour_data_row(bgcolours.OKGREEN, format_string, [dbstats["objects"],
+                                                            dbstats["avgObjSize"],
+                                                            dbstats["dataSize"] / MEGABYTE,
+                                                            dbstats["storageSize"] / MEGABYTE,
+                                                            dbstats["numExtents"],
+                                                            dbstats["indexSize"] / MEGABYTE,
+                                                            dbstats["fileSize"],
+                                                            dbstats["extentFreeList"]["num"]])
+                    #dbstats["extentFreeList"]["totalSize"] removed
+    # Now print shard details. Don't both if the shard collection count = 0
+    print_bold_header("{0:<100}", ["Database stats by shard"])
+    for shard in dbstats["raw"]:
+        if dbstats["raw"][shard]["collections"] == 0:
+            print("0 collections on: " + shard)
+        else:
+            print_bold_header("{0:<100}", [shard])
+            format_string = "{0:<12} {1:<8} {2:<15} {3:<15} {4:<17} {5:<11} {6:<8} {7:<15} {8:<9}"
+            print_bold_header(format_string, ["collections",
+                                                "objects",
+                                                "avgObjSize (b)",
+                                                "dataSize (mb)",
+                                                "storageSize (mb)",
+                                                "numExtents",
+                                                "indexes",
+                                                "indexSize (mb)",
+                                                "fileSize"])
+            print_colour_data_row(bgcolours.OKGREEN, format_string, [dbstats["raw"][shard]["collections"],
+                                                                    dbstats["raw"][shard]["objects"],
+                                                                    round(dbstats["raw"][shard]["avgObjSize"]),
+                                                                    round(dbstats["raw"][shard]["dataSize"] / MEGABYTE, 2),
+                                                                    round(dbstats["raw"][shard]["storageSize"] / MEGABYTE, 2),
+                                                                    dbstats["raw"][shard]["numExtents"],
+                                                                    dbstats["raw"][shard]["indexes"],
+                                                                    round(dbstats["raw"][shard]["indexSize"] / MEGABYTE, 2),
+                                                                    dbstats["raw"][shard].get("fileSize", "NA")])
+
+def print_schema_summary(mmo, c, collection, limit):
+    schema = mmo.mmo_schema_sumary(c, collection, limit)
+    key_count = len(schema.keys())
+    #pp = pprint.PrettyPrinter(indent=4)
+    print_bold_header("{0:<100}", ["Schema summary for " + collection + " based on a sample of " + str(limit) + " documents"])
+    print("There are " + str(key_count) + " keys in this dictionary.")
+    #print ""
+    print_bold_header("{0:<100}", ["Data types"])
+    #print ""
+    for item in sorted(schema.keys()):
+        print("{0:<20} {1:<20}".format(item, type(schema[item])))
+        if type(schema[item]) == dict:
+            for sub_item in sorted(schema[item].keys()):
+                print("  - {0:<20} {1:<20}".format(sub_item, type(sub_item)))
+                if type(sub_item) == dict:
+                    for sub_sub_item in sub_item.keys():
+                        print("    - {0:<20} {1:<20}".format(sub_sub_item, type(sub_sub_item)))
+                if type(sub_item) == list:
+                    data_types = set()
+                    for list_item in schema[item]:
+                        data_types.add(type(list_item))
+                    data_types = " ".join(['%-2s' % (i,) for i in data_types])
+                    print("  - List data types: " + data_types)
+        if type(schema[item]) == list:
+            data_types = set()
+            for list_item in schema[item]:
+                data_types.add(type(list_item))
+            data_types = " ".join(['%-2s' % (i,) for i in data_types])
+            print("  - List data types: " + data_types)
+            if type(schema[item][0]) == dict:
+                for i in schema[item][0].keys():
+                    print("    - {0:<20} {1:<20}".format(i, type(i)))
+
+    #print ""
+    print_bold_header("{0:<100}", ["Sample Document"])
+    #print ""
+    pprint(schema)
+
+def print_show_collections(mm, c, database):
+    o = mm.mmo_execute_on_mongos(c, "listCollections", database)
+    format_string = "{0:<30}"
+    for collection in o["cursor"]["firstBatch"]:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [collection["name"]])
+
+def print_plan_cache_summary(mmo, c, database, collection):
+    """
+
+    :param mmo:
+    :param database:
+    :param collection:
+    :return:
+    """
+    plan_cache_summary = mmo.mmo_plan_cache(c, database, collection)
+    summarized_data = []
+    if len(plan_cache_summary) > 0:
+        for doc in plan_cache_summary:
+            summarized_data.append({"hostname": doc["hostname"],
+                                    "port": doc["port"],
+                                    "shard": doc["shard"],
+                                    "plan_count": len(doc["command_output"]["shapes"])})
+
+        headers = ["hostname",
+                   "port",
+                   "shard",
+                   "plan_count"]
+        header_lookup = [ {"hostname": "hostname"},
+                          {"port": "port"},
+                          {"shard": "shard"},
+                          {"plan_count": "plan_count"}]
+        format_string = create_format_string(headers, header_lookup, summarized_data)
+        print_bold_header("{0:<100}", ["Plan Cache Count for {0}.{1}".format(database, collection)])
+        print_bold_header(format_string, headers)
+        for doc in summarized_data:
+            print_colour_data_row(bgcolours.OKGREEN,
+                                  format_string,
+                                  [doc["hostname"],
+                                  doc["port"],
+                                  doc["shard"],
+                                  doc["plan_count"]])
+    else:
+        print("No plans found for this collection.")
+
+def print_plan_cache_shapes(mmo, c, database, collection):
+    plan_cache_summary = mmo.mmo_plan_cache(c, database, collection)
+    summarized_data = []
+    shape_id = 1
+    if len(plan_cache_summary) > 0:
+        for doc in plan_cache_summary:
+            for shape in doc["command_output"]["shapes"]:
+                summarized_data.append({"#": shape_id,
+                                        "hostname": doc["hostname"],
+                                        "port": doc["port"],
+                                        "shard": doc["shard"],
+                                        "query": shape["query"],
+                                        "sort": shape["sort"],
+                                        "projection": shape["projection"],
+                                        "db": database,
+                                        "collection": collection})
+                shape_id += 1
+
+        headers = ["#",
+                   "hostname",
+                   "port",
+                   "shard",
+                   "query",
+                   "sort",
+                   "projection"]
+
+        header_lookup = [{"#": "#"},
+                         {"hostname": "hostname"},
+                         {"port": "port"},
+                         {"shard": "shard"},
+                         {"query": "query"},
+                         {"sort": "sort"},
+                         {"projection": "projection"}]
+        if shape_id >= 2:
+            format_string = create_format_string(headers, header_lookup, summarized_data)
+            print_bold_header("{0:<100}", ["Plan Cache Query Shapes for {0}.{1}".format(database, collection)])
+            print_bold_header(format_string, headers)
+            for doc in summarized_data:
+                print_colour_data_row(bgcolours.OKGREEN,
+                                      format_string,
+                                      [doc["#"],
+                                       doc["hostname"],
+                                       doc["port"],
+                                       doc["shard"],
+                                       doc["query"],
+                                       doc["sort"],
+                                       doc["projection"]])
+            write_query_plan_file(summarized_data)
+        else:
+            print("No plans found for this collection.")
+    else:
+        print("No plans found for this collection.")
+
+def print_plan_cache_query_stats(mmo, c, database, collection, query, sort={}, projection={}):
+    query_data = mmo.mmo_plan_cache_query(c, database, collection, query, sort, projection)
+    plans = []
+    for doc in query_data:
+        for plan in doc["command_output"]["plans"]:
+            plans.append({ "hostname": doc["hostname"],
+                           "port": doc["port"],
+                           "shard": doc["shard"],
+                           "db": database,
+                           "collection": collection,
+                           "score": plan["reason"]["score"],
+                           "nReturned": plan["reason"]["stats"]["nReturned"],
+                           "docsExamined": plan["reason"]["stats"]["docsExamined"],
+                           "stage": plan["reason"]["stats"]["inputStage"]["stage"],
+                           "indexName": plan["reason"]["stats"]["inputStage"]["indexName"],
+                           "keysExamined": plan["reason"]["stats"]["inputStage"]["keysExamined"]})
+    headers = ["hostname",
+               "port",
+               "shard",
+               "db",
+               "collection",
+               "score",
+               "nReturned",
+               "docsExamined",
+               "stage",
+               "indexName",
+               "keysExamined"]
+
+    header_lookup = [
+                        {"hostname": "hostname"},
+                         {"port": "port"},
+                          {"shard": "shard"},
+                           {"db": "db"},
+                            {"collection": "collection"},
+                             {"score": "score"},
+                              {"nReturned": "nReturned"},
+                               {"docsExamined": "docsExamined"},
+                                {"stage": "stage"},
+                                 {"indexName": "indexName"},
+                                  {"keysExamined": "keysExamined"}
+                ]
+
+    format_string = create_format_string(headers, header_lookup, plans)
+
+    print_bold_header("{0:<100}", ["There are {0} cached plans for this query shape".format(len(plans))])
+    print(bgcolours.BOLD + json.dumps(query, sort_keys=True, indent=4, separators=(',', ': ')) + bgcolours.ENDC)
+    print_bold_header(format_string, headers)
+    for doc in plans:
+        print_colour_data_row(bgcolours.OKGREEN,
+                              format_string,
+                              [doc["hostname"],
+                               doc["port"],
+                               doc["shard"],
+                               doc["db"],
+                               doc["collection"],
+                               doc["score"],
+                               doc["nReturned"],
+                               doc["docsExamined"],
+                               doc["stage"],
+                               doc["indexName"],
+                               doc["keysExamined"]])
+
+def length_of_longest_element(list, key):
+    """
+    FInd the length of the longest element in a list of dictionaries for the given key
+    :param list:
+    :param key:
+    :return:
+    """
+    max_length=0
+    for item in list:
+        if not isinstance(item, dict): # We might have a list of dictionaries, or it could be a nested list of dictionaries, still with me?
+            for i in item:
+                if len(i[key]) > max_length:
+                    max_length = len(str(i[key])) # Nested list
+        else:
+            if len(item[key]) > max_length:
+                max_length = len(str(item[key])) # Standard list of dictionaries
+    return max_length
+
+def print_run_command_result(mmo, c, command, inc_mongos, execution_database="admin"):
+    """
+    Runs a custom command against your MongoDB Cluster and prints the output
+    :param mmo:
+    :param c:
+    :param inc_mongos:
+    :return:
+    """
+    custom_command_output = mmo.mmo_execute_on_cluster(c, command, inc_mongos, execution_database)
+    max_hostname_length = length_of_longest_element(custom_command_output, "hostname") + 2
+    format_string = "{0:<" + str(max_hostname_length) + "} {1:<10} {2:<100}"
+    print_bold_header(format_string, ["hostname", "port", "command output"])
+    for server in custom_command_output:
+        print_colour_data_row(bgcolours.OKGREEN, format_string, [server["hostname"],
+                                                                 server["port"],
+                                                                 server["command_output"]])
+
+def create_format_string(headers, header_lookup, list_of_documents):
+    """
+    This function attempts to create an appropriate format stirng for displaying data on the screen in a efficient way.
+    The space required for each column should be either (header + 1) or (maximum length of the data item + 1) which ever is greater
+    Need to check positions rather than names as column header don't always match the keys names <- Needs rethinking!
+    :param headers:
+    :param header_lookup: Dictionary containing header and the name of the actual data item
+    :param list_of_documents:
+    :return:
+    """
+    # have we got what we expect
+    isinstance(headers, list)
+    isinstance(list_of_documents, list)
+    isinstance(list_of_documents[0], dict)
+    if args.debug:
+        print(list_of_documents)
+    format_string = ""
+    header_lengths = {}
+    for item in headers:
+        header_lengths[item] = len(item)
+    for doc in list_of_documents:
+        for mydict in header_lookup: # Only check the keys provided in the headers
+            for item in mydict.keys():
+                if mydict[item].count(".") > 0: # Multi-depth keys
+                    try:
+                        if mydict[item].count(".") == 1: # TODO Must be a better way of doing this dynamically?
+                            if len(str(doc["command_output"][mydict[item].split(".")[1]])) > header_lengths[item]:
+                                header_lengths[item] = len(str(doc["command_output"][mydict[item].split(".")[1]]))
+                        elif mydict[item].count(".") == 2:
+                            if len(str(doc["command_output"][mydict[item].split(".")[1]][mydict[item].split(".")[2]])) > header_lengths[item]:
+                                header_lengths[item] = len(str(doc["command_output"][mydict[item].split(".")[1]][mydict[item].split(".")[2]]))
+                        else:
+                            raise Exception("command_output keys of greater than 2 are not supported!")
+                            sys.exit(-1)
+                    except Exception as excep:
+                        if args.debug:
+                            print("This is here for the situation when certain keys don't exist. For example if the MMAP engine is used or not")
+                            print(excep)
+                        pass
+                else:
+                    if len(str(doc[mydict[item]])) > header_lengths[item]:
+                        header_lengths[item] = len(str(doc[mydict[item]]))
+    field_counter = 0
+    for mydict in header_lookup:
+        for item in mydict.keys():
+            format_string = format_string + " {" +str(field_counter) + ":<" + str(header_lengths[item] + 1) + "}"
+            field_counter += 1 # Add so we can support python 2.6
+    format_string = format_string.strip()
+    if args.debug:
+        print(format_string)
+    return format_string
+
+
+def print_server_status_help():
+    print("Extracts and displays certain bits of information from the serverStatus document produced in the mongo shell command db.serverStatus()")
+    print("Usage: mm --server_status <option>")
+    print("Options: ")
+    print("{0:<30} {1:<100}".format("instance", "Show the instance info from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("asserts", "Show the asserts stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}\n{2:<30} {3:<100}".format("flushing",
+                                                  "Show the flushing stats from all the shard mongod processes.",
+                                                  "",
+                                                  "Only applies to the MMAPv1 engine."))
+    print("{0:<30} {1:<100}\n{2:<30} {3:<100}".format("journaling",
+                                                  "Show the journal stats from all the shard mongod processes.",
+                                                  "",
+                                                  "Only applies to the MMAPv1 engine and journaling must be enabled."))
+    print("{0:<30} {1:<100}".format("extra_info", "Show the extra_info section from the serverStatus document."))
+    print("{0:<30} {1:<100}".format("connections", "Show the connection stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("global_lock", "Show the global locks stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("network", "Show the network stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("opcounters", "Show the opcounters stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("opcounters_repl", "Show the opcountersRepl stats from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("security", "Show the security info from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("storage_engine", "Show the storage engine info from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("memory", "Show the memory info from all the shard mongod processes"))
+    print("{0:<30} {1:<100}".format("help", "Show this help message"))
+
+def print_host_info_help():
+    print("Extracts and displays information from the hostInfo document produced in the mongo shell by the mongo shell command db.hostInfo()")
+    print("Usage: mm --host_info <option>")
+    print("Options: ")
+    print("{0:<30} {1:<100}".format("system", "An embedded document providing information about the ",
+                                            "underlying environment of the system running the mongod or mongos"))
+    print("{0:<30} {1:<100}\n{2:<30} {3:<100}".format("os",
+                                                  "An embedded document that contains information about the operating system ",
+                                                  "",
+                                                  "running the mongod and mongos."))
+    print("{0:<30} {1:<100}\n{2:<30} {3:<100}\n{4:<30} {5:<100}".format("extra",
+                                                                  "An embedded document with extra information about the operating ",
+                                                                  "",
+                                                                "system and the underlying hardware. The content of the extra embedded ",
+                                                                  "",
+                                                                "document  depends on the operating system."))
+    print("{0:<30} {1:<100}".format("help", "Show this help message"))
+
+def print_chunks(mmo, c):
+    """
+    Print output from the result of the following query
+    db.chunks.aggregate({"$group": { "_id": { "ns": "$ns", "shard": "$shard" }, "count": { "$sum": 1} }});
+    :param mmo: A mmo Object
+    :param c: A MongoDB Connection
+    :return:
+    """
+    chunk_data = mmo.mmo_chunks(c)
+    results = []
+    # Sort out the data into a format later function will understand
+    if len(chunk_data) > 0:
+        for doc in chunk_data:
+            results.append({"namespace": doc["_id"]["ns"], "shard": doc["_id"]["shard"], "count": doc["count"]})
+
+        headers = ["namespace", "shard", "count"]
+        header_lookup = [{"namespace": "namespace"},
+                         {"shard": "shard"},
+                         {"count": "count"}]
+        format_string = create_format_string(headers, header_lookup, results)
+        print_bold_header(format_string, headers)
+        for doc in results:
+            print_colour_data_row(bgcolours.OKGREEN,
+                                  format_string,
+                                  [doc["namespace"],
+                                   doc["shard"],
+                                   doc["count"]])
+    else:
+        print_bold_header("{0:<100}", ["No information on chunks found"])
+
+def launch_mongo_shell(hostname, port, username, password, authentication_db, db):
+    """
+
+    :param hostname:
+    :param port:
+    :param username:
+    :param password:
+    :param authentication_db:
+    :param db:
+    :return:
+    """
+    mongo_cmd = "mongo"
+    if call("type " + mongo_cmd, shell=True, stdout=PIPE, stderr=PIPE) == 0:
+        cmd=[]
+        cmd.append(mongo_cmd)
+        cmd.append("--authenticationDatabase")
+        cmd.append(authentication_db)
+        cmd.append("--username")
+        cmd.append(username)
+        cmd.append("--password")
+        cmd.append(password)
+        cmd.append("--host")
+        cmd.append(hostname)
+        cmd.append("--port")
+        cmd.append(str(port))
+        if db is not None: # a db may not be provided
+            cmd.append(db)
+        call(cmd)
+    else:
+        print("Failed. {0} was not found in your PATH.".format(mongo_cmd))
+
+def pretty_date(time=False):
+    """
+    Stolen from https://stackoverflow.com/questions/1551382/user-friendly-time-format-in-python
+
+    Get a datetime object or a int() Epoch timestamp and return a
+    pretty string like 'an hour ago', 'Yesterday', '3 months ago',
+    'just now', etc
+    """
+    from datetime import datetime
+    now = datetime.now()
+    if type(time) is int:
+        diff = now - datetime.fromtimestamp(time)
+    elif isinstance(time,datetime):
+        diff = now - time
+    elif not time:
+        diff = now - now
+    second_diff = diff.seconds
+    day_diff = diff.days
+
+    if day_diff < 0:
+        return ''
+
+    if day_diff == 0:
+        if second_diff < 1:
+            return "just now"
+        if second_diff < 60:
+            return str(second_diff) + " seconds ago"
+        if second_diff < 120:
+            return "a minute ago"
+        if second_diff < 3600:
+            return str(second_diff / 60) + " minutes ago"
+        if second_diff < 7200:
+            return "an hour ago"
+        if second_diff < 86400:
+            return str(second_diff / 3600) + " hours ago"
+    if day_diff == 1:
+        return "Yesterday"
+    if day_diff < 7:
+        return str(day_diff) + " days ago"
+    if day_diff < 31:
+        return str(day_diff / 7) + " weeks ago"
+    if day_diff < 365:
+        return str(day_diff / 30) + " months ago"
+    return str(day_diff / 365) + " years ago"
+"""
+MAIN SECTION STARTS HERE
+"""
+parser = argparse.ArgumentParser(description='MongoDB Manager')
+parser.add_argument('--summary', action='store_true', help='Show a summary of the MongoDB Cluster Topology')
+parser.add_argument('--repl', action='store_true', help='Show a summary of the replicaset state')
+
+server_status_choices = ['instance',
+                         'asserts',
+                         'flushing',
+                         'journaling',
+                         'extra_info',
+                         'connections',
+                         'global_lock',
+                         'network',
+                         'opcounters',
+                         'opcounters_repl',
+                         'security',
+                         'storage_engine',
+                         'memory']
+parser.add_argument('--server_status', type=str, default="", choices=server_status_choices, help="Show a summary of the appropriate section from the serverStatus document from all mongod processes.")
+
+parser.add_argument('--poll', action='store_true', default=False, help="Used to change the behaviour of the --server_status screen. When the poll flag is used we display the figures in intervals since the last poll rather than the totals.")
+
+host_info_choices = ["system",
+                     "os",
+                     "extra",
+                     "help"]
+parser.add_argument('--host_info', type=str, default="", choices=host_info_choices, help="Show a summary of the appropriate section from the hostInfo document from all mongod processes.")
+
+parser.add_argument('--db_hashes', action='store_true', help='Show the db hashes for each database on the cluster and perform some verification.')
+parser.add_argument('--databases', action='store_true', help="Show a summary fo the databases hosted by the MongoDB cluster")
+
+parser.add_argument('--inc_mongos', action='store_true', help='Optionally execute against the mongos servers. This will fail if the command is not supported by mongos.')
+
+parser.add_argument('--step_down', type=str, default="", help="Step down the primary from this replicaset")
+parser.add_argument('--step_down_nominate_host', type=str, required=False, help="Used in combination with step_down_nominate_port to select a PRIMARY")
+parser.add_argument('--step_down_nominate_port', type=int, required=False, help="Used in combination with step_down_nominate_host to select a PRIMARY")
+parser.add_argument('--replset_freeze', type=int, required=False, default=30, help="Number of seconds to- use with the replSetFreeze command")
+parser.add_argument('--force', action='store_true', default=False, help="Force the node to step down.")
+
+profiling_choices=[-1, 0, 1, 2]
+
+parser.add_argument('--profiling', type=int, default=None, choices=profiling_choices, help="Display or modify the profiling level of a MongoDB Cluster")
+parser.add_argument('--slowms', type=int, default=None, help="Optionally for use with --profiling switch. The threshold in milliseconds at which the database profiler considers a query slow.")
+parser.add_argument('--database', type=str, default=None, help="The database to perform the action on. The wildcard character '*' can be used to specify all databases. Enclose in single quotes to prevent the shell expanding it.")
+
+parser.add_argument('--sharding', action='store_true', help="List sharding details")
+
+parser.add_argument("--mongo_hostname", "-H", type=str, default="localhost", required=False, help="Hostname for the MongoDB mongos process to connect to")
+parser.add_argument("--mongo_port", "-P", type=int, default=27017, required=False, help="Port for the MongoDB mongos process to connect to")
+parser.add_argument("--mongo_username", "-u", type=str, default="admin", required=False, help="MongoDB username")
+parser.add_argument("--mongo_password", "-p", type=str, default="admin", required=False, help="MongoDB password")
+parser.add_argument("--mongo_auth_db", "-D", type=str, default="admin", required=False, help="MongoDB authentication database")
+
+parser.add_argument("--execution_database", "-e", type=str, default="admin", required=False, help="Used by some command to specify the execution database.")
+
+parser.add_argument("--repeat", "-r", type=int, default=1, required=False, help="Repeat the action N number of times")
+parser.add_argument("--interval", "-i", type=int, default=2, required=False, help="Number of seconds between each repeat")
+
+parser.add_argument("--connection", "-c", type=str, required=False, help="Name of MongoDB connection to use as set in config.cnf")
+parser.add_argument("--debug", "-d", action='store_true', default=False, help="Output debug information")
+
+parser.add_argument("--validate_indexes", type=str, required=False, default=None, help="Collection to validate indexes across all shard servers. This should be provided in the form <database>.<collection>")
+parser.add_argument("--collection_stats", type=str, required=False, help="Show a summary of the data from the db.collection.stats() command. Must be supplied in the format <database>.<collection>")
+parser.add_argument("--database_stats", type=str, required=False, help="Show a summary of the data from the db.stats() command.")
+parser.add_argument("--show_collections", type=str, required=False, help="List the collections in the given database.")
+
+parser.add_argument("--command", type=str, required=False, help="Run a custom command against your MongoDB Cluster. Should be provided in document format, i.e. '{ \"command\": <value> }'")
+parser.add_argument("--balancing", type=str, choices=["enable", "disable"], help="Enable or disabled balancing. Must be supplied with the --collection argument")
+parser.add_argument("--collection", type=str, required=False, help="Collection to perform action on. Must be supplied in the format <database>.<collection>")
+
+parser.add_argument("--balancing_state", type=str, choices=["enable", "disable", "state"], required=False, default=None, help="Globally manage the balancer state" )
+
+parser.add_argument("--verbose_display", action="store_true", help="Used in various functions display data that is usually supressed")
+parser.add_argument("--stacktrace", action="store_true", default=False, help="By default we don't display the Python stacktace. Use this flag to enable.")
+
+parser.add_argument("--schema_summary", type=str, help="Collection to produce a summary schema for. Must be supplied in the format <database>.<collection>")
+parser.add_argument("--schema_summary_limit", type=int, default=200, help="Set the number of documents that --schema_summary will sample.")
+
+parser.add_argument("--plan_cache", type=str, help="Displays a count of the cached plans for the specified collection. Must be supplied in the format <database>.<collection>")
+parser.add_argument("--plan_cache_shapes", type=str, help="Displays the shapes from the plan cache for the specified collection. Must be supplied in the format <database>.<collection>")
+parser.add_argument("--plan_cache_query", type=str, help="Use with the --collection flag")
+parser.add_argument("--plan_cache_sort", type=str, default="{}")
+parser.add_argument("--plan_cache_projection", type=str, default="{}")
+parser.add_argument("--plan_cache_query_id", type=int, help="Display the stats for the query with the supplied id as provided in /tmp/mmo_temp_query.txt or --plan_cache_shapes")
+parser.add_argument("--plan_cache_clear_query_id", type=int, help="Clear the specified query from the Plan Cache.")
+parser.add_argument("--plan_cache_purge_data", action="store_true", default=False, help="Delete the plan cache file in /tmp/mmo_temp_query.txt. You probably don't want to leave this data lying about.")
+
+parser.add_argument("--chunks", action="store_true", default=False, help="Display a count of the chunks broken by namespace and shard.")
+
+parser.add_argument("--shell", action="store_true", default=False, help="Launch a mongo shell")
+
+args = parser.parse_args()
+
+###################################################
+# Main program starts here
+###################################################
+
+# Called without any arguments?
+if len(sys.argv)==1:
+    parser.print_help()
+    sys.exit(1) # Let's get out of here!
+
+# If a configuration file exists use that to connect
+config_file = "{0}/.mmo/config.cnf".format(expanduser("~"))
+if args.debug:
+    print("configuration file: " + config_file)
+    print("Exists?: " + str(os.path.isfile(config_file)))
+if os.path.isfile(config_file):
+    if args.debug: print("Reading configuration file " + config_file)
+    Config = configparser.ConfigParser()
+    Config.read(config_file)
+    section="Default"
+    if args.connection is not None:
+        if args.connection in Config.sections():
+            section = args.connection
+        else:
+            raise Exception("No entry for the provided connection in config.cnf")
+    options = Config.options(section)
+    if args.debug: print(options)
+    if Config.getboolean(section, "active"):
+        args.mongo_hostname = Config.get(section, "mongo_host")
+        args.mongo_port = int(Config.get(section, "mongo_port"))
+        args.mongo_username = Config.get(section, "mongo_username")
+        args.mongo_password = Config.get(section, "mongo_password")
+        args.mongo_auth_db = Config.get(section, "mongo_auth_db")
+        if args.debug:
+          print("Finished settings args from configuration file")
+          print(args.mongo_hostname)
+          print(args.mongo_port)
+          print(args.mongo_username)
+          print(args.mongo_password)
+          print(args.mongo_auth_db)
+    else:
+        if args.debug: print("{:<10} section is not active so ignoring".format(section))
+
+mmo = MmoMongoCluster(args.mongo_hostname, args.mongo_port, args.mongo_username, args.mongo_password, args.mongo_auth_db)
+c = mmo.mmo_connect()
+
+if args.stacktrace:
+    pass
+else:
+    sys.tracebacklimit = 0
+
+if c:
+
+    if args.poll:
+        print("Polling mode is active. Press ctrl + c to escape.")
+
+    while args.repeat != 0 or args.poll == True:
+        if args.summary:
+            display_cluster_state(mmo, c)
+        if args.repl:
+            rs = mmo.mmo_replication_status_summary(c)
+            print_replication_summary(rs)
+        elif args.server_status == "instance":
+            display_instance_info_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "asserts":
+            display_asserts_for_cluster(mmo, c, args.inc_mongos, args.poll)
+        elif args.server_status == "flushing":
+            display_backgroundFlushing_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "journaling":
+            display_journaling_for_cluster(mmo, c, args.inc_mongos, args.poll)
+        elif args.server_status == "extra_info":
+            display_extra_info_for_cluster(mmo, c, args.inc_mongos, args.poll)
+        elif args.server_status == "connections":
+            display_connections_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "global_lock":
+            display_globalLock_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status =="network":
+            display_network_for_cluster(mmo, c, args.inc_mongos, args.poll)
+        elif args.server_status == "opcounters":
+            display_opcounters_for_cluster(mmo, c, args.inc_mongos, False, args.poll)
+        elif args.server_status == "opcounters_repl":
+            display_opcounters_for_cluster(mmo, c, args.inc_mongos, True, args.poll)
+        elif args.server_status == "security":
+            display_security_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "storage_engine":
+            display_storage_engine_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "memory":
+            display_mem_for_cluster(mmo, c, args.inc_mongos)
+        elif args.server_status == "help":
+            print_server_status_help()
+        # print out help for using this feature correctly
+        if args.step_down == "" and (args.step_down_nominate_host is not None or args.step_down_nominate_port is not None):
+            print("You must supply a replicaset name with the --step_down flag to use this command:")
+            print("Usage: ./mm --step_down_nominate_host rhysmacbook.local --step_down_nominate_port 30001 --step_down rs0")
+        if args.step_down != "":
+            # Count of server so we can tell when the election has completed
+            rs = mmo.mmo_replication_status_summary(c)
+            shard_server_count=len(rs)
+            for doc in rs:
+                if doc['replicaset'] == args.step_down and doc['state'] == 'PRIMARY':
+                    old_primary = doc
+
+            # If the step down exclude arguments are set we need to execute replSetFreeze against some of the
+            if args.step_down_nominate_host is not None and args.step_down_nominate_port is not None:
+                mmo.mmo_repl_set_freeze_nominate_host(c,
+                                                      args.step_down_nominate_host,
+                                                      args.step_down_nominate_port,
+                                                      args.step_down, # replicaset name
+                                                      args.replset_freeze)
+            try:
+                step_down_primary(mmo, c, args.step_down, c.force)
+            except Exception as exception:
+                if str(exception) == "connection closed":
+                    timeout=60
+                    sleep_time=0
+                    while (mmo.mmo_replset_has_primary(c, args.step_down) == False and sleep_time < timeout):
+                        time.sleep(10) # Wait to allow the election to happen
+                    else:
+                        if len(mmo.mmo_replication_status_summary(c)) == shard_server_count:
+                            # Election has happened and all shard servers are back
+                            rs = mmo.mmo_replication_status_summary(c)
+                            print_replication_summary(rs)
+                            new_primary = None
+                            for doc in rs:
+                                if doc['replicaset'] == args.step_down and doc['state'] == 'PRIMARY':
+                                    new_primary = doc
+                            if new_primary is not None and old_primary["hostname"] != new_primary["hostname"]:
+                                print("PRIMARY changed from {0:<0} to {1:<1}".format(old_primary['hostname'],
+                                                                                     new_primary['hostname']))
+                            else:
+                                print("A new PRIMARY has not yet been elected. Try mm --repl again in a few moments to see if a new PRIMARY is elected.")
+                        else:
+                            # Timeout has happened or something is wrong
+                            print("There has been a problem or a timeout. Perhaps try the command again.")
+                else:
+                    raise exception
+        if args.profiling in profiling_choices: # This wouldn't return true when set to zero unless done like this
+            if args.database is not None:
+                profile_and_display(mmo, c, args.profiling, args.slowms, args.database)
+            else:
+                raise Exception("You must specify a value for --database when using the --profiling command.")
+        if args.sharding:
+            sharding_status(mmo, c)
+        if args.host_info in host_info_choices:
+            if args.host_info == "help":
+                print_host_info_help()
+            else:
+                display_host_info_for_cluster(mmo, c, args.inc_mongos, args.host_info)
+        if args.db_hashes:
+            display_db_hash_info_for_cluster(mmo, c, args.verbose_display)
+        if args.databases:
+            print_database_summary(mmo, c)
+        args.repeat -= 1
+        if args.validate_indexes is not None:
+            print_validate_indexes(mmo, c, args.validate_indexes)
+        if args.show_collections is not None:
+            print_show_collections(mmo, c, args.show_collections)
+        if args.command is not None:
+            if "{" in args.command: # A command document has been supplied. Cast to a dictionary so it functions correctly
+                if '"' not in args.command and "'" not in args.command: # Singe or double quotes are ok
+                    raise Exception("Command document must have quoted key names.")
+                else:
+                    command = ast.literal_eval(args.command)
+            else:
+                command = args.command
+            print_run_command_result(mmo, c, command, args.inc_mongos, args.execution_database)
+        if args.balancing is not None: # This is collection specific balancing
+            collection = args.collection
+            if args.collection is None:
+                raise Exception("You must supply the --collection argument with the --balancing argument.")
+            elif "." not in args.collection:
+                raise Exception("You must supply the collection in the format of <database>.<collection>")
+            else:
+                if args.balancing == "enable":
+                    query = { "_id": collection }
+                    update_doc = { "$set" : { "noBalance" : True } }
+                    o = mmo.mmo_execute_update_on_mongos(c, query, update_doc, "config", "collections", True)
+                    if o is None:
+                        print("Collection was not updated. Please check the collection name provided.")
+                        exit(1)
+                    if o.get("noBalance", False) == True:
+                        print("Balancing for " + collection + " is enabled")
+                else:
+                    query = {"_id": collection }
+                    update_doc = {"$set": {"noBalance": False} }
+                    o = mmo.mmo_execute_update_on_mongos(c, query, update_doc, "config", "collections", True)
+                    if not o.get("noBalance", False):
+                        print("Balancing for " + collection + " is disabled")
+        if args.balancing_state is not None:
+            if args.balancing_state == "enable":
+                query = { "_id": "balancer" }
+                update_doc = { "$set": { "stopped": False } }
+                o = mmo.mmo_execute_update_on_mongos(c, query, update_doc, "config", "settings", True, upsert=True)
+            elif args.balancing_state == "disable":
+                query = { "_id": "balancer" }
+                update_doc = { "$set": { "stopped": True } }
+                o = mmo.mmo_execute_update_on_mongos(c, query, update_doc, "config", "settings", True, upsert=True)
+            elif args.balancing_state == "state":
+                query = { "_id": "balancer" }
+                o = mmo.mmo_execute_query_on_mongos(c, query, "config", "settings", True)
+                if o == None: # If the document is not there the balancer is running
+                    print("true")
+                else:
+                    if o["stopped"] == True: # If stopped is true the balancer is stopped (false)
+                        print("false")
+                    elif o["stopped"] == False:
+                        print("true")
+                    else:
+                        print("Invalid vaue for stopped: " + str(o["stopped"]))
+        if args.collection_stats is not None:
+            print_collection_stats(mmo, c, args.collection_stats)
+        if args.database_stats is not None:
+            print_database_stats(mmo, c, args.database_stats)
+        if args.schema_summary is not None:
+            print_schema_summary(mmo, c, args.schema_summary, args.schema_summary_limit)
+        if args.plan_cache is not None:
+            database, collection = args.plan_cache.split(".")
+            print_plan_cache_summary(mmo, c, database, collection)
+        if args.plan_cache_shapes is not None:
+            database, collection = args.plan_cache_shapes.split(".")
+            print_plan_cache_shapes(mmo, c, database, collection)
+        if args.plan_cache_query is not None:
+            database, collection = args.collection.split(".")
+            print_plan_cache_query_stats(mmo,
+                                         c,
+                                         database,
+                                         collection,
+                                         args.plan_cache_query,
+                                         args.plan_cache_sort,
+                                         args.plan_cache_projection)
+        if args.plan_cache_query_id is not None:
+            queries = open_query_plan_cache_file()
+            found = False
+            for q in queries:
+                if q["#"] == args.plan_cache_query_id:
+                    found = True
+                    print_plan_cache_query_stats(mmo,
+                                                 c,
+                                                 q["db"],
+                                                 q["collection"],
+                                                 q["query"],
+                                                 q["sort"],
+                                                 q["projection"])
+            if not found:
+                print("The query with id {0} was not found".format(args.plan_cache_query_id))
+        if args.plan_cache_clear_query_id:
+            queries = open_query_plan_cache_file()
+            found = False
+            for q in queries:
+                if q["#"] == args.plan_cache_clear_query_id:
+                    found = True
+                    mmo.mmo_plan_cache_clear(c,
+                                             q["db"],
+                                             q["collection"],
+                                             q["query"],
+                                             q["sort"],
+                                             q["projection"])
+            if not found:
+                print("The query with id {0} was not found".format(args.plan_cache_clear_query_id))
+        if args.plan_cache_purge_data:
+            if os.path.exists("/tmp/mmo_temp_query.txt"):
+                os.remove("/tmp/mmo_temp_query.txt")
+            else:
+                print("File does not exist: /tmp/mmo_temp_query.txt")
+        if args.chunks:
+            print_chunks(mmo, c)
+        if args.shell:
+            launch_mongo_shell(args.mongo_hostname,
+                               args.mongo_port,
+                               args.mongo_username,
+                               args.mongo_password,
+                               args.mongo_auth_db,
+                               args.database)
+        if args.repeat > 0 or args.poll:
+            time.sleep(args.interval)
+            os.system('cls' if os.name == 'nt' else 'clear')
+else:
+    print("Unable to connect to a MongoDB Cluster")
+    exit(1)

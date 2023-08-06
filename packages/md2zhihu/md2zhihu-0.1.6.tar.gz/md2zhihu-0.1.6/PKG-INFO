@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: md2zhihu
+Version: 0.1.6
+Summary: convert markdown to zhihu compatible format.
+Home-page: https://github.com/pykit3/md2zhihu
+Author: Zhang Yanpo
+Author-email: drdr.xp@gmail.com
+License: MIT
+Description: # md2zhihu
+        Convert markdown to zhihu compatible format
+        
+Keywords: python,markdown,zhihu
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

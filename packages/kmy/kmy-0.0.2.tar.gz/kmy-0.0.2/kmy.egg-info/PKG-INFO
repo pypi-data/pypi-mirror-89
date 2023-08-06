@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: kmy
+Version: 0.0.2
+Summary: KMyMoney (.kmy) file parser
+Home-page: https://github.com/timerickson/kmy
+Author: Tim Erickson
+Author-email: <tim@timerickson.io>
+License: UNKNOWN
+Description: A simply library to read and provide typed access to KMyMoney data in .kmy files.It currently only supports readonly access.
+Keywords: python,KMyMoney,kmy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

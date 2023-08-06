@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tompy
+Version: 0.1.0
+Summary: 
+Author: Thomas Jeong
+Author-email: nanticj@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

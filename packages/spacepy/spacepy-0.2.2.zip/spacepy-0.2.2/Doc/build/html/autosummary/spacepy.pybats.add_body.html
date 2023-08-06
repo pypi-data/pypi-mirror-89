@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spacepy.pybats.add_body &#8212; SpacePy v0.2.2 Manual</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="../_static/spacepy_favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spacepy.pybats.add_planet" href="spacepy.pybats.add_planet.html" />
+    <link rel="prev" title="spacepy.pybats.SatOrbit" href="spacepy.pybats.SatOrbit.html" /> 
+  </head><body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="../index.html"><img src="../_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.pybats.add_planet.html" title="spacepy.pybats.add_planet"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.pybats.SatOrbit.html" title="spacepy.pybats.SatOrbit"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../pybats.html" accesskey="U">PyBats - SWMF &amp; BATS-R-US Analysis Tools</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">spacepy.pybats.add_body</a></li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="spacepy.pybats.SatOrbit.html"
+                        title="previous chapter">spacepy.pybats.SatOrbit</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="spacepy.pybats.add_planet.html"
+                        title="next chapter">spacepy.pybats.add_planet</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/autosummary/spacepy.pybats.add_body.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="spacepy-pybats-add-body">
+<h1>spacepy.pybats.add_body<a class="headerlink" href="#spacepy-pybats-add-body" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="spacepy.pybats.add_body">
+<code class="sig-prename descclassname">spacepy.pybats.</code><code class="sig-name descname">add_body</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ax</span></em>, <em class="sig-param"><span class="n">rad</span><span class="o">=</span><span class="default_value">2.5</span></em>, <em class="sig-param"><span class="n">facecolor</span><span class="o">=</span><span class="default_value">'lightgrey'</span></em>, <em class="sig-param"><span class="n">show_planet</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">ang</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">add_night</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">zorder</span><span class="o">=</span><span class="default_value">1000</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">extra_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spacepy/pybats.html#add_body"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spacepy.pybats.add_body" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a circle of radius=self.attrs[‘rbody’] and returns the
+MatPlotLib Ellipse patch object for plotting.  If an axis is specified
+using the “ax” keyword, the patch is added to the plot.
+Default color is light grey; extra keywords are handed to the Ellipse
+generator function.</p>
+<p>Because the body is rarely the size of the planet at the center of 
+the modeling domain, add_planet is automatically called.  This can
+be negated by using the show_planet kwarg.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>ax</strong><span class="classifier">Matplotlib Axes object</span></dt><dd><p>Set the axes on which to place planet.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Other Parameters</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>rad</strong><span class="classifier">float</span></dt><dd><p>Set radius of the inner boundary.  Defaults to 2.5.</p>
+</dd>
+<dt><strong>facecolor</strong><span class="classifier">string</span></dt><dd><p>Set color of face of inner boundary circle via Matplotlib color 
+selectors (name, hex, etc.)  Defaults to ‘lightgrey’.</p>
+</dd>
+<dt><strong>show_planet</strong><span class="classifier">boolean</span></dt><dd><p>Turns on/off planet indicator inside inner boundary.  
+Defaults to <strong>True</strong></p>
+</dd>
+<dt><strong>ang</strong><span class="classifier">float</span></dt><dd><p>Set the rotation of the day-night terminator from the y-axis, in degrees.
+Defaults to zero (terminator is aligned with Y-axis.)</p>
+</dd>
+<dt><strong>add_night</strong><span class="classifier">boolean</span></dt><dd><p>Add night hemisphere.  Defaults to <strong>True</strong></p>
+</dd>
+<dt><strong>zorder</strong><span class="classifier">int</span></dt><dd><p>Set the matplotlib zorder of the patch to set how other plot
+elements order with the inner boundary patch. Defaults to 1000.
+If a planet is added, it is given a zorder of <a href="#id1"><span class="problematic" id="id2">*</span></a>zorder*+5.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.pybats.add_planet.html" title="spacepy.pybats.add_planet"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.pybats.SatOrbit.html" title="spacepy.pybats.SatOrbit"
+             >previous</a> |</li>
+        <li><a href="https://spacepy.github.io/"">homepage</a>|&nbsp;</li>
+        <li><a href="https://github.com/spacepy/spacepy">development</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../pybats.html" >PyBats - SWMF &amp; BATS-R-US Analysis Tools</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">spacepy.pybats.add_body</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2020, The SpacePy Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.0.
+    </div>
+  </body>
+</html>

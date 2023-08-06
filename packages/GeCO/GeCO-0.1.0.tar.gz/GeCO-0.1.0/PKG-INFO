@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GeCO
+Version: 0.1.0
+Summary: Generators for Combinatorial Optimization
+Home-page: https://github.com/CharJon/GeCO
+License: MIT License
+Description: [![Build Status](https://travis-ci.org/CharJon/GeCO.svg?branch=main)](https://travis-ci.org/CharJon/GeCO) [![codecov](https://codecov.io/gh/CharJon/GeCO/branch/main/graph/badge.svg?token=IRS3LOkoFZ)](https://codecov.io/gh/CharJon/GeCO)
+        
+        # GeCO
+        Generators for Combinatorial Optimization
+        
+        ## Implemented Generators
+        ### MIPS
+        - Capacitated facility location
+        - Scheduling
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

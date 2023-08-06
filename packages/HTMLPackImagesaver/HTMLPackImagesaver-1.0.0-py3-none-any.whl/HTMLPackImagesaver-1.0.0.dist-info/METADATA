@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: HTMLPackImagesaver
+Version: 1.0.0
+Summary: Download and save images of HTML only archives - e.g. backup package of Medium.com
+Home-page: https://github.com/otapi/HTMLPackImagesaver
+Author: otapi
+Author-email: otapi0@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# HTMLPackImagesaver
+Download and save images of HTML only archives - e.g. backup package of Medium.com. 
+
+## Install
+
+## Usage
+`
+    HTMLPackImagesaver.py [HTMLArchive]
+    HTMLArchive: path to a zipped HTML archive file. Opens a file selector dialog if missing.
+`
+

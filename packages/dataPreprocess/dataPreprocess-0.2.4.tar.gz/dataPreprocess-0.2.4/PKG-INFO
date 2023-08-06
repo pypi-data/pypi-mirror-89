@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dataPreprocess
+Version: 0.2.4
+Summary: Pre process the textual data for NLP and machine learning applications
+Home-page: https://github.com/praveen-AIT/dataPreprocess
+Author: Parveen Kumar
+Author-email: markrash4@gmail.com
+License: MIT
+Description: Use this library to get an out of the box solution for all text pre-processing related problems. A wide range of text processing methods have been added to this library and I will keep on adding more methods.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

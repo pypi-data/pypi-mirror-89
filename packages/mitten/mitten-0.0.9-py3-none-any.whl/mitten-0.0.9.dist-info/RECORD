@@ -1,0 +1,10 @@
+mitten/__init__.py,sha256=5iIXNieOSe9fEdC0FUcjnEXZYD07vl30djswSGalkgM,159
+mitten/diagnostics.py,sha256=l7LFvMr5unBRMoP8Oksf7YdkuHxJDxuhnEFYfW1W7X8,4302
+mitten/hotelling.py,sha256=QSGs9fAxZK7_Fyq457GeZ61DtADHpuUZ91VRlBmPiZQ,2183
+mitten/mcusum.py,sha256=9XLp5ltRdr5R4LqPdDL7aFkCMHctymL-cCfhoHJDLxc,2702
+mitten/mewma.py,sha256=ZhWL4xIYH7YMOBj_OmFPukFlEu8TyjutpgpXNf4upSY,3804
+mitten/plotting.py,sha256=jPMl24jAXZouTKubEcutR-Qc3dWJ-WZgfm6rLd3n2ec,1830
+mitten-0.0.9.dist-info/METADATA,sha256=gbSwJA8q2eJVo0ujnSou5ETqgGFDbU-dEELbRF_57BY,860
+mitten-0.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mitten-0.0.9.dist-info/top_level.txt,sha256=vtGLLswIgTbDG1H_MX9MyZ0WmPM4nF73IS5hPXe5TTA,7
+mitten-0.0.9.dist-info/RECORD,,

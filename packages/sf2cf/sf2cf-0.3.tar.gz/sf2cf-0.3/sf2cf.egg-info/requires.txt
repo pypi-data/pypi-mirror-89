@@ -1,0 +1,6 @@
+bs4
+feedparser
+lxml
+pillow
+requests
+xdg

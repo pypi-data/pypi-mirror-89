@@ -1,0 +1,42 @@
+# sf2cf development
+
+## Sending patches
+Patches may be sent by email, using "git format-patch" and "git send-email". The
+"tox -epep8" command must be successful.
+
+## Adding a plugin
+One may write their own plugin and maintain it outside of sf2cf. This requires a
+little setuptools magic in setup.py:
+
+```python
+setup(...
+    entry_points = {
+        'sf2cf.feed': [
+            'plugin_name = path.to.module:PluginFeed'
+        ]
+...)```
+
+The plugin itself can be written using the following template:
+
+```python
+from sf2cf import sf2cf
+
+
+LOG = logging.getLogger('sf2cf')  # A logger is provided
+
+
+class PluginFeed(sf2cf.FeedFixer):
+    name = 'plugin_name'
+    version = '0.1'
+    description = ... # A short description of the plugin
+    sample_conf = ... # A configuration example
+
+    def __init__(self, conf_section):
+        # conf_section is the configuration section provided by the user.
+        ...
+
+    def run(self):
+        # Do your thing here!
+        ...
+```
+

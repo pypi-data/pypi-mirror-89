@@ -1,0 +1,12 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/ncloud_apikey_sample.py,sha256=ow-vbIJvQTAxWwhxXD6XL3512ROMFP9DWol1kAG7OLU,205
+test/ncloud_cdn_api_sample.py,sha256=m6BQssKtmUbTBVld9CrXcNKQhD2zJNjw2mCK5rv3mqo,777
+test/ncloud_iam_role_sample.py,sha256=GJVaH4SyQzFs33dpgr_30kS39-fTOGp8srwZVwWrMnc,1409
+test/ncloud_load_credentials_sample.py,sha256=6mrQbZ04Ab_EPgcu5xEYYypq2eRbUxbeCTyRGRKBWmg,722
+test/ncloud_server_api_sample.py,sha256=CYMMAGVQ7jNP0YYJUmlrED8NzwgSgls69gxfr6V-Oo0,756
+test/test_v2_api.py,sha256=cDtaJnaajNqxURicjHTeNmG95o2UBg0Oh9hv9YYqYd4,1414
+ncloud_sdk-1.1.8.dist-info/LICENSE,sha256=zdLSUMXxjhB7oUVaFMNoTheLIUHcMH8YoVuqpdnI2oo,1076
+ncloud_sdk-1.1.8.dist-info/METADATA,sha256=z-LwEpE-8Pu_IZat880JeY2_Pp64uRkFn7D1KZpbFNU,8350
+ncloud_sdk-1.1.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ncloud_sdk-1.1.8.dist-info/top_level.txt,sha256=8sobtsfpB9Btr-Roflefznazfk6Tt2BQItpS5szCb9I,5
+ncloud_sdk-1.1.8.dist-info/RECORD,,

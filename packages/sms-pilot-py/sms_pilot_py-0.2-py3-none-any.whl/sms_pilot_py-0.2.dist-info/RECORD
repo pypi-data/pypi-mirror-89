@@ -1,0 +1,10 @@
+sms_pilot/__init__.py,sha256=Zx4ixuwb22cFzn_oGEkoLV81R5Y4BWK4B_FrQ_T-nzY,53
+sms_pilot/callback.py,sha256=tG5b_uw-WKEp2WnkFqRf2zLiCNzczcXn17u84fE6Rls,917
+sms_pilot/exception.py,sha256=2giGHZ6Ambk-t0koHa-sAK_W_Q-X1-c2luXmIUxgQ-E,708
+sms_pilot/objects.py,sha256=KEFsQZuxgYAWqW5z2D97cSNU7ItQeWL9tyOZaFYk0BI,4472
+sms_pilot/sender.py,sha256=TS0_B9x2HhKqJKURfKbs1wPi8wueJpI1qUzWVP6a28Y,7029
+sms_pilot_py-0.2.dist-info/LICENSE.md,sha256=d9eq8BFngpgBIGqN1-VHoRkJZMV0xopRGLxUsXYefA4,1068
+sms_pilot_py-0.2.dist-info/METADATA,sha256=_d0RM3Bz47lju-PEcEdtHY5ivxGfQnYbOUt64mICOVw,1870
+sms_pilot_py-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sms_pilot_py-0.2.dist-info/top_level.txt,sha256=sHT84c7vDZIKvNlTEfsti__vSKlTmKfeOout6u4yfQ8,10
+sms_pilot_py-0.2.dist-info/RECORD,,

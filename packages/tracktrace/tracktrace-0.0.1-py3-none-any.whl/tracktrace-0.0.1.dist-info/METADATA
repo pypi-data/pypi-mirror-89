@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tracktrace
+Version: 0.0.1
+Summary: 
+Author: Dhruv Kar
+Author-email: dhruv@wints.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: feedparser (>=6.0.2,<7.0.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: lxml (>=4.6.1,<5.0.0)
+Requires-Dist: pandas (>=1.1.4,<2.0.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)

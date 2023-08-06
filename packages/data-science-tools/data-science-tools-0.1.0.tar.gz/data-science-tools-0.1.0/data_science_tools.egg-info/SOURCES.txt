@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+data_science_tools.egg-info/PKG-INFO
+data_science_tools.egg-info/SOURCES.txt
+data_science_tools.egg-info/dependency_links.txt
+data_science_tools.egg-info/entry_points.txt
+data_science_tools.egg-info/not-zip-safe
+data_science_tools.egg-info/top_level.txt
+ds_tools/__init__.py
+ds_tools/cli.py
+ds_tools/pandas_tools.py

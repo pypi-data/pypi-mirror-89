@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+toothpyck/__init__.py
+toothpyck/fake_data.py
+toothpyck/test_convert_name.py
+toothpyck.egg-info/PKG-INFO
+toothpyck.egg-info/SOURCES.txt
+toothpyck.egg-info/dependency_links.txt
+toothpyck.egg-info/not-zip-safe
+toothpyck.egg-info/top_level.txt

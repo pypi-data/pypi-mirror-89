@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: zipexec
+Version: 1.0
+Summary: Unzip zip files and run commands against the contents
+Home-page: http://github.com/markbaggett/zipexec
+Author-email: lo127001@gmail.com
+License: GNU Lesser General Public License v3 (LGPLv3)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# zipexec is a pure python alternative to zipgrep
+
+zipexec allows you to specify any command line utiliity you would like to run against a group of ```.zip``` files.  While zcat, zgrep and other utilities work well on gzip compressed files, I needed similar functionality on pkzip compressed files (with .zip extensions) and was unable to find a tool I liked. 
+
+Execute command line utilities of your choice against the contents of zip files.
+
+## Help
+```
+$ zipexec -h
+usage: zipexec [-h] [-c CMD_TO_RUN] path_to_zips
+
+positional arguments:
+  path_to_zips          Where are the zips to search
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CMD_TO_RUN, --cmd_to_run CMD_TO_RUN
+                        Command line to run on each zip
+```
+NOTE: Take care when specifying the names of files and commands that your local linux system does not expand the asterisks.
+
+
+## Example Usage
+
+### If you only pass a path to a folder containing zip files to zip exec it will prompt you for a command
+
+```
+$ zipexec /home/uploads/zipfiles/
+What command would you like to run?: grep -R -C2 -n "search string" *
+
+```
+
+### If you do specify a command with -c or --command it will execute that
+
+Example 1: grep through the content of all the zip files:
+
+```
+$ zipexec -c 'grep -R -n -C2 "import os" *.py' /home/uploads/zipfiles/  
+
+```
+
+Example 2: Do a directory listing of all of the zip files that are named file*.zip
+
+```
+$ zipexec -c 'ls -laR' /home/uploads/zipfiles/files\*.zip   
+
+```
+

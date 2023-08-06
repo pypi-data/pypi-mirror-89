@@ -1,0 +1,3 @@
+[console_scripts]
+zipexec = zipexec.__main__:main
+

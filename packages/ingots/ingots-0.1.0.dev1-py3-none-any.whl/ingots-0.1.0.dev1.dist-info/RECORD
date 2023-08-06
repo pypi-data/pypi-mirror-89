@@ -1,0 +1,15 @@
+ingots/__init__.py,sha256=SKunDrkh9NSvdztX4Eo7ASfJIby3gHaXG6pIxZ0pjtY,326
+ingots/tests/__init__.py,sha256=V46j-wquelMU225WtE9V-zIow5Wexmf2b8I2FZgn2jM,38
+ingots/tests/functionals/__init__.py,sha256=5pn4aEiBa2zQHnXFSK7_5P8GYYuuGuMfVeDdcIFxOQ0,49
+ingots/tests/units/__init__.py,sha256=j0FhXY4_BTZzYVVIXBbJhtwrQmhp519UUyQVVMf-Kwc,43
+ingots/tests/units/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingots/tests/units/utils/test_packages_versions.py,sha256=gtxNZW4OsrVu6tV4rWBYQg1RCRJiwop4e4M0EG4-VUw,4606
+ingots/utils/__init__.py,sha256=okkO3NO0mAmPZEDzgdD1lSTCPa9tQjTSn40-0uGab74,78
+ingots/utils/packages_versions.py,sha256=8xzTmnkj_NzegyhyeolK66O7sQlp_SV8_rdWsR94cv8,1109
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/create_package_version_file.py,sha256=mblqN_ifJcZAiGUS3_RFcz6Z3oNpd5BO7ocCKghu0ng,478
+ingots-0.1.0.dev1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ingots-0.1.0.dev1.dist-info/METADATA,sha256=J9ymoUePMXbTAFACJnJqo59dhNf7KtmdIQCanIxmZH8,4411
+ingots-0.1.0.dev1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ingots-0.1.0.dev1.dist-info/top_level.txt,sha256=8kC4yedqZo5kktGsKHM7EMzHcp_ekNj7G3vAy9lOTb8,15
+ingots-0.1.0.dev1.dist-info/RECORD,,

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kalmus
+Version: 1.2.1
+Summary: kalmus film color analysis tool
+Home-page: https://github.com/yc015/KALMUS
+Author: Yida Chen
+Author-email: yc015@bucknell.edu
+License: MIT
+Keywords: film,color analysis,data visualization
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image (>=0.16.2)
+Requires-Dist: matplotlib (>=3.2.2)
+Requires-Dist: scikit-learn
+Requires-Dist: biopython
+Requires-Dist: scipy
+
+UNKNOWN
+
+

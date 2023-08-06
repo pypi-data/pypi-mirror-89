@@ -1,0 +1,16 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+neuralprocesses/__init__.py
+neuralprocesses/core.py
+neuralprocesses.egg-info/PKG-INFO
+neuralprocesses.egg-info/SOURCES.txt
+neuralprocesses.egg-info/dependency_links.txt
+neuralprocesses.egg-info/requires.txt
+neuralprocesses.egg-info/top_level.txt
+tests/__init__.py
+tests/test_example.py
+tests/util.py

@@ -1,0 +1,10 @@
+api/__init__.py,sha256=w0P19rYHrMl0HQEEG_McHL9oa4eVn14H7GXxcKFVFwo,313
+api/api.py,sha256=DN1eVEnqxEvzTeZzVZAtz85I7d1oWVXQgFjwpKARWWQ,57621
+api/errors.py,sha256=Tq_699yJdpJCkmpnf9BE81M828ImqOEGRQgNCpvW5r8,2161
+flask-app/forms/__init__.py,sha256=-CLcDuK1DLQa2x_fghljUi2Nclm4V9Z3D09oQivOA4U,36
+flask-app/forms/__main__.py,sha256=xe4NahWbFZeEUMJ7jDQv7gn0DZZ5wrG0CXmcSlLs9f4,1409
+Wsimple-1.0.dist-info/LICENSE,sha256=VWOX9UAS16L3ysn9jZgkSBNgZMoclNhWhRsDnncw2Us,1069
+Wsimple-1.0.dist-info/METADATA,sha256=oyIVJZwug0Rb2Qw7gjaRH5xeO9cTcxNM9prXbYNFOOw,6107
+Wsimple-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Wsimple-1.0.dist-info/top_level.txt,sha256=Awr8iRB5gXBqceNVNsixMgRxrFhS3rvWqMhKJSR7tKE,14
+Wsimple-1.0.dist-info/RECORD,,

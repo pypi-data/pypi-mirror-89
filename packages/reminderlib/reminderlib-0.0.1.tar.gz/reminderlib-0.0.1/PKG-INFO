@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: reminderlib
+Version: 0.0.1
+Summary: sample reminder library for AWS dynamodb
+Home-page: UNKNOWN
+Author: Jayashathiskumar Jayakumar
+Author-email: x20154810@student.ncirl.ie
+License: UNKNOWN
+Description: ### Sample Reminder Library
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/12/2020)
+        -------------------
+        - First Release
+Keywords: reminder
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3

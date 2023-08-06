@@ -1,0 +1,3 @@
+[console_scripts]
+myquerytutor = myquerytutor.cli:main
+

@@ -1,0 +1,4 @@
+PyQt5>=5.13.1
+PyQtWebEngine>=5.13.2
+beautifulsoup4>=4.8.2
+requests>=2.20.1

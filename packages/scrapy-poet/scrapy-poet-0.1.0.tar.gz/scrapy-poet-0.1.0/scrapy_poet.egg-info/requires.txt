@@ -1,0 +1,4 @@
+andi>=0.3
+attrs
+parsel
+web-poet

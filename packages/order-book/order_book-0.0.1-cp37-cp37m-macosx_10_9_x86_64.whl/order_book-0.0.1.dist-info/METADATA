@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: order-book
+Version: 0.0.1
+Summary: Fast Orderbook Library for Python in C
+Home-page: https://github.com/bmoscon/orderbook
+Author: Bryant Moscon
+Author-email: bmoscon@gmail.com
+License: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Keywords: market data,trading
+Platform: UNKNOWN
+
+UNKNOWN
+
+

@@ -1,0 +1,93 @@
+#!python
+
+import argparse
+import time
+import subprocess
+import datetime
+import sys
+import os
+import daemon
+import contextlib
+
+
+def get_args():
+    parser = argparse.ArgumentParser(description='Run command in loop (with features)')
+    parser.add_argument('-n', type=int, default=0, help='Run N times and exit (default: 0 = infinite)')
+    parser.add_argument('-p', '--period', type=int, default=60, help='Run every N seconds (default: 60)')
+    parser.add_argument('--log', metavar='FILENAME', default='-', 
+        help='Write command stdout to this file')
+    parser.add_argument('-e', '--err', default=False, action='store_true', 
+        help='Write command stderr to logfile)')
+    parser.add_argument('-v', '--verbose', default=False, action='store_true', 
+        help='Write loop technical info to logfile)')
+    parser.add_argument('-d','--daemon', default=False, action='store_true', 
+        help='Work as daemon')
+    parser.add_argument('command', nargs='+', help='command with arguments')
+
+    return parser.parse_args()
+
+@contextlib.contextmanager
+def smart_open(filename=None):
+    if filename and filename != '-':
+        fh = open(filename, 'a')
+    else:
+        fh = sys.stdout
+
+    try:
+        yield fh
+    finally:
+        if fh is not sys.stdout:
+            fh.close()
+
+def loop(args):
+    n = 0
+
+    while True:
+        iteration_started = time.time()
+
+        if args.err:
+            stderr_arg = subprocess.STDOUT
+        else:
+            stderr_arg = None
+
+        with smart_open(args.log) as out:       
+            
+            if args.verbose:
+                now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                out.write(f'# {now_str} my pid: {os.getpid()} run: {" ".join(args.command)}\n')    
+                out.flush()
+
+            rc = subprocess.run(args.command, stdout = out, stderr = stderr_arg)
+            
+            if args.verbose:
+                now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                out.write(f'# {now_str} finished with status {rc.returncode}\n\n')    
+                out.flush()
+
+
+        n+=1
+
+        if args.n and n>=args.n:
+            return
+        sleeptime = iteration_started + args.period - time.time()
+        if sleeptime>0:
+            time.sleep(sleeptime)
+
+
+def main():
+    args = get_args()
+    
+    if args.log and args.log != '-':
+        args.log = os.path.abspath(args.log)
+
+    if(args.daemon):
+        with daemon.DaemonContext():
+            loop(args)
+    else:
+        try:
+            loop(args)
+        except KeyboardInterrupt:
+            pass
+    
+main()
+    

@@ -1,0 +1,10 @@
+jpsecurities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpsecurities/site/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpsecurities/site/rakuten.py,sha256=wepzuZERkTNbWjGRq26ljwPdt7p1mmQTswKbGn5cjwU,4096
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/site/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/site/rakuten.py,sha256=fXya0Zy0otV-jdfssh_4WxmDkRLvFUu2Xe-xwsJXA0Q,951
+jpsecurities-0.1.1.dist-info/METADATA,sha256=Sh6RqwIb5uIOjP3a9T_9fv_Df-Wh30zV5chC0L67TkQ,573
+jpsecurities-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jpsecurities-0.1.1.dist-info/top_level.txt,sha256=8_nXk6OAlUuS3epirQN5eyt1xBVYE-1xi6AvjT6iNYQ,19
+jpsecurities-0.1.1.dist-info/RECORD,,

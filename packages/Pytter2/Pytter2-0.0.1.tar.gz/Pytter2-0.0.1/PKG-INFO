@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Pytter2
+Version: 0.0.1
+Summary: Read write Twitter data with API v2
+Home-page: https://github.com/mlabarrere/Pytter2
+Author: M_Lbr
+Author-email: m.micky.lbr@gmail.com
+License: UNKNOWN
+Description: # Pytter2
+        
+        [![v2](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2)](https://developer.twitter.com/en/docs/twitter-api)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown

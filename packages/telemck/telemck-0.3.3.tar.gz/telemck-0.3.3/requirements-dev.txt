@@ -1,0 +1,4 @@
+redislite>=5.0.124623
+coverage
+pytest-cov
+pytest

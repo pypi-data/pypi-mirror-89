@@ -1,0 +1,10 @@
+setup.py
+beot_ggot/Binomialdistribution.py
+beot_ggot/Gaussiandistribution.py
+beot_ggot/Generaldistribution.py
+beot_ggot/__init__.py
+beot_ggot.egg-info/PKG-INFO
+beot_ggot.egg-info/SOURCES.txt
+beot_ggot.egg-info/dependency_links.txt
+beot_ggot.egg-info/not-zip-safe
+beot_ggot.egg-info/top_level.txt

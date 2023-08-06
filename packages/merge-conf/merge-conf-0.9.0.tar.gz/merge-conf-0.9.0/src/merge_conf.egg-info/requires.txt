@@ -1,0 +1,10 @@
+xdg
+
+[dotenv]
+python-dotenv
+
+[toml]
+toml
+
+[yaml]
+pyyaml

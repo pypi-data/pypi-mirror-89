@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: odoo13-addons-oca-payroll
+Version: 13.0.20201027.0
+Summary: Meta package for oca-payroll Odoo addons
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Dist: odoo13-addon-payroll
+Requires-Dist: odoo13-addon-payroll-account
+
+UNKNOWN
+
+

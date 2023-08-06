@@ -1,0 +1,4 @@
+asyncpgw
+discord.py
+emoji
+attrdict

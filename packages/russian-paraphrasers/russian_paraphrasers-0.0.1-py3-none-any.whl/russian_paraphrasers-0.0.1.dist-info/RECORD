@@ -1,0 +1,12 @@
+russian_paraphrasers/__init__.py,sha256=JarW6ZNsZ0qvth03YnX3Wy1eT1oiKWSe1yDa9YEt1L4,161
+russian_paraphrasers/candidates_filter_metrics.py,sha256=R26-4-3O195Tapn6-pKq1K-zNa8ckoC8bd0jfw28xSU,2265
+russian_paraphrasers/utils.py,sha256=nuq2EGh70pf5KV20U0eNOcoiZFrMsPiQxnZzGCttTlw,2032
+russian_paraphrasers/paraphrasers/__init__.py,sha256=IyvuIMiaitNQXBTiDKV_-bdw3ouM5-vv_9nnZ__ByGQ,180
+russian_paraphrasers/paraphrasers/core.py,sha256=vNnyTBKHAGnxaL2B42DZl6Bz_2-6WmvP9TfJbw_TgNI,2103
+russian_paraphrasers/paraphrasers/paraphraser_gpt.py,sha256=mj-Li9We0bUoQQilOwoPQ4gek0AhiHac1-c8nsC-1Q4,5385
+russian_paraphrasers/paraphrasers/paraphraser_mt5.py,sha256=ED7yd6boy1VbR2b5-q_tLSyac3n3OveXQtEDU3xH144,4944
+russian_paraphrasers-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+russian_paraphrasers-0.0.1.dist-info/METADATA,sha256=5t6AndcCHLOyXaPVBdOPEnCxHQBxU4eqOq8MAGQZmeU,4825
+russian_paraphrasers-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+russian_paraphrasers-0.0.1.dist-info/top_level.txt,sha256=4l4UX6aAd-9KmKIdqIWLRdA7oxKo5nPcNZIyGykfUMk,21
+russian_paraphrasers-0.0.1.dist-info/RECORD,,

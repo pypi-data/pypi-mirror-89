@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+sattar_package.egg-info/PKG-INFO
+sattar_package.egg-info/SOURCES.txt
+sattar_package.egg-info/dependency_links.txt
+sattar_package.egg-info/requires.txt
+sattar_package.egg-info/top_level.txt

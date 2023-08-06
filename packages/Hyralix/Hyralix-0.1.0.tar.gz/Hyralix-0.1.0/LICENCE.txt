@@ -1,0 +1,3 @@
+Proprietary License
+----------------------
+I hold all rights to this package, which means that you may use, however you may not edit, distribute or copy this package in any way.

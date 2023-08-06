@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Hyralix.egg-info/PKG-INFO
+Hyralix.egg-info/SOURCES.txt
+Hyralix.egg-info/dependency_links.txt
+Hyralix.egg-info/top_level.txt

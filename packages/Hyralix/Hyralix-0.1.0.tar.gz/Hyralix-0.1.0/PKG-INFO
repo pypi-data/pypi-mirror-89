@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Hyralix
+Version: 0.1.0
+Summary: Hyralix is a basic text formatter for Python.
+Home-page: UNKNOWN
+Author: Oliwier Sporny
+Author-email: info.paradoxentertainment@gmail.com
+License: Proprietary
+Description: Hyralix is a basic text formatter for Python.
+Keywords: text,formatting,python,color,colour,proprietary,hyralix
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3

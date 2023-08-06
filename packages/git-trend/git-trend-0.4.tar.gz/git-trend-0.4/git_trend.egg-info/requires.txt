@@ -1,0 +1,3 @@
+termcolor
+beautifulsoup4
+requests

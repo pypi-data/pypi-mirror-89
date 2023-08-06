@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ComicConverter
+Version: 0.1.1
+Summary: Daye Kang's implementation for converting JupyterLab notebooks into a data comic for CHI 2021
+Home-page: https://github.com/tho121/ComicConverter
+Author: tho121
+License: BSD-3-Clause
+Description: # ComicConverter
+        
+        ![Github Actions Status](https://github.com/tho121/ComicConverter/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tho121/ComicConverter/master?urlpath=lab)
+        
+        Daye Kang's implementation for converting JupyterLab notebooks into a data comic for CHI 2021
+        
+        
+        
+        ## Requirements
+        
+        * JupyterLab >= 3.0
+        
+        ## Install
+        
+        ```bash
+        pip install ComicConverter
+        ```
+        
+        ### Uninstall
+        
+        ```bash
+        pip uninstall ComicConverter
+        ```
+        
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

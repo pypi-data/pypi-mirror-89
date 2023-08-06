@@ -1,0 +1,13 @@
+README.md
+setup.py
+gwaxion/__init__.py
+gwaxion/evolve.py
+gwaxion/leavers.py
+gwaxion/parallel.py
+gwaxion/physics.py
+gwaxion/utilities.py
+gwaxion_maxisi.egg-info/PKG-INFO
+gwaxion_maxisi.egg-info/SOURCES.txt
+gwaxion_maxisi.egg-info/dependency_links.txt
+gwaxion_maxisi.egg-info/requires.txt
+gwaxion_maxisi.egg-info/top_level.txt

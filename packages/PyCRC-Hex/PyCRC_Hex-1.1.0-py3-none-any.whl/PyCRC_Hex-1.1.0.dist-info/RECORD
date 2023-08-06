@@ -1,0 +1,11 @@
+PyCRC/__init__.py,sha256=L96jD6-l-jxvujQ2fQ9XRRhZ23T3SYD0dmnxQ7FCsdE,741
+PyCRC/bcc.py,sha256=WO5iSSbc_Ensoloj2Rhu3OVmkYWSesL1KcgSxJ4V2kc,732
+PyCRC/crc.py,sha256=vFO1I3Nj7v5IiG15MXbF7gop8LcscEzmSQP0iQMmjs0,17511
+PyCRC/lrc.py,sha256=wEoNcji0YioNlOcee6Xp7qHEFL47aIN7IR1Pfhx5-lc,692
+test/__init__.py,sha256=0DgH2N3s8Hb6Yl9hIf8bYASPRySyiqH3XQ58ieV3x1M,117
+test/aa.py,sha256=QZTYL42pkh26DPWRVgkiaFYtLMN8_D_kZeMR5NMiS-k,301
+PyCRC_Hex-1.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+PyCRC_Hex-1.1.0.dist-info/METADATA,sha256=eqTjxl_oFNcoZpm6rdFYXok__94SAO8fBV7Lhy9GGQY,264
+PyCRC_Hex-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyCRC_Hex-1.1.0.dist-info/top_level.txt,sha256=az8NpZg4sR47AEzMbmbm_7qJYCzWzEHFBLsl77VzzjY,11
+PyCRC_Hex-1.1.0.dist-info/RECORD,,

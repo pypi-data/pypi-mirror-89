@@ -1,0 +1,11 @@
+monomer/__init__.py,sha256=Pw-HZD9ou-_AuhYLU7vRnl6Mz82Irgs2kGNg6pz1i2g,2376
+monomer/__version__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+monomer/column.py,sha256=Qo6HvVwb-wmDvOEINEhaFlGXIPpR90Eoa3GnF_l2o3A,1064
+monomer/compat.py,sha256=xPuviKlAiXJJ3uj3TG5AQVnETREpG6kJQMh6CUK-BTI,655
+monomer/typemap.py,sha256=yTSZY-2yULdkbQfQB0xcznfL0Ujd0WMmf-8BwfZEyxs,892
+monomer/util.py,sha256=taCn4ATP1Nch1rSfuPcLGjkpiwcy2JhXkJoV-jFXKhw,361
+monomer-0.0.5.dist-info/LICENSE,sha256=nry0rjLijNpbXxQjvKbVgHF74x3Mkyy0k1exnBueKo0,1069
+monomer-0.0.5.dist-info/METADATA,sha256=-cIlHTrgXG4-b89dyMQ1uUAFqpssmoVaFD3u3SQfnqg,1712
+monomer-0.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+monomer-0.0.5.dist-info/top_level.txt,sha256=sjHx2L9_oGb-P5V9U8MDW9mLlRnuHAnMmURJjliR89w,8
+monomer-0.0.5.dist-info/RECORD,,

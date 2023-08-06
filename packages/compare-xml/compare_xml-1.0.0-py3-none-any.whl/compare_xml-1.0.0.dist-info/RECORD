@@ -1,0 +1,13 @@
+compare_xml/CHANGELOG.md,sha256=r__UX_9DVE0kME90cUAVg1eadl26lZJ2d1RwnimXY2A,77
+compare_xml/CONTRIBUTORS.md,sha256=Kz7WQ2j4yFXnepbmb-2b3XpE3TzFvB-BgSTzeiIK-sg,158
+compare_xml/Comparator.py,sha256=fKAVQHFnIcDeE2pnBIU9r1LEgOtrKy362VkAZ1ODqbQ,3107
+compare_xml/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+compare_xml/README.md,sha256=TBfJuoICIGHiaZvk2r383PfuAkK_8t2tYLPpdDjFnlo,1077
+compare_xml/__init__.py,sha256=44hnANw44_M9-4XB0jDt8DGqR342GFfPdn7oHO7vM8U,1020
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_comperator.py,sha256=B8JHzHIzFrlP99ichu35qpZg8kRKpYVHYNGtbo2Xg_8,2218
+compare_xml-1.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+compare_xml-1.0.0.dist-info/METADATA,sha256=aB6bjy4gAbNCzhIPm_sqKxrg_6YCFRHO310_ROtuLRE,1761
+compare_xml-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compare_xml-1.0.0.dist-info/top_level.txt,sha256=kMlX0htk8bigAiDjWYMaO59XqiFC8ZAnHBswS_WluyQ,18
+compare_xml-1.0.0.dist-info/RECORD,,

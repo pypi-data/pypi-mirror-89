@@ -1,0 +1,14 @@
+astropy~=4.1
+emcee~=3.0
+h5py~=3.1
+numba~=0.52
+numpy~=1.19
+opencv-python~=4.4
+photutils~=1.0
+PyWavelets~=1.1
+scikit-image~=0.17
+scikit-learn~=0.23
+scipy~=1.5
+statsmodels~=0.12
+tqdm~=4.54
+typeguard~=2.10

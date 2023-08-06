@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyteleprint.egg-info/PKG-INFO
+pyteleprint.egg-info/SOURCES.txt
+pyteleprint.egg-info/dependency_links.txt
+pyteleprint.egg-info/top_level.txt

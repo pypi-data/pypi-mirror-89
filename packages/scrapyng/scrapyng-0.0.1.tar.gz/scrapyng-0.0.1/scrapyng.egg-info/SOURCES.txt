@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+scrapyng/__init__.py
+scrapyng/fb.py
+scrapyng/tables.py
+scrapyng/util.py
+scrapyng/yboss.py
+scrapyng.egg-info/PKG-INFO
+scrapyng.egg-info/SOURCES.txt
+scrapyng.egg-info/dependency_links.txt
+scrapyng.egg-info/not-zip-safe
+scrapyng.egg-info/top_level.txt
+scrapyng/misc/__init__.py
+scrapyng/misc/amazon.py

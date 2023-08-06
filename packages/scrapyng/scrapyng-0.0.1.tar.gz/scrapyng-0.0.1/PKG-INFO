@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scrapyng
+Version: 0.0.1
+Summary: Web scraping utils
+Home-page: https://github.com/thorwhalen/ut/tree/master/scrapyng
+Author: Thor Whalen
+License: mit
+Description: 
+        # scrapyng
+        Web scraping utils
+        
+        
+        To install:	```pip install scrapyng```
+        
+Platform: any
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+glacier_rsync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glacier_rsync/__main__.py,sha256=WuUBVdpeDH66Pr1YX5ysy7eoq2UesZWqewGJhdvGqdQ,1101
+glacier_rsync/argparser.py,sha256=tPOGVxM3lzfl4tKT4CBMFIDOuGeCHKrztgfZARXakV4,1669
+glacier_rsync/backup_util.py,sha256=v3d0I9ZAUN49ISnRqxCfJTfsFK0NAfBxVQWiNbo0v8o,7783
+glacier_rsync/file_cache.py,sha256=HYPoReInTWUjoeBHAlV6hEMXT1EKeM5qb5LB5J5A_yc,920
+glacier_rsync/release.py,sha256=snJxJpwiPJe6cPv4idDkwuskE-MSt5MKd_03pSWcN8A,22
+glacier_rsync-0.3.5.dist-info/COPYING,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+glacier_rsync-0.3.5.dist-info/METADATA,sha256=OU0hmO6rY0pSBuzqO5SsRTj5kF5Cig-wKuze4LROe_c,2636
+glacier_rsync-0.3.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+glacier_rsync-0.3.5.dist-info/entry_points.txt,sha256=rKmPEV5JOMlrc3C7GLOeHLQOpAIY2NdySCrzmefJKC0,56
+glacier_rsync-0.3.5.dist-info/top_level.txt,sha256=cYJ9vpdhSuAtEeTxZPoOPTygJg7ow47jlV_P8PkWZSM,14
+glacier_rsync-0.3.5.dist-info/RECORD,,

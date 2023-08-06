@@ -1,0 +1,4 @@
+[console_scripts]
+csvwrangle = csvwrangle.cli:main
+cwr = csvwrangle.cli:main
+

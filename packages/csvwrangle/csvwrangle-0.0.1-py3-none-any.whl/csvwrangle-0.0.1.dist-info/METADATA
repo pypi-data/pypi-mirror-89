@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: csvwrangle
+Version: 0.0.1
+Summary: Wrangle CSV data with pandas from the command-line
+Home-page: https://github.com/dannguyen/csvwrangle
+Author: Dan Nguyen
+Author-email: dansonguyen@gmail.com
+License: MIT license
+Keywords: csvwrangle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Requires-Dist: Click (>=7.0)
+Requires-Dist: pandas (>=1.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: tox (>=3.14) ; extra == 'dev'
+Requires-Dist: twine (>=3) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Requires-Dist: vega-datasets ; extra == 'docs'
+Requires-Dist: watchdog ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage (>=5) ; extra == 'tests'
+Requires-Dist: pytest (>=5) ; extra == 'tests'
+
+==========
+csvwrangle
+==========
+
+Wrangle data from the command-line with pandas
+
+
+
+Meta info
+=========
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+
+Dev instructions
+----------------
+
+To install on your own machine for development::
+
+    $ make install
+
+Note: setup.py/requirements.txt is not correctly set up yet...
+
+
+(note to self) To publish on pypi::
+
+    $ make release
+
+

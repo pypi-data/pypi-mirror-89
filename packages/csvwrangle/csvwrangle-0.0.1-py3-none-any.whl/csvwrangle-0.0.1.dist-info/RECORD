@@ -1,0 +1,9 @@
+csvwrangle/__init__.py,sha256=2NNG1KyNoden-gTLhwqaeru-GOEX1zFteAKExM4VltA,136
+csvwrangle/cli.py,sha256=uMwqze39Y1op9m8ijsA6KHmK4f7s9MbjBUxSb6MXwVM,2748
+csvwrangle/frame.py,sha256=V6C2z2Syo1kKyBuF9Qrjt9PydJLydmHNCZ2aIlgslkw,2683
+csvwrangle/utils/sysio.py,sha256=Z4PEI5g59ydGa_rGo8JpzQHZbABz_QmKAeeY8PeO3ew,1144
+csvwrangle-0.0.1.dist-info/METADATA,sha256=hSSu2KEcfZpD_pNUeuYURksYvmJSaku7xPiuE8xbvBU,2401
+csvwrangle-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+csvwrangle-0.0.1.dist-info/entry_points.txt,sha256=BVptOePTJ7dKiYMRYUg_dML4MElhASMKhR5jEoyGQik,78
+csvwrangle-0.0.1.dist-info/top_level.txt,sha256=FYSazvY76uEjoXu-AksZwjyGyXzOynATWvaPx87tmpk,11
+csvwrangle-0.0.1.dist-info/RECORD,,

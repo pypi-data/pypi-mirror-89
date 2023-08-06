@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydob/__init__.py
+pydob/table.py
+pydob.egg-info/PKG-INFO
+pydob.egg-info/SOURCES.txt
+pydob.egg-info/dependency_links.txt
+pydob.egg-info/top_level.txt

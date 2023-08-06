@@ -1,0 +1,3 @@
+pkgconfig==1.5.1
+Cython==0.29.21
+numpy

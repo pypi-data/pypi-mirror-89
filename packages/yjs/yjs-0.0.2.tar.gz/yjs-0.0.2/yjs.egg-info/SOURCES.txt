@@ -1,0 +1,8 @@
+setup.py
+yjs/__init__.py
+yjs.egg-info/PKG-INFO
+yjs.egg-info/SOURCES.txt
+yjs.egg-info/dependency_links.txt
+yjs.egg-info/entry_points.txt
+yjs.egg-info/requires.txt
+yjs.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Change Log
+--------------------
+
+0.0.2 (12/26/2020)
+
+-> Added shorter names for our commands. For example we made:
+-- "sub" Short version of subtract
+-- "mul" Short version of multiply
+-- "div" Short version of divide
+-- "pow" Short version of power
+
+-> Fixed so you only can calculate decimal or integer numbers.

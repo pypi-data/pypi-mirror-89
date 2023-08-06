@@ -1,0 +1,6 @@
+setuptools
+pyaml
+requests
+cerberus>=1.3.2
+pillow>=8.0.1
+pytz>=pytz==2020.4

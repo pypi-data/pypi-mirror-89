@@ -1,0 +1,12 @@
+xurls/__init__.py,sha256=Gr3tUqgqi0M2O7uss5Efjz1Xikzju2-TE_dDdtXa6AM,165
+xurls/express.py,sha256=hOo7qo-BlQIWQMiMRJWa-ViqgdiRZXfeMlZBoshc3z8,2836
+xurls/schemes.py,sha256=Ce5LbAPtjdhm38iGCOb05gM5yzQPXqEmEGtEaZJfMSI,6205
+xurls/tlds.py,sha256=nH7Lpl14U-o8qhVRQ01n1EcRpgRUPuAKwuLBkkb7QHs,20697
+xurls/tlds_pseudo.py,sha256=en7VY2sl11433mtR1HvKuBGhBDOD2R_LN1FDgB-gOEg,856
+xurls/unicode.py,sha256=svtl3eEnY7DSyqY1aNc_vNYjQpxRQsemAytxTmlDVc4,2086
+xurls/xurls.py,sha256=fwKc6SlkPDR8ApuEGx6Bmn_IsP7ZZRGqnBHYF-MZxcc,851
+pyxurls-0.1.1.dist-info/LICENSE,sha256=XU_uWAXiGfB2isYoTUvnghcqX-ry4xErbjcHOizeFws,1518
+pyxurls-0.1.1.dist-info/METADATA,sha256=8bEHFUovkN1RL773mnjdWRJ_SOlh99c3-pxTA84hRL4,2711
+pyxurls-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyxurls-0.1.1.dist-info/top_level.txt,sha256=UzsPCuv8yLNvL8dE391CYowZ-cFRgTCTno3ETYWh_f8,6
+pyxurls-0.1.1.dist-info/RECORD,,

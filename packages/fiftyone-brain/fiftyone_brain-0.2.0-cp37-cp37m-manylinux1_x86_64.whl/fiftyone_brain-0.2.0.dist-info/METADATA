@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fiftyone-brain
+Version: 0.2.0
+Summary: FiftyOne Brain
+Home-page: https://github.com/voxel51/fiftyone-brain
+Author: Voxel51, Inc.
+Author-email: info@voxel51.com
+License: Freeware (Custom)
+Platform: UNKNOWN
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy (>=1.2.0)
+Requires-Dist: scikit-learn
+
+# FiftyOne Brain
+
+The proprietary brains behind [FiftyOne](https://github.com/voxel51/fiftyone).
+
+<img src="https://user-images.githubusercontent.com/3719547/74191434-8fe4f500-4c21-11ea-8d73-555edfce0854.png" alt="voxel51-logo.png" width="40%"/>
+
+

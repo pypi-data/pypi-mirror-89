@@ -1,0 +1,11 @@
+CONTRIBUTING.md
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+NanoASGI.egg-info/PKG-INFO
+NanoASGI.egg-info/SOURCES.txt
+NanoASGI.egg-info/dependency_links.txt
+NanoASGI.egg-info/top_level.txt
+tests/__init__.py
+tests/test_implementation.py

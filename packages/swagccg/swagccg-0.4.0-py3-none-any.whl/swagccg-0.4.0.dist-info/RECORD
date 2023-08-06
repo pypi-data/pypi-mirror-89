@@ -1,0 +1,13 @@
+swagccg/__init__.py,sha256=c7l1v33L0qw7lk53XRzTB3KWCTbnJI8NnPQgDSCktOE,667
+swagccg/__main__.py,sha256=_9xvi4IZOQkdOATL7vDDsHyxSg2gChH-FmbLkhvWFMs,311
+swagccg/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swagccg/example/__init__.py,sha256=FwIXjSmt7_aAP4gpJRqR9x9fJ7ewQAzGSce75LSLl_Y,14
+swagccg/example/auto_client.py,sha256=PD592rBDbSp0n824btJva6Sxh5ANvqKAe5tWBOytoF4,9840
+swagccg/src/__init__.py,sha256=3XrPzOQ5KmWe2nZn5N7aiNlAAVdvYqKOiisg-nLF8iM,307
+swagccg/src/client_template.py,sha256=X2P0LqmnaZ7d_1f8Hrjc0YPF3F4gvtabPXrtATADskI,11102
+swagccg/src/make_client.py,sha256=VwSnMsmPUg-c9eZSsNY_7K3JFh-1y8iKJPaa14N38Gc,7073
+swagccg-0.4.0.dist-info/LICENSE,sha256=ReWPt83Ns2KUJK39hAtl6CzIeda_ZA0823LdjfVaoqw,1528
+swagccg-0.4.0.dist-info/METADATA,sha256=jgNXhEIkEV9zs-1WUl748eGTG-_lf3QflooRapa7cyQ,6227
+swagccg-0.4.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+swagccg-0.4.0.dist-info/top_level.txt,sha256=WWWJfXDe1a8d7edXCg7yEDyjP7ur0XeOnV3h2e6_xXY,8
+swagccg-0.4.0.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dudb/__init__.py
+dudb/index.py
+dudb.py.egg-info/PKG-INFO
+dudb.py.egg-info/SOURCES.txt
+dudb.py.egg-info/dependency_links.txt
+dudb.py.egg-info/requires.txt
+dudb.py.egg-info/top_level.txt

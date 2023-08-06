@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+py_rbac.egg-info/PKG-INFO
+py_rbac.egg-info/SOURCES.txt
+py_rbac.egg-info/dependency_links.txt
+py_rbac.egg-info/top_level.txt
+rbac/__init__.py

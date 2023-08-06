@@ -1,0 +1,3 @@
+[console_scripts]
+braindead=brena.cli:cli
+

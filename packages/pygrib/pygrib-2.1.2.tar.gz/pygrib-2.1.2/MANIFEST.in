@@ -1,0 +1,18 @@
+include MANIFEST.in
+include LICENSE
+include pyproject.toml
+include setup.py
+include test.py
+include README.md
+include pygrib/__init__.py
+include pygrib/_pygrib.pyx
+include utils/*grib*
+recursive-include docs *
+include sampledata/*.grb
+include sampledata/*.grb2
+include sampledata/*.grib*
+include sampledata/*.bin
+include test/README
+include test/*py
+include test/baseline_images/*png
+include man/*.1

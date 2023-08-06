@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: predictr
+Version: 0.1.1
+Summary: Weibull Analysis Utilities
+Home-page: https://github.com/tvtoglu/predictr
+Author: Tamer Tevetoglu
+Author-email: tamer.tevetoglu@ima.uni-stuttgart.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.0)
+Requires-Dist: scipy (>=1.3.0)
+Requires-Dist: pandas (>=1.0.0)
+
+UNKNOWN
+
+

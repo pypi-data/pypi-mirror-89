@@ -1,0 +1,7 @@
+README.md
+setup.py
+eventtracer/__init__.py
+eventtracer_py.egg-info/PKG-INFO
+eventtracer_py.egg-info/SOURCES.txt
+eventtracer_py.egg-info/dependency_links.txt
+eventtracer_py.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+channels<3.0.0,>=2.0
+channels_redis
+bs4
+
+[lxml]
+lxml
+cssselect

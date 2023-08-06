@@ -1,0 +1,5 @@
+Django<3.1,>=1.11
+django-commonstuff>=0.9
+pytz>=2020.1
+Pillow>=4.3.0
+pywebpush>=1.9.3

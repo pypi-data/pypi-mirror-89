@@ -1,0 +1,17 @@
+fast_microservice/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+fast_microservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_microservice/application.py,sha256=ix3c_lU-yDQ_rp2joLC2QjaF9S3npkho6TdVJXpukKY,1097
+fast_microservice/helpers.py,sha256=KdK4AAFeiqyAon_eRXszBQQ5tt10kBLdis4YGEao49Q,522
+fast_microservice/main.py,sha256=Urfe2c-yCNuv4jk1y5V1HBBfiFTt_ASG7mnB_y-Zxx8,194
+fast_microservice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_microservice/routers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_microservice/routers/error.py,sha256=BJwq0PdSKqYn3BhWLEN1jTfkB0br0QAq8ZTqXSV8ik4,297
+fast_microservice/routers/heartbeat.py,sha256=HJJGFB4gt3CHCw0-T3je7ybvHo17UjsTvZGu99f2B_Y,379
+fast_microservice/routers/versions.py,sha256=mYroe580zmx5vhMBHe1yxskOEsLRKxwMl39zpgxoIE4,424
+fast_microservice/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_microservice/settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_microservice/settings/globals.py,sha256=3Gv9jP1qT4Wz2DvptV9G7a0Aa3HgcetdQU0RV4mfUtk,1358
+fast_microservice-0.1.0rc4.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+fast_microservice-0.1.0rc4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+fast_microservice-0.1.0rc4.dist-info/METADATA,sha256=Crky-IBXg4YAp_VggeAPr-1KfsZlIffNtmUM3lGp7p0,2928
+fast_microservice-0.1.0rc4.dist-info/RECORD,,

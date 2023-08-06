@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: fast-microservice
+Version: 0.1.0rc4
+Summary: Small Microservice based on FastAPI
+Home-page: https://github.com/jberends/fast-microservice
+License: Apache 2.0
+Author: Jochem Berends
+Author-email: jberends@jbits.nl
+Requires-Python: >=3.6.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: PyYAML (>=5.3.1,<6.0.0)
+Requires-Dist: fastapi (>=0.63.0,<0.64.0)
+Requires-Dist: pydantic (>=1.7.3,<2.0.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
+Requires-Dist: sentry-sdk (>=0.19.5,<0.20.0)
+Requires-Dist: ujson (>=4.0.1,<5.0.0)
+Requires-Dist: uvicorn (>=0.13.2,<0.14.0)
+Project-URL: Documentation, https://github.com/jberends/fast-microservice/blob/master/README.md
+Project-URL: Repository, https://github.com/jberends/fast-microservice
+Description-Content-Type: text/markdown
+
+# fast-microservice
+
+![PyPI](https://img.shields.io/pypi/v/fast-microservice?style=flat-square)
+![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/jberends/fast-microservice/Test%20&%20Lint/master?style=flat-square)
+![Coveralls github branch](https://img.shields.io/coveralls/github/jberends/fast-microservice/master?style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fast-microservice?style=flat-square)
+![PyPI - License](https://img.shields.io/pypi/l/fast-microservice?style=flat-square)
+
+Small Microservice Abased on FastAPI
+
+## Requirements
+
+* Python 3.6.1 or newer
+
+## Installation
+
+```sh
+pip install fast-microservice
+```
+
+## Development
+
+This project uses [poetry](https://poetry.eustace.io/) for packaging and
+managing all dependencies and [pre-commit](https://pre-commit.com/) to run
+[flake8](http://flake8.pycqa.org/), [isort](https://pycqa.github.io/isort/),
+[mypy](http://mypy-lang.org/) and [black](https://github.com/python/black).
+
+Clone this repository and run
+
+```bash
+poetry install
+poetry run pre-commit install
+```
+
+to create a virtual enviroment containing all dependencies.
+Afterwards, You can run the test suite using
+
+```bash
+poetry run pytest
+```
+
+This repository follows the [Conventional Commits](https://www.conventionalcommits.org/)
+style.
+

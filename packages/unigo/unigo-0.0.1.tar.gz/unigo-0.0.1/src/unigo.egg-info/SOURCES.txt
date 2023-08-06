@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/unigo/__init__.py
+src/unigo/stat_utils.py
+src/unigo/tree.py
+src/unigo.egg-info/PKG-INFO
+src/unigo.egg-info/SOURCES.txt
+src/unigo.egg-info/dependency_links.txt
+src/unigo.egg-info/requires.txt
+src/unigo.egg-info/top_level.txt
+src/unigo/data/go.owl

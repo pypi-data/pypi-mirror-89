@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tautulli
+Version: 1.0.0
+Summary: A complete Python client for Tautulli's API
+Home-page: https://github.com/nwithan8/pytulli
+Author: Nate Harris
+Author-email: n8gr8gbln@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/nwithan8/pytulli/archive/1.0.0.tar.gz
+Description: # Python client for Tautulli API
+        Interact with Tautulli's API in Python
+        
+        # Installation
+        From PyPi: ``python -m pip install tautulli``
+        
+        From GitHub ``python -m pip install git+https://github.com/nwithan8/pytulli.git``
+        
+        # Usage
+        This client covers nearly 100% of all Tautulli's available API calls, including type checks and enforcing required variables.
+        
+        More details about Tautulli's API can be found on the [Tautulli's GitHub wiki page](https://github.com/Tautulli/Tautulli-Wiki/wiki/Tautulli-API-Reference).
+        
+        Most API call functions that return data return raw JSON data. Some return strings or file contents (in the case of downloads).
+        
+        API calls functions that do not return data return `True`/`False` booleans to confirm that the API call was successful.
+        
+        Import the ``tautulli`` package as initialize the API
+        Example:
+        ```python
+        from tautulli import tautulli
+        
+        api = tautulli.API(base_url="http://myipaddress:port", api_key="thisisanapikey")
+        ```
+        
+        You can optionally pass ``verbose=True`` into the API declaration to produce verbose debugging logs and error messages.
+        
+        # Documentation
+        
+        Documentation available on [ReadTheDocs](https://pytulli.readthedocs.io/en/latest/documentation.html)
+Keywords: Tautulli,API,client,Plex,PMS,Plex Media Server,media,server,JSON
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

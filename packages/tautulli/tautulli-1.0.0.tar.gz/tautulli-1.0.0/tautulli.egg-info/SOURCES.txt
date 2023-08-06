@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+tautulli/__init__.py
+tautulli/_info.py
+tautulli/classes.py
+tautulli/decorators.py
+tautulli/static.py
+tautulli/tautulli.py
+tautulli/utils.py
+tautulli.egg-info/PKG-INFO
+tautulli.egg-info/SOURCES.txt
+tautulli.egg-info/dependency_links.txt
+tautulli.egg-info/requires.txt
+tautulli.egg-info/top_level.txt

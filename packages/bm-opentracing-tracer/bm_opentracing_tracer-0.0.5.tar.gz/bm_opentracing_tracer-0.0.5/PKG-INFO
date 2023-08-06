@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bm_opentracing_tracer
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/beyondminds/bm-opentracing
+Author: Vadim Geshiktor
+Author-email: vadim.geshiktor@beyoundminds.ai
+License: UNKNOWN
+Description: # Opentracing tracers
+        Jaeger tracer instrumentation implemented
+        
+        # GitHub url: https://github.com/beyondminds/bm-opentracing
+        
+        # Usage:
+        
+        ```Python
+        from bm_opentracing_tracer.bm_jaeger_tracer import trace
+        @trace(service_name, log_level)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

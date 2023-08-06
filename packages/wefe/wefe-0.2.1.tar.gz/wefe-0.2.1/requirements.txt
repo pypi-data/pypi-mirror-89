@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+pandas
+gensim>=3.8.3
+plotly
+semantic_version

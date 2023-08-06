@@ -1,0 +1,118 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# vim: set ts=4
+#
+# Copyright 2020-present Linaro Limited
+#
+# Author: Rémi Duraffort <remi.duraffort@linaro.org>
+#
+# SPDX-License-Identifier: MIT
+
+import argparse
+import fnmatch
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
+from zipfile import ZipFile, ZipInfo, ZIP_LZMA
+
+
+SKIP = ["*.swp", "*/__pycache__/*"]
+BASE = Path(".").resolve()
+
+
+##########
+# Helper #
+##########
+def append(archive, path, base=BASE):
+    if path.is_dir():
+        path = sorted(path.rglob("*"))
+    elif p.is_file():
+        path = [path]
+    else:
+        assert 0
+
+    prefix = "|"
+    for (index, p) in enumerate(path):
+        if index == len(path) - 1:
+            prefix = "-"
+        if not p.is_file():
+            print(f" {prefix} SKIP {p}")
+            continue
+        if any([fnmatch.fnmatch(p, skip) for skip in SKIP]):
+            print(f" {prefix} EXC  {p}")
+            continue
+        relative = p.relative_to(base)
+        print(f" {prefix} ADD  {relative}")
+        info = ZipInfo(filename=str(relative))
+        archive.writestr(info, p.read_bytes())
+
+
+##########
+# Setups #
+##########
+def setup_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="lambpy")
+    parser.add_argument(
+        "-r",
+        "--requirements",
+        type=Path,
+        action="append",
+        default=[],
+        help="requirements.txt file",
+    )
+    parser.add_argument(
+        "-i",
+        "--include",
+        type=Path,
+        action="append",
+        default=[],
+        help="include in the archive",
+    )
+    return parser
+
+
+##############
+# Entrypoint #
+##############
+def main() -> int:
+    parser = setup_parser()
+    options = parser.parse_args()
+
+    if not options.include and not options.requirements:
+        parser.print_help()
+        return 1
+
+    with ZipFile("lambda.zip", mode="w", compression=ZIP_LZMA) as archive:
+        print("Include:")
+        for include in sorted(options.include):
+            print(f"=> {include}")
+            append(archive, include.resolve())
+
+        print("Requirements:")
+        for req in sorted(options.requirements):
+            tmpdir = tempfile.mkdtemp(prefix="lambpy-")
+            print(f"=> {req} in {tmpdir}")
+            try:
+                subprocess.run(
+                    [
+                        "python3",
+                        "-m",
+                        "pip",
+                        "install",
+                        "--upgrade",
+                        "-r",
+                        req,
+                        "--target",
+                        tmpdir,
+                    ]
+                )
+                append(archive, Path(tmpdir), Path(tmpdir))
+            finally:
+                shutil.rmtree(tmpdir)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

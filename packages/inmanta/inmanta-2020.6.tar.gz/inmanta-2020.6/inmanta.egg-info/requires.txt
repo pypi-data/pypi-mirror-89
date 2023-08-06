@@ -1,0 +1,1 @@
+inmanta-core==4.0.0

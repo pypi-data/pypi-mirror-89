@@ -1,0 +1,9 @@
+README.md
+setup.py
+chessAnalyzer/__init__.py
+chessAnalyzer/chess_graph.py
+chessAnalyzer/main.py
+chessAnalyzer.egg-info/PKG-INFO
+chessAnalyzer.egg-info/SOURCES.txt
+chessAnalyzer.egg-info/dependency_links.txt
+chessAnalyzer.egg-info/top_level.txt

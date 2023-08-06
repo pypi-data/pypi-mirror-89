@@ -1,0 +1,1 @@
+from congressbr.congressbr import Laws, Law

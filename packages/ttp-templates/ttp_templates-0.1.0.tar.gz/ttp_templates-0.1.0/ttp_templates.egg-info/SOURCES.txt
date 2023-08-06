@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+test/test_ttp_templates_methods.py
+test/test_yang_ietf_interfaces.py
+ttp_templates/__init__.py
+ttp_templates/ttp_templates.py
+ttp_templates.egg-info/PKG-INFO
+ttp_templates.egg-info/SOURCES.txt
+ttp_templates.egg-info/dependency_links.txt
+ttp_templates.egg-info/top_level.txt

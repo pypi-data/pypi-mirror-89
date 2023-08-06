@@ -1,0 +1,14 @@
+ophac/__init__.py,sha256=FMr9rYnLOHwtZCigBMRooVTUjBb6z8-gxYOP0WqUAjE,1452
+ophac/args.py,sha256=OPT285Afx5UHg17C1E1AzB011j-EIcnULO7sVlPE1OI,5927
+ophac/dendrogram.py,sha256=roV4Mw1YackIsHHuNBZglZ9Y9S72_cRNfYbN7rBbmpE,3384
+ophac/dtypes.py,sha256=LnT7_QEybsX__4rxyT17utyFs5b3Q8rDmh3-uDmUUp8,20031
+ophac/hac.py,sha256=aHGANtgmWU-Sa5lgSwu0fwb2w0C5ThnZ_GjCr73UJd4,7154
+ophac/hac_approx.py,sha256=UecZOLHTzSM3jHMK846i-TP860leb89uopEUQJWkBB4,5763
+ophac/hierarchy.py,sha256=d84pTKGBxUX1ix4Vdp1kBpQBmpMcJoOD2gq1Nqqk0lA,8681
+ophac/json_support.py,sha256=BTqtqJbYwF2rToGkHTIsRVB3pa6AAZUcPzqgiw3EpKA,3890
+ophac/rnd.py,sha256=8Vq0Caf59G0iJde2EINuTjBlWyCbn2ekCVeh7lL53BQ,6877
+ophac/ultrametric.py,sha256=OMTsdkxHBuPsfm3hNFoJy3ws6EPUKBwoV7NKe7zFD9w,4941
+ophac-0.3.0.dist-info/METADATA,sha256=JGiRnco0ZROzjLs_KL7mfqG6oSEM2UJog-gnwBNkmXk,4123
+ophac-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ophac-0.3.0.dist-info/top_level.txt,sha256=oogDK0bcRypweo_j2mHsVhZ_r1cRdpYqGf7iLwBCehg,6
+ophac-0.3.0.dist-info/RECORD,,

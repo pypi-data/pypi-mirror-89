@@ -1,0 +1,4 @@
+requests
+pymemcache
+pytz
+numpy

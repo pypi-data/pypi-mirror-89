@@ -1,0 +1,11 @@
+monitus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitus/middleware.py,sha256=SyPdy-s0N7gzmhnWp8HyEaouorEYk2qrfiLRKnADj3c,1765
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=j3TwXP7q49Ea-He7y7jFs4WziLb1K_W_bwU4PYeKokk,817
+tests/test_middleware.py,sha256=yIn0Cw_BXV9PO20RjjvYRldH-f41EluNqzS2PTrrY6w,2389
+tests/urls.py,sha256=-roQiQFAPrsHKMbGNEKz5RHTzC_0SY9HKx6fi_0yl2c,844
+django_monitus-0.0.6.dist-info/LICENSE,sha256=5KU2DC8XkYECKIk_B9rP98u2mS7gVP4z-5YEmPfPxrM,1076
+django_monitus-0.0.6.dist-info/METADATA,sha256=alasNy2-NvoDNiW8lCthT23zDocoQTyXObrkopSPq5I,2057
+django_monitus-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_monitus-0.0.6.dist-info/top_level.txt,sha256=phflNXaGBhtP4354dftriwpLc58uPj0Lq_7MJtbSqbM,14
+django_monitus-0.0.6.dist-info/RECORD,,

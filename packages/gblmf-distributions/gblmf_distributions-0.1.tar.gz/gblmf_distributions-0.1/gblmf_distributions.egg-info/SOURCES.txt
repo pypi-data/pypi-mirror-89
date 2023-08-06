@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gblmf_distributions/Binomialdistribution.py
+gblmf_distributions/Gaussiandistribution.py
+gblmf_distributions/Generaldistribution.py
+gblmf_distributions/__init__.py
+gblmf_distributions.egg-info/PKG-INFO
+gblmf_distributions.egg-info/SOURCES.txt
+gblmf_distributions.egg-info/dependency_links.txt
+gblmf_distributions.egg-info/not-zip-safe
+gblmf_distributions.egg-info/top_level.txt

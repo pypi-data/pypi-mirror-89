@@ -1,0 +1,9 @@
+tests/test_hello.py,sha256=OZ5GBUUruqG0MGAkc0x32QIcdZ84UMoqtoa9Gnpach0,199
+vic_pkg/__init__.py,sha256=OMsN3vh5UGvtE7PnyLp8ErxKe3-ZXJpOmBNYGRhf0qc,64
+vic_pkg/dev.ini,sha256=TeE4WjNBhS6fv94IAGqFTGZZAb2JVfpKjd8bQAybHcM,32
+vic_pkg/hello.py,sha256=39lXQM6chzYEGdxram6V0h62AqsFvf3AZj5wQYHybwg,128
+my_vic_009-1.0.dist-info/LICENSE,sha256=5U7w5VYA_SewJ0GS-N2bx498874EUMp5E9WoArDS_U0,13
+my_vic_009-1.0.dist-info/METADATA,sha256=7kA5nc1QH1n1O2wi1oRXKBGKUeJNID0FMBZi8sgxBUY,189
+my_vic_009-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+my_vic_009-1.0.dist-info/top_level.txt,sha256=kyo5tIXLxTZRrnzgb6pb9y6OYaL2K_wd3saqN6k42-k,14
+my_vic_009-1.0.dist-info/RECORD,,

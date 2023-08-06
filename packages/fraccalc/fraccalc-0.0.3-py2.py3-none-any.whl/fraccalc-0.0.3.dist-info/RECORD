@@ -1,0 +1,12 @@
+fraccalc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fraccalc/basic.py,sha256=T0ccxbTaajtJcocoyllGT0uz1qFNabITjvcPrn-DNLM,1111
+fraccalc/analytic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fraccalc/analytic/functions.py,sha256=mdU5UZ2td7ppa31UG4jowlMKhYSflfgA4JRa2tTVKCg,2111
+fraccalc/analytic/semi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fraccalc/numeric/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fraccalc/numeric/diffintegral.py,sha256=kd8NofrPQ5dsZhBdcHI7NejNjIc1J3udYZ8RDAvKvHc,6621
+fraccalc-0.0.3.dist-info/LICENSE.txt,sha256=3TgtZCu5iD0MTkwKb4ZPJNvuojNqiWsxgGCyjvxTjv4,1060
+fraccalc-0.0.3.dist-info/METADATA,sha256=ocUvEVFBoWDK4BK6ZJBlIjnR5VwZp0nRSh6JdL0nops,675
+fraccalc-0.0.3.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+fraccalc-0.0.3.dist-info/top_level.txt,sha256=4bwC5U0j64gy2g0sePOdnMO2PdEjeZKFrc7eFVFhAqI,9
+fraccalc-0.0.3.dist-info/RECORD,,

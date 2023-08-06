@@ -1,0 +1,16 @@
+invoicez/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invoicez/builder.py,sha256=NkAYkCVr2sY_OFiuj5yX5FB66TNYa7YE94EHpYSE_p0,5854
+invoicez/cli/__init__.py,sha256=KNht9hb_hwH3PDvaRNgXrEs8hC1CX6ag9hPC4gD8wnI,2306
+invoicez/cli/clean.py,sha256=WTbZoVuEiUdQNk8t8o7nVDuIc7FPBtpRq64GvSXXfvQ,535
+invoicez/cli/new.py,sha256=ZaVTpjnAZhP7FW9itnzq4To5XyKGg7mc5LNNDw5OOhI,1834
+invoicez/cli/run.py,sha256=iktcMNIOFDA9pqxyL5TEJln3kbXrwOAsc9rEkwI_Pnc,842
+invoicez/config.py,sha256=8-oc1buk_SG24soYkTOPwLJGo9nprCMHVtbwm1yY2SQ,288
+invoicez/exceptions.py,sha256=f08b7QaQ6b22wNfNXZ3OwKVOXytZ6am6E-xuANkJg9Y,139
+invoicez/paths.py,sha256=L-5IQJISU1ez5i7NAtLVq46r2khqZQRQkq8iQPUPyFQ,1222
+invoicez/runner.py,sha256=9IdoUMQHyiF_s27fs-r2JA99UQSEo1TaB9aAb_gZYy4,339
+invoicez/target.py,sha256=Ztsu6GA-m_MXLETS9eAlddSEZLPqB9A7zJkwDln2c7I,984
+invoicez-3.0.0.dist-info/entry_points.txt,sha256=RXZyHcPauBg_ZWXeBI3Xp8crTAXuJYKqAlrhW5jSQTk,45
+invoicez-3.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+invoicez-3.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+invoicez-3.0.0.dist-info/METADATA,sha256=ARuPcx1pBOVJ0aF_sbcxfRt9htWBhPF4UobcQjfq3Kg,3352
+invoicez-3.0.0.dist-info/RECORD,,

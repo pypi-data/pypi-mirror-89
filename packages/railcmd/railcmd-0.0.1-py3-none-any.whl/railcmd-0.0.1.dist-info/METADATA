@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: railcmd
+Version: 0.0.1
+Summary: Railroad Command Shell (Python 3 Port)
+Home-page: https://github.com/vanadinit/railcmd
+Author: Johannes Paul
+Author-email: vanadinit@quantentunnel.de
+License: GPL
+Keywords: SRCP,rcsh,model railroad,railroad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# railcmd
+Python 3 Port of Railroad Command Shell
+
+Find original source in [oldsrc/rcsh-1.1.py]
+
+

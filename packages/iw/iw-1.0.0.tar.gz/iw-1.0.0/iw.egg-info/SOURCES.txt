@@ -1,0 +1,8 @@
+README.md
+setup.py
+iw/__init__.py
+iw/__main__.py
+iw.egg-info/PKG-INFO
+iw.egg-info/SOURCES.txt
+iw.egg-info/dependency_links.txt
+iw.egg-info/top_level.txt

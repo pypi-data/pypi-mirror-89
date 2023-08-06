@@ -1,0 +1,3 @@
+pandas>=0.13
+cx-Oracle
+psycopg2-binary

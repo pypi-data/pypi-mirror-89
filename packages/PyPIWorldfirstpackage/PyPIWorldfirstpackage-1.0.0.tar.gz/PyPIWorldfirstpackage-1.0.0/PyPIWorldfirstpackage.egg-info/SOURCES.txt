@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PyPIWorldfirstpackage.egg-info/PKG-INFO
+PyPIWorldfirstpackage.egg-info/SOURCES.txt
+PyPIWorldfirstpackage.egg-info/dependency_links.txt
+PyPIWorldfirstpackage.egg-info/top_level.txt
+src/__init__.py
+src/emoji.py
+src/math.py

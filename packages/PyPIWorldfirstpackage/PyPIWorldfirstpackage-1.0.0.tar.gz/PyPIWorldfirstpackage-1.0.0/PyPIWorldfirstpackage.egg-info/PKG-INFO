@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyPIWorldfirstpackage
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Andrii Bessarab
+Author-email: andriibessarab@gmail.com
+License: UNKNOWN
+Description: # PyPI World Package
+          
+        > First package published using PyPI World
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

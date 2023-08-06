@@ -1,0 +1,1 @@
+from fssum import main

@@ -1,0 +1,16 @@
+README.md
+setup.py
+pygrad/__init__.py
+pygrad/core.py
+pygrad/data.py
+pygrad/exceptions.py
+pygrad/functions.py
+pygrad/utils.py
+pygrad.egg-info/PKG-INFO
+pygrad.egg-info/SOURCES.txt
+pygrad.egg-info/dependency_links.txt
+pygrad.egg-info/requires.txt
+pygrad.egg-info/top_level.txt
+pygrad/nn/__init__.py
+pygrad/nn/module.py
+pygrad/nn/optim.py

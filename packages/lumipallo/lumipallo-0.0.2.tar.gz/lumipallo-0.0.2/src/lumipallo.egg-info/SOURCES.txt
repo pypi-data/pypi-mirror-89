@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+src/lumipallo/__init__.py
+src/lumipallo/lumipallo.py
+src/lumipallo.egg-info/PKG-INFO
+src/lumipallo.egg-info/SOURCES.txt
+src/lumipallo.egg-info/dependency_links.txt
+src/lumipallo.egg-info/entry_points.txt
+src/lumipallo.egg-info/not-zip-safe
+src/lumipallo.egg-info/requires.txt
+src/lumipallo.egg-info/top_level.txt
+src/lumipallo/testdata/01_deu_eng_pairs.txt
+src/lumipallo/testdata/01_deu_sentences.txt
+src/lumipallo/testdata/01_eng_sentences.txt

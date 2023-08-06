@@ -1,0 +1,6 @@
+symcollab-algebra
+symcollab-unification
+symcollab-xor
+Flask>=1.1.1
+mypy>=0.740
+mypy-extensions>=0.4.0

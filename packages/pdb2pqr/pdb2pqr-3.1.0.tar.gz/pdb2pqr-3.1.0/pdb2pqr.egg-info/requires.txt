@@ -1,0 +1,4 @@
+propka>=3.2
+pandas>=1.0
+pytest>=5.4.1
+mmcif_pdbx>=1.1.2

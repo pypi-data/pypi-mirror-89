@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intelmqcli: Command Line Interface &#8212; intelmq 2.3.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Squelcher" href="squelcher.html" />
+    <link rel="prev" title="IntelMQ - n6 Integration" href="n6-integrations.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="intelmqcli-command-line-interface">
+<h1><code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>: Command Line Interface<a class="headerlink" href="#intelmqcli-command-line-interface" title="Permalink to this headline">¶</a></h1>
+<p>The cli tool fetches unhandled events from the events database and
+creates tickets in an RTIR instance to notify the abuse contacts of the
+AS.</p>
+<p>It is made for semi- and automatic usage. There are two programs:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">intelmqcli_create_reports</span></code>: it creates reports for all events to
+send, where no RTIR report exists. There is not interactivity
+available.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>: Creates the Incident and Investigation tickets. This
+program can be run interactively and automatically.</p></li>
+</ul>
+<p>Both programs share very similar paramaters. Look at their help pages
+for more information. Their configuration file is <code class="docutils literal notranslate"><span class="pre">intelmqcli.conf</span></code> in
+IntelMQ’s configration directory.</p>
+<p>intelmqcli iterates over all taxonomies and further over all abuse
+contacts. At the end it looks if there are “half processed” events where
+incidents exist, but no investigations.</p>
+<p>First, run <code class="docutils literal notranslate"><span class="pre">intelmqcli_create_reports</span></code>. It shows if Incident Reports
+have been created where necessary. Then, run <code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>, if not
+running in batch mode, we are asked if we want to create the
+investigations</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>====================================================================================================
+To: wagner+test@cert.at
+Subject: Vulnerable device incidents in your network: 2019-07-22
+
+foobar text is ma wurscht
+
+time.source;source.ip;protocol.transport;source.port;protocol.application;source.fqdn;source.local_hostname;source.local_ip;source.url;source.asn;source.geolocation.cc;source.geolocation.city;classification.taxonomy;classification.type;classification.identifier;destination.ip;destination.port;destination.fqdn;destination.url;feed;event_description.text;event_description.url;malware.name;extra;comment;additional_field_freetext;feed.documentation;version: 1.2
+2019-07-21T13:15:16+02;192.168.23.44;;;;;;;;64511;AT;;vulnerable;vulnerable service;openrdp;;;;;testfeed;;;;;;;;
+
+----------------------------------------------------------------------------------------------------
+[a]utomatic, [n]ext, [s]end, show [t]able, change [r]equestor or [q]uit?
+</pre></div>
+</div>
+<p>The data is hard to read in csv format, so we press <code class="docutils literal notranslate"><span class="pre">t</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span>a<span class="o">]</span>utomatic, <span class="o">[</span>n<span class="o">]</span>ext, <span class="o">[</span>s<span class="o">]</span>end, show <span class="o">[</span>t<span class="o">]</span>able, change <span class="o">[</span>r<span class="o">]</span>equestor or <span class="o">[</span>q<span class="o">]</span>uit? <span class="nv">t</span>
+<span class="o">====================================================================================================</span>
+To: wagner+test@cert.at
+Subject: Vulnerable device incidents in your network: <span class="m">2019</span>-07-22
+
+foobar text is ma wurscht
+
++------------------------+---------+----------+---------------+---------------+--------------+--------------+-------------------------+---------------------------+---------------+-------------------------+-------------------+-----------------------------+---------------------------+-----------------------+-----------+------------------+--------------------+--------------------+-------------------+--------------------------+-------------------------+---------+----------------------+----------------+------------------------+----------------------+
+<span class="p">|</span> time.source            <span class="p">|</span>      id <span class="p">|</span> feed     <span class="p">|</span> source.ip     <span class="p">|</span> source.port   <span class="p">|</span> source.url   <span class="p">|</span>   source.asn <span class="p">|</span> source.geolocation.cc   <span class="p">|</span> source.geolocation.city   <span class="p">|</span> source.fqdn   <span class="p">|</span> source.local_hostname   <span class="p">|</span> source.local_ip   <span class="p">|</span> classification.identifier   <span class="p">|</span> classification.taxonomy   <span class="p">|</span> classification.type   <span class="p">|</span> comment   <span class="p">|</span> destination.ip   <span class="p">|</span> destination.port   <span class="p">|</span> destination.fqdn   <span class="p">|</span> destination.url   <span class="p">|</span> event_description.text   <span class="p">|</span> event_description.url   <span class="p">|</span> extra   <span class="p">|</span> feed.documentation   <span class="p">|</span> malware.name   <span class="p">|</span> protocol.application   <span class="p">|</span> protocol.transport   <span class="p">|</span>
+<span class="p">|</span>------------------------+---------+----------+---------------+---------------+--------------+--------------+-------------------------+---------------------------+---------------+-------------------------+-------------------+-----------------------------+---------------------------+-----------------------+-----------+------------------+--------------------+--------------------+-------------------+--------------------------+-------------------------+---------+----------------------+----------------+------------------------+----------------------<span class="p">|</span>
+<span class="p">|</span> <span class="m">2019</span>-07-21T13:15:16+02 <span class="p">|</span> <span class="m">1309479</span> <span class="p">|</span> testfeed <span class="p">|</span> <span class="m">192</span>.168.23.44 <span class="p">|</span>               <span class="p">|</span>              <span class="p">|</span>        <span class="m">64511</span> <span class="p">|</span> AT                      <span class="p">|</span>                           <span class="p">|</span>               <span class="p">|</span>                         <span class="p">|</span>                   <span class="p">|</span> openrdp                     <span class="p">|</span> vulnerable                <span class="p">|</span> vulnerable service    <span class="p">|</span>           <span class="p">|</span>                  <span class="p">|</span>                    <span class="p">|</span>                    <span class="p">|</span>                   <span class="p">|</span>                          <span class="p">|</span>                         <span class="p">|</span>         <span class="p">|</span>                      <span class="p">|</span>                <span class="p">|</span>                        <span class="p">|</span>                      <span class="p">|</span>
++------------------------+---------+----------+---------------+---------------+--------------+--------------+-------------------------+---------------------------+---------------+-------------------------+-------------------+-----------------------------+---------------------------+-----------------------+-----------+------------------+--------------------+--------------------+-------------------+--------------------------+-------------------------+---------+----------------------+----------------+------------------------+----------------------+
+----------------------------------------------------------------------------------------------------
+<span class="o">[</span>a<span class="o">]</span>utomatic, <span class="o">[</span>n<span class="o">]</span>ext, <span class="o">[</span>s<span class="o">]</span>end, show <span class="o">[</span>t<span class="o">]</span>able, change <span class="o">[</span>r<span class="o">]</span>equestor or <span class="o">[</span>q<span class="o">]</span>uit?
+</pre></div>
+</div>
+<p>Much easier to read. This mail will be sent in csv format anyway.</p>
+<p>Change the requestor, the recipient of the report, by pressing <code class="docutils literal notranslate"><span class="pre">r</span></code>.</p>
+<p>Now we are ready to create the tickets and send the mail out by pressing
+<code class="docutils literal notranslate"><span class="pre">s</span></code></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Created Investigation <span class="m">50</span>.
+Linked events to investigation.
+Correspondence added to Investigation.
+Marked events as sent.
+</pre></div>
+</div>
+<p>If you changed the recipient, the program asks if the recipient should
+be saved to the database. An existing record will be updated or a new
+one will be added:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Save recipient <span class="s1">&#39;null@localhost&#39;</span> <span class="k">for</span> ASNs <span class="m">1206</span>? <span class="o">[</span>Y/n<span class="o">]</span>
+</pre></div>
+</div>
+<p>Press <code class="docutils literal notranslate"><span class="pre">a</span></code> to send everything coming afterwards.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/Logo_Intel_MQ.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=certtools&repo=intelmq&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrade.html">Upgrade instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration-management.html">Configuration and Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bots.html">Bots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelmqctl.html">intelmqctl documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feeds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ecosystem.html">IntelMQ Ecosystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ELK-Stack.html">ELK Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MISP-Integrations.html">MISP integrations in IntelMQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="n6-integrations.html">IntelMQ - n6 Integration</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>: Command Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="squelcher.html">Squelcher</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/guide.html">Developers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/data-harmonization.html">Data Harmonization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/harmonization-fields.html">Harmonization field names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/release-procedure.html">Release procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/feeds-wishlist.html">Feeds whishlist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/IntelMQ-3.0-Architecture.html">Idea list and architecture of IntelMQ 3.0</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="n6-integrations.html" title="previous chapter">IntelMQ - n6 Integration</a></li>
+      <li>Next: <a href="squelcher.html" title="next chapter">Squelcher</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, cert.at.
+      
+      |
+      <a href="../_sources/user/intelmqcli.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

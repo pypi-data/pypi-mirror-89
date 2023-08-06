@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squelcher &#8212; intelmq 2.3.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Developers Guide" href="../dev/guide.html" />
+    <link rel="prev" title="intelmqcli: Command Line Interface" href="intelmqcli.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="squelcher">
+<h1>Squelcher<a class="headerlink" href="#squelcher" title="Permalink to this headline">¶</a></h1>
+<p>The configuration defines a TTL based on matching fields. The bot looks
+in the event table if an event has been sent to the customer in the time
+frame defined by the TTL using the IP, classification type and
+classification identifier. If an event has been found, we set notify to
+false, otherwise to true. Only events with notify flag set to true are
+considered for the lookups.</p>
+<p>Edge cases: If no ASN is present, we ignore the event and set the flag
+to false. If no IP is present, but an FQDN , we always set the flag to
+true. if <code class="docutils literal notranslate"><span class="pre">extra._origin</span></code> equals <code class="docutils literal notranslate"><span class="pre">&quot;dnsmalware&quot;</span></code>, the flag is always
+set to false.</p>
+<div class="section" id="information">
+<h2>Information:<a class="headerlink" href="#information" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">name:</span></code> squelcher</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">lookup:</span></code> postgres</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public:</span></code> yes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cache</span> <span class="pre">(redis</span> <span class="pre">db):</span></code> -</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description:</span></code> Sets the <code class="docutils literal notranslate"><span class="pre">notify</span></code> field to true or false depending
+on past notifications</p></li>
+</ul>
+</div>
+<div class="section" id="configuration-parameters">
+<h2>Configuration Parameters:<a class="headerlink" href="#configuration-parameters" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">autocommit</span></code>: use transactions per statement (<code class="docutils literal notranslate"><span class="pre">true</span></code>) or per
+connection (<code class="docutils literal notranslate"><span class="pre">false</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">configuration_path</span></code>: path to the squelcher configuration file,
+e.g. <code class="docutils literal notranslate"><span class="pre">&quot;/opt/intelmq/etc/squelcher.conf&quot;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">database</span></code>: postgres database</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">host&quot;</span></code> postgres host</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">password</span></code>: postgres password</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">port</span></code>: postgres port (usually 5432)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sslmode</span></code>: e.g. <code class="docutils literal notranslate"><span class="pre">&quot;require&quot;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">table</span></code>: postgres table</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">user</span></code>: postgres user</p></li>
+</ul>
+<div class="section" id="configuration-syntax">
+<h3>Configuration syntax<a class="headerlink" href="#configuration-syntax" title="Permalink to this headline">¶</a></h3>
+<p>The file must by valid JSON and must contain a list with lists
+containing two dictionaries. The first is compared to the event and thus
+has the same layout. The second dictionary has only one field <code class="docutils literal notranslate"><span class="pre">&quot;ttl&quot;</span></code>
+with the TTL as value.</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;source.asn&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="nt">&quot;source.network&quot;</span><span class="p">:</span> <span class="s2">&quot;192.0.2.0/24&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;source.ip&quot;</span><span class="p">:</span> <span class="s2">&quot;192.0.2.1&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;classification.type&quot;</span><span class="p">:</span> <span class="s2">&quot;vulnerable service&quot;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nt">&quot;ttl&quot;</span><span class="p">:</span> <span class="mi">3600</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>The first dictionary must be a sub-set of the event -&gt; All given fields
+must exist in the event with the given values. The <code class="docutils literal notranslate"><span class="pre">source.network</span></code>
+field is checked separately with the IP in the event (if the
+<code class="docutils literal notranslate"><span class="pre">source.ip</span></code> is in the given network block). The same applies to the
+additional <code class="docutils literal notranslate"><span class="pre">source.iprange</span></code> field (holding a list of two items, the
+start and end IP address).</p>
+<p>More examples can be found in <code class="docutils literal notranslate"><span class="pre">intelmq/etc/squelcher.conf</span></code>.</p>
+</div>
+</div>
+<div class="section" id="database-index">
+<h2>Database index<a class="headerlink" href="#database-index" title="Permalink to this headline">¶</a></h2>
+<p>For a good performance, create this index:</p>
+<div class="highlight-sql notranslate"><div class="highlight"><pre><span></span><span class="k">create</span> <span class="k">index</span> <span class="n">idx_squelch</span> <span class="k">on</span> <span class="n">events</span><span class="p">(</span><span class="ss">&quot;source.ip&quot;</span><span class="p">,</span> <span class="ss">&quot;time.source&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/Logo_Intel_MQ.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=certtools&repo=intelmq&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrade.html">Upgrade instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration-management.html">Configuration and Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bots.html">Bots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelmqctl.html">intelmqctl documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feeds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ecosystem.html">IntelMQ Ecosystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ELK-Stack.html">ELK Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MISP-Integrations.html">MISP integrations in IntelMQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="n6-integrations.html">IntelMQ - n6 Integration</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intelmqcli.html"><code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>: Command Line Interface</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Squelcher</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/guide.html">Developers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/data-harmonization.html">Data Harmonization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/harmonization-fields.html">Harmonization field names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/release-procedure.html">Release procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/feeds-wishlist.html">Feeds whishlist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/IntelMQ-3.0-Architecture.html">Idea list and architecture of IntelMQ 3.0</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="intelmqcli.html" title="previous chapter"><code class="docutils literal notranslate"><span class="pre">intelmqcli</span></code>: Command Line Interface</a></li>
+      <li>Next: <a href="../dev/guide.html" title="next chapter">Developers Guide</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, cert.at.
+      
+      |
+      <a href="../_sources/user/squelcher.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

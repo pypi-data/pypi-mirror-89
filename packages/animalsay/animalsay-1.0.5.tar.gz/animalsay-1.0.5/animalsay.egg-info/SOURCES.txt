@@ -1,0 +1,13 @@
+README.md
+setup.py
+animalsay/__init__.py
+animalsay/__main__.py
+animalsay/utils.py
+animalsay.egg-info/PKG-INFO
+animalsay.egg-info/SOURCES.txt
+animalsay.egg-info/dependency_links.txt
+animalsay.egg-info/top_level.txt
+animalsay/farm/__init__.py
+animalsay/farm/animals.py
+animalsay/home/__init__.py
+animalsay/home/animals.py

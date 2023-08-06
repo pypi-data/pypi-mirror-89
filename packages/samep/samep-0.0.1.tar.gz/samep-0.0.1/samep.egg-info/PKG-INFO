@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: samep
+Version: 0.0.1
+Summary: samebotのplugin
+Home-page: https://github.com/furimu1234/same/tree/main/utils
+Author: furimu
+License: UNKNOWN
+Description: test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

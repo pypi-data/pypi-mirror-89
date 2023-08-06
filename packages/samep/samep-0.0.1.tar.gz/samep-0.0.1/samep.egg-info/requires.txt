@@ -1,0 +1,3 @@
+asyncpgw
+asyncpg
+discord.py

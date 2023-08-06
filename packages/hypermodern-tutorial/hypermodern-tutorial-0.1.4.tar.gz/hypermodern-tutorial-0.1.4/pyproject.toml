@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "hypermodern-tutorial"
+version = "0.1.4"
+description = "The hypermodern Python project - walking through tutorial"
+authors = ["mattyocode <matthewoliver@live.co.uk>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = ""
+keywords = ["hypermodern"]
+packages = [
+    { include = "hypermodern_python", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "~=2.24.0"
+importlib-metadata = {version = "^3.3.0", python = "<3.8"}
+typing-extensions = "^3.7.4"
+desert = "^2020.11.18"
+marshmallow = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+coverage = {extras = ["toml"], version = "^5.3.1"}
+pytest-cov = "^2.10.1"
+pytest-mock = "^3.4.0"
+flake8 = "^3.8.4"
+mypy = "^0.790"
+pytype = {version = "^2020.12.23", python = "3.7"}
+typeguard = "^2.10.0"
+flake8-annotations = "^2.4.1"
+flake8-docstrings = "^1.5.0"
+darglint = "^1.5.8"
+xdoctest = "^0.15.0"
+Sphinx = "^3.4.1"
+sphinx-autodoc-typehints = "^1.11.1"
+codecov = "^2.1.11"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["hypermodern_python"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 95
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hypermodern-tutorial = "hypermodern_python.console:main"

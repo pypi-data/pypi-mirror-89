@@ -1,0 +1,3 @@
+[console_scripts]
+uniclogs-ultra = ultra.__main__:main
+

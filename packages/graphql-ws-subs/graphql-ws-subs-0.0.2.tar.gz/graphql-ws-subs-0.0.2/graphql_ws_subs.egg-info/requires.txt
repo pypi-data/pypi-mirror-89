@@ -1,0 +1,35 @@
+graphql-core==2.*
+
+[dev]
+flake8<4,>=3.7
+tox<4,>=3
+Sphinx<2,>=1.8
+
+[maintainer]
+bumpversion>=0.5.3
+wheel>=0.33.6
+PyYAML<6,>=5.3
+
+[test]
+pytest-cov
+graphene<3,>=2.0
+gevent
+graphene>=2.0
+graphene_django
+
+[test:python_version < "3"]
+pytest<5,>=4
+mock
+django==1.11.*
+channels==1.*
+
+[test:python_version >= "3"]
+pytest>5
+django==2.*
+channels==2.*
+
+[test:python_version >= "3.4"]
+pytest-asyncio
+
+[test:python_version >= "3.5"]
+aiohttp

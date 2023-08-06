@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ansible-kobe-plugin
+Version: 0.0.6
+Summary: A plugin for ansible to connect kobe
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: kobe
+Platform: UNKNOWN
